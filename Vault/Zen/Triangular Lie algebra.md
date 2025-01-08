@@ -24,7 +24,7 @@ This may be viewed as a generalization of a [[Heisenberg algebra]].
 ## Properties
 
 - [[Triangular module]]
-- [[Contravariant form on a triangular Lie module]]
+- [[Contravariant form on a triangular module]]
 
 ## Examples
 

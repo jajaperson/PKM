@@ -26,7 +26,7 @@ This is a direct generalization of the [[Heisenberg module]] $M(k)$.
 
 ## Properties
 
-- [[Contravariant form on a triangular Lie module]]
+- [[Contravariant form on a triangular module]]
 
 #
 ---

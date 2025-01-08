@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[Triangular Lie algebra]]
-# Contravariant form on a triangular Lie module
+# Contravariant form on a triangular module
 
 Let $\mathfrak{g} = \mathfrak{n}^{-} \oplus \mathfrak{h} \oplus n^+$ be a [[triangular Lie algebra]] over $\mathbb{K}$ with an involutive [[antiautomorphism]] $\omega : \op{\mathfrak{g}}\to \mathfrak{g}$ so that
 $$

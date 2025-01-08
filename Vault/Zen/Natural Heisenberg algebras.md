@@ -83,7 +83,7 @@ d &\mapsto d \\
 h \otimes t^n &\mapsto h \otimes t^{-n} \qquad(h \in \mathfrak{h})
 \end{align*}
 $$
-there exists a unique [[Contravariant form on a triangular Lie module|contravariant form]]
+there exists a unique [[Contravariant form on a triangular module|contravariant form]]
 $$
 \begin{align*}
 b : S^\bullet(\hat{\mathfrak{h}}_{Z}^{-}) \times S^\bullet(\hat{\mathfrak{h}}_{Z}^{-}) \to \mathbb{K}
@@ -243,7 +243,7 @@ is a [[Graded module|graded]] [[Lie algebra representation|representation]] of t
 > 
 > We will compute $\gamma_{m,-m}$ using the application of of $[L(m), L(-m)]$ to a [[Vacuum space|vacuum vector]] of $M$, e.g. $v_{\alpha}$.
 > We note the following facts:
-> From [[#Triangular modules|above]] there is a unique [[Contravariant form on a triangular Lie module|contravariant form]] such that $(v_{\alpha}, v_{\alpha}) = 1$ and
+> From [[#Triangular modules|above]] there is a unique [[Contravariant form on a triangular module|contravariant form]] such that $(v_{\alpha}, v_{\alpha}) = 1$ and
 > $$
 > \begin{align*}
 > (h(n)v, w) &= (v, h(-n)w) \\
