@@ -1,0 +1,10 @@
+{
+  "findText": "r_{3}",
+  "replaceText": "z",
+  "useRegEx": false,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": true,
+  "processTab": false,
+  "prefillFind": false
+}

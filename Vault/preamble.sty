@@ -1,0 +1,168 @@
+% Basics
+\newcommand{\d}[1]{#1\!#1}
+\newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
+
+\newcommand\restr[2]{{% we make the whole thing an ordinary symbol
+  \left.\kern-\nulldelimiterspace % automatically resize the bar with \right
+  #1 % the function
+  \vphantom{\big|} % pretend it's a little taller at normal size
+  \right|_{#2} % this is the delimiter
+  }}
+\newcommand{\Rho}{\mathrm{P}}
+
+\DeclareMathOperator{\sgn}{sgn}
+\newcommand{\leftindex}[2]{{_{#1}{#2}}}
+\DeclareMathOperator{\lcm}{lcm}
+
+\newcommand{opn}[1]{\operatorname{#1}}
+
+% Category Theory
+\DeclareMathOperator{\ob}{Ob}
+\DeclareMathOperator{\Ob}{Ob}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\yo}{よ}
+\DeclareMathOperator{\colim}{colim}
+\newcommand{\cat}[1]{\textsf{#1}}
+\newcommand{\cop}[1]{\op{\cat{#1}}}
+\newcommand{\op}[1]{#1^{\textbf{op}}}
+\newcommand{\twoheadrightarrowtail}{⤖}
+
+
+%% Functors
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Iso}{Iso}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\End}{End}
+
+%% Categories
+\newcommand{\Set}{\cat{Set}}
+\newcommand{\Grp}{\cat{Grp}}
+\newcommand{\Grpd}{\cat{Grpd}}
+\newcommand{\Cat}{\cat{Cat}}
+\newcommand{\Ab}{\cat{Ab}}
+\newcommand{\Hask}{\cat{Hask}}
+\newcommand{\Vect}{\cat{Vect}}
+\newcommand{\Top}{\cat{Top}}
+\newcommand{\hTop}{\cat{hTop}}
+\newcommand{\Rep}{\cat{Rep}}
+\newcommand{\Nat}{\cat{Nat}}
+\newcommand{\Man}{\cat{Man}}
+\newcommand{\Cov}{\cat{Cov}}
+\newcommand{\Mod}{\cat{Mod}}
+\newcommand{\lMod}[1]{\leftindex{\mathnormal{#1}}{\mathsf{Mod}}}
+\newcommand{\rMod}[1]{\Mod_{#1}}
+\newcommand{\bMod}[2]{\leftindex{\mathnormal{#1}} {\mathsf{Mod}_\mathnormal{#2}}}
+\newcommand{\Ring}{\cat{Ring}}
+
+% Topology
+\DeclareMathOperator{\Int}{Int}
+\DeclareMathOperator{\Cl}{Cl}
+\DeclareMathOperator{\ex}{ex}
+
+% Linear Algebra
+\newcommand{\vab}[1]{\vec{\mathbf #1}}
+\newcommand{\unitv}[1]{\hat{\mathbf #1}}
+\newcommand{\norm}[1]{\left\lVert #1 \right\rVert}
+\newcommand{\tp}[1]{#1^\mathsf{T}}
+
+\DeclareMathOperator{\span}{span}
+\DeclareMathOperator{\colsp}{colsp}
+\DeclareMathOperator{\rowsp}{rowsp}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\nullity}{nullity}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\coker}{coker}
+
+
+\DeclareMathOperator{\Tr}{tr}
+\DeclareMathOperator{\Spec}{Spec}
+
+%% Representation and Lie theory
+\DeclareMathOperator{\Ad}{Ad}
+\DeclareMathOperator{\ad}{ad}
+\DeclareMathOperator{\Ind}{Ind}
+
+%% Vector shortcuts
+\newcommand{\vtwo}[2]{
+\begin{bmatrix}
+	#1 \\
+	#2
+\end{bmatrix}
+}
+\newcommand{\vthree}[3]{
+\begin{bmatrix}
+	#1 \\
+	#2 \\
+	#3
+\end{bmatrix}
+}
+
+% Group theory
+\DeclareMathOperator{\Inn}{Inn}
+\DeclareMathOperator{\Out}{Out}
+\DeclareMathOperator{\Cent}{Cent}
+
+% Ring theory
+\DeclareMathOperator{\Frac}{Frac}
+\DeclareMathOperator{\GF}{GF}
+
+% Calculus
+\newcommand{\jacob}{\mathbf{J}}
+% \newcommand{\Lagr}{\mathcal{L}}
+\DeclareMathOperator{\curl}{curl}
+\DeclareMathOperator{\div}{div}
+\DeclareMathOperator{\grad}{grad}
+
+\newcommand{\oiint}{{\subset\!\supset} \llap{\iint}}
+\newcommand{\oiiint}{{\Large{\subset\!\supset}} \llap{\iiint}}
+
+% Complex Analysis
+\DeclareMathOperator{\Res}{Res}
+
+% Naïve set theory
+\newcommand{\sube}{\subseteq}
+\newcommand{\subne}{\subsetneq}
+\newcommand{\0}{\varnothing}
+\DeclareMathOperator{\im}{im}
+
+% Probability
+\DeclareMathOperator{\Ex}{\mathbb{E}}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Covar}{Cov}
+\DeclareMathOperator{\Corr}{Corr}
+
+%% Distributions
+\DeclareMathOperator{\Bern}{Bern}
+\DeclareMathOperator{\Bin}{Bin}
+\DeclareMathOperator{\Un}{U}
+\DeclareMathOperator{\N}{N}
+\DeclareMathOperator{\Exp}{Exp}
+
+
+% Spaced Characters
+\newcommand{\sland}{\quad\land\quad}
+\newcommand{\slor}{\quad\or\quad}
+\newcommand{\smid}{\quad\mid\quad}
+\newcommand{\scol}{\;:\;}
+
+% Miscellaneous
+\DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\gset}{graph}
+\DeclareMathOperator{\wt}{wt}
+
+% Physics
+\newcommand{\Sr}{𝔯}
+\newcommand{\SR}{𝖗}
+\newcommand{\dj}{đ}
+
+% Geometry
+\newcommand{\I}{\mathbin{\mathrm{I}}}
+\newcommand{\notI}{\mathbin{\not{\mathrm{I}}}}
+
+% Set theory
+\DeclareMathOperator{\shood}{\mathfrak{M}}
+\DeclareMathOperator{\chood}{\mathfrak{Cls}}
+\newcommand{\pchood}{\neg \ehood}
+\DeclareMathOperator{\ehood}{\mathfrak{E}}
+\DeclareMathOperator{\rhood}{\mathfrak{Rel}}
+\DeclareMathOperator{\fhood}{\mathfrak{Fnc}}

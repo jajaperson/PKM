@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "8f67cf95f4546ddc",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4054ea674a3ffe5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Zen/Geometric series.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ada8ecf088ebb17c",
+    "type": "split",
+    "children": [
+      {
+        "id": "816721922d9dee32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "369a63b5ba23bc40",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3f2f89d68b600c53",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a2b814bfa7cf352c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7cd750e2510fe50c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a23868a9af859dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5da3ea8915cc4f02",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "e360d4a8fc902329",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Zen/Geometric series.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ee299513c0476035",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Zen/Geometric series.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a4ea39e67261b80",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7a52d9f27ee10712",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Zen/Geometric series.md"
+              }
+            }
+          },
+          {
+            "id": "44722a407444cd54",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d4054ea674a3ffe5",
+  "lastOpenFiles": [
+    "Zen/Infinite series.md",
+    "Zen/Probability theory MOC.md",
+    "Probability model.md",
+    "Zen/Table of Laplace transforms.md",
+    "Zen/Laplace transform.md",
+    "Zen/Magnetic field from a circular wire loop.md",
+    "Zen/Biot-Savart Law.md",
+    "Zen/Maxwell's Equations.md",
+    "Zen/Vector-valued product rule.md",
+    "Zen/Infinitesimal calculus MOC.md"
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "main": {
+    "id": "8f67cf95f4546ddc",
+    "type": "split",
+    "children": [
+      {
+        "id": "5bbcbbde9dda737b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c6d0a0454302a623",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zen/Natural Heisenberg algebras.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Natural Heisenberg algebras"
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ada8ecf088ebb17c",
+    "type": "split",
+    "children": [
+      {
+        "id": "816721922d9dee32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "369a63b5ba23bc40",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3f2f89d68b600c53",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:Zen  ",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d524ac1d4f91c90a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "7cd750e2510fe50c",
+    "type": "split",
+    "children": [
+      {
+        "id": "9a23868a9af859dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9a8d2dc57448696",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NBG.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of NBG"
+            }
+          },
+          {
+            "id": "33fbe096de0f9c27",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Timestamps/2024-W40.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2024-W40"
+            }
+          },
+          {
+            "id": "79b979448686f57b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Timestamps/2024-W40.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2024-W40"
+            }
+          },
+          {
+            "id": "031eafce8c5ca600",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Timestamps/2024-W40.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -0.6,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1.30182905067809,
+                  "collapse-forces": false,
+                  "centerStrength": 0.5302734375,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 111,
+                  "scale": 0.5736596079704215,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 2024-W40"
+            }
+          },
+          {
+            "id": "9a4ea39e67261b80",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3cbf6fc4fdca59ae",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "76a9238322e09ce1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "87c462f397650686",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "775bdb25465bfff3",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "periodic-notes:Open today": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "3f2f89d68b600c53",
+  "lastOpenFiles": [
+    "Zen/Japanese allophones.md",
+    "Zen/Japanese Phonology.md",
+    "Zen/Japanese MOC.md",
+    "Zen/Language MOC.md",
+    "Zen/Germanic Languages MOC.md",
+    "Zen/Old Icelandic MOC.md",
+    "Zen/OIcel morphology.md",
+    "Zen/OIcel declension.md",
+    "Zen/OIcel noun phrase examples.md",
+    "Zen/OIcel declension of adjectives.md",
+    "Zen/OIcel pronominal inflection.md",
+    "Zen/OIcel definite article.md",
+    "Zen/OIcel noun vocabulary.md",
+    "Zen/OIcel feminine root nouns.md",
+    "Zen/OIcel masculine root nouns.md",
+    "Zen/OIcel nd-stems.md",
+    "Zen/OIcel n-stems.md",
+    "Zen/OIcel u-stems.md",
+    "Zen/OIcel i-umlaut.md",
+    "Zen/OIcel r-stems.md",
+    "Zen/OIcel i-stems.md",
+    "Zen/OIcel ō-stems.md",
+    "Zen/OIcel ijō-stems.md",
+    "Zen/OIcel j-insertion.md",
+    "Zen/OIcel a-stems.md",
+    "Zen/OIcel v-insertion.md",
+    "preamble~.sty",
+    "Bins/Attachments/Yoneda embedding.png",
+    "Bin/Templates",
+    "Bin",
+    "Zen/Space.canvas",
+    "Bins/Scripts/Templater/musedata copy.js",
+    "Bins/Attachments/Gaußian pillbox.png",
+    "quiver.sty",
+    "Bins/Attachments/tangent space.png",
+    "Bins/Attachments/Pasted image 20240905150153.png",
+    "Bins/Attachments/real submanifold.png",
+    "Bins/Attachments/IMG_0414.png",
+    "copy_part.yaml",
+    "Lecture notes/PHYS2002",
+    "Bins/Attachments/ExampleLinearBasis_ManimCE_v0.18.1.gif",
+    "Bins/Attachments/ExampleLinear_ManimCE_v0.18.1.gif",
+    "Long",
+    "Bins/Attachments/FITS keywords.jpeg",
+    "Bins/Attachments/Pasted image 20240505162339.png",
+    "Lecture notes/PHYS3001",
+    "_Public"
+  ]
+}
