@@ -5,10 +5,11 @@ tags:
 [[Abstract algebra MOC]]
 # Isomorphism theorems
 
-The **isomorphism theorems** are a set of four theorems, most generally statable in the language of universal algebra: the [[congruence relation]] and [[Quotient algebra]].
+The **isomorphism theorems** are a set of four theorems, most generally statable in the language of universal algebra: the [[congruence relation]] and quotient.
 For particular examples, see
 
 - [[Group isomorphism theorems]]
+- [[Lie algebra isomorphism theorems]]
 
 ## First theorem
 

@@ -27,6 +27,8 @@ they are an interesting object in their own right.
 
 - [[Simple Lie algebra]]
 - [[Abelian Lie algebra]]
+- [[Solvable Lie algebra]]
+- [[Nilpotent Lie algebra]]
 - [[Heisenberg algebra]]
 - [[Triangular Lie algebra]]
 
@@ -35,9 +37,13 @@ they are an interesting object in their own right.
 - [[Witt algebra]]
 - [[Virasoro algebra]]
 
+### Subalgebras
+
+- [[Cartan subalgebra]]
+
 ## Morphisms
 
-- [[Lie algebra homomorphism]]
+- [[Lie algebra homomorphism]], [[Lie algebra isomorphism]], [[Lie algebra automorphism]]
 - [[Kernel of a Lie algebra homomorphism]]
 
 ## Internally

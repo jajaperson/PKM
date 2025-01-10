@@ -8,7 +8,7 @@ alias: finite field
 A **Galois field** is a field containing a finite number of elements. #m/def/ring
 The [[cardinality]] of a field is called its **order**,
 and finite fields **only exist** for orders of the form $p^h$ where $p$ is prime.
-The Galois field of order $p^h$, **unique** up to isomorphism, is denoted $\mathrm{GF}(p^h)$. #m/thm/ring
+The Galois field of order $p^h$, **unique** up to isomorphism, is denoted $\mathbb{K}_{p^h}$ or $\mathrm{GF}(p^h)$. #m/thm/ring
 
 > [!missing]- Proof
 > #missing/proof

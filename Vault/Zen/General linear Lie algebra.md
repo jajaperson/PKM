@@ -9,8 +9,15 @@ aliases:
 # General linear Lie algebra
 
 Let $\mathbb{K}$ be a field and $n \in \mathbb{N}$.
-The **general linear Lie algebra** $\opn{\mathfrak{gl}}_{n}\mathbb{K}$ is the [[Lie algebra]] realized by $n \times n$ matrices under their [[linear commutator]]. #m/def/lie 
-More generally, if $V$ is a [[vector space]] over $\mathbb{K}$ then $\opn{\mathfrak{gl}}V = \End_{\mathbb{K}} V$ is the [[commutator]] of the [[endomorphism ring]] $\End_{\mathbb{K}} V$.
+The **general linear Lie algebra** $\opn{\mathfrak{gl}}_{n}\mathbb{K}$ is the [[Lie algebra]] realized by $n \times n$ matrices under their [[linear commutator]].[^1972] #m/def/lie 
+More generally, if $V$ is a [[vector space]] over $\mathbb{K}$ then $\opn{\mathfrak{gl}}V = \End_{\mathbb{K}} V$ is the [[commutator]] of the [[endomorphism ring]] $\End_{\mathbb{K}} V$
+$$
+\begin{align*}
+[e_{ij} , e_{k\ell}] =\delta_{jk}e_{i\ell} - \delta_{li}e_{kj}
+\end{align*}
+$$
+
+  [^1972]: 1972\. [[Sources/@humphreysIntroductionLieAlgebras1972|Introduction to Lie Algebras and Representation Theory]], §1.2, p. 2
 
 ## Triangular decomposition
 
@@ -28,6 +35,8 @@ $$
 $$
 
 ## Subalgebras
+
+A [[Lie subalgebra|subalgebra]] of $\mathfrak{gl}_{n}\mathbb{K}$ is called a **linear Lie algebra**
 
 - [[Special linear Lie algebra]]
 

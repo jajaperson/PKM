@@ -8,10 +8,10 @@ tags:
 [[Away from 2]] every [[Quadratic form]] $Q(x)$ is associated with a symmetric [[Bilinear form]] $B(x,y)$ via polarization
 $$
 \begin{align*}
-B(x,y) = \frac{1}{2}( Q(x+y) - Q(x)-Q(y))
+B_{Q}(x,y) = \frac{1}{2}( Q(x+y) - Q(x)-Q(y))
 \end{align*}
 $$
-and vice versa by $Q(x) = B(x,x)$. #m/thm/general
+and vice versa by $Q(x) = B_{Q}(x,x)$. #m/thm/general
 
 > [!check]- Proof
 > Let $Q(x) = \tp x A x$ be a quadratic form and choose $A$ to be [[Types of square matrix|symmetric]].

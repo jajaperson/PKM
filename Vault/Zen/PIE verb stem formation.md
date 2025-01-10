@@ -26,7 +26,7 @@ often with very different meanings of cognate affixes.
 | _<span class="ling">-ske/a-</span>_                               | imperfective         | <em class="recon">-sḱé/ó</em>         | imperfective (thematic?)              |
 | _<span class="ling">-e-</span>_                                   | stative, fientive    | <em class="recon">-éh₁-</em>          | stative imperfective                  |
 | _<span class="ling">-ahh-</span>_                                 | factitive            | <em class="recon">-(a)h₂-</em>        | factitive imperfective                |
-| _<span class="ling">-āi</span>_ < <em class="recon">-ah₂-yé-</em> | denominative         | <em class="recon">-yé/ó-</em>         | [[denominative]] imperfective (thematic?) |
+| _<span class="ling">-āi</span>_ < <em class="recon">-ah₂-yé-</em> | denominative         | <em class="recon">-yé/ó-</em>         | [[Denominative]] imperfective (thematic?) |
 
 The first latter three remained derivational in Nuclear IE whereas the former three became inflectional.
 For further discussion see Ringe (2017), whence the above table.[^early]
@@ -95,7 +95,7 @@ Naturally thematic stems are always inflected. <!--SR:!2023-11-14,10,150-->
     - <em class="recon">kí-kḷ-h₁se/o-</em> ‘try to conceal’ ← <em class="recon">ḱel-</em> ‘hide’
   - basic verb + <em class="recon">-syé/ó</em> → desiderative %% fold %%
     - <em class="recon">bʰuH-syé/ó-</em> ‘want to become’ ← <em class="recon">bʰuH-</em> ‘become’ 
-  - unaccented nominal with e-grade ending + <em class="recon">-yé/ó-</em> → [[denominative]] %% fold %%
+  - unaccented nominal with e-grade ending + <em class="recon">-yé/ó-</em> → [[Denominative]] %% fold %%
     - <em class="recon">h₁regʷes-yé/ó-</em> ‘get dark’ ← <em class="recon">h₁régʷes-</em> ‘darkness’
     - <em class="recon">somHe-yé/ó-</em> ‘make (things) the same’ ← <em class="recon">somHó-</em> ‘same’
   - unaccented adjective with o-grade ending + <em class="recon">-yé/ó-</em> → factitive %% fold %%
