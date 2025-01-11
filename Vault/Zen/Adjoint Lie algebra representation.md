@@ -1,6 +1,10 @@
 ---
 tags:
   - public
+aliases:
+  - adjoint representation
+mathLink-blocks:
+  nilpotent: $\ad$-nilpotent
 ---
 [[Lie algebra representation]]
 # Adjoint Lie algebra representation
@@ -60,6 +64,10 @@ and [[away from 2]] these conditions are equivalent.
 > hence $[\ad_{X},\ad_{Y}] = \ad_{[X,Y]}$,
 > proving [[#^P3]].
 > <span class="QED"/>
+
+## Further terminology
+
+- We say $x \in \mathfrak{g}$ is **$\ad$-nilpotent** iff $\ad_{x}$ is nilpotent. ^nilpotent
 
 #
 ---

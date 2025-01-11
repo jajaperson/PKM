@@ -24,7 +24,7 @@ Note that at the very least $e \in \mathrm{Z}(G)$.[^gallian] #m/def/group #m/thm
 > Hence $Z(G)$ is a [[Normal subgroup]].
 > <span class="QED"/>
 
-A related notion is the [[Centralizer of a group element]].
+A related notion is the [[Centralizer in a group]].
 The centre is the intersection of all centralisers.
 
 ## Properties

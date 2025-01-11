@@ -13,12 +13,13 @@ $$
 $$
 terminates in the zero subalgebra, #m/def/lie 
 i.e. $\mathfrak{g}_{(n)} = 0$ for some $n \in \mathbb{N}$.[^1972]
+Clearly this is a special case of a [[Nilpotent Lie algebra]].
 
   [^1972]: 1972\. [[Sources/@humphreysIntroductionLieAlgebras1972|Introduction to Lie Algebras and Representation Theory]], §3,1, p. 10
 
 ## Properties
 
-1. If $\mathfrak{g}$ is solvable, then so to are all subalgebras and homomorphic images. ^P1
+1. If $\mathfrak{g}$ is solvable, then so too are all subalgebras and homomorphic images. ^P1
 2. If $\mathfrak{a} \trianglelefteq \mathfrak{g}$ is a solvable [[Lie algebra ideal|ideal]] such that the [[Quotient Lie algebra|quotient]] $\mathfrak{g}/\mathfrak{a}$ is solvable, then $\mathfrak{g}$ is solvable. ^P2
 3. If $\mathfrak{a},\mathfrak{b} \trianglelefteq \mathfrak{g}$ are solvable ideals, then so to is $\mathfrak{a} + \mathfrak{b}$. ^P3
 
@@ -28,7 +29,7 @@ i.e. $\mathfrak{g}_{(n)} = 0$ for some $n \in \mathbb{N}$.[^1972]
 > and given $\varphi(\mathfrak{g}_{(n)}) = \mathfrak{h}_{(n)}$
 > $$
 > \begin{align*}
-> \varphi(\mathfrak{g}_{(n+1)}) = \varphi([\mathfrak{g}_{(n)},\mathfrak{g}_{(n)}]) =[\varphi(\mathfrak{g}_{(n)}),\varphi(\mathfrak{h}_{(n)})] = [\mathfrak{h}_{(n)}, \mathfrak{h}_{(n)}] = \mathfrak{h}_{(n+1)}
+> \varphi(\mathfrak{g}_{(n+1)}) = \varphi([\mathfrak{g}_{(n)},\mathfrak{g}_{(n)}]) =[\varphi(\mathfrak{g}_{(n)}),\varphi(\mathfrak{g}_{(n)})] = [\mathfrak{h}_{(n)}, \mathfrak{h}_{(n)}] = \mathfrak{h}_{(n+1)}
 > \end{align*}
 > $$
 > proving [[#^P1]] by induction.
@@ -49,7 +50,7 @@ i.e. $\mathfrak{g}_{(n)} = 0$ for some $n \in \mathbb{N}$.[^1972]
 
 ## See also
 
-- [[Nilpotent Lie algebra]]
+- [[Radical of a Lie algebra]]
 
 #
 ---

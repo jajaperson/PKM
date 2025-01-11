@@ -33,7 +33,7 @@ alias:
 
 - [[Abelian group]]
 - [[Centre of a group]]
-- [[Centralizer of a group element]], [[Centralizer of a subgroup]]
+- [[Centralizer in a group]]
 - [[Group commutator]]
 
 

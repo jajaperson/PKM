@@ -64,7 +64,7 @@ then $H$ is a subgroup of $G$. #m/thm/group
 ## Examples of subgroups
 - For any element $a \in G$ we can generate a [[Cyclic subgroup]] $\langle a \rangle = \{ \dots, a^{-2}, a^{-1}, e, a, a^2, \dots \}$.
 - The [[Centre of a group]] is a subgroup containing elements that commute with all elements.
-- Similarly the [[Centralizer of a group element]] is a subgroup containing elements that commute with a given element.
+- Similarly the [[Centralizer in a group]] is a subgroup containing elements that commute with a given element.
 - [[Torsion subgroup of an abelian group]]
 - [[Lagrange's Theorem|The order of a subgroup divides the order of a group]]
 

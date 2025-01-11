@@ -12,7 +12,7 @@ $$
 \chi^\mu(g) = \abs{C(g)} \sum_{h \in [g]_{\sim}} \overline{e_{\mu\alpha}(h)}
 \end{align*}
 $$
-where $[g]_{\sim}$ denotes the [[Conjugation by an element|conjugacy class]] of $g$ and $C(g)$ its [[Centralizer of a group element|centraliser group]] with $|C(g)|$ equal to the size of the group divided by the size of the conjugacy class.
+where $[g]_{\sim}$ denotes the [[Conjugation by an element|conjugacy class]] of $g$ and $C(g)$ its [[Centralizer in a group|centraliser group]] with $|C(g)|$ equal to the size of the group divided by the size of the conjugacy class.
 
 > [!check]- Proof
 > Using the [[Group ring#Hilbert space|inner product]] and [[Group ring|convolution]] on $\mathbb{C}[G]$ 

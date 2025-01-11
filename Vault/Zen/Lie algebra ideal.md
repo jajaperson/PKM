@@ -33,6 +33,7 @@ Let $\mathfrak{a},\mathfrak{b} \trianglelefteq \mathfrak{g}$ be ideals. Then
 - [[Centre of a Lie algebra]]
 - [[Kernel of a Lie algebra homomorphism]]
 - [[Central ideal]]
+- [[Radical of a Lie algebra]]
 
 ## See also
 

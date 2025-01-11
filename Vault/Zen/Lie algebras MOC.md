@@ -49,7 +49,11 @@ they are an interesting object in their own right.
 ## Internally
 
 - [[Lie algebra ideal]]
+- [[Centralizer in a Lie algebra]]
+- [[Normalizer in a Lie algebra]]
 - [[Centre of a Lie algebra]]
+- [[Centre of a Lie algebra]]
+- [[Radical of a Lie algebra]]
 
 
 ## Externally

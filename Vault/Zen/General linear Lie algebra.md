@@ -4,6 +4,9 @@ tags:
   - public
 aliases:
   - $\opn{\mathfrak{gl}}V$
+mathLink-blocks:
+  subalgebra: linear Lie algebra
+  P1: Nilpotent transformations have nilpotent adjoint representations
 ---
 [[Lie algebras MOC]]
 # General linear Lie algebra
@@ -18,6 +21,18 @@ $$
 $$
 
   [^1972]: 1972\. [[Sources/@humphreysIntroductionLieAlgebras1972|Introduction to Lie Algebras and Representation Theory]], §1.2, p. 2
+
+## Properties
+
+1. If $x \in \End V = \mathfrak{gl}(V)$ is nilpotent, then $\ad_{x} \in \mathcal{D}(\mathfrak{gl}(V))$ is nilpotent.^[1972\. [[Sources/@humphreysIntroductionLieAlgebras1972|Introduction to Lie Algebras and Representation Theory]], §3.2, p. 12] ^P1
+
+> [!check]- Proof
+> Consider the left- and right-regular representations of the [[unital associative algebra]] $\End V$,
+> which we label $\Lambda$ and $\Rho$ respectively.
+> If $x \in \End V$ is nilpotent, so too are $\Lambda(x)$ and $\Rho(x)$,
+> whence $\ad_{x} = \Lambda(x) - \Rho(x)$ is nilpotent. <span class="QED"/>
+
+
 
 ## Triangular decomposition
 
@@ -36,9 +51,10 @@ $$
 
 ## Subalgebras
 
-A [[Lie subalgebra|subalgebra]] of $\mathfrak{gl}_{n}\mathbb{K}$ is called a **linear Lie algebra**
+A [[Lie subalgebra|subalgebra]] of $\mathfrak{gl}_{n}\mathbb{K}$ is called a **linear Lie algebra** ^subalgebra
 
 - [[Special linear Lie algebra]]
+- [[Lie algebra of nilpotent endomorphisms]]
 
 #
 ---

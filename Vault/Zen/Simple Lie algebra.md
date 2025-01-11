@@ -12,4 +12,4 @@ A [[Lie algebra]] $\mathfrak{g}$ is said to be **simple** iff it is non-[[Abelia
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr
