@@ -25,7 +25,7 @@ This extra property can be proven by the fact that _any_ linear combination of t
 
 
 Bézout's lemma can be used to prove [[Euclid's lemma]].
-The integers $s,t$ can be found by [[Extended euclidean algorithm]]
+The integers $s,t$ can be found by [[Extended Euclid's algorithm]]
 
 ## For relative primes
 A corollary of Bézout's lemma is that if $a$ and $b$ are relatively prime 

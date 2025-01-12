@@ -5,7 +5,7 @@ tags:
 [[Galois geometry]]
 # Number of subspaces of a Galois geometry
 
-The [[Galois geometry]] $\mathrm{PG}(n,q)$ contains ${n \choose d}_{q}$ subspaces of dimension $d-1$, #m/thm/geo/fin 
+The [[Galois geometry]] $\mathrm{PG}(n,q)$ contains ${n - 1 \choose d - 1}_{q}$ subspaces of dimension $d$, #m/thm/geo/fin 
 where
 $$
 \begin{align*}

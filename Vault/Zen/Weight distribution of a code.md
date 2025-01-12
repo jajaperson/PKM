@@ -3,13 +3,13 @@ tags:
   - public
 ---
 [[Coding theory MOC]]
-# Weight distribution of a binary code
+# Weight distribution
 
-Let $\mathcal{C} \sube \mathcal{P}(\Omega_{n})$ be a (not necessarily linear) binary code of length $n$.
+Let $\mathcal{C} \sube S_{q}^n$ be a $q$-ary [[code]] of length $n$.
 Then the **weight distribution** is of $\mathcal{C}$ is defined by[^1988] #m/def/code
 $$
 \begin{align*}
-\wt(\mathcal{C}) = \sum_{C \in \mathcal{C}} q^{\abs C} \in \mathbb{Z}[q]
+\wt(\mathcal{C}) = \sum_{c \in \mathcal{C}} q^{\wt C} \in \mathbb{Z}[q]
 \end{align*}
 $$
 

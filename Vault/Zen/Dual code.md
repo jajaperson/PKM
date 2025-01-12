@@ -5,31 +5,29 @@ tags:
 [[Linear code]]
 # Dual linear code
 
-Let $\mathcal{C} \leq \GF(q)^n$ be a [[Linear code]].
-The **dual code** $\mathcal{C}^\perp \leq \opn{GF}(q)^n$ is then its [[Orthogonal complement polarity|orthogonal complement]] #m/def/code
+Let $\mathcal{C} \leq \mathbb{K}_{q}^n$ be a [[Linear code|$[n,k]$-code]].
+The **dual code** $\mathcal{C}^\perp \leq \mathbb{K}_{q}^n$ is then a $[n, n-k]$-code given by its [[Orthogonal complement polarity|orthogonal complement]] #m/def/code
 $$
 \begin{align*}
 \mathcal{C}^\perp = \{ S \in \GF(q)^n : \tp{\mathcal C}S = 0 \}
 \end{align*}
 $$
-whence
-$$
-\begin{align*}
-\dim_{\GF(q)} \mathcal{C}^\perp = n - \dim_{\GF(q)} \mathcal{C}
-\end{align*}
-$$
-A code is said to be **self-dual** iff
-$$
-\begin{align*}
-\mathcal{C} = \mathcal{C}^\perp
-\end{align*}
-$$
-whence
-$$
-\begin{align*}
-\dim_{\GF(q)} \mathcal{C} = \frac{n}{2}
-\end{align*}
-$$
+For a $[n, n / 2]$-code it is possible to be **self-dual**, i.e. $\mathcal{C} = \mathcal{C}^\perp$.[^1999]
+
+## Properties
+
+1. If $G = [\mathbb{1}_{k} \mid P]$ [[Linear code#^generator|generates]] $\mathcal{C}$, then $H = [-\tp P \mid \mathbb{1}_{n-k}]$ generates $\mathcal{C}^\perp$, and is the [[Linear code#^check]] for $\mathcal{C}$.
+
+> [!check]- Proof
+> Note $G\tp H = 0$ and $H$ has correct size and rank, thus
+> $$
+> \begin{align*}
+> x \in \mathcal{C} \iff x \tp H = \vab 0
+> \end{align*}
+> $$
+> as required. <span class="QED"/>
+
+  [^1999]: 1999\. [[Sources/@vanlintIntroductionCodingTheory1999|Introduction to coding theory]], §3.2, p. 36
 
 #
 ---

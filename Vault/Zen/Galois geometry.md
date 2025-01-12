@@ -5,11 +5,11 @@ tags:
 [[Finite geometry MOC]]
 # Galois geometry
 
-The **Galois geometry** $\mathrm{PG}(n,q)$ is an $n$-dimensional [[Finite projective space]] given by the [[projectivization]] of a $(n+1)$-dimensional vector space over the [[Galois field]] of order $q$, #m/def/geo 
+The **Galois geometry** $\opn{PG}(n,q)$ is an $n$-dimensional [[finite projective space]] given by the [[projectivization]] of a $(n+1)$-dimensional vector space over the [[Galois field]] of order $q$, #m/def/geo 
 i.e.
 $$
 \begin{align*}
-\mathrm{PG}(n,q) = \mathrm{P}(\mathrm{GF}(q)^{n+1})
+\opn{PG}(n,q) = \opn{P}(\opn{GF}(q)^{n+1})
 \end{align*}
 $$
 All finite projective spaces of dimension $n\geq 3$ are isomorphic to a Galois geometry.[^2020]
