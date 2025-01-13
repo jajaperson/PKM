@@ -14,13 +14,12 @@ mathLink-blocks:
 A $q$-ary **linear code** of length $n$ and dimension $k$ is a $k$-[[Dimension of a vector space|dimensional]] [[vector subspace]] $\mathcal{C} \leq \mathbb{K}_{q}^n$, #m/def/code
 where $\mathbb{K}_{q}$ is the [[Galois field]] of order $q$.
 Thus it is a particular kind of [[code]] of length $n$ in the alphabet $\mathbb{K}_{q}$.
-Following [[@vanlintIntroductionCodingTheory1999|van Lint]], a $k$-dimensional linear code of length $n$ and [[code#^minimumDistance]] $d$ is called an **$[n,k,d]$-code**, where the $d$ is optional.[^1999]
+Following [[@vanlintIntroductionCodingTheory1999|van Lint]], a $k$-dimensional linear code of length $n$ and [[code#^minimumDistance]] $d$ is called an **$[n,k,d]$ code**, where the $d$ is optional.[^1999]
 Of particular interest are [[Binary linear code|binary linear codes]].
 
 ## Further notions
 
 - A code is **degenerate** iff some digit is zero for all codewords.
-- Two codes are said to be **isomorphic** if they are related by permutations of digits/positions. ^isomorphism
 - $\mathbb{K}_{q}^n$ is equipped with a natural [[Bilinear form#^nondegenerate]] [[Bilinear form#^symmetric]] [[bilinear form]]
   $$
   \begin{align*}
@@ -35,6 +34,7 @@ Of particular interest are [[Binary linear code|binary linear codes]].
 - The value of $\opn{syn} x = x \tp H$ is called the **syndrome** of $x$. Syndromes uniquely label **cosets** $K_{\opn{syn}x} \in\mathbb{K}_{q}^n / \mathcal{C}$ in the [[Quotient vector space|quotient]]. ^syndrome
 - In a given coset $K_{\opn{syn}x} \in \mathbb{K}_{q}^n / \mathcal{C}$ a minimum weight string $l_{\opn{syn} x} \in K_{\opn{syn} x}$ is called a **coset leader**, and the correction of a string $x$ is $x - l_{\opn{syn}x}$. 
   Thus a [[perfect code]] has unique coset leaders. ^leader
+- [[Linear equivalence of codes]]
 
   [^1999]: 1999\. [[Sources/@vanlintIntroductionCodingTheory1999|Introduction to coding theory]], §3.2, pp. 35–36
 

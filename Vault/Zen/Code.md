@@ -6,6 +6,7 @@ mathLink-blocks:
   minimumWeight: minimum weight
   rate: information rate
   coveringRadius: covering radius
+  weight: weight
 ---
 [[Coding theory MOC]]
 # Code
@@ -16,10 +17,9 @@ where $S_{q}$ is a set (called an **alphabet**) containing $q$ letters.[^1999] #
 - An element $x \in \mathcal{C}$ is thence called a **codeword**.
 - The [[Hamming distance]] $d(x,y)$ between codewords $x,y \in C$ is the number of positions in which they differ, and makes $S_{q}$ a [[metric space]].
 - The **weight** of a code is the distance from the zero-codeword $\wt x = d(\vab 0, x)$,
-  where $\vab 0$ consists of some distinguished letter $0 \in S$.
+  where $\vab 0$ consists of some distinguished letter $0 \in S$. ^weight
 
 Following [[@vanlintIntroductionCodingTheory1999|van Lint]], a code if length $n$ with $M$ codewords and [[#^minimumDistance]] $d$ is called an **$(n,M,d)$-code**.
-
 An important special case is a [[linear code]], where we take $S_{q} = \mathbb{K}_{q}$, the [[Galois field]] of order $q$, and require $\mathcal{C} \leq \mathbb{K}_{q}^n$ to be a [[vector subspace]].
 
 
@@ -53,7 +53,7 @@ $$
   \end{align*}
   $$
   ^coveringRadius
-
+- [[Equivalence of codes]]
 
 ## Special kinds of code
 

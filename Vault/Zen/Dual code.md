@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - self-dual
 ---
 [[Linear code]]
 # Dual linear code
