@@ -24,7 +24,7 @@ Then $\mathfrak{g}$ is the **internal semidirect product** $\mathfrak{a} \rtimes
 
 ## External semidirect product
 Let $\mathfrak{a}$ be a Lie algebra and let $\mathfrak{b}$ be a Lie algebra [[Lie algebra representation|acting]] on $\mathfrak{a}$ by [[Derivation on an algebra|derivations]],
-i.e. equipped with a [[Lie algebra homomorphism]] $\pi : \mathfrak{b} \to \mathcal{D}(\mathfrak{a})$ into the [[Derivation subalgebra]] $\mathcal{D}(\mathfrak{a})  \leq \End \mathfrak{a}$,
+i.e. equipped with a [[Lie algebra homomorphism]] $\pi : \mathfrak{b} \to \der(\mathfrak{a})$ into the [[Derivation subalgebra]] $\der(\mathfrak{a})  \leq \End \mathfrak{a}$,
 so that $\pi(x)$ is a derivation of $\mathfrak{a}$ for every $x \in \mathfrak{b}$.
 Then the **external semidirect product** $\mathfrak{a} \rtimes \mathfrak{b}$ is the unique [[Lie algebra|Lie bracket]] on the [[Direct sum of vector spaces|sum vector space]] $\mathfrak{a} \oplus \mathfrak{b}$
 such that $\mathfrak{a}$ and $\mathfrak{b}$ are [[Lie subalgebra|subalgebras]] and #m/def/lie 

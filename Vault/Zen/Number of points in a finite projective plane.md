@@ -1,6 +1,6 @@
 ---
 aliases:
-  - Projective order
+  - projective order
 tags:
   - public
 ---

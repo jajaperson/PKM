@@ -10,6 +10,8 @@ consisting of a triple $(\mathcal{P},\mathcal{E},I)$ where the set of points $\m
 
 [^2020]: 2020, [[@kissFiniteGeometries2020|Finite geometries]], p. 1
 
+- [[Steiner system]]
+
 #
 ---
 #state/develop | #lang/en | #SemBr

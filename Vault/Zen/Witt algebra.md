@@ -6,7 +6,7 @@ tags:
 # Witt algebra
 
 Let $\mathbb{K}[t,t^{-1}]$ denote the [[algebra of Laurent polynomials]] over a field $\mathbb{K}$.
-The **Witt algebra** $\mathfrak{d}= \mathcal{D}(\mathbb{K}[t,t^{-1}])$ over $\mathbb{K}$ is the [[derivation subalgebra]] of the [[Lie algebra]] $\End_{\mathbb{K}} \mathbb{K}[t,t^{-1}]$. #m/def/lie
+The **Witt algebra** $\mathfrak{d}= \der(\mathbb{K}[t,t^{-1}])$ over $\mathbb{K}$ is the [[derivation subalgebra]] of the [[Lie algebra]] $\End_{\mathbb{K}} \mathbb{K}[t,t^{-1}]$. #m/def/lie
 It is equivalently characterized as follows:[^1988]
 For each $p(t) \in \mathbb{K}[t,t^{-1}]$, define the derivation
 $$

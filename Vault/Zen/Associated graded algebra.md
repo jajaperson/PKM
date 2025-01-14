@@ -15,7 +15,6 @@ $$
 $$
 for $x \in F_{i+1}A$ and $y \in F_{j+1}A$.
 
-
 #
 ---
 #state/develop  | #lang/en | #SemBr

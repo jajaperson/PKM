@@ -1,17 +1,19 @@
 ---
 tags:
   - public
+aliases:
+  - $\der(\mathfrak g)$
 ---
 [[Algebra theory MOC]]
 # Derivation subalgebra
 
-Let $\mathcal{D}(A)$ be the set of all [[Derivation on an algebra|derivations]] of an [[Algebra over a field|algebra]] $(V, B)$ over $\mathbb{K}$, i.e.
+Let $\der(A)$ be the set of all [[Derivation on an algebra|derivations]] of an [[Algebra over a field|algebra]] $(V, B)$ over $\mathbb{K}$, i.e.
 $$
 \begin{align*}
-\mathcal{D}(A) = \{ D \in \End_{\mathbb{K}} V : (\forall a,b \in A)[D B(a,b) = B(D(a),b) + B(a,D(b))] \}
+\der(A) = \{ D \in \End_{\mathbb{K}} V : (\forall a,b \in A)[D B(a,b) = B(D(a),b) + B(a,D(b))] \}
 \end{align*}
 $$
-Then $\mathcal{D}$ is a [[Lie subalgebra]] of the [[commutator]] algebra of the [[endomorphism ring]], #m/thm/falg 
+Then $\der(A)$ is a [[Lie subalgebra]] of the [[commutator]] algebra of the [[endomorphism ring]], #m/thm/falg 
 i.e. the commutator of two derivations is itself a derivation. 
 
 > [!check]- Proof

@@ -31,6 +31,15 @@ The symmetric algebra $\mathbb{N}_{0}$-[[Graded algebra|graded]], since $S^i V \
 If $V$ is itself a $\mathfrak{A}$-[[graded vector space]] for some abelian [[monoid]] $\mathfrak{A}$,
 then $S^\bullet V$ possesses an additional unique gradation extending that of $V$ so that $V_{\alpha} \cdot V_{\beta} \leq (S^\bullet V)_{\alpha+\beta}$.
 
+## Relation to antisymmetric tensors
+
+As a vector space, ${\textstyle\bigwedge}^k V$ may be identified (by linear isomorphism) with the subspace of [[Tensor algebra|$T^k V$]] consisting of [[Antisymmetric tensor|antisymmetric tensors]], where the wedge product becomes
+$$
+\begin{align*}
+\bigwedge_{i=1}^k v_{k} = \frac{1}{k!} \sum_{\sigma \in S_{k}} \sgn(\sigma) \bigotimes_{j=1}^k v_{\sigma(j)}
+\end{align*}
+$$
+
 
 #
 ---

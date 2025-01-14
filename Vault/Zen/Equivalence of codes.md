@@ -15,7 +15,7 @@ i.e. $\varphi$ is a bijection in the following commutative diagram in $\Set$:
 When codes (and their alphabets) are given additional algebraic structure, we usually require a kind of equivalence which respects this structure. 
 Examples include
 
-- [[Linear equivalence of codes]]
+- [[Linear equivalence of codes]], which is not strictly equivalence as $\alpha$ may vary in each digit
 
 #
 ---

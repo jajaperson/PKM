@@ -19,6 +19,10 @@ Equivalently, [[Linear code#^generator|generator matrices]] $G, G'$ of $\mathcal
 
 - [[MacWilliams theorem]]
 
+## See also
+
+- [[Automorphism group of a linear code]]
+
 #
 ---
 #state/tidy | #lang/en | #SemBr
