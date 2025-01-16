@@ -1,7 +1,7 @@
 ---
 aliases:
   - even code
-  - doubly even code
+  - doubly-even code
 tags:
   - public
 ---
@@ -13,7 +13,7 @@ i.e. $\wt \vab c \in m\mathbb{Z}$ for all $\vab c \in \mathcal{C}$.
 In particular,
 
 - a $2$-divisible code is called an **even code**;
-- a $4$-divisible code is called a **doubly even code**.
+- a $4$-divisible code is called a **doubly-even code**.
 
 ## Properties
 

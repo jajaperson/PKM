@@ -12,7 +12,7 @@ A **lattice** $L$ of a [[Locally compact space|locally compact]] [[Hausdorff spa
 ## Special case
 
 The above definition generalizes and is motivated by the case where $G = \mathbb{R}^n$.
-A **lattice** $L$ of $\mathbb{R}^n$ is a [[Discrete subgroup]] of $\mathbb{R}^n$ whose [[span]] is $\mathbb{R}^n$.
+A **lattice** $L$ of $\mathbb{R}^n$ is a [[discrete subgroup]] of $\mathbb{R}^n$ whose [[span]] is $\mathbb{R}^n$.
 
 > [!missing]- Proof
 > #missing/proof

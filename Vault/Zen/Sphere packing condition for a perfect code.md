@@ -23,6 +23,9 @@ $$
 > Hence, for a code to be perfect,
 > the closed balls of radius $e$ must partition $S_{q}^n$, giving the expression above. <span class="QED"/>
 
+This can be interpreted as
+
+> The first $e+1$ terms of a row in [[Pascal's triangle]] sum to a power of $q$.
 
 #
 ---

@@ -10,7 +10,7 @@ Thus a **binary [[linear code]]** $\mathcal{C}$ is a $\opn{GF}(2)$-[[Vector subs
 Indeed, the main advantage of this notation is that it allows the importing of notations from set theory.
 
 - [[FLM code types I and II]]
-- [[Dual code]]
+- [[Orthogonal code]]
 
   [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §10.1, p. 299
 

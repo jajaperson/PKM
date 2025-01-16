@@ -5,7 +5,7 @@ tags:
 [[Coding theory MOC]]
 # Hamming code
 
-The $q$-ary $[n, n-k]$ **Hamming code** $\mathcal{C} \leq \mathbb{K}_{q}^n$ is the (unique up to [[Linear equivalence of codes|linear equivalence]]) whose $[n,k]$ [[dual code]] has a maximal [[Projective system of a linear code|projective system]].[^1999] #m/def/code
+The $q$-ary $[n, n-k]$ **Hamming code** $\mathcal{C} \leq \mathbb{K}_{q}^n$ is the (unique up to [[Linear equivalence of codes|linear equivalence]]) whose $[n,k]$ [[Orthogonal code]] has a maximal [[Projective system of a linear code|projective system]].[^1999] #m/def/code
 It follows that
 $$
 \begin{align*}
@@ -36,7 +36,7 @@ Sometimes, the [[extended code]] of a Hamming code is also referred to as a Hamm
 
 ## Construction
 
-From the characterization above, it follows that a [[Linear code#^check]] of the $q$-ary $[n,n-k]$ Hamming code may be constructed by enumerating [[homogenous coördinates]] for all $n$ points in $\opn{PG}(k-1,q)$ 
+From the characterization above, it follows that a [[Linear code#^check]] of the $q$-ary $[n,n-k]$ Hamming code may be constructed by enumerating [[homogenous coördinates]] for all $n$ points in [[Galois geometry|$\opn{PG}(k-1,q)$]],
 and collecting these as columns for the check matrix.
 
 ## Special cases

@@ -2,19 +2,21 @@
 tags:
   - public
 aliases:
-  - self-dual
+  - self-orthogonal
 ---
 [[Linear code]]
-# Dual linear code
+# Orthogonal linear code
 
 Let $\mathcal{C} \leq \mathbb{K}_{q}^n$ be a [[Linear code|$[n,k]$-code]].
-The **dual code** $\mathcal{C}^\perp \leq \mathbb{K}_{q}^n$ is then a $[n, n-k]$-code given by its [[Orthogonal complement polarity|orthogonal complement]] #m/def/code
+The **orthogonal code**[^dual] $\mathcal{C}^\perp \leq \mathbb{K}_{q}^n$ is then a $[n, n-k]$-code given by its [[Orthogonal complement polarity|orthogonal complement]] #m/def/code
 $$
 \begin{align*}
 \mathcal{C}^\perp = \{ S \in \mathbb{K}_{q}^n : \tp{\mathcal C}S = 0 \}
 \end{align*}
 $$
-For a $[n, n / 2]$-code it is possible to be **self-dual**, i.e. $\mathcal{C} = \mathcal{C}^\perp$.[^1999]
+For a $[n, n / 2]$-code it is possible to be **orthogonal-dual**, i.e. $\mathcal{C} = \mathcal{C}^\perp$.[^1999]
+
+  [^dual]: The more popular terminology is **dual code**, but this is confusing.
 
 ## Properties
 

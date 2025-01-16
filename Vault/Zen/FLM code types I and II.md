@@ -22,6 +22,11 @@ and **type II** iff
 
 It follows that such codes are subcodes of the [[even binary code]].
 
+## Properties
+
+1. Let $n \in 4\mathbb{Z}$. Then $\mathcal{C}$ is self-orthogonal code of type II iff $\mathcal{C} / \mathbb{K}_{2}\Omega$ is a (maximal) [[Quadratic space#^totallyIsotropic]] subspace of $\mathcal{E}(\Omega) / \mathbb{K}_{2}\Omega$ of dimension $n / 2 - 1$;
+   equivalently $\mathcal{C}$ is a (maximal) totally isotropic subspace of $\mathcal{E}(\Omega)$ of dimension $n / 2$.
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

@@ -5,7 +5,7 @@ tags:
 [[Weight enumerator]]
 # MacWilliams identities
 
-Let $\mathcal{C} \leq \mathbb{K}_{q}^n$ be a [[Linear code|$[n,k]$ code]] and $\mathcal{C}^\perp$ be its $[n, n-k]$ [[dual code]].
+Let $\mathcal{C} \leq \mathbb{K}_{q}^n$ be a [[Linear code|$[n,k]$ code]] and $\mathcal{C}^\perp$ be its $[n, n-k]$ [[Orthogonal code]].
 Let $A(z) = \wt(\mathcal{C}; z)$ and $B(z) = \wt(\mathcal{C}^\perp; z)$ be their respective [[Weight enumerator|weight enumerators]]. Then[^1999] #m/thm/code 
 $$
 \begin{align*}

@@ -9,7 +9,12 @@ An $\opn S(t,k,n)$ **Steiner system** is a set $\Omega$ of $n$ points, together 
 Excluding trivial systems, $1 < t < k < n$.
 
 - A [[finite projective plane]] of [[Number of points in a finite projective plane|order]] $q$ is an $\opn S(2,q+1,q^2+q+1)$. 
-  In particular the [[Fano plane]] is the unique $\opn S(2,3,7)$ Steiner system.
+  In particular the [[Fano plane]] is the unique [[Fano plane|$\opn S(2,3,7)$]] Steiner system.
+
+## Special Steiner systems
+
+- [[Fano plane|$\opn S(2,3,7)$]]
+- [[S(5,8,24)]]
 
 #
 ---

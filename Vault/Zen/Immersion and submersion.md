@@ -13,7 +13,7 @@ aliases:
   - local immersion theorem
 ---
 [[Differential geometry MOC]]
-# Immersion amd submersion
+# Immersion and submersion
 
 A $C^k$ [[Differentiability|differentiable]] function $f : X \to Y$ between $C^k$ [[Differentiable manifold|differentiable manifolds]] $X,Y$ of dimensions $n,m$ respectively 
 is **(im/sub)mersive** at $x \in X$ iff the [[Differential pushforward]] $T_{x}f : T_{x}X \to T_{f(x)}Y$ at $x$ is a linear ([[linear monomorphism|mono]]/[[Linear epimorphism|epi]])morphism.
