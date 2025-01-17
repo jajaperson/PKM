@@ -70,7 +70,8 @@ i.e. of [[FLM code types I and II|FLM type II]].
 ## Properties
 
 1. $\mathcal{C}$ is of [[FLM code types I and II|FLM type II]].
-2. $\mathcal{C}$ has [[weight enumerator]] $1 + 759q^8 + 2576q^{12} + 759q^{16} + q^{24}$.
+2. $\mathcal{ C}$ is a [[Quasi-perfect code|quasi-perfect 3 error correcting code]].
+3. $\mathcal{C}$ has [[weight enumerator]] $1 + 759q^8 + 2576q^{12} + 759q^{16} + q^{24}$.
 
 ### Automorphisms
 

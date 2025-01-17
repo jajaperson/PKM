@@ -131,6 +131,11 @@ d &\mapsto d
 \end{align*}
 $$
 
+## Particular affine Lie algebras and related constructions
+
+- [[Natural Heisenberg algebras]]
+- [[Affine Lie algebras of sl_2]]
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

@@ -46,10 +46,10 @@ $$
   \end{align*}
   $$
   ^rate
-- The **covering radius** of a a code $\mathcal{C} \sube S_{q}^n$ is
+- The **covering radius** of a a code $\mathcal{C} \sube S_{q}^n$ is the minimum radius required for Hamming balls around codewords to cover the whole space, i.e.
   $$
   \begin{align*}
-  \max \{ \min \{ d(c,x): c \in \mathcal{C} \}: x \in S_{q}^n \}
+  \opn{cov}(\mathcal{C} ) = \max \{ \min \{ d(c,x): c \in \mathcal{C} \}: x \in S_{q}^n \}
   \end{align*}
   $$
   ^coveringRadius

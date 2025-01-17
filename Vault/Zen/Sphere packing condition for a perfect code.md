@@ -5,7 +5,7 @@ tags:
 [[Perfect code]]
 # Sphere packing condition for a perfect code
 
-If $\mathcal{C} \sube S_{q}^n$ is a [[Perfect code|perfect $e$-error correcting code]], then #m/thm/code
+$\mathcal{C} \sube S_{q}^n$ is a [[Perfect code|perfect $e$-error correcting code]], iff the [[Hamming distance|Hamming balls]] $\opn B_{e}(C) \cap \opn B_{r}(D) = \0$ for any two codewords $C \neq D$ and  #m/thm/code
 $$
 \begin{align*}
 \abs{\mathcal{C}} \sum_{i=0}^e {n \choose i}(q-1)^i = q^n
@@ -23,7 +23,7 @@ $$
 > Hence, for a code to be perfect,
 > the closed balls of radius $e$ must partition $S_{q}^n$, giving the expression above. <span class="QED"/>
 
-This can be interpreted as
+The latter part can be interpreted as
 
 > The first $e+1$ terms of a row in [[Pascal's triangle]] sum to a power of $q$.
 

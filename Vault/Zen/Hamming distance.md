@@ -3,6 +3,7 @@ tags:
   - public
 aliases:
   - Hamming weight
+  - Hamming ball
 ---
 [[Coding theory MOC]]
 # Hamming distance
@@ -16,8 +17,10 @@ d(x,y) = \sum_{i=1}^n [x_{i}= y_{i}]
 $$
 where we have used an [[Iverson bracket]].
 This defines a [[Metric space|metric]] on $S^n$.
-The distance of a word from a distinguished $\vab 0$ word is called the **Hamming weight**, or just **weight**,
-which sees a generalization in the linear case to [[Generalized Hamming weight]].
+
+- A **Hamming ball** $\opn{B}_{r}(c) = \{ x \in S^n : d(x,c) \leq r \}$ is a closed ball under this metric.
+- The distance of a word from a distinguished $\vab 0$ word is called the **Hamming weight**, or just **weight**,
+  which sees a generalization in the linear case to [[Generalized Hamming weight]].
 
 #
 ---

@@ -5,7 +5,7 @@ tags:
 [[Lie algebras MOC]]
 # Killing form
 
-The **Killing form** $\kappa : \mathfrak{g} \times \mathfrak{g} \to \mathbb{K}$ is a [[Bilinear form#^symmetric|symmetric bilinear form]] form on a finite-dimensional [[Lie algebra]] $\mathfrak{g}$ defined as the [[trace]] of the composition of two [[Adjoint Lie algebra representation|linear endomorphisms]][^1972] #m/def/lie 
+The **Killing form** $\kappa : \mathfrak{g} \times \mathfrak{g} \to \mathbb{K}$ is an [[Invariant bilinear form on a Lie algebra|invariant]] [[Bilinear form#^symmetric|symmetric bilinear form]] form on a finite-dimensional [[Lie algebra]] $\mathfrak{g}$ defined as the [[trace]] of the composition of two [[Adjoint Lie algebra representation|linear endomorphisms]][^1972] #m/def/lie 
 $$
 \begin{align*}
 \kappa(X, Y) = \Tr(\ad_{X} \circ \ad_{Y})
