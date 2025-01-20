@@ -1,7 +1,9 @@
 ---
 tags:
   - public
-alias: initial object, terminal object, zero object
+aliases:
+  - initial object
+  - terminal object
 ---
 
 [[Universal construction]]
@@ -38,7 +40,7 @@ Formulated as [[Limits and colimits]], the terminal object is the limit of the [
 ### In a [[Poset]]
 The simplest example is perhaps in posets, viewed as categories, in which the initial and terminal objects represent the smallest and largest values respectively.
 
-### In [[Category of sets|Set]] and [[Category of topological spaces|Top]]
+### In [[Category of sets]] and [[Category of topological spaces]]
 
 In the category $\Set$, it is required that a unique morphism exists mapping the empty set $\emptyset$ for every set $A$. 
 Hence $\emptyset$ is the initial object.
@@ -61,7 +63,7 @@ unit :: a -> ()
 unit _ = ()
 ```
 
-### In [[Category of vector spaces|Vect]]
+### In [[Category of vector spaces]]
 In $\Vect_\mathbb{K}$, both the initial and terminal object, hence the zero object, 
 is the [[trivial vector space]] $O$.
 Clearly, all trivial vector spaces are isomorphic
@@ -84,7 +86,7 @@ g &: O \twoheadrightarrow V \\
 $$
 and we therefore have $f \circ g = \id_{O}$
 
-### In [[Category of groups|Grp]]
+### In [[Category of groups]]
 
 The trivial group $\{ e \}$ is both the initial and terminal object.
 

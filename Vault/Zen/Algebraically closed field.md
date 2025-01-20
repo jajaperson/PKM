@@ -12,8 +12,8 @@ A field $\mathbb{K}$ is called **algebraically closed** iff it satisfies the fol
 
 ## Examples and nonexamples
 
-- The [[Real numbers]] are not algebraically closed, since $x^2 + 1$ has no real root.
-- The [[Complex numbers]] are the closure of the real numbers.
+- [[Real numbers]] is not algebraically closed, since $x^2 + 1$ has no real root.
+- [[Complex numbers]] is the closure of the real numbers.
 
 ## Properties
 

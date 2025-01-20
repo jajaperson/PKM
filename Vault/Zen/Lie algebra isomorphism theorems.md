@@ -7,7 +7,7 @@ tags:
 
 The [[isomorphism theorems]] for [[Lie algebra|Lie algebras]] are expressed as follows.
 
-## First theorem
+## First isomorphism theorem
 
 Let $\varphi : \mathfrak{g} \to \mathfrak{h}$ be a [[Lie algebra homomorphism]]. Then the [[quotient Lie algebra|quotient]] by the [[Kernel of a Lie algebra homomorphism|kernel]] is isomorphic to the image: #m/thm/lie 
 $$
@@ -16,19 +16,19 @@ $$
 \end{align*}
 $$
 
-## Second theorem
+## Second isomorphism theorem
 
-Let $\mathfrak{a}, \mathfrak{b} \trianglelefteq \mathfrak{g}$. Then
+Let $\mathfrak{a}, \mathfrak{b} \trianglelefteq \mathfrak{g}$. Then #m/thm/lie
 $$
 \begin{align*}
 \frac{\mathfrak{a}+\mathfrak{b}}{\mathfrak{b}} \cong \frac{\mathfrak{a}}{\mathfrak{a} \cap \mathfrak{b}}
 \end{align*}
 $$
 
-## Third theorem
+## Third isomorphism theorem
 
 Let $\mathfrak{b} \trianglelefteq \mathfrak{a} \trianglelefteq \mathfrak{g}$ be nested [[Lie algebra ideal|ideals]].
-Then $\mathfrak{a} / \mathfrak{b} \trianglelefteq \mathfrak{g} / \mathfrak{a}$ and
+Then $\mathfrak{a} / \mathfrak{b} \trianglelefteq \mathfrak{g} / \mathfrak{a}$ and #m/thm/lie
 $$
 \begin{align*}
 \frac{\mathfrak{g} / \mathfrak{a}}{\mathfrak{a} / \mathfrak{ b}} \cong \frac{\mathfrak{g}}{\mathfrak{b}}

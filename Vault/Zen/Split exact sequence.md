@@ -11,7 +11,7 @@ $$
 \end{align*}
 $$
 
-A **split exact sequence**[^spaltet] is a [[short exact sequence]] (depicted above) in an [[abelian category]] that is isomorphic to
+A **split exact sequence**[^spaltet] is a [[short exact sequence]] (depicted above) in an [[Abelian category]] that is isomorphic to
 $$
 \begin{align*}
 0 \to A \xrightarrow{i} A \oplus C \xrightarrow{p} C \to 0

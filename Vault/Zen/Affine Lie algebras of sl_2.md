@@ -4,7 +4,7 @@ tags:
   - public
 ---
 [[sl_2]]
-# Affine Lie algebras of $\opn{\mathfrak{sl}}_{2}$
+# Affine Lie algebras of $\opn{\mathfrak{sl}}_{2} \mathbb{K}$
 
 Let $\mathfrak{a} =$ [[sl_2]] with its Chevalley basis and let $\sigma_{3}$ be the [[Pauli matrices|suggestively named]][^Pauli] involutive isometries of $\mathfrak{a}$ defined by #m/def/lie 
 $$
@@ -136,6 +136,9 @@ Taking a [[Formal series over an (un)twisted affine Lie algebra|formal series ap
 > x_{-\alpha_{1}}(z) = \lim_{ z^{1/2} \to -z^{1/2} } x_{\alpha_{1}}(z)
 > \end{align*}
 > $$
+
+## Representations
+
 
 
 #

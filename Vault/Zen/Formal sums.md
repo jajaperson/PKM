@@ -30,7 +30,7 @@ and in many cases the structure is richer.
 - [[Series ring]]: For a ring $R$, we have $R[[x]] = R^{\mathbb{N}_{0};x}$
 - [[Formal sums over a vector space]]: $V \{ x \} = V^{\mathbb{K};x}$
 
-## Se also
+## See also
 
 - [[Generalized binomial coëfficient]]
 

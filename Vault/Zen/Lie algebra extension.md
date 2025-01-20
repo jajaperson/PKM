@@ -8,7 +8,7 @@ mathLink-blocks:
   trivial: trivial extension
   equivalent: equivalent
 ---
-[[Lie algebra]]
+[[Lie algebras MOC]]
 # Lie algebra extension
 
 Let $\mathfrak{a}, \mathfrak{b}$ be [[Lie algebra|Lie algebras]].
@@ -20,7 +20,7 @@ $$
 $$
 Hence the $\mathfrak{g}$ “covers” $\mathfrak{a}$ with [[Kernel of a Lie algebra homomorphism|kernel]] $\mathfrak{b} \hookrightarrow \mathfrak{g}$. 
 Note that $\mathfrak{b}$ is necessarily an [[Lie algebra ideal|ideal]],
-giving the [[Quotient Lie algebra|quotient]] $\mathfrak{g} / \mathfrak{b} \cong \mathfrak{a}$.
+giving the [[Quotient Lie algebra|quotient]] $\mathfrak{g} / \mathfrak{b} \cong \mathfrak{a}$ by the [[Lie algebra isomorphism theorems#First isomorphism theorem]].
 Two extensions $\mathfrak{g}, \mathfrak{g}_{1}$ of $\mathfrak{a}$ by $\mathfrak{b}$ are said to be **equivalent** iff there exists an isomorphism such that the following diagram commutes ^equivalent
 
 <p align="center"><img align="center" src="
@@ -40,6 +40,12 @@ Consider an extension $0 \to \mathfrak{b} \hookrightarrow \mathfrak{g} \stackrel
 
 > [!missing]- Proof of equivalence in 3.
 > #missing/proof
+
+
+## See also
+
+- [[Group extension]] (the structure of that Zettel deliberately mirrors this one)
+
 
 #
 ---

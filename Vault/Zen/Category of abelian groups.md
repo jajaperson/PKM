@@ -12,7 +12,7 @@ tags:
 # Category of abelian groups
 
 The **category of abelian groups** $\Ab$ is a [[Subcategory|full subcategory]] of [[Category of groups]] containing abelian groups and homomorphisms between them.
-The category is equivalent to $\lMod{\mathbb{Z}}$ ([[Abelian groups as ℤ-modules]]).
+The category is equivalent to $\lMod{\mathbb{Z}}$ ([[Abelian groups as Z-modules]]).
 
 ## Properties
 

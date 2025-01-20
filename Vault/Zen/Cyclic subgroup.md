@@ -13,7 +13,7 @@ where $a^0 = e$ and $a^{-n} = (a^{-1})^n$.[^gallian] #m/def/group
 
 [^gallian]: 2017, [[@gallianContemporaryAbstractAlgebra2017|Contemporary Abstract Algebra]], p. 65
 
-Every cyclic group is isomorphic to $\mathbb{Z}_{n}$ under addition, where $n$ is the order of the generator. 
+Every cyclic group is isomorphic to $\mathbb{Z}_{n}^+$ under addition, where $n$ is the order of the generator. 
 In the infinite case this is just additive $\mathbb{Z}$.
 
 ## Properties

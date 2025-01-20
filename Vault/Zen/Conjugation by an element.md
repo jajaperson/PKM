@@ -10,7 +10,7 @@ tags:
 # Conjugation by an element
 
 In a group $G$, given elements $x, g \in G$, we may **conjugate** $x$ by $g$ to get $gag^{-1}$.
-Sometimes this is written as $\hat{b}a$,
+Sometimes this is written as $\hat{b}a$ or ${}^ba$,
 or for the right-action variant, $a^b = b^{-1}ab$.
 
 ## Conjugation as an action

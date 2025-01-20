@@ -3,6 +3,7 @@ tags:
   - public
 mathLink-blocks:
   totallyIsotropic: totally isotropic
+  nondegenerate: nondegenerate
 ---
 [[Linear algebra MOC]]
 # Quadratic space
@@ -18,7 +19,7 @@ Let $b_{q}$ denote the polar form of $q$.
 - A vector $v \in V$ is **isotropic** iff $q(v) = 0$, otherwise it is **anisotropic**; 
   $V$ is isotropic iff it has an isotropic vector. 
 - Iff every vector is isotropic then $V$ is **totally isotropic**. ^totallyIsotropic
-- A vector $v \in V$ is **degenerate** iff $b_{q}(v,u) = 0$ for all $u \in V$, otherwise it is **nondegenerate**; $V$ is degenerate iff it has a degenerate vector and nondegenerate otherwise.
+- A vector $v \in V$ is **degenerate** iff $b_{q}(v,u) = 0$ for all $u \in V$, otherwise it is **nondegenerate**; $V$ is degenerate iff it has a degenerate vector and nondegenerate otherwise. ^nondegenerate
 - The set $\opn{rad} V$ of all degenerate vectors in $V$ forms a [[vector subspace|subspace]] called the **radical**.
 - An **isometry** $f : (V, q) \to (V', q')$ is a [[linear map]] such that $q'(fv) = q(v)$ for all $v \in V$.
 - A bijective isometry is called an **orthogonal transformation**, and these form the [[Orthogonal group of a quadratic space]].

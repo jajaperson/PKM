@@ -1,10 +1,10 @@
 ---
 categoryName: category of chain complexes
-mathLink: $\cat{Ch}_R$
-object: "[[chain complex]] over $R$"
+mathLink: $\cat{Ch}_\cat{A}$
+object: "[[chain complex]] in $\\cat A$]]"
 morphism: "[[chain map]]"
 arguments:
-  - $R$ [[commutative ring]]
+  - $\cat A$ [[abelian category]]
 tags:
   - category
   - public
@@ -12,8 +12,9 @@ tags:
 [[Homological algebra MOC]]
 # Category of chain complexes
 
-The **category of chain complexes** $\cat{Ch}_{R}$ consists of [[Chain complex|chain complexes]] $(C_{•},\partial_{•})$ over $R$ as objects and [[Chain map|chain maps]] $f_{•} : C_{•} \to C'_{•}$ as morphisms, with composition given by $(gf)_{k} = g_{k}f_{k}$. #m/def/homology 
+The **category of chain complexes** $\cat{Ch}_{\cat A}$ consists of [[Chain complex|chain complexes]] $(C_{•},\partial_{•})$ in $\cat A$ as objects and [[Chain map|chain maps]] $f_{•} : C_{•} \to C'_{•}$ as morphisms, with composition given by $(gf)_{k} = g_{k}f_{k}$. #m/def/homology 
 For notational convenience, we will often use $C$ to refer to $(C_{•}, \partial_{•})$, and $f$ to refer to $f_{•}$.
+Furthermore, for a [[ring]] $R$ we write $\cat{Ch}_{R} = \cat{Ch}_{\lMod R}$.
 
 ## Limits and colimits
 

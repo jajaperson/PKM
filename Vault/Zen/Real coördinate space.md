@@ -5,7 +5,7 @@ tags:
 [[Mathematics MOC]]
 # Real coördinate space
 
-**Real coördinate space** $\mathbb{R}^n$ is the set of $n$-tuples of real numbers.
+**Real coördinate space** $\mathbb{R}^n$ is the set of $n$-tuples of [[Real numbers]].
 
 ## Topological properties
 
