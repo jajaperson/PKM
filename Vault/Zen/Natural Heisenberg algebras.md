@@ -8,7 +8,7 @@ aliases:
 [[Heisenberg algebra]]
 # Natural Heisenerg algebras
 
-Let $\mathfrak{h}$ be an [[Abelian Lie algebra|abelian]] [[Bilinear form#^nondegenerate]] finite-dimensional [[quadratic Lie algebra]] over $\mathbb{K}$[^char],
+Let $\mathfrak{h}$ be a [[Bilinear form#^nondegenerate]] finite-dimensional [[quadratic space]] over $\mathbb{K}$[^char] endowed with an [[Abelian Lie algebra|abelian bracket]],
 and $\mathfrak{g}_{\mathbb{Z}} = \tilde{\mathfrak{h}}$ and $\mathfrak{g}_{\mathbb{Z} + \frac{1}{2}} = \tilde{\mathfrak{h}}[-1]$ denote [[Affine Lie algebra|untwisted]] and [[Twisted affine Lie algebra|twisted affine Lie algebras]] respectively, which are each [[Triangular Lie algebra|triangular]].
 Then the [[Commutator ideal|commutator ideals]][^1]
 $$
@@ -106,7 +106,7 @@ The first conditions implies that $b(v,w) =0$ if $v,w$ are homogenous of differe
   [^1988a]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §1.8, pp. 29–30
   [^1988b]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §1.9, p. 34
 
-### Natural module $M_{\alpha}$
+### Natural Heisenberg module $M_{\alpha}$
 Let $Z = \mathbb{Z}$ or $Z = \mathbb{Z} + \frac{1}{2}$ and let $S^\bullet(\hat{\mathfrak{h}}_{Z}^{-})$ denote the $\mathfrak{g}_{Z}$- and $\hat{\mathfrak{h}}_{Z}$-module $M(1)$.
 Let $\alpha \in \mathfrak{h}$, $\mu \in \mathbb{K}$,
 and $\mathbb{K}v_{\alpha}$ be a 1-dimensional $\mathfrak{g}_{Z}$-module defined by
@@ -342,6 +342,10 @@ $$
   [^1988d]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §1.9 pp. 35–42. This seems to be the first theorem in the book.
   [^vir]: It should already be clear at this point that $L(n)$ exhibit _a_ central extension of the Witt algebra, which must be equivalent to the [[Virasoro algebra]]. It turns out that the Virasoro algebra, and these operators, are engineered precisely so that $\gamma_{m,-m}$ gives the right coëfficient.
   [^hint]: In this calculation, keep the canonical realization of the Heisenberg commutation relations in mind.
+
+## See also
+
+- [[Normal ordered product]]
 
 #
 ---

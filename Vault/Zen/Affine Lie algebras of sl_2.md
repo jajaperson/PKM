@@ -2,6 +2,8 @@
 mathLink: Affine Lie algebras of $\opn{\mathfrak{sl}}_2\mathbb{K}$
 tags:
   - public
+aliases:
+  - $\opn{\mathfrak{sl}}_2\mathbb{K}\hat{\;}$
 ---
 [[sl_2]]
 # Affine Lie algebras of $\opn{\mathfrak{sl}}_{2} \mathbb{K}$
@@ -139,7 +141,7 @@ Taking a [[Formal series over an (un)twisted affine Lie algebra|formal series ap
 
 ## Representations
 
-
+- [[Twisted vertex operator representation of sl_2ˆ]]
 
 #
 ---

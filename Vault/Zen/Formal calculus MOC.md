@@ -13,6 +13,7 @@ tags:
   - [[Formal sums over endomorphisms]]
   - [[Formal sums over a Lie algebra]]
 - [[Formal delta]]
+- [[Normal ordered product]]
 
 ## Bibliography
 

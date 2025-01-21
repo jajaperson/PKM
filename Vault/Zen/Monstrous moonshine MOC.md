@@ -22,6 +22,14 @@ For now, this Zettel links to files covered in FLM's [[Sources/@frenkelVertexOpe
 
 - [[Formal calculus MOC]]
 
+#### Chapter 3
+
+- [[sl_2]]
+- [[Affine Lie algebras of sl_2]]
+- [[Twisted vertex operator representation of sl_2ˆ]]
+- [[Normal ordered product]]
+
+
 #
 ---
 #MOC | #state/develop | #lang/en | #SemBr

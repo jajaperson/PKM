@@ -72,6 +72,11 @@ $$
 
 
   [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §2.1, pp. 49–50
+
+## See also
+
+- [[Normal ordered product]]
+
 #
 ---
 #state/develop | #lang/en | #SemBr
