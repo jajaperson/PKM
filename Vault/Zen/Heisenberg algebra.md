@@ -53,6 +53,7 @@ for $i,j \in I$.
 
 - [[Modules of a Heisenberg algebra]]
   - [[Heisenberg module]]
+- [[Heisenberg group]]
 
 #
 ---

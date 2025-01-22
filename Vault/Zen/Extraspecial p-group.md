@@ -1,0 +1,37 @@
+---
+mathLink: Extraspecial $p$-group
+tags:
+  - public
+---
+[[p-group]]
+# Extraspecial p-group
+
+A [[p-group]] $P$ is called **extraspecial** iff its [[Centre of a group|centre]] $Z(P)$ is has order $p$,
+and the quotient $P / Z(P)$ is a nontrivial [[Elementary abelian group|elementary abelian]] $p$-group, #m/def/group 
+so if $\abs P = p^n$
+$$
+\begin{align*}
+Z(P) &= [P,P] \cong \mathbb{Z}^+_{p} \\
+P / Z(P) &\cong (\mathbb{Z}_{p}^+)^{n-1}
+\end{align*}
+$$
+where $[P,P]$ is the [[commutator subgroup]] of $P$.
+Equivalently, $P$ is a [[Central extension of an abelian group|central extension]] of the form
+$$
+\begin{align*}
+1 \to \mathbb{Z}_{p}^+ \hookrightarrow P \twoheadrightarrow E \to 1
+\end{align*}
+$$
+where $E$ is an [[Elementary abelian group]]
+such that the [[Central extension of an abelian group|associated commutator map]] $c_{0}: E \times E \to \mathbb{Z}_{p}$ is a [[Bilinear form#^nondegenerate]] $\mathbb{Z}_{p}$-[[bilinear form]].
+
+> [!missing]- Proof
+> Assume $P$ is a $p$-group with $Z(P) \cong \mathbb{Z}_{p}^+$ and $P / Z(P) \cong (\mathbb{Z}_{p}^+)^{n-1}$.
+> Then by the [[Abelianization#Main theorem|Main theorem of abelianization]], $[P,P] \trianglelefteq Z(P)$.
+> Assume $Z(P) \not\trianglelefteq [P,P]$.
+> Then $[P,P] = 1$, which implies $Z(P) = P$ whence $P / Z(P) = 1$, a contradiction.
+
+
+#
+---
+#state/develop | #lang/en | #SemBr

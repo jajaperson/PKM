@@ -85,6 +85,10 @@ Let $\cat{InvQLie}_{\mathbb{K}}$ denote the category where an object is a [[Quad
 and a morphism $f: (\mathfrak{g}, \vartheta) \to (\mathfrak{g}, \varphi)$ is an isometric homomorphism of Lie algebras such that $f\vartheta = \varphi f$.
 Then this constructions forms a functor $\cat{InvQLie}_{\mathbb{K}} \to \cat{Gr}_{\frac{1}{2}\mathbb{Z}}\cat{Lie}_{\mathbb{K}}$.
 
+## Particular examples
+
+- [[Affine Lie algebras of sl_2]]
+
 
 #
 ---

@@ -20,6 +20,9 @@ x_{\pm \alpha_{1}} &\mapsto x_{\mp \alpha 1}
 \end{align*} 
 $$
 and let $\sigma_{0} = 1$.
+
+Sylvester basis
+
 Furthermore we let
 $$
 \begin{align*}

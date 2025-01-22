@@ -29,6 +29,17 @@ For now, this Zettel links to files covered in FLM's [[Sources/@frenkelVertexOpe
 - [[Twisted vertex operator representation of sl_2ˆ]]
 - [[Normal ordered product]]
 
+#### Chapter 4
+
+- [[Central extension of an abelian group]]
+
+#### Chapter 8
+
+- [[Vertex operator algebra]]
+
+#### Chapter 10
+
+- [[Golay code]]
 
 #
 ---

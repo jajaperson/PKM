@@ -27,7 +27,7 @@ For a [[ring]] with unity, the characteristic is the additive [[group order]] of
 ## Properties
 
 1. [[The characteristic of an integral domain is 0 or prime]]
-2. [[Integers#^P1]]
+2. [[Integers#^P1]] (this gives a nice alternative definition of characteristic for a ring)
 
 #
 ---

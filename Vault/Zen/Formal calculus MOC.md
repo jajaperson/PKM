@@ -12,8 +12,14 @@ tags:
 - [[Formal sums over a vector space]]
   - [[Formal sums over endomorphisms]]
   - [[Formal sums over a Lie algebra]]
-- [[Formal delta]]
 - [[Normal ordered product]]
+
+## Special formal sums
+
+- [[Formal delta]]
+- [[Formal exponential]]
+- [[Formal logarithm]]
+- [[Formal binomial expansion]]
 
 ## Bibliography
 

@@ -47,6 +47,8 @@ $$
 given by the [[trace form]] of the [[fundamental representation]],
 making $\opn{\mathfrak{sl}}_{2}\mathbb{K}$ a [[quadratic Lie algebra]].
 
+Get a matrix!!
+
 ## Properties
 
 - [[Affine Lie algebras of sl_2]]

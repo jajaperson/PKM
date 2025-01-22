@@ -17,6 +17,9 @@ tags:
 - [[Legendre polynomial]], [[Associated Legendre function]]
 - [[Hermite polynomial]]
 
+## See also
+
+- [[Special formal sums]]
 
 #
 ---

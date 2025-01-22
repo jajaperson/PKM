@@ -19,7 +19,13 @@ $$
 \abs G = p^n
 \end{align*}
 $$
-for some $n \in \mathbb{N}_{0}$.
+for some $n \in \mathbb{N}_{0}$.[^1988]
+
+  [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §5.3, p. 107
+
+## See also
+
+- [[Extraspecial p-group]]
 
 #
 ---

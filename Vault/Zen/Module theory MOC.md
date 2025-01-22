@@ -31,6 +31,12 @@ See [[Category of left-modules]].
 - [[Module over a commutative ring]]
 - [[Module over a unital associative algebra]]
 - [[Vector space]] (module over a field)
+
+
+### Properties of modules
+
+- [[Rank of a module]] over an [[integral domain]]
+
 ### Additional structure
 
 - [[Graded module]]

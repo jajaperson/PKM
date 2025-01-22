@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[Formal calculus MOC]]
-# Formal Dirac delta
+# Formal delta
 
 The **formal delta** over a field $\mathbb{K}$ is the [[Algebra of Laurent series|Laurent series]][^1988] #m/def/fcalc 
 $$
