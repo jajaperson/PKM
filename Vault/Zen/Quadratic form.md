@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - polar form
 ---
 [[Homogenous polynomial]]
 # Quadratic form
@@ -30,6 +32,7 @@ A space equipped with a quadratic form is called a [[quadratic space]].
 ## Properties
 
 - [[Correspondence between quadratic forms and symmetric bilinear forms away from 2]]
+- [[Correspondence between quadratic forms and alternating bilinear forms in characteristic 2]]
 - [[Diagonalization of a quadratic form away from 2]]
 
 ## Related

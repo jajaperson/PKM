@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - $\opn{char}\mathbb K = 0$
 ---
 [[Ring theory MOC]]
 # Characteristic

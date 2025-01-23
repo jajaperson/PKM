@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[Quadratic form]]
-# Correspondence between quadratic forms and symmetric bilinear forms
+# Correspondence between quadratic forms and symmetric bilinear forms away from 2
 
 [[Away from 2]] every [[Quadratic form]] $Q(x)$ is associated with a symmetric [[Bilinear form]] $B(x,y)$ via polarization
 $$

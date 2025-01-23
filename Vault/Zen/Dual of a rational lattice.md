@@ -23,6 +23,11 @@ $$
 $$
 $L$ is called **[[Self-dual rational lattice|self-dual]]** iff $L^\circ = L$.
 
+## Properties
+
+1. Let $L$ be a nondegenerate lattice with [[Gram matrix]] $G$.
+    The Gram matrix of $L^\circ$ is $G^{-1}$.
+
 #
 ---
 #state/develop | #lang/en | #SemBr

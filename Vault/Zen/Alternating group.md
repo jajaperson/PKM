@@ -24,7 +24,7 @@ This is proven using the following lemmata
 > the following list exhausts any pair of transpositions:
 > $$
 > \begin{align*}
-> (a,b)(c,d) &= e \\
+> (a,b)(a,b) &= e \\
 > (a,b)(c,d) &= (a,c,b)(a,c,d) \\
 > (a,b)(a,c) &= (a,c,b)
 > \end{align*}
@@ -51,7 +51,7 @@ This is proven using the following lemmata
 > Hence $N$ contains all 3-cycles of the form $(i,j,b)$ and hence all 3-cycles,
 > thus by [[#^S1]] it is $\mathrm{A}_{n}$, proving [[#^S2]].
 > 
-> Now $N \trianglelefteq\mathrm{A}_{n}$ for $n \geq 5$ be nontrivial.
+> Now let $N \trianglelefteq\mathrm{A}_{n}$ for $n \geq 5$ be nontrivial.
 > Then one of the following holds:
 > 
 > **Case 1:** Suppose there exists $\sigma \in N$ with a cycle of length $\geq4$,

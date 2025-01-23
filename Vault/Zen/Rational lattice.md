@@ -19,7 +19,7 @@ $$
 \end{align*}
 $$
 where we identify $L_{\mathbb{Q}} = \mathbb{Q} \otimes_{\mathbb{Z}} L$.[^1988]
-Given a basis $\{ \alpha_{i} \}_{i=1}^n$ of $L$, the **Gramm matrix** is given by $G_{ij}= \langle \alpha_{i},\alpha_{j} \rangle$.
+Given a basis $\{ \alpha_{i} \}_{i=1}^n$ of $L$, the [[Gram matrix]] is given by $G_{ij}= \langle \alpha_{i},\alpha_{j} \rangle$.
 
   [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §6.1, pp. 122–123
 
@@ -32,6 +32,10 @@ Given a basis $\{ \alpha_{i} \}_{i=1}^n$ of $L$, the **Gramm matrix** is given b
 - $L$ is **unimodular** iff $\abs{\det G} = 1$. ^unimodular
 - [[Dual of a rational lattice]]
 - [[Self-dual rational lattice]]
+
+## See also
+
+- [[Lattice from a binary linear code]]
 
 #
 ---

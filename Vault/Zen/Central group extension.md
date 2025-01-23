@@ -221,7 +221,8 @@ This correspondence has the property
 ## Special cases
 
 - [[Central extension of an abelian group]]
-  - [[Cyclic extension of a free abelian group]]
+  - [[Cyclic central extension of a free abelian group]]
+    - [[Extraspecial 2-group]] (central extension of an elementary abelian 2-group)
 #
 ---
 #state/tidy | #lang/en | #SemBr

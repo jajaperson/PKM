@@ -10,6 +10,10 @@ tags:
 A **lattice** $L$ of a [[Locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] [[Abelian group|abelian]] [[topological group]] $G$ is a [[discrete subgroup]] $L \leq G$ such that the quotient $G / L$ is [[Compact space|compact]]. #m/def/group
 The above definition generalizes and is motivated by the case where $G = \mathbb{Q}^n$, which is a [[Rational lattice]].
 
+## See also
+
+- Not to be confused with [[Lattice order]]
+
 #
 ---
 #state/develop | #lang/en | #SemBr

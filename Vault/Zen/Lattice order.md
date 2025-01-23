@@ -9,6 +9,9 @@ A **lattice** is a poset with the additional property that any pair of objects h
 In categorical terms the [[Products and coproducts]] are guaranteed to exist for any pair of objects.
 Iff they exist for arbitrary collections of objects then it is said to be a [[Complete lattice]].
 
+## See also
+
+- Not to be confused with [[Lattice subgroup]]
 
 #
 ---

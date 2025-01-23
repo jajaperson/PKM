@@ -2,6 +2,8 @@
 mathLink: $p$-group
 tags:
   - public
+aliases:
+  - 2-group
 ---
 [[Group theory MOC]]
 # $p$-group

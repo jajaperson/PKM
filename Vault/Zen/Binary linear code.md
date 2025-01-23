@@ -19,7 +19,7 @@ Indeed, the main advantage of this notation is that it allows the importing of n
 - Given a codeword $C \in \mathcal{C}$ we have  $\wt C = \abs C$.
 - The natural non-singular symmetric bilinear form on $\mathcal{P}(\Omega_{n})$ becomes $\abs{S_{1}\cap S_{2}} + 2\mathbb{Z}$.
 - [[Even binary code]]
-
+- [[Lattice from a binary linear code]]
 
 #
 ---

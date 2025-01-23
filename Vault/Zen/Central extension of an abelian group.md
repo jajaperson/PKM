@@ -79,7 +79,7 @@ In what follows, if $B \leq A$ is a subgroup let $\hat{B} = \pi^{-1}B$.
 
 ## Special cases
 
-- [[Cyclic extension of a free abelian group]]
+- [[Cyclic central extension of a free abelian group]]
 
 #
 ---

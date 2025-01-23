@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[Central extension of an abelian group]]
-# Cyclic extension of a free abelian group
+# Cyclic central extension of a free abelian group
 
 Let $A = \mathbb{Z}[S]$ be a [[Free module|free abelian group]] of finite [[Rank of a module|rank]].
 Then there is a bijection between the set of [[Alternating multilinear map|alternating]] $\mathbb{Z}$-[[Multilinear map|bilinear maps]]
@@ -68,6 +68,14 @@ given by taking $c_{0}$ as the [[Central extension of an abelian group|associate
 > for any $a,b \in A$,
 > so by the [[Central group extension#Correspondence between 2-cocycles and central extensions]] these extensions are equivalent. <span class="QED"/>
 > 
+
+## Properties
+
+- [[Induced extraspecial 2-group of a Z2 extension of a free abelian group]]
+
+## Special cases
+
+- [[Extraspecial 2-group]] (central extension of an elementary abelian 2-group)
 
 #
 ---
