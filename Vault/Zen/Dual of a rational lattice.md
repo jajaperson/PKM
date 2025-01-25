@@ -8,7 +8,7 @@ aliases:
 # Dual of a rational lattice
 
 Let $L$ be a [[Rational lattice]] with basis $\{ \alpha_{i} \}_{i=1}^n$
-The **dual** of $L$ is the set #m/def/linalg 
+The **dual** of $L$ is the set #m/def/geo
 $$
 \begin{align*}
 L^\circ = \{ \alpha \in L_{\mathbb{Q}} : \langle \alpha, L \rangle \sube \mathbb{Z} \}

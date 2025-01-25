@@ -32,7 +32,7 @@ $$
 
 ## Functoriality
 
-This construction forms a [[bifunctor]] $\cat{Lie}_{\mathbb{K}} \times \cat{Alg}_{\mathbb{K}} \to \cat{Lie}_{\mathbb{K}}$.
+This construction forms a functor $\cat{Lie}_{\mathbb{K}} \times \cat{CAlg}_{\mathbb{K}} \to \cat{Lie}_{\mathbb{K}}$.
 
 #
 ---

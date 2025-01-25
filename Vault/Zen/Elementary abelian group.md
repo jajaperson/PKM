@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - elementary abelian
 ---
 [[Group theory MOC]]
 # Elementary abelian group

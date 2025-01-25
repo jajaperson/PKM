@@ -10,10 +10,33 @@ alias:
 
 **Group theory** is predominantly concerned with symmetry, and its algebraic representation as a [[group]], the fundamental object of study.
 
-## Fundamentals
+## Objects
 
 - [[Group]]
-- [[Group order]]
+
+### Type of group
+
+
+- [[Torsion group]]
+- [[p-group]]
+- [[Nilpotent group]]
+- [[Solvable group]]
+- [[Abelian group]]
+  - [[Elementary abelian group]]
+- [[Finite group]]
+  - [[Cyclic subgroup|Cyclic group]]
+- [[Simple group]]
+- [[Topological group]]
+  - [[Discrete group]]
+  - [[Compact group]]
+  - [[Lie group]]
+
+
+### Special groups
+
+- [[Symmetric group]]
+- [[Alternating group]]
+- [[General linear group]]
 
 ## Morphisms
 
@@ -28,10 +51,12 @@ alias:
   - [[Group class function]]
 - [[Coset]]
 - [[Torsion group]]
+- [[Subgroup]] (subobjects)
+  - [[Cyclic subgroup]]
+  - [[Normal subgroup]]
 
 ### Commutation
 
-- [[Abelian group]]
 - [[Centre of a group]]
 - [[Centralizer in a group]]
 - [[Group commutator]]
@@ -39,25 +64,15 @@ alias:
 
 ## Externally
 
-- [[Subgroup]] (subobjects) [[Quotient group]] (quotient objects)
-  - [[Cyclic subgroup]]
-  - [[Normal subgroup]]
+- [[Quotient group]] (quotient objects)
 - [[Direct product of groups]] (product) [[Free product of groups]] (coproduct)
 - [[Semidirect product]]
 
 ### Functors in
 
 - [[Free group]]
-- [[Group presentation]]
+  - [[Group presentation]]
 
-## Types of group
-
-- [[Finite group]]
-- [[Simple group]]
-- [[Topological group]]
-  - [[Discrete group]]
-  - [[Compact group]]
-  - [[Lie group]]
 
 
 #

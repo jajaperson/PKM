@@ -33,7 +33,7 @@ and norms have a corresponding unique inner product iff the [[Parallelogram law]
 ## Properties
 
 1. **antilineärity in the other argument:**  $\braket{ \lambda x + \mu y | z } = \lambda^* \braket{ x | z } + \mu^* \braket{ y | z }$
-2. **General [[Cauchy-Schwarz inequality]]:** $\abs{\braket{ x | y }}^2 \leq \|x\|^2 \|y\|^2$
+2. **general [[Cauchy-Schwarz inequality]]:** $\abs{\braket{ x | y }}^2 \leq \|x\|^2 \|y\|^2$
 
 ### Further properties
 

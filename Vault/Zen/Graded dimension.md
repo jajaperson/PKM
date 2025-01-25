@@ -7,7 +7,7 @@ tags:
 
 Let $V = \bigoplus_{\alpha \in S} V_{\alpha}$ be an $S$-[[graded vector space]].
 Then $V$ has a **graded dimension** iff $\dim V_{\alpha} < \infty$ for all $\alpha \in S$
-and it is given by the [[Formal sums]][^1988] #m/def/linalg 
+and it is given by the [[Formal sum]][^1988] #m/def/linalg 
 $$
 \begin{align*}
 \dim_{*}(V;x) = \sum_{\alpha \in S} (\dim V_{\alpha}) x^\alpha \in \mathbb{N}^{S;x}

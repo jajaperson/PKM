@@ -6,7 +6,7 @@ tags:
 # Formal sums over a vector space
 
 Let $V$ be a [[vector space]] over $\mathbb{K}$.
-Then the [[Formal sums]] in indeterminate $z$ with coëfficients in $V$ and exponents in $\mathbb{K}$ is denoted $V \{ z \}$, #m/def/fcalc 
+Then the [[Formal sum]] in indeterminate $z$ with coëfficients in $V$ and exponents in $\mathbb{K}$ is denoted $V \{ z \}$, #m/def/fcalc 
 with elements of the form $\sum_{n \in \mathbb{K}} v_{n} z^n$.
 $V \{ z \}$ is itself a vector space with addition and scaling defined pointwise.
 $$

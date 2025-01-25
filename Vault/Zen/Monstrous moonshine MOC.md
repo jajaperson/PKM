@@ -35,6 +35,7 @@ For now, this Zettel links to files covered in FLM's [[Sources/@frenkelVertexOpe
 
 #### Chapter 8
 
+- [[Vertex algebra]]
 - [[Vertex operator algebra]]
 
 #### Chapter 10

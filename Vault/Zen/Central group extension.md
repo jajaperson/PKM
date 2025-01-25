@@ -222,7 +222,8 @@ This correspondence has the property
 
 - [[Central extension of an abelian group]]
   - [[Cyclic central extension of a free abelian group]]
-    - [[Extraspecial 2-group]] (central extension of an elementary abelian 2-group)
+    - [[Z2 central extension of a free abelian group]]
+  - [[Z2 central extension of an elementary abelian 2-group]] (includes extraspecial 2-groups)
 #
 ---
 #state/tidy | #lang/en | #SemBr

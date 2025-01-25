@@ -20,7 +20,7 @@ such that $\widehat{\cdot} : G \to \Aut(G)$ constitutes a [[group action]].
 The [[Group action orbit|orbit]] of an element $x \in G$ is its [[#Conjugacy class]] $[x]_{\sim}$,
 while its [[Stabilizer group]] is its [[Centralizer in a group|centraliser group]].
 An automorphism given by conjugation is called an **inner automorphism**,
-and the image $\widehat{G} = \mathrm{Inn}(G) \trianglelefteq \Aut(G)$ forms the [[Inner automorphism group]].
+and the image $\widehat{G} = \mathrm{Inn}(G) \trianglelefteq \Aut(G)$ forms the [[Inner group automorphism|inner automorphism group]].
 
 ## Conjugacy relation
 
@@ -54,7 +54,7 @@ $$
 
 ## Properties
 
-See also [[Inner automorphism group]].
+See also [[Inner group automorphism]].
 
 - $[e]_{\sim} = \{ e \}$ since $geg^1 = e$ for all $g \in G$.
 - $\hat{g} x = x$ iff $g$ and $x$ commute

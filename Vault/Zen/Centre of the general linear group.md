@@ -8,7 +8,7 @@ tags:
 # Centre of the general linear group
 
 Let $V \in \Vect_{\mathbb{K}}$.
-The [[Centre of a group|centre]] $\mathrm{Z}(V)$ of the [[general linear group]] $\mathrm{GL}(V)$ consists of all **scalar transformations**, i.e. multiples of identity, and is isomorphic to the multiplicative group $\mathbb{K}^\times$ of the underlying field $\mathbb{K}$. #m/thm/group
+The [[Centre of a group|centre]] $\mathrm{Z}(V)$ of the [[general linear group]] $\mathrm{GL}(V)$ consists of all **homotheties**, i.e. multiples of identity, and is isomorphic to the multiplicative group $\mathbb{K}^\times$ of the underlying field $\mathbb{K}$. #m/thm/group
 
 > [!check]- Proof
 > It is clear that scalar transformations form a group isomorphic to $\mathbb{K}^\times$ and that $\mathbb{K}^\times \sube \mathrm{Z}(V)$.

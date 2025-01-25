@@ -14,6 +14,7 @@ $$
 \end{align*}
 $$
 for any $x,y \in \mathfrak{g}$ and $f,g \in \mathbb{K}[t,t^{-1}]$.
+This may also be viewed as [[Formal sums over a Lie algebra|formal series]] $\mathfrak{g}[t,t^{-1}]$
 
 ## See also
 

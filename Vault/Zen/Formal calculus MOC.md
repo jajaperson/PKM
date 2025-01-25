@@ -8,7 +8,7 @@ tags:
 [[Mathematics MOC]]
 # Formal calculus MOC
 
-- [[Formal sums]]
+- [[Formal sum]]
 - [[Formal sums over a vector space]]
   - [[Formal sums over endomorphisms]]
   - [[Formal sums over a Lie algebra]]

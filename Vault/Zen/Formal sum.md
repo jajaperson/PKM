@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - formal series
 ---
 [[Formal calculus MOC]]
 # Formal sums

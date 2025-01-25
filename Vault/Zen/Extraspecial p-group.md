@@ -6,7 +6,7 @@ tags:
 [[p-group]]
 # Extraspecial p-group
 
-A [[p-group]] $P$ is called **extraspecial** iff its [[Centre of a group|centre]] $Z(P)$ is has order $p$,
+A [[p-group]] $P$ is called **extraspecial** iff its [[Centre of a group|centre]] $Z(P)$ has order $p$,
 and the quotient $P / Z(P)$ is a nontrivial [[Elementary abelian group|elementary abelian]] $p$-group, #m/def/group 
 so if $\abs P = p^n$
 $$
@@ -48,7 +48,7 @@ such that the [[Central extension of an abelian group|associated commutator map]
 
 ## Special cases
 
-- [[Extraspecial 2-group]]
+- [[Z2 central extension of an elementary abelian 2-group]]
 
 #
 ---
