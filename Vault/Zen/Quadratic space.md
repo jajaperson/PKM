@@ -4,11 +4,14 @@ tags:
 mathLink-blocks:
   totallyIsotropic: totally isotropic
   nondegenerate: nondegenerate
+aliases:
+  - quadrance
 ---
 [[Linear algebra MOC]]
 # Quadratic space
 
 A **quadratic space** $(V, q)$ over $\mathbb{K}$ is a [[vector space]] $V$ over $\mathbb{K}$ equipped with a [[quadratic form]] $q$, or equivalently[^cav] a [[Bilinear form#^symmetric]] [[bilinear form]]. #m/def/linalg 
+The value of $q(v)$ is called the **quadrance** of $v \in V$.
 
   [^cav]: [[Away from 2]], see [[Correspondence between quadratic forms and symmetric bilinear forms away from 2]]
 

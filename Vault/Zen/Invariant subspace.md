@@ -25,7 +25,7 @@ A representation with no non-trivial invariant subspaces is called [[Reducibilit
 
 ## Properties
 
-- [[The orthogonal compliment of an invariant subspace under a unitary operator is invariant]]
+- [[The orthogonal complement of an invariant subspace under a unitary operator is invariant]]
 
 #
 ---

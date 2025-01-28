@@ -44,24 +44,18 @@ $$
 M(k) \cong_{\cat{Gr}_{\mathbb{K}}{\Vect}_{\mathbb{K}}} S^\bullet(\hat{\mathfrak{h}}_{Z})
 \end{align*}
 $$
+setting $k = 1$ and denoting $(h \otimes t^n) \odot v = h(n)v$ we have
+$$
+\begin{align*}
+c \odot  f &= kf \\
+h(-n) \odot  f &= h(-n)f \\
+h(n) \odot  f &= k n \frac{ \partial f }{ \partial h(-n) } 
+\end{align*}
+$$
+
+for $h \in \mathfrak{h}$ and $n \in \mathbb{N}$.
 In addition $S^\bullet(\hat{\mathfrak{h}}_{Z})$ is a $\mathbb{K}$-[[Graded module|graded]] [[Simple module|irreducible]] $\mathfrak{g}_{Z}$ [[Module over a Lie algebra|module]] where $d$ acts as a [[degree operator]],
 and if $Z = \mathbb{Z}$, $\mathfrak{h} = \mathfrak{h}\otimes t^0$ act trivially.[^2]
-
-> [!note]- Notation
-> In the case $k = 1$, for $h \in \mathfrak{h}$ and $v \in S^\bullet(\hat{\mathfrak{h}}_{Z}^{-})$
-> $$
-> \begin{align*}
-> h(n) v = (h \otimes t^n) \odot  v
-> \end{align*}
-> $$
-> so
-> $$
-> \begin{align*}
-> [g(m), h(n)] &= \langle g,h \rangle m \delta_{n+n} \\
-> [d, h(n)] &= nh(n)
-> \end{align*}
-> $$
-> for $g,h \in \mathfrak{h}$ and $m,n \in Z$.[^1988b]
 
 ### Triangular modules
 
@@ -147,22 +141,6 @@ $$
 $$
 
   [^p41]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §1.9, p. 41
-
-> [!note]- Notation
-> For $h \in \mathfrak{h}$ and $v \in M$
-> $$
-> \begin{align*}
-> h(n) v = (h \otimes t^n) \odot  v
-> \end{align*}
-> $$
-> so
-> $$
-> \begin{align*}
-> [g(m), h(n)] &= \langle g,h \rangle m \delta_{m+n} \\
-> [d, h(n)] &= nh(n)
-> \end{align*}
-> $$
-> for $g,h \in \mathfrak{h}$ and $m,n \in Z$.
 
 
   [^redund]: Since in either of these cases $\mathbb{K}v_{\alpha}$ carries a trivial representation of $\mathfrak{g}_{Z}$. In fact, FLM only define $M$ this way for $Z = \mathbb{Z}$ and do not use a tensor product construction for $Z = \mathbb{Z} + \frac{1}{2}$.

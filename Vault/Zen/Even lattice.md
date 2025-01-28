@@ -10,6 +10,8 @@ It immediately follows from polarization that $L$ is [[Rational lattice#^integra
 
 ## Properties
 
+- [[Associated Lie algebra of a positive definite even lattice]]
+
 ### Associated elementary 2-group
 
 An even lattice $L$ of rank $n$ has an associated [[Elementary abelian group|elementary abelian]] [[p-group|2-group]] $\check L = L / 2L$ of dimension $n$,
@@ -43,7 +45,7 @@ q_{1} : \check L &\to \mathbb{Z}_{2} \\
 \end{align*}
 $$
 so that $c_{1}$ is the [[Quadratic form|polar form]] of $q_{1}$.
-Now $q_{1}$ is [[Quadratic space#^nondegenerate]] iff the [[Gram matrix]] has odd determinant,
+Now $q_{1}$ _or_ $c_1$ is [[Quadratic space#^nondegenerate]] iff the [[Gram matrix]] has odd determinant,
 in particular if $L$ is a [[unimodular lattice]].
 
 #

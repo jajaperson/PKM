@@ -6,7 +6,7 @@ aliases:
   - extraspecial 2-group
 mathLink: $\mathbb{Z}_{2}$ central extension of an elementary abelian 2-group
 ---
-[[Z2 central extension of a free abelian group]]
+[[Central extension of an abelian group]]
 # $\mathbb{Z}_{2}$ central extension of an elementary abelian 2-group
 
 Let $E$ an an [[Elementary abelian group|elementary abelian]] [[p-group|2-group]] ($\mathbb{Z}_{2}$-[[vector space]]) of rank $n$ and consider a [[Central extension of an abelian group|central extension]] 

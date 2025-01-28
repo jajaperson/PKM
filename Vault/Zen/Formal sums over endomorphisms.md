@@ -36,7 +36,7 @@ $$
 \end{align*}
 $$
 Importantly, partitioning a product into existent subproducts and taking the product of those will give the same result, but the converse doesn't hold:
-Multiplication of formal sums fails to be associative
+Multiplication of formal sums fails to be associative, instead satisfying **partial associativity**.
 
 > [!tip]- Counterexamples
 > Consider the [[Formal delta]] $\delta(z) \in \mathbb{K} \d[ z,z^{-1} \d]$.

@@ -17,7 +17,7 @@ $$
 $$
 where for any [[field]] $K$ with [[Characteristic|$\opn{char}K = 0$]] we identify $L_{K} = K \otimes_{\mathbb{Z}} L$,[^1988]
 which is made a [[quadratic space]] under the extension of $\langle \cdot,\cdot \rangle$.
-The following notation is also useful
+The following notation is also useful for subsets of a given quadrance
 $$
 \begin{align*}
 L_{m} = \{ \alpha \in L : \langle \alpha,\alpha \rangle = m \}

@@ -21,7 +21,7 @@ $$
 \chi : Z(G) \hookrightarrow \mathbb{K}^\times
 \end{align*}
 $$
-is a [[Faithful representation|faithful]] [[central character]] of $G$, 
+is a [[Faithful representation|faithful]] [[Central character]] of $G$, 
 then there exists a unique (up to [[Equivalence of representations|equivalence]]) [[irrep]] $\Gamma: G \to \opn{GL}(V)$ with central character $\chi$,
 and $\Gamma$ is itself faithful.[^1988] #m/thm/group 
 If $A \leq G$ is a maximal [[Abelian group|abelian]] subgroup and $\psi : A \to \mathbb{K}^\times$ is a [[1-dimensional irrep|linear character]] extending $\chi$, then

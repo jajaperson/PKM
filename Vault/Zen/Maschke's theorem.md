@@ -9,7 +9,7 @@ Every [[unitary representation]] is the [[Direct sum of representations|direct s
 and thus any [[representation of a compact group]] is the direct sum of unitary irreps. #m/thm/rep 
 
 > [!check]- Proof
-> Follows from the fact that [[The orthogonal compliment of an invariant subspace under a unitary operator is invariant]] and [[Every representation of a compact group is equivalent to a unitary representation]].
+> Follows from the fact that [[The orthogonal complement of an invariant subspace under a unitary operator is invariant]] and [[Every representation of a compact group is equivalent to a unitary representation]].
 > <span class="QED"/>
 
 This core statement of group representation theory allows for the [[Decomposition of a representation]], 

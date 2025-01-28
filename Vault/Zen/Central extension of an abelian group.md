@@ -28,8 +28,10 @@ c_{0} : A \times A &\to C \\
 (a,b) &\mapsto \ln[s_{a},s_{b}]
 \end{align*}
 $$
-which is [[Alternating multilinear map|alternating]] $\mathbb{Z}$-[[Multilinear map|bilinear]] and independent of $s_{(-)}$.
+which is [[Alternating multilinear map|alternating]] $\mathbb{Z}$-[[Multilinear map|bilinear]] and independent of $s_{(-)}$.[^1988]
 
+
+  [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §5.2, pp. 104ff.
 
 ## Properties
 
@@ -43,7 +45,7 @@ In what follows, if $B \leq A$ is a subgroup let $\hat{B} = \pi^{-1}B$.
   \end{align*}
   $$
   Then $\hat{R} = Z(\hat{A})$. ^P2
-3. The [[Central group extension#Correspondence between 2-cocycles and central extensions|associated 2-cycle]] $\varepsilon_{0} : A \times A \to N$ and associated commutator $c_{0} : A \times A \to B$ are related by
+3. The [[Central group extension#Correspondence between 2-cocycles and central extensions|associated 2-cycle]] $\varepsilon_{0} : A \times A \to C$ and associated commutator $c_{0} : A \times A \to C$ are related by
    $$
   \begin{align*}
   c_{0}(a,b) = \varepsilon_{0}(a,b) - \varepsilon_{0}(b,a)
@@ -76,6 +78,8 @@ In what follows, if $B \leq A$ is a subgroup let $\hat{B} = \pi^{-1}B$.
 > \end{align*}
 > $$
 > proving [[#^P3]]. <span class="QED"/>
+
+
 
 ## Special cases
 

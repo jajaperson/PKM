@@ -32,7 +32,7 @@ where $n \in \mathbb{N}_{0}$ and
 
 $$
 \begin{align*}
-a_{\pm} = \frac{m\omega \hat{x} \mp i\hat{p}}{\sqrt{ 2m\omega \hbar }} = \frac{1}{\sqrt{ 2 }}\left( \hat{\xi} \mp \frac{d}{d\xi} \right)
+\hat{a}_{\pm} = \frac{m\omega \hat{x} \mp i\hat{p}}{\sqrt{ 2m\omega \hbar }} = \frac{1}{\sqrt{ 2 }}\left( \hat{\xi} \mp \frac{d}{d\xi} \right)
 \end{align*}
 $$
 ^ladder

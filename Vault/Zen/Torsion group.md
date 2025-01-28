@@ -1,6 +1,6 @@
 ---
 aliases:
-  - torsion group
+  - torsion element
   - torsion-free
   - exponent
 tags:

@@ -11,8 +11,10 @@ and $V$ be the corresponding [[Natural Heisenberg algebras|$\mathbb Z + \frac{1}
 Defining
 $$
 \begin{align*}
+\alpha(z)^\pm &= \sum_{n \in \pm\left( \mathbb{N}_{0} + \frac{1}{2} \right)} \alpha(n)z^{-n} \\
 \alpha(z) &= \sum_{n \in \mathbb{Z} + \frac{1}{2}} \alpha(n)z^{-n} \\
-E^\pm(z) &= \mathrm{e}^{-D^{-1}\alpha(z)}
+&= \alpha(z) ^+ + \alpha(z)^{-}\\
+E^\pm(\alpha, z) &= \mathrm{e}^{-D^{-1}\alpha(z)^\pm}
 \end{align*}
 $$
 we construct the **twisted vertex operator**

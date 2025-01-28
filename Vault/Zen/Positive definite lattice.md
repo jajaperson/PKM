@@ -33,6 +33,8 @@ Equivalently, the [[quadratic space]] $L_{\mathbb{R}}$ is $\mathbb{R}^{n,0}$ (�
 
   [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §6.1, pp. 122–124
 
+- [[Associated Lie algebra of a positive definite even lattice]]
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

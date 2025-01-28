@@ -99,7 +99,7 @@ Let $W \leq V$ be a [[vector subspace]]. Then
 
 Other properties include
 
-- [[The orthogonal compliment of an invariant subspace under a unitary operator is invariant]]
+- [[The orthogonal complement of an invariant subspace under a unitary operator is invariant]]
 
 #
 ---

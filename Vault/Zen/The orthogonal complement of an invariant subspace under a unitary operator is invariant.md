@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[Invariant subspace]]
-# The orthogonal compliment of an invariant subspace under a unitary operator is invariant
+# The orthogonal complement of an invariant subspace under a unitary operator is invariant
 
 Let $(V, \mathbb{K}, \braket{ \cdot | \cdot })$ be an [[Inner product space]] with [[invariant subspace]] $W \sube V$ under unitary endomorphism $U : V \to V$.
 Then the [[Orthogonal complement]] $W^\perp$ is also invariant under $U$. #m/thm/linalg 
