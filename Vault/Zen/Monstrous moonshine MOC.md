@@ -29,8 +29,9 @@ For now, this Zettel links to files covered in FLM's [[Sources/@frenkelVertexOpe
 - [[Twisted vertex operator representation of sl_2ˆ]]
 - [[Normal ordered product]]
 
-#### Chapter 4
+#### Chapter 5
 
+- [[Central group extension]]
 - [[Central extension of an abelian group]]
 
 #### Chapter 8

@@ -6,7 +6,7 @@ tags:
 # PIE verb aspect
 [[Grammatical aspect]] was an important part of the PIE verb.
 Though it originally appears to have been derivational rather than inflectional in its morphology (see [[#Early PIE]]),
-by [[#Nuclear IE]] it had been reorganised into a “tighter inflectional system”[^p27]
+by [[#Nuclear IE]] it had been reorganized into a “tighter inflectional system”[^p27]
 Aspect was reflected by [[PIE conjugation]].
 
 [^p27]: 2017\. [[Sources/@ringeProtoIndoEuropeanProtoGermanic2017|From Proto-Indo-European to Proto-Germanic]], p. 27

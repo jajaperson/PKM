@@ -14,7 +14,7 @@ $$
 \omega_{0}= \sum_{i=1}^n v_{i}' \otimes v_{i} \in T^2V
 \end{align*}
 $$
-is independent of the choice of $\{ v_{i} \}_{i=1}^n$, #m/thm/linalg  and so is its symmetrization
+is independent of the choice of $\{ v_{i} \}_{i=1}^n$, #m/thm/geoalg and so is its symmetrization
 $$
 \begin{align*}
 \omega_{1} = \sum_{i=1}^n v_{i}'v_{i} \in S^2 V

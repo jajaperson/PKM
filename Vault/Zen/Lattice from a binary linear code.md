@@ -1,11 +1,13 @@
 ---
 tags:
   - public
+aliases:
+  - associated lattice
 ---
 [[Binary linear code]]
 # Lattice from a binary linear code
 
-Let $\mathcal{C} \leq \mathcal{P}(\Omega)$ be a [[binary linear code]] and $\mathbb{K}$ be a field with [[Characteristic|$\opn{char}\mathbb K = 0$]].
+Let $\mathcal{C} \leq \mathcal{P}(\Omega)$ be a [[binary linear code]] and $\mathbb{K}$ be a field with [[Characteristic|$\opn{char}\mathbb K = 0$]],
 and let $\mathbb{K}[\Omega]$ be the [[free module]] so that
 $$
 \begin{align*}
@@ -52,6 +54,8 @@ $$
 > $$
 
   [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §10.2, pp. 302–303
+
+A slight variation on this construction is the [[Altered lattice from a binary linear code]].
 
 ## Properties
 

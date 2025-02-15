@@ -29,10 +29,14 @@ q(x) = \tp x A x
 $$
 A space equipped with a quadratic form is called a [[quadratic space]].
 
+## Further terminology
+
+- See [[Quadratic space#Further terminology]]
+
 ## Properties
 
 - [[Correspondence between quadratic forms and symmetric bilinear forms away from 2]]
-- [[Correspondence between quadratic forms and alternating bilinear forms in characteristic 2]]
+- [[Correspondence between quadratic forms and alternating bilinear forms at 2]]
 - [[Diagonalization of a quadratic form away from 2]]
 
 ## Related

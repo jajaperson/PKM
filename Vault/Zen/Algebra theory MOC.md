@@ -13,6 +13,9 @@ Not to be confused with [[Universal algebra]]
 ## Objects
 
 - [[Algebra over a field]]
+- [[Algebra over a commutative ring]]
+- [[Graded algebra]]
+- [[Superalgebra]]
 - [[Structure constants]]
 
 ## Morphisms

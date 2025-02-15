@@ -20,8 +20,7 @@ there exists a unique linear map $\bar f : V_{1} \otimes V_{2} \to W$ such that 
 
 > [!missing]- Proof
 > #missing/proof
-
-Let $h : V_{1} \times V_{2} \to W$ be a bilinear map.
+> Let $h : V_{1} \times V_{2} \to W$ be a bilinear map.
 
 ## Finite dimensional characterization
 
@@ -88,6 +87,7 @@ $$
 - [[Tensor product of linear maps]] (functor)
 - [[Tensor product of group representations]]
 - [[Tensor algebra]]
+- [[Tensor]]
 
 #
 ---

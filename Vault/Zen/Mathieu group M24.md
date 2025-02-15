@@ -6,7 +6,7 @@ tags:
 [[Sporadic simple group]]
 # $\mathrm{M}_{24}$
 
-The [[Mathieu group]] $\mathrm{M}_{24}$ is a non-abelian [[sporadic simple group]] of order
+The [[Mathieu group]] $\mathrm{M}_{24}$ is a [[sporadic simple group]] of order
 $$
 \begin{align*}
 \abs{\mathrm{M}_{24}} = 2^{10} \cdot 3^3 \cdot 5 \cdot 7 \cdot 11 \cdot 23 = 244\,823\,040

@@ -6,7 +6,7 @@ tags:
 # Point group
 
 A **point group** is a group of [[isometry group|isometries]] with a fixed point. #m/def/group
-Thus in [[Euclidean space]] $\mathbb{E}^n$, isometry groups are subgroups of the [[real orthogonal group]] $\mathrm{O}(n)$,
+Thus in [[Euclidean space]] $\mathbb{E}^n$, point groups are subgroups of the [[real orthogonal group]] $\mathrm{O}(n)$,
 consisting of rotations, reflections, and inversions.
 
 

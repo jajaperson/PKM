@@ -16,14 +16,21 @@ i.e. for any $x,y,z \in V$ and $a,b,c \in \mathbb{K}$
 
 This may be generalized to an [[Algebra over a commutative ring]].
 
-## Classification
-
-- [[Unital associative algebra]]^[In these notes I will try and reserve infix notation for associative algebras, as there is a tendency to assume such things to be associative.]
-
 ## Examples
 
-- [[Matrix algebra]]
-- [[Lie algebra]]
+- [[Unital associative algebra]]^[In these notes I will try and reserve infix notation for associative algebras, as there is a tendency to assume such things to be associative.]
+    - Commutative
+        - [[Complex number]]
+        - [[Quaternion]] (non-commutative)
+        - [[Symmetric algebra]]
+    - Non-commutative
+        - [[Matrix algebra]]
+        - [[Endomorphism ring]]
+        - [[Tensor algebra]]
+        - [[Clifford algebra]]
+        - [[Extension field as a unital associative algebra]]
+- Non-associative
+    - [[Lie algebra]]
 
 ## Properties
 

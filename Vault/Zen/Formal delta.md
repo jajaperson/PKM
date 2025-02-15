@@ -12,6 +12,8 @@ $$
 \end{align*}
 $$
 
+given by the [[Zen/Fourier series|Fourier series]] expansion of the [[Dirac delta]].
+
   [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §2.1–§2.2, p. 52ff
 
 ## Properties

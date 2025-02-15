@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[Group action]]
-# Orbit-stabiliser theorem
+# Orbit-stabilizer theorem
 
 Given an [[Group action|action]] of a finite group $G$ on a set $M$,
 for a given point $m \in M$

@@ -293,4 +293,4 @@ Since the s-perfective mediopassive was remodelled in every daughter, we can onl
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

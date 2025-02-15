@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - commutator algebra
 ---
 [[Algebra theory MOC]]
 # Commutator
@@ -13,6 +15,7 @@ $$
 \end{align*}
 $$
 which together with the associative product of $A$ forms a [[Poisson algebra]].
+The **commutator algebra** or **associated Lie algebra** is sometimes denoted $A^{-}$, and a version with a renormalized product $(-) \times (-) = \frac{1}{2}[-,-]$ is denoted $A^{-1/2}$.
 
 > [!check]- Proof of Poisson algebra
 > Clearly for all $x,y,z \in A$ and $\lambda,\mu \in \mathbb{K}$
@@ -43,6 +46,8 @@ which together with the associative product of $A$ forms a [[Poisson algebra]].
 > $$
 > as required.
 > <span class="QED"/>
+
+See also [[Anticommutator]] and [[Supercommutator]].
 
 ## Properties
 

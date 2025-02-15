@@ -39,7 +39,7 @@ Then $Q_{n}$ may be transformed into one of the following forms:[^2020] #m/thm/g
   Q_{n}(\mathbf{X}) = X_{0}X_{1} + X_{2}X_{3} + \dots + X_{n-3}X_{n-2} + f(X_{n-1},X_{n})
   \end{align*}
   $$
-  where $f(X_{n-1}, X_{n})$ is an [[Irreducible polynomial|irreducible]] homogenous quadratic.
+  where $f(X_{n-1}, X_{n})$ is an [[Irreducible polynomial|irreducible]] homogenous quadratic form.
 
 > [!missing]- Proof
 > #missing/proof

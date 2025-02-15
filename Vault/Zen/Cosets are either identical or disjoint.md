@@ -5,7 +5,7 @@ tags:
 [[Coset]]
 # Cosets are either identical or disjoint
 
-Let $G$ be a group, $g_{1}, g_{2} \in G$, and $H \sube G$ be a subgroup.
+Let $G$ be a group, $g_{1}, g_{2} \in G$, and $H \leq G$ be a subgroup.
 #m/thm/group  Then the left [[Coset|cosets]] $g_{1}H, g_{2}H$ are
 
 - identical iff $g_{1}^{-1}g_{2} \in H$

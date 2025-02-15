@@ -8,7 +8,7 @@ aliases:
 [[Lie algebras MOC]]
 # Affine Lie algebra
 
-Let $\mathfrak{g}$ be a [[quadratic Lie algebra]] with a symmetric $\mathfrak{g}$-[[Invariant bilinear form on a Lie algebra|invariant bilinear form]] $\langle \cdot,\cdot \rangle$,.
+Let $\mathfrak{g}$ be a [[quadratic Lie algebra]] with a symmetric $\mathfrak{g}$-[[Invariant bilinear form on a Lie algebra|invariant bilinear form]] $\langle \cdot,\cdot \rangle$.
 The corresponding **affine Lie algebra** $\hat{\mathfrak{g}}$ is a certain [[Graded Lie algebra|graded]] [[Lie algebra extension#^central]] of the [[Loop algebra]] $\mathfrak{g} \otimes \mathbb{K}[t,t^{-1}]$.[^FLM]
 Thence one can construct the corresponding **extended affine Lie algebra** $\tilde{\mathfrak{g}}$ by [[adjoining the degree derivation]].
 A generalization is the [[Twisted affine Lie algebra]].
@@ -82,11 +82,11 @@ $$
 \tilde{\mathfrak{g}} = \hat{\mathfrak{g}} \rtimes  \mathbb{K}d
 \end{align*}
 $$
-giving the gradation[^not] 
+giving the $\mathbb{Z}$-gradation[^not] 
 $$
 \begin{align*}
 \tilde{\mathfrak{g}}_{n} = \begin{cases}
-\mathfrak{g} \otimes t^n & n \neq 0 \\ \\
+\mathfrak{g} \otimes t^n & n \neq 0 \\ 
 \mathfrak{ g} \oplus \mathbb{K}c \oplus \mathbb{K}d & n=0
 \end{cases}
 \end{align*}
@@ -130,6 +130,7 @@ c &\mapsto c \\
 d &\mapsto d
 \end{align*}
 $$
+We also have a natural inclusion $\iota: 1 \to \hat{\cdot} : \cat{Lie}_{\mathbb{K}} \to \cat{Lie}_{\mathbb{K}}$.
 
 ## Particular affine Lie algebras and related constructions
 

@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[Quadratic form]]
-# Correspondence between quadratic forms and alternating bilinear forms in characteristic 2
+# Correspondence between quadratic forms and alternating bilinear forms at 2
 
 Let $\mathbb{K}$ be a [[field]] with [[Characteristic|$\opn{char}\mathbb K = 2$]] and $V$ be a [[vector space]] over $\mathbb{K}$.
 1. For every [[quadratic form]] $q : V\to \mathbb{K}$

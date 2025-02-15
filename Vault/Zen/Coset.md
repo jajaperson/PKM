@@ -5,7 +5,7 @@ tags:
 [[Group theory MOC]]
 # Coset
 
-Given a subgroup $H \sube G$, the **left coset** of $H$ in an element $g \in G$ is defined as #m/def/group 
+Given a subgroup $H \leq G$, the **left coset** of $H$ in an element $g \in G$ is defined as #m/def/group 
 $$
 \begin{align*}
 gH = \{ gh : h \in H \} \sube G

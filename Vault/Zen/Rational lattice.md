@@ -8,7 +8,7 @@ mathLink-blocks:
 [[Geometry MOC]]
 # Rational lattice
 
-A **rational lattice** $L$ of rank $n$ is the $\mathbb{Z}$-span of a basis of an $n$-dimensional [[quadratic space]] $L_{\mathbb{Q}}$ over [[rational numbers]]. #m/def/geo 
+A **rational lattice** $L$ of rank $n$ is the $\mathbb{Z}$-span of a basis of an $n$-dimensional [[quadratic space]] $L_{\mathbb{Q}}$ over [[Rational numbers]]. #m/def/geo 
 Equivalently, a rational lattice $L$ is a $n$-dimensional $\mathbb{Z}$-[[module]] with a symmetric $\mathbb{Z}$-[[Multilinear map|bilinear map]]
 $$
 \begin{align*}

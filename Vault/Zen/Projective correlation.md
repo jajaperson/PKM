@@ -7,7 +7,7 @@ aliases:
 [[Abstract projective space]]
 # Projective correlation
 
-A **correlation** of a projective space $\mathcal{S}$ is a [[Collineätion]] $\alpha : \mathcal{S} \to \mathcal{S}^*$ into the [[Dual projective space]]. #m/def/geo
+A **correlation** of a projective space $\mathcal{S}$ is a [[Collineätion]] $\alpha : \mathcal{S} \to \op{\mathcal{S}}$ into the [[Dual projective space]]. #m/def/geo
 
 ## Further terminology
 

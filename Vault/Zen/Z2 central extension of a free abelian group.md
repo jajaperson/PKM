@@ -25,7 +25,7 @@ $$
 c_{1}: \check A \times \check A \to \mathbb{Z}_{2}
 \end{align*}
 $$
-By [[Correspondence between quadratic forms and alternating bilinear forms in characteristic 2]] we have a quadratic form
+By [[Correspondence between quadratic forms and alternating bilinear forms at 2]] we have a quadratic form
 $$
 \begin{align*}
 q_{1} : \check A \to \mathbb{Z}_{2}

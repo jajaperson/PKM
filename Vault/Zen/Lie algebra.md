@@ -9,7 +9,7 @@ mathLink-blocks:
 [[Lie algebras MOC]]
 # Lie algebra
 
-A **Lie algebra** $\mathfrak{g}$ is a [[vector space]] over a field $\mathbb{K}$ with an [[Alternating multilinear map|alternating bilinear map]] $[-,-]: \mathfrak{g} \times \mathfrak{g} \to \mathfrak{g}$ satisfying the Jacobi identity #m/def/lie 
+A **Lie algebra** $\mathfrak{g}$ is a [[vector space]] over a field $\mathbb{K}$ with an [[Alternating multilinear map|alternating bilinear map]] $[-,-]: \mathfrak{g} \times \mathfrak{g} \to \mathfrak{g}$ satisfying the **Jacobi identity** #m/def/lie 
 $$
 \begin{align*}
 [X,[Y,Z]] + [Y,[Z,X]] + [Z,[X,Y]] = 0
@@ -19,7 +19,10 @@ $$
 
 which [[away from 2]] is equivalent to demanding the Lie bracket is a derivation on itself (see [[adjoint Lie algebra representation#^P1]]).
 A Lie algebra is one of the simplest kinds of non-associative, non-commutative [[Algebra over a field|algebras]] (in fact it is anticommutative).
-Every [[Lie group]] has a corresponding Lie algebra, given by the tangent at identity.
+
+Lie algebras were first encountered as tangent spaces of [[Lie group|Lie groups]].
+They naturally arise as the [[Commutator|commutator algebra]] of a unital associative algebra,
+and the existence of the [[universal enveloping algebra]] gives a sense in which all Lie algebras are of this form.
 
 ## Further terminology
 

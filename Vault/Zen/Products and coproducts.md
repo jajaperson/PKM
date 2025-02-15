@@ -8,7 +8,7 @@ aliases: categorical product, coproduct
 # Products and coproducts
 
 **Products** and **coproducts** are tuples of objects and morphisms within a category which, if they exist, are unique up to isomorphism
-The categorical product and coproduct generalise the [[cartesian product]] and [[Disjoint union]] in [[Category of sets|Set]] respectively.
+The categorical product and coproduct generalise the [[cartesian product]] and [[Disjoint union]] in [[Category of sets]] respectively.
 
 In a category $\cat C$ the product of objexts $\{ X_{i} \}_{i \in I}$ is an object $X = \prod_{i \in I} X_{i}$ together with morphisms $\pi_{i} \in \cat C(X,X_{i})$ such that for any $Y$ and $f_{i} \in \cat C(Y,X_{i})$,
 there exists a unique $f \in \cat C(Y,X)$ so that $f_{i} = \pi_{i}f$.[^loo] #m/def/cat

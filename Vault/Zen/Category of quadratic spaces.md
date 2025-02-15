@@ -14,8 +14,7 @@ tags:
 
 The **category of quadratic spaces** $\cat{QVect}_{\mathbb K}$ is a [[category]] where
 an object is a [[Quadratic space]] over $\mathbb K$
-and a morphism is a isometric $\mathbb K$-[[linear map]]. #m/def/linalg 
-
+and a morphism is a isometric $\mathbb K$-[[linear map]]. #m/def/geoalg 
 
 #
 ---

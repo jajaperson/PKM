@@ -12,7 +12,7 @@ A [[rational lattice]] $L$ is **unimodular** iff its [[Gram matrix|Gram determin
 An [[Rational lattice#^integral]] unimodular lattice is said to be
 
 - **type I** iff it is odd;
-- **type II** iff it is [[Rational lattice#^even]].
+- **type II** iff it is [[Even lattice|even]].
 
 
 #

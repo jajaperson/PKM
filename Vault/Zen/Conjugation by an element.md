@@ -18,7 +18,7 @@ or for the right-action variant, $a^b = b^{-1}ab$.
 Conjugation by a given element is an [[automorphism]] of the group,
 such that $\widehat{\cdot} : G \to \Aut(G)$ constitutes a [[group action]].
 The [[Group action orbit|orbit]] of an element $x \in G$ is its [[#Conjugacy class]] $[x]_{\sim}$,
-while its [[Stabilizer group]] is its [[Centralizer in a group|centraliser group]].
+while its [[Stabilizer group]] is its [[Centralizer in a group|centralizer group]].
 An automorphism given by conjugation is called an **inner automorphism**,
 and the image $\widehat{G} = \mathrm{Inn}(G) \trianglelefteq \Aut(G)$ forms the [[Inner group automorphism|inner automorphism group]].
 

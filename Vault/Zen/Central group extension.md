@@ -1,6 +1,11 @@
 ---
 tags:
   - public
+aliases:
+  - central extension of a group
+mathLink-blocks:
+  2-cocycle: 2-cocycle
+  2-coboundary: 2-coboundary
 ---
 [[Group extension]]
 # Central group extension
@@ -29,7 +34,7 @@ $$
 \varepsilon_{0}(a,b) + \varepsilon_{0}(ab,c) &= \varepsilon_{0}(b,c) + \varepsilon_{0}(a,bc) & \forall a,b,c \in G
 \end{align*}
 $$
-^2-cocyle
+^2-cocycle
 
 and the 2-coboundaries $B^2(G,B)$ are 2-cochains such that
 $$
@@ -37,7 +42,7 @@ $$
 \varepsilon_{0}(ab) &= \eta(ab) - \eta(a) - \eta(b) & \forall a,b \in G
 \end{align*}
 $$
-^2-boundary
+^2-coboundary
 
 for some 1-cochain $\eta : A \to B$.
 Thus, in particular, $\mathbb{Z}$-[[Multilinear map|bilinear]] maps $A \times A \to B$ are 2-cocycles.

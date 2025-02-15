@@ -8,7 +8,7 @@ tags:
 The **Plücker embedding** $\iota : \mathrm{Gr}_{k}(V) \hookrightarrow \mathrm{P}({\textstyle\bigwedge}^k V)$ embeds the [[Grassmannian]] $\mathrm{Gr}_{k}(V)$ of $k$-dimensional subspaces of $V$ into the [[projectivization]] $\mathrm{P}({\textstyle\bigwedge}^k V)$ of the $k$-th [[Exterior algebra|exterior power]] of $V$. #m/def/geo 
 $$
 \begin{align*}
-\iota : \span \{w_{i}\}_{i=1}^k \mapsto \left[\bigwedge_{i=1}^kw_{k}\right]
+\iota : \span \{w_{i}\}_{i=1}^k \mapsto \left[\bigwedge_{i=1}^kw_{i}\right]
 \end{align*}
 $$
 Since the wedge product of linearly independent vectors are proportional iff they span the same linear subspace,

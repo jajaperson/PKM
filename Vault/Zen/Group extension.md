@@ -7,6 +7,8 @@ mathLink-blocks:
   split: split extension
   trivial: trivial extension
   equivalent: equivalent
+aliases:
+  - extension of a group
 ---
 [[Group theory MOC]]
 # Group extension
@@ -31,7 +33,7 @@ Two extensions $G_{1},G_{2}$ of $A$ by $B$ are said to be **equivalent** iff the
 
 Consider an extension $1 \to B \to G \stackrel{p}{\twoheadrightarrow} A \to 1$.
 
-1. Iff$B$ is [[Abelian Lie algebra|abelian]], one speaks of an **abelian extension**, ^abelian
+1. Iff $B$ is [[Abelian Lie algebra|abelian]], one speaks of an **abelian extension**, ^abelian
 2. Iff $B \hookrightarrow G$ is [[Centre of a group|central]], one speaks of a **[[Central group extension|central extension]]**. ^central
 3. Iff $G \cong B \rtimes A$ ([[Semidirect product]]), one speaks of a **split extension**, equivalently $p$ is [[Split epimorphism|split epic]]. ^split
 4. Iff $\mathfrak{g} \cong \mathfrak{b} \times \mathfrak{a}$ ([[Direct product of groups]]), one speaks of a **trivial extension**. ^trivial

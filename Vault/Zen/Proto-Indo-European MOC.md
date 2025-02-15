@@ -13,11 +13,10 @@ The reconstructed ancestral language is **Proto-Indo-European**, or **PIE**.
 
 ![[A probable cladistic tree of IE#A probable cladistic tree of IE]]
 
-## Morphology
-See [[PIE morphology MOC]]
+## Grammar
 
-## Phonology
-See [[PIE phonology MOC]]
+- [[PIE morphology MOC]]
+- [[PIE phonology MOC]]
 
 
 ## Archeology and anthropology

@@ -13,7 +13,7 @@ the target [[Vector subspace]].
 Hence it is sometimes referred to as the **range** or the **image** of a matrix.
 
 Dually, the **row space** $\rowsp A$ of a matrix $A$ is the span of its rows. #m/def/linalg 
-It is therefore the range of [[covectors|linear functionals]] made by premultiplying the matrix by a linear functional.
+It is therefore the range of [[Linear form|linear functionals]] made by premultiplying the matrix by a linear functional.
 
 ## Basis
 A basis for a **row space** can be performed by performing [[Gaußian elimination]] on the matrix $A$,

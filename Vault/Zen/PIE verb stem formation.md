@@ -84,7 +84,7 @@ Naturally thematic stems are always inflected. <!--SR:!2023-11-14,10,150-->
 - **Derivational athematic**
   - ∅-grade adjective + <em class="recon">-éh₁-</em> → stative (formed a [[Caland root]]) %% fold %%
     - <em class="recon">h₁rudʰ-éh₁-</em> ‘be red’ ← <em class="recon">h₁rewdʰ-</em> ‘red’
-  - adjective + <em class="recon">-h₂-</em> → factitive %% fold %%
+  - adjective + <em class="recon">-h₂-</em> → [[Factitive verb|factitive]] %% fold %%
     - <em class="recon">néwa-h₂-</em> ‘renew’ ← <em class="recon">néwo-</em> ‘new’
 - **Derivational thematic**
   - o-grade verb + <em class="recon">-éye/o-</em> → transitives, sometimes causative or iterative %% fold %%
@@ -174,4 +174,4 @@ These are my own observations based on the conjugations to be observed in Ringe.
 
 #
 ---
-#state/tidy | #lang/en | #SemBr | #flashcards/linguistics/PIE/morphology 
+#state/tidy | #modelnote | #lang/en | #SemBr | #flashcards/linguistics/PIE/morphology 

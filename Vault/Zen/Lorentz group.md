@@ -11,9 +11,9 @@ The **Lorentz group** $L=\mathrm{O}(3,1)$ is the [[group]] of all [[Linear map|l
 i.e.
 $$
 \begin{align*}
-\mathrm{O}(3,1) &= \{ \Lambda \in \mathrm{GL}_{\mathbb{R}}(4) : \eta(\Lambda x,\Lambda y) = \eta(x,y) \quad \forall x,y \in \mathbb{R}^4 \} \\ 
-&= \{ \Lambda \in \mathrm{GL}_{\mathbb{R}}(4) : \tp \Lambda \eta \Lambda = \eta \} \\
-&= \{ (\Lambda^\mu{}_{\nu}) \in \mathrm{GL}_{\mathbb{R}}(4) : \Lambda^\mu{}_{\kappa}\eta_{\mu \nu}\Lambda^\nu{}_{{\lambda}} = \eta_{\kappa\lambda}  \}
+\mathrm{O}(3,1) &= \{ \Lambda \in \mathrm{GL}_{4}(\mathbb{R}) : \eta(\Lambda x,\Lambda y) = \eta(x,y) \quad \forall x,y \in \mathbb{R}^4 \} \\ 
+&= \{ \Lambda \in \mathrm{GL}_{\mathbb{4}}(\mathbb{R}) : \tp \Lambda \eta \Lambda = \eta \} \\
+&= \{ (\Lambda^\mu{}_{\nu}) \in \mathrm{GL}_{4}(\mathbb{R}) : \Lambda^\mu{}_{\kappa}\eta_{\mu \nu}\Lambda^\nu{}_{{\lambda}} = \eta_{\kappa\lambda}  \}
 \end{align*}
 $$
 where $\eta$ is the Minkowski metric tensor.[^2018]

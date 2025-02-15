@@ -12,7 +12,7 @@ PIE laryngeals were deleted in a number of circumstances when not adjacent to a 
   Since in some categories the <em class="recon">o</em> grade is more common, this can mean an underlying <em class="recon">H</em> rarely surfaces.
   - e.g. <em class="recon">terh₁-</em> ‘bore’, <em class="recon">tórmos</em> ‘borehole’
   - <em class="recon">/o-yh₁-/</em>, the [[PIE verb stem formation#Mood|Core IE thematic optative]].
-- **Pinault's rule** A _laryngeal_ preceded by a (underlying) _non-syllabic_ followed by an (underlying)_ \*/y/_ is deleted.[^wiki]
+- **Pinault's rule** A _laryngeal_ preceded by an (underlying) _non-syllabic_ followed by an (underlying)_ \*/y/_ is deleted.[^wiki]
   - e.g. imperfective stem of root <em class="recon">werh₁-</em> ‘to say’ is <em class="recon">wéry(e/o)-</em>
   - imperfective stem of root <em class="recon">h₂arh₃-</em> ‘to plow’ is <em class="recon">h₂ary(e/o)-</em>
   - contrast with imperfective stem of root <em class="recon">snéh₁-</em> ‘to spin’ is <em class="recon">sneh₁ye/o-</em>

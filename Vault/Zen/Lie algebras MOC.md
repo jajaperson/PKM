@@ -7,6 +7,7 @@ tags:
 
 While the [[Lie algebra]] was first invoked to study the [[Lie group]],
 they are an interesting object in their own right.
+See also the more general [[Algebra theory MOC]].
 
 ## Objects
 
@@ -20,6 +21,7 @@ they are an interesting object in their own right.
 
 ### Special constructions of Lie algebras
 
+- [[Associated Lie algebra of a positive definite even lattice]]
 - [[Affine Lie algebra]]
 - [[Twisted affine Lie algebra]]
 
@@ -51,7 +53,6 @@ they are an interesting object in their own right.
 - [[Lie algebra ideal]]
 - [[Centralizer in a Lie algebra]]
 - [[Normalizer in a Lie algebra]]
-- [[Centre of a Lie algebra]]
 - [[Centre of a Lie algebra]]
 - [[Radical of a Lie algebra]]
 
