@@ -17,7 +17,9 @@ Note some of these might not exist, depending on the logic used.
 | $p$ implies $q$ | $p \Rightarrow q$     |
 | $p$ iff $q$     | $p \Leftrightarrow q$ |
 | tautology       | $\top$                |
-| falsum          | $\bot$                      |
+| falsum          | $\bot$                |
+
+We use square brackets $[-]$ as delimiters of propositions.
 
 #
 ---

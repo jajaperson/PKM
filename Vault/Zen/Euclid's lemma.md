@@ -4,25 +4,21 @@ tags:
 ---
 [[Number theory MOC]]
 # Euclid's lemma
-**Euclid's lemma** is a key step for proving the [[Fundamental theorem of arithmetic]].
-It is often formulated as
-
-> Given $p \mid ab$ where $p,a,b\in\mathbb{N}$ and $p$ is prime, 
-> then $p \mid a$ and/or $p \mid b$.
-> #m/thm/num
-
- However it can be generalised to
+**Euclid's lemma** is a key step for proving the [[Fundamental theorem of arithmetic]]:
+Given $p \mid ab$ where $p,a,b\in\mathbb{N}$ and $p$ is prime, 
+then $p \mid a$ and/or $p \mid b$. #m/thm/num
+We may generalize this to
 
 $$
 \begin{align*}
-{n \mid ab \quad \land \quad \gcd(n,a) = 1}
-\over
-{n \mid b}
+[n \mid ab]  \land  [\gcd(n,a) = 1]
+\implies
+n \mid b
 \end{align*}
 $$
 
 
-> [!check]- Proof of the generalised form
+> [!check]- Proof
 > Since $n$ and $a$ are relatively prime,
 > by [[GCD is a linear combination|Bézout's lemma]] there exists $s,t \in \mathbb{Z}$ such that $1 = sn + ta$.
 > Multiplying both sides by $b$, we have $b = snb + tab$,

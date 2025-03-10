@@ -20,7 +20,7 @@ Often one also requires
 
 We will call a reduced crystallographic root system an **RC root system**.
 A root system which is not necessarily RC will sometimes be called a **general root system** for emphasis.
-Denoting the bilinear product on $\mathbb{E}$ as $(\cdot ,\cdot)$
+Denoting the bilinear product on $\mathbb{E}$ as $(\cdot ,\cdot)$ we define
 $$
 \begin{align*}
 \langle \beta,\alpha \rangle = 2 \frac{(\beta,\alpha)}{(\alpha,\alpha)} 
@@ -29,7 +29,7 @@ $$
 which is linear in $\beta$ only, whence
 $$
 \begin{align*}
-\sigma_{\alpha}(\beta) = \beta - \langle \beta,\alpha \rangle 
+\sigma_{\alpha}(\beta) = \beta - \langle \beta,\alpha \rangle \alpha
 \end{align*}
 $$
 and we may reëxpress [[#^R4]] as[^1972]

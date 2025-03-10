@@ -4,12 +4,11 @@ tags:
 aliases:
   - associated squaring map
   - extraspecial 2-group
-mathLink: $\mathbb{Z}_{2}$ central extension of an elementary abelian 2-group
 ---
 [[Central extension of an abelian group]]
-# $\mathbb{Z}_{2}$ central extension of an elementary abelian 2-group
+# 2 central extension of an elementary abelian 2-group
 
-Let $E$ an an [[Elementary abelian group|elementary abelian]] [[p-group|2-group]] ($\mathbb{Z}_{2}$-[[vector space]]) of rank $n$ and consider a [[Central extension of an abelian group|central extension]] 
+Let $E = 2^n$ an an [[Elementary abelian group|elementary abelian]] [[p-group|2-group]] ($\mathbb{Z}_{2}$-[[vector space]]) of rank $n$ and consider a [[Central extension of an abelian group|central extension]] 
 $$
 \begin{align*}
 1 \to \mathbb{Z}_{2}^+ \stackrel{\exp}{\hookrightarrow} \hat{E} \stackrel{\pi}{\twoheadrightarrow} E \to 1

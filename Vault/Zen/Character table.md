@@ -12,12 +12,12 @@ Then $\chi^\alpha_{c} = \chi^\alpha(x)$ for all $x \in C_{c}$.
 
 [^square]: Since [[The number of conjugacy classes equals the number of non-equivalent irreps of a group]].
 
-| $\mathbb{Z}_{2} \times \mathbb{Z}_{2}$     | $\{ (0,0) \}$ | $\{ (1,1) \}$ | $\{ (1,0) \}$ | $\{ (0,1) \}$ |
-| ------------------------------------------ | -------------:| -------------:| -------------:| -------------:|
-| $\chi^1$ (trivial)                         |           $1$ |           $1$ |           $1$ |           $1$ |
-| $\chi^2$ ([[Alternating character\|sign]]) |           $1$ |          $-1$ |          $-1$ |          $-1$ |
-| $\chi^3$                                   |           $1$ |          $-1$ |          $-1$ |           $1$ |
-| $\chi^4$                                   |           $1$ |          $-1$ |           $1$ |          $-1$ |
+| $\mathbb{Z}_{2} \times \mathbb{Z}_{2}$ | $\{ (0,0) \}$ | $\{ (1,1) \}$ | $\{ (1,0) \}$ | $\{ (0,1) \}$ |
+| -------------------------------------- | -------------:| -------------:| -------------:| -------------:|
+| $\chi^1$ (trivial)                     |           $1$ |           $1$ |           $1$ |           $1$ |
+| $\chi^2$                               |           $1$ |          $-1$ |          $-1$ |          $-1$ |
+| $\chi^3$                               |           $1$ |          $-1$ |          $-1$ |           $1$ |
+| $\chi^4$                               |           $1$ |          $-1$ |           $1$ |          $-1$ |
 
 
 Properties characterising the character table, and thereby useful for determining its entries, include the [[Square sum of irrep dimensions]] and the [[Orthonormality of irreducible characters]], which gives

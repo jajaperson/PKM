@@ -48,7 +48,7 @@ such that the [[Central extension of an abelian group|associated commutator map]
 
 ## Special cases
 
-- [[Z2 central extension of an elementary abelian 2-group]]
+- [[2 central extension of an elementary abelian 2-group]]
 
 #
 ---

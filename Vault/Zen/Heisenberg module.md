@@ -28,7 +28,7 @@ These modules form an important [[Modules of a Heisenberg algebra|parameterized 
 ## Construction
 
 Let $\mathfrak{b}^+ = \mathfrak{l}_{0} \oplus \mathfrak{l}^+$
-Let $\mathbb{K}_{k}$ b $\mathbb{Z}$-graded $\mathfrak{b}^+$-module defined by
+Let $\mathbb{K}_{k}$ be the $\mathbb{Z}$-graded $\mathfrak{b}^+$-module defined by
 $$
 \begin{align*}
 z \odot 1 &= k & \mathfrak{l}^+ \odot  1 &= 0 & \deg 1 = 0

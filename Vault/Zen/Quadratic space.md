@@ -20,7 +20,7 @@ $$
 The value of $q(v)$ is called the **quadrance**[^wild] of $v \in V$.
 
   [^cav]: [[Away from 2]], see [[Correspondence between quadratic forms and symmetric bilinear forms away from 2]]
-  [^wild]: This term is due to [[N. Wildberger]], which is not to say that I am a wildbergerian.
+  [^wild]: This term is due to [[N. Wildberger]], which is not to say that I am a wildbergerian. I just like the word.
 
 ## Further terminology
 

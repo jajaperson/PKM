@@ -8,7 +8,7 @@ aliases:
 [[sl_2]]
 # Affine Lie algebras of $\opn{\mathfrak{sl}}_{2} \mathbb{K}$
 
-Let $\mathfrak{a} =$ [[sl_2]] with its Chevalley basis and let $\sigma_{3}$ be the [[Pauli matrices|suggestively named]][^Pauli] involutive isometries of $\mathfrak{a}$ defined by #m/def/lie 
+Let $\mathfrak{a} =$ [[sl_2]] with its Chevalley basis and let $\sigma_{i}$ be the [[Pauli matrices|suggestively named]][^Pauli] involutive isometries of $\mathfrak{a}$ defined by #m/def/lie 
 $$
 \begin{align*}
 \sigma_{1} : \alpha_{1} & \mapsto -\alpha_{1} &
@@ -117,7 +117,7 @@ Taking a [[Formal series over an (un)twisted affine Lie algebra|formal series ap
 > $$
 
 > [!info]- For $\hat{\mathfrak{a}}_{1}$
-> In $\hat{\mathfrak{a}}_{2}\d[z^{1/2},z^{-1/2}\d]$ we define the formal sums
+> In $\hat{\mathfrak{a}}_{1}\d[z^{1/2},z^{-1/2}\d]$ we define the formal sums
 > $$
 > \begin{align*}
 > x_{\pm \alpha_{1}}(z) &= \frac{1}{2} \sum_{n \in \mathbb{Z}}(x_{\alpha_{1}}^+ \otimes t^n) z^{-n} \pm \frac{1}{2} \sum_{n \in \mathbb{Z} + \frac{1}{2}} (x_{\alpha_{1}}^{-} \otimes t^n)z^{-n} \\

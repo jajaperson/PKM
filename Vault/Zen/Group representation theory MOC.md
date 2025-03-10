@@ -45,6 +45,10 @@ The main category of interest here is  [[Category of group representations]].
 
 - [[Representation theory of finite symmetric groups]]
 
+## Misc
+
+- [[McKay quiver]]
+
 #
 ---
 #state/develop | #lang/en | #SemBr 

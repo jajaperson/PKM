@@ -14,7 +14,7 @@ $$
 \Omega_{V} = \{ v \in V : A^+ \odot v = 0 \} = \bigoplus _{i \in \mathbb{Z}} \Omega_{V_{i}}
 \end{align*}
 $$
-and is a [[graded submodule]], i.e. all vacuum vector are linear combinations of homogenous vacuum vectors.[^1988]
+and is a [[graded vector subspace]], i.e. all vacuum vector are linear combinations of homogenous vacuum vectors.[^1988]
 
 > [!check]- Proof
 > Let $v \in V$ be a vacuum vector.

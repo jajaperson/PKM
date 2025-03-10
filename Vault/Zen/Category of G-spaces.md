@@ -24,9 +24,7 @@ f(g \cdot x) = g \cdot f(x)
 \end{align*}
 $$
 for any $x \in X$ and $g \in G$. 
-An isomorphism of $G$-spaces is sometimes called a **permutational isomorphism**.[^bamb]
-
-[^bamb]: This terminology is used by [[John Bamberg]] et al.
+An isomorphism of $G$-spaces is sometimes called an **equivalence of actions**.
 
 #
 ---

@@ -5,7 +5,7 @@ tags:
 [[Integral domain]]
 # A finite integral domain is a field
 
-Let $D$ be a finite [[Integral domain]]. Then $D$ is a [[Field]], i.e. every nonzero element of $D$ is a [[Units and zero-divisors|unit]]. #m/thm/ring 
+Let $D$ be a finite [[Integral domain]]. Then $D$ is a [[Field]], i.e. every nonzero element of $D$ is a [[Unit|unit]]. #m/thm/ring 
 
 > [!check]- Proof
 > Let $a$ be a nonzero, non-unity element of $D$ (if it is unity it is trivially a unit).

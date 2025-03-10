@@ -11,7 +11,8 @@ $$
 \ker f = \{ g \in G : f(g) = e_{H} \}
 \end{align*}
 $$
-Every kernel is a [[Normal subgroup]] #m/thm/group 
+Every kernel is a [[Normal subgroup]], #m/thm/group 
+and vice versa (see [[quotient group]]).
 
 > [!check]- Proof of normal subgroup
 > Clearly $e \in \ker f$.

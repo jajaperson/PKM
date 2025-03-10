@@ -5,7 +5,7 @@ tags:
 [[Formal sums over a vector space]]
 # Formal sums over a Lie algebra
 
-Let $\mathfrak{l}$ be [[Lie algebra]] over $\mathbb{K}$ and consider [[Formal sums over a vector space|formal sums]] $\mathfrak{l}\{ z \}$ over $\mathfrak{g}$.
+Let $\mathfrak{l}$ be [[Lie algebra]] over $\mathbb{K}$ and consider [[Formal sums over a vector space|formal sums]] $\mathfrak{l}\{ z \}$ over $\mathfrak{l}$.
 Then we have the [[Alternating multilinear map|alternating]] [[Multilinear map|bilinear]] map #m/def/fcalc
 $$
 \begin{align*}

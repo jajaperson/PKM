@@ -12,6 +12,7 @@ G_{m} = \{ g \in G : gm = m \}
 \end{align*}
 $$
 The stabiliser is a subgroup. #m/thm/group 
+We may also talk about the **pointwise stabilizer** $G_{(\Delta)}$ and the **setwise stabilizer** $G_{\Delta}$ of a subset $\Delta \sube M$
 
 > [!check]- Proof of subgroup
 > Clearly $e \in G_{m}$.

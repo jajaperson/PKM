@@ -14,7 +14,7 @@ That is, for any integer $n > 1$ there exists one and only one finite, increasin
 > We can then show that given any two sequences of primes factorising some  integer $n > 1$,
 > any element of one must be an element of the other. <span class="QED"/>
 
-
+More generally, a ring in which this holds is called a [[Unique factorization domain]].
 
 #
 ---

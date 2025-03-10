@@ -44,7 +44,7 @@ $$
 (\otimes_{B}) = \pi \circ (\otimes_{\mathbb{K}})
 \end{align*}
 $$
-defines a representation of $B$,
+defines a representation of $A$,
 and the inclusion is given by
 $$
 \begin{align*}
@@ -53,8 +53,11 @@ v &\mapsto 1 \otimes_{B} v
 \end{align*}
 $$
 
-> [!missing]- Proof of the universal property
-> #missing/proof
+> [!check]- Proof of the universal property
+> Let $W$ be an $A$-module and $f : V \to W$ be a $B$-module homomorphism.
+> Then for the above diagram to commute, we require that $\bar f( \iota(v)) = \bar f(1 \otimes_B v) = f(v)$ for $v \in V$.
+> For $\bar f$ to be an $A$-module homomorphism, it follows $\bar f(a \otimes_B v) = a \cdot f(v)$ for $a \in A$ and $v \in V$.
+> Since elements of this form span $A \otimes_B V$, this fully defines $\bar f$, hence it is unique. <span class="QED"/>
 
 ## Graded structure
 

@@ -1,19 +1,29 @@
 ---
 tags:
   - public
-alias: minimal polynomial, algebraic, transcendental element, transcendental
+aliases:
+  - minimal polynomial
+  - algebraic
+  - transcendental element
+  - transcendental
+  - algebraic extension
 ---
-[[Unital associative algebra]]
+[[Ring theory MOC]]
 # Algebraic element
 
-Let $\mathbb{K}$ be a [[field]] and $A$ be a [[unital associative algebra]] (or [[extension field]], see [[extension field as a unital associative algebra]]) over $\mathbb{K}$.
+Let $\mathbb{K}$ be a [[field]] and $A$ be a [[unital associative algebra]] (or [[Field extension|extension field]], see [[extension field as a unital associative algebra]]) over $\mathbb{K}$.
+
 An element $a \in A$ is called **algebraic** over $\mathbb{K}$ iff there exists a nonzero polynomial $p(x) \in \mathbb{K}[x]$ such that $p(a) = 0$. #m/def/falg 
 An element which is not algebraic is called **transcendental** over $\mathbb{K}$.
 If $a$ is algebraic,
 the solving [[Polynomial ring#^monic]] of smallest degree $m_{a}(x) \in \mathbb{K}[x]$ is called the **minimal polynomial** of $a$.
 
+$A$ is called algebraic over $\mathbb{K}$ iff every $a \in A$ is algebraic,
+and if $A$ is a field the [[field extension]] $A : \mathbb{K}$ is called algebraic.
+
 ## Examples
 
+- [[Number field]]
 - [[All elements of a finite-dimensional unital associative algebra are algebraic]]
 
 ## Properties

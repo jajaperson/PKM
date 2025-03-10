@@ -15,7 +15,7 @@ A ring may be generalized to a [[Rng]] (possibly lacking unity, where multiplica
 or a [[Rig]] (possibly lacking additive inverses, where addition need only be an abelian monoid),
 or specified to an [[Integral domain]] or [[Field]] (where both operations form [[Abelian group|abelian]] groups ignoring the additive identity, i.e. every element except $0$ is a unit[^unit]).
 
-[^unit]: A [[Units and zero-divisors|multiplicative unit]] is an element with a multiplicative inverse. A [[Units and zero-divisors|zero-divisor]] can multiply a nonzero element to give zero. An element cannot be both.
+[^unit]: A [[Unit|multiplicative unit]] is an element with a multiplicative inverse. A [[Zero-divisor]] can multiply a nonzero element to give zero. An element cannot be both.
 
   [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter2009|Algebra: Chapter 0]], §III.1.1, pp. 119–120
 
@@ -39,6 +39,7 @@ A ring has all the properties of a [[Rng]], in addition:
 - [[Zero ring]]
 - [[Polynomial ring]] (Gallian §16 pp. 276ff.)
 - [[Integers]]
+- [[Adjunction of a ring]]
 
 #
 ---

@@ -4,7 +4,7 @@ tags:
 ---
 [[Ring theory MOC]]
 # Rng
-A **rng** <span class="broad">rʊŋ</span> is a [[ring]] which may lack a multiplicative identity.
+A **rng** <span class="broad">rʊŋ</span> is a generalized [[ring]] which may lack a multiplicative identity.
 That is, a **rng** $(R, +, \cdot)$ consists of an [[Abelian group]] $(R, +)$ called **addition**
 and a [[Semigroup]] $(R, \cdot)$ called **multiplication**, with the extra conditions #m/def/ring
 - **left-distributivity** $a \cdot (b + c) = (a \cdot b) + a \cdot c)$

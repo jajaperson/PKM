@@ -5,7 +5,7 @@ tags:
 [[Abstract algebra MOC]]
 # Monoid
 
-A **monoid** $(M, \cdot)$ is an associative [[Magma]] with an identity element. #m/def/general
+A **monoid** $(M, \cdot)$ is a [[Semigroup]] with an identity element. #m/def/general
 In general elements needn't have an inverse.
 
 2. **Associative** $a\cdot (b\cdot c) = (a\cdot b) \cdot c$ for each $a,b,c \in M$

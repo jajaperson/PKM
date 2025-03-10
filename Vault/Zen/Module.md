@@ -24,9 +24,19 @@ for example the existence of [[Torsion]].
 
 [^lr]: If $R$ is a [[commutative ring]] the concepts of left- and right-modules coïncide, but otherwise there is a distinction between left- and right-scalar multiplication.
 
+## Further terminology
+
+- [[Finitely generated module]]
+
 ## Properties
 
 - [[Module over a unital associative algebra#Explanation|A module inherits linear structure from the underlying ring]]
+
+## Examples
+
+- [[Vector space]]
+- Let $I \trianglelefteq R$ be an [[ideal]]. Then $I$ is an $R$-module.
+- Let $T:R$ be a [[ring extension]]. Then $T$ is an $R$-module.
 
 #
 ---

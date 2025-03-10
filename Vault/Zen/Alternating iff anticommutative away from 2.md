@@ -27,7 +27,7 @@ Then a bilinear map $B : V \times V \to W$ is [[Alternating multilinear map|alte
 > 2 B(x,x) &= B(x,x) + B(x,x) = 0
 > \end{align*}
 > $$
-> and since $2$ is a [[Units and zero-divisors|multiplicative unit]] it follows $B(x,x) = 0$.
+> and since $2$ is a [[Unit|multiplicative unit]] it follows $B(x,x) = 0$.
 > <span class="QED"/>
 
 From the proof, it is clear that only the forward implication holds for $\mathrm{char}(\mathbb{K}) = 2$.

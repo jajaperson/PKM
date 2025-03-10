@@ -21,7 +21,8 @@ $$
 $$
 for all $C \in \cat C, D \in \cat D$.[^2010]
 The name comes from an analogy to the [[Adjoint operator]].
-
+In the archetypal examples, we think of $R$ as _forgetful_ and $L$ as _free_ —
+See [[Free-forgetful adjunction]].
 
   [^2010]: 2010\. [[Sources/@awodeyCategoryTheory2010|Category theory]], §9
 

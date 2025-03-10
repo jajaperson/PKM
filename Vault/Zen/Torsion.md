@@ -6,7 +6,7 @@ tags:
 # Torsion
 
 Let $M$ be a [[Module]] over a ring $R$.
-A **torsion element** $t \in R$ is an element that yields zero when multiplied by some non-[[Units and zero-divisors|zero-divisor]] $\lambda \in R$, i.e. $\lambda t = 0$.
+A **torsion element** $t \in R$ is an element that yields zero when multiplied by some non-[[Zero-divisor]] $\lambda \in R$, i.e. $\lambda t = 0$.
 This is a strong deviation from the behaviour of a vector space,
 as torsion elements cannot exist for a module over a field,
 where scalar multiplication is injective,

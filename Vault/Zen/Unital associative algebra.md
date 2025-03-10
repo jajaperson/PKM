@@ -5,8 +5,8 @@ tags:
 [[Algebra over a field]]
 # Unital associative algebra
 
-A **unital associative algebra** $A$ is an [[algebra over a field]] $\mathbb{K}$ for which the bilinear product possesses a two-sided identity and is associative. #m/def/falg 
-- $\mathbb{1} a = a\mathbb{1} = a$ for all $a \in A$
+A **unital associative algebra** $A$ is an [[algebra over a field]] $\mathbb{K}$ for which the bilinear product possesses a two-sided identity $1$ and is associative. #m/def/falg 
+- $1 a = a 1 = a$ for all $a \in A$
 - $(ab)c = a(bc)$ for all $a,b,c \in A$
 
 In other words, an associative algebra is a field action on a [[ring]].

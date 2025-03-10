@@ -5,7 +5,8 @@ tags:
 [[Ring]]
 # Division ring
 
-A **division ring**[^de][^alt] is a [[ring]] in which every nonzero element is a [[Units and zero-divisors|multiplicative unit]].
+A **division ring**[^de][^alt] is a [[ring]] in which every nonzero element is a [[Unit|multiplicative unit]].
+Every such ring is [[Simple ring|simple]].
 See also [[Division algebra]].
 
 [^de]: German _Divisionsring_.

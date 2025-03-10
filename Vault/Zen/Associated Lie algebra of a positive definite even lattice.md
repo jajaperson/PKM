@@ -14,7 +14,7 @@ c_{0} : L \times L &\to \mathbb{Z}_{2} \\
 \end{align*}
 $$
 which is [[Alternating multilinear map|alternating]] $\mathbb{Z}$-[[Multilinear map|bilinear]].
-Then $c_{0}$ determines a unique [[Z2 central extension of a free abelian group]] $L$
+Then $c_{0}$ determines a unique [[2 central extension of a free abelian group]] $L$
 $$
 \begin{align*}
 1 \to \mathbb{Z}_{2} \stackrel{\kappa}{\hookrightarrow} \hat{L} \stackrel{\pi}{\twoheadrightarrow} L \to 1

@@ -19,7 +19,7 @@ f(x) = \sum_{i=0}^\infty f_{i} x^i
 $$
 where $f_{(-)}$ has [[Support of a map|finite support]][^cf],
 hence it may be viewed as an element of the [[free module]] $R[\mathbb{N}_{0}]$.
-This free module forms the **polynomial ring** $R[x]$ with the structure of a [[ring]] (and [[unital associative algebra]]) given by the [[Group ring|monoid ring]] construction, thus
+This free module forms the **polynomial ring** $R[x]$ with the structure of a [[ring]] (and [[unital associative algebra]]) given by the [[Monoid ring]] construction, thus
 $$
 \begin{align*}
 x^n \cdot x^m = x^{n+m}

@@ -9,7 +9,7 @@ aliases:
 # Affine Lie algebra
 
 Let $\mathfrak{g}$ be a [[quadratic Lie algebra]] with a symmetric $\mathfrak{g}$-[[Invariant bilinear form on a Lie algebra|invariant bilinear form]] $\langle \cdot,\cdot \rangle$.
-The corresponding **affine Lie algebra** $\hat{\mathfrak{g}}$ is a certain [[Graded Lie algebra|graded]] [[Lie algebra extension#^central]] of the [[Loop algebra]] $\mathfrak{g} \otimes \mathbb{K}[t,t^{-1}]$.[^FLM]
+The corresponding **affine Lie algebra** $\hat{\mathfrak{g}}$ is a certain [[Graded Lie algebra|graded]] [[Lie algebra extension#^central]] of the [[Loop algebra]] $\mathfrak{g} [t,t^{-1}]$.[^FLM]
 Thence one can construct the corresponding **extended affine Lie algebra** $\tilde{\mathfrak{g}}$ by [[adjoining the degree derivation]].
 A generalization is the [[Twisted affine Lie algebra]].
 
@@ -21,7 +21,7 @@ Let $\mathfrak{g}$ be an [[Algebra over a field|algebra]] over $\mathbb{K}$ with
 Further let $d = t \frac{d}{dt}$ be the [[Algebra of Laurent polynomials#^degreeDerivation]] on $\mathbb{K}[t,t^{-1}]$, and construct the vector space
 $$
 \begin{align*}
-\hat{\mathfrak{g}} = \mathfrak{g} \otimes_{\mathbb{K}} \mathbb{K}[t,t^{-1}] \oplus \mathbb{K}c
+\hat{\mathfrak{g}} = \mathfrak{g}[t,t^{-1}] \oplus \mathbb{K}c
 \end{align*}
 $$
 with the bilinear product $[\cdot,\cdot] : \hat{\mathfrak{g}} \times  \hat{\mathfrak{g}} \to \hat{\mathfrak{g}}$ defined by the conditions
@@ -42,7 +42,7 @@ iff $\mathfrak{g}$ is a Lie algebra and $\langle \cdot,\cdot \rangle$ is a symme
 and we have the [[Lie algebra extension#^central]]
 $$
 \begin{align*}
-0 \to \mathbb{K}c \hookrightarrow \hat{\mathfrak{g}} \twoheadrightarrow \mathfrak{g} \otimes \mathbb{K}[t, t^{-1}] \to 0
+0 \to \mathbb{K}c \hookrightarrow \hat{\mathfrak{g}} \twoheadrightarrow \mathfrak{g} [t, t^{-1}] \to 0
 \end{align*}
 $$
 

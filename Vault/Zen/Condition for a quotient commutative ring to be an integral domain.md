@@ -16,7 +16,7 @@ Then the [[quotient ring]] $R / I$ is an [[integral domain]] iff $I$ is a [[prim
 > 
 > For the converse, assume $I \trianglelefteq R$ is prime.
 > Since $R / I$ is automatically a commutative ring,
-> it only remains to show that $R / I$ has no [[Units and zero-divisors|zero-divisors]].
+> it only remains to show that $R / I$ has no [[Zero-divisor|zero-divisors]].
 > To this end, assume $(a + I)(b + I) = I \equiv 0$.
 > Then $ab \in I$ and hence $a \in I$ or $b \in I$,
 > whence $a + I = I \equiv 0$ or $b+I = I \equiv 0$. <span class="QED"/>

@@ -22,7 +22,7 @@ Let $G$ be a group, $g_{1}, g_{2} \in G$, and $H \leq G$ be a subgroup.
 > Next assume there exist $h_{1},h_{2} \in H$ such that $g_{1}h_{1} = g_{2}h_{2}$,
 > i.e. $g_{1}H$ and $g_{2}H$ have a common element.
 > Then $g_{1} = g_{2}h_{2}h_{1}^{-1}$,
-> whence $g_{1}H = g_{2}h_{2}h_{1}^{-1 H}$
+> whence $g_{1}H = g_{2}h_{2}h_{1}^{-1}H$
 > and since $h_{2}h_{1}^{-1} \in H$,
 > it follows $g_{1}H = g_{2}H$
 > and thus $g_{1}^{-1}g_{2} \in H$.

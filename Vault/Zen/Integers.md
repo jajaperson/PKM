@@ -1,6 +1,7 @@
 ---
 tags:
   - public
+mathLink: $\mathbb Z$
 ---
 [[Ring theory MOC]]
 # Integers
@@ -19,13 +20,15 @@ $$
 > and $(n \cdot 1)(m \cdot 1) = (mn) \cdot 1$ by [[Rng#^P5]].
 > Note that this homomorphism is completely determined from the fact $1 \mapsto 1_{R}$, hence it is unique. <span class="QED"/>
 
+By standard Euclidean division, $\mathbb{Z}$ forms a [[Euclidean domain]].
+In some number-theoretic contexts, these are referred to as the **rational integers** to distinguish them from [[Algebraic integer|algebraic integers]].
+
 ## Properties 
 
 - $\ker I =(\mathrm{char} \,R) \mathbb{Z}$ ^P1
 - [[A ring contains the integers or modular arithmetic]]
 - [[A field contains modular arithmetic or the rationals]]
-- $\mathbb{Z}$ is an [[integral domain]]
-- The [[field of fractions]] of $\mathbb{Z}$ is the [[rationals]]
+- The [[field of fractions]] of $\mathbb{Z}$ is [[Rational numbers]]
 
 #
 ---

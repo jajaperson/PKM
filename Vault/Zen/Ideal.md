@@ -18,11 +18,21 @@ an ideal can be used to construct a [[Quotient ring]].
 > and $ar, ra \in A$ for all $a \in A$ and $r \in R$. 
 
 See [[algebra ideal]] for the similar concept for an algebra over a field.
+Ideals began with Albert Kummer's [[Ideal number]], which Dedekind realized could be captured using the ideal-as-a-set formulation.
+
+## Ideal arithmetic
+
+- [[Product ideal]]
 
 ## Classification
 
 - [[Prime ideal]]
 - [[Maximal ideal]]
+- [[Principal ideal]]
+
+## Properties
+
+- An ideal $I \trianglelefteq R$ is an $R$-[[module]]
 
 #
 ---

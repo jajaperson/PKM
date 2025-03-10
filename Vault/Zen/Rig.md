@@ -6,8 +6,8 @@ tags:
 [[Ring theory MOC]]
 # Rig
 
-A **rig** is a [[ring]] which may lacks negatives.
-That is, a **rng** $(R, +, \cdot)$ consists of a [[Commutative monoid]] $(R, +)$ called **addition**
+A **rig** is a generalized [[ring]] which may lacks negatives.
+That is, a **rig** $(R, +, \cdot)$ consists of a [[Commutative monoid]] $(R, +)$ called **addition**
 and a [[Monoid]] $(R, \cdot)$ called **multiplication**, with the extra conditions #m/def/ring
 1. **left-distributivity** $a \cdot (b + c) = (a \cdot b) + a \cdot c)$
 2. **right-distributivity** $(b + c) \cdot a = (b \cdot a) + (c \cdot a)$

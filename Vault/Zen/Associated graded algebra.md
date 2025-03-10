@@ -10,7 +10,7 @@ The **associated graded algebra** $G_{\bullet}A$ is the [[direct sum of vector s
 with multiplication given by #m/def/falg
 $$
 \begin{align*}
-(x + F_{i}A) \cdot (y + F_{j}A) = x + y + F_{i+j}A
+(x + F_{i}A) \cdot (y + F_{j}A) = x \cdot y + F_{i+j}A
 \end{align*}
 $$
 for $x \in F_{i+1}A$ and $y \in F_{j+1}A$.

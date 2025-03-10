@@ -7,7 +7,8 @@ tags:
 [[Ring]]
 # Group of units
 
-For any [[ring]] $R$ there exists a **group of units** $R^\times$ or **multiplicative group** under ring multiplication. #m/def/ring
+For any [[ring]] $R$ there exists a **group of units** $R^\times$ or **multiplicative group** under ring multiplication, #m/def/ring
+containing all [[Unit|units]].
 This is clearly a group since it contains the multiplicative identity, is associative, and every element has an inverse.
 
 ## Properties

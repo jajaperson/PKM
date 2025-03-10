@@ -26,11 +26,11 @@ In the following, arrows signify implication.
 
 ```mermaid
 graph TD;
-	Automorphism==>Endomorphism
-	Automorphism==>Isomorphism
-	Isomorphism==>Monomorphism
-	Isomorphism==>Epimorphism
-	Endomorphism==>Morphism
+	Automorphism:::internal-link==>Endomorphism:::internal-link
+	Automorphism==>Isomorphism:::internal-link
+	Isomorphism==>Monomorphism:::internal-link
+	Isomorphism==>Epimorphism:::internal-link
+	Endomorphism==>Morphism:::internal-link
 	Monomorphism==>Morphism
 	Epimorphism==>Morphism
 ```

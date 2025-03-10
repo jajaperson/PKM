@@ -84,8 +84,8 @@ In what follows, if $B \leq A$ is a subgroup let $\hat{B} = \pi^{-1}B$.
 ## Special cases
 
 - [[Cyclic central extension of a free abelian group]]
-  - [[Z2 central extension of a free abelian group]]
-- [[Z2 central extension of an elementary abelian 2-group]] (includes extraspecial 2-groups)
+  - [[2 central extension of a free abelian group]]
+- [[2 central extension of an elementary abelian 2-group]] (includes extraspecial 2-groups)
 
 #
 ---

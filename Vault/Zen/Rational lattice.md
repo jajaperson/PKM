@@ -43,6 +43,7 @@ $$
 
 - [[Lattice from a binary linear code]]
 - [[Lattice subgroup]]
+- [[Associated Lie algebra of a positive definite even lattice]]
 
 #
 ---

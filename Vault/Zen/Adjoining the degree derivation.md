@@ -15,7 +15,7 @@ whence $\deg d = 0$.
 
 Let $\mathfrak{g}$ be a $\mathfrak{A}$-[[Graded Lie algebra]] over $\mathbb{K}$ with $\mathfrak{A} \leq \mathbb{K}^+$ a [[submonoid]]
 and $V$ be a [[Graded module|graded]] [[Module over a Lie algebra|module* over]] $\mathfrak{g}$.
-Then $V$ is also a graded module over $\mathfrak{g} \rtimes \mathbb{K}d$ whee $d$ acts as the [[Degree operator]] on $V$,
+Then $V$ is also a graded module over $\mathfrak{g} \rtimes \mathbb{K}d$ where $d$ acts as the [[Degree operator]] on $V$,
 i.e. $d \cdot v = \alpha v$ for $v \in V_{\alpha}$. #m/thm/lie 
 
 > [!missing]- Proof

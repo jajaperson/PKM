@@ -22,6 +22,8 @@ It is hence the image of [[Conjugation by an element#Conjugation as an action|co
 > thus $\varphi \widehat{g}\varphi^{-1} = \widehat{\varphi(g)} \in \Inn(G)$.
 > <span class="QED"/>
 
+By the [[Group isomorphism theorems#First isomorphism theorem]], this is isomorphic to $G / Z(G)$, where the divisor is the [[Centre of a group|centre]].
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

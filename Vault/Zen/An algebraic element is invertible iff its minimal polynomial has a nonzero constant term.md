@@ -8,10 +8,10 @@ tags:
 Let $A$ be a [[unital associative algebra]] over $\mathbb{K}$ and $a \in A$ be an [[algebraic element]] with [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$.
 Then the following are equivalent[^2008] 
 
-1. $a$ is [[Units and zero-divisors|invertible]] in $A$
-2. $a$ is not a left-[[Units and zero-divisors|zero-divisor]]
-3. $a$ is not a right-[[Units and zero-divisors|zero-divisor]]
-4. $a$ is not a (two-sided) [[Units and zero-divisors|zero-divisor]]
+1. $a$ is [[Unit|invertible]] in $A$
+2. $a$ is not a left [[Zero-divisor]]
+3. $a$ is not a right [[Zero-divisor]]
+4. $a$ is not a (two-sided) [[Zero-divisor]]
 5. $m_{a}(x)$ has a nonzero constant term, i.e. $m_{a}(0) \neq 0$.
 
 > [!check]- Proof

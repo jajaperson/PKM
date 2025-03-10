@@ -26,6 +26,10 @@ In case $p$ is [[Split epimorphism|split epic]], we have a **split extension**.
 - [[Group extension]]
 - [[Lie algebra extension]]
 
+## See also
+
+- [[Ring extension]], a different use of the word.
+
 #
 ---
 #state/develop | #lang/en | #SemBr

@@ -5,10 +5,11 @@ tags:
 [[Field]]
 # Algebraically closed field
 
-A field $\mathbb{K}$ is called **algebraically closed** iff it satisfies the following equivalent properties #m/def/ring 
+A field $K$ is called **algebraically closed** iff it satisfies the following equivalent properties #m/def/ring 
 
-1. every non-constant polynomial $p(x) \in \mathbb{K}[x]$  has a root, i.e. a solution to $p(x)=0$. ^A1
-2. $p(x) \in \mathbb{K}[x]$ is an [[Polynomial ring#^irreducible]] iff it is linear, i.e. $\deg p = 1$ ^A2
+1. every non-constant polynomial $p(x) \in K[x]$  has a root, i.e. a solution to $p(x)=0$; ^A1
+2. $p(x) \in K[x]$ is an [[Polynomial ring#^irreducible]] iff it is linear, i.e. $\deg p = 1$; or ^A2
+3. there does not exist a proper [[algebraic element|algebraic extension]] of $K$
 
 ## Examples and nonexamples
 

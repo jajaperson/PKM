@@ -1,19 +1,18 @@
 ---
-mathLink: $\mathbb{Z}_{2}$ central extension of a free abelian group
 tags:
   - public
 ---
 [[Cyclic central extension of a free abelian group]]
-# $\mathbb{Z}_{2}$ central extension of a free abelian group
+# 2 central extension of a free abelian group
 
 Let $A = \mathbb{Z}[S]$ be a [[Free module|free abelian group]] of finite [[Rank of a module|rank]],
 and let
 $$
 \begin{align*}
-1 \to \mathbb{Z}_{2}^+ \stackrel{\exp}{\hookrightarrow} \hat{A} \stackrel{\pi}\twoheadrightarrow A \to 1
+1 \to 2 \stackrel{\exp}{\hookrightarrow} \hat{A} \stackrel{\pi}\twoheadrightarrow A \to 1
 \end{align*}
 $$
-be a [[Cyclic central extension of a free abelian group|central extension]] with [[Central extension of an abelian group|associated commutator map]] $c_{0} : A \times A \to \mathbb{Z}_{2}^+$,
+be a [[Cyclic central extension of a free abelian group|central extension]] with [[Central extension of an abelian group|associated commutator map]] $c_{0} : A \times A \to 2$,
 where $\pi(x) = \overline{x}$
 
 ## Properties
@@ -46,11 +45,11 @@ $$
 whence $\widehat{2A} = \mathrm{e}^{\mathbb{Z}_{2}} \times K$ ([[Direct product of groups#Internal direct product]]) is the kernel of the projection $\hat{A} \to \check A$, and
 $$
 \begin{align*}
-1 \to \mathbb{Z}_{2}^+ \hookrightarrow \hat{A} / K \to \check A \to 1
+1 \to 2 \hookrightarrow \hat{A} / K \to \check A \to 1
 \end{align*}
 $$
-is a central extension with [[Z2 central extension of an elementary abelian 2-group|associated squaring map]] $q_{1}$,[^5.3.4] #m/thm/group 
-thus $\hat{A}/K$ is an [[Z2 central extension of an elementary abelian 2-group|extraspecial 2-group]].
+is a central extension with [[2 central extension of an elementary abelian 2-group|associated squaring map]] $q_{1}$,[^5.3.4] #m/thm/group 
+thus $\hat{A}/K$ is an [[2 central extension of an elementary abelian 2-group|extraspecial 2-group]].
 
   [^5.3.4]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], ¶5.3.4, p. 111
 
@@ -81,7 +80,7 @@ $$
 
 ## See also
 
-- [[Z2 central extension of an elementary abelian 2-group]]
+- [[2 central extension of an elementary abelian 2-group]]
 
 #
 ---

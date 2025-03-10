@@ -149,7 +149,7 @@ Furthermore, any automorphism $\vartheta \in \Aut(\hat{A};\mathrm{e})$ such that
 
 ## Special cases
 
-- [[Z2 central extension of a free abelian group]]
+- [[2 central extension of a free abelian group]]
 
 #
 ---

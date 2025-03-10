@@ -8,7 +8,7 @@ aliases:
 [[Group theory MOC]]
 # $p$-group
 
-Given a [[prime number]] $p$, a **$p$-group** $G$ is a [[group]] in which the [[group order|order]] of every element is an $\mathbb{N}_{0}$ power of $p$, #m/def/group i.e. for all $x \in G$
+Given a [[Prime number]] $p$, a **$p$-group** $G$ is a [[group]] in which the [[group order|order]] of every element is an $\mathbb{N}_{0}$ power of $p$, #m/def/group i.e. for all $x \in G$
 $$
 \begin{align*}
 \abs x= p^n
