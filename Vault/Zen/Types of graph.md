@@ -18,6 +18,7 @@ In graph theory one considers many different kinds of graphs, which vary in term
 This nomenclature allows for combinations of prefixes, e.g. a **distinguished pseudomultidigraph** is a [[Quiver]].
 Collectively, the above cases are referred to as **general multigraphs**,
 and any of these can be turned into a quiver — see [[Graphs as quivers]].
+We will sometimes say there is a $(n,m)$ edge from $a$ to $b$ to indicated $n$ edges from $a$ to $b$ and $m$ edges from $b$ to $a$.
 
 Other notion of graph do not fit into this paradigm
 

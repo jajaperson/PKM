@@ -20,6 +20,10 @@ This is one way to generalize the [[Prime number]] to an arbitrary ring.[^2022]
 
 - [[All primes are irreducible in an integral domain]]
 
+## See also
+
+- [[Prime ideal]]
+
 #
 ---
 #state/develop  | #lang/en | #SemBr

@@ -14,6 +14,8 @@ $ab = ac$ and $a \neq 0$ implies $b = c$.
 > Since $0 = ab - ac = a(b-c)$ and $a \neq 0$, it follows $b - c =0$ and hence $b = c$. 
 > <span class="QED"/>
 
+Note that by moving to the [[Field of fractions]] we can get cancellation in the normal way.
+
 ## Properties
 
 1. [[A finite integral domain is a field]]

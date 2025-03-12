@@ -35,7 +35,7 @@ for example the existence of [[Torsion]].
 ## Examples
 
 - [[Vector space]]
-- Let $I \trianglelefteq R$ be an [[ideal]]. Then $I$ is an $R$-module.
+- Let $I \trianglelefteq R$ be an [[ideal]]. Then $I$ is an $R$-submodule of $R$.
 - Let $T:R$ be a [[ring extension]]. Then $T$ is an $R$-module.
 
 #

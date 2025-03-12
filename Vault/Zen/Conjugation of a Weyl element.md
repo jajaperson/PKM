@@ -12,8 +12,8 @@ $$
 G = \{ \varphi \in \opn{GL}(\mathbb{E}) : \varphi(\Phi) = \Phi \}
 \end{align*}
 $$
-Then the [[Weyl group]] $\mathcal{W}$ of $\Phi$ is a [[normal subgroup]] of $\Aut \Phi$,
-in particular for any $\alpha \in \Phi$ and $\tau \in \Aut \Phi$ #m/thm/geo
+Then the [[Weyl group]] $\mathcal{W}$ of $\Phi$ is a [[normal subgroup]] of $G$,
+in particular for any $\alpha \in \Phi$ and $\tau \in G$ #m/thm/geo
 $$
 \begin{align*}
 \tau \sigma_{\alpha} \tau^{-1} = \sigma_{\sigma(\alpha)}

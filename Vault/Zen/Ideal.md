@@ -5,10 +5,11 @@ tags:
 [[Ring theory MOC]]
 # Ideal
 
-A [[subrng]] $A \leq R$ is called a **left-ideal** iff $RA \sube A$,
-a **right-ideal** iff $AR \sube A$,
+A [[subrng]] $A \leq R$ is called a **left ideal** iff $RA \sube A$,
+a **right ideal** iff $AR \sube A$,
 and a **two-sided ideal** (sometimes just **ideal**) iff both conditions hold. #m/def/ring 
-This property is sometimes called absorption.
+This property is sometimes called absorption,
+and is equivalent to being a (left/right/two-sided) [[submodule]] of $R$.
 Similarly to a [[normal subgroup]] in group theory,
 an ideal can be used to construct a [[Quotient ring]].
 
@@ -23,6 +24,7 @@ Ideals began with Albert Kummer's [[Ideal number]], which Dedekind realized coul
 ## Ideal arithmetic
 
 - [[Product ideal]]
+- [[Inverse ideal]] ([[Fractional ideal]])
 
 ## Classification
 

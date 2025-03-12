@@ -7,7 +7,7 @@ aliases:
 [[Group theory MOC]]
 # Direct product of groups
 
-The (external) **direct product** is [[Products and coproducts|Categorical Product]] in [[Category of groups]].
+The (external) **direct product** is the [[Products and coproducts|categorical product]] in [[Category of groups]].
 Given two groups $A, B$, their product $A \times B$ is their [[Cartesian product]] with the group operation $(\cdot)$ such that #m/def/group 
 $$
 \begin{align*}
@@ -17,6 +17,13 @@ $$
 for any $a_{1},a_{2} \in A$ and $b_{1},b_{2} \in V$.
 It follows that $e_{A \times B} = (e_{A}, e_{B})$
 and $(a, b)^{-1} = (a^{-1}, b^{-1})$.
+This generalized to arbitrarily large products
+$$
+\begin{align*}
+G = \prod_{i \in I}G_{i}
+\end{align*}
+$$
+The projections $\pi_{i} : G \twoheadrightarrow  G_{i}$ are [[Split epimorphism|split epic]].
 
 ## Internal direct product
 
