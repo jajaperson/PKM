@@ -7,7 +7,7 @@ tags:
 
 
 **Yoneda lemma (contravariant form)** 
-For every object $X \in \cat C$ and every [[contravariant functor]] $F : \op{\cat C} \to \Set$,
+For every object $X \in \cat C$ and every [[Contravariant functor]] $F : \op{\cat C} \to \Set$,
 the set of natural transformations from the fixed-codomain [[Hom-functor]] $\cat C(-, X)$ to $F$ is isomorphic to $FX$ #m/thm/cat
 $$
 \begin{align*}

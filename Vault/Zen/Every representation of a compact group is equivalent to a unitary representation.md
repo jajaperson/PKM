@@ -6,7 +6,7 @@ tags:
 # Every representation of a compact group is equivalent to a unitary representation
 
 Let $G$ be a [[Compact group]] and  $\Gamma : G \to \mathrm{GL}(V)$ be a representation and $\langle \cdot|\cdot \rangle : V \times V \to \mathbb{K}$ be an [[Inner product space|inner product]] on $V$.
-Then $\Gamma$ is [[Equivalence of representations|equivalent]] to a [[Unitary representation]]. #m/thm/rep
+Then $\Gamma$ is [[Equivalence of representations|equivalent]] to a [[unitary representation]]. #m/thm/rep
 Alternatively, there always exists an inner product on $V$ for which $V$ is unitary.[^Simon]
 
 > [!check]- Proof

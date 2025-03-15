@@ -14,7 +14,7 @@ $$
 \end{align*}
 $$
 and $\Gamma(e) = \mathbb{1}$ where $\mathbb{1}$ is the identity map.[^keppler]
-Since [[Every representation of a compact group is equivalent to a unitary representation]] (if over a [[Hilbert space]]), it is common to only consider unitary representations.
+Since [[Every representation of a compact group is equivalent to a unitary representation]], it is common to only consider unitary representations.
 
 [^keppler]: 2023, [[@keppelerGroupsRepresentations2023|Groups and representations, p. 20]]
 
@@ -37,8 +37,12 @@ Since [[Every representation of a compact group is equivalent to a unitary repre
 - A [[Faithful representation]] is injective
 - A [[Full representation]] is surjective
 - A [[Fully faithful representation]] is bijective
-- A [[Unitary representation]] is unitary for every group element
 - Representations may also be classified by [[Reducibility of representations|reducibility]].
+
+### Carrier space symmetry
+
+- A [[Unitary representation]] is unitary for every group element.
+- A [[Symplectic group representation]] is [[Symplectic transformation|symplectic]] for every group element.
 
 ## Properties
 
