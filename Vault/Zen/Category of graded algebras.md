@@ -1,10 +1,10 @@
 ---
 categoryName: category of $\mathfrak U$-graded algebras
-mathLink: $\cat{Gr}_{\mathfrak U}\cat{Alg}_{\mathbb K}$
-object: "$\\mathfrak U$-[[graded algebra]]"
-morphism: "$\\mathfrak U$-[[graded algebra homomorphism]]"
+mathLink: $\cat{Gr}_{\mathfrak A}\cat{Alg}_{\mathbb K}$
+object: "$\\mathfrak A$-[[graded algebra]]"
+morphism: "$\\mathfrak A$-[[graded algebra homomorphism]]"
 arguments:
-  - "$\\mathfrak U$ [[monoid]]"
+  - "$\\mathfrak A$ [[monoid]]"
   - "$\\mathbb K$ [[field]]"
 tags:
   - category

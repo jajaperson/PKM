@@ -4,7 +4,7 @@ aliases:
 tags:
   - public
 ---
-[[Matrix algebra]]
+[[Matrix algebra over a field]]
 # Conjugate transpose
 
 The **conjugate transpose** or **Hermitian conjugate** $A^{\dagger}$ of a complex matrix $A$

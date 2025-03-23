@@ -8,7 +8,7 @@ tags:
 # Sheet number of a connected covering
 
 Let $p : (\tilde{X}, \tilde{x}_{0}) \twoheadrightarrow (X,x_{0})$ be a connected covering.
-Then the **sheet number**, i.e. the number of fibres $\abs{p^{-1}\{ x \}}$, is given by the [[Lagrange's Theorem|subgroup index]] of the [[Characteristic subgroup of a covering|characteristic subgroup]] of $p$ in the [[fundamental group]][^loose] #m/thm/homotopy 
+Then the **sheet number**, i.e. the number of fibres $\abs{p^{-1}\{ x \}}$, is given by the [[Lagrange's theorem|subgroup index]] of the [[Characteristic subgroup of a covering|characteristic subgroup]] of $p$ in the [[fundamental group]][^loose] #m/thm/homotopy 
 $$
 \begin{align*}
 |p^{-1}\{ x \}| = [\pi_{1}(X,x_{0}) : \pi_{1}p(\pi_{1}(\tilde{X},\tilde{x}_{0}))]

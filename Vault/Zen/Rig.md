@@ -6,7 +6,7 @@ tags:
 [[Ring theory MOC]]
 # Rig
 
-A **rig** is a generalized [[ring]] which may lacks negatives.
+A **rig** is a generalized [[ring]] which may lack negatives.
 That is, a **rig** $(R, +, \cdot)$ consists of a [[Commutative monoid]] $(R, +)$ called **addition**
 and a [[Monoid]] $(R, \cdot)$ called **multiplication**, with the extra conditions #m/def/ring
 1. **left-distributivity** $a \cdot (b + c) = (a \cdot b) + a \cdot c)$

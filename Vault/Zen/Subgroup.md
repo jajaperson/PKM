@@ -66,7 +66,7 @@ then $H$ is a subgroup of $G$. #m/thm/group
 - The [[Centre of a group]] is a subgroup containing elements that commute with all elements.
 - Similarly the [[Centralizer in a group]] is a subgroup containing elements that commute with a given element.
 - [[Torsion subgroup of an abelian group]]
-- [[Lagrange's Theorem|The order of a subgroup divides the order of a group]]
+- [[Lagrange's theorem|The order of a subgroup divides the order of a group]]
 
 ## Properties
 - [[The intersection of subgroups is a subgroup]]

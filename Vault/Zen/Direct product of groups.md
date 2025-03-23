@@ -20,7 +20,7 @@ and $(a, b)^{-1} = (a^{-1}, b^{-1})$.
 This generalized to arbitrarily large products
 $$
 \begin{align*}
-G = \prod_{i \in I}G_{i}
+G = \prod_{i \in I}G_{i}U
 \end{align*}
 $$
 The projections $\pi_{i} : G \twoheadrightarrow  G_{i}$ are [[Split epimorphism|split epic]].

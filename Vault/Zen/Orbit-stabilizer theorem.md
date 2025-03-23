@@ -29,7 +29,7 @@ $$
 > $$
 > Therefore each [[coset]] of the [[Stabilizer group]] $G_{m}$ corresponds to a different point in the [[Group action orbit|orbit]] of $m$,
 > whence $\abs{Gm} = [G_{m} : G]$,
-> and by [[Lagrange's Theorem]],
+> and by [[Lagrange's theorem]],
 > $\abs{G_{m}} \cdot \abs{Gm} = \abs{G}$.
 > <span class="QED"/>
 

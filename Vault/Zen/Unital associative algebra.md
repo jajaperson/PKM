@@ -18,7 +18,7 @@ An algebra homomorphism which preserves the identity is a [[unital associative a
 
 ## Examples
 
-- [[Matrix algebra]]
+- [[Matrix algebra over a field]]
 - [[Complex number]]
 - [[Quaternion]] (non-commutative)
 - [[Endomorphism ring]]

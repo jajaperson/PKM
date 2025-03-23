@@ -25,6 +25,7 @@ Ideals began with Albert Kummer's [[Ideal number]], which Dedekind realized coul
 
 - [[Product ideal]]
 - [[Inverse ideal]] ([[Fractional ideal]])
+- [[Unique factorization of ideals]]
 
 ## Classification
 

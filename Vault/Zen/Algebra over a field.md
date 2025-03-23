@@ -24,7 +24,7 @@ This may be generalized to an [[Algebra over a commutative ring]].
         - [[Quaternion]] (non-commutative)
         - [[Symmetric algebra]]
     - Non-commutative
-        - [[Matrix algebra]]
+        - [[Matrix algebra over a field]]
         - [[Endomorphism ring]]
         - [[Tensor algebra]]
         - [[Clifford algebra]]

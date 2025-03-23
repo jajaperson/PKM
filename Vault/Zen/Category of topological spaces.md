@@ -30,7 +30,7 @@ The **category of topological spaces** $\Top$ is the [[category]] where each obj
 
 ## Related categories
 
-- [[Naïve homotopy category]] $\hTop$ is the [[Quotient category]] of $\hTop$ with [[Homotopy of maps]].
+- [[Naïve homotopy category]] is the [[Quotient category]] of $\hTop$ with [[Homotopy of maps]].
 
 #
 ---

@@ -14,6 +14,9 @@ We write $L : K$, and $L$ is thence called an **extension field** of $K$.
 Then $L$ may be regarded as a vector space over $K$, see [[Extension field as a unital associative algebra]],
 and its dimension is called the **degree** of the extension, denoted $[L : K] = \dim_{K}L$.
 
+A degree 2 extension is called a [[Quadratic extension]], 
+a degree 3 extension is called a [[Cubic extension]], &c.
+
 ## Types of extension
 
 - [[Algebraic element|Algebraic extension]]

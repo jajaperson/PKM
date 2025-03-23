@@ -39,6 +39,10 @@ $$
 - [[Self-dual rational lattice]]
 - [[Theta function of a positive definite lattice]]
 
+## Properties
+
+- [[A discrete Z-submodule of a quadratic space is a rational lattice]]
+
 ## See also
 
 - [[Lattice from a binary linear code]]

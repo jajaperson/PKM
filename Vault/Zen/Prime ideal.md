@@ -28,6 +28,11 @@ Note an ideal $I \trianglelefteq \mathbb{Z}$ is prime iff $I = p\mathbb{Z}$ wher
 ## Properties
 
 - [[Condition for a quotient commutative ring to be an integral domain]]
+- [[A maximal ideal in a commutative ring is prime]]
+
+## See also
+
+- [[Krull dimension]]
 
 #
 ---

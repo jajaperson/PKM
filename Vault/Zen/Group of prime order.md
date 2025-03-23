@@ -14,7 +14,7 @@ i.e. isomorphic to $\mathbb{Z}_{p}^+$.
 
 > [!check]- Proof
 > Let $G$ be a group of prime order $p$.
-> By [[Lagrange's Theorem]],
+> By [[Lagrange's theorem]],
 > $G$ only has subgroups of order $1$ and $p$.
 > Since $p > 1$,
 > there exists $a \in G$ such that $a \neq e$.

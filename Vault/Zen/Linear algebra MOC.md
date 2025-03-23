@@ -31,7 +31,7 @@ Linear algebra is generalized by [[Module theory MOC]].
 
 ### In a fixed basis
 
-- [[Matrix algebra]] 
+- [[Matrix algebra over a field]] 
 - [[Types of square matrix]] 
 - [[Row and column space]] 
 

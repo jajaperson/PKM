@@ -7,16 +7,16 @@ aliases:
   - subgroup index
 ---
 [[Subgroup]]
-# Lagrange's Theorem
+# Lagrange's theorem
 
 Given a group $G$ and subgroup $H \sube G$, the order of the subgroup divides the order of the group. #m/thm/group 
 This is often stated as
 $$
 \begin{align*}
-\abs{G} = [G:H] \abs{H}
+\abs{G} = (G:H) \abs{H}
 \end{align*}
 $$
-where $[G : H]$ is the number of unique (left or right) [[coset|cosets]] of $H$,
+where $(G : H)$ is the number of unique (left or right) [[coset|cosets]] of $H$,
 and is called the **subgroup index**.
 
 > [!check]- Proof
@@ -24,9 +24,9 @@ and is called the **subgroup index**.
 > Any element $g \in G$ is contained at least in the [[coset]] $gH$.
 > Since [[Cosets are either identical or disjoint]],
 > cosets form a [[Partition]] of $G$.
-> Since $G$ is finite there is a finite number of cosets in the partition $[G : H]$.
+> Since $G$ is finite there is a finite number of cosets in the partition $(G : H)$.
 > The number of elements in each coset is equal to $\abs{H}$.
-> Therefore, $\abs{G} = [G : H] \abs{H}$.
+> Therefore, $\abs{G} = (G : H) \abs{H}$.
 > <span class="QED"/>
 
 ## Corollary

@@ -24,7 +24,7 @@ $$
 2. As a consequence of the [[Reärrangement lemma]] $\abs{gH} = \abs{H}$.
 3. [[Cosets are either identical or disjoint]].
 4. Every $g \in G$ is contained in at least one coset of $H$, namely $gH$ (by $ge = g$)
-5. From 2–4, $G$ may be partitioned into equally sized cosets. Hence [[Lagrange's Theorem|the order of a subgroup divides the order of a group]].
+5. From 2–4, $G$ may be partitioned into equally sized cosets. Hence [[Lagrange's theorem|the order of a subgroup divides the order of a group]].
 
 #
 ---

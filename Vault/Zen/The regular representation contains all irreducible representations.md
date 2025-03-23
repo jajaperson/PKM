@@ -23,7 +23,7 @@ $$
 > \end{cases}
 > \end{align*}
 > $$
-> and using the [[Orthonormality of irreps#Orthogonality of characters]] we find that the multiplicity $a_{k}$ of each $\Gamma^k$ is
+> and using the [[Orthonormality of irreducible characters]] we find that the multiplicity $a_{k}$ of each $\Gamma^k$ is
 > $$
 > \begin{align*}
 > a_{k} = \frac{1}{\abs G} \sum_{g \in G} \overline{\chi^k(g)}\chi^\Lambda(g) = \frac{1}{\abs G} \chi^k(e) \abs G = d_{k} \

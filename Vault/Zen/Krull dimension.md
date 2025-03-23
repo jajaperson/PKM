@@ -5,13 +5,18 @@ tags:
 [[Ring theory MOC]]
 # Krull dimension
 
-Let $R$ be a [[commutative ring]].
-The **Krull dimension** $\dim R$ is the maximum length $n$ of a strictly increasing chain of [[Prime ideal|prime ideals]] #m/def/ring 
+Let $R$ be a [[commutative ring]] and $\mathfrak{p} \triangleleft R$ be a [[prime ideal]].
+The **height** $\opn{ht} \mathfrak{p}$ of $\mathfrak{p}$ is the supremum of the lengths of strictly increasing sequences of prime ideals culminating in $\mathfrak{p}$
 $$
 \begin{align*}
-0 = \mathfrak{p}_{0} \triangleleft \mathfrak{p}_{1} \triangleleft \dots \triangleleft \mathfrak{p}_{n-1} \triangleleft \mathfrak{p}_{n} \triangleleft R
+\mathfrak{p}_{0} \subsetneq \mathfrak{p}_{1}  \subsetneq \dots \subsetneq \mathfrak{p}_{\opn{ht} \mathfrak{p}} = \mathfrak{p}
 \end{align*}
 $$
+and the **Krull dimension** $\dim R$ of $R$ is the supremum of the height of all prime ideals.
+
+## Properties
+
+- [[Krull dimension of an integral domain]]
 
 #
 ---

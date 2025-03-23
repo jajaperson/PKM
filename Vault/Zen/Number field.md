@@ -15,6 +15,15 @@ and $x$ is called an **algebraic number**.[^2022]
 
   [^2022]: 2022\. [[Sources/@bakerAlgebraicNumberTheory2022|Algebraic number theory course notes]]. §2, p. 7
 
+## Properties
+
+- [[Norm of a number field]]
+- [[The ring of integers of a number field forms a lattice]]
+
+## Classification
+
+- [[Quadratic field]]
+
 #
 ---
 #state/develop | #lang/en | #SemBr

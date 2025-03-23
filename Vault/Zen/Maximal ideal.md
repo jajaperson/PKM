@@ -11,10 +11,14 @@ $$
 I \trianglelefteq J \trianglelefteq R \iff [I = J] \lor [J = R]
 \end{align*}
 $$
+Maximal ideal generalizes [[Irreducible element]] in the same way that [[Prime ideal]] generalized [[Prime element]].
+
 
 ## Properties
 
+- [[A maximal ideal in a commutative ring is prime]]
 - [[Condition for a quotient commutative ring to be a field]]
+- [[Every commutative ring has a maximal ideal]]
 
 #
 ---

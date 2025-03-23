@@ -17,9 +17,12 @@ An element $a \in A$ is called **algebraic** over $\mathbb{K}$ iff there exists 
 An element which is not algebraic is called **transcendental** over $\mathbb{K}$.
 If $a$ is algebraic,
 the solving [[Polynomial ring#^monic]] of smallest degree $m_{a}(x) \in \mathbb{K}[x]$ is called the **minimal polynomial** of $a$.
+This is a special case of [[Integral element]], and thus the set is denoted $\mathcal{O}_{A:\mathbb{K}}$
 
 $A$ is called algebraic over $\mathbb{K}$ iff every $a \in A$ is algebraic,
-and if $A$ is a field the [[field extension]] $A : \mathbb{K}$ is called algebraic.
+and if $A$ is a field the [[field extension]] $A : \mathbb{K}$ is called **algebraic**.
+
+An algebraic element over $\mathbb{Q}$ is called an [[Number field|algebraic number]].
 
 ## Examples
 

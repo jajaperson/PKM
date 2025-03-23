@@ -44,7 +44,7 @@ $$
 \langle \alpha_{1}, x_{\pm \alpha_{1}} \rangle &= \langle x_{\pm \alpha_{1}}, x_{\pm \alpha_{1}} \rangle = 0  
 \end{align*}
 $$
-given by the [[trace form]] of the [[fundamental representation]],
+given by the [[Trace form]] of the [[fundamental representation]],
 making $\opn{\mathfrak{sl}}_{2}\mathbb{K}$ a [[quadratic Lie algebra]].
 
 > [!tip]- Gram matrix

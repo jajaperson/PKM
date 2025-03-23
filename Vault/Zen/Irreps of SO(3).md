@@ -71,7 +71,7 @@ while the group $\mathrm{SO}(3)$ only has irreps for $j \in \mathbb{N}_{0}$. #m/
 > Then
 > $$
 > \begin{align*}
-> \delta_{mm'}[](Group%20representation.md)bra{j,m} e^{-2\pi iJ_{3}}\ket{j,m'} \\ &= \bra{j,m} e^{-2\pi im'} \ket{j,m'}
+> \delta_{mm'}\bra{j,m} e^{-2\pi iJ_{3}}\ket{j,m'} \\ &= \bra{j,m} e^{-2\pi im'} \ket{j,m'}
 > = e^{-2\pi im'}\delta_{mm'}  
 > \end{align*}
 > $$

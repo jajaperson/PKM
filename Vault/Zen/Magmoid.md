@@ -7,7 +7,7 @@ aliases:
 [[Abstract algebra MOC]]
 # Magmoid
 
-A **magmoid**[^aka] is the [[Oidification]] of a [[magma]].
+A **magmoid**[^aka] is the [[oidification]] of a [[magma]].
 A (small) magmoid $\mathscr{M}$ consists of #m/def/algebra 
 
 - a set of objects $\Ob(\mathscr M)$
@@ -20,7 +20,7 @@ See [[Magmoid homomorphism]] and [[Category of magmoids]].
 
 ## Examples
 
-- [[Continuous path#Algebra|Path algebra]]
+- [[Continuous path#Algebra|Topological path algebra]]
 
 #
 ---

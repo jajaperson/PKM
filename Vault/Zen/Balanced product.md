@@ -19,7 +19,7 @@ $R$-balanced maps are homomorphisms from the [[Tensor product of modules over a 
 
 ## Examples
 
-- Any [[ring]] $R$ may be regarded as an $R$-[[bimodule]], in which case the ring multiplication is balanced.
+- Any [[ring]] $R$ may be regarded as an $R$-[[Bimodule]], in which case the ring multiplication is balanced.
 
 #
 ---

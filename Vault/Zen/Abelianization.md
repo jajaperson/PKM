@@ -25,7 +25,7 @@ Let $N \trianglelefteq G$. The [[quotient group]] $G / N$ is [[Abelian group|abe
 
 ## Universal property
 
-Abelianization has a unique extension to a [[functor]] $(-)^\mathrm{ab} : \Grp \to \Ab$ from [[Category of groups]] into [[Category of abelian groups]] so that the projection becomes a [[natural transformation]] $\pi : \id_{\Grp} \to (-)^\mathrm{ab} : \Grp \to \Grp$.
+Abelianization has a unique extension to a [[functor]] $(-)^\mathrm{ab} : \Grp \to \Ab$ from [[Category of groups]] into [[Category of abelian groups]] so that the projection becomes a [[natural transformation]] $\pi : 1 \Rightarrow (-)^\mathrm{ab} : \Grp \to \Grp$.
 This is done by defining $(G^\mathrm{{ab}}, \pi_{G})$ with the help of the following universal property:
 
 $G^\mathrm{ab}$ is abelian.

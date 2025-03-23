@@ -16,7 +16,7 @@ The **category of pointed topological spaces** or **base spaces** $\Top_{•} \s
 This is a [[Subcategory|full subcategory]] of the **category of topological spaces with base sets** $\Top_{\Omega}$
 consisting of topological spaces with a subset of base points as objects
 and base set preserving continuous maps as its morphisms, #m/def/topology 
-i.e. if $f \in (\Top \downarrow \Omega) (XA,YB)$ then $f(A) \sube B$.
+i.e. if $f \in \Top_{\Omega} (XA,YB)$ then $f(A) \sube B$.
 
 #
 ---

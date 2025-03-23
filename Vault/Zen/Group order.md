@@ -11,7 +11,7 @@ The reason for this dual naming and notation is [[the order of a cyclic group eq
 
 ## Properties
 
-- [[Lagrange's Theorem|The order of a subgroup divides the order of a group]]
+- [[Lagrange's theorem|The order of a subgroup divides the order of a group]]
 - [[The order of an element and its inverse are the same]]
 - [[𝑎𝑏 and 𝑏𝑎 have the same order]]
 - Elements of order greater than two come in pairs ($a, a^{-1}$)

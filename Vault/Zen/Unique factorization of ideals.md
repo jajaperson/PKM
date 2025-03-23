@@ -1,0 +1,19 @@
+---
+tags:
+  - public
+aliases:
+  - UFI
+---
+[[Ideal]]
+# Unique factorization of ideals
+
+A [[commutative ring]] $R$ admits **unique factorization of ideals** or **UFI** iff every nonzero proper ideal $I \triangleleft R$ may be written uniquely (up to ordering) as the product of [[Prime ideal|prime ideals]] #m/def/ring 
+i.e. there is a bijection between ideals $\mathcal{I}$ and multisets $\mathbb{N}_{0}^\mathcal{P}$ of prime ideals.
+
+## Rings with UFI
+
+- [[An integral domain admits UFI iff it is Dedekind]]
+
+#
+---
+#state/tidy | #lang/en | #SemBr

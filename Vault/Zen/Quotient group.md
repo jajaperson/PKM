@@ -53,7 +53,7 @@ then there exists a unique homomorphism $\overline{\varphi} \in \Grp(G / N, H)$ 
 
 ## Properties
 
-- By [[Lagrange's Theorem]] $\abs{G / N} = [G : N] = \frac{\abs{G}}{\abs{N}}$.
+- By [[Lagrange's theorem]] $\abs{G / N} = (G : N) = \frac{\abs{G}}{\abs{N}}$.
 
 ## Special quotients
 

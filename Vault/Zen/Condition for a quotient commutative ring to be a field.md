@@ -3,7 +3,7 @@ tags:
   - public
 mathLink: $R/I$ for commutative $R$ is a field iff $I$ is maximal
 mathLink-blocks:
-  C1: $R$ is a field iff it has no nontrivial proper ideals
+  C1: $R$ is a field iff it has no nonzero proper ideals
 ---
 [[Field]]
 # Condition for a quotient commutative ring to be a field
@@ -19,7 +19,7 @@ Then the [[quotient ring]] $R / I$ is a [[field]] iff $I$ is a [[Maximal ideal]]
 > Since $ba \in J$, 
 > $$
 > \begin{align*}
-> 1 + I = (b + I)(a + I) = bc + I
+> 1 + I = (b + I)(a + I) = ba + I
 > \end{align*}
 > $$
 > whence $1 - ba \in I \triangleleft J$

@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - transitivity of finitely generatedness
 ---
 [[Finitely generated module]]
 # Finitely generated module over a finitely generated extension ring
