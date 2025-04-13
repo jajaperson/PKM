@@ -14,7 +14,7 @@ A **generalized Cartan matrix** $C = (c_{ij})$ is an $r \times r$ matrix such th
 3. $c_{ij} = 0$ iff $a_{ji} = 0$.
 
 The [[quiver]] $\Gamma$ associated to $C$ has vertices $\Gamma (V)= \mathbb{N}_{r}$
-and $a_{ij} = 2\delta_{ij} - c{ij}$ edges between vertices $i$ and $j$,
+and $a_{ij} = 2\delta_{ij} - c_{ij}$ edges between vertices $i$ and $j$,
 thus its [[adjacency matrix]] $A = (a_{ij})$.
 A quiver which can be associated to a generalized Cartan matrix is called a **Cartan quiver**,
 hence a Cartan quiver is a quiver with

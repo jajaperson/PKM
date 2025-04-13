@@ -8,7 +8,7 @@ aliases:
 [[Graph theory MOC]]
 # Graphs as quivers
 
-A [[Types of graph|general multigraph]] may be turned into a [[Quiver]] by converting undirected edges to pairs of opposite directed edges and adding labels to edges.
+A [[Graph|general graph]] may be turned into a [[Quiver]] by converting undirected edges to pairs of opposite directed edges and adding labels to edges.
 
 #
 ---

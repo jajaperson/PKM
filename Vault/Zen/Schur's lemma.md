@@ -33,12 +33,12 @@ Schur's lemma is a statement about linear maps which “commute” with an [[irr
 [^sim]: 1996, [[@simonRepresentationsFiniteCompact1996|Representations of finite and compact groups]], §II.4, pp. 27–28. The proof offered here is virtually identical, but insists on using ∗-representations for reasons beyond me.
 
 **Schur's lemma, first form •**
-Let $\Gamma : G \to \mathrm{GL}(V)$ be a finite-dimensional (complex) [[Irrep]]
+Let $\mathfrak{X} : G \to \mathrm{GL}(V)$ be a finite-dimensional (complex) [[Irrep]]
 and $A : V \to V$ a linear endomorphism.
-If $A$ commutes with $\Gamma$, i.e.
+If $A$ commutes with $\mathfrak{X}$, i.e.
 $$
 \begin{align*}
-A \Gamma(g) = \Gamma(g) A
+A \mathfrak{X}(g) = \mathfrak{X}(g) A
 \end{align*}
 $$
 for all $g \in G$, then $A = c \mathbf{I}$ for some $c \in \mathbb{C}$. #m/thm/rep ^3
@@ -52,15 +52,15 @@ for all $g \in G$, then $A = c \mathbf{I}$ for some $c \in \mathbb{C}$. #m/thm/r
 > <span class="QED"/>
 
 **Schur's lemma, second form •**
-Let $\Gamma : G \to \mathrm{GL}(V)$ and $\tilde{\Gamma} : G \to \mathrm{GL}(W)$ be finite-dimensional [[Unitary representation|unitary]] [[irrep|irreps]] 
+Let $\mathfrak{X} : G \to \mathrm{GL}(V)$ and $\mathfrak{Y}: G \to \mathrm{GL}(W)$ be finite-dimensional [[Unitary representation|unitary]] [[irrep|irreps]] 
 and $T : V \to W$ a linear map.
 $$
 \begin{align*}
-T \Gamma(g) = \tilde{\Gamma}(g)T
+T \mathfrak{X}(g) = \mathfrak{Y}(g)T
 \end{align*}
 $$
 for all $g \in G$,
-then $T = \mathbf{O}$ or $\Gamma$ and $\tilde{\Gamma}$ are [[Unitary equivalence of representations|unitarily equivalent]]. #m/thm/rep
+then $T = \mathbf{O}$ or $\mathfrak{X}$ and $\mathfrak{Y}$ are [[Unitary equivalence of representations|unitarily equivalent]]. #m/thm/rep
 $T$ is thence called an [[intertwiner]], which is unique up to scalar multiplication. ^2
 
 > [!check]- Proof

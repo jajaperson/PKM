@@ -4,7 +4,7 @@ tags:
 aliases:
   - algebraic number
 ---
-[[Ring theory MOC]]
+[[Algebraic number theory MOC]]
 # Number field
 
 A **number field** $K$ is an [[Field extension|extension field]] of [[Rational numbers]] of finite [[Field extension|degree]] $[K : \mathbb{Q}]$, #m/def/ring 
@@ -18,7 +18,7 @@ and $x$ is called an **algebraic number**.[^2022]
 ## Properties
 
 - [[Norm of a number field]]
-- [[The ring of integers of a number field forms a lattice]]
+- [[Ring of integers of a number field]]
 
 ## Classification
 
@@ -26,4 +26,4 @@ and $x$ is called an **algebraic number**.[^2022]
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

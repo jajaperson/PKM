@@ -9,6 +9,8 @@ The **isomorphism theorems** are a set of four theorems, most generally statable
 For particular examples, see
 
 - [[Group isomorphism theorems]]
+- [[Ring isomorphism theorems]]
+- [[Module isomorphism theorems]]
 - [[Lie algebra isomorphism theorems]]
 
 ## First theorem

@@ -6,13 +6,13 @@ tags:
 [[p-group]]
 # Extraspecial p-group
 
-A [[p-group]] $P$ is called **extraspecial** iff its [[Centre of a group|centre]] $Z(P)$ has order $p$,
+A [[p-group]] $P$ is called **extraspecial** iff its [[Centre of a group|centre]] $\opn Z(P)$ has order $p$,
 and the quotient $P / Z(P)$ is a nontrivial [[Elementary abelian group|elementary abelian]] $p$-group, #m/def/group 
 so if $\abs P = p^n$
 $$
 \begin{align*}
-Z(P) &= [P,P] \cong \mathbb{Z}^+_{p} \\
-P / Z(P) &\cong (\mathbb{Z}_{p}^+)^{n-1}
+\opn Z(P) &= [P,P] \cong \mathbb{Z}^+_{p} \\
+P / \opn Z(P) &\cong (\mathbb{Z}_{p}^+)^{n-1}
 \end{align*}
 $$
 where $[P,P]$ is the [[commutator subgroup]] of $P$.

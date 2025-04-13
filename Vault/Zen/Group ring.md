@@ -7,15 +7,15 @@ aliases:
 [[Unital associative algebra]]
 # Group ring
 
-The **group ring** (a specialization of [[Monoid ring]]) is a [[free module]] over a group with the additional structure of a [[ring]] with convolution (defined below) by a group operation, i.e. a [[∗-algebra]]. #m/def/group
-The idea is to form basis elements for each $g \in G$,
-and take linear combinations over $R$.
-This module is then given the structure of a [[ring]] using a multiplication rule (convolution) induced by group multiplication, which has the property $\delta_{g} *\delta_{h} = \delta_{gh}$.
+
+The **group ring** $R[G]$ of a [[group]] $G$ over a ring $R$ is the corresponding [[free module]] with the additional structure of a [[ring]], 
+such that the product of $R[G]$ and $G$ coïncide.
+As such, it is a specialization of the [[monoid ring]].
 
 ## Construction as maps
 
 Let $G$ be a group, and $R$ be a ring. 
-The **group ring** $R[G]$ is identified with the set of [[Support of a map|maps of finite-support]] $G \to R$,
+The **group ring** $R[G]$ may be identified with the set of [[Support of a map|maps of finite-support]] $G \to R$,
 with the **convolution** and **conjugate** operations defined below,[^simon] 
 where we identify $g \in G$ with $\delta_{g} : h \mapsto [g=h]$.
 The **convolution** operation is defined by

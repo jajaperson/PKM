@@ -23,7 +23,7 @@ there is a unique morphism $h \in \cat C(B, \lim F)$ such that the following dia
 
 Informally, the limit of $F$ is the ‘shallowest’ cone over $F$.[^br]
 
-The **colimit** of a diagram $F : \cat J \to \cat C$ is a [[Cones and cocones|cocone]] $\eta$ from the diagram $F$ to an object $\colim F$ to the diagram $F$,
+The **colimit** of a diagram $F : \cat J \to \cat C$ is a [[Cones and cocones|cocone]] $\epsilon$ from the diagram $F$ to an object $\colim F$ to the diagram $F$,
 with the universal property that given any other cone $\gamma$ from the diagram $F$ to an object $B$,
 there is a unique morphism $h \in \cat C(\colim F, B)$ such that the following diagram commutes for any $X, Y \in \cat J$ and $f \in \cat J(X,Y)$: #m/def/cat
 

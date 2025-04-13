@@ -8,6 +8,7 @@ morphism: basepoint preserving [[Continuity|continuous map]]
 tags:
   - category
   - public
+categoryName: category of pointed topological spaces
 ---
 [[Glossary of categories]]
 # Category of pointed topological spaces

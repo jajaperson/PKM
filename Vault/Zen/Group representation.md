@@ -5,32 +5,35 @@ tags:
 [[Group representation theory MOC]]
 # Group representation
 
-A [[Representation]] $\Gamma$ of a group $G$ is essentially a linear [[group action]] on some vector space $V$. #m/def/rep
-It is a [[Group homomorphism]] $\Gamma : G \to \mathrm{GL}(V)$.
-In particular for some $g,h \in G$
+A [[representation]] $\mathfrak{X}$ of a group $G$ is a linear [[group action]] on some vector space $V$ over $\mathbb{K}$ #m/def/rep2 
+i.e. a [[group homomorphism]] $\mathfrak{X} : G \to \opn{GL}(V)$,
+or equivalently a [[functor]] $\mathfrak{X} : G \to \Vect_{\mathbb{K}}$ regarding [[groups as categories]].[^not]
+In particular, for any $g,h \in G$
 $$
 \begin{align*}
-\Gamma(g) \Gamma(h) = \Gamma(gh)
+\mathfrak{X}(g) \mathfrak{X}(h) = \mathfrak{X}(gh)
 \end{align*}
 $$
-and $\Gamma(e) = \mathbb{1}$ where $\mathbb{1}$ is the identity map.[^keppler]
-Since [[Every representation of a compact group is equivalent to a unitary representation]], it is common to only consider unitary representations.
+and $\mathfrak{X}(1) = 1_{V}$.[^keppler]
+Since a representation of $G$ over $\mathbb{K}$ uniquely determines a representation of the [[group ring]] $\mathbb{K}[G]$ and vice versa, the latter being equivalent to a [[Module over a unital associative algebra|$\mathbb K[G]$-module]], we often employ the abuse of terminology [[Module over a group|$G$-module]] for $(\mathfrak{X}, V)$ as a whole.
+To summarize, a representation is at once
+
+- a [[group homomorphism]] $\mathfrak{X} : G \to \opn{GL}(V)$, which we use to emphasize the carrier space;
+- a [[functor]] $\mathfrak{X} : G \to \Vect_{\mathbb{K}}$, which we use to emphasize the ground field;
+- a [[module]] $V$ over $\mathbb{K}[G]$, which we use to consider the aggregate as a single object.
+
+  [^not]: We will use both notations depending on which perspective is being emphasized.
+
 
 [^keppler]: 2023, [[@keppelerGroupsRepresentations2023|Groups and representations, p. 20]]
-
+Since [[Every finite complex representation of a compact group is equivalent to a unitary representation]], it is common to only consider unitary representations.
 ## Additional terminology
 
-- $\dim \Gamma = \dim V$ is the **dimension** of the representation.
-- The vector space $V$ is said to **carry** the representation $\Gamma$,
+- $\deg \mathfrak{X} = \dim_{\mathbb{K}} V$ is the **degree** of the representation.
+- The vector space $V$ is said to **carry** the representation $\mathfrak{X}$,
   and is also called the **carrier space**.
 - In these notes, if the carrier space is an [[Inner product space]] it will usually use the linear-second $\langle \cdot|\cdot \rangle$ convention, signalled by the bar.
-- In a fixed [[Orthonormal basis]] $(v_{i})_{i=1}^n$ we call $\Gamma(g)_{jk}$ the [[Matrix representation]] with elements
-  $$
-  \begin{align*}
-  \Gamma(g)_{jk} = \bra{v_{i}} \Gamma(g)\ket{v_{k}} 
-  \end{align*}
-  $$
-  where it is said that $v_{i}$ transform under $G$ in the representation $\Gamma$.
+- With a fixed basis, we can use a [[Matrix representation]].
 
 ## Types of representation
 

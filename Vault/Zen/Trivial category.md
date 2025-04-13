@@ -1,8 +1,8 @@
 ---
 categoryName: trivial category
-symbol: $\cat 1$
-object: $\bullet$
-morphism: $\id_\bullet$
+mathLink: $\underline 1$
+object: $0$
+morphism: $\id_0$
 tags:
   - category
   - public
@@ -11,8 +11,8 @@ tags:
 [[Glossary of categories]]
 # Trivial category
 
-The **trivial category** is the [[Initial and terminal objects|terminal object]] of [[Category of small categories]].
-It consists of a single object $•$ with a single morphism $\id_{•}$.
+The **trivial category** $\underline 1$ is the [[Initial and terminal objects|terminal object]] of [[Category of small categories]].
+It consists of a single object $0$ with a single morphism $\id_{0}$.
 
 #
 ---

@@ -17,7 +17,6 @@ The **Euler totient function** $\phi : \mathbb{N} \to \mathbb{N}$ is defined suc
 ## Properties
 
 - #to/prove For any prime $p$,$\phi(p^n) = p^n - p^{n-1}$ 
-- For coprime $m,n$, $\phi(mn) = \phi(m,n)$
 
 #
 ---

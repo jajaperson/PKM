@@ -36,6 +36,10 @@ A subalgebra is the [[Centralizer in a Lie algebra]] $\mathfrak{c}_{\mathfrak{g}
 
 1. $\mathfrak{n}_{\mathfrak{g}}(V) = \mathfrak{g}$ iff $V$ is a [[Lie algebra ideal]] of $\mathfrak{g}$
 
+## See also
+
+- [[Normalizer in a group]]
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

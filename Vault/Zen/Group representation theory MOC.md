@@ -13,7 +13,7 @@ The main category of interest here is  [[Category of group representations]].
 
 ## Fundamentals
 
-- [[Group representation]], [[Equivalence of representations]]
+- [[Group representation]], [[Equivalence of group representations]]
 - [[Group character]], [[Character table]]
 - [[Reducibility of representations]], [[Decomposition of a representation]] ([[Maschke's theorem]])
 - [[Group ring]]
@@ -47,7 +47,7 @@ The main category of interest here is  [[Category of group representations]].
 
 ## Misc
 
-- [[McKay quiver]]
+- [[McKay graph]]
 
 #
 ---

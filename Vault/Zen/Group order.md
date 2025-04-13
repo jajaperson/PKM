@@ -19,6 +19,7 @@ The reason for this dual naming and notation is [[the order of a cyclic group eq
 - [[Number of elements of order 𝑑 in a finite group]]
 - [[Order of powers of a group element]]
 - [[Relationship between I𝑎𝑏I and I𝑎I𝑏I]]
+- [[Cauchy's order theorem]]
 
 [^ex]: See [[@gallianContemporaryAbstractAlgebra2017|Gallian]] §3 exercise 50
 

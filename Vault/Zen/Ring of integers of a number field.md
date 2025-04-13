@@ -21,7 +21,10 @@ Then the [[Algebraic integer|ring of integers]] $\mathcal{O}_{K}$ is a [[Dedekin
 > 
 > Since the ring of integers is automatically integrally closed, it follows $\mathcal{O}_{K}$ is Dedekind. <span class="QED"/>
 
+## Further terminology
 
+- [[Absolute norm of an ideal]]
+- Given an ideal $\mathfrak{a} \triangleleft \mathcal{O}_{K}$ we call $N(\mathfrak{a}) = \abs{\mathcal{O}_{K}/\mathfrak{a}}$ the **norm** of $\mathfrak{a}$, where $N((0))=0$.
 
 ## Properties
 

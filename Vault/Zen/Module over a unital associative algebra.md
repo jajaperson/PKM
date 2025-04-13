@@ -28,7 +28,7 @@ This is equivalent to a **representation** of $A$ carried by $V$.
 - A [[Submodule]] of $V$ is an [[invariant subspace]] under the action of $A$.
 - A module is [[Simple module|irreducible]] iff it has no proper nontrivial submodules.
 - A module is [[Indecomposable module|indecomposable]] iff it cannot be decomposed into the [[Direct sum of modules|direct sum]] of two nonzero submodules.
-- A [[module isomorphism]] is an [[equivalence of representations]].
+- A [[module isomorphism]] is an [[Equivalence of group representations]].
 - The [[Regular representation]] shows that $A$ is a module over itself.
 
 ## Explanation
@@ -37,7 +37,7 @@ Since a [[unital associative algebra]] $A$ over a field $\mathbb{K}$ is itself a
 it is possible to form a [[module]] $V$ over $A$.
 The action of $\mathbb{K}$ on $A$ and $A$ on $V$ induces an action of $\mathbb{K}$ on $V$,
 thus the module $V$ inherits the $\mathbb{K}$-linear structure of the underlying ring $A$.
-Therefore $V$ is a [[vector space]] over $\mathbb{K}$. #m/thm/module
+Therefore $V$ is a [[vector space]] over $\mathbb{K}$. 
 
 > [!check]- Proof
 > Let $\mathbb{1} \in A$ be the identity element of the associative algebra $A$.

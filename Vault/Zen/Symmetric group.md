@@ -1,6 +1,4 @@
 ---
-aliases:
-  - permutation group
 tags:
   - public
 ---

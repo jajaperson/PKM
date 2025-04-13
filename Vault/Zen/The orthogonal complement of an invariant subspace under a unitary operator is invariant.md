@@ -20,7 +20,7 @@ Then the [[Orthogonal complement]] $W^\perp$ is also invariant under $U$. #m/thm
 > <span class="QED"/>
 
 This extends to a [[Unitary representation]] of a finite group easily.
-Since [[Every representation of a compact group is equivalent to a unitary representation]], this doesn't hold iff a representation is not unitary and non-finite.
+Since [[Every finite complex representation of a compact group is equivalent to a unitary representation]], this doesn't hold iff a representation is not unitary and non-finite.
 
 #
 ---

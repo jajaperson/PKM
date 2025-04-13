@@ -78,7 +78,7 @@ graph TD
 ## Related
 
 - [[Module theory MOC]]
-
+- [[Algebraic number theory MOC]]
 
 
 #

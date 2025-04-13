@@ -11,9 +11,9 @@ tags:
 Let $\varphi : G \to H$ be a group homomorphism.
 The following statements are equivalent: #m/thm/group 
 
-- $\varphi$ is [[Surjectivity, injectivity, and bijectivity|injective]]
-- $\varphi$ is [[Morphism|monic]]
-- $\ker \varphi = \{e\}$
+- $\varphi$ is [[Surjectivity, injectivity, and bijectivity|injective]];
+- $\varphi$ is [[Morphism|monic]];
+- $\ker \varphi = 1$
 
 > [!check]- Proof
 > $\varphi$ is injective iff $\varphi(a) = \varphi(b) \implies a = b$ iff $\varphi(ab^{-1}) = e \implies ab^{-1} = e$ iff $\ker \varphi = \{e\}$.

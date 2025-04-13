@@ -80,4 +80,4 @@ See also the more general [[Algebra theory MOC]].
 
 #
 ---
-#MOC | #state/develop | #lang/en | #SemBr
+#MOC | #state/tidy | #lang/en | #SemBr

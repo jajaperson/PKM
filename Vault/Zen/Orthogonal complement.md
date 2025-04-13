@@ -5,7 +5,7 @@ tags:
 [[Vector subspace]]
 # Orthogonal complement
 
-Given an [[Inner product space]] $(V, \mathbb{K}, \braket{ \cdot | \cdot })$,
+Given an [[inner product space]] $(V, \mathbb{K}, \braket{ \cdot | \cdot })$,
 the **orthogonal complement** $A^\perp$ of a subset $A \sube V$
 is the [[vector subspace]] of vectors orthogonal to those $A$ #m/def/linalg 
 $$
@@ -14,12 +14,12 @@ A^\perp = \{ v \in V : (\forall a \in A) [\braket{ a | v } =0] \}
 \end{align*}
 $$
 
-[!check]- Proof of subspace
-Clearly the $\vab 0 \in A^\perp$.
-If $v_{1},v_{2} \in A^\perp$ and $\alpha,\beta \in \mathbb{K}$ then $\braket{ a | \alpha v_{1}+\beta v_{2} } = \alpha \braket{ a | v_{1} }+ \beta \braket{ a | v_{2} }=0$ for all $a \in A$,
-and thus $\alpha v_{1} + \beta v_{2} \in A^\perp$.
-Therefore $A^\perp$ is a subspace.
-<span class="QED"/>
+> [!check]- Proof of subspace
+> Clearly the $\vab 0 \in A^\perp$.
+> If $v_{1},v_{2} \in A^\perp$ and $\alpha,\beta \in \mathbb{K}$ then $\braket{ a | \alpha v_{1}+\beta v_{2} } = \alpha \braket{ a | v_{1} }+ \beta \braket{ a | v_{2} }=0$ for all $a \in A$,
+> and thus $\alpha v_{1} + \beta v_{2} \in A^\perp$.
+> Therefore $A^\perp$ is a subspace.
+> <span class="QED"/>
 
 ## Properties
 
@@ -100,6 +100,10 @@ Let $W \leq V$ be a [[vector subspace]]. Then
 Other properties include
 
 - [[The orthogonal complement of an invariant subspace under a unitary operator is invariant]]
+
+## See also
+
+- [[Orthogonal complement polarity]]
 
 #
 ---

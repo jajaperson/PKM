@@ -1,6 +1,9 @@
 ---
 tags:
   - public
+aliases:
+  - pointwise stabilizer
+  - setwise stabilizer
 ---
 [[Group action]]
 # Stabilizer group

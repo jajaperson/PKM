@@ -10,6 +10,7 @@ A **finite group** $G$ is a group with finitely many elements. #m/def/group
 ## Properties
 
 - Every finite group is [[compact group|compact]] as a [[discrete group]] (in fact they are the only compact discrete groups)
+- [[Sylow's theorem]]
 
 ## Classification
 

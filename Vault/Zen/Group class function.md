@@ -21,6 +21,7 @@ $$
 
 - If $X$ is a ring, we consider functions as elements of the [[Group ring]]
   - [[Centre of the group ring]]
+- [[Tensor powers of a faithful representation contain all irreps]]
 
 #
 ---

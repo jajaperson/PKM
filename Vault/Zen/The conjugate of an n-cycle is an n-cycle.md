@@ -1,9 +1,10 @@
 ---
 tags:
   - public
+mathLink: The conjugate of an $n$-cycle is an $n$-cycle
 ---
 [[Conjugacy classes of a symmetric group are determined by cycle structure]]
-# Conjugate of an n-cycle is an n-cycle
+# Conjugate of an $n$-cycle is an $n$-cycle
 
 Let $\alpha, \tau \in S_{n}$ where $\alpha$ an $k$-cycle with the form
 $$

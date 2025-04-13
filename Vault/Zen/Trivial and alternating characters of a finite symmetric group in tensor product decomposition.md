@@ -8,7 +8,7 @@ tags:
 Let $\Gamma^\mu, \Gamma^\nu$ be irreps of $S_{n}$, and $\Gamma^{\mu \otimes \nu} = \Gamma^\mu \otimes \Gamma^\nu$ be their [[Tensor product of group representations|tensor product]].
 Then the [[Decomposition of a representation|decomposition]] of $\Gamma^{\mu \otimes \nu}$ contains #m/thm/rep/sym
 
-- $\chi^\mathfrak{s}$ exactly once iff $\Gamma^\mu \cong \Gamma^\nu$ are [[Equivalence of representations|equivalent representations]], otherwise not at all
+- $\chi^\mathfrak{s}$ exactly once iff $\Gamma^\mu \cong \Gamma^\nu$ are [[Equivalence of group representations|equivalent representations]], otherwise not at all
 - $\chi^\mathfrak{a}$ exactly once iff $\Gamma^\mu = \chi^\mathfrak{a} \otimes \Gamma^\nu$ are [[Associate representation|associate representations]], otherwise not at all
 
 > [!check]- Proof

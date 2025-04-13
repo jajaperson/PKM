@@ -9,7 +9,7 @@ Let $R$ be a [[commutative ring]] and $V$ be an $R$-[[module]].
 Then $\End_{R} V = \lMod R(V,V)$ forms a unital associative $R$-[[Algebra over a field|algebra]] (and hence [[ring]]),
 called the **endomorphism ring**,
 under composition, #m/def/module 
-so for any $\lambda \in R$, $f,g \in \End_{R} V$ and $v \in \mathbb{ V}$
+so for any $\lambda \in R$, $f,g \in \End_{R} V$ and $v \in V$
 $$
 \begin{align*}
 (\lambda f)(v) &= \lambda f(v) \\
@@ -29,6 +29,10 @@ $$
 > \end{align*}
 > $$
 > as required. <span class="QED"/>
+
+## Properties 
+
+- [[Cayley's theorem for rings]]
 
 #
 ---

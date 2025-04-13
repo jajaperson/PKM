@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - Noetherian
 ---
 [[Ring theory MOC]]
 # Noetherian ring
@@ -46,30 +48,30 @@ A ring $R$ is called (left/right) **Noetherian** iff any of the following equiva
 Let $R$ be two-sided Noetherian.
 
 1. Let $I \triangleleft R$ be a nonzero proper ideal.
-   Then there exist nonzero [[Prime ideal|prime ideals]] $\mathfrak{p}_{1}, \dots, \mathfrak{p}_{n} \triangleleft R$ such that $\mathfrak{p}_{1} \cdots \mathfrak{p}_{n} \sube I$. ^P1
+   Then there exist nonzero [[Prime ideal|prime ideals]] $\mathfrak{p}_{1}, \dots, \mathfrak{p}_{n} \triangleleft R$ such that $\langle \mathfrak{p}_{1} \cdots \mathfrak{p}_{n} \rangle \sube I$. ^P1
 
 > [!check]- Proof
 > Let $\mathcal{I}$ be the set of all ideals for which [[#^P1]] fails,
 > and assume towards contradiction its maximal element is $I \in \mathcal{I}$, which cannot be a [[prime ideal]],
 > so there exist $a,b \in R \setminus I$ such that $ab \in I$.
-> Let $\mathfrak{a} = \langle I, a \rangle$ and $\mathfrak{b} = \langle I, b \rangle$,
+> Let $\mathfrak{a} = ( I, a )$ and $\mathfrak{b} = ( I, b )$,
 > whence $I \subne \mathfrak{a}, \mathfrak{b}$,
 > so by maximality $\mathfrak{a},\mathfrak{b} \notin \mathcal{I}$ and thus there exist nonzero prime ideals $\mathfrak{p}_{1}, \dots ,\mathfrak{p}_{m}, \mathfrak{q}_{1}, \dots \mathfrak{q}_{n} \triangleleft R$ such that
 > $$
 > \begin{align*}
-> \mathfrak{a} &\sube \mathfrak{p}_{1} \cdots\mathfrak{p}_{m}, & \mathfrak{b} &\sube \mathfrak{q}_{1} \cdots \mathfrak{q}_{n}.
+> \mathfrak{a} &\sube (\mathfrak{p}_{1} \cdots\mathfrak{p}_{m}), & \mathfrak{b} &\sube (\mathfrak{q}_{1} \cdots \mathfrak{q}_{n}).
 > \end{align*}
 > $$
 > Then
 > $$
 > \begin{align*}
-> \langle \mathfrak{ab} \rangle = \langle I^2, aI, bI, ab \rangle \sube I
+> (\mathfrak{a}\mathfrak{b}) = (I^2, aI, bI, ab) \sube I
 > \end{align*}
 > $$
 > whence
 > $$
 > \begin{align*}
-> \mathfrak{p}_{1} \cdots \mathfrak{p}_{m} \mathfrak{q}_{1} \cdots \mathfrak{q}_{n} \sube I,
+> (\mathfrak{p}_{1} \cdots \mathfrak{p}_{m} \mathfrak{q}_{1} \cdots \mathfrak{q}_{n}) \sube I,
 > \end{align*}
 > $$
 > a contradiction.

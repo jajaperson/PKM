@@ -54,6 +54,7 @@ alias:
 - [[Subgroup]] (subobjects)
   - [[Cyclic subgroup]]
   - [[Normal subgroup]]
+  - [[Core of a subgroup]]
 
 ### Commutation
 

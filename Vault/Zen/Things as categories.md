@@ -23,6 +23,12 @@ The following can be viewed as categories through a natural change in perspectiv
 - [[Preorders as categories]]
 - [[Posets as categories]]
 
+## Free categories
+
+Some structures can be studied by constructing a related “free” category (see also [[Representation]])
+
+- [[Free category]] (from a [[quiver]])
+
 #
 ---
 #state/develop | #lang/en | #SemBr

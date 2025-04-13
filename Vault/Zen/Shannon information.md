@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - surprisal
 ---
 [[Information theory MOC]]
 # Shannon information
@@ -9,7 +11,7 @@ The **Shannon information** or **surprisal** of a discrete [[General random vari
 $$
 \begin{align*}
 I_{X} : M &\to \mathbb{R} \\
-x &\mapsto -\log_{b} p_{X}(x) = -\log_{b} \mathbb{P}(X=xe)
+x &\mapsto -\log_{b} p_{X}(x) = -\log_{b} \mathbb{P}(X=x)
 \end{align*}
 $$
 where $b=2$ corresponds to the unit $\pu{Sh}$, $b=e$ corresponds to the unit $\pu{nat}$,

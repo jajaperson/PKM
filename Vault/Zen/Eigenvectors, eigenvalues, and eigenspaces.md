@@ -39,7 +39,7 @@ Once eigenvalues are known,
 eigenspaces can be found using [[Gaußian elimination]] on the augmented matrix $\begin{bmatrix}A - \lambda I \mid \vab 0\end{bmatrix}$.
 
 
-An important process is [[Diagonalisation]],
+An important process is [[Diagonalization]],
 by which any [[Types of square matrix|diagonalisable matrix]] is turned into a [[Types of square matrix|diagonal matrix]] with its eigenvalues as entries along the diagonal.
 
 ## Properties[^2022]

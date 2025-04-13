@@ -46,6 +46,7 @@ $\Omega$ is thence called a **$G$-space**.
 ## Related concepts
 
 - For topological properties, see [[Continuous group action]]
+- [[Permutation group]]
 
 #
 ---

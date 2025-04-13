@@ -12,14 +12,14 @@ $$
 |\mathbb{K}| \leq \dim_{\mathbb{K}} \mathbb{K}(x)
 \end{align*}
 $$
+In particular, the following set [[Linear (in)dependence|linearly independent]]:
+$$
+\begin{align*}
+S = \left\{  \frac{1}{x-\lambda}: \lambda \in \mathbb{K}  \right\}
+\end{align*}
+$$
 
 > [!check]- Proof
-> We will show the following set to be [[Linear (in)dependence|linearly independent]]:
-> $$
-> \begin{align*}
-> S = \left\{  \frac{1}{x-\lambda}: \lambda \in \mathbb{K}  \right\}
-> \end{align*}
-> $$
 > Let
 > $$
 > \begin{align*}

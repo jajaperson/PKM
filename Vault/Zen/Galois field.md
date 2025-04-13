@@ -13,15 +13,18 @@ The Galois field of order $p^h$, **unique** up to isomorphism, is denoted $\math
 > [!missing]- Proof
 > #missing/proof
 
-## Constructing a field
-A finite field of a given order can be constructed as a [[Polynomial ring#Congruences and quotients|quotient of a polynomial ring]].
+## Construction
+A finite field of a given order can be constructed as a quotient of a [[polynomial ring]].
 Given a polynomial ring $\mathbb{Z}_{p}[x]$
 and an irreducible polynomial $f$ of degree $h$,
-then $\mathbb{Z}_{p}[x] / {\equiv}_{f}$ uniquely defines the field of degree $p^h$ up to isomorphism. #m/thm/ring 
+then $\mathbb{Z}_{p}[x] / \langle f \rangle$ is a field of order $p^h$. #m/thm/ring 
 
 > [!missing]- Proof
 > #missing/proof
 
+## Properties
+
+- By [[Wedderburn's little theorem]] these are the only finite division rings.
 
 #
 ---

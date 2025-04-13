@@ -5,6 +5,7 @@ aliases:
   - the order of a subgroup divides the order of a group
   - the order of an element divides the order of a group
   - subgroup index
+  - Lagrange index
 ---
 [[Subgroup]]
 # Lagrange's theorem
@@ -13,10 +14,10 @@ Given a group $G$ and subgroup $H \sube G$, the order of the subgroup divides th
 This is often stated as
 $$
 \begin{align*}
-\abs{G} = (G:H) \abs{H}
+\abs{G} = \abs{G / H} \abs{H}
 \end{align*}
 $$
-where $(G : H)$ is the number of unique (left or right) [[coset|cosets]] of $H$,
+where $\abs{G / H}$ is the number of unique (left or right) [[coset|cosets]] of $H$,
 and is called the **subgroup index**.
 
 > [!check]- Proof

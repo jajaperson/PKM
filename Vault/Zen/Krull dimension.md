@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - Krull height
 ---
 [[Ring theory MOC]]
 # Krull dimension

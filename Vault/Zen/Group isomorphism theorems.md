@@ -2,7 +2,7 @@
 tags:
   - public
 ---
-[[Group isomorphism]]
+[[Isomorphism theorems]]
 # Group isomorphism theorems
 
 The [[isomorphism theorems]] for [[Group|groups]] are expressed as follows
@@ -28,7 +28,7 @@ $$
 
 ## Third isomorphism theorem
 
-Let $A \trianglelefteq B \trianglelefteq G$ be nested [[Normal subgroup|normal subgroups]].
+Let $A, B \trianglelefteq G$ be [[Normal subgroup|normal subgroups]] so that $A \leq B$.
 Then $A / B \trianglelefteq G / A$ and #m/thm/group 
 $$
 \begin{align*}

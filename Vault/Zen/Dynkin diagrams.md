@@ -5,7 +5,7 @@ tags:
 [[Graph theory MOC]]
 # Dynkin diagrams
 
-The **Dynkin diagrams** are a collection of [[Types of graph|multidigraphs]] used to classify a number of mathematical objects.
+The **Dynkin diagrams** are a collection of [[Graph|multidigraphs]] used to classify a number of mathematical objects.
 A complete list is #m/def/graph 
 
 ![[Finite_Dynkin_diagrams.svg.png#invert]]

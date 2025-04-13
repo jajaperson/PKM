@@ -1,7 +1,7 @@
 ---
 categoryName: category of chain complexes
 mathLink: $\cat{Ch}_\cat{A}$
-object: "[[chain complex]] in $\\cat A$]]"
+object: "[[chain complex]] in $\\cat A$"
 morphism: "[[chain map]]"
 arguments:
   - $\cat A$ [[abelian category]]

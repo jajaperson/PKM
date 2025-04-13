@@ -29,7 +29,7 @@ the dual representation $\Gamma^*$ may be identified with the complex conjugate.
 > \end{align*}
 > $$
 
-A representation $\Gamma$ is called **self-dual** iff it is [[Equivalence of representations|equivalent]] to its dual $\Gamma^*$,
+A representation $\Gamma$ is called **self-dual** iff it is [[Equivalence of group representations|equivalent]] to its dual $\Gamma^*$,
 and [[a group representation is self-dual iff it preserves a nondegenerate bilinear form]].
 
 #

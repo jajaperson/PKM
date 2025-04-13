@@ -10,7 +10,7 @@ mathLink: $\mathrm{TG}$
 [[Set theory MOC]]
 # Tarski-Grothendieck set theory
 
-**Tarski-Grothendieck set theory** or $\mathrm{NBG}$ is a [[Material set theory]] and [[conservative extension|non-conservative extension]] of [[ZFC]].
+**Tarski-Grothendieck set theory** or $\mathrm{TG}$ is a [[Material set theory]] and [[conservative extension|non-conservative extension]] of [[ZFC]].
 
 #
 ---

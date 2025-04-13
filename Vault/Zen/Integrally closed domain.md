@@ -15,6 +15,10 @@ $$
 which in this case is the [[Algebraic integer|ring of integers]] of the [[field of fractions]] $K$.
 Thus $R$ is integrally closed iff it equals its integral closure.
 
+## See also
+
+- [[Dedekind domain]], which is defined to be integrally closed.
+
 #
 ---
 #state/develop | #lang/en | #SemBr

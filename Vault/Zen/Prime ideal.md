@@ -22,13 +22,15 @@ $$
 > i.e. $\mathscr{p}$ is [[Prime element|prime]].
 
 Note an ideal $I \trianglelefteq \mathbb{Z}$ is prime iff $I = p\mathbb{Z}$ where $p$ is prime or zero.
+The set of all prime ideals of a commutative ring is called its [[Spectrum of a ring|spectrum]].
 
   [^2017]: 2017\. [[Sources/@gallianContemporaryAbstractAlgebra2017|Contemporary abstract algebra]], §14, p. 253
 
 ## Properties
 
-- [[Condition for a quotient commutative ring to be an integral domain]]
+- [[Condition for a quotient commutative ring to be an integral domain]] (often this is used to prove primality)
 - [[A maximal ideal in a commutative ring is prime]]
+- [[Product ideal#^D2]]
 
 ## See also
 

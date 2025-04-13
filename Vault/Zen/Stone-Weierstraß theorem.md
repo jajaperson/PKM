@@ -14,23 +14,22 @@ i.e. $\Cl(X) =  \Top(Y,\mathbb{C})$.
 
 ## Finite version
 
-Let $X \leq \mathbb{C}[Y]$ be a complex function space on a finite set $Y$.
-Then $X = \mathbb{C}[Y]$ iff[^sim]: #m/thm/anal/fun
 
-- $f \cdot g \in X$ for all $f,g \in X$
-- $X$ separates points, i.e. for any distinct $x,y \in Y$ there exists $f_{xy} \in X$ so that $f_{xy}(x) = 1$ and $f_{xy}(y) = 0$
-
-[^sim]: 1996, [[@simonRepresentationsFiniteCompact1996|Representations of finite and compact groups]], §III.1, p. 37
+Let $X \leq \mathbb{K}^Y$ be a subalgebra of the [[function algebra]] $\mathbb{K}^Y$ on a finite set $Y$.
+Then $X = \mathbb{K}^Y$ iff 
+$X$ separates points, #m/thm/linalg  i.e. for any distinct $x,y \in Y$ there exists $f_{x,y} \in X$ so that $f_{x,y}(x) = 1$ and $f_{x,y}(y) = 0$
 
 > [!check]- Proof
-> Assume $X$ has the two properties.
-> For each $x \in Y$ let $\delta_{x}: y \mapsto \delta_{xy}$, and let $f$ be defined as above.
-> Since $\delta_{x}(z) = \prod_{y \neq x}f_{xy}(z)$,
-> $\delta_{x} \in X$ for all $x \in Y$
-> and since $\delta_{x}$ form a basis of $\mathbb{C}[x]$,
-> it follows that $X = \mathbb{C}[X]$.
-> Clearly the two constructions are guaranteed functions in $\mathbb{C}[Y]$, so the converse is trivial.
-> <span class="QED"/>
+> Assume $X$ is separating.
+> For each $x \in Y$, let $\delta_{x} \in \mathbb{K}^Y$ so that $\delta_{x}(y) = [x=y]$^[Invoking an [[Iverson bracket]].].
+> Defining $f_{x,y}$ as above, it follows
+> $$
+> \begin{align*}
+> \delta_{x} = \prod_{y \neq x} f_{x,y}
+> \end{align*}
+> $$
+> and since $\{ \delta_{x} \}_{x \in Y}$ span $\mathbb{K}^Y$ it follows $X = \mathbb{K}^Y$.
+> For the converse just set $f_{x,y} = \delta_{x}$ for all $y \neq x$. <span class="QED"/>
 
 #
 ---

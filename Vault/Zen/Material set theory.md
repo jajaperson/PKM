@@ -10,6 +10,7 @@ where sets are characterized by $\in$ and propositional equality.
 These theories introduce a [[Cumulative hierarchy]].
 [[F. William Lawvere]] describes such set theories as prioritizing [[Substance]] over [[Form]].
 
+
 ## Setup
 Unless otherwise specified, we consider a universe $\mathcal{W}$ of objects with the following primitive notions[^2006]
 

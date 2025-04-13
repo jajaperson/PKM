@@ -6,7 +6,7 @@ tags:
 # Function algebra
 
 Let $\mathbb{K}$ be a [[field]] and $X$ be some set.
-The **function algebra** $\Set(X,\mathbb{K})$ consists of functions $X \to \mathbb{K}$ with scaling, addition, and multiplication defined pointwise. #m/def/falg
+The **function algebra** $\mathbb{K}^X = \Set(X,\mathbb{K})$ consists of functions $X \to \mathbb{K}$ with scaling, addition, and multiplication defined pointwise. #m/def/falg
 
 ## Additional structure
 

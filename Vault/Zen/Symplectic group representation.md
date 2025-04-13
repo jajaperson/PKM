@@ -5,14 +5,15 @@ tags:
 [[Group representation]]
 # Symplectic representation
 
-Let $V$ be a [[symplectic vector space]].
-A [[group representation]] $\Gamma : G \to \opn{GL}(V)$ is **symplectic** iff $\Gamma(g)$ is a [[Symplectic transformation]] for all $g \in G$, #m/def/rep  i.e.
+A **symplectic representation** $\mathfrak{X}$ of $G$ is a [[group homomorphism]] $\mathfrak{X} : G \to \opn{Sp}(V)$ into the [[symplectic group]] #m/def/rep2 
+where $V$ is a [[symplectic vector space]].
+Thus $\mathfrak{X}$ is a [[group representation]] of $G$ carried by $V$ such that
 $$
 \begin{align*}
-\omega(\Gamma(g)v, \Gamma(g)w) = \omega(v,w)
+\omega(\mathfrak{X}(g) v, \mathfrak{X}(g) w) = 0
 \end{align*}
 $$
-Alternatively, $\Gamma : G \to \opn{Sp}(V)$ is homomorphism into the [[Symplectic group]].
+for all $g \in G$ and $v, w \in V$ where $\omega$ is the symplectic form.
 
 ## Properties
 

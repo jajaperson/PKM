@@ -12,7 +12,7 @@ P^\mu_{jk} &= d_{\mu} \int_{G} [\Gamma^\mu(g)^{-1}]_{jk}U(g) \,d\mu(g) \\ &= d_{
 U(g) &= \sum_{\mu;j,k} \Gamma^{\mu}_{kj}(g)P^\mu_{jk}
 \end{align*}
 $$
-where the second line is allowed for finite groups since [[Every representation of a compact group is equivalent to a unitary representation]], and $d\mu$ is the normalized [[Haar measure]].
+where the second line is allowed for finite groups since [[Every finite complex representation of a compact group is equivalent to a unitary representation]], and $d\mu$ is the normalized [[Haar measure]].
 
 > [!missing] #to/complete 
 > While the definition above is for all compact groups, I haven't fully formulated this yet.

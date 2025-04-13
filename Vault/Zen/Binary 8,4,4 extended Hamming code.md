@@ -14,7 +14,7 @@ and the [[extended code]] of the [[Binary 7,4,3 Hamming code]].
 
 ## Construction
 
-## From quadratic residues
+### From quadratic residues
 Let $\Omega = \opn P^1 \mathbb{K}_{7} = \mathbb{K}_{7} \cup \{ \infty \}$ be the [[Projective space|projective line]] where $\mathbb{K}_{7}$ is a [[Galois field]].[^FLM][^Lord]
 $\Omega$ divides neatly into [[quadratic residue|quadratic residues]] and non-residues
 $$

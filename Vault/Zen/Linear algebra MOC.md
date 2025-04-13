@@ -39,7 +39,7 @@ Linear algebra is generalized by [[Module theory MOC]].
 
 
 - [[Eigenvectors, eigenvalues, and eigenspaces]] 
-- [[Diagonalisation]]
+- [[Diagonalization]]
 
 ## Internal constructions
 

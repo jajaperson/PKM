@@ -32,6 +32,8 @@ i.e. a [[1-dimensional irrep|1-dimensional representation]].
 - [[Orthonormality of irreducible characters]]
 - [[Character irreducibility criterion]]
 - [[Irreducible character as function of an idempotent]]
+- [[Finite group character values]]
+- [[Tensor powers of a faithful representation contain all irreps]]
 
 ## See also
 

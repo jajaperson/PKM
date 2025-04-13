@@ -59,7 +59,7 @@ $$
 > \end{align*}
 > $$
 > and a multiplicative identity is given by $\iota(1) = 1$.
-> Clearly $\iota$ is a [[ring monomorphism]],
+> Clearly $\iota$ is a [[Ring monomorphism]],
 > and $\mu$ is a [[monoid monomorphism]] since
 > $$
 > \begin{align*}

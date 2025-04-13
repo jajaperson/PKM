@@ -12,6 +12,8 @@ $$
 \end{align*}
 $$
 
+The corresponding [[module over a Lie algebra]] is denoted $V_1 \otimes_{\mathbb{K}} V_{2}$.
+
 > [!check]- Proof of representation
 > Clearly each summand defines a representation,
 > furthermore these representations commute.

@@ -1,10 +1,10 @@
 ---
-symbol: $\cat O_n$
-categoryName: ordinal category $n$
-object: element of [[Poset]] $n$
-morphism: $\leq$
+symbol: $\underline \alpha$
+categoryName: ordinal category $\alpha$
+object: element of [[Von Neumann ordinal]] $\alpha$
+morphism: $\in$
 arguments:
-  - $n$ [[ordinal number]]
+  - $\alpha$ [[ordinal number]]
 tags:
   - public
   - category
@@ -12,10 +12,9 @@ tags:
 [[Category theory MOC]]
 # Ordinal category
 
-Let $n$ be an [[ordinal number]].
-The **ordinal category** $\cat O_{n}$, often denoted just by $n$, is the [[small category]] resulting from regarding $n$ as a [[poset]].
-A particular example is [[Interval category]],
-and another is the [[Empty category]].
+Let $\alpha$ be an [[ordinal number]].
+The **ordinal category** $\underline \alpha$, is the [[small category]] resulting from regarding $\alpha$ as a [[Posets as categories|poset-as-category]].
+Particular examples include [[Empty category]], [[Trivial category]], [[Interval category]], and [[Simplex category]].
 
 #
 ---

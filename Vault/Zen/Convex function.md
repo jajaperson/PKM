@@ -8,7 +8,7 @@ tags:
 # Convex function
 
 Let $X$ be a [[convex subset]] of $\mathbb{R}^n$.
-A function $f : X \to \mathbb{R}$ is said to be **convex** iff its _epigraph_ (the set of points above its [[graph]]) is a [[convex subset]] of $\mathbb{R}^{n+1}$. #m/def/anal 
+A function $f : X \to \mathbb{R}$ is said to be **convex** iff its _epigraph_ (the set of points above its [[Graph set]]) is a [[convex subset]] of $\mathbb{R}^{n+1}$. #m/def/anal 
 Equivalently, for all $t \in [0,1]$ and $x_{1},x_{2} \in X$,
  $$
 \begin{align*}
