@@ -13,14 +13,13 @@ tags:
 [[Category theory MOC]]
 # Functor category
 
-Given two categories $\cat C$ and $\cat D$, we construct a **functor category** $\cat D^{\cat C}$ where
+Given two categories $\cat C$ and $\cat D$, we construct a **functor category** $\cat D^{\cat C}$ where each object is a functor and
+each morphism is a [[natural transformation]] $\eta : F \Rightarrow G : \cat C \to \cat D$.
 
-- each object is a [[functor]] $F : \cat C \to \cat D$
-- each morphism is a [[natural transformation]] $\eta : F \to G : \cat C \to \cat D$
+## Special cases
 
-A special case is an [[Endofunctor category]] $\cat C^\cat{C}$, which possesses additional monoidal structure.
-Since the exponent notation becomes cumbersome, I occasionally use $\Nat(F, G) = \cat D^{\cat C}(F, G)$ when the codomain and domain of $F, G$ is well-understood.
-
+- [[Endofunctor category]] $\cat C^\cat{C}$, which possesses additional monoidal structure.
+- [[Category of presheaves]] $\Set^{\cop C}$
 
 #
 ---

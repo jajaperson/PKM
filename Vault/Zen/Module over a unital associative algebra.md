@@ -7,7 +7,7 @@ aliases:
 [[Algebra theory MOC]]
 # Module over an associative algebra
 
-Let $A$ be a [[unital associative algebra]] over $\mathbb{K}$.
+Let $A$ be a [[Unital associative algebra over a field]] over $\mathbb{K}$.
 A (left) $A$-[[module]] is a $\mathbb{K}$-[[vector space]] $V$ equipped with a bilinear map
 $$
 \begin{align*}
@@ -33,7 +33,7 @@ This is equivalent to a **representation** of $A$ carried by $V$.
 
 ## Explanation
 
-Since a [[unital associative algebra]] $A$ over a field $\mathbb{K}$ is itself a ring,
+Since a [[Unital associative algebra over a field]] $A$ over a field $\mathbb{K}$ is itself a ring,
 it is possible to form a [[module]] $V$ over $A$.
 The action of $\mathbb{K}$ on $A$ and $A$ on $V$ induces an action of $\mathbb{K}$ on $V$,
 thus the module $V$ inherits the $\mathbb{K}$-linear structure of the underlying ring $A$.

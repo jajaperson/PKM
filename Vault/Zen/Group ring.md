@@ -4,12 +4,11 @@ tags:
 aliases:
   - group algebra
 ---
-[[Unital associative algebra]]
+[[Unital associative algebra over a field]]
 # Group ring
 
 
-The **group ring** $R[G]$ of a [[group]] $G$ over a ring $R$ is the corresponding [[free module]] with the additional structure of a [[ring]], 
-such that the product of $R[G]$ and $G$ coïncide.
+The **group ring** $R[G]$ of a [[group]] $G$ is an [[Unital associative algebra over a commutative ring|$R$-ring]] constructed from the corresponding [[free module]], such that the product of  and  coïncide.
 As such, it is a specialization of the [[monoid ring]].
 
 ## Construction as maps

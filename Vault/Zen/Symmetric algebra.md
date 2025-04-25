@@ -2,10 +2,10 @@
 tags:
   - public
 ---
-[[Unital associative algebra]]
+[[Unital associative algebra over a field]]
 # Symmetric algebra
 
-The **symmetric algebra** $S^\bullet V$ of a [[vector space]] $V$ is the universal commutative [[unital associative algebra]] containing $V$,
+The **symmetric algebra** $S^\bullet V$ of a [[vector space]] $V$ is the universal commutative [[Unital associative algebra over a field]] containing $V$,
 as formalized by the [[#Universal property]].
 Compare this to the [[exterior algebra]], which is has the alternating property.
 
@@ -14,7 +14,7 @@ Conceptually similar is the [[Exterior algebra]].
 
 ## Universal property
 
-The **symmetric algebra** is a pair consisting of a commutative [[unital associative algebra]] $S^\bullet V$ 
+The **symmetric algebra** is a pair consisting of a commutative [[Unital associative algebra over a field]] $S^\bullet V$ 
 and a [[linear map]] $\iota : V \hookrightarrow S^\bullet V$
 such that given any commutative unital associative algebra $A$ and any linear map $f : V \to A$,
 there exists a unique [[Algebra homomorphism|unital algebra homomorphism]] $\bar{f} : S^\bullet V \to A$ for which the following diagram commutes: #m/def/falg 

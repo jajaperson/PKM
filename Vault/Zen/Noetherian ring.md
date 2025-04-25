@@ -9,7 +9,7 @@ aliases:
 
 A ring $R$ is called (left/right) **Noetherian** iff any of the following equivalent conditions hold:[^2022] #m/def/ring 
 
-1. (left/right) [[ideal]] $I \trianglelefteq R$ is [[Finitely generated module|finitely generated]] as a (left/right) $R$-module; ^N1
+1. (left/right) [[ideal]] $I \trianglelefteq R$ is [[Finitely generated module|finitely generated]] as a (left/right) $R$-module, i.e. $R$ is a (left/right) [[Noetherian module]]; ^N1
 2. every increasing sequence $I_{1} \trianglelefteq I_{2} \trianglelefteq \cdots$ of (left/right) ideals of $R$ has a largest element; ^N2
 3. every non-empty set of (left/right) ideals of $R$ contains a maximal element. ^N3
 
@@ -48,7 +48,7 @@ A ring $R$ is called (left/right) **Noetherian** iff any of the following equiva
 Let $R$ be two-sided Noetherian.
 
 1. Let $I \triangleleft R$ be a nonzero proper ideal.
-   Then there exist nonzero [[Prime ideal|prime ideals]] $\mathfrak{p}_{1}, \dots, \mathfrak{p}_{n} \triangleleft R$ such that $\langle \mathfrak{p}_{1} \cdots \mathfrak{p}_{n} \rangle \sube I$. ^P1
+   Then there exist nonzero [[Prime ideal|prime ideals]] $\mathfrak{p}_{1}, \dots, \mathfrak{p}_{n} \triangleleft R$ such that $\mathfrak{p}_{1} \cdots \mathfrak{p}_{n}  \sube I$. ^P1
 
 > [!check]- Proof
 > Let $\mathcal{I}$ be the set of all ideals for which [[#^P1]] fails,

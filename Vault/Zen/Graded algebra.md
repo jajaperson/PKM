@@ -15,7 +15,7 @@ A_{\alpha} \cdot A_{\beta} \sube A_{\alpha + \beta}
 \end{align*}
 $$
 for any $\alpha,\beta \in M$.
-If $(A, \cdot)$ is a [[unital associative algebra]], this definition is equivalent to that of a [[graded ring]],
+If $(A, \cdot)$ is a [[Unital associative algebra over a field]], this definition is equivalent to that of a [[graded ring]],
 and hence $1 \in A+0$.
 
 ## Category of graded algebras

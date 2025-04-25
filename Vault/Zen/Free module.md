@@ -5,7 +5,7 @@ tags:
 [[Module theory MOC]] 
 # Free module
 
-**Free modules** are the [[Free object|free objects]] in [[Category of left-modules]]. #m/def/module 
+**Free modules** are the [[Free-forgetful adjunction|free objects]] in [[Category of left-modules]]. #m/def/module 
 In essence it is a module with a basis, hence every [[vector space]] is a free module, 
 but one can form non-free modules over a ring that is not a [[Division ring]].
 

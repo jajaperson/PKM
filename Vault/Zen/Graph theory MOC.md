@@ -26,7 +26,9 @@ tags:
 
 - [[Adjacency matrix]]
 
-## Quivers
+## Representation-theoretic perspective
+
+[[Quiver representation theory MOC]]
 
 - [[Quiver]]
 - [[Quiver homomorphism]]

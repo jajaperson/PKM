@@ -1,7 +1,7 @@
 ---
-categoryName: category of unital associative algebras
-mathLink: $\cat{UAsAlg}_{\mathbb K}$
-object: "[[unital associative algebra]] over $\\mathbb K$"
+categoryName: category of $R$-rings
+mathLink: $\Ring_{R}$
+object: "[[Unital associative algebra over a commutative ring|$R$-ring]]"
 morphism: "[[Algebra homomorphism|unital algebra homomorphism]]"
 arguments:
   - "$\\mathbb K$ [[field]]"
@@ -9,12 +9,12 @@ tags:
   - category
   - public
 ---
-[[Unital associative algebra]]
+[[Unital associative algebra over a field]]
 # Category of unital associative algebras
 
 Let $\mathbb{K}$ be a [[field]].
-The **category of unital associative algebras** $\cat{UAsAlg}_{\mathbb K}$ is a [[category]] where
-an object is a [[unital associative algebra]] over $\mathbb K$
+The **category of unital associative algebras** $\Ring_{\mathbb K}$ is a [[category]] where
+an object is a [[Unital associative algebra over a field]] over $\mathbb K$
 and a morphism is a [[Algebra homomorphism|unital algebra homomorphism]]. #m/def/falg
 
 

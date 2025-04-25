@@ -14,6 +14,7 @@ i.e. the smallest possible subring of $T$ containing $R \cup S$. #m/def/ring
 - If the ambient ring $T$ is left unspecified and $S$ is a [[monoid]], one considers the [[Monoid ring]].
     This is compatible with the notation for a [[free module]].
 - See also [[polynomial ring]]
+- [[Category rng]]
 #
 ---
 #state/develop | #lang/en | #SemBr

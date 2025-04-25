@@ -6,7 +6,7 @@ tags:
 ---
 [[Linear algebra MOC]]
 # Vector subspace
-A **linear subspace** $S \leq V$
+A **vector subspace** $S \leq V$
 of a [[vector space]] $V$
 is a subset $S \sube V$ that is a vector space under the same scalar multiplication and vector addition. #m/def/linalg 
 This can be boiled down to the following requirement:

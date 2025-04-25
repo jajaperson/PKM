@@ -12,13 +12,14 @@ These theories introduce a [[Cumulative hierarchy]].
 
 
 ## Setup
-Unless otherwise specified, we consider a universe $\mathcal{W}$ of objects with the following primitive notions[^2006]
+
+Unless otherwise specified, we deploy [[1st-order logic]] on a universe $\mathcal{W}$ of objects with the primitive notions[^2006]
 
 - $x = y$ iff $x$ is the same object as $y$;
 - $\shood(x)$ iff $x$ is a set;
-- $x \in y$ iff $\shood(y)$ and $x$ is a member of $y$
+- $x \in y$ iff $\shood(y)$ and $x$ is a member of $y$;
 
-where an object (not required to exist) in $\mathcal{W}$ that is not a set is called an [[Urelement]].
+where if there exists an object in $\mathcal{W}$ that is not a set it is called an [[Urelement]].
 While most treatments do without urelements by considering only [[Pure set|pure sets]], these notes allow for their existence unless otherwise stated,
 which occasionally complicates the statements of axioms somewhat.
 

@@ -5,15 +5,23 @@ tags:
 [[Yoneda lemma]]
 # Yoneda embedding
 
-The **Yoneda embedding** is an important construction enabled by the [[Yoneda lemma]].
-Consider a category $\cat C$ along with the [[Functor category]] $\Set^{\op{\cat C}}$ of presheaves.
-The Yoneda embedding is the functor $\yo : \cat C \to \Set^{\op{\cat C}}$ that
+The **Yoneda embedding** $\yo : \cat C \hookrightarrow \Set^{\cop C}$ is an [[embedding#Category|embedding]]  of a [[locally small category]] $\cat C$ into the [[Category of presheaves]],
+that 
 
-- maps an object $X \in \cat C$ to the presheaf $\yo X = \cat C(-, X)$
-- maps a morphism $f : X \to Y$ to the natural transformation $f_{\star}$, containing the [[Pushforward and pullback of morphisms|pushforwards]] of $f$
+- maps an object $X \in \cat C$ to the presheaf $\yo X =\cat C(-, X)$
+- maps a morphism $f : X \to Y$ to the natural transformation $\yo f =  f_{\star}$, whose components are the [[Pushforward and pullback of morphisms|pushforwards]] of $f$
 
 ![[Yoneda embedding.png#invert]]
 
+> [!missing]- Proof of embedding
+> Let $X,Y \in \cat C$.
+> By the [[Yoneda lemma]] we have
+> $$
+> \begin{align*}
+> \cat C(X,Y) = (\yo Y)X \cong \Set^{\cop C}(\yo X, \yo Y)
+> \end{align*}
+> $$
+
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

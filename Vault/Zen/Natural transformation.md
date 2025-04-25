@@ -8,7 +8,7 @@ tags:
 A **natural transformation** is a morphism in a so-called [[functor category]],
 that is it is a morphism between two functors,
 or a 2-morphism in [[Category of small categories]].
-If $F, G : \cat C \to \cat D$, then a **natural transformation** $\eta : F \to G : \cat C \to \cat D$
+If $F, G : \cat C \to \cat D$, then a **natural transformation** $\eta : F \Rightarrow G : \cat C \to \cat D$
 consists of a morphism $\eta_{X} : FX \to FY$ for every $X \in \cat C$
 such that the following diagram commutes: #m/def/cat 
 
@@ -20,7 +20,7 @@ i.e. $\eta_{Y}\,Ff = Gf \,\eta_{X}$ for every $X, Y \in \cat C$.[^br]
 [^br]: 2020, [[@bradleyTopologyCategoricalApproach2020|Topology: A categorical approach]], pp. 11–12 (Definition 0.9)
 
 If $\eta_{X} : FX \to GX$ is an [[Morphism|isomorphism]] for every $X \in \cat C$,
-then it is called a [[natural equivalence]] and we say $F \cong G$.
+then it is called a [[Natural isomorphism]] and we say $F \cong G$.
 
 A slight generalization is an [[(Extra)natural transformation]].
 

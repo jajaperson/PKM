@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - faithful group action
 ---
 [[Group action]]
 # Effective group action

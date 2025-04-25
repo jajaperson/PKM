@@ -22,7 +22,7 @@ Then their [[Tensor product of algebras|tensor product algebra]] $\mathfrak{g} \
 > as required.
 > <span class="QED"/>
 
-Note that if $A$ is [[Unital associative algebra|unital]], then we have the injective [[Lie algebra homomorphism]]
+Note that if $A$ is [[Unital associative algebra over a field|unital]], then we have the injective [[Lie algebra homomorphism]]
 $$
 \begin{align*}
 \iota : \mathfrak{g} &\hookrightarrow \mathfrak{g} \otimes_{\mathbb{K}} A \\

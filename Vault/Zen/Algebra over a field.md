@@ -18,7 +18,7 @@ This may be generalized to an [[Algebra over a commutative ring]].
 
 ## Examples
 
-- [[Unital associative algebra]]^[In these notes I will try and reserve infix notation for associative algebras, as there is a tendency to assume such things to be associative.]
+- [[Unital associative algebra over a field]]^[In these notes I will try and reserve infix notation for associative algebras, as there is a tendency to assume such things to be associative.]
     - Commutative
         - [[Complex number]]
         - [[Quaternion]] (non-commutative)
@@ -28,7 +28,9 @@ This may be generalized to an [[Algebra over a commutative ring]].
         - [[Endomorphism ring]]
         - [[Tensor algebra]]
         - [[Clifford algebra]]
+        - [[Monoid ring]]
         - [[Extension field as a unital associative algebra]]
+- [[Category rng]]
 - Non-associative
     - [[Lie algebra]]
 

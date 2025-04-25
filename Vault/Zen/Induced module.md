@@ -4,13 +4,13 @@ tags:
 ---
 [[Module theory MOC]]
 # Induced module
-Let $A$ be a [[unital associative algebra]] over $\mathbb{K}$, $B \leq A$ be a [[unital subalgebra]], and $V$ be a $B$-[[Module over a unital associative algebra|module]].
+Let $A$ be a [[Unital associative algebra over a field]] over $\mathbb{K}$, $B \leq A$ be a [[unital subalgebra]], and $V$ be a $B$-[[Module over a unital associative algebra|module]].
 The $A$-module **induced** by the $B$-module $V$ is a canonical way of extending $V$ to accomodate a representation of $A$,
 as formalized by the [[#Universal property]].[^1988]
 
 ## Universal property
 
-Let $A$ be a [[unital associative algebra]] over $\mathbb{K}$, $B \leq A$ be a [[unital subalgebra]], and $V$ be a $B$-[[Module over a unital associative algebra|module]]. The $A$-module **induced** by the $B$-module $V$ is a pair consisting of an $A$-module $\Ind_{B}^A V = A \otimes_{B} V$ and a $B$-[[Module homomorphism]] $\iota : V \to \Ind^A_{B} V$
+Let $A$ be a [[Unital associative algebra over a field]] over $\mathbb{K}$, $B \leq A$ be a [[unital subalgebra]], and $V$ be a $B$-[[Module over a unital associative algebra|module]]. The $A$-module **induced** by the $B$-module $V$ is a pair consisting of an $A$-module $\Ind_{B}^A V = A \otimes_{B} V$ and a $B$-[[Module homomorphism]] $\iota : V \to \Ind^A_{B} V$
 such that given any $A$-module $W$ a $B$-module homomorphism $f : V \to W$
 factorizes uniquely through $\iota$ #m/def/falg 
 
@@ -61,7 +61,7 @@ $$
 
 ## Graded structure
 
-Let $A$ be a $\mathfrak{A}$-[[Graded algebra|graded]] [[unital associative algebra]], $B \leq A$ be [[Unital subalgebra|unital]] [[graded subalgebra]],
+Let $A$ be a $\mathfrak{A}$-[[Graded algebra|graded]] [[Unital associative algebra over a field]], $B \leq A$ be [[Unital subalgebra|unital]] [[graded subalgebra]],
 and $V$ be a [[Graded module|graded]] $B$-[[Module over a unital associative algebra|module]].
 Then $\Ind^A_{B} V$ has a natural graded structure, where for any $a \in A_{\alpha}$ and $v \in V_{\beta}$, $\deg(a \otimes_{B} v) = \alpha + \beta$.
 

@@ -16,7 +16,7 @@ $$
 ## Remarks
 
 - Every filtered algebra has a linearly isomorphic [[Associated graded algebra]].
-- Often one requires $1 \in F_{0}A$ if $A$ is a [[unital associative algebra]].
+- Often one requires $1 \in F_{0}A$ if $A$ is a [[Unital associative algebra over a field]].
 
 
 #

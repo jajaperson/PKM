@@ -34,7 +34,7 @@ $\Omega$ is thence called a **$G$-space**.
 - Types of action
   - Iff every stabilizer is $\{ e \}$ the action is [[Free group action|free]].
   - Iff $\alpha_{(-)}(\omega) : G \to \Omega$ is [[Surjectivity, injectivity, and bijectivity|surjective]] for all/any $\omega \in \Omega$ the action is [[Transitive group action|transitive]].
-  - Iff $\alpha_{(-)} : G \to \Aut(\Omega)$ is a [[group monomorphism]] the action is [[Effective group action|effective]].
+  - Iff $\alpha_{(-)} : G \to \Aut(\Omega)$ is a [[group monomorphism]] the action is [[Effective group action|effective]] or faithful.
   - A [[Regular group action]] is free and transitive.
 - The **degree** of $\alpha$ is the cardinality of $\Omega$.
 

@@ -9,7 +9,7 @@ Let $\cat C_{1} \cong \cat C_{2}$ be [[Isomorphism of categories|isomorphic cate
 
 1. $\cat C_{1}$ is a [[category of categories]];
 2. $\cat C_{2}$ is a [[category of categories]]; and
-3. there exist categories $\cat M, \cat N \in  \cat C_{1}$ isomorphic to [[Interval category]] and [[Ordinal category|$\cat 3$]] respectively.[^walking]
+3. there exist categories $\cat M, \cat N \in  \cat C_{1}$ isomorphic to [[Interval category]] and [[Ordinal category|$\underline 3$]] respectively.[^walking]
 
 Then every category $\cat A \in \cat C_{1}$ is isomorphic to a category $\cat B \in \cat C_{2}$ and vice versa.
 

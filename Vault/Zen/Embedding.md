@@ -20,6 +20,12 @@ i.e. the topology of $Y$ is the same as the [[Subspace topology]] induced by $f$
 
 A $C^k$ **embedding** of $Y$ in $X$ is a $C^k$ [[diffeomorphism]] between $Y$ and a [[submanifold]] of $X$. #m/def/geo/diff
 
+
+## Category
+
+An **embedding** of a category $\cat C$ in $\cat D$ is a [[fully faithful functor]] $F : \cat C \hookrightarrow \cat D$ which is injective on objects.
+
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

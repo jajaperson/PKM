@@ -6,9 +6,9 @@ tags:
   - public
 ---
 [[Natural transformation]]
-# Natural equivalence
+# Natural isomorphism
 
-A **natural equivalence** or **natural isomorphism** is an isomorphism in a [[functor category]], #m/def/cat 
+A **natural isomorphism** is an isomorphism in a [[functor category]], #m/def/cat 
 i.e. a [[natural transformation]] $\eta \in \cat D^{\cat C}(F, G)$
 such that $\eta_{X} : FX \to GX$ is an [[Morphism|isomorphism]] for all $X \in \cat C$.
 

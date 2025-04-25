@@ -11,9 +11,9 @@ A **monoidal category** is the vertical [[Categorification]] of a [[monoid]]. #m
 Explicitly, a monoidal category $\cat C$ is equipped with[^1978]
 1. a [[functor]] $(\otimes) : \cat C \times \cat C \to \cat C$ called the **tensor product**;
 2. an object $1 \in \cat C$ called the **tensor unit**;
-3. a [[Natural equivalence|natural isomorphism]] with components $\alpha_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ in [[Functor category|$\cat C^{\cat C \times \cat C \times \cat C}$]] called the **associator**;
-4. a [[Natural equivalence|natural isomorphism]] with components $\lambda_{x} : 1 \otimes x \to x$ in [[Endofunctor category|$\cat C^{\cat C}$]] called the **left-unitor**; and
-5. a [[Natural equivalence|natural isomorphism]] with components $\rho: x \otimes 1 \to x$ in [[Endofunctor category|$\cat C^{\cat C}$]] called the **right-unitor**; 
+3. a [[Natural isomorphism|natural isomorphism]] with components $\alpha_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ in [[Functor category|$\cat C^{\cat C \times \cat C \times \cat C}$]] called the **associator**;
+4. a [[Natural isomorphism|natural isomorphism]] with components $\lambda_{x} : 1 \otimes x \to x$ in [[Endofunctor category|$\cat C^{\cat C}$]] called the **left-unitor**; and
+5. a [[Natural isomorphism|natural isomorphism]] with components $\rho: x \otimes 1 \to x$ in [[Endofunctor category|$\cat C^{\cat C}$]] called the **right-unitor**; 
 
 satisfying the so-called **triangle identity**
 
@@ -31,7 +31,7 @@ Let $(\cat C, \otimes, \alpha, \lambda, \rho)$ be a monoid category.
 
 - Iff all the natural isomorphisms $\alpha,\lambda,\rho$ are the [[identity natural transformation]], then $\cat C$ is said to be a [[Strict monoidal category]], which is a [[monoid object]] in [[Category of small categories]].
 - Iff $(\otimes)$ is the [[Products and coproducts|categorical product]] then $\cat C$ is said to be a [[Cartesian category]].
-- Iff $\cat C$ has an [[Closed category|internal hom-functor]] in a compatible way it is a [[Closed monoidal category]].
+- Iff $\cat C$ has a right adjoint [[Closed category|internal hom-functor]] in a compatible way it is a [[Closed monoidal category]].
 
 
   [^1978]: 1978\. [[Sources/@maclaneCategoriesWorkingMathematician1978|Categories for the working mathematician]]

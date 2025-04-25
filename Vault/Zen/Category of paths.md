@@ -13,7 +13,7 @@ tags:
 # Category of paths
 
 Let $X$ be a topological space, and $\mathscr P X$ be its [[Continuous path#Algebra|path algebra]].
-The following congruence relation on paths makes $\mathscr PX$ into a [[small category]] $PX$.
+The following congruence relation on paths makes $\mathscr PX$ into a [[Small category]] $PX$.
 Let $\alpha, \beta \in \mathscr PX(x,y)$.
 Then $\alpha \sim \beta$ iff $\alpha = \beta \circ \phi$ for some $\phi \in \Top(\mathbb{I}, \mathbb{I})$.
 The category $PX = \mathscr P X / {\sim}$ is called the category of paths on $X$.

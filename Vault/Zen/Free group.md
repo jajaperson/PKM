@@ -5,7 +5,7 @@ tags:
 [[Group theory MOC]]
 # Free group
 
-**Free groups** are the [[Free object|free objects]] in [[Category of groups]].
+**Free groups** are the [[Free-forgetful adjunction|free objects]] in [[Category of groups]].
 Let $S$ be a set. 
 Then $\mathbb{F} S$ has the [[Group presentation]] $\langle S \rangle$, i.e. it is the minimal completion of $S$ so that it becomes a group. #m/def/group
 Concretely, $\mathbb{F}_{S}$ is constructed by

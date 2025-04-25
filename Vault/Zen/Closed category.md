@@ -12,7 +12,7 @@ Explicitly, a closed category $\cat C$ is equipped with[^1966][^1977]
 
 1. a [[multifunctor]] $[-,-] : \cop C \times \cat C \to \cat C$ called the **internal hom-functor**;
 2. an object $1$ called the **unit**;
-3. a [[Natural equivalence|natural isomorphism]] with components $\epsilon_{X} : X \to [1,X]$ in [[Endofunctor category|$\cat C^{\cat C}$]], which may be thought of as enabling generalized elements;
+3. a [[Natural isomorphism|natural isomorphism]] with components $\epsilon_{X} : X \to [1,X]$ in [[Endofunctor category|$\cat C^{\cat C}$]], which may be thought of as enabling generalized elements;
 4. an [[(Extra)natural transformation|extranatural transformation]] with components $\iota_{X} : 1 \to [X,X]$, which may be thought of as the generalized element for the identity;
 5. an [[(extra)natural transformation]] with components $L^X_{Y,Z} : [Y,Z]\to [[X,Y],[X,Z]]$,
    which may be thought of as encoding composition
@@ -35,7 +35,7 @@ is a [[Surjectivity, injectivity, and bijectivity|bijection]].
   [^1977]: 1977\. [[Sources/@laplazaEmbeddingClosedCategories1977|Embedding of Closed Categories Into Monoidal Closed Categories]], §1, p. 86. Refines the original definition with CC5, which guarantees the bijection $\gamma$
 
 
-> [!tip]+ Archetypal example: [[Category of sets]]
+> [!tip]- Archetypal example: [[Category of sets]]
 > In $\Set$ the internal hom-functor is the ordinary [[Hom-functor]] 
 > $$
 > \begin{align*}
@@ -64,6 +64,9 @@ is a [[Surjectivity, injectivity, and bijectivity|bijection]].
 > f &\mapsto (g \mapsto  f \circ g)
 > \end{align*}
 > $$
+
+A [[Closed monoidal category]] is a category which is also monoidal in a compatible way.
+
 #
 ---
 #state/develop | #lang/en | #SemBr

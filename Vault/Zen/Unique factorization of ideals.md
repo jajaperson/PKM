@@ -12,7 +12,7 @@ i.e. there is a bijection between ideals $\mathcal{I}$ and multisets $\mathbb{N}
 
 ## Rings with UFI
 
-- [[An integral domain admits UFI iff it is Dedekind]]
+- [[A Dedekind domain admits UFI]]
 
 #
 ---

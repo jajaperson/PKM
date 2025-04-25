@@ -27,7 +27,7 @@ $$
 1. If $x \in \End V = \mathfrak{gl}(V)$ is nilpotent, then $\ad_{x} \in \mathcal{D}(\mathfrak{gl}(V))$ is nilpotent.^[1972\. [[Sources/@humphreysIntroductionLieAlgebras1972|Introduction to Lie Algebras and Representation Theory]], §3.2, p. 12] ^P1
 
 > [!check]- Proof
-> Consider the left- and right-regular representations of the [[unital associative algebra]] $\End V$,
+> Consider the left- and right-regular representations of the [[Unital associative algebra over a field]] $\End V$,
 > which we label $\Lambda$ and $\Rho$ respectively.
 > If $x \in \End V$ is nilpotent, so too are $\Lambda(x)$ and $\Rho(x)$,
 > whence $\ad_{x} = \Lambda(x) - \Rho(x)$ is nilpotent. <span class="QED"/>

@@ -7,7 +7,7 @@ aliases:
 [[Algebra theory MOC]]
 # Commutator
 
-Let $A$ be an [[Unital associative algebra]].
+Let $A$ be an [[Unital associative algebra over a field]].
 The **commutator** is a [[Lie algebra|Lie bracket]] defined by #m/def/falg
 $$
 \begin{align*}

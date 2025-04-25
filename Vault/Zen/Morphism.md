@@ -12,27 +12,23 @@ Morphisms have the important property that they may be composed to produce new m
 
 ## Classification
 
-- [[Monomorphism]]
-  - [[Regular monomorphism]]
-  - [[Split monomorphism]]
-- [[Epimorphism]]
-  - [[Regular epimorphism]]
-  - [[Split epimorphism]]
-- [[Isomorphism]]
-- [[Endomorphism]]
-- [[Automorphism]]
-
 In the following, arrows signify implication.
 
 ```mermaid
 graph TD;
-	Automorphism:::internal-link==>Endomorphism:::internal-link
-	Automorphism==>Isomorphism:::internal-link
-	Isomorphism==>Monomorphism:::internal-link
-	Isomorphism==>Epimorphism:::internal-link
-	Endomorphism==>Morphism:::internal-link
-	Monomorphism==>Morphism
-	Epimorphism==>Morphism
+    Automorphism:::internal-link
+    Isomorphism:::internal-link
+    Endomorphism:::internal-link
+    SMonomorphism[Split monomorphism]:::internal-link
+    SEpimorphism[Split epimorphism]:::internal-link
+    Monomorphism:::internal-link
+    Epimorphism:::internal-link
+    Morphism:::internal-link
+
+    Automorphism==>Endomorphism==>Morphism
+    Automorphism==>Isomorphism
+    Isomorphism==>SMonomorphism==>Monomorphism==>Morphism
+    Isomorphism==>SEpimorphism==>Epimorphism==>Morphism
 ```
 
 

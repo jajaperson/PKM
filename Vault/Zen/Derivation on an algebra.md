@@ -20,7 +20,7 @@ for all $a,b \in A$.
 ## Properties
 
 1. [[Derivation subalgebra|The commutator of two derivations is itself a derivation]]
-2. A derivation on a [[unital associative algebra]] is a derivation on its [[commutator]] ^P2
+2. A derivation on a [[Unital associative algebra over a field]] is a derivation on its [[commutator]] ^P2
 
 > [!check]- Proof of 2
 > Let $A$ be a unital associative algebra over $\mathbb{K}$ and $d : A \to A$ be a derivation of $A$.

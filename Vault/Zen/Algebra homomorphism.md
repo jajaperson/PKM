@@ -7,9 +7,9 @@ tags:
 [[Algebra theory MOC]]
 # Algebra homomorphism
 
-Let $A$ and $B$ be [[Algebra over a field|algebras]] over a field $\mathbb{K}$.
-An **algebra homomorphism** $f : A \to B$ is a [[linear map]] which preserves the bilinear product, #m/def/falg 
-i.e. for $x,y \in A$ and $\lambda,\mu \in \mathbb{K}$
+Let $A$ and $B$ be $R$-[[Algebra over a commutative ring|algebras]]
+An **algebra homomorphism** $f : A \to B$ is a $R$-[[linear map]] which preserves the bilinear product, #m/def/falg 
+i.e. for $x,y \in A$ and $\lambda,\mu \in R$
 1. $f(\lambda x + \mu y)= \lambda f(x) + \mu f(y)$ ^H1
 2. $f(xy)=f(x)f(y)$ ^H2
 
@@ -23,7 +23,6 @@ a **unital algebra homomorphism** is one which additionally has
 
 ## Special cases
 
-- [[Unital associative algebra homomorphism]]
 - [[Lie algebra homomorphism]]
 
 #

@@ -11,7 +11,7 @@ aliases:
 [[Ring theory MOC]]
 # Algebraic element
 
-Let $\mathbb{K}$ be a [[field]] and $A$ be a [[unital associative algebra]] (or [[Field extension|extension field]], see [[extension field as a unital associative algebra]]) over $\mathbb{K}$.
+Let $\mathbb{K}$ be a [[field]] and $A$ be a [[Unital associative algebra over a field|$\mathbb K$-ring]] (or [[Field extension|extension field]], see [[extension field as a unital associative algebra]]).
 
 An element $a \in A$ is called **algebraic** over $\mathbb{K}$ iff there exists a nonzero polynomial $p(x) \in \mathbb{K}[x]$ such that $p(a) = 0$. #m/def/falg 
 An element which is not algebraic is called **transcendental** over $\mathbb{K}$.

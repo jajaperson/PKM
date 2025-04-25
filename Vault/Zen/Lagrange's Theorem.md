@@ -18,7 +18,7 @@ $$
 \end{align*}
 $$
 where $\abs{G / H}$ is the number of unique (left or right) [[coset|cosets]] of $H$,
-and is called the **subgroup index**.
+and is called the **Lagrange index**.
 
 > [!check]- Proof
 > Let $H \sube G$.

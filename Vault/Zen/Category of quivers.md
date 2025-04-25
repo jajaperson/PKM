@@ -20,7 +20,7 @@ where $\cat Q$ is [[the walking]] quiver.
 
 - There is a natural way $\cat{Quiv} \to \cat{Graph}$ to associate every quiver to an “underlying” [[Graph|general graph]], see [[Equivalence of quivers and general graphs]].
 - This factorizes the forgetful functor $\opn V$ into the underlying vertex set.
-
+- See [[Underlying quiver]] and [[Free category]]
 
 #
 ---

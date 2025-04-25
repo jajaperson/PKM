@@ -8,7 +8,7 @@ aliases:
 [[Algebra theory MOC]]
 # Anticommutator
 
-Let $A$ be a [[Unital associative algebra]].
+Let $A$ be a [[Unital associative algebra over a field|$\mathbb K$-ring]].
 The **anticommutator** is a [[Jordan algebra|Jordan product]] defined by #m/def/falg 
 $$
 \begin{align*}

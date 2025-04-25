@@ -19,7 +19,7 @@ Characters neatly summarize representations. See [[Character table]].
 ## Complex character
 Since [[Trace]] is invariant under unitary equivalences, [[Unitary equivalence of representations|unitarily equivalent]] representations have the same character. 
 If $\Gamma^\mu$ is an [[irrep]] then $\chi^\mu$ is an **irreducible character**.
-The irreducible characters $\{ x^\mu \}$ are [[Group class function|class functions]] and [[Orthonormality of irreducible characters|form an orthonormal basis]] of [[Centre of the group ring|all such class functions within the group ring]] $Z(\mathbb{C}[G])$.
+The irreducible characters $\{ \chi^\mu \}$ are [[Group class function|class functions]] and [[Orthonormality of irreducible characters|form an orthonormal basis]] of [[Centre of the group ring|all such class functions within the group ring]] $Z(\mathbb{C}[G])$.
 
 
 

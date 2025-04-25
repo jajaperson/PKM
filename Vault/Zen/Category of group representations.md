@@ -25,7 +25,7 @@ $$
 \end{align*}
 $$
 where an equivariant map is a [[Natural transformation]].
-Equivalent representations are thereby [[Natural equivalence|naturally equivalent]].
+Equivalent representations are thereby [[Natural isomorphism|naturally equivalent]].
 An alternate viewpoint is to consider a representation as a [[module over a group]], so
 $$
 \begin{align*}

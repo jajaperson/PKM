@@ -13,7 +13,7 @@ $$
 \{ \{ x,y \},\{ x,x \} \}= \{ x,\{ y,\{ x,x \} \} \}
 \end{align*}
 $$
-The quintessential example is the [[Anticommutator]] of a [[Unital associative algebra]],
+The quintessential example is the [[Anticommutator]] of a [[Unital associative algebra over a field]],
 usually renormalized so that $\{ x,x \} = x^2$.
 We denote the anticommutator algebra by $A^{+}$ and the renormalized one as $A^{+ 1/2}$.
 #
