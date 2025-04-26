@@ -1,7 +1,7 @@
 {
-  "findText": "r_{3}",
-  "replaceText": "z",
-  "useRegEx": false,
+  "findText": "\\$.*?Q.*?\\$",
+  "replaceText": "q",
+  "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,
   "processLineBreak": true,

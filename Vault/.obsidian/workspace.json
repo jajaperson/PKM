@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1ca09ad2c990844e",
+        "id": "4c58255a506450db",
         "type": "tabs",
         "children": [
           {
-            "id": "a359c3ff9f99ee28",
+            "id": "bed79a7d2ef18d1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zen/Glossary of categories.md",
+                "file": "zs/Associative algebra over a commutative ring.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Glossary of categories"
+              "title": "Associative algebra over a commutative ring"
             }
           }
         ],
@@ -42,7 +42,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -55,7 +56,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -95,10 +96,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NBG.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of NBG"
+              "title": "Outline"
             }
           },
           {
@@ -195,7 +198,7 @@
             }
           },
           {
-            "id": "76a9238322e09ce1",
+            "id": "957daf098d9bbdf9",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -205,13 +208,17 @@
             }
           },
           {
-            "id": "87c462f397650686",
+            "id": "6c0a7293abb1391d",
             "type": "leaf",
             "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -234,57 +241,59 @@
       "templater-obsidian:Templater": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "quick-tagger:Add tag to current note": false,
+      "quick-tagger:Remove tag from current note": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "a359c3ff9f99ee28",
+  "active": "bed79a7d2ef18d1f",
   "lastOpenFiles": [
-    "Zen/Monstrous moonshine MOC.md",
-    "Zen/Glossary of categories.md",
-    "Zen/Modules of a Heisenberg algebra.md",
-    "Zen/Natural Heisenberg algebras.md",
-    "Zen/Affine Lie algebra.md",
-    "Zen/Contravariant form on a triangular module.md",
-    "Zen/Heisenberg algebra.md",
-    "Zen/Twisted affine Lie algebra.md",
-    "Zen/Lie algebras MOC.md",
-    "Zen/Coding theory MOC.md",
-    "Zen/Japanese allophones.md",
-    "Zen/Japanese Phonology.md",
-    "Zen/Japanese MOC.md",
-    "Zen/Language MOC.md",
-    "Zen/Germanic Languages MOC.md",
-    "Zen/Old Icelandic MOC.md",
-    "Zen/OIcel morphology.md",
-    "Zen/OIcel declension.md",
-    "Zen/OIcel noun phrase examples.md",
-    "Zen/OIcel declension of adjectives.md",
-    "Zen/OIcel pronominal inflection.md",
-    "Zen/OIcel definite article.md",
-    "Zen/OIcel noun vocabulary.md",
-    "Zen/OIcel feminine root nouns.md",
-    "Zen/OIcel masculine root nouns.md",
-    "Zen/OIcel nd-stems.md",
+    "zs/Cayley's theorem for rings.md",
+    "zs/Associative algebra over a commutative ring.md",
+    "Zen/Representable functor.md",
+    "Zen/Quiver representation.md",
+    "zs/Dimension vector of a quiver representation.md",
+    "Zen/Quiver representation theory MOC.md",
+    "zs/Module over a category ring.md",
+    "zs",
+    "Zen/Graded dimension.md",
+    "Matrix quiver representation.md",
+    "Zen/Category of finite sets.md",
+    "Zen/Split epimorphism.md",
+    "Zen/Morphism.md",
+    "Zen/Category.md",
+    "Zen/Category of sets.md",
+    "Zen/Category of vector spaces.md",
+    "Cardinal.md",
+    "Zen/Cardinality.md",
+    "Zen/Skeletal category.md",
+    "Zen/Matrix representation.md",
+    "Zen/Natural transformation.md",
+    "Zen/Posetal category.md",
+    "Zen/Representation.md",
+    "Zen/Equivalence of categories.md",
+    "Zen/Categories are equivalent iff they have isomorphic skeleta.md",
+    "Zen/Skeleton category.md",
+    "Zen/Isomorphism of categories.md",
+    "Bins/Attachments/Yoneda_X_Nat.png",
+    "Bins/Attachments/example refraction.png",
+    "Bins/Attachments/ExampleLinear_ManimCE_v0.18.1.gif",
+    "Bins/Attachments/Fano_plane_nimbers.svg",
+    "Bins/Attachments/ExampleLinearBasis_ManimCE_v0.18.1.gif",
+    "Bins/Attachments/Yoneda_F_Nat.png",
     "preamble~.sty",
+    "Zen/Space.canvas",
+    "Bins/Attachments/Affine_Dynkin_diagrams.png",
+    "Bins/Attachments/Finite_Dynkin_diagrams.svg.png",
+    "People",
+    "Projects/2025 Academic Rep/People",
+    "Projects/2025 Academic Rep",
+    "Projects",
     "Bins/Attachments/Yoneda embedding.png",
     "Bin/Templates",
     "Bin",
-    "Zen/Space.canvas",
     "Bins/Scripts/Templater/musedata copy.js",
     "Bins/Attachments/Gaußian pillbox.png",
-    "quiver.sty",
-    "Bins/Attachments/tangent space.png",
-    "Bins/Attachments/Pasted image 20240905150153.png",
-    "Bins/Attachments/real submanifold.png",
-    "Bins/Attachments/IMG_0414.png",
-    "copy_part.yaml",
-    "Lecture notes/PHYS2002",
-    "Bins/Attachments/ExampleLinearBasis_ManimCE_v0.18.1.gif",
-    "Bins/Attachments/ExampleLinear_ManimCE_v0.18.1.gif",
-    "Long",
-    "Bins/Attachments/FITS keywords.jpeg",
-    "Bins/Attachments/Pasted image 20240505162339.png",
-    "Lecture notes/PHYS3001",
-    "_Public"
+    "quiver.sty"
   ]
 }

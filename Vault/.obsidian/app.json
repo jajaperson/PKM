@@ -44,6 +44,5 @@
     "editor:configure-toolbar"
   ],
   "autoPairMarkdown": false,
-  "propertiesInDocument": "source",
-  "showRibbon": false
+  "propertiesInDocument": "source"
 }

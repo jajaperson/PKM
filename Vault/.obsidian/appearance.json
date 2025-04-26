@@ -12,5 +12,6 @@
   ],
   "translucency": true,
   "monospaceFontFamily": "Fira Code",
-  "baseFontSize": 17
+  "baseFontSize": 18,
+  "showRibbon": false
 }

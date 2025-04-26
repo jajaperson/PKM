@@ -27,5 +27,7 @@
   "obsidian-pandoc",
   "obsidian-plugin-toc",
   "customjs",
-  "dataview"
+  "dataview",
+  "quick-tagger",
+  "restore-tab-key"
 ]

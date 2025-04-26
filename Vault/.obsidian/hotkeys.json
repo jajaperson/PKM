@@ -241,5 +241,14 @@
       ],
       "key": "R"
     }
+  ],
+  "quick-tagger:quick-add-tag:public": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "\\"
+    }
   ]
 }
