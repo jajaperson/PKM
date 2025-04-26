@@ -1,7 +1,7 @@
 ---
 categoryName: category of presheaves
 symbol: $\Set^{\cop C}$
-object: "[[presheaf]]"
+object: "[[Presheaf]]"
 morphism: "[[natural transformation]]"
 tags:
   - category
@@ -13,7 +13,7 @@ arguments:
 # Category of presheaves
 
 The **category of presheaves** $\Set^{\cop C}$ is a [[category]] where
-an object is a [[presheaf]]
+an object is a [[Presheaf]]
 and a morphism is a [[natural transformation]]. #m/def/cat 
 Thus it is a particular example of a [[functor category]].
 

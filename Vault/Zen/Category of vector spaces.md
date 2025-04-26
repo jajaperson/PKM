@@ -30,6 +30,10 @@ It is identical to [[Category of left-modules|$\lMod{\mathbb K}$]], the differen
   i.e. the [[Initial and terminal objects|zero object]].
   See [[Initial and terminal objects#In the Category of vector spaces]].
 
+## Skeleton
+
+The canonical [[skeleton category]] $\opn{Sk}(\Vect_{\mathbb{K}})$ is the restriction to objects of the form $\mathbb{K}^{(\alpha)}$ for some [[Cardinal]] $\alpha$.
+
 #
 ---
 #state/develop | #SemBr

@@ -13,14 +13,39 @@ that
 
 ![[Yoneda embedding.png#invert]]
 
-> [!missing]- Proof of embedding
+> [!check]- Proof of embedding
 > Let $X,Y \in \cat C$.
 > By the [[Yoneda lemma]] we have
 > $$
 > \begin{align*}
-> \cat C(X,Y) = (\yo Y)X \cong \Set^{\cop C}(\yo X, \yo Y)
+> \mathrm{H}_{X,\yo Y} : \Set^{\cop C}(\yo X, \yo Y) \cong (\yo Y)X = \cat C(X,Y)
 > \end{align*}
 > $$
+> where using the notation of the [[Yoneda lemma#^proof]] given $x \in (\yo Y)X = \cat C(X,Y)$ and $f \in \cat C(X',X)$
+> $$
+> \begin{align*}
+> (\vartheta_{x})_{X'}\,f 
+> &= ((\yo Y)f) x \\
+> &= \cat C(f,Y) x \\
+> &= xf \\
+> &= \cat C(X',x) f \\
+> &= (\yo x)_{X'} \, f
+> \end{align*}
+> $$
+> so $\vartheta_{x} = \yo x$, implying
+> $$
+> \begin{align*}
+> \mathrm{H}_{X, \yo Y}^{-1} = \yo \restriction \cat C(X,Y)
+> \end{align*}
+> $$
+> so in particular, $\yo$ is fully faithful.
+> $\yo$ is also clearly injective on objects, since if $\yo X = \yo Y$ then
+> $$
+> \begin{align*}
+> 1_{X} \in\cat C(X,X) = (\yo X) X = (\yo Y)X = \cat C(X,Y)
+> \end{align*}
+> $$
+> so $X=Y$. <span class="QED"/>
 
 #
 ---

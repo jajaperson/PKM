@@ -16,7 +16,7 @@ aliases:
 - [[Linear quiver]]
 - [[Underlying quiver]], [[Free category]]
 - [[Path algebra]]
-- [[Quiver representation]]
+- [[Quiver representation]], [[Dimension vector of a quiver representation]]
 
 ## Bibliography
 

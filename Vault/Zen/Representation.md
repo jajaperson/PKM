@@ -1,6 +1,9 @@
 ---
 tags:
   - public
+aliases:
+  - "#m/def/rep"
+  - "#m/thm/rep"
 ---
 [[Representation theory MOC]]
 # Representation

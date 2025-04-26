@@ -5,7 +5,7 @@ tags:
 ---
 [[Naïve set theory MOC]]
 # Cardinality
-The **cardinality**^[Mächtigkeit] of a set is a [[Cardinal number]] uniquely corresponding to the set's [[Isomorphism class]] within [[Category of sets]]. #m/def/set
+The **cardinality**^[Mächtigkeit] of a set is a [[Cardinal]] uniquely corresponding to the set's [[Isomorphism class]] within [[Category of sets]]. #m/def/set
 
 - $\abs{A} = \abs{B} \iff A \cong B$ iff there exists a [[Surjectivity, injectivity, and bijectivity|bijection]] between sets $A$ and $B$.
   $A$ and $B$ are thence said to be **equinumerous**.

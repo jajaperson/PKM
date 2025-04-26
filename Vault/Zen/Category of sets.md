@@ -18,6 +18,10 @@ and a morphism is a [[function]]. #m/def/set
 
 - An elementary axiomatization is given by [[ETCS]], a possible structuralist foundation for mathematics.
 
+## Skeleton
+
+The canonical [[skeleton category]] is contains only the [[cardinal|cardinals]] as objects.
+
 #
 ---
 #state/develop | #lang/en | #SemBr

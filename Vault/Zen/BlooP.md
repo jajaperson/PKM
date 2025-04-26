@@ -8,11 +8,13 @@ tags:
 **BlooP** (named for bounded loops) is a simple programming language proposed in [[Sources/@hofstadterGodelEscherBach1999|Gödel, Escher, Bach: An eternal golden braid]] that can only compute [[Primitively recursive]] functions and predicates.
 Thus the main property of BlooP is that all loops have an upper bound on the number of times they run, prior to computation.
 
+An extension of BlooP is given by [[FlooP]].
+
 ## Language design
 
 A function in BlooP returns a natural number ($\mathbb{N}_{0}$) from any number of natural number arguments,
 and its name is written in all caps.
-A procedure returns `YES` or `NO` and its name is written in all caps followed by `?`.
+A test returns `YES` or `NO` and its name is written in all caps followed by `?`.
 
 ```BlooP
 DEFINE PROCEDURE “MINUS” [M,N]:

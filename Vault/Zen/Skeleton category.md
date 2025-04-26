@@ -11,6 +11,9 @@ Thus, an object in $\opn{Sk} \cat C$ a representative of an [[isomorphism class]
 While this construction is not generally unique, 
 the precise selection of representatives usually doesn't matter.
 
+## Properies
+
+- [[Categories are equivalent iff they have isomorphic skeleta]]
 
 ## Examples
 

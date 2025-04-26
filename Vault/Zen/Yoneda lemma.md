@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+mathLink-blocks:
+  proof: proof of the Yoneda lemma
 ---
 [[Category theory MOC]]
 # Yoneda lemma
@@ -116,6 +118,7 @@ commutes.[^2010]
 > \end{align*}
 > $$
 > as required. <span class="QED"/>
+^proof
 
 ## Corollaries
 

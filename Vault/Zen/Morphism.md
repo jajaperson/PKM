@@ -39,7 +39,7 @@ Mnemonic for types of morphism
 `MILESR`
 - **M**onic
 - **I**njective
-- **L**eft-cancellable
+- **L**eft-cancellable 
 - **E**pic
 - **S**urjective
 - **R**ight-cancellable

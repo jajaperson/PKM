@@ -11,7 +11,10 @@ tags:
 # Category of finite sets
 
 The **category of finite sets** $\cat{FinSet}$ is the [[Subcategory|full subcategory]] of $\Set$ where objects are restricted to [[Cardinality|finite]] sets. #m/def/set
-A [[skeleton category]] is [[Category of natural numbers]].
+
+## Skeleton
+
+The canonical [[skeleton category]] is [[Category of natural numbers]].
 
 #
 ---

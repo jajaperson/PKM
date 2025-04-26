@@ -1,6 +1,9 @@
 ---
 tags:
   - public
+aliases:
+  - isofunctor
+  - isomorphic categories
 ---
 [[Category theory MOC]]
 # Isomorphism of categories
