@@ -7,7 +7,7 @@ aliases:
 [[Category theory MOC]]
 # Category ring
 
-Let $R$ be a [[ring]] and $\cat C$ be a [[Small category]].
+Let $R$ be a [[commutative ring]] and $\cat C$ be a [[Small category]].
 The **category rng** $R\cat C$ is an [[Associative algebra over a commutative ring|$R$-rng]] constructed from the [[free module]] $R^{(\cat C)}$. #m/def/cat 
 This is a generalization of the [[Monoid ring]] in light of [[Monoids as categories]].
 In the case $\Ob(\cat C)$ is finite, this construction gives an [[Ring extension|extension ring]] of $R$ and is called the **category ring** which we denote by $R[\cat C]$.

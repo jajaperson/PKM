@@ -19,9 +19,13 @@
 % Category Theory
 \DeclareMathOperator{\ob}{Ob}
 \DeclareMathOperator{\Ob}{Ob}
+\DeclareMathOperator{\Mor}{Mor}
 \DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\dom}{dom}
+\DeclareMathOperator{\cod}{cod}
 \newcommand{\yo}{よ}
-\DeclareMathOperator{\colim}{colim}
+\newcommand{\colim}{\varinjlim}
+\newcommand{\catlim}{\varprojlim}
 \newcommand{\cat}[1]{\textsf{#1}}
 \newcommand{\cop}[1]{\op{\cat{#1}}}
 \newcommand{\op}[1]{#1^{\textbf{op}}}
@@ -32,15 +36,22 @@
 \DeclareMathOperator{\Iso}{Iso}
 \DeclareMathOperator{\Aut}{Aut}
 \DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Ext}{Ext}
+\DeclareMathOperator{\Tor}{Tor}
+
+\DeclareMathOperator{\Sk}{Sk}
 
 %% Categories
 \newcommand{\Set}{\cat{Set}}
+\newcommand{\FinSet}{\cat{FinSet}}
 \newcommand{\Grp}{\cat{Grp}}
+\newcommand{\FinGrp}{\cat{FinGrp}}
 \newcommand{\Grpd}{\cat{Grpd}}
 \newcommand{\Cat}{\cat{Cat}}
 \newcommand{\Ab}{\cat{Ab}}
 \newcommand{\Hask}{\cat{Hask}}
 \newcommand{\Vect}{\cat{Vect}}
+\newcommand{\FinVect}{\cat{FinVect}}
 \newcommand{\Top}{\cat{Top}}
 \newcommand{\hTop}{\cat{hTop}}
 \newcommand{\Rep}{\cat{Rep}}
@@ -75,6 +86,14 @@
 
 \DeclareMathOperator{\Tr}{tr}
 \DeclareMathOperator{\Spec}{Spec}
+
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\SL}{SL}
+\DeclareMathOperator{\SO}{SO}
+\DeclareMathOperator{\Sp}{Sp}
+\DeclareMathOperator{\U}{U}
+\DeclareMathOperator{\O}{O}
+\DeclareMathOperator{\SU}{SU}
 
 %% Representation and Lie theory
 \DeclareMathOperator{\Ad}{Ad}

@@ -7,6 +7,13 @@ tags:
 
 The **semidirect product** $N \rtimes A$ of groups is a generalization of the internal and external [[direct product of groups]]
 where only one of the operands[^triangle] is required to be a [[normal subgroup]] of the resulting group. 
+Semidirect products are a special case of [[group extension]], called **split**
+$$
+\begin{align*}
+1 \to N \hookrightarrow N \rtimes  A \twoheadrightarrow A \to 1
+\end{align*}
+$$
+since the epimorphism [[Split epimorphism|splits]] (in fact all split extensions have this form up to equivalence).
 
 [^triangle]: that to which the triangle points, so $N$ is normal in $N \rtimes A$ and $A \ltimes N$.
 
@@ -60,6 +67,21 @@ the identity is $e = (e,e)$, and the inverse is $(n,a)^{-1}= (\varphi_{a^{-1}}(n
 > $$
 > as required.
 > <span class="QED"/>
+
+> [!info]- Right action convention
+> If we instead have right actions, we define the product by $N \rtimes_{\varphi} H$
+> $$
+> \begin{align*}
+> (n_{1},h_{1})(n_{2},h_{2}) = (n_{1}n_{2}^{(h_{1}^{-1})\varphi},h_{1}h_{2})
+> \end{align*}
+> $$
+> for $n_{i} \in N$ and $h_{i} \in H$ with
+> $$
+> \begin{align*}
+> (n,h)^{-1} = ((n^{-1})^{(h)\varphi},h^{-1})
+> \end{align*}
+> $$
+> for $n \in N$, $h \in H$.
 
 ## Relationship between internal and external semidirect product
 

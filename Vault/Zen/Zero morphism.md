@@ -17,7 +17,7 @@ for any $X,Y \in \cat C$ and $f,g \in \cat C(X,Y)$.
 
 ## Properties
 
-- A category with zero morphisms allows one to define the [[Kernel]] and [[cokernel]] of a morphism.
+- A category with zero morphisms allows one to define the [[Kernels and cokernels]] of morphisms.
 
 
 #

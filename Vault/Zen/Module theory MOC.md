@@ -22,9 +22,7 @@ See [[Category of left-modules]].
 ## Objects
 ### Types of module
 
-- [[Simple module]] (irreducible module)
-- [[Semisimple module]] (completely reducible module)
-- [[Indecomposable module]]
+- [[Reducibility of modules]]
 
 #### By ring
 

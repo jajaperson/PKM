@@ -20,7 +20,7 @@ Furthermore $r$ need not be unique.
 
 Let $m : X \hookrightarrow Y$ be a split monomorphism with retraction $r :  Y \twoheadrightarrow X$
 
-1. $m$ is the [[equalizer]] of $mr$ and $\id_{Y}$, hence it is [[Regular monomorphism|regularly monic]].
+1. $m$ is the [[Equalizer and coëqualizer|equalizer]] of $mr$ and $\id_{Y}$, hence it is [[Regular monomorphism|regularly monic]].
 
 See dual properties at [[Split epimorphism#Properties]]
 

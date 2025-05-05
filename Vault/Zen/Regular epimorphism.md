@@ -8,7 +8,7 @@ tags:
 [[Morphism]]
 # Regular epimorphism
 
-A **regular epimorphism** is a morphism out of some object $X$ which occurs as the [[coëqualizer]] of some parallel pair of morphisms into $X$. #m/def/cat 
+A **regular epimorphism** is a morphism out of some object $X$ which occurs as the [[Equalizer and coëqualizer|coëqualizer]] of some parallel pair of morphisms into $X$. #m/def/cat 
 In particular by the universal property of the coëqualizer it is an [[Morphism|epimorphism]].
 
 > [!check]- Proof

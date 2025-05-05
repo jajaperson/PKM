@@ -123,6 +123,7 @@ commutes.[^2010]
 ## Corollaries
 
 - The “theorem”: The [[Yoneda embedding]] is an embedding.
+- The [[Yoneda perspective]]
 - [[Cayley's theorem]]
 
   [^2010]: 2010\. [[Sources/@awodeyCategoryTheory2010|Category theory]], §8.3, pp. 189–192

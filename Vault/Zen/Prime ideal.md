@@ -35,6 +35,8 @@ The set of all prime ideals of a commutative ring is called its [[Spectrum of a 
 ## See also
 
 - [[Krull dimension]]
+- [[Relatively prime ideals]]
+- [[Prime order of an ideal]]
 
 #
 ---

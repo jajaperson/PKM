@@ -21,6 +21,7 @@ a degree 3 extension is called a [[Cubic extension]], &c.
 
 - [[Algebraic element|Algebraic extension]]
     - [[Separable extension]]
+- [[Simple extension]]
 
 ## See also
 

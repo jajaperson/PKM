@@ -25,7 +25,7 @@ and contravariant functors will be made explicit by invoking the [[opposite cate
 
 ## Types of functors
 
-As defined above, a functor associated a mapping to every hom-set $\cat C(X, Y)$ in its codomain:
+As defined above, a functor associates a mapping to every hom-set $\cat C(X, Y)$ in its codomain:
 $$
 \begin{align*}
 F : \cat C(X,Y) &\to \cat D(FX, FY) \\
@@ -37,6 +37,12 @@ Functors are categorised based on the behaviour of this mapping (for all possibl
 - A [[Faithful functor]] is injective on hom-sets.
 - A [[Full functor]] is surjective on hom-sets.
 - A [[Fully faithful functor]] is bijective on hom-sets (an embedding of a category into another, however it need not be injective on objects.
+
+### Further classification
+
+- [[Continuity and cocontinuity]]
+- [[Exact functor]]
+- [[Adjoint functor]]
 
 ## Properties
 

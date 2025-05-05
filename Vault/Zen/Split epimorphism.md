@@ -19,9 +19,9 @@ Furthermore $s$ need not be unique.
 
 Let $f : X \twoheadrightarrow Y$ be a split epimorphism with section $s : Y \hookrightarrow X$
 
-1. $f$ is the [[coëqualizer]] of $s f$ and $\id_{X}$, hence it is [[Regular epimorphism|regularly epic]].
+1. $f$ is the [[Equalizer and coëqualizer|coëqualizer]] of $s f$ and $\id_{X}$, hence it is [[Regular epimorphism|regularly epic]].
 
-For proofs, dualize those of [[Split monomorphism#Properties]]
+See dual [[Split monomorphism#Properties]].
 
 ## See also
 

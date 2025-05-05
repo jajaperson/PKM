@@ -35,6 +35,10 @@ For the first diagram we say that $p_{X}$ is the **pullback** of $g$ along $f$, 
 - The union of non-disjoint sets (or topological spaces)
 - [[Amalgamated free product]]
 
+## Properties
+
+- [[Fibre product is the equalizer of a product]]
+
 #
 ---
 #state/tidy | #lang/en | #SemBr 

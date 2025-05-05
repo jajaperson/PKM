@@ -14,8 +14,9 @@ The diagram is thence said to **commute**.
 
 ## As a functor
 
-A **diagram** of shape $\cat J$ in category $\cat C$ is a functor $F : \cat J \to \cat C$,
-where $\cat J$ is a usually [[Small category]] called the index category. #m/def/cat
+A **diagram** of shape $\cat J$ in category $\cat C$ is a functor $\mathscr{D} : \cat J \to \cat C$,
+where $\cat J$ is a usually [[Small category]] called the index category, #m/def/cat
+and we typically use subscripts for objects.
 Related concepts are [[Cones and cocones]], and then [[Limits and colimits]].
 
 

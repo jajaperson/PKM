@@ -1,7 +1,10 @@
 ---
 tags:
   - public
-aliases: categorical product, coproduct
+aliases:
+  - categorical product
+  - coproduct
+  - (co)product
 ---
 
 [[Universal construction]]
@@ -68,7 +71,7 @@ The product and coproduct may be generalised to the [[Fibre product and coproduc
 
 ## Limits and colimits
 
-Let $F : \cat J \to \cat C$ be a discrete-shaped diagram (i.e. a diagram in the shape of a [[Discrete category]]) containing a family of objects.
+Let $\mathscr{D} : \cat J \to \cat C$ be a discrete-shaped diagram (i.e. a diagram in the shape of a [[Discrete category]]) containing a family of objects.
 The [[Limits and colimits|limit]] of this diagram is the product, the [[Limits and colimits|colimit]] is the coproduct.
 
 ## Examples

@@ -36,8 +36,9 @@ When working with an [[integral domain]] it useful to generalize to a [[fraction
 whence ideals are referred to as **integral ideals**.
 
 - [[Product ideal]] $\langle\mathfrak{a}\mathfrak{b}\rangle$
-- [[Fractional ideal]], [[Invertible ideal]]
+- [[Fractional ideal]]
 - [[Unique factorization of ideals]]
+- [[Relatively prime ideals]]
 
 ## Classification
 

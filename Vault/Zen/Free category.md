@@ -12,7 +12,7 @@ $$
 C \dashv U : \Cat \to \cat{Quiv}
 \end{align*}
 $$
-The free category $C\Gamma = \underline{\Gamma}$ is constructed by considering all _composable_ words as morphisms.
+The free category $C\Gamma = \underline{\Gamma}$ is constructed by considering all _composable_ words, called **paths**, as morphisms.
 
 ## Universal property
 

@@ -35,6 +35,11 @@ Concisely, $\cat C(\mathbf{0},-)$ and $\cat C(-,\mathbf{1})$ always contain exac
 ## As limits and colimits
 
 Formulated as [[Limits and colimits]], the terminal object is the limit of the [[empty diagram]] and the initial object is its colimit.
+$$
+\begin{align*}
+\mathbf{1} &:= \catlim \0 & \mathbf{0} &:= \colim \0
+\end{align*}
+$$
 
 ## Examples
 ### In a [[Poset]]

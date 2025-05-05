@@ -12,7 +12,7 @@ $$
 p: \hat{A} \twoheadrightarrow A
 \end{align*}
 $$
-where typically a [[kernel]] exists giving the [[short exact sequence]]
+where typically a [[Kernels and cokernels|kernel]] exists giving the [[short exact sequence]]
 $$
 \begin{align*}
 0 \to K \hookrightarrow \hat{A} \stackrel{p}{\twoheadrightarrow} A \to 0

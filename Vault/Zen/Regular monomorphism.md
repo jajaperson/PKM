@@ -8,7 +8,7 @@ tags:
 [[Morphism]]
 # Regular monomorphism
 
-A **regular monomorphism**[^not] is a morphism into some object $X$ which occurs as the [[Equalizer]] of some parallel pair of morphisms out of $X$. #m/def/cat 
+A **regular monomorphism**[^not] is a morphism into some object $X$ which occurs as the [[Equalizer and coëqualizer|equalizer]] of some parallel pair of morphisms out of $X$. #m/def/cat 
 In particular by the universal property of the equalizer it is a [[Morphism|monomorphism]].
 
 > [!check]- Proof

@@ -10,7 +10,7 @@ The [[isomorphism theorems]] for [[Group|groups]] are expressed as follows
 ## First isomorphism theorem
 
 Let $\varphi : G \to H$ be a [[Group homomorphism]].
-Then the [[Quotient group|quotient]] by the [[kernel]] is isomorphic to the image: #m/thm/group 
+Then the [[Quotient group|quotient]] by the [[Kernel of a group homomorphism|kernel]] is isomorphic to the image: #m/thm/group 
 $$
 \begin{align*}
 \frac{G}{\ker \varphi} \cong \im \varphi \leq H
@@ -29,10 +29,10 @@ $$
 ## Third isomorphism theorem
 
 Let $A, B \trianglelefteq G$ be [[Normal subgroup|normal subgroups]] so that $A \leq B$.
-Then $A / B \trianglelefteq G / A$ and #m/thm/group 
+Then $B / A \trianglelefteq G / A$ and #m/thm/group 
 $$
 \begin{align*}
-\frac{G / A}{A / B} \cong \frac{G}{B}
+\frac{G / A}{B / A} \cong \frac{G}{B}
 \end{align*}
 $$
 

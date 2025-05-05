@@ -8,7 +8,7 @@ tags:
 Let $G$ be a [[finite group]] of order $p^r m$ where $p$ is [[Prime number|prime]] and $p \not \mid m$. 
 Then #m/thm/group 
 
-1. $\opn{Syl}_{p}(G)$ is non-empty; ^S1
+1. $\opn{Syl}_{p}(G)$, the set of [[Sylow p-subgroup|Sylow $p$-subgroups]], is non-empty; ^S1
 2. Every [[p-group|$p$-subgroup]] of $G$ is contained in a [[Sylow p-subgroup]]; ^S2
 3. All Sylow $p$-subgroups are conjugate in $G$; ^S3
 4. If $n_{p} = \abs{\opn{Syl}_{p}(G)}$ then $n_p$ divides $m$ and $n_{p} \equiv_{p} 1$. ^S4

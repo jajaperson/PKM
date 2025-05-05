@@ -21,14 +21,16 @@ graph TD;
     Endomorphism:::internal-link
     SMonomorphism[Split monomorphism]:::internal-link
     SEpimorphism[Split epimorphism]:::internal-link
+    RMonomorphism[Regular monomorphism]:::internal-link
+    REpimorphism[Regular epimorphism]:::internal-link
     Monomorphism:::internal-link
     Epimorphism:::internal-link
     Morphism:::internal-link
 
     Automorphism==>Endomorphism==>Morphism
     Automorphism==>Isomorphism
-    Isomorphism==>SMonomorphism==>Monomorphism==>Morphism
-    Isomorphism==>SEpimorphism==>Epimorphism==>Morphism
+    Isomorphism==>SMonomorphism==>RMonomorphism==>Monomorphism==>Morphism
+    Isomorphism==>SEpimorphism==>REpimorphism==>Epimorphism==>Morphism
 ```
 
 
