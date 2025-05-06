@@ -56,6 +56,11 @@ is a congruence on $A / {\equiv'}$ and $A / {\equiv}$ is isomorphic to $(A / {\e
 > [!missing]- Proof
 > #missing/proof
 
+## Fourth isomorphism theorem
+
+Also called the **correspondence theorem**
+
+
 #
 ---
 #state/develop | #lang/en | #SemBr

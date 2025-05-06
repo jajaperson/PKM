@@ -12,7 +12,7 @@ $$
 N_{K:\mathbb{Q}}(\gamma) = \prod_{i=1}^n \sigma_{i}(\gamma)
 \end{align*}
 $$
-where $\sigma_{i} : K \hookrightarrow \mathbb{C}$ enumerate the field embeddings of $K$ into the complex numbers. #m/thm/ring 
+where $\sigma_{i} : K \hookrightarrow \mathbb{C}$ enumerate the field embeddings of $K$ into the complex numbers. #m/thm/num/alg
 
 > [!missing]- Proof
 > #missing/proof

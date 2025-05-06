@@ -80,7 +80,7 @@ $$
 
 ## See also
 
-- [[Absolute norm of an ideal]]
+- [[Absolute norm of an ideal of the ring of integers of a number field]]
 
 #
 ---

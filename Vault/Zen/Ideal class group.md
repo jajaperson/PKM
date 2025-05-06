@@ -52,7 +52,9 @@ Then $J(R) / {\sim} \cong \Cl(R)$.[^2022]
 > Clearly $\mathfrak{a}P(R) = \mathfrak{b}P(R) \iff \mathfrak{a} \sim \mathfrak{b}$:
 > hence we have an isomorphism. <span class="QED"/>
 
+## Results
 
+- [[Ideal class group of the ring of a number field]]
 
 #
 ---

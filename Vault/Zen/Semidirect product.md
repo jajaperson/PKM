@@ -7,7 +7,7 @@ tags:
 
 The **semidirect product** $N \rtimes A$ of groups is a generalization of the internal and external [[direct product of groups]]
 where only one of the operands[^triangle] is required to be a [[normal subgroup]] of the resulting group. 
-Semidirect products are a special case of [[group extension]], called **split**
+Semidirect products are a special case of [[group extension]], called a [[Group extension#^split]]
 $$
 \begin{align*}
 1 \to N \hookrightarrow N \rtimes  A \twoheadrightarrow A \to 1
@@ -25,7 +25,7 @@ such that $N \cap H = \{ e \}$ and $NH = G$.
 Then $G$ is the **internal semidirect product** $N \rtimes A$. #m/def/group
 
 ## External semidirect product
-For the external construction, let $N$ be a group and let $A$ be a group [[Group action|acting]] on $N$,
+For the external construction, let $N$ be a group and let $A$ be a group [[Group action|acting]] on $N$ by automorphisms,
 i.e. equipped with a homomorphism $\varphi_{-} : A \to \Aut (N)$.
 Then the **external semidirect product** $N \rtimes_{\varphi} A$ is the set $N \times A$ with group multiplication given by #m/def/group 
 $$

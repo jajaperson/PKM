@@ -6,7 +6,7 @@ tags:
 # The ring of integers of a number field forms a lattice
 
 Let $K$ be a [[number field]] of degree $n$ and $\mathcal{O}_{K}$ denote its [[Algebraic integer|ring of integers]].
-Then $\mathcal{O}_{K}$ is a [[lattice subgroup]] of $K$.[^2022] #m/thm/ring 
+Then $\mathcal{O}_{K}$ is a [[lattice subgroup]] of $K$ of rank $n$.[^2022] #m/thm/ring 
 
 > [!check]- Proof
 > By [[Algebraic integer#^P2]], we can form a $\mathbb{Q}$-basis $\{ \alpha_{i} \}_{i=1}^n \sube \mathcal{O}_{K}$ of algebraic integers spanning $K$.

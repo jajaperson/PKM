@@ -20,6 +20,7 @@ except in the case $\mathfrak{a} = \langle 0 \rangle$, where we define $\opn N(\
 
 1. If $\mathfrak{a} = \langle \alpha \rangle$ is a [[principal ideal]] then $\opn N(\mathfrak{a})=\abs{\opn N(\alpha)}$, where the latter is the [[field norm]]. ^P1
 2. $\opn N(\mathfrak{a})\opn N(\mathfrak{b}) = \opn N(\mathfrak{a}\mathfrak{b})$. ^P2
+3. For any $m \in \mathbb{N}_{0}$, the number of ideals $\mathfrak{a} \trianglelefteq \mathcal{O}_{K}$ such that $\opn N(\mathfrak{a}) = m$ is finite. ^P3
 
 > [!check]- Proof of 1–2
 > Let $\{ \omega_{i} \}_{i=1}^n$ $\mathbb{Z}$-span $\mathcal{O}_{K}$,
@@ -117,7 +118,10 @@ except in the case $\mathfrak{a} = \langle 0 \rangle$, where we define $\opn N(\
 > \end{align*}
 > $$
 > Since $\opn{ord}_{\mathfrak{p}}(\gamma) = k$ by construction, it follows $\opn{ord}_{\mathfrak{p}}(y) \geq 1$ whence $y \in \mathfrak{p}$.
-> Therefore $x = \gamma y \in \gamma \mathfrak{p}$ and [[#^P2]] is proven. <span class="QED"/>
+> Therefore $x = \gamma y \in \gamma \mathfrak{p}$ and [[#^P2]] is proven.
+> 
+> For [[#^P3]], note that if $\opn N(\mathfrak{a}) = m$, then $\langle m \rangle \trianglelefteq \mathfrak{a}$.
+> Since $\mathcal{O}_{K} /\langle m  \rangle$ is finite by [[The ring of integers of a number field forms a lattice#^C1]], there can only be finitely many such ideals by the [[Ring isomorphism theorems#Fourth isomorphism theorem]], proving [[#^P3]]. <span class="QED"/>
 
 #
 ---

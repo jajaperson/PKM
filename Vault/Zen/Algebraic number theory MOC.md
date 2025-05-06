@@ -1,6 +1,9 @@
 ---
 tags:
   - public
+aliases:
+  - "#m/def/num/alg"
+  - "#m/thm/num/alg"
 ---
 [[Mathematics MOC]]
 # Algebraic number theory MOC

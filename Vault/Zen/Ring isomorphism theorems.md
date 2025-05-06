@@ -27,6 +27,19 @@ $$
 \end{align*}
 $$
 
+## Fourth isomorphism theorem
+
+Let $I \trianglelefteq R$ be an [[ideal]].
+Then the map
+$$
+\begin{align*}
+\Phi : \d[ I, R \d]_{\cat{Rng}} &\to \d[0,R / I\d]_{\cat{Rng}} \\
+A &\mapsto A / R
+\end{align*}
+$$
+from [[subrng|subrngs]] containing $I$ to [[subrng|subrngs]] of $R / I$ is an order-preserving bijection.
+Moreover, $A$ is an ideal iff $\Phi(A)$ is.
+
 #
 ---
 #state/develop | #lang/en | #SemBr

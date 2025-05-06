@@ -7,7 +7,7 @@ aliases:
 [[Number field]]
 # Quadratic field
 
-A **quadratic field** $K$ is a [[number field]] of degree 2, #m/def/ring 
+A **quadratic field** $K$ is a [[number field]] of degree 2, #m/def/num/alg
 i.e. $[K : \mathbb{Q}] = 2$ whence $K = \mathbb{Q}[\sqrt{ d }]$ for some [[Squarefree integer|squarefree]] $d \in \mathbb{Z}$.
 
 > [!check]- Proof

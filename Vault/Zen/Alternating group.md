@@ -6,7 +6,13 @@ tags:
 # Alternating group
 
 The **alternating group** $\mathrm{Alt}_{n}$ of degree $n$ is the [[Kernel of a group homomorphism|kernel]] of the [[alternating character]] $\sgn : \mathrm{S}_{n} \to \mathrm{S}_{2}$, #m/def/group 
-and therefore a [[normal subgroup]] made up of all even permutations. 
+and therefore a [[normal subgroup]] made up of all even permutations.
+For $n \geq 2$ we have the [[Group extension#^split]] (and hence [[semidirect product]])
+$$
+\begin{align*}
+1 \to \mathrm{Alt}_{n} \hookrightarrow \mathrm{S}_{n}  \twoheadrightarrow 2 \to 1
+\end{align*}
+$$
 
 ## Simplicity
 
@@ -110,6 +116,7 @@ This is proven using the following lemmata
 
 Note that $\mathrm{Alt}_{2}$ is trivial, $\mathrm{Alt}_{3} \cong \mathbb{Z}_{3}$ is Abelian and simple,
 but $\mathrm{Alt}_{4}$ is not simple as $\{ e,(12)(34),(13)(24),(14)(23) \} \triangleleft \mathrm{Alt}_{4}$.
+See [[Decomposition of S4]].
 
 #
 ---
