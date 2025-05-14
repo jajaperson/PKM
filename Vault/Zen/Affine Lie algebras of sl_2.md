@@ -74,7 +74,7 @@ $$
 Taking a [[Formal series over an (un)twisted affine Lie algebra|formal series approach]] on $\hat{\mathfrak{a}}_{i}$, the exact characterization varies with $i$.
 
 > [!info]- For $\hat{\mathfrak{a}}_{0}$
-> In $\hat{\mathfrak{a}}_{0}\d[z,z^{-1}\d]$ we define the formal sums
+> In $\hat{\mathfrak{a}}_{0}\D[z,z^{-1}\D]$ we define the formal sums
 > $$
 > \begin{align*}
 > x_{\pm \alpha_{1}}(z) &= \sum_{n \in \mathbb{Z}} (x_{\pm \alpha_{1}} \otimes t^n)z^{-n} \\
@@ -96,7 +96,7 @@ Taking a [[Formal series over an (un)twisted affine Lie algebra|formal series ap
 > where $m \in \mathbb{Z}$.
 
 > [!info]- For $\hat{\mathfrak{a}}_{3}$
-> In $\hat{\mathfrak{a}}_{3}\d[z^{1/2},z^{-1/2}\d]$ we define the formal sums
+> In $\hat{\mathfrak{a}}_{3}\D[z^{1/2},z^{-1/2}\D]$ we define the formal sums
 > $$
 > \begin{align*}
 > x_{\pm \alpha_{1}}(z) &= \sum_{n \in \mathbb{Z} + \frac{1}{2}} (x_{\pm \alpha_{1}} \otimes t^n)z^{-n} \\
@@ -117,7 +117,7 @@ Taking a [[Formal series over an (un)twisted affine Lie algebra|formal series ap
 > $$
 
 > [!info]- For $\hat{\mathfrak{a}}_{1}$
-> In $\hat{\mathfrak{a}}_{1}\d[z^{1/2},z^{-1/2}\d]$ we define the formal sums
+> In $\hat{\mathfrak{a}}_{1}\D[z^{1/2},z^{-1/2}\D]$ we define the formal sums
 > $$
 > \begin{align*}
 > x_{\pm \alpha_{1}}(z) &= \frac{1}{2} \sum_{n \in \mathbb{Z}}(x_{\alpha_{1}}^+ \otimes t^n) z^{-n} \pm \frac{1}{2} \sum_{n \in \mathbb{Z} + \frac{1}{2}} (x_{\alpha_{1}}^{-} \otimes t^n)z^{-n} \\

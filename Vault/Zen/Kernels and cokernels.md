@@ -21,7 +21,7 @@ The dual notion is the cokernel.
 
 - [[Kernel of a group homomorphism]] in [[Category of groups]] and [[Category of abelian groups]]
 - [[Linear kernel]] in [[Category of vector spaces]]
-- [[Module kernel]] in [[Category of left-modules]]
+- [[Module kernel]] in [[Category of left modules]]
 - [[Kernel of an algebra homomorphism]] in [[Category of algebras]]
 - [[Kernel of a Lie algebra homomorphism]] in [[Category of Lie algebras]]
 

@@ -15,7 +15,7 @@ A^\perp = \{ v \in V : (\forall a \in A) [\braket{ a | v } =0] \}
 $$
 
 > [!check]- Proof of subspace
-> Clearly the $\vab 0 \in A^\perp$.
+> Clearly\Span$\vab 0 \in A^\perp$.
 > If $v_{1},v_{2} \in A^\perp$ and $\alpha,\beta \in \mathbb{K}$ then $\braket{ a | \alpha v_{1}+\beta v_{2} } = \alpha \braket{ a | v_{1} }+ \beta \braket{ a | v_{2} }=0$ for all $a \in A$,
 > and thus $\alpha v_{1} + \beta v_{2} \in A^\perp$.
 > Therefore $A^\perp$ is a subspace.
@@ -30,7 +30,7 @@ Let $A \sube V$ be an arbitrary subset. Then
 3. $B \sube A \implies A^\perp \sube B^\perp$ ^S3
 4. $A \sube (A^\perp)^\perp$ ^S4
 5. If $\mathrm{B}_{\epsilon}(v) \sube A$ for some $v \in V$, then $A^\perp = \{ 0 \}$ ^S5
-6. $A^\perp = (\span A)^\perp$ ^S6
+6. $A^\perp = (\Span A)^\perp$ ^S6
 
 > [!check]- Proof of 1–6
 > Note that the orthogonal complement of a singleton $\{ v  \}$ can be expressed as a preïmage
@@ -78,7 +78,7 @@ Let $A \sube V$ be an arbitrary subset. Then
 > but since $\frac{\epsilon y}{2\|y\|} \in \mathrm{B}_{\epsilon}(0)$, it follows from [[Inner product space#^IP3]] that $y=0$,
 > proving [[#^S5]].
 > 
-> Let $x \in A^\perp$ and $y \in \span A$,
+> Let $x \in A^\perp$ and $y \in \Span A$,
 > so $y = \sum_{i=1}^n \lambda_{i}a_{i}$ for some $\{ a_{i} \}_{i=1}^n \sube A$.
 > Then
 > $$

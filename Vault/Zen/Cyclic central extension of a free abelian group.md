@@ -5,7 +5,7 @@ tags:
 [[Central extension of an abelian group]]
 # Cyclic central extension of a free abelian group
 
-Let $A = \mathbb{Z}[S]$ be a [[Free module|free abelian group]] of finite [[Rank of a module|rank]] $n$.
+Let $A = \mathbb{Z}^S$ be a [[Free module|free abelian group]] of finite [[Rank of a module|rank]] $n$.
 Then there is a bijection between the set of [[Alternating multilinear map|alternating]] $\mathbb{Z}$-[[Multilinear map|bilinear maps]]
 $$
 \begin{align*}

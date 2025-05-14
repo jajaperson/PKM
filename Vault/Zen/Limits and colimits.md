@@ -40,6 +40,10 @@ commutes. Informally, the colimit of $\mathscr{D}$ is the shallowest cone under 
 
 [^br]: 2020, [[@bradleyTopologyCategoricalApproach2020|Topology: A  categorical approach]], §4.2, pp. 77–79
 
+## Properties
+
+- [[Limits and colimits as adjoints to the diagonal]]
+
 ## Examples
 
 - [[Initial and terminal objects]]

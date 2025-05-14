@@ -57,7 +57,7 @@ $$
  <span class="QED"/>
 
 > [!check]- Proof of spanning set
-> Let $A = \span \{ \sqrt{ d_{\alpha} }\Gamma^\alpha_{jk} \}$, so we must prove $A = \mathbb{C}[G]$.
+> Let $A = \Span \{ \sqrt{ d_{\alpha} }\Gamma^\alpha_{jk} \}$, so we must prove $A = \mathbb{C}[G]$.
 > The tensor product of irreps is reducible, which for concrete reälizations may be stated as
 > $$
 > \begin{align*}

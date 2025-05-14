@@ -24,11 +24,10 @@ Then the [[Algebraic integer|ring of integers]] $\mathcal{O}_{K}$ is a [[Dedekin
 ## Further terminology
 
 - [[Absolute norm of an ideal of the ring of integers of a number field]]
-- Given an ideal $\mathfrak{a} \triangleleft \mathcal{O}_{K}$ we call $N(\mathfrak{a}) = \abs{\mathcal{O}_{K}/\mathfrak{a}}$ the **norm** of $\mathfrak{a}$, where $N((0))=0$.
 
 ## Properties
 
-- [[Ideal class group of the ring of a number field]]
+- [[Ideal class group of a number field]]
 - [[The ring of integers of a number field forms a lattice]]
  
 

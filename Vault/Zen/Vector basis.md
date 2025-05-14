@@ -14,7 +14,7 @@ A basis is particularly useful in the form of an [[Ordered basis]], allowing for
 > To prove that a set $B$ is a basis for the space $V$, it is necessary to show the following:
 > 1. $B \sube V$
 > 2. $B$ is linearly dependent
-> 3. $V = \span(B)$
+> 3. $V = \Span(B)$
 
 [^2008]: 2008\. [[Sources/@romanAdvancedLinearAlgebra2008|Advanced Linear Algebra]], p. 47
 

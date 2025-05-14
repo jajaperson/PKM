@@ -10,8 +10,8 @@ The **quadratic integers** within a [[quadratic field]] $\mathbb{Q}(\sqrt{ d })$
 $$
 \begin{align*}
 \mathcal{O}_{\mathbb{Q}(\sqrt{ d })} = \begin{cases}
-\mathbb{Z}[\sqrt{ d }] & d \equiv 2,3 \mod 4 \\
-\mathbb{Z}\left[ \frac{1+\sqrt{ d }}{2} \right] & d=1  \mod 4 
+\mathbb{Z}[\sqrt{ d }] & d \equiv 2,3 \pmod 4 \\
+\mathbb{Z}\left[ \frac{1+\sqrt{ d }}{2} \right] & d \equiv 1  \pmod 4 
 \end{cases}
 \end{align*}
 $$

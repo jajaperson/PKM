@@ -22,7 +22,7 @@ except in the case $\mathfrak{a} = \langle 0 \rangle$, where we define $\opn N(\
 2. $\opn N(\mathfrak{a})\opn N(\mathfrak{b}) = \opn N(\mathfrak{a}\mathfrak{b})$. ^P2
 3. For any $m \in \mathbb{N}_{0}$, the number of ideals $\mathfrak{a} \trianglelefteq \mathcal{O}_{K}$ such that $\opn N(\mathfrak{a}) = m$ is finite. ^P3
 
-> [!check]- Proof of 1–2
+> [!check]- Proof of 1–3
 > Let $\{ \omega_{i} \}_{i=1}^n$ $\mathbb{Z}$-span $\mathcal{O}_{K}$,
 > whence $\{ \alpha\omega_{i} \}_{i=1}^n$ $\mathbb{Z}$-spans $\mathfrak{a}$.
 > Now

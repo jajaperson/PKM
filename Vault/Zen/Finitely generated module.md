@@ -11,7 +11,7 @@ An $R$-[[module]] $M$ is said to be **finitely generated** iff it has a finite [
 so that
 $$
 \begin{align*}
-M = \span_{R} \{ m_{i} \}_{i=1}^r
+M = \Span_{R} \{ m_{i} \}_{i=1}^r
 \end{align*}
 $$
 Thus a [[vector space]] is finitely generate iff it is finite dimensional, however the situation is more complicated over a general ring.
@@ -22,4 +22,4 @@ Thus a [[vector space]] is finitely generate iff it is finite dimensional, howev
 
 #
 ---
-#state/tidy | #lang/en | #SemBr
+#state/\Span| #lang/en | #SemBr

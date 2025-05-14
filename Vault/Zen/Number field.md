@@ -15,14 +15,26 @@ and $x$ is called an **algebraic number**.[^2022]
 
   [^2022]: 2022\. [[Sources/@bakerAlgebraicNumberTheory2022|Algebraic number theory course notes]]. §2, p. 7
 
+In order to study a number field we often turn to study its [[Ring of integers of a number field|ring of integers]] and [[Ideal class group of a number field|ideal class group]].
+
 ## Properties
 
+- [[Bases for a number field]]
 - [[Norm of a number field]]
-- [[Ring of integers of a number field]]
 
 ## Classification
 
+### By degree
+
 - [[Quadratic field]]
+
+### By form
+
+- [[Cyclotomic field]]
+
+### By properties
+
+- [[Monogenic field]]
 
 #
 ---

@@ -20,7 +20,7 @@ If $\mathcal{E} = \{ \ket{e_{n}} \}_{n=1}^\infty$ is a [[countability|countable]
 
 > [!missing]- Proof
 > Assume $\mathcal{E}$ is an orthonormal dense basis of $X$
-> and let $Y = \span \mathcal{E}$.
+> and let $Y = \Span \mathcal{E}$.
 > Note that $\mathcal{E}^\perp = Y^\perp$ by [[Orthogonal complement#^S6]].
 > Let $x \in Y^\perp$.
 > Now by the density of $Y$ there exists a sequence $(\ket{y_{i}})_{i=1}^\infty$ in $Y$ 
@@ -31,7 +31,7 @@ If $\mathcal{E} = \{ \ket{e_{n}} \}_{n=1}^\infty$ is a [[countability|countable]
 > \braket{ x | x } = \lim_{ n \to \infty } \braket{ x | y_{k} } = 0
 > \end{align*}
 > $$
-> whence $x=0$, so [[#^O1]] implies [[#^O2]].
+> whence $\Span so [[#^O1]] implies [[#^O2]].
 > 
 > Now assume $\mathcal{E}^\perp = \{ 0 \}$.
 > Let

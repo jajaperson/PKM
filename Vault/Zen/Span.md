@@ -6,21 +6,21 @@ tags:
 ---
 [[Linear algebra MOC]]
 # Span and spanning sets
-The $\span (A) \leq V$ given a set of vectors $A \sube V$
+The $\Span (A) \leq V$ given a set of vectors $A \sube V$
 is the smallest possible [[vector subspace]] 
 containing the vectors of $A$. #m/def/linalg 
-In this way, $\span(A)$ may be thought of as a _completion_ of $A$
+In this way, $\Span(A)$ may be thought of as a _completion_ of $A$
 so that it fulfils the requirements of a subspace,
 by including all (_finite_) linear combinations of the vectors in $A$.
 $$
 \begin{align*}
-\span S = \{ \lambda_{1}\vab v_{1}+ \dots +\lambda_{n}\vab v_{n} : \lambda_{i}\in \mathbb{K}, \vab v_{i} \in S \}
+\Span S = \{ \lambda_{1}\vab v_{1}+ \dots +\lambda_{n}\vab v_{n} : \lambda_{i}\in \mathbb{K}, \vab v_{i} \in S \}
 \end{align*}
 $$
 Note the special case
 $$
 \begin{align*}
-\span(\emptyset) = \{\vab 0\}
+\Span(\emptyset) = \{\vab 0\}
 \end{align*}
 $$
 The conceptual right-inverse of span is that of the spanning set:

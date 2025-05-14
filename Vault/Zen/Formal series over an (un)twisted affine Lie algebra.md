@@ -9,11 +9,11 @@ tags:
 # Formal series over an (un)twisted affine Lie algebra
 
 Let $\mathfrak{g}$ be [[quadratic Lie algebra]], $\vartheta \in \Aut \mathfrak{g}$ be an involutive isometry, and $\tilde{\mathfrak{g}}$ and $\tilde{\mathfrak{g}}[\vartheta]$ be the associated [[Affine Lie algebra|extended untwisted affine Lie algebra]] and [[Twisted affine Lie algebra|extended twisted affine Lie algebra]] respectively.
-Then to each $x \in \mathfrak{g}$, we associate the following formal series in $\tilde{\mathfrak{g}}\d[z,z^{-1}\d]$ and $\tilde{\mathfrak{g}}[\vartheta]\d[ z^{1/2}, z^{-1/2} \d]$ respectively: #m/def/lie 
+Then to each $x \in \mathfrak{g}$, we associate the following formal series in $\tilde{\mathfrak{g}}\D[z,z^{-1}\D]$ and $\tilde{\mathfrak{g}}[\vartheta]\D[ z^{1/2}, z^{-1/2} \D]$ respectively: #m/def/lie 
 $$
 \begin{align*}
-x_{\mathbb{Z}} (z) &= \sum_{n \in \mathbb{Z}} (x \otimes t^n) z^{-n} \in \tilde{\mathfrak{g}}\d[z,z^{-1}\d] \\
-x_{\mathbb{Z} + 1 / 2} (z) &= \sum_{n \in \mathbb{Z}}(x_{(n)} \otimes t^{n/2}) z^{-n / 2} \in \tilde{\mathfrak{g}}[\vartheta]\d[ z^{1/2}, z^{-1/2} \d]
+x_{\mathbb{Z}} (z) &= \sum_{n \in \mathbb{Z}} (x \otimes t^n) z^{-n} \in \tilde{\mathfrak{g}}\D[z,z^{-1}\D] \\
+x_{\mathbb{Z} + 1 / 2} (z) &= \sum_{n \in \mathbb{Z}}(x_{(n)} \otimes t^{n/2}) z^{-n / 2} \in \tilde{\mathfrak{g}}[\vartheta]\D[ z^{1/2}, z^{-1/2} \D]
 \end{align*}
 $$
 and we will drop the subscripts when it is clear.

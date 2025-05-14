@@ -69,4 +69,4 @@ A [[Closed monoidal category]] is a category which is also monoidal in a compati
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

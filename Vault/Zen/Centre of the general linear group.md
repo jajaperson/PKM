@@ -14,8 +14,8 @@ The [[Centre of a group|centre]] $\mathrm{Z}(V)$ of the [[general linear group]]
 > It is clear that scalar transformations form a group isomorphic to $\mathbb{K}^\times$ and that $\mathbb{K}^\times \sube \mathrm{Z}(V)$.
 > Now let $A \in \mathrm{Z}(V)$ and assume there exists a nonzero $x \in V$ such that $x$ not an eigenvector of $A$.
 > Then $y = Ax$ is linearly independent from $x$,
-> and there exists some [[vector basis]] $B$ with $x,y \in B$ and $\span B = V$.
-> Let $U = \span \{ x,y \}$ and $U' = \span(B \setminus V)$.
+> and there exists some [[vector basis]] $B$ with $x,y \in B$ and $\Span B = V$.
+> Let $U = \Span \{ x,y \}$ and $U' = \Span(B \setminus V)$.
 > Define linear maps such that in the $x,y$ basis
 > $$
 > \begin{align*}
@@ -27,8 +27,7 @@ The [[Centre of a group|centre]] $\mathrm{Z}(V)$ of the [[general linear group]]
 > 1 & 0 \\
 > 1 & 1
 > \end{bmatrix}
-> &
-> T^{-1} \restriction U &= \begin{bmatrix}
+> &\Span{-1} \restriction U &= \begin{bmatrix}
 > 1 & 0 \\
 > -1 & 1
 > \end{bmatrix}

@@ -9,7 +9,7 @@ Let $\mathbb{K}$ be a field with [[Characteristic|$\opn{char} \mathbb K = 0$]].
 The **formal logarithm** is defined as[^1988] #m/def/fcalc 
 $$
 \begin{align*}
-\ln(1+ax) = -\sum_{k \in \mathbb{N}} \frac{(-a)^k }{k}x^k \in \mathbb{K}\d[z\d] \leq \mathbb{K} \{ z \}
+\ln(1+ax) = -\sum_{k \in \mathbb{N}} \frac{(-a)^k }{k}x^k \in \mathbb{K}\D[z\D] \leq \mathbb{K} \{ z \}
 \end{align*}
 $$
 

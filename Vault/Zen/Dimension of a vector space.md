@@ -8,21 +8,21 @@ tags:
 The **dimension**[^plural] of a [[vector space]] is the [[cardinality]] of any [[Vector basis|basis]] for that space. #m/def/linalg 
 Thus all possible bases for a vector space have the same cardinality.[^2008] 
 
-> [!check]- Proof
+> [!chec\Spanroof
 > Let $V$ be a vector space.
-> First we show that if $\{ v_{i} \}_{i=1}^n$ are [[Linear (in)dependence|linearly independent]] in $V$ and $V = \span \{ s_{i} \}_{i=1}^m$, 
+> First we show that if $\{ v_{i} \}_{i=1}^n$ are [[Linear (in)dependence|linearly independent]] in $V$ and $V = \Span \{ s_{i} \}_{i=1}^m$, 
 > then $n \leq m$.
 > 
 > Let $A = \{ v_{i} \}_{i=1}^n$ and $B = \{ s_{i} \}_{i=1}^m$
 > We iterate the following steps, starting with $k=1$ and incrementing until exhaustion:
 > 
 > 1. Move a vector $v_{k}$ out of $A$ into $B$.
-> 2. Since $\span(B) = V$, $v_{k}$ is a linear combination of other elements of $B$, so one of the $s_{i}$ can be removed from $B$ and still $\span(B) = V$.
+> 2. Since $\Span(B) = V$, $v_{k}$ is a linear combination of other elements of $B$, so one of the $s_{i}$ can be removed from $B$ and still $\Span(B) = V$.
 >    Without loss of generality by reïndexing we remove $s_{k}$ from $B$.
 >    $A$ remains linearly independent.
 > 
 > If $m < n$, we eventually exhaust all $s_{i}$ and $A$ and $B$ will partition $\{ v_{i} \}_{i=1}^n$.
-> But then $A \sube \span(B)$, i.e. some $v_{i}$ are linear combinations of other $v_{i}$,
+> But then $A \sube \Span(B)$, i.e. some $v_{i}$ are linear combinations of other $v_{i}$,
 > which is a contradiction.
 > Therefore, $n \leq m$.
 > 
@@ -43,7 +43,7 @@ Thus all possible bases for a vector space have the same cardinality.[^2008]
 > \bigcup_{j \in J}U_{j} = I
 > \end{align*}
 > $$
-> for if the vectors in $\mathcal{ C}$ can be expressed as finite linear combinations of vectors in a proper subset $\mathcal{B}' \subset \mathcal{B}$, then $V=\span \mathcal{B}'$, which is a contradiction.
+> for if the vectors in $\mathcal{ C}$ can be expressed as finite linear combinations of vectors in a proper subset $\mathcal{B}' \subset \mathcal{B}$, then $V=\Span \mathcal{B}'$, which is a contradiction.
 > Since $\abs{U_{j}}< \aleph_{0}$ for all $j \in J$,
 > it follows from [[Upper bound on the cardinality of an arbitrary union]] that
 > $$

@@ -5,7 +5,7 @@ tags:
 [[Yoneda lemma]]
 # Yoneda embedding
 
-The **Yoneda embedding** $\yo : \cat C \hookrightarrow \Set^{\cop C}$ is an [[embedding#Category|embedding]]  of a [[locally small category]] $\cat C$ into the [[Category of presheaves]],
+The **Yoneda embedding** $\yo : \cat C \hookrightarrow \Set^{\cop C}$ is an [[Category embedding|embedding]]  of a [[locally small category]] $\cat C$ into the [[Category of presheaves]],
 that 
 
 - maps an object $X \in \cat C$ to the presheaf $\yo X =\cat C(-, X)$

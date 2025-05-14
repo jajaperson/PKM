@@ -14,7 +14,7 @@ iff at least one of its contained vectors
 can be derived from a linear combination of the others. #m/def/linalg 
 $$
 \begin{align*}
-\forall[\vab v \in A] \quad \vab v \in \span(A \setminus \{ \vab v \})
+\forall[\vab v \in A] \quad \vab v \in \Span(A \setminus \{ \vab v \})
 \end{align*}
 $$
 If the inverse is true,

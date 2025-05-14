@@ -37,13 +37,13 @@ $$
 
 ### With the formal Dirac delta
 
-Let $\delta(z) \in \mathbb{K}\d[z,z^{-1}\d]$ denote the [[Formal delta]]. Then it follows from [[Formal delta#Properties]] that for any $v(z) \in v[z,z^{-1}]$ and $a \in \mathbb{K}^\times$
+Let $\delta(z) \in \mathbb{K}\D[z,z^{-1}\D]$ denote the [[Formal delta]]. Then it follows from [[Formal delta#Properties]] that for any $v(z) \in v[z,z^{-1}]$ and $a \in \mathbb{K}^\times$
 $$
 \begin{align*}
 v(z) D \delta(az) &= v(a^{-1})D\delta(az) - (Dv)(a^{-1})\delta(az)
 \end{align*}
 $$
-and that for any $X(z_{1},z_{2}) \in (\End V) \d[z_{1},z_{1}^{-1},z_{2},z_{2}^{-1}\d]$ such that $\lim_{ z_{1} \to z_{2} }X(z_{1},z_{2})$ exists and $a \in \mathbb{K}^\times$
+and that for any $X(z_{1},z_{2}) \in (\End V) \D[z_{1},z_{1}^{-1},z_{2},z_{2}^{-1}\D]$ such that $\lim_{ z_{1} \to z_{2} }X(z_{1},z_{2})$ exists and $a \in \mathbb{K}^\times$
 $$
 \begin{align*}
 X(z_{1},z_{2}) D_{1}\delta(az_{1}/z_{2}) &= X(a^{-1}z_{2},z_{2}) D_{1} \delta(az_{1} /z_{2}) - (D_{1}X)(a^{-1}z_{2},z_{2})\delta(az_{1} / z_{2}) \\

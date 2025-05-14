@@ -8,7 +8,7 @@ tags:
 A **dense basis**[^term] $\mathcal{B}$ of a [[Topological vector space]] $V$ is a [[Linear (in)dependence|linearly independent]] set such that #m/def/anal/fun
 $$
 \begin{align*}
-V = \Cl \span \mathcal{ B}
+V = \Cl \Span \mathcal{ B}
 \end{align*}
 $$
 i.e. a [[vector basis]] for a [[Dense set|dense]] subspace of $V$.
@@ -18,4 +18,4 @@ See also [[Orthonormal dense basis]].
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/d\Spanp | #lang/en | #SemBr

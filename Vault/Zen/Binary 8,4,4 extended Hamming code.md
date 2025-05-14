@@ -26,8 +26,8 @@ $$
 defining the following subcodes of the [[even binary code]] $\mathcal{E}(\Omega)$
 $$
 \begin{align*}
-\mathcal{C}_{1} &= \span_{\mathbb{K}_{2}} \{ \mathcal{N} + i : i \in \mathbb{K}_{7} \}  \\
-\mathcal{C}_{2} &= \span_{\mathbb{K}_{2}} \{ - \mathcal{N} - i : i \in \mathbb{K}_{7} \} \\
+\mathcal{C}_{1} &= \Span_{\mathbb{K}_{2}} \{ \mathcal{N} + i : i \in \mathbb{K}_{7} \}  \\
+\mathcal{C}_{2} &= \Span_{\mathbb{K}_{2}} \{ - \mathcal{N} - i : i \in \mathbb{K}_{7} \} \\
 \end{align*}
 $$
 satisfy

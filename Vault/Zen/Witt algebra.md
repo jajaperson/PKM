@@ -53,7 +53,7 @@ In $\opn{char} \mathbb{K} = 0$, the Witt algebra admits a unique nontrivial 1-di
 
 ## Properties
 
-  - For any $n \in \mathbb{N}$, $\span \{ d_{-n}, d_{0}, d_{n} \}$ forms a [[Lie subalgebra]] isomorphic to [[Special linear Lie algebra|$\opn{\mathfrak{sl}}_2 \mathbb K$]], in particular
+  - For any $n \in \mathbb{N}$, $\Span \{ d_{-n}, d_{0}, d_{n} \}$ forms a [[Lie subalgebra]] isomorphic to [[Special linear Lie algebra|$\opn{\mathfrak{sl}}_2 \mathbb K$]], in particular
     $$
   \begin{align*}
   \mathfrak{p} = \mathbb{K}d_{-1} + \mathbb{K}d_{0} + \mathbb{K}d_{1} \cong_{\cat{Lie}_{\mathbb{K}}} \opn{\mathfrak{sl}}_{2}\mathbb{K}

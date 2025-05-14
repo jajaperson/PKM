@@ -28,16 +28,28 @@ We also say $R$ is a **right adjoint** of $L$.
 When adjoints exist they are unique up to [[natural isomorphism]],
 hence we speak of _the_ adjoint.
 
-[!check]- Proof of uniqueness
-By duality, it suffices to prove right adjoints are unique up to natural isomorphism.
-Suppose $F \dashv U,V : \cat D \leftrightarrows \cat C$.
-Then
-$$
-\begin{align*}
-\cat C(1 \times U) \cong \cat D(F \times 1) \cong \cat C(1 \times V)
-\end{align*}
-$$
-so by the [[Yoneda lemma]]
+> [!check]- Proof of uniqueness
+> By duality, it suffices to prove right adjoints are unique up to natural isomorphism.
+> Suppose $F \dashv U,V : \cat D \leftrightarrows \cat C$.
+> Then by adjunction
+> $$
+> \begin{align*}
+> \cat C(1 \times U) \cong \cat D(F \times 1) \cong \cat C(1 \times V)
+> \end{align*}
+> $$
+> hence for any object $D \in \cat D$ we have
+> $$
+> \begin{align*}
+> \yo(UD) \cong \yo(VD)
+> \end{align*}
+> $$
+> naturally and thus
+> $$
+> \begin{align*}
+> UD \cong UV
+> \end{align*}
+> $$
+> naturally (see [[category embedding]]). <span class="QED"/>
 
 
 The name comes from an analogy to the [[Adjoint operator]].

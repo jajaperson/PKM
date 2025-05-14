@@ -4,13 +4,19 @@ tags:
 ---
 [[Module theory MOC]]
 # Induced module
-Let $A$ be a [[Unital associative algebra over a field]] over $\mathbb{K}$, $B \leq A$ be a [[unital subalgebra]], and $V$ be a $B$-[[Module over a unital associative algebra|module]].
+Let $A$ be a [[Unital associative algebra over a field|$\mathbb K$-ring]], $B \leq A$ be a [[Unital subalgebra|$\mathbb K$-subring]], and $V$ be a $B$-[[Module over a unital associative algebra|module]].
 The $A$-module **induced** by the $B$-module $V$ is a canonical way of extending $V$ to accomodate a representation of $A$,
 as formalized by the [[#Universal property]].[^1988]
+We have the adjunction
+
+%% https://q.uiver.app/#q=WzAsMixbMCwwLCJcXGxNb2QgQSJdLFsyLDAsIlxcbE1vZCBCIl0sWzAsMSwiXFxSZXNeQV9CICIsMCx7ImN1cnZlIjotMX1dLFsxLDAsIlxcSW5kXkFfQiIsMCx7ImN1cnZlIjotMX1dLFszLDIsIiIsMCx7ImxldmVsIjoxLCJzdHlsZSI6eyJuYW1lIjoiYWRqdW5jdGlvbiJ9fV1d&macro_url=https%3A%2F%2Fraw.githubusercontent.com%2Fjajaperson%2FPKM%2Frefs%2Fheads%2Fmain%2FVault%2Fpreamble.sty %%
+![[induced-restricted adjunction.svg#invert|250]]
+
+with the [[Restricted module]] and more generally we can consider [[Change of ring]] along a ring homomorphism.
 
 ## Universal property
 
-Let $A$ be a [[Unital associative algebra over a field]] over $\mathbb{K}$, $B \leq A$ be a [[unital subalgebra]], and $V$ be a $B$-[[Module over a unital associative algebra|module]]. The $A$-module **induced** by the $B$-module $V$ is a pair consisting of an $A$-module $\Ind_{B}^A V = A \otimes_{B} V$ and a $B$-[[Module homomorphism]] $\iota : V \to \Ind^A_{B} V$
+Let $A$ be [[Unital associative algebra over a field|$\mathbb K$-ring]], $B \leq A$ be a [[Unital subalgebra|$\mathbb K$-subring]], and $V$ be a $B$-[[Module over a unital associative algebra|module]]. The $A$-module **induced** by the $B$-module $V$ is a pair consisting of an $A$-module $\Ind_{B}^A V = A \otimes_{B} V$ and a $B$-[[Module homomorphism]] $\iota : V \to \Ind^A_{B} V$
 such that given any $A$-module $W$ a $B$-module homomorphism $f : V \to W$
 factorizes uniquely through $\iota$ #m/def/falg 
 

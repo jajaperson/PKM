@@ -54,7 +54,7 @@ Then $J(R) / {\sim} \cong \Cl(R)$.[^2022]
 
 ## Results
 
-- [[Ideal class group of the ring of a number field]]
+- [[Ideal class group of a number field]]
 
 #
 ---

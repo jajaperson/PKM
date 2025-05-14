@@ -48,7 +48,7 @@ $$
 > &= \sum_{\mu;i,j} c^\mu_{ij}\frac{1}{d_{\mu}} \delta_{ij} \chi^\mu(y)
 > \end{align*}
 > $$
-> thus $f \in \span \{ \chi^\mu \}$.
+> thus $f \in \Span \{ \chi^\mu \}$.
 > <span class="QED"/>
 
 > [!check]- Alternate proof of completeness via Schur's lemma and matrix algebra isomorphism

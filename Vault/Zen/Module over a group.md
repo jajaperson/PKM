@@ -10,6 +10,7 @@ The actual [[module]] being invoked is one over the [[group ring]] $\mathbb{K}[G
 
   [^cf]: cf. [[Module over a Lie algebra]]
 
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

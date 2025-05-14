@@ -1,5 +1,5 @@
 ---
-categoryName: category of left-modules
+categoryName: category of left modules
 mathLink: $\lMod{R}$
 object: left-[[module]] over $R$
 morphism: "[[module homomorphism]]"

@@ -15,7 +15,7 @@ truncated from below such that $V_{(n)} = 0$ sufficiently small $n$,
 equipped with a linear map into [[formal sums over endomorphisms]] called **vertex operators**
 $$
 \begin{align*}
-V &\to (\End V) \d[z,z^{-1}\d] \\
+V &\to (\End V) \D[z,z^{-1}\D] \\
 v &\mapsto Y(v,z) = \sum_{n \in \mathbb{Z}}v_{n} z^{-n-1}
 \end{align*}
 $$
@@ -24,7 +24,7 @@ with a distinguished **vacuum element** $\mathbb{1} \in V$ such that the followi
 
 1. $u_{n} v = 0$ for sufficiently large $n$;
 2. $Y(\mathbb{1}, v) = 1$;
-3. $Y(v,z) \mathbb{1} \in V\d[z\d]$ and $\lim_{ z \to 0 }Y(v,z) \mathbb{1} = v$; and
+3. $Y(v,z) \mathbb{1} \in V\D[z\D]$ and $\lim_{ z \to 0 }Y(v,z) \mathbb{1} = v$; and
 4. the **generalized Jacobi identity** holds
    $$
   \begin{align*}

@@ -4,7 +4,7 @@ aliases:
 tags:
   - public
 ---
-[[Topology MOC]]
+[[Mathematics MOC]]
 # Embedding
 
 An **embedding** is an [[Surjectivity, injectivity, and bijectivity|injective]] [[Morphism|homomorphism]] which induces an [[Morphism|isomorphism]] with its image.
@@ -20,11 +20,9 @@ i.e. the topology of $Y$ is the same as the [[Subspace topology]] induced by $f$
 
 A $C^k$ **embedding** of $Y$ in $X$ is a $C^k$ [[diffeomorphism]] between $Y$ and a [[submanifold]] of $X$. #m/def/geo/diff
 
+## Others
 
-## Category
-
-An **embedding** of a category $\cat C$ in $\cat D$ is a [[fully faithful functor]] $F : \cat C \hookrightarrow \cat D$ which is injective on objects.
-
+- [[Category embedding]]
 
 #
 ---

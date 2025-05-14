@@ -5,7 +5,7 @@ tags:
 [[Linear algebra MOC]]
 # Adjugate matrix
 
-The **adjugate matrix** $\opn{adj}T$ of a [[Matrix algebra over a ring|square matrix]] $T \in M_{n , n}(R)$ is the [[Matrix transpose|transpose]] of its [[Cofactor matrix|cofactor matrix]] $\opn{cof}T$. #m/def/linalg 
+The **adjugate matrix** $\opn{adj}T$ of a [[Matrix algebra over a ring|square matrix]] $T \in \opn M_{n , n}(R)$ is the [[Matrix transpose|transpose]] of its [[Minor|cofactor matrix]] $\opn{cof}T$. #m/def/linalg 
 
 ## Properties
 

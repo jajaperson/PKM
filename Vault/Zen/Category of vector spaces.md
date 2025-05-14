@@ -21,7 +21,7 @@ and its morphisms are mappings that preserve that structure.
 In this case, each object is a [[Vector space]]
 and each of its morphisms is a [[Linear map]] 
 — a mapping which preserves scalar multiplication and vector addition.
-It is identical to [[Category of left-modules|$\lMod{\mathbb K}$]], the different name is just for emphasis.
+It is identical to [[Category of left modules|$\lMod{\mathbb K}$]], the different name is just for emphasis.
 
 [[Matrix multiplication algebra as a category]].
 

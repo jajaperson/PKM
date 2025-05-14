@@ -8,7 +8,7 @@ tags:
 The **formal delta** over a field $\mathbb{K}$ is the [[Algebra of Laurent series|Laurent series]][^1988] #m/def/fcalc 
 $$
 \begin{align*}
-\delta(z) = \sum_{n \in \mathbb{Z}}z^n \in \mathbb{K}\d[z,z^{-1}\d]
+\delta(z) = \sum_{n \in \mathbb{Z}}z^n \in \mathbb{K}\D[z,z^{-1}\D]
 \end{align*}
 $$
 
@@ -41,7 +41,7 @@ Then in [[Formal sums over a vector space|$V\{ z \}$]]
   $$
   ^P3
 
-Let $X(z_{1},z_{2}) \in (\End V) \d[z_{1},z_{1}^{-1},z_{2},z_{2}^{-1}\d]$ such that $\lim_{ z_{1} \to z_{2} }X(z_{1},z_{2})$ exists and $a \in \mathbb{K}^\times$. 
+Let $X(z_{1},z_{2}) \in (\End V) \D[z_{1},z_{1}^{-1},z_{2},z_{2}^{-1}\D]$ such that $\lim_{ z_{1} \to z_{2} }X(z_{1},z_{2})$ exists and $a \in \mathbb{K}^\times$. 
 Finally let $p(z_{1},z_{2}) \in \mathbb{K}[z_{1},z_{1}^{-1},z_{2},z_{2}^{-1}]$, $T_{1} = p(z_{1},z_{2}) \frac{ \partial }{ \partial z_{1} }$, and $T_{2}=p(z_{1},z_{2})\frac{ \partial }{ \partial z_{2} }$.
 Then in [[Formal sums over endomorphisms|$(\End V)\{ z_{1},z_{2} \}$]]
 

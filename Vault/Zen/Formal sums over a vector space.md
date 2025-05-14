@@ -22,14 +22,14 @@ If $\opn{char} \mathbb{K} = 0$, we have the following useful subspaces[^1988]
 - $V[z] = V \otimes \mathbb{K}[z]$ has exponents in $\mathbb{N}_{0}$ only and finitely many terms, and is called **polynomials** over $V$; and
 - $V[z,z^{-1}] = V \otimes \mathbb{K}[z,z^{-1}]$ has exponents in $\mathbb{Z}$ only and finitely many terms, and is called **Laurent polynomials** over $V$
 
-Given $v(z) = \sum_{n \in \mathbb{Z}}v_{n} z^n \in V \d[z,z^{-1}\d]$ we define $v(\alpha z) = \sum_{n \in \mathbb{Z}} \alpha^nv_{n}z^n$,
+Given $v(z) = \sum_{n \in \mathbb{Z}}v_{n} z^n \in V \D[z,z^{-1}\D]$ we define $v(\alpha z) = \sum_{n \in \mathbb{Z}} \alpha^nv_{n}z^n$,
 and for $v(z) \in V[z,z^{-1}]$ evaluation may be defined similarly.
 We have two well-defined [[Multilinear map|bilinear]] multiplication maps
 
 $$
 \begin{align*}
 V[z,z^{-1}] \times \mathbb{K}\{ z \} &\to V \{ z \} \\
-V[z,z^{-1}] \times \mathbb{K}\d[z,z^{-1}\d] &\to V\d[z,z^{-1}\d]
+V[z,z^{-1}] \times \mathbb{K}\D[z,z^{-1}\D] &\to V\D[z,z^{-1}\D]
 \end{align*}
 $$
 

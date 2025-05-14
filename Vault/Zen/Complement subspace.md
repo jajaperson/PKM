@@ -15,8 +15,8 @@ A **complement** $U^c \leq V$ is a subspace such that the [[Direct sum of vector
 > [!check]- Proof of 1.
 > The existence of the compliment follows from [[Every vector space has a basis]]:
 > Let $\mathcal{A}$ be a basis of $U$.
-> Then there exists a basis $\mathcal{B}$ of $V$ such that $\mathcal{A} \sube \mathcal{B}$.
-> Then $U^c = \span(\mathcal{B}\setminus \mathcal{A})$ is a complement of $U$.
+> Then there exists a basis $\mathcal{\Spanf $V$ such that $\mathcal{A} \sube \mathcal{B}$.
+> Then $U^c = \Span(\mathcal{B}\setminus \mathcal{A})$ is a complement of $U$.
 > <span class="QED"/>
 
 #

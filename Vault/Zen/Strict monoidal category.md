@@ -8,7 +8,7 @@ tags:
 # Strict monoidal category
 
 A **strict monoidal category** is a [[monoidal category]] in which the associator $\alpha$, left-unitor $\lambda$, and right-unitor $\rho$ are all the [[identity natural transformation]]. #m/def/cat 
-Thus a strict monoidal category is precisely a [[monoid object]] in [[Category of small categories]].
+Thus a strict monoidal category is precisely a [[Monoid object]] in [[Category of small categories]].
 Explicitly, a strict monoidal category $\cat C$ is equipped with
 
 1. a [[functor]] $(\otimes) : \cat C \times \cat C \to \cat C$ called the **tensor product**; and

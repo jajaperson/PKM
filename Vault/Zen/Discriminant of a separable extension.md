@@ -21,7 +21,7 @@ T(\alpha_{1},\dots,\alpha_{n}) =
 \begin{bmatrix}
 \sigma_{1}(\alpha_{1}) & \cdots & \sigma_{1}(\alpha_{n}) \\
 \vdots & \ddots & \vdots \\
-\sigma_{n}(\alpha_{1}) & \dots & \alpha_{n}(\alpha_{n})
+\sigma_{n}(\alpha_{1}) & \dots & \sigma_{n}(\alpha_{n})
 \end{bmatrix}
 \end{align*}
 $$
@@ -81,6 +81,7 @@ $$
 ## See also
 
 - [[Absolute norm of an ideal of the ring of integers of a number field]]
+- [[Discriminant of a number field]]
 
 #
 ---

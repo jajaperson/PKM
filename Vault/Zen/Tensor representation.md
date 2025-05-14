@@ -30,13 +30,13 @@ form an [[irreducible orthonormal basis]] under both $\mathrm{GL}_{N}(\mathbb{C}
 where
 $$
 \begin{align*}
-T_{\lambda}(\alpha) = \span \{ \lambda,\alpha,\beta \}_{\beta=1}^{d_{\lambda}}
+T_{\lambda}(\alpha) = \Span \{ \lambda,\alpha,\beta \}_{\beta=1}^{d_{\lambda}}
 \end{align*}
 $$
 is a $d_{\lambda}$-dimensional irreducible invariant subspace under $S_{n}$ and
 $$
 \begin{align*}
-T'_{\lambda}(\beta) = \span \{ \lambda,\alpha,\beta \}_{\alpha=1}^{m_{\lambda}}
+T'_{\lambda}(\beta) = \Span \{ \lambda,\alpha,\beta \}_{\alpha=1}^{m_{\lambda}}
 \end{align*}
 $$
 is a $m_{\lambda}$-dimensional irreducible invariant subspace transforming under $\mathrm{GL}_{N}(\mathbb{C})$ in an irrep henceforth labeled $\Gamma^\lambda$.

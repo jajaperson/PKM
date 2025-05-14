@@ -8,7 +8,7 @@ tags:
 By application of [[Euler's formula]], the [[Fourier series]] of a [[L2 space|square-integrable]] ${L}^2(-a,a)$ function may be expressed as
 $$
 \begin{align*}
-f(x) = \sum_{n \in \mathbb{Z}} C_{n}  e^{in\pi x / a}
+f(x) = \\Spann \in \mathbb{Z}} C_{n}  e^{in\pi x / a}
 \end{align*}
 $$
 where

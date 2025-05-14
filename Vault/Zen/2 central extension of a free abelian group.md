@@ -5,7 +5,7 @@ tags:
 [[Cyclic central extension of a free abelian group]]
 # 2 central extension of a free abelian group
 
-Let $A = \mathbb{Z}[S]$ be a [[Free module|free abelian group]] of finite [[Rank of a module|rank]],
+Let $A = \mathbb{Z}^S$ be a [[Free module|free abelian group]] of finite [[Rank of a module|rank]],
 and let
 $$
 \begin{align*}

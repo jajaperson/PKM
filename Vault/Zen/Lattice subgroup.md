@@ -13,7 +13,7 @@ The above definition generalizes and is motivated by the case where $G = \mathbb
 ## Classical lattice
 
 A **classical lattice** $L$ is a lattice in the [[topological vector space]] $\mathbb{K}^n$ where $\mathbb{K} = \mathbb{R}$ or $\mathbb{K} = \mathbb{Q}$,
-and is called **complete** iff $\span_{\mathbb{K}}L = \mathbb{K}^n$.
+and is called **complete** iff $\Span_{\mathbb{K}}L = \mathbb{K}^n$.
 
 Let $V$ be an $n$-dimensional space vector space over $\mathbb{K}$.
 Let $L \leq V$ be a $\mathbb{Z}$-[[submodule]] spanning $V$. The following are equivalent[^1999] #m/thm/topology 
@@ -37,13 +37,13 @@ Let $L \leq V$ be a $\mathbb{Z}$-[[submodule]] spanning $V$. The following are e
 > If there were an $x \notin L$ such that $x \in \Cl L$, then there would be a two distinct elements $l_{1},l_{2} \in x + U'$ such that $0 \neq l_{1}-l_{2} \in U' - U' \sube U$,
 > so $0$ is not isolated in $U$, a contradiction.
 > 
-> Now let $\mathcal{B}= \{ u_{i} \}_{i=1}^n \sube L$ be a $\mathbb{K}$-basis of $V$, and let $L_{0} = \span_{\mathbb{Z}} \mathcal{B} \leq_{\mathbb{Z}} L$.
+> Now let $\mathcal{B}= \{ u_{i} \}_{i=1}^n \sube L$ be a $\mathbb{K}$-basis of $V$, and let $L_{0} = \Span_{\mathbb{Z}} \mathcal{B} \leq_{\mathbb{Z}} L$.
 > We will show that the [[Lagrange's theorem|Lagrange index]] $\abs{L / L_{0}}$ is finite.
 > Let $[l_{i}] \in L / L_{0}$ for $i \in I$ be a complete system of representatives for each coset.
 > Letting
 > $$
 > \begin{align*}
-> \Phi_{0} = \span_{[0,1)} \mathcal{B}
+> \Phi_{0} = \Span_{[0,1)} \mathcal{B}
 > \end{align*}
 > $$
 > (this is an abuse of notation but the meaning is clear)
@@ -66,7 +66,7 @@ Let $L \leq V$ be a $\mathbb{Z}$-[[submodule]] spanning $V$. The following are e
 > It follows $q L \leq_{\mathbb{Z}} L_{0}$, whence
 > $$
 > \begin{align*}
-> L \leq_{\mathbb{Z}} \frac{1}{q} L_{0} = \span_{\mathbb{Z}} \left( \frac{1}{q} \mathcal{B} \right) 
+> L \leq_{\mathbb{Z}} \frac{1}{q} L_{0} = \Span_{\mathbb{Z}} \left( \frac{1}{q} \mathcal{B} \right) 
 > \end{align*}
 > $$
 > implying $L$ possesses a $\mathbb{Z}$-basis of length less than $n$.

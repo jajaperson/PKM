@@ -33,7 +33,7 @@ Let $I \trianglelefteq R$ be an [[ideal]].
 Then the map
 $$
 \begin{align*}
-\Phi : \d[ I, R \d]_{\cat{Rng}} &\to \d[0,R / I\d]_{\cat{Rng}} \\
+\Phi : \D[ I, R \D]_{\cat{Rng}} &\to \D[0,R / I\D]_{\cat{Rng}} \\
 A &\mapsto A / R
 \end{align*}
 $$

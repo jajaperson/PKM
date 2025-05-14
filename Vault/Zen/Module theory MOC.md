@@ -17,7 +17,7 @@ The object of interest is the [[Module]], which is an algebraic structure define
 Unless we are dealing with a [[Module over a commutative ring]], it is necessary to distinguish between left-modules and right-modules.
 The left modules over a given ring $R$ form a category $\lMod{R}$,
 the right modules form a category $\rMod R$.
-See [[Category of left-modules]].
+See [[Category of left modules]].
 
 ## Objects
 ### Types of module

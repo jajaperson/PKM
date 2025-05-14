@@ -73,7 +73,7 @@ One may construct the tensor product $V \otimes W$ as a quotient space of the [[
 $$
 \begin{align*}
 V*W = \mathbb{K}[\{ &v * w \mid v \in V, w \in W \}] \\
-U = \span \{ &(\alpha v_{1} + \beta v_{2} )*(\gamma w_{1}+\delta w_{2})  \\ &- \alpha\gamma v_{1}*w_{1} - \alpha\delta v_{1}*w_{2}- \beta\gamma v_{2}*w_{1}- \beta\delta v_{2}*w_{2} \\ &\mid \alpha,\beta,\gamma,\delta \in \mathbb{K}, v \in V, w \in W\} \\
+U = \Span \{ &(\alpha v_{1} + \beta v_{2} )*(\gamma w_{1}+\delta w_{2})  \\ &- \alpha\gamma v_{1}*w_{1} - \alpha\delta v_{1}*w_{2}- \beta\gamma v_{2}*w_{1}- \beta\delta v_{2}*w_{2} \\ &\mid \alpha,\beta,\gamma,\delta \in \mathbb{K}, v \in V, w \in W\} \\
 V \otimes W = &V * W / U
 \end{align*}
 $$
