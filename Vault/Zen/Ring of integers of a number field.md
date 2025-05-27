@@ -24,6 +24,7 @@ Then the [[Algebraic integer|ring of integers]] $\mathcal{O}_{K}$ is a [[Dedekin
 ## Further terminology
 
 - [[Absolute norm of an ideal of the ring of integers of a number field]]
+- [[Splitting of prime ideals in a number field]]
 
 ## Properties
 

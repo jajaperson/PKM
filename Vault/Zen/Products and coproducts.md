@@ -67,7 +67,7 @@ Each construction, if it exists, is unique up to unique isomorphism.
 > By flipping the lateral arrows one receives the equivalent argument for the coproduct.
 > <span class="QED"/>
 
-The product and coproduct may be generalised to the [[Fibre product and coproduct]].
+The product and coproduct may be generalized to the [[Fibre product and coproduct]].
 
 ## Limits and colimits
 

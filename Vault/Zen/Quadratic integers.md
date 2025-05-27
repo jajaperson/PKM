@@ -1,15 +1,15 @@
 ---
-alias: quadratic intger
+alias: quadratic integer
 tags:
   - public
 ---
 [[Quadratic field]]
 # Quadratic integers
 
-The **quadratic integers** within a [[quadratic field]] $\mathbb{Q}(\sqrt{ d })$ where $d$ is a squarefree integer are #m/thm/ring
+The **quadratic integers** within a [[quadratic field]] $K = \mathbb{Q}(\sqrt{ d })$ where $d$ is a squarefree integer are #m/thm/ring
 $$
 \begin{align*}
-\mathcal{O}_{\mathbb{Q}(\sqrt{ d })} = \begin{cases}
+\mathcal{O}_{K} = \begin{cases}
 \mathbb{Z}[\sqrt{ d }] & d \equiv 2,3 \pmod 4 \\
 \mathbb{Z}\left[ \frac{1+\sqrt{ d }}{2} \right] & d \equiv 1  \pmod 4 
 \end{cases}
@@ -45,6 +45,37 @@ $$
 > where $p,q \in \mathbb{Z}$, whence the above. <span class="QED"/>
 
 In general, a quadratic integer is the solution to some monic quadratic with integer coëfficients.
+
+## Properties
+
+Let $\alpha \in \mathcal{O}_{K}$ be a (proper) quadratic integer with [[Algebraic element|minimal polynomial]] $x^2 + ax + b$
+
+1. The [[Discriminant of an algebraic integer|discriminant]] is $\Delta_{K:\mathbb{Q}}(\alpha) = a^2 - 4b$.
+
+> [!check]- Proof of 1
+> See [[Discriminant of an algebraic integer]]. <span class="QED"/>
+
+## Prime ideals
+
+Let $p$ be an odd prime and $\left( \frac{d}{p} \right)$ be the corresponding [[Legendre symbol]].
+
+1. If $\left(  \frac{d}{p}  \right) = 1$ then $K : \mathbb{Q}$ is [[Splitting of prime ideals in a number field|unramified]] at $\langle p \rangle = \langle p, a+\sqrt{ d } \rangle \langle p, a-\sqrt{ d } \rangle$, where $a^2 \equiv_{p} d$. 
+2. If $\left( \frac{d}{p} \right) = -1$ then $K:\mathbb{Q}$ is [[Splitting of prime ideals in a number field|inert]] at $p$.[^2022]
+
+> [!missing]- Proof
+> First suppose $a^2 \equiv_{p} d$ for $a \neq 0$.
+> Then
+> $$
+> \begin{align*}
+> \mathfrak{a}= \langle p,a+\sqrt{ d } \rangle \langle p,a-\sqrt{ d } \rangle = \langle p^2, p(a \pm \sqrt{ d }), a^2 - d^2 \rangle \sube \langle p \rangle 
+> \end{align*}
+> $$
+> and on the other hand $\mathfrak{a}$ contains both $p^2$ and $p(a + \sqrt{ d }) + p(a-\sqrt{ d }) = 2pa$.
+> Thus by [[GCD is a linear combination|Bézout's lemma]] we have $p = \gcd \{ p^2, 2pa \} \in \mathfrak{a}$, so $\mathfrak{a} = \langle p \rangle$.
+
+
+
+  [^2022]: 2022\. [[Sources/@bakerAlgebraicNumberTheory2022|Algebraic number theory course notes]], ¶2.12, pp. 38–39.
 
 #
 ---

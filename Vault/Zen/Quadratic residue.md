@@ -12,6 +12,8 @@ $$
 \mathcal{Q} = \{ x^2 : x \in \mathbb{Z}_{p} \}
 \end{align*}
 $$
+See also [[Legendre symbol]].
+
 
 #
 ---

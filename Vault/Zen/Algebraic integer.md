@@ -46,6 +46,10 @@ which is clearly an [[Integrally closed domain]].
 > $$
 > so $k\alpha$ is an algebraic integer.  <span class="QED"/>
 
+### Other results
+
+- [[Discriminant of an algebraic integer]]
+
 ## Special case
 
 - [[Ring of integers of a number field]]

@@ -1,6 +1,10 @@
 ---
 tags:
   - public
+aliases:
+  - integral basis
+  - power basis
+  - integral power basis
 ---
 [[Number field]]
 # Bases for a number field

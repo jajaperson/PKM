@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - discriminant
 ---
 [[Separable extension]]
 # Discriminant of a separable extension
@@ -22,9 +24,10 @@ T(\alpha_{1},\dots,\alpha_{n}) =
 \sigma_{1}(\alpha_{1}) & \cdots & \sigma_{1}(\alpha_{n}) \\
 \vdots & \ddots & \vdots \\
 \sigma_{n}(\alpha_{1}) & \dots & \sigma_{n}(\alpha_{n})
-\end{bmatrix}
+\end{bmatrix}.
 \end{align*}
 $$
+For $\alpha \in L$ we then define $\Delta_{L:K}(\alpha) = \Delta_{L:K}(1, \alpha, \dots, \alpha^{n-1})$.
 
 
 
@@ -77,6 +80,10 @@ $$
 > Since $T(\vartheta)$ is a [[Vandermonde matrix]], the corresponding [[Vandermonde matrix|Vandermonde determinant]] is nonzero since each $\sigma_{i}(\vartheta)$ is distinct by separability — since these are precisely the roots of the minimal polynomial $m_{\vartheta}(x) \in K[x]$.
 > It follows $\Delta \in K$ as required. <span class="QED"/>
 
+### Special cases
+
+- [[Discriminant of a number field]]
+- [[Discriminant of an algebraic integer]]
 
 ## See also
 

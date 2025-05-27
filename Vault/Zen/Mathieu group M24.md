@@ -16,7 +16,7 @@ and may be constructed as the [[Automorphism group of a linear code|automorphism
 
 ## Properties
 
-- $\mathrm{M}_{24}$ is the only simple [[Multiply transitive permutation group|5-transitive]] [[simple group]] besides $\mathrm{A}_{24}$.
+- See [[Multiply transitive permutation group]]
 
 #
 ---

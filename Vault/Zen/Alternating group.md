@@ -118,6 +118,10 @@ Note that $\mathrm{Alt}_{2}$ is trivial, $\mathrm{Alt}_{3} \cong \mathbb{Z}_{3}$
 but $\mathrm{Alt}_{4}$ is not simple as $\{ e,(12)(34),(13)(24),(14)(23) \} \triangleleft \mathrm{Alt}_{4}$.
 See [[Decomposition of S4]].
 
+## Properties
+
+1. $\mathrm{Alt}_{n}$ is $(n-2)$-[[Multiply transitive permutation group|transitive]].
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

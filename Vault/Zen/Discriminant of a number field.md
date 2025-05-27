@@ -1,6 +1,7 @@
 ---
 tags:
   - public
+aliases: []
 ---
 [[Number field]]
 # Discriminant of a number field
@@ -12,7 +13,7 @@ $$
 \Delta_{K} := \Delta_{K:\mathbb{Q}}(\alpha_{1},\dots,\alpha_{n})
 \end{align*}
 $$
-where the latter quantity is the [[discriminant of a separable extension]].
+where the latter quantity is the [[discriminant of a separable extension]]
 and is an [[Integers|integer]] independent of the choice of integral basis.[^2022]
 
 > [!check]- Proof
@@ -53,6 +54,8 @@ $$
 $$
 ^EQ1
 
+where all operands are integers.
+We call the index on the right had side the [[Annoying index]].
 
 > [!check]- Proof
 > Suppose $\{ \omega_{i} \}_{i=1}^n$ are an integral basis of $K$ and write
@@ -81,6 +84,7 @@ $$
 > yields the desired result. <span class="QED"/>
 
   [^2022]: 2022\. [[Sources/@bakerAlgebraicNumberTheory2022|Algebraic number theory course notes]], ¶¶2.2–2.3, p. 34
+
 
 #
 ---
