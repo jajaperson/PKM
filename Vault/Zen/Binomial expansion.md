@@ -14,7 +14,7 @@ $$
 (x+y)^n = \sum_{k=0}^n \begin{pmatrix}
 n \\
 k
-\end{pmatrix} x^n y^{n-k}
+\end{pmatrix} x^k y^{n-k}
 \end{align*}
 $$
 where the so-called **binomial coëfficients** are given by

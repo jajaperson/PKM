@@ -7,14 +7,21 @@ tags:
   - category
   - public
 ---
-[[Ring theory MOC]]
+[[Field theory MOC]]
 # Category of fields
 
-The **category of fields** $\cat{Fld}$ is a [[category]] where
-an object is a [[field]]
-and a morphism is a [[ring homomorphism]]. #m/def/ring 
+The **category of fields** $\cat{Fld}$ is the [[subcategory]] of $\Ring$ containing only [[Field|fields]]. #m/def/ring 
+Since [[Field homomorphisms are injective|field homomorphisms are injective]],
+the only morphisms are [[Field extension|field extensions]], and are thus [[Monomorphism|monic]].
+By fixing a [[characteristic]] $p$, we may construct the subcategory 
+[[Category of fields of characteristic p]], and have
+ $$
+\begin{align*}
+\cat{Fld} = \coprod_{k = 0}^\infty \cat{Fld}_{p}
+\end{align*}
+$$
 
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy| #lang/en | #SemBr

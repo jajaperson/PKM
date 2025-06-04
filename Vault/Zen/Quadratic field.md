@@ -22,6 +22,10 @@ The [[Algebraic integer|ring of integers]] of a quadratic field are the [[Quadra
 whose structure is largely determined by $d$ mod $4$.
 Any number which is an element of a quadratic field is a **quadratic number**.
 
+## Examples
+
+- [[Rationals adjoin sqrt(223)]], a real quadratic field.
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

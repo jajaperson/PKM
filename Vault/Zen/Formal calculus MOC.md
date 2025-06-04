@@ -14,12 +14,19 @@ tags:
   - [[Formal sums over a Lie algebra]]
 - [[Normal ordered product]]
 
+## Formal operators
+
+- [[Formal derivative]]
+- [[Degree operator on formal sums over a vector space]]
+
 ## Special formal sums
 
 - [[Formal delta]]
 - [[Formal exponential]]
 - [[Formal logarithm]]
 - [[Formal binomial expansion]]
+
+
 
 ## Bibliography
 

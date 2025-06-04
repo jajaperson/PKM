@@ -2,7 +2,7 @@
 tags:
   - public
 ---
-[[Discriminant of a separable extension]]
+[[Discriminant of a number field]]
 # Discriminant of an algebraic integer
 
 Let $\alpha$ be an [[algebraic integer]] of degree $n$ with [[Algebraic element|minimal polynomial]] $f_{\alpha}(x) \in \mathbb{Z}[x]$ and $K = \mathbb{Q}(\alpha)$.

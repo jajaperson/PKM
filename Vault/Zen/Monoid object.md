@@ -26,9 +26,9 @@ Moreover, if we are in a [[Braided monoidal category]] with braiding $\tau$, the
 
 ![[monoid commutative law.svg#invert|https://q.uiver.app/#q=WzAsMyxbMCwwLCJNIFxcb3RpbWVzIE0iXSxbMiwwLCJNIFxcb3RpbWVzIE0iXSxbMSwxLCJNIl0sWzAsMiwibSIsMl0sWzEsMiwibSJdLFswLDEsIlxcdGF1Il1d|350]]
 
+In terms of [[String diagram|string diagrams]], these are written as
 
-> [!tip]+ String diagrams
-> This is perhaps more elegantly expressed as string diagrams, however I do not yet have a convenient workflow for producing these.
+![[monoid object laws.png#invertW]]
 
 We can thence define a [[Homomorphism of monoid objects]] and [[Category of monoid objects]].
 These concepts admit duals, see [[Comonoid object]].

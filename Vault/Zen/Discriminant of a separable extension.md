@@ -7,7 +7,7 @@ aliases:
 [[Separable extension]]
 # Discriminant of a separable extension
 
-Let $L : K$ be a finite [[separable extension]] of degree $n$, $\overline{K}$ be the [[algebraic closure]] of $K$,
+Let $L : K$ be a finite [[separable extension]] of degree $n$, $\overline{K}$ be the [[Algebraic closure]] of $K$,
 and $\{ \sigma_{i} \}_{i=1}^n$ be the distinct embeddings of $L$ into $\overline{K}$.
 For some elements $\{ \alpha_{i} \}_{i=1}^n \subset L$,
 the **discriminant** is defined as[^2022]

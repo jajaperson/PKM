@@ -14,7 +14,7 @@ A **$\mathbb{K}$-ring** is an [[algebra over a field]] $\mathbb{K}$ for which th
 
 Hence it is also called a **unital associative algebra** over $\mathbb{K}$.
 In other words, an associative algebra is a field action on a [[ring]].
-An algebra homomorphism which preserves the identity is a [[Algebra homomorphism|unital algebra homomorphism]] or **$\mathbb{K}$-ring homomorphism**.
+An algebra homomorphism which preserves the identity is a [[Algebra homomorphism|unital algebra homomorphism]] or **$\mathbb{K}$-monoid homomorphism**.
 A generalization is an [[Unital associative algebra over a commutative ring|$R$-ring]].
 
 ## Further terminology

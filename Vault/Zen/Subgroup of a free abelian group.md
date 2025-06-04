@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - fundamental theorem for finitely generated abelian groups
 ---
 [[Free abelian group]]
 # Subgroup of a free abelian group

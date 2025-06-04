@@ -54,7 +54,7 @@ whereas the converse requires both first-countability and [[Lindelöf space|Lind
 - Any finite subspace is compact[^fin]
 - Any compact subspace is closed and bounded[^clobou]
 - Closed subspaces of a compact space are compact
-- [[Heine-Borel theorem]]: For Euclidean space, a subset is compact iff. it is closed a bounded
+- [[Heine-Borel theorem]]: For Euclidean space, a subset is compact iff. it is closed andbounded
 
 [^fin]: Since at least one element must be repeated infinitely many times in a sequence by the [[Pigeonhole principle]],
   yielding an eventually constant subsequence.

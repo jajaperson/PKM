@@ -36,6 +36,10 @@ An algebraic element over $\mathbb{Q}$ is called an [[Number field|algebraic num
 - [[Roots of a minimal polynomial]]
 - [[Spectrum of an algebraic element]]
 
+## Constructions
+
+- [[Algebraic interior of a field extension]]
+
 #
 ---
 #state/tidy  | #lang/en | #SemBr

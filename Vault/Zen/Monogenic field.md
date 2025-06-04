@@ -5,7 +5,8 @@ tags:
 [[Number field]]
 # Monogenic field
 
-A **monogenic field** $K$ is a [[number field]] possessing an [[Bases for a number field#Integral power basis]]. #m/def/num/alg 
+A **monogenic field** $K$ is a [[number field]] possessing an [[Bases for a number field#Integral power basis]], #m/def/num/alg 
+i.e. the [[annoying index]] is unity.
 
 ## Examples
 

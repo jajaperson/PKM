@@ -21,10 +21,24 @@ $$
 where
 
 - $\Delta_{K:\mathbb{Q}}$ is the [[Discriminant of a number field|discriminant]];
-- $n = r_{1} + 2r_{2}$ is the [[Field extension|degree]] of $K : \mathbb{Q}$, $r_{1}$ and $r_{2}$ are the number of real and complex embeddings into $\mathbb{C}$ respectively.
+- $n = r_{1} + 2r_{2}$ is the [[Field extension|degree]] of $K : \mathbb{Q}$, $r_{1}$ and $(r_{1},r_{2})$ is the [[Signature of a number field|signature]] of $K$.[^2022]
 
-> [!missing]- Proof
+  [^2022]: 2022\. [[Sources/@bakerAlgebraicNumberTheory2022|Algebraic number theory course notes]], ¶¶3.9–3.12, pp. 63–64
+
+> [!tip]- Proof sketch
 > #missing/proof
+> 
+> We apply [[Minkowski's convex body theorem]] to the convex symmetric compact region
+> $$
+> \begin{align*}
+> S = \left\{  (a_{1},\dots,a_{r_{1}}, x_{1}, y_{1}, \dots, x_{r_{2}}, y_{r_{2}} : \sum_{i=1}^{r_{1}} \abs{a_{i}} + 2 \sum_{i=1}^{r_{2}} \sqrt{ x_{i}^2 + y_{i}^2 } \leq n  \right\}
+> \end{align*}
+> $$
+> which looks like
+> 
+> ![[Florian's Minkowski bound.png]]
+> 
+> in the complex case.
 
 #
 ---

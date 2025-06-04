@@ -78,6 +78,7 @@ graph TD
 ## Related
 
 - [[Module theory MOC]]
+- [[Field theory MOC]]
 - [[Algebraic number theory MOC]]
 
 

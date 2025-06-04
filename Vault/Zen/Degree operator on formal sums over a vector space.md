@@ -11,9 +11,10 @@ Let $V$ be a [[vector space]] over $\mathbb{K}$ and $V \{ z \}$ denote [[Formal 
 We define the $z$-**degree operator**[^1988] #m/def/fcalc 
 $$
 \begin{align*}
-D=D_{z} =z \frac{d}{dz}
+D=D_{z} =z \frac{d}{dz},
 \end{align*}
 $$
+where $\frac{d}{dz}$ is the [[Formal derivative]].
 This is not strictly a [[degree operator]], as $V \{ z \}$ is not a [[graded vector space]],
 however its subspaces $V[z]$ and $V[z,z^{-1}]$ are.
 

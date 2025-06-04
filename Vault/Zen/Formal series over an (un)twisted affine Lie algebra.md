@@ -29,7 +29,7 @@ denotes the appropriate projection into the $\vartheta$-eigenspace decomposition
 
 ## Commutation relations
 
-For $x,y  \in \mathfrak{g}$, we may recast the commutation relations of $\tilde{\mathfrak{g}}$ using the [[Formal delta]] and [[Degree operator on formal sum over a vector space|$D$ operator]] as
+For $x,y  \in \mathfrak{g}$, we may recast the commutation relations of $\tilde{\mathfrak{g}}$ using the [[Formal delta]] and [[Degree operator on formal sums over a vector space|$D$ operator]] as
 $$
 \begin{align*}
 [x(z_{1}),x(z_{2})] &= [x,y](z_{2}) \delta(z_{1} / z_{2}) - \langle x,y \rangle (D\delta) (z_{1} / z_{2})c \\

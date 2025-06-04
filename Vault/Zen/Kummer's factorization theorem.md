@@ -11,16 +11,23 @@ and suppose $p$ is a prime number not dividing the [[annoying index]]
  Let $m_{\vartheta}(x) \in \mathbb{Z}[x]$ be the [[Algebraic element|minimal polynomial]] of $\vartheta$, and write
  $$
 \begin{align*}
-m_{\vartheta}(x) = \prod_{i=1}^g f_{i}(x)^{e_{i}}.
+m_{\vartheta}(x) \equiv_{p} \prod_{i=1}^g f_{i}(x)^{e_{i}}.
 \end{align*}
 $$
-Then
+for $f_{i}(x) \in \mathbb{Z}[x]$ [[Irreducible polynomial|irreducible]] mod $p$.
+Then 
 $$
 \begin{align*}
 p \mathcal{O}_{K} = \prod_{i=1}^g \mathfrak{p}_{i}^{e_{i}}
 \end{align*}
 $$
 where $\mathfrak{p}_{i} = \langle p, f_{i}(\vartheta) \rangle$ are distinct [[Prime ideal|prime ideals]] of norm $\opn N(\mathfrak{p}_{i}) = p^{\deg f_{i}}$. #m/thm/num/alg 
+We also have
+$$
+\begin{align*}
+\sum_{i=1}^g e_{i} \deg f_{i} = n
+\end{align*}
+$$
 
 > [!missing]- Proof
 > #missing/proof

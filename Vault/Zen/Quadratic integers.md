@@ -51,6 +51,15 @@ In general, a quadratic integer is the solution to some monic quadratic with int
 Let $\alpha \in \mathcal{O}_{K}$ be a (proper) quadratic integer with [[Algebraic element|minimal polynomial]] $x^2 + ax + b$
 
 1. The [[Discriminant of an algebraic integer|discriminant]] is $\Delta_{K:\mathbb{Q}}(\alpha) = a^2 - 4b$.
+2. It follows that
+  $$
+  \begin{align*}
+  \Delta_{K} = \begin{cases}
+  4d  & d \equiv_{4} 2,3 \\
+  d & d \equiv_{4} 1
+  \end{cases}
+  \end{align*}
+  $$
 
 > [!check]- Proof of 1
 > See [[Discriminant of an algebraic integer]]. <span class="QED"/>

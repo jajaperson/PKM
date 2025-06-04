@@ -7,7 +7,7 @@ tags:
 # A field contains $\mathbb{Z}_{p}$ or $\mathbb{Q}$
 
 Let $K$ be a [[field]].
-Then $K$ has a [[subfield]] isomorphic to [[modular arithmetic]] $\mathbb{Z}_{p}$ for some prime $p$
+Then $K$ has a unique [[subfield]] isomorphic to [[modular arithmetic]] $\mathbb{Z}_{p}$ for some prime $p$
 or [[Rational numbers]]. #m/thm/ring 
 Thus $\mathbb{Z}_{p}$ and $\mathbb{Q}$ are the only [[Prime field|prime fields]].
 
@@ -24,6 +24,7 @@ Thus $\mathbb{Z}_{p}$ and $\mathbb{Q}$ are the only [[Prime field|prime fields]]
 > $$
 > Then $Q \cong \mathbb{Q}$. <span class="QED"/>
 
+Thus [[Category of fields of characteristic p]] has $\mathbb{Q}$ initial iff $k=0$ and $\mathbb{Z}_{p}$ initial if $p$ is prime.
 
 #
 ---

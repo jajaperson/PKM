@@ -7,7 +7,7 @@ aliases:
 [[Module]]
 # Finitely generated module
 
-An $R$-[[module]] $M$ is said to be **finitely generated** iff it has a finite [[spanning set]] $\{ m_{i} \}_{i=1}^r$ #m/def/module 
+An $R$-[[module]] $M$ is said to be **finitely generated** iff it has a finite [[Span|spanning set]] $\{ m_{i} \}_{i=1}^r$ #m/def/module 
 so that
 $$
 \begin{align*}
@@ -18,8 +18,8 @@ Thus a [[vector space]] is finitely generate iff it is finite dimensional, howev
 
 ## Properties
 
-1. [[Finitely generated module over a finitely generated extension ring]]
+1. [[Finitely generated module over a finite R-ring]]
 
 #
 ---
-#state/\Span| #lang/en | #SemBr
+#state/develop  #lang/en | #SemBr

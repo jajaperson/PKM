@@ -52,7 +52,7 @@ $$
 
 ### For $D^{-1}$
 
-Let $D^{-1}$ be the inverse [[degree operator on formal sum over a vector space|degree operator]] on $D((\End V) \{ z \})$, so
+Let $D^{-1}$ be the inverse [[Degree operator on formal sums over a vector space|degree operator]] on $D((\End V) \{ z \})$, so
 $$
 \begin{align*}
 D^{-1}\alpha(z) &=  D^{-1}\alpha(z)^+ + D^{-1}\alpha(z)^{-} \\

@@ -16,6 +16,7 @@ D(a \cdot b)=D(a) \cdot b + a \cdot D(b)
 \end{align*}
 $$
 for all $a,b \in A$.
+One can more generally define a derivation from one algebra to another.
 
 ## Properties
 

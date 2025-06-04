@@ -2,7 +2,7 @@
 tags:
   - public
 ---
-[[Ring theory MOC]]
+[[Field theory MOC]]
 # Field
 
 A **field** is an algebraic structure with operations resembling those of [[Rational numbers]].
@@ -16,9 +16,6 @@ a \cdot(b+c) = (a \cdot b) + (a \cdot c)
 $$
 That is, a field is both a [[commutative ring]] and a [[division ring]].
 
-## Types of field
-- A finite field is known as a [[Galois field]]
-- [[Algebraically closed field]]
 
 ## Constructing fields
 

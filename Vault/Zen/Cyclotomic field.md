@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - root of unity
 ---
 [[Algebraic number theory MOC]]
 # Cyclotomic field

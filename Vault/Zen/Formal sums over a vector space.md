@@ -39,7 +39,7 @@ $$
 
 - [[Formal sums over endomorphisms]]
 - [[Formal sums over a Lie algebra]]
-- [[Degree operator on formal sum over a vector space]]
+- [[Degree operator on formal sums over a vector space]]
 
 
 #

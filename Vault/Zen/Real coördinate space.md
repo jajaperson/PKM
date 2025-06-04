@@ -20,7 +20,11 @@ See [[Infinitesimal calculus MOC]].
 
 ## Geometric properties
 
-Real coördinate space is commonly considered with the geometry of [[Euclidean space]].
+Real coördinate space is commonly considered with the [[affine space|affine]] geometry of [[Euclidean space]].
+
+## Measure properties
+
+Real coördinate space is usually given the [[Lebesgue measure]].
 
 #
 ---

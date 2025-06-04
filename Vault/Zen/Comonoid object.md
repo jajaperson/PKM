@@ -15,7 +15,11 @@ $$
 \end{align*}
 $$
 where $\epsilon$ is called the **coünit** and $\Delta$ is called the **comultiplication**,
-and these satisfy the **left/right coünit laws**, the **coässociative law**, and optionally the **cocommutative law** (whence the comonoid is called **cocommutative**)
+and these satisfy the **left/right coünit laws**, the **coässociative law**, and optionally the **cocommutative law** (whence the comonoid is called **cocommutative**).
+As [[String diagram|string diagrams]], these laws are represented as
+
+![[comonoid laws.png#invertW]]
+
 The category of comonoid objects is simply [[Category of monoid objects|$\cat{Mon}_{\cop C}$]].
 
 ## Examples

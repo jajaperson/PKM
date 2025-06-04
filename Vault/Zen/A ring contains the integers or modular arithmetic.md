@@ -6,7 +6,7 @@ tags:
 [[Integers]]
 # A ring contains $\mathbb{Z}$ or $\mathbb{Z}_{n}$
 
-Let $R$ be a [[ring]]. Then $R$ has a [[subring]] isomorphic to [[Integers]] or [[modular arithmetic]] $\mathbb{Z}_{n}$ #m/thm/ring 
+Let $R$ be a [[ring]]. Then $R$ has a unique [[subring]] isomorphic to [[Integers]] or [[modular arithmetic]] $\mathbb{Z}_{n}$ #m/thm/ring 
 given by the image of the unique homomorphism $I : \mathbb{Z} \to R$.
 
 > [!check]- Proof

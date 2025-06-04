@@ -10,7 +10,7 @@ aliases:
 # Splitting of prime ideals
 
 Suppose $L : K$ is an [[field extension|extension]] of [[Number field|number fields]] and $\mathfrak{p} \trianglelefteq \mathcal{O}_{K}$ is a [[prime ideal]] of the [[Ring of integers of a number field|ring of integers]].
-Then $\mathfrak{p}\mathcal{O}_{L}$ has a unique factorization into prime ideals $\mathfrak{p}_{j} \trianglelefteq \mathcal{O}_{L}$
+Then by [[Unique factorization of ideals|UFI]], $\mathfrak{p}\mathcal{O}_{L}$ has a unique factorization into prime ideals $\mathfrak{p}_{j} \trianglelefteq \mathcal{O}_{L}$
 $$
 \begin{align*}
 \mathfrak{p} \mathcal{O}_{L} = \prod_{j=1}^g \mathfrak{p}_{j}^{e_{j}}
