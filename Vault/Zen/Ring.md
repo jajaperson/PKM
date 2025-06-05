@@ -17,7 +17,7 @@ or specified to an [[Integral domain]] or [[Field]] (where both operations form 
 
 [^unit]: A [[Unit|multiplicative unit]] is an element with a multiplicative inverse. A [[Zero-divisor]] can multiply a nonzero element to give zero. An element cannot be both.
 
-  [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter2009|Algebra: Chapter 0]], §III.1.1, pp. 119–120
+  [^2009]: 2009\. [[@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §III.1.1, pp. 119–120
 
 ## Terminology
 

@@ -12,7 +12,7 @@ Then we have the **canonical decomposition** #m/thm/set/naïve
 
 where $\bar f$ is a [[Surjectivity, injectivity, and bijectivity|bijection]].[^2009]
 
-  [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter2009|Algebra: Chapter 0]], §I.2.8, p. 15
+  [^2009]: 2009\. [[@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §I.2.8, p. 15
 
 #
 ---

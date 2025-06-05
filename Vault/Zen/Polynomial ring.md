@@ -37,7 +37,7 @@ We write $\deg 0 = -\infty$.
 A polynomial in multiple indeterminates may be formed by iterating the above process, so $R[x,y,z]=R[x][y][z]$.
 
   [^cf]: cf. [[Series ring]]
-  [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter2009|Algebra: Chapter 0]], §III.1.3, pp. 124ff.
+  [^2009]: 2009\. [[@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §III.1.3, pp. 124ff.
   [^2017]: 2017\. [[Sources/@gallianContemporaryAbstractAlgebra2017|Contemporary abstract algebra]], §16, pp. 276ff.
 
 ## Universal property
@@ -55,7 +55,7 @@ and $\bar{f}(x) = q$.
 
 Let $f(x) \in R[x]$ and $r \in R$.
 By the above construction,
-there exists a unique ring homomorphism $\eta(r) : R[x] \to R$ such that $\eta(r)\, \iota_{R} = \id_{R}$ and $\eta(r)(x) = r$,
+there exists a unique ring homomorphism $\epsilon(r) : R[x] \to R$ such that $\epsilon(r)\, \iota_{R} = \id_{R}$ and $\eta(r)(x) = r$,
 which is called the **evaluation map** at $r$.
 
 

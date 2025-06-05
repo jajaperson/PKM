@@ -22,6 +22,15 @@ As [[String diagram|string diagrams]], these laws are represented as
 
 The category of comonoid objects is simply [[Category of monoid objects|$\cat{Mon}_{\cop C}$]].
 
+
+## Higher comultiplications
+Note that by coässociativity, we can unambiguously define
+$$
+\begin{align*}
+\Delta_{n} : M \to M^{\otimes (n+1)}
+\end{align*}
+$$
+
 ## Examples
 
 - A **comonoid** in [[Category of monoid objects]] is a [[Bimonoid object]] (which is equivalently a [[Monoid object|monoid]] in $\cat{Mon}_{{\cop C}}$).

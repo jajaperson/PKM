@@ -12,6 +12,8 @@ i.e. for any $x,y,z \in V$ and $\alpha,\beta \in R$
 2. $z(x+y) = zx + zy$ ^A2
 3. $(\alpha x)(\beta y)=(\alpha  \beta)(xy)$ ^A3
 
+Thus it is a [[Magma object]] in [[Category of modules over a commutative ring|$\lMod{R}$]].
+
 ## Examples
 
 - [[Endomorphism ring]]

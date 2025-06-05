@@ -13,7 +13,11 @@ Not to be confused with [[Universal algebra]]
 ## Objects
 
 - [[Algebra over a field]]
+  - 
+  - [[Unital associative algebra over a field|$\mathbb K$-ring]]
 - [[Algebra over a commutative ring]]
+  - [[Associative algebra over a commutative ring|$R$-rng]]
+  - [[Unital associative algebra over a commutative ring|$R$-ring]]
 - [[Graded algebra]]
 - [[Superalgebra]]
 - [[Structure constants]]

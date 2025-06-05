@@ -2,6 +2,7 @@
 mathLink-blocks:
   sup: supremum
   inf: infimum
+  chain: chain
 tags:
   - public
 ---

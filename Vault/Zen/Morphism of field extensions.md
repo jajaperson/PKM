@@ -15,7 +15,7 @@ $$
 \varphi \iota_{1} = \iota_{2}
 \end{align*}
 $$
-
+In this way one obtains the category [[Category of field extensions]].
 
 #
 ---

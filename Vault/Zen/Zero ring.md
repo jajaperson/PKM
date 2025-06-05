@@ -11,8 +11,8 @@ It is [[Initial and terminal objects|initial and terminal]] in [[Category of rng
 while it is only terminal in [[Category of rings]],
 since the codomain of a ring homomorphism from the zero ring must itself be the zero ring.[^2009b]
 
-  [^2009a]: 2009\. [[Sources/@aluffiAlgebraChapter2009|Algebra: Chapter 0]], §III.1.2, p. 121
-  [^2009b]: 2009\. [[Sources/@aluffiAlgebraChapter2009|Algebra: Chapter 0]], §III.2.1, p. 129
+  [^2009a]: 2009\. [[@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §III.1.2, p. 121
+  [^2009b]: 2009\. [[@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §III.2.1, p. 129
 
 #
 ---

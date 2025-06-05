@@ -10,7 +10,7 @@ The **tensor product** $M \otimes_{R} N$ is an $R$-module such that the $R$-[[Mu
 A generalization for the [[Tensor product of modules over a noncommutative ring]] exists, but is not necessarily a module.
 We recover this notion of tensor product as the [[Tensor product of modules over a noncommutative ring#Tensor product of bimodules]].
 
-  [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter2009|Algebra: Chapter 0]], §VIII.2.1, p. 501
+  [^2009]: 2009\. [[@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §VIII.2.1, p. 501
 
 ## Universal property
 

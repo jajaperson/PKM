@@ -24,7 +24,7 @@ A [[Field]] may be further classified as follows:
 
 ## Extensions
 
-As noted in the Zettel for [[Category of fields]], a morphism (unless its an isomorphism) of fields is more naturally viewed as a [[Field extension]].
+As noted in the Zettel for [[Category of fields]], a morphism (unless it’s an isomorphism) of fields is more naturally viewed as a [[Field extension]].
 
 ### Types of field extension
 
@@ -37,15 +37,17 @@ As noted in the Zettel for [[Category of fields]], a morphism (unless its an iso
 - [[Galois extension]]
 
 
-### Invariants
+### Constructions of extensions
+
+- [[Adjoining a root to a field]]
+- [[Algebraic closure]]
+- [[Splitting field]]
+
+### Invariants of extensions
 
 - [[Discriminant of a separable extension]]
 - [[Automorphism of a field extension]], [[Galois group]]
 
-## Externally
-
-- [[Algebraic closure]]
-- [[Splitting field]]
 
 
 #
