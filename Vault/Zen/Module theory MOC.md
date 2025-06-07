@@ -23,6 +23,8 @@ See [[Category of left modules]].
 ### Types of module
 
 - [[Reducibility of modules]]
+- [[Noetherian module]]
+- [[Finitely generated module]]
 
 #### By ring
 

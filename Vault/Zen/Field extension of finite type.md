@@ -17,7 +17,7 @@ $$
 for some $\{ \alpha_{i} \}_{i=1}^n$.
 Equivalently, $L:K$ is the composite of finitely many intermediate [[Simple extension|simple extensions]].
 
-  [^term]: More standard terminology is **finitely generated extension**, but I use this by analogy to [[Finite type R-ring]].
+  [^term]: More standard terminology is **finitely generated extension**, but I use this by analogy to [[R-ring of finite type]].
 
 ## Properties
 

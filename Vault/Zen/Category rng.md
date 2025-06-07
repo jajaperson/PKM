@@ -24,7 +24,7 @@ f \circ g & \opn{cod} f = \opn{dom} g.
 \end{cases}
 \end{align*}
 $$
-If $\Ob(\cat C)$ is finite, then this forms an [[Unital associative algebra over a commutative ring|$R$-ring]] with an identity given by
+If $\Ob(\cat C)$ is finite, then this forms an [[R-ring|$R$-ring]] with an identity given by
 $$
 \begin{align*}
 1 = \sum_{x \in \Ob(\cat C)} 1_{{x}}.

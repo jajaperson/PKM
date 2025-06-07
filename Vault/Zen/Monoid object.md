@@ -37,7 +37,7 @@ These concepts admit duals, see [[Comonoid object]].
 
 - A monoid in [[Category of sets]] with the cartesian product is a regulat [[monoid]].
 - A monoid in [[Category of abelian groups]] is a [[ring]].
-- More generally, for a [[commutative ring]] $R$, a monoid in [[Category of left modules]] is an [[Unital associative algebra over a commutative ring|$R$-ring]].
+- More generally, for a [[commutative ring]] $R$, a monoid in [[Category of left modules]] is an [[R-ring|$R$-ring]].
 - A monoid in an [[Endofunctor category]] is a [[Monad]].
 
 #

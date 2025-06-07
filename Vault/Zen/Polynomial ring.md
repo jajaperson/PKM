@@ -63,6 +63,8 @@ which is called the **evaluation map** at $r$.
 
 - [[The polynomial ring over an integral domain is an integral domain]]
 - [[The polynomial ring over a field is a Euclidean domain]]
+- [[Hilbert's basis theorem|Polynomial ring over a noetherian ring is noetherian]] (Hilbert's basis theorem)
+- [[Polynomial ring over a UFD is a UFD]]
 
 
 

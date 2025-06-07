@@ -12,12 +12,14 @@ For a [[prime ideal]] $\mathfrak{p} \trianglelefteq R$, we say $f(x)$ is **Eisen
 2. $a_{n} \notin \mathfrak{p}$;
 3. $a_{0} \notin \mathfrak{p}^2$.
 
-If $f(x)$ is Eisenstein at some prime ideal $\mathfrak{p}$, then $f(x)$ cannot be written as the product of two non-constant polynomials in $R[x]$. #m/thm/num/alg 
+If $f(x)$ is Eisenstein at some prime ideal $\mathfrak{p}$, then $f(x)$ cannot be written as the product of two non-constant polynomials in $R[x]$.[^2009] #m/thm/num/alg 
 
 > [!missing]- Proof
 > #missing/proof
 
 In particular, if $R$ is a [[Unique factorization domain]] then $f(x)$ is also irreducible in $(\Frac R)[x]$, by [[Gauß's lemma]].
+
+  [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §V.5.4, p. 288
 
 #
 ---

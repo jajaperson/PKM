@@ -1,8 +1,9 @@
 ---
 tags:
   - public
+mathLink: $R$-rng
 aliases:
-  - $R$-rng
+  - associative algebra over a commutative ring
 ---
 [[Algebra over a commutative ring]]
 # Associative algebra over a commutative ring

@@ -14,7 +14,7 @@ and suppose $p$ is a prime number not dividing the [[annoying index]]
 m_{\vartheta}(x) \equiv_{p} \prod_{i=1}^g f_{i}(x)^{e_{i}}.
 \end{align*}
 $$
-for $f_{i}(x) \in \mathbb{Z}[x]$ [[Irreducible polynomial|irreducible]] mod $p$.
+for $f_{i}(x) \in \mathbb{Z}[x]$ [[Polynomial ring#^irreducible]] mod $p$.
 Then 
 $$
 \begin{align*}

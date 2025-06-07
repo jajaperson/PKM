@@ -35,6 +35,7 @@ An algebraic element over $\mathbb{Q}$ is called an [[Number field|algebraic num
 - [[An algebraic element is invertible iff its minimal polynomial has a nonzero constant term]]
 - [[Roots of a minimal polynomial]]
 - [[Spectrum of an algebraic element]]
+- [[Embedding an algebraic extension into an algebraically closed field]]
 
 ## Constructions
 

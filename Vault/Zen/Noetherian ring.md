@@ -3,15 +3,17 @@ tags:
   - public
 aliases:
   - Noetherian
+mathLink-blocks:
+  N2: ACC
 ---
 [[Ring theory MOC]]
 # Noetherian ring
 
-A ring $R$ is called (left/right) **Noetherian** iff any of the following equivalent conditions hold:[^2022] #m/def/ring 
+A ring $R$ is called (left) **Noetherian** iff any of the following equivalent conditions hold:[^2022] #m/def/ring 
 
-1. (left/right) [[ideal]] $I \trianglelefteq R$ is [[Finitely generated module|finitely generated]] as a (left/right) $R$-module, i.e. $R$ is a (left/right) [[Noetherian module]]; ^N1
-2. every increasing sequence $I_{1} \trianglelefteq I_{2} \trianglelefteq \cdots$ of (left/right) ideals of $R$ has a largest element; ^N2
-3. every non-empty set of (left/right) ideals of $R$ contains a maximal element. ^N3
+1. every (left) [[ideal]] $I \trianglelefteq R$ is [[Finitely generated module|finitely generated]] as a (left) $R$-module, i.e. $R$ is a (left) [[Noetherian module]]; ^N1
+2. **(ascending chain condition or ACC)** every increasing sequence $I_{1} \trianglelefteq I_{2} \trianglelefteq \cdots$ of (left) ideals of $R$ has a largest element; ^N2
+3. every non-empty set of (left) ideals of $R$ contains a maximal element. ^N3
 
 > [!check]- Proof
 > Suppose [[#^N1]] holds,
@@ -76,6 +78,10 @@ Let $R$ be two-sided Noetherian.
 > $$
 > a contradiction.
 > Therefore $\mathcal{I} = \0$. <span class="QED"/>
+
+### Other results
+
+1. Finitely generated modules over a noetherian ring are noetherian ([[Noetherian module#^P2]])
 
 #
 ---

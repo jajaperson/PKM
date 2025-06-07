@@ -13,6 +13,9 @@ Equivalently,[^2009]
 
   [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §VII.4.1, p. 431
 
+> [!missing]- Proof
+> #missing/proof
+
 #
 ---
 #state/develop | #lang/en | #SemBr

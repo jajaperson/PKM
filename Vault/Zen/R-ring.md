@@ -2,7 +2,8 @@
 tags:
   - public
 aliases:
-  - $R$-ring
+  - Unital associative algebra over a commutative ring
+mathLink: $R$-ring
 ---
 [[Algebra over a commutative ring]]
 # $R$-ring
@@ -17,9 +18,11 @@ More concretely, an **$R$-ring** $T$ can be viewed in two equivalent ways: #m/de
 This is of course a strenthening of [[Associative algebra over a commutative ring|$R$-rng]].
 It follows every [[ring]] is a [[Integers]]-ring in a unique way.
 
+A special case is [[Commutative R-ring]].
+
 ## See also
 
-- [[Counital coassociative coalgebra over a commutative ring|$R$-coring]]
+- [[R-coring|$R$-coring]]
 
 #
 ---

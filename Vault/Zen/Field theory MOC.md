@@ -19,6 +19,9 @@ we might as well consider the subcategories [[Category of fields of characterist
 A [[Field]] may be further classified as follows:
 
 - [[Galois field]]
+- [[Field of prime characteristic]]
+- [[Prime field]]
+- [[Perfect field]]
 - [[Algebraically closed field]]
 
 

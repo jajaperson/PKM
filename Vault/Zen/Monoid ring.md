@@ -8,7 +8,7 @@ tags:
 Let $R$ be a [[ring]] and $M$ be a [[monoid]][^semi].
 The **monoid ring** $R[M]$ is the [[Ring extension|extension ring]] of $R$ by [[Adjunction of a ring|adjoining]] $M$ in the most general way maintaining the monoid product as ring multiplication, #m/def/ring 
 as formalized by the [[#Universal property]].
-Thus it is an [[Unital associative algebra over a commutative ring|$R$-ring]] constructed from the [[free module]] $R^{(M)}$.
+Thus it is an [[R-ring|$R$-ring]] constructed from the [[free module]] $R^{(M)}$.
 
   [^semi]: Or a [[semigroup]], where one simply uses its completion to a monoid.
 

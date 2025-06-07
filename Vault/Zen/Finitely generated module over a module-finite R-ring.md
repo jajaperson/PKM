@@ -3,12 +3,12 @@ tags:
   - public
 aliases:
   - transitivity of finitely generatedness
-mathLink: Finitely generated module over a finite $R$-ring
+mathLink: Finitely generated module over a module-finite $R$-ring
 ---
 [[Finitely generated module]]
-# Finitely generated module over a finite $R$-ring
+# Finitely generated module over a module-finite $R$-ring
 
-Let $T$ be a [[Finite R-ring]] and $M$ be a [[finitely generated module|finitely generated]] $T$-module.
+Let $T$ be a [[Module-finite R-ring]] and $M$ be a [[finitely generated module|finitely generated]] $T$-module.
 Then $M$ is a finitely generated $R$-module. #m/thm/module 
 
 > [!check]- Prove

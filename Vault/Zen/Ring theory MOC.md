@@ -69,6 +69,12 @@ graph TD
 - [[Unit]], [[Zero-divisor]]
 - [[Irreducible element]], [[Prime element]], [[Associate elements]]
 - [[Algebraic element]], [[Integral element]]
+- [[GCD]]
+
+### Ideals
+
+- [[Ideal]]
+- [[Maximal ideal]], [[Prime ideal]]
 
 ## Externally
 

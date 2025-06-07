@@ -15,7 +15,7 @@ An [[Adjunction of a ring]] is a particularly pertinent way of extending rings.
 ## Further terminology
 
 - [[Integral element|Integral extension]]
-- [[Finite R-ring]]
+- [[Module-finite R-ring]]
 
 ## See also
 

@@ -2,7 +2,8 @@
 tags:
   - public
 aliases:
-  - $R$-coring
+  - Coüintal coässociative coälgebra over a commutative ring
+mathLink: $R$-coring
 ---
 [[Linear algebra MOC]]
 # $R$-coring
@@ -28,7 +29,7 @@ so we feel free to invoke such a decomposition without fixing it explicitly.
 
 ## See also
 
-- [[Unital associative algebra over a commutative ring|$R$-ring]]
+- [[R-ring|$R$-ring]]
 - [[Biunital biassociative bialgebra over a commutative ring]]
 
 #

@@ -1,10 +1,10 @@
 ---
 categoryName: category of $R$-rings
 mathLink: $\Ring_{R}$
-object: "[[Unital associative algebra over a commutative ring|$R$-ring]]"
+object: "[[R-ring|$R$-ring]]"
 morphism: "[[Algebra homomorphism|unital algebra homomorphism]]"
 arguments:
-  - "$\\mathbb K$ [[field]]"
+  - $\mathbb K$ [[field]]
 tags:
   - category
   - public

@@ -13,6 +13,8 @@ The Galois field of order $p^h$, **unique** up to isomorphism, is denoted $\math
 > [!missing]- Proof
 > #missing/proof
 
+Clearly every Galois field is in particular a [[Field of prime characteristic]].
+
 ## Construction
 A finite field of a given order can be constructed as a quotient of a [[polynomial ring]].
 Given a polynomial ring $\mathbb{Z}_{p}[x]$
@@ -23,6 +25,15 @@ then $\mathbb{Z}_{p}[x] / \langle f \rangle$ is a field of order $p^h$. #m/thm/r
 > #missing/proof
 
 ## Properties
+
+Let $K = \GF(p^h)$. Then
+
+1. $K$ is a [[perfect field]], and consequently, irreducible polynomials in $K[x]$ are separable. ^P1
+
+> [!check]- Proof of 1
+> Since the [[Frobenius endomorphism]] is injective ([[Field homomorphisms are injective]]), by the [[Pigeonhole principle]] it must also be surjective, proving [[#^P1]]. <span class="QED"/>
+
+### Other results
 
 - By [[Wedderburn's little theorem]] these are the only finite division rings.
 
