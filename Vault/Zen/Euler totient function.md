@@ -5,7 +5,7 @@ alias: totient
 ---
 [[Number theory MOC]]
 # Euler totient function
-The **Euler totient function** $\phi : \mathbb{N} \to \mathbb{N}$ is defined such that $\phi(1) = 1$ and $\phi(n)$ is the number of positive integers less than or equal to $n$ coprime with $n$[^2017], called the **totient** #m/def/num
+The **Euler totient function** $\phi : \mathbb{N} \to \mathbb{N}$ is defined such that $\phi(1) = 1$ and $\phi(n)$ is the number of positive integers less than or equal to $n$ relatively prime with $n$[^2017], called the **totient** #m/def/num
 
 [^2017]: 2017, [[@gallianContemporaryAbstractAlgebra2017|Contemporary Abstract Algebra]], p. 83
 
@@ -16,8 +16,12 @@ The **Euler totient function** $\phi : \mathbb{N} \to \mathbb{N}$ is defined suc
 
 ## Properties
 
-- #to/prove For any prime $p$,$\phi(p^n) = p^n - p^{n-1}$ 
+1. For any prime $p$, $\phi(p^n) = p^n - p^{n-1}$. ^P1
+
+> [!check]- Proof of 1.
+> Consider the set $\mathbb{N}_{p^n}$ of size $p^n$.
+> The only elements which are _not_ relatively prime to $p^n$ are those which are divisible by $p$, of which there are $\frac{p^n}{p} = p^{n-1}$, proving [[#^P1]]. <span class="QED"/>
 
 #
 ---
-#state/develop | #lang/en | #SemBr 
+#state/tidy  | #lang/en | #SemBr 

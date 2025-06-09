@@ -38,6 +38,7 @@ In order to study a number field we often turn to study its [[Ring of integers o
 ### By degree
 
 - [[Quadratic field]]
+- [[Cubic field]]
 
 ### By form
 

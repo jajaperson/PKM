@@ -3,6 +3,7 @@ tags:
   - public
 aliases:
   - tower of field extensions
+  - intermediate field
 ---
 [[Field theory MOC]]
 # Intermediate field extension

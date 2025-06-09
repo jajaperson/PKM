@@ -13,9 +13,8 @@ A **Dedekind domain** $R$ is an [[integral domain]] such that #m/def/ring
 
 ## Results
  
-- [[A Dedekind domain admits UFI]]
+- [[A Dedekind domain admits UFI]], moreover it is a [[Unique factorization domain|UFD]] iff it is a [[Principal ideal domain|PID]].
 - [[Fractional ideals of a Dedekind domain form an abelian group]]
-
 - [[Ring of integers of a number field]] form a Dedekind domain and lattice.
 
 #

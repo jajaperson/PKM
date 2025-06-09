@@ -15,19 +15,19 @@ and the [[extended code]] of the [[Binary 7,4,3 Hamming code]].
 ## Construction
 
 ### From quadratic residues
-Let $\Omega = \opn P^1 \mathbb{K}_{7} = \mathbb{K}_{7} \cup \{ \infty \}$ be the [[Projective space|projective line]] where $\mathbb{K}_{7}$ is a [[Galois field]].[^FLM][^Lord]
+Let $\Omega = \opn P^1 \mathbb{F}_{7} = \mathbb{F}_{7} \cup \{ \infty \}$ be the [[Projective space|projective line]] where $\mathbb{F}_{7}$ is a [[Galois field]].[^FLM][^Lord]
 $\Omega$ divides neatly into [[quadratic residue|quadratic residues]] and non-residues
 $$
 \begin{align*}
-\mathcal{Q} &= \{ x^2 : x \in \mathbb{K}_{7} \} = \{ 0,1,2,4 \} \\
+\mathcal{Q} &= \{ x^2 : x \in \mathbb{F}_{7} \} = \{ 0,1,2,4 \} \\
 \mathcal{N} &= \Omega \setminus \mathcal{Q} = \{ 3,5,6, \infty \} 
 \end{align*}
 $$
 defining the following subcodes of the [[even binary code]] $\mathcal{E}(\Omega)$
 $$
 \begin{align*}
-\mathcal{C}_{1} &= \Span_{\mathbb{K}_{2}} \{ \mathcal{N} + i : i \in \mathbb{K}_{7} \}  \\
-\mathcal{C}_{2} &= \Span_{\mathbb{K}_{2}} \{ - \mathcal{N} - i : i \in \mathbb{K}_{7} \} \\
+\mathcal{C}_{1} &= \Span_{\mathbb{K}_{2}} \{ \mathcal{N} + i : i \in \mathbb{F}_{7} \}  \\
+\mathcal{C}_{2} &= \Span_{\mathbb{K}_{2}} \{ - \mathcal{N} - i : i \in \mathbb{F}_{7} \} \\
 \end{align*}
 $$
 satisfy

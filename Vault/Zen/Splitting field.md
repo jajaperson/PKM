@@ -64,6 +64,29 @@ $$
 
   [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §VII.4.1, pp. 429–430
 
+## Properties
+
+1. Suppose $F$ is the splitting field of $f(x) \in K[x]$, and that $g(x) \in K[x]$ is a factor of $f(x)$.
+   Then $F$ contains a unique [[subfield]] which is the splitting field for $g(x)$. ^P1
+
+> [!check]- Proof of 1
+> Let
+> $$
+> \begin{align*}
+> f(x) = c \prod_{i=1}^d (x-\alpha_{i})
+> \end{align*}
+> $$
+> as above.
+> Then for some subset of indices $I \in \mathbb{N}_{d}$ and some $C \in K$,
+> $$
+> \begin{align*}
+> h(x) = \prod_{i \in I}(x-\alpha_{i}).
+> \end{align*}
+> $$
+> Then $K(\alpha_{i})_{i \in I}$ is the splitting field of $h(x)$,
+> and indeed is the only such field contained in $F$ since $\alpha_{i}$ are the only roots of $h(x)$ in $F$, proving [[#^P1]] <span class="QED"/>
+
+
 #
 ---
 #state/develop | #lang/en | #SemBr

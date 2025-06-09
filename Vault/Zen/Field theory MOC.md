@@ -45,12 +45,12 @@ As noted in the Zettel for [[Category of fields]], a morphism (unless it’s an 
 - [[Adjoining a root to a field]]
 - [[Algebraic closure]]
 - [[Splitting field]]
+- [[Fixed field of an automorphism group]]
 
 ### Invariants of extensions
 
 - [[Discriminant of a separable extension]]
 - [[Automorphism of a field extension]], [[Galois group]]
-
 
 
 #

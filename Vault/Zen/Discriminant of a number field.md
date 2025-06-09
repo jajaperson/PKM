@@ -1,7 +1,6 @@
 ---
 tags:
   - public
-aliases: []
 ---
 [[Number field]]
 # Discriminant of a number field
@@ -85,6 +84,7 @@ We call the index on the right had side the [[Annoying index]].
 
   [^2022]: 2022\. [[Sources/@bakerAlgebraicNumberTheory2022|Algebraic number theory course notes]], ¶¶2.2–2.3, p. 34
 
+See also [[Discriminant of an algebraic integer]].
 
 #
 ---

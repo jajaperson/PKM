@@ -1,11 +1,19 @@
 ---
 tags:
   - public
+aliases:
+  - separable element
 ---
 [[Field extension]]
 # Separable extension
 
-An [[Algebraic element|algebraic extension]] $L : K$ is called **separable** iff the [[Algebraic element|minimal polynomial]] of every $\alpha \in A$ is a [[separable polynomial]]. #m/def/ring 
+Let $L:K$ be an [[Algebraic element|algebraic extension]].
+An element $\alpha \in L$ is called **separable** over $K$ iff its [[Algebraic element|minimal polynomial]] $m_{\alpha}(x) \in K[x]$ is a [[separable polynomial]]. 
+The extension $L:K$ is thence called **separable** iff every element is separable. #m/def/field 
+
+## Properties
+
+- [[Separability of a finite extension]]
 
 ## See also
 

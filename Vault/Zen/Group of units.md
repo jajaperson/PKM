@@ -14,6 +14,7 @@ This is clearly a group since it contains the multiplicative identity, is associ
 ## Properties
 
 - For a [[division ring]] $R$, the multiplicative group $R^\times = R \setminus \{ 0 \}$ as a set
+- [[Finite subgroup of the group of units of a field is cyclic]]
 
 #
 ---

@@ -32,6 +32,11 @@ $$
 > [!missing]- Proof
 > #missing/proof
 
+## Corollaries
+
+See [[Splitting of prime ideals in a number field]].
+
+
 #
 ---
 #state/develop | #lang/en | #SemBr

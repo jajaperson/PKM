@@ -4,7 +4,7 @@ tags:
 aliases:
   - extension field
 ---
-[[Ring theory MOC]]
+[[Field theory MOC]]
 # Field extension
 
 A **field extension** is the [[embedding]] of a field $K$ in a larger field $L$, #m/def/ring

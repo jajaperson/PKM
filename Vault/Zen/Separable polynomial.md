@@ -59,6 +59,8 @@ Otherwise $f(x)$ is called **inseparable**.[^2009]
 
   [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §VII.4.2, p. 434
 
+See also [[Separable extension]].
+
 ## Properties
 
 1. If $f(x) \in K[x]$ is an inseparable [[Polynomial ring#^irreducible]], then $f'(x) = 0$. ^P1

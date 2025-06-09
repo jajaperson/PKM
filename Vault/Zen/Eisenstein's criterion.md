@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - Eisenstein
 ---
 [[Algebraic number theory MOC]]
 # Eisenstein's criterion

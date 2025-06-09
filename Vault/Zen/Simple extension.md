@@ -59,7 +59,7 @@ where $m_{\vartheta}(t) \in K[t]$ is the [[Algebraic element|minimal polynomial]
 1. If $K(\alpha)$ and $K(\beta)$ have the same minimal polynomial $f(x) \in K[x]$, then there exists a unique [[Morphism of field extensions|isomorphism of field extensions]] $\varphi : K(\alpha) \to K(\beta)$ such that $\varphi(\alpha) = \beta$. ^P1
 2. More generally, an isomorphism of ground fields $\psi : K_{1} \to K_{2}$ such that $\psi(m_{\alpha}(x)) = m_{\beta}(x)$ lifts to an isomorphism of extensions $\bar{\psi} : K_{1}(\alpha) \to K_{2}(\beta)$. ^P2
 
-> [!check]- Proof
+> [!check]- Proof of 1–2
 > Note that an isomorphism of simple field extensions is completely determined by the image of the primitive element.
 > 
 > Now using the isomorphism described in [[#Classification]],
@@ -72,11 +72,11 @@ where $m_{\vartheta}(t) \in K[t]$ is the [[Algebraic element|minimal polynomial]
 
 ### Results
 
-- [[Bound on the automorphism group of a finite simple extension]]
-- By the [[Primitive element theorem]], every finite[^1] [[separable extension]] is simple.
+- [[Bound on the automorphism group of a finite simple extension]].
+- [[Simplicity of an algebraic extension]]
+- By the [[Primitive element theorem]], every [[Finite field extension|finite]] [[separable extension]] is simple.
 
 #
 ---
 #state/develop | #lang/en | #SemBr
 
-[^1]: that is, of finite degree.

@@ -30,7 +30,7 @@ $$
 > we have $\alpha \in \mathcal{O}_{K}$ iff $m_{\alpha}(x) \in \mathbb{Z}[x]$,
 > which is precisely the case when $2a, a^2 - b^2d \in \mathbb{Z}$.
 > It follows $(2b)^2d \in \mathbb{Z}$, so since $d$ is squarefree $2b \in \mathbb{Z}$.
-> Letting $r = 2a$, $s = 2b$, we have $\alpha \in \mathcal{O}_{K}$ iff $r,s \in \mathbb{Z}$ and $r^2 - dn^2 \equiv_{4} 0$.
+> Letting $r = 2a$, $s = 2b$, we have $\alpha \in \mathcal{O}_{K}$ iff $r,s \in \mathbb{Z}$ and $r^2 - ds^2 \equiv_{4} 0$.
 > Since $d$ is squarefree it follows $d \not\equiv_{4} 0$, so we need only consider the cases
 > 
 > 1. If $d \equiv_{4} 1$ then $0 \equiv_{4} r^2 - ds^2 \equiv_{4} r^2 - s^2$ which holds iff $r \equiv_{2} s$;
@@ -39,8 +39,8 @@ $$
 > 
 > It follows that the general expression for an algebraic integer $\alpha \in \mathcal{O}_{K}$ is
 > 
-> 4. $\alpha = p+q\sqrt{ d }$ if $d \not\equiv_{4} 1$
-> 5. $\alpha  = p + q \frac{1 + \sqrt{ d }}{2}$ if $d \equiv_{4} 1$
+> - $\alpha = p+q\sqrt{ d }$ if $d \not\equiv_{4} 1$
+> - $\alpha  = p + q \frac{1 + \sqrt{ d }}{2}$ if $d \equiv_{4} 1$
 > 
 > where $p,q \in \mathbb{Z}$, whence the above. <span class="QED"/>
 
