@@ -48,7 +48,7 @@ Linear algebra is generalized by [[Module theory MOC]].
 
 ##  Externally
 
-- [[Zen/Quotient vector space]]
+- [[Quotient vector space]]
 - [[Direct product vector space]] (product), [[Direct sum of vector spaces]] (coproduct)
 - [[Tensor product of vector spaces]]
 

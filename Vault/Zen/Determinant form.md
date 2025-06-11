@@ -15,7 +15,7 @@ y & w
 = xw -yz
 \end{align*}
 $$
-named for the [[matrix determinant]].
+named for the [[Matrix determinant]].
 This turns out to be a special case of the [[Standard symplectic space]].
 
 ## Properties

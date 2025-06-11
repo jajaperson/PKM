@@ -8,7 +8,7 @@ aliases:
 # Quadratic field
 
 A **quadratic field** $K$ is a [[number field]] of degree 2, #m/def/num/alg
-i.e. $[K : \mathbb{Q}] = 2$ whence $K = \mathbb{Q}[\sqrt{ d }]$ for some [[Squarefree integer|squarefree]] $d \in \mathbb{Z}$.
+i.e. $[K : \mathbb{Q}] = 2$ whence $K = \mathbb{Q} (\sqrt{ d })$ for some [[Squarefree integer|squarefree]] $d \in \mathbb{Z}$.
 
 > [!check]- Proof
 > Let $\{1, \vartheta\}$ be a $\mathbb Q$-basis for $K$, where without loss of generality $\vartheta \in \mathcal O_K$ is an algebraic integer, whence $\vartheta^2 = a\vartheta + b$ for some $a, b \in \mathbb Z$.
@@ -22,9 +22,15 @@ The [[Algebraic integer|ring of integers]] of a quadratic field are the [[Quadra
 whose structure is largely determined by $d$ mod $4$.
 Any number which is an element of a quadratic field is a **quadratic number**.
 
-## Examples
+## Properties
 
-- [[Rationals adjoin sqrt(223)]], a real quadratic field.
+1. By [[quadratic integers]], $K$ is a [[monogenic field]] unless $d \equiv_{4} 1$.
+
+## Classification
+
+- [[Real quadratic field]]
+- [[Imaginary quadratic field]]
+
 
 #
 ---
