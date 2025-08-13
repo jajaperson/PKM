@@ -33,7 +33,7 @@ As noted in the Zettel for [[Category of fields]], a morphism (unless it’s an 
 
 - [[Finite field extension]]
 - [[Simple extension]]
-- [[Field extension of finite type]]
+- [[Finitely generated field extension]]
 - [[Automorphism of a field extension]]
 - [[Normal extension]]
 - [[Separable extension]]

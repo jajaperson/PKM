@@ -16,7 +16,7 @@ $$
 (f \cdot g)(v) &= f \circ g(v)
 \end{align*}
 $$
-If $R$ is a [[commutative ring]] this becomes an $R$-[[Algebra over a field|algebra]], so for $\lambda,\mu \in R$
+If $R$ is a [[commutative ring]] this becomes an [[R-monoid]], so for $\lambda,\mu \in R$
 $$
 \begin{align*}
 (\lambda f + \mu g)(v) = \lambda f(v) + \mu g(v)

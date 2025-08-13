@@ -7,9 +7,9 @@ tags:
 [[Functor]]
 # Hom-functor
 
-The **Hom-functor** $\cat C : \cop C \times \cat C \to \Set$ is a [[Multifunctor|bifunctor]], [[Contravariant functor|contravariant]] in its first argument and [[Functor|covariant]] in its second, for a [[locally small category]] $\cat C$.
+The **Hom-functor** $\cat C : \op{\cat C} \times \cat C \to \Set$ is a [[Multifunctor|bifunctor]], [[Contravariant functor|contravariant]] in its first argument and [[Functor|covariant]] in its second, for a [[locally small category]] $\cat C$.
 
-On objects, it maps $(C,C') \in \Ob(\cop C \times \cat C)$ to the **Hom-set** of morphisms with domain $C$ and codomain $C'$.
+On objects, it maps $(C,C') \in \Ob(\op{\cat C} \times \cat C)$ to the **Hom-set** of morphisms with domain $C$ and codomain $C'$.
 
 The morphism map for **fixed domain** $C \in \Ob \cat C$ is the **covariant** [[Pushforward and pullback of morphisms|pushforward]]
 

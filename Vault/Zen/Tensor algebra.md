@@ -2,7 +2,7 @@
 tags:
   - public
 ---
-[[Unital associative algebra over a field]]
+[[K-monoid]]
 # Tensor algebra
 
 The **tensor algebra** $T^•V$ of a [[vector space]] $V$ is the [[Direct sum of vector spaces|direct sum]] of all [[Tensor product of vector spaces|tensor powers]] of $V$ together with the outer product $(\otimes) : T^•V \times T^•V \to T^•V$, #m/def/falg 
@@ -13,7 +13,7 @@ T^• V = \bigoplus_{k=0}^\infty T^k V
 \end{align*}
 $$
 where $T^0 V = \mathbb{K}$.
-The tensor algebra is a very simple [[Unital associative algebra over a field]][^most]
+The tensor algebra is a very simple [[K-monoid]][^most]
 and $\mathbb{N}_{0}$-[[graded algebra]].
 
   [^most]: Indeed, there is a sense in which it is the _most simple_, i.e. a [[Free-forgetful adjunction]].

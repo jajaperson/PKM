@@ -2,7 +2,7 @@
 tags:
   - public
 ---
-[[Algebra over a field]]
+[[K-algebra]]
 # Filtered algebra
 
 A **filtered algebra** is a certain generalization of a [[graded algebra]].
@@ -16,7 +16,7 @@ $$
 ## Remarks
 
 - Every filtered algebra has a linearly isomorphic [[Associated graded algebra]].
-- Often one requires $1 \in F_{0}A$ if $A$ is a [[Unital associative algebra over a field]].
+- Often one requires $1 \in F_{0}A$ if $A$ is a [[K-monoid]].
 
 
 #

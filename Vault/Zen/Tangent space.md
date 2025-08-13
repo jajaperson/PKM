@@ -5,7 +5,7 @@ tags:
 [[Differential geometry MOC]]
 # Tangent space
 
-The **tangent space** $T_{x}X$ of a [[differentiable manifold]] $X$ at a point $x \in X$ is a [[vector space]] corresponding to possible velocities when moving through $x$. #m/def/geo/diff 
+The **tangent space** $T_{p}X$ of a [[differentiable manifold]] $X$ at a point $p \in X$ is a [[vector space]] corresponding to possible velocities when moving through $x$. #m/def/geo/diff 
 A number of equivalent characterizations are useful.
 See also [[Differential pushforward]], [[Tangent bundle]], and [[Tangent map]].
 

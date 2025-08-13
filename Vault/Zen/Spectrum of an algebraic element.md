@@ -5,7 +5,7 @@ tags:
 [[Algebraic element]]
 # Spectrum of an algebraic element
 
-Let $A$ be a [[Unital associative algebra over a field]] over $\mathbb{K}$ and $a \in A$ be an [[algebraic element]] with [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$.
+Let $A$ be a [[K-monoid]] over $\mathbb{K}$ and $a \in A$ be an [[algebraic element]] with [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$.
 The roots of $m_{a}(x)$ are called the **eigenvalues** of $a$,
 and the set of all eigenvalues #m/def/falg 
 $$

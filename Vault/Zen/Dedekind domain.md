@@ -18,7 +18,7 @@ A **Dedekind domain** $R$ is an [[integral domain]] such that #m/def/ring
 - [[Ring of integers of a number field]] form a Dedekind domain and lattice.
 - [[Ideals of a Dedekind domain need at most two generators]]
 - [[A Dedekind domain with finitely many prime ideals is a UFD]]
-
+- [[A Dedekind domain is a UFD iff its ideal class group is trivial]]
 #
 ---
 #state/develop | #lang/en | #SemBr

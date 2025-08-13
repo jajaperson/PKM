@@ -39,7 +39,7 @@ Then $F:K$ is algebraic iff both $L:K$ and $F:L$ are algebraic.[^2009] #m/thm/fi
 > K(a_{0},\dots,a_{n}) : K
 > \end{align*}
 > $$
-> is finite by [[Field extension of finite type#^P1]] since all the $a_{i}$ are algebraic over $K$ by construction.
+> is finite by [[Finitely generated field extension#^P1]] since all the $a_{i}$ are algebraic over $K$ by construction.
 > Thus by the basic property of an [[Intermediate field extension]],
 > $$
 > \begin{align*}

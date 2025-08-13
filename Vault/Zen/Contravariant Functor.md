@@ -13,7 +13,7 @@ Because of this, a contravariant functor $F$ from $\cat C$ to $\cat D$ is equiva
 > We will refer to a functor
 > $$
 > \begin{align*}
-> F : \cop C \to \cat D
+> F : \op{\cat C} \to \cat D
 > \end{align*}
 > $$
 > as contravariant, even though we really mean we have a contravariant functor from $\cat C$ to $\cat D$.

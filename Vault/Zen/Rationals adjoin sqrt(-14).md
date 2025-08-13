@@ -18,13 +18,18 @@ Consider the monogenic [[imaginary quadratic field]] $K = \mathbb{Q}(\alpha)$ wh
 By [[Discriminant of an algebraic integer]], 
 $$
 \begin{align*}
-\Delta_{K} = -56
+\Delta_{K} = -56.
 \end{align*}
 $$
 
 ## Group of units
 
-$K$ is not the [[Gaußian integers]], hence $\mathcal{O}_{K}^\times = \{ 1,-1 \}$.
+By [[Imaginary quadratic field#^P1]],
+$$
+\begin{align*}
+\mathcal{O}_{K}^\times = \{ 1,-1 \}.
+\end{align*}
+$$
 
 ## Class group
 
@@ -60,7 +65,7 @@ whence $\mathfrak{p}_{3}^2 \sim \mathfrak{p}_{2}$, so $\mathfrak{p}_{3}^4 \sim \
 Therefore
 $$
 \begin{align*}
-\Cl K = \langle [\mathfrak{p}_{3}] \rangle \cong \mathrm{C}_{4}
+\Cl K = \langle [\mathfrak{p}_{3}] \rangle \cong \mathrm{C}_{4}.
 \end{align*}
 $$
 

@@ -7,7 +7,7 @@ tags:
 [[Algebra theory MOC]]
 # Algebra homomorphism
 
-Let $A$ and $B$ be $R$-[[Algebra over a commutative ring|algebras]]
+Let $A$ and $B$ be $R$-[[R-algebra|algebras]]
 An **algebra homomorphism** $f : A \to B$ is a $R$-[[linear map]] which preserves the bilinear product, #m/def/falg 
 i.e. for $x,y \in A$ and $\lambda,\mu \in R$
 1. $f(\lambda x + \mu y)= \lambda f(x) + \mu f(y)$ ^H1

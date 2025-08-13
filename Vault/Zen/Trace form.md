@@ -5,7 +5,7 @@ tags:
 [[Algebra theory MOC]]
 # Trace form
 
-Let $(A, \cdot)$ be an [[Algebra over a field|algebra]] over $\mathbb{K}$ and $\rho : A \to V$ be a finite-dimensional [[representation]] of $\rho$.
+Let $(A, \cdot)$ be an [[K-algebra|algebra]] over $\mathbb{K}$ and $\rho : A \to V$ be a finite-dimensional [[representation]] of $\rho$.
 The **trace form** is the [[bilinear form]] on $A$ defined by[^not] #m/def/falg 
 $$
 \begin{align*}

@@ -18,7 +18,7 @@ $$
 ^Jacobi
 
 which [[away from 2]] is equivalent to demanding the Lie bracket is a derivation on itself (see [[adjoint Lie algebra representation#^P1]]).
-A Lie algebra is one of the simplest kinds of non-associative, non-commutative [[Algebra over a field|algebras]] (in fact it is anticommutative).
+A Lie algebra is one of the simplest kinds of non-associative, non-commutative [[K-algebra|algebras]] (in fact it is anticommutative).
 
 Lie algebras were first encountered as tangent spaces of [[Lie group|Lie groups]].
 They naturally arise as the [[Commutator|commutator algebra]] of a unital associative algebra,

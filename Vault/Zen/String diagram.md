@@ -15,6 +15,11 @@ tags:
 
 Horizontal composition is represented by horizontal juxtaposition, and vertical composition is represented by vertical juxtaposition.
 
+## Bibliography
+
+- 2011\. [[Sources/@baezPhysicsTopologyLogic2011|Physics, topology, logic and computation: A Rosetta stone]]
+-  1996\. [[Sources/@streetCategoricalStructures1996|Categorical structures]]
+
 #
 ---
 #state/stub | #lang/en | #SemBr

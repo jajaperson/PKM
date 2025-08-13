@@ -1,6 +1,7 @@
 ---
 tags:
   - public
+mathLink: $R$-algebra
 ---
 [[Ring theory MOC]]
 # Algebra over a commutative ring

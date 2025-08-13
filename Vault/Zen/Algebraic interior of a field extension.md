@@ -21,7 +21,7 @@ is a tower of field extensions.
 
 > [!check]- Proof
 > Suppose $\alpha,\beta \in L$ are algebraic over $K$.
-> Then $K(\alpha,\beta)$ is algebraic by [[Field extension of finite type#^P1]],
+> Then $K(\alpha,\beta)$ is algebraic by [[Finitely generated field extension#^P1]],
 > so in particular $\alpha\beta^{-1}$ is algebraic. <span class="QED"/>
 
 ## Properties

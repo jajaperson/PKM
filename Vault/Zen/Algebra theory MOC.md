@@ -12,12 +12,11 @@ Not to be confused with [[Universal algebra]]
 
 ## Objects
 
-- [[Algebra over a field]]
-  - 
-  - [[Unital associative algebra over a field|$\mathbb K$-ring]]
-- [[Algebra over a commutative ring]]
-  - [[Associative algebra over a commutative ring|$R$-rng]]
-  - [[R-ring|$R$-ring]]
+- [[K-algebra]]
+  - [[K-monoid|$\mathbb K$-ring]]
+- [[R-algebra]]
+  - [[R-semigroup|$R$-semigroup]]
+  - [[R-monoid]]
 - [[Graded algebra]]
 - [[Superalgebra]]
 - [[Structure constants]]

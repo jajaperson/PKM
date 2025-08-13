@@ -18,9 +18,9 @@ and the following are equivalent: #m/thm/field
 3. $[F:K]_{\mathrm{s}} = [F:K]$.[^2009] ^S3
 
 > [!check]- Proof
-> $F:K$ is automatically a [[field extension of finite type]],
+> $F:K$ is automatically a [[Finitely generated field extension]],
 > so $F= K(\alpha_{i})_{i=1}^r$ for some $\{ \alpha_{i} \}_{i=1}^r \subset F$.
-> Applying [[Field extension of finite type#^P1]] and iterating on [[Separable degree of an extension#^P1]] and [[Separable degree of an extension#^P2]],
+> Applying [[Finitely generated field extension#^P1]] and iterating on [[Separable degree of an extension#^P1]] and [[Separable degree of an extension#^P2]],
 > we have
 > $$
 > \begin{align*}

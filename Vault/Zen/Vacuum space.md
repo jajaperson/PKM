@@ -6,7 +6,7 @@ tags:
 [[Graded module]]
 # Vacuum space
 
-Let $A$ be a $\mathbb{Z}$-[[Graded algebra|graded]] [[Unital associative algebra over a field]][^lie] and $V$ be a [[Graded module|graded]] $A$-[[Module over a unital associative algebra|module]] with the action denoted by $(\odot)$.
+Let $A$ be a $\mathbb{Z}$-[[Graded algebra|graded]] [[K-monoid]][^lie] and $V$ be a [[Graded module|graded]] $A$-[[Module over a unital associative algebra|module]] with the action denoted by $(\odot)$.
 A nonzero vector $v \in V$ is called a **vacuum vector** iff $A^+ \odot v = 0$. #m/def/falg 
 The **vacuum space** $\Omega_{V}$ consists of all vacuum vectors and zero
 $$

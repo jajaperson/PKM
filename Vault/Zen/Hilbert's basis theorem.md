@@ -6,8 +6,8 @@ tags:
 [[Polynomial ring]]
 # Hilbert's basis theorem
 
-Let $R$ be a [[noetherian ring]].
-Then the [[polynomial ring]] $R[x]$ is also noetherian. #m/thm/ring 
+Let $R$ be a [[Noetherian ring]].
+Then the [[polynomial ring]] $R[x]$ is also Noetherian. #m/thm/ring 
 
 > [!check]- Proof
 > Let $I \trianglelefteq R[x]$. We prove $I$ is finitely generated.
@@ -86,7 +86,7 @@ Then the [[polynomial ring]] $R[x]$ is also noetherian. #m/thm/ring
 
   [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §V.1.1, pp. 245
 
-It a simple corollary of this that any [[commutative R-ring of finite type]] for noetherian $R$ is a noetherian ring, applying [[Noetherian module#^P1]]
+It a simple corollary of this that any [[Commutative R-monoid of finite type]] for noetherian $R$ is a noetherian ring, applying [[Noetherian module#^P1]]
 
 #
 ---

@@ -17,7 +17,7 @@ A generalization is the [[Twisted affine Lie algebra]].
 
 ## Construction
 
-Let $\mathfrak{g}$ be an [[Algebra over a field|algebra]] over $\mathbb{K}$ with some [[bilinear form]] $\langle \cdot,\cdot \rangle : \mathfrak{g} \times \mathfrak{g} \to \mathbb{K}$.[^1988]
+Let $\mathfrak{g}$ be an [[K-algebra|algebra]] over $\mathbb{K}$ with some [[bilinear form]] $\langle \cdot,\cdot \rangle : \mathfrak{g} \times \mathfrak{g} \to \mathbb{K}$.[^1988]
 Further let $d = t \frac{d}{dt}$ be the [[Algebra of Laurent polynomials#^degreeDerivation]] on $\mathbb{K}[t,t^{-1}]$, and construct the vector space
 $$
 \begin{align*}

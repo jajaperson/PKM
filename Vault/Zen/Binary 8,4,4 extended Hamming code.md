@@ -33,7 +33,7 @@ $$
 satisfy
 $$
 \begin{align*}
-\mathcal{C}_{1} \cap \mathcal{C}_{2} &= \mathbb{K}_{2}\Omega \\
+\mathcal{C}_{1} \cap \mathcal{C}_{2} &= \mathbb{F}_{2}\Omega \\
 \mathcal{C}_{1} + \mathcal{C}_{2} &= \mathcal{E}(\Omega) \\
 q(\mathcal{C}_{1}) &= q(\mathcal{C}_{2}) = 0 \\
 \dim \mathcal{C}_{1} &= \dim \mathcal{C}_{2} = 4

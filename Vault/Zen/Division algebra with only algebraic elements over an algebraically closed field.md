@@ -8,7 +8,7 @@ tags:
 Let $\mathbb{K}$ be an [[algebraically closed field]] and $A$ be a [[division algebra]] such that every $a \in A$ is an [[algebraic element]] over $\mathbb{K}$.[^equiv]
 Then $A = \mathbb{K}$. #m/thm/falg 
 
-  [^equiv]: [[An algebraic element is invertible iff its minimal polynomial has a nonzero constant term|Equivalently]] $A$ is an [[algebra over a field|algebra]] such that every $a \in A$ has a [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$ with a nonzero constant term
+  [^equiv]: [[An algebraic element is invertible iff its minimal polynomial has a nonzero constant term|Equivalently]] $A$ is an [[K-algebra|algebra]] such that every $a \in A$ has a [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$ with a nonzero constant term
 
 > [!check]- Proof
 > Let $a \in A$ and $m_{a}(x) \in \mathbb{K}[x]$ be its [[Algebraic element|minimal polynomial]].

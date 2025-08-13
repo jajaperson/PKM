@@ -8,7 +8,7 @@ tags:
 The **dimension**[^plural] of a [[vector space]] is the [[cardinality]] of any [[Vector basis|basis]] for that space. #m/def/linalg 
 Thus all possible bases for a vector space have the same cardinality.[^2008] 
 
-> [!chec\Spanroof
+> [!check]- Proof
 > Let $V$ be a vector space.
 > First we show that if $\{ v_{i} \}_{i=1}^n$ are [[Linear (in)dependence|linearly independent]] in $V$ and $V = \Span \{ s_{i} \}_{i=1}^m$, 
 > then $n \leq m$.

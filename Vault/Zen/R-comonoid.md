@@ -3,18 +3,13 @@ tags:
   - public
 aliases:
   - Coüintal coässociative coälgebra over a commutative ring
-mathLink: $R$-coring
+mathLink: $R$-comonoid
 ---
 [[Linear algebra MOC]]
-# $R$-coring
+# $R$-comonoid
 
 Let $R$ be a commutative ring.
-An **$R$-coring** $T$ is a [[Comonoid object|comonoid]] in [[Category of modules over a commutative ring|$\lMod{R}$]].
-More concretely, an $R$-coring is an $R$-[[Coälgebra]] which is coünital and coässociative. #m/def/calg
-
-![[comonoid laws.png#invertW]]
-
-
+An **$R$-comonoid** $T$ is a [[Comonoid object|comonoid]] in [[Category of modules over a commutative ring|$\lMod{R}$]]. #m/def/calg
 
 ## Sweedler notation
 
@@ -27,9 +22,13 @@ $$
 The idea is that the tensor $\Delta a$ may be decomposed into a finite sum of separable tensors,
 so we feel free to invoke such a decomposition without fixing it explicitly.
 
+## Examples
+
+- [[Free R-comonoid]]
+
 ## See also
 
-- [[R-ring|$R$-ring]]
+- [[R-monoid|$R$-monoid]]
 - [[Biunital biassociative bialgebra over a commutative ring]]
 
 #

@@ -4,10 +4,10 @@ aliases:
 tags:
   - public
 ---
-[[Algebra over a field]]
+[[K-algebra]]
 # Subalgebra
 
-A **subalgebra** $W$ of a [[Algebra over a field|algebra]] $(V, \cdot)$ is a [[vector subspace]] $W \sube V$ that is closed under $(\cdot)$, #m/def/falg 
+A **subalgebra** $W$ of a [[K-algebra|algebra]] $(V, \cdot)$ is a [[vector subspace]] $W \sube V$ that is closed under $(\cdot)$, #m/def/falg 
 i.e. $W\cdot W \sube W$.
 
 ## Specifications

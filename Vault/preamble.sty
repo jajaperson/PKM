@@ -1,3 +1,7 @@
+% Colours
+\newcommand{\Red}{{\color{red} R}}
+\newcommand{\Blue}{{\color{blue} B}}
+\newcommand{\Purple}{{\color{violet} P}}
 % Basics
 \newcommand{\D}[1]{#1\!#1}
 \newcommand{\abs}[1]{\left\lvert #1 \right\rvert}
@@ -25,7 +29,7 @@
 \newcommand{\colim}{\varinjlim}
 \newcommand{\catlim}{\varprojlim}
 \newcommand{\cat}[1]{\textsf{#1}}
-\newcommand{\cop}[1]{\op{\cat{#1}}}
+\newcommand{\cop}[1]{#1^{\textbf{cop}}}
 \newcommand{\op}[1]{#1^{\textbf{op}}}
 \newcommand{\twoheadrightarrowtail}{⤖}
 %% Functors
@@ -39,15 +43,15 @@
 \DeclareMathOperator{\Sk}{Sk}
 %% Categories
 \newcommand{\Set}{\cat{Set}}
-\newcommand{\FinSet}{\cat{FinSet}}
+\newcommand{\FinSet}{\cat{FSet}}
 \newcommand{\Grp}{\cat{Grp}}
-\newcommand{\FinGrp}{\cat{FinGrp}}
+\newcommand{\FinGrp}{\cat{FGrp}}
 \newcommand{\Grpd}{\cat{Grpd}}
 \newcommand{\Cat}{\cat{Cat}}
 \newcommand{\Ab}{\cat{Ab}}
 \newcommand{\Hask}{\cat{Hask}}
 \newcommand{\Vect}{\cat{Vect}}
-\newcommand{\FinVect}{\cat{FinVect}}
+\newcommand{\FinVect}{\cat{FVect}}
 \newcommand{\Top}{\cat{Top}}
 \newcommand{\hTop}{\cat{hTop}}
 \newcommand{\Rep}{\cat{Rep}}
@@ -59,6 +63,8 @@
 \newcommand{\rMod}[1]{\Mod_{#1}}
 \newcommand{\bMod}[2]{\leftindex{\mathnormal{#1}} {\mathsf{Mod}_\mathnormal{#2}}}
 \newcommand{\Ring}{\cat{Ring}}
+\newcommand{\Mon}{\cat{Mon}}
+\newcommand{\Smgr}{\cat{Smgr}}
 \newcommand{\Fld}{\cat{Fld}}
 % Topology
 \DeclareMathOperator{\Int}{Int}

@@ -7,7 +7,7 @@ tags:
 [[Natural transformation]]
 # (Extra)natural transformation
 
-Let $F : \cat A \times \cat B \times \cop B \to \cat D$ and $G : \cat A \times \cat C \times \cop C \to \cat D$ be [[Functor|functors]].
+Let $F : \cat A \times \cat B \times \op{\cat B} \to \cat D$ and $G : \cat A \times \cat C \times \op{\cat C} \to \cat D$ be [[Functor|functors]].
 A transformation (family of morphisms) with components
 $$
 \begin{align*}

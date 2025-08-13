@@ -8,19 +8,22 @@ tags:
 [[Manifold]]
 # Coördinate chart
 
-A **coördinate chart** $(U,\varphi)$ translates between a manifold and the section of Euclidean space it resembles.
-In a [[topological manifold]], the most basic kind of manifold, every point has a [[Topological manifold|Euclidean neighbourhood]] $U$.
-A [[homeomorphism]] $\varphi$ between $U$ and an open subspace $V$ of $\mathbb{R}^n$ is called a **chart**. #m/def/geo 
+Let $M$ be a [[topological space]].
+A **coördinate chart** $(x,U)$ is an embedding of an open subset $U \sube M$ in $\mathbb{R}^n$
 $$
 \begin{align*}
-\varphi : U \sube X \twoheadrightarrowtail V \sube \mathbb{R}^n
+x : U &\hookrightarrow \mathbb{R}^n \\
+p &\mapsto (x^\mu(p))
 \end{align*}
 $$
-Alternatively a chart is an [[embedding]] of $U$ in $\mathbb{R}^n$.
-The inverse $\varphi^{-1} : V \sube \mathbb{R}^n \twoheadrightarrowtail U \sube X$ is called a **local parameterization** of $U$,
-and setting $\varphi^{-1}(0) = x$ gives a local parameterization at $x$.
-A collection of charts covering a whole manifold is called an [[atlas]].
+In a [[topological manifold]], the most basic kind of manifold, every point has a [[Topological manifold|Euclidean neighbourhood]] $U$,
+and the coördinate chart essentially translates between a manifold and the section of Euclidean space it resembles.
+The inverse of a coördinate chart is called a **local paramaterization**,
+and setting $\varphi^{-1}(0) = p$ gives a local parameterization at $p$.
+
+## See also
+- A collection of charts covering a whole manifold is called an [[atlas]].
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

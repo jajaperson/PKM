@@ -3,6 +3,7 @@ aliases:
   - algebra
 tags:
   - public
+mathLink: $\mathbb K$-algebra
 ---
 [[Algebra theory MOC]]
 # Algebra over a field
@@ -14,11 +15,11 @@ i.e. for any $x,y,z \in V$ and $a,b,c \in \mathbb{K}$
 2. $z(x+y) = zx + zy$ ^A2
 3. $(ax)(by)=(ab)(xy)$ ^A3
 
-This may be generalized to an [[Algebra over a commutative ring]].
+This may be generalized to an [[R-algebra]].
 
 ## Examples
 
-- [[Unital associative algebra over a field]]^[In these notes I will try and reserve infix notation for associative algebras, as there is a tendency to assume such things to be associative.]
+- [[K-monoid]]^[In these notes I will try and reserve infix notation for associative algebras, as there is a tendency to assume such things to be associative.]
     - Commutative
         - [[Complex number]]
         - [[Quaternion]] (non-commutative)
@@ -30,7 +31,7 @@ This may be generalized to an [[Algebra over a commutative ring]].
         - [[Clifford algebra]]
         - [[Monoid ring]]
         - [[Extension field as a unital associative algebra]]
-- [[Category rng]]
+- [[Category ring]]
 - Non-associative
     - [[Lie algebra]]
 

@@ -33,6 +33,7 @@ It is identical to [[Category of left modules|$\lMod{\mathbb K}$]], the differen
 ## Skeleton
 
 The canonical [[skeleton category]] $\opn{Sk}(\Vect_{\mathbb{K}})$ is the restriction to objects of the form $\mathbb{K}^{(\alpha)}$ for some [[Cardinal]] $\alpha$.
+This of course assumes [[Axiom of Choice|AC]].
 
 #
 ---

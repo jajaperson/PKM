@@ -19,44 +19,9 @@ there exists a unique $f \in \cat C(Y,X)$ so that $f_{i} = \pi_{i}f$.[^loo] #m/d
 In a category $\cat C$ the coproduct of objexts $\{ X_{i} \}_{i \in I}$ is an object $X = \coprod_{i \in I} X_{i}$ together with morphisms $\iota_{i} \in \cat C(X_{i}, X)$ such that for any $Y$ and $f_{i} \in \cat C(X_{i}, Y)$,
 there exists a unique $f \in \cat C(X,Y)$ so that $f_{i} = f\iota_{i}$.[^loo] #m/def/cat
 
-<p align="center"><img align="center" src="https://i.upmath.me/svg/%0A%25%20%60calc%60%20is%20necessary%20to%20draw%20curved%20arrows.%0A%5Cusetikzlibrary%7Bcalc%7D%0A%25%20%60pathmorphing%60%20is%20necessary%20to%20draw%20squiggly%20arrows.%0A%5Cusetikzlibrary%7Bdecorations.pathmorphing%7D%0A%25%20A%20TikZ%20style%20for%20curved%20arrows%20of%20a%20fixed%20height%2C%20due%20to%20Andr%C3%A9C.%0A%5Ctikzset%7Bcurve%2F.style%3D%7Bsettings%3D%7B%231%7D%2Cto%20path%3D%7B(%5Ctikztostart)%0A%20%20%20%20..%20controls%20(%24(%5Ctikztostart)!%5Cpv%7Bpos%7D!(%5Ctikztotarget)!%5Cpv%7Bheight%7D!270%3A(%5Ctikztotarget)%24)%0A%20%20%20%20and%20(%24(%5Ctikztostart)!1-%5Cpv%7Bpos%7D!(%5Ctikztotarget)!%5Cpv%7Bheight%7D!270%3A(%5Ctikztotarget)%24)%0A%20%20%20%20..%20(%5Ctikztotarget)%5Ctikztonodes%7D%7D%2C%0A%20%20%20%20settings%2F.code%3D%7B%5Ctikzset%7Bquiver%2F.cd%2C%231%7D%0A%20%20%20%20%20%20%20%20%5Cdef%5Cpv%23%231%7B%5Cpgfkeysvalueof%7B%2Ftikz%2Fquiver%2F%23%231%7D%7D%7D%2C%0A%20%20%20%20quiver%2F.cd%2Cpos%2F.initial%3D0.35%2Cheight%2F.initial%3D0%7D%0A%25%20TikZ%20arrowhead%2Ftail%20styles.%0A%5Ctikzset%7Btail%20reversed%2F.code%3D%7B%5Cpgfsetarrowsstart%7Btikzcd%20to%7D%7D%7D%0A%5Ctikzset%7B2tail%2F.code%3D%7B%5Cpgfsetarrowsstart%7BImplies%5Breversed%5D%7D%7D%7D%0A%5Ctikzset%7B2tail%20reversed%2F.code%3D%7B%5Cpgfsetarrowsstart%7BImplies%7D%7D%7D%0A%25%20TikZ%20arrow%20styles.%0A%5Ctikzset%7Bno%20body%2F.style%3D%7B%2Ftikz%2Fdash%20pattern%3Don%200%20off%201mm%7D%7D%0A%25%20https%3A%2F%2Fq.uiver.app%2F%23q%3DWzAsOCxbMCwyLCJYXzEiXSxbNCwyLCJYXzIiXSxbMiwyLCJYXzEgXFx0aW1lcyBYXzIiXSxbMiwwLCJZIl0sWzYsMiwiWF8xIl0sWzEwLDIsIlhfMiJdLFs4LDIsIlhfMSBcXGFtYWxnIFhfMiJdLFs4LDAsIlkiXSxbMiwwLCJcXHBpXzEiXSxbMiwxLCJcXHBpXzIiLDJdLFszLDAsImYiLDJdLFszLDEsImciXSxbMywyLCJmIiwxLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZG90dGVkIn19fV0sWzQsNiwiXFxpb3RhXzEiLDJdLFs1LDYsIlxcaW90YV8yIl0sWzQsNywiZl8xIl0sWzUsNywiZl8yIiwyXSxbNiw3LCJmIiwxLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d%0A%5Cbegin%7Btikzcd%7D%5Bampersand%20replacement%3D%5C%26%5D%0A%09%5C%26%5C%26%20Y%20%5C%26%5C%26%5C%26%5C%26%5C%26%5C%26%20Y%20%5C%5C%0A%09%5C%5C%0A%09%7BX_1%7D%20%5C%26%5C%26%20%7BX_1%20%5Ctimes%20X_2%7D%20%5C%26%5C%26%20%7BX_2%7D%20%5C%26%5C%26%20%7BX_1%7D%20%5C%26%5C%26%20%7BX_1%20%5Camalg%20X_2%7D%20%5C%26%5C%26%20%7BX_2%7D%0A%09%5Carrow%5B%22%7B%5Cpi_1%7D%22%2C%20from%3D3-3%2C%20to%3D3-1%5D%0A%09%5Carrow%5B%22%7B%5Cpi_2%7D%22'%2C%20from%3D3-3%2C%20to%3D3-5%5D%0A%09%5Carrow%5B%22f%22'%2C%20from%3D1-3%2C%20to%3D3-1%5D%0A%09%5Carrow%5B%22g%22%2C%20from%3D1-3%2C%20to%3D3-5%5D%0A%09%5Carrow%5B%22f%22%7Bdescription%7D%2C%20dotted%2C%20from%3D1-3%2C%20to%3D3-3%5D%0A%09%5Carrow%5B%22%7B%5Ciota_1%7D%22'%2C%20from%3D3-7%2C%20to%3D3-9%5D%0A%09%5Carrow%5B%22%7B%5Ciota_2%7D%22%2C%20from%3D3-11%2C%20to%3D3-9%5D%0A%09%5Carrow%5B%22%7Bf_1%7D%22%2C%20from%3D3-7%2C%20to%3D1-9%5D%0A%09%5Carrow%5B%22%7Bf_2%7D%22'%2C%20from%3D3-11%2C%20to%3D1-9%5D%0A%09%5Carrow%5B%22f%22%7Bdescription%7D%2C%20dashed%2C%20from%3D3-9%2C%20to%3D1-9%5D%0A%5Cend%7Btikzcd%7D%0A#invert" alt="
-% `calc` is necessary to draw curved arrows.
-\usetikzlibrary{calc}
-% `pathmorphing` is necessary to draw squiggly arrows.
-\usetikzlibrary{decorations.pathmorphing}
-% A TikZ style for curved arrows of a fixed height, due to AndréC.
-\tikzset{curve/.style={settings={#1},to path={(\tikztostart)
-    .. controls ($(\tikztostart)!\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
-    and ($(\tikztostart)!1-\pv{pos}!(\tikztotarget)!\pv{height}!270:(\tikztotarget)$)
-    .. (\tikztotarget)\tikztonodes}},
-    settings/.code={\tikzset{quiver/.cd,#1}
-        \def\pv##1{\pgfkeysvalueof{/tikz/quiver/##1}}},
-    quiver/.cd,pos/.initial=0.35,height/.initial=0}
-% TikZ arrowhead/tail styles.
-\tikzset{tail reversed/.code={\pgfsetarrowsstart{tikzcd to}}}
-\tikzset{2tail/.code={\pgfsetarrowsstart{Implies[reversed]}}}
-\tikzset{2tail reversed/.code={\pgfsetarrowsstart{Implies}}}
-% TikZ arrow styles.
-\tikzset{no body/.style={/tikz/dash pattern=on 0 off 1mm}}
-% https://q.uiver.app/#q=WzAsOCxbMCwyLCJYXzEiXSxbNCwyLCJYXzIiXSxbMiwyLCJYXzEgXFx0aW1lcyBYXzIiXSxbMiwwLCJZIl0sWzYsMiwiWF8xIl0sWzEwLDIsIlhfMiJdLFs4LDIsIlhfMSBcXGFtYWxnIFhfMiJdLFs4LDAsIlkiXSxbMiwwLCJcXHBpXzEiXSxbMiwxLCJcXHBpXzIiLDJdLFszLDAsImYiLDJdLFszLDEsImciXSxbMywyLCJmIiwxLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZG90dGVkIn19fV0sWzQsNiwiXFxpb3RhXzEiLDJdLFs1LDYsIlxcaW90YV8yIl0sWzQsNywiZl8xIl0sWzUsNywiZl8yIiwyXSxbNiw3LCJmIiwxLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d
-\begin{tikzcd}[ampersand replacement=\&amp;]
-	\&amp;\&amp; Y \&amp;\&amp;\&amp;\&amp;\&amp;\&amp; Y \\
-	\\
-	{X_1} \&amp;\&amp; {X_1 \times X_2} \&amp;\&amp; {X_2} \&amp;\&amp; {X_1} \&amp;\&amp; {X_1 \amalg X_2} \&amp;\&amp; {X_2}
-	\arrow[&quot;{\pi_1}&quot;, from=3-3, to=3-1]
-	\arrow[&quot;{\pi_2}&quot;', from=3-3, to=3-5]
-	\arrow[&quot;f&quot;', from=1-3, to=3-1]
-	\arrow[&quot;g&quot;, from=1-3, to=3-5]
-	\arrow[&quot;f&quot;{description}, dotted, from=1-3, to=3-3]
-	\arrow[&quot;{\iota_1}&quot;', from=3-7, to=3-9]
-	\arrow[&quot;{\iota_2}&quot;, from=3-11, to=3-9]
-	\arrow[&quot;{f_1}&quot;, from=3-7, to=1-9]
-	\arrow[&quot;{f_2}&quot;', from=3-11, to=1-9]
-	\arrow[&quot;f&quot;{description}, dashed, from=3-9, to=1-9]
-\end{tikzcd}
-" /></p>
+![[(co)product.svg#invert|c|https://q.uiver.app/#q=WzAsOCxbMCwyLCJYXzEiXSxbNCwyLCJYXzIiXSxbMiwyLCJYXzEgXFx0aW1lcyBYXzIiXSxbMiwwLCJZIl0sWzYsMiwiWF8xIl0sWzEwLDIsIlhfMiJdLFs4LDIsIlhfMSBcXGFtYWxnIFhfMiJdLFs4LDAsIlkiXSxbMiwwLCJcXHBpXzEiXSxbMiwxLCJcXHBpXzIiLDJdLFszLDAsImYiLDJdLFszLDEsImciXSxbMywyLCIoZixnKSIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRvdHRlZCJ9fX1dLFs0LDYsIlxcaW90YV8xIiwyXSxbNSw2LCJcXGlvdGFfMiJdLFs0LDcsImZfMSJdLFs1LDcsImZfMiIsMl0sWzYsNywiZiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==]]
 
-These are categorical duals; the coproduct is just the product in $\cop{C}$.
+These are categorical duals; the coproduct is just the product in $\op{\cat C}$.
 Each construction, if it exists, is unique up to unique isomorphism.
 
 [^loo]: 2010, [[@looseAlgebraischeTopologie2010|Algebraische Topologie]], Definition 2.2.20, p. 61
@@ -68,6 +33,7 @@ Each construction, if it exists, is unique up to unique isomorphism.
 > <span class="QED"/>
 
 The product and coproduct may be generalized to the [[Fibre product and coproduct]].
+A category with finitary products is a special kind of monoidal category called a [[Cartesian category]], whereas one with finitary coproducts is a [[Cocartesian category]].
 
 ## Limits and colimits
 

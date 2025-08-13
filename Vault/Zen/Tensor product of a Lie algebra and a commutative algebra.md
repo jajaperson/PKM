@@ -5,7 +5,7 @@ tags:
 [[Tensor product of algebras]]
 # Tensor product of a Lie algebra and a commutative algebra
 
-Let $\mathfrak{g}$ be a [[Lie algebra]] and $A$ be a commutative [[Algebra over a field|algebra]], both over $\mathbb{K}$.
+Let $\mathfrak{g}$ be a [[Lie algebra]] and $A$ be a commutative [[K-algebra|algebra]], both over $\mathbb{K}$.
 Then their [[Tensor product of algebras|tensor product algebra]] $\mathfrak{g} \otimes_{\mathbb{K}} A$ is also a Lie algebra. #m/thm/lie
 
 > [!check]- Proof
@@ -22,7 +22,7 @@ Then their [[Tensor product of algebras|tensor product algebra]] $\mathfrak{g} \
 > as required.
 > <span class="QED"/>
 
-Note that if $A$ is [[Unital associative algebra over a field|unital]], then we have the injective [[Lie algebra homomorphism]]
+Note that if $A$ is [[K-monoid|unital]], then we have the injective [[Lie algebra homomorphism]]
 $$
 \begin{align*}
 \iota : \mathfrak{g} &\hookrightarrow \mathfrak{g} \otimes_{\mathbb{K}} A \\

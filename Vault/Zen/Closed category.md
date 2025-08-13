@@ -10,7 +10,7 @@ tags:
 A **closed category** is a category with objects resembling hom-sets. #m/def/cat 
 Explicitly, a closed category $\cat C$ is equipped with[^1966][^1977]
 
-1. a [[multifunctor]] $[-,-] : \cop C \times \cat C \to \cat C$ called the **internal hom-functor**;
+1. a [[multifunctor]] $[-,-] : \op{\cat C} \times \cat C \to \cat C$ called the **internal hom-functor**;
 2. an object $1$ called the **unit**;
 3. a [[Natural isomorphism|natural isomorphism]] with components $\epsilon_{X} : X \to [1,X]$ in [[Endofunctor category|$\cat C^{\cat C}$]], which may be thought of as enabling generalized elements;
 4. an [[(Extra)natural transformation|extranatural transformation]] with components $\iota_{X} : 1 \to [X,X]$, which may be thought of as the generalized element for the identity;
@@ -65,7 +65,7 @@ is a [[Surjectivity, injectivity, and bijectivity|bijection]].
 > \end{align*}
 > $$
 
-A [[Closed monoidal category]] is a category which is also monoidal in a compatible way.
+A [[Monoidal closed category]] is a category which is also monoidal in a compatible way.
 
 #
 ---

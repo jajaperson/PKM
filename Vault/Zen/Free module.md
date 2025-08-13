@@ -73,6 +73,10 @@ where we identify $s \in S$ with $\delta_{s} : t \mapsto [t=s]$ invoking an [[Iv
 > $$
 > as required. <span class="QED"/>
 
+## Properties
+
+- $R^{(S)}$ carries the additional structure of a coring, namely the [[Free R-comonoid]]
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

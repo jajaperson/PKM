@@ -4,7 +4,8 @@ tags:
 ---
 [[Ring theory MOC]]
 # Ring
-A **ring** is an algebraic structure on a set, consisting of both an [[Abelian group]] and a [[Monoid]] over the set which satisfy a distributivity condition.
+A **ring** is an algebraic structure on a set, consisting of both an [[Abelian group]] and a [[monoid]] over the set which satisfy a distributivity condition —
+equivalently, rings are [[Monoid object|monoids]] in [[Category of abelian groups]].
 
 That is a **ring** $(R, +, \cdot)$ consists of an [[Abelian group]] $(R, +)$ called **addition**
 and a [[Monoid]] $(R, \cdot)$ called **multiplication**, with the extra conditions[^2009] #m/def/ring

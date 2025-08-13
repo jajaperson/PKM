@@ -4,11 +4,11 @@ tags:
 aliases:
   - group algebra
 ---
-[[Unital associative algebra over a field]]
+[[K-monoid]]
 # Group ring
 
 
-The **group ring** $R[G]$ of a [[group]] $G$ is an [[R-ring|$R$-ring]] constructed from the corresponding [[free module]] $R^{(G)}$, such that the product of  and  coïncide.
+The **group ring** $R[G]$ of a [[group]] $G$ is an [[R-monoid|$R$-monoid]] constructed from the corresponding [[free module]] $R^{(G)}$, such that the product of  and  coïncide.
 As such, it is a specialization of the [[monoid ring]].
 
 ## Construction as maps

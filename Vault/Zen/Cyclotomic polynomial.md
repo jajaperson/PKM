@@ -19,7 +19,7 @@ is irreducible in $\mathbb{Q}[x]$, and has degree given by the [[Euler totient f
 Thus this is a [[Algebraic element|minimal polynomial]] over $\mathbb{Q}$ for a primitive $n$th root of unity,
 and can be used to construct the [[cyclotomic field]] $\mathbb{Q}(\zeta_{n})$.
 
-> [!check]- Proof of integer coëfficients
+> [!check]- Proof
 > By [[#^P1]] $\Phi_{n}$ can be reduced down to a product of prime cyclotomic polynomials which we know have integer coëfficients.
 > 
 > Now suppose towards contradiction that $\Phi_{n}(x) \in \mathbb{Z}[x]$ is reducibile.

@@ -8,9 +8,7 @@ tags:
 [[Manifold]]
 # Differentiable manifold
 
-A $k$-**differentiable manifold** or $C^k$-manifold is a [[topological manifold]] with an additional $C^k$-[[atlas]], i.e. an atlas with $k$-[[Differentiability#Real coördinate spaces|differentiable]] [[Transition map|transition maps]]. #m/def/geo/diff
-
-- $C^\omega$-manifold or **analytic manifold** only has transition maps that can be written as a power series.
+A $k$-**differentiable manifold** or $C^k$-manifold $(M, \mathscr{A})$ is a [[topological manifold]] equipped with a maximal $C^\alpha$-[[atlas]].[^1]
 
 ## Embedded manifolds
 
@@ -19,3 +17,5 @@ By the [[Whitney embedding theorem]], we may alternatively consider $C^k$-manifo
 #
 ---
 #state/develop | #lang/en | #SemBr
+
+[^1]: In particular, a $C^0$-manifold is a [[topological manifold]] with an atlas.

@@ -5,7 +5,7 @@ tags:
 [[Schur's lemma]]
 # Dixmier's lemma
 
-Let $A$ be a [[Unital associative algebra over a field]] over $\mathbb{K}$ and $V$ be a [[Simple module|simple]] $A$-[[Module over a unital associative algebra|module]].
+Let $A$ be a [[K-monoid]] over $\mathbb{K}$ and $V$ be a [[Simple module|simple]] $A$-[[Module over a unital associative algebra|module]].
 If the [[cardinality]] $\abs{\mathbb{K}} > \dim_{\mathbb{K}} V$, then every $A$-module endomorphism $\vartheta \in \lMod{A}(V,V)$ is an [[algebraic element]] over $\mathbb{K}$.[^1969] #m/thm/module 
 
   [^1969]: 1969\. [[Sources/@quillenEndomorphismRingSimple1969|On the endomorphism ring of a simple module over an enveloping algebra]], p. 171

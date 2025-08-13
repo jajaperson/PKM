@@ -9,7 +9,7 @@ aliases:
 [[Algebra theory MOC]]
 # Algebra ideal
 
-A [[Subalgebra over a field|subalgebra]][^subs] $I \leq A$ of an [[Algebra over a field|algebra]] $A$ over a field $\mathbb{K}$ is called a **left-ideal** iff $AI \sube I$,
+A [[Subalgebra over a field|subalgebra]][^subs] $I \leq A$ of an [[K-algebra|algebra]] $A$ over a field $\mathbb{K}$ is called a **left-ideal** iff $AI \sube I$,
 a **right-ideal** iff $IA \sube I$,
 and a **two-sided ideal** (sometimes just **ideal**) iff both conditions hold,[^1988] #m/def/falg 
 i.e. a left-ideal absorbs elements placed on the left, &c.

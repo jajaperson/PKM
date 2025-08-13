@@ -5,7 +5,7 @@ tags:
 [[Differential geometry MOC]]
 # Real embedded manifold
 
-In these notes, a **real embedded manifold** typically refers to a $C^\infty$ [[Submanifold]] of [[real coördinate space]]. #m/def/geo/diff 
+In these notes, a **real embedded manifold** typically refers to a $C^\infty$ [[submanifold]] of [[real coördinate space]]. #m/def/geo/diff 
 The [[Whitney embedding theorem]] provides a sense in which every real [[differentiable manifold]] may be regarded as a real submanifold.
 
 A subset $X \sube \mathbb{R}^N$ is an $n$-dimensional **real submanifold** iff has [[Coördinate chart|charts]] that are $C^\infty$ [[Differentiability#Arbitrary subsets of real coördinate space|diffeomorphisms as subsets of real coördinate space]],

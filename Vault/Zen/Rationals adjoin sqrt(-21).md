@@ -24,14 +24,19 @@ $$
 
 ## Group of units
 
-$K$ is not the [[Gaußian integers]], hence $\mathcal{O}_{K}^\times = \{ 1,-1 \}$.
+By [[Imaginary quadratic field#^P1]],
+$$
+\begin{align*}
+\mathcal{O}_{K}^\times = \{ 1,-1 \}.
+\end{align*}
+$$
 
 ## Class group
 
 [[Minkowski's bound]] is given by
 $$
 \begin{align*}
-M_{K} =  \frac{4\sqrt{ 21 }}{\pi} < 6
+M_{K} =  \frac{4\sqrt{ 21 }}{\pi} < 6,
 \end{align*}
 $$
 so applying [[Kummer's factorization theorem]]

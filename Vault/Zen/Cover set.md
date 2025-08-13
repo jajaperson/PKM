@@ -3,6 +3,9 @@ tags:
   - public
 aliases:
   - open cover
+mathLink-blocks:
+  refinement: refinement
+  locFin: locally finite
 ---
 [[Topology MOC]]
 # Cover
@@ -14,8 +17,8 @@ Typically $X$ is a [[topological space]], in which case $\mathcal{U}$ is called 
 ## Further terminology
 
 - A **subcover** of $\mathcal{U}$ is a a subcollection of $\mathcal{U}$ that is also a cover of $X$.
-- A **refinement** of $\mathcal{U}$ is a cover $\mathcal{V}$ such that every $V \in \mathcal{V}$ is contained in at least one $U \in \mathcal{U}$, i.e. $U \sube V$.
-- A cover $\mathcal{U}$ is **locally finite** iff every $x \in X$ as a [[neighbourhood]] intersecting with finitely many $U \in \mathcal{U}$.
+- A **refinement** of $\mathcal{U}$ is a cover $\mathcal{V}$ such that every $V \in \mathcal{V}$ is contained in at least one $U \in \mathcal{U}$, i.e. $U \sube V$. ^refinement
+- A cover $\mathcal{U}$ is **locally finite** iff every $x \in X$ as a [[neighbourhood]] intersecting with finitely many $U \in \mathcal{U}$. ^locFin
 
 ## Properties
 

@@ -7,7 +7,7 @@ aliases:
 [[Algebra theory MOC]]
 # Derivation subalgebra
 
-Let $\der(A)$ be the set of all [[Derivation on an algebra|derivations]] of an [[Algebra over a field|algebra]] $(V, B)$ over $\mathbb{K}$, i.e.
+Let $\der(A)$ be the set of all [[Derivation on an algebra|derivations]] of an [[K-algebra|algebra]] $(V, B)$ over $\mathbb{K}$, i.e.
 $$
 \begin{align*}
 \der(A) = \{ D \in \End_{\mathbb{K}} V : (\forall a,b \in A)[D B(a,b) = B(D(a),b) + B(a,D(b))] \}

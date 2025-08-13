@@ -63,6 +63,10 @@ Importantly, the [[𝜇-estimator]] gives rise to the [[Central limits theorem]]
 Another important aspect of statistical inference is the [[Statistical hypothesis]],
 a guess on how a random variable is distributed.
 
+## Random processes
+
+- [[Markov chain]]
+
 #
 ---
 #MOC | #state/tidy | #SemBr 

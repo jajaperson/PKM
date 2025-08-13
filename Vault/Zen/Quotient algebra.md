@@ -5,7 +5,7 @@ tags:
 [[Algebra theory MOC]]
 # Quotient algebra
 
-Given a two-sided [[Algebra ideal|ideal]] $I \leq A$ of an [[Algebra over a field|algebra]] $(A,*)$ over a field $\mathbb{K}$, the **quotient algebra** $A / I$ is the [[Zen/Quotient vector space]] with the well-defined product #m/def/falg 
+Given a two-sided [[Algebra ideal|ideal]] $I \leq A$ of an [[K-algebra|algebra]] $(A,*)$ over a field $\mathbb{K}$, the **quotient algebra** $A / I$ is the [[Zen/Quotient vector space]] with the well-defined product #m/def/falg 
 $$
 \begin{align*}
 (a + I) * (b+I) = a *b + I

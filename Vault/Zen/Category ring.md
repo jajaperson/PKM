@@ -5,10 +5,10 @@ aliases:
   - category ring
 ---
 [[Category theory MOC]]
-# Category ring
+# Category semigroup
 
 Let $R$ be a [[commutative ring]] and $\cat C$ be a [[Small category]].
-The **category rng** $R\cat C$ is an [[Associative algebra over a commutative ring|$R$-rng]] constructed from the [[free module]] $R^{(\cat C)}$. #m/def/cat 
+The **category ring** $R\cat C$ is an [[R-semigroup]] constructed from the [[free module]] $R^{(\cat C)}$. #m/def/cat 
 This is a generalization of the [[Monoid ring]] in light of [[Monoids as categories]].
 In the case $\Ob(\cat C)$ is finite, this construction gives an [[Ring extension|extension ring]] of $R$ and is called the **category ring** which we denote by $R[\cat C]$.
 
@@ -24,7 +24,7 @@ f \circ g & \opn{cod} f = \opn{dom} g.
 \end{cases}
 \end{align*}
 $$
-If $\Ob(\cat C)$ is finite, then this forms an [[R-ring|$R$-ring]] with an identity given by
+If $\Ob(\cat C)$ is finite, then this forms an [[R-monoid]] with an identity given by
 $$
 \begin{align*}
 1 = \sum_{x \in \Ob(\cat C)} 1_{{x}}.

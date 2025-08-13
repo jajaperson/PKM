@@ -13,7 +13,7 @@ i.e. the smallest possible subring of $T$ containing $R \cup S$. #m/def/ring
 - The same notation can be used for adjoining a single element, e.g. $R[a]$ or $R(a)$.
 - If the ambient ring $T$ is left unspecified and $S$ is a [[monoid]], one considers the [[Monoid ring]].
 - See also [[polynomial ring]]
-- [[Category rng]]
+- [[Category ring]]
 #
 ---
 #state/develop | #lang/en | #SemBr

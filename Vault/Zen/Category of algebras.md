@@ -14,7 +14,7 @@ tags:
 
 Let $\mathbb{K}$ be a [[field]].
 The **category of algebras** $\cat{Alg}_{\mathbb K}$ is a [[category]] where
-an object is a [[Algebra over a field|algebra]] over $\mathbb K$
+an object is a [[K-algebra|algebra]] over $\mathbb K$
 and a morphism is a [[algebra homomorphism]]. #m/def/falg
 
 ## Related subcategory

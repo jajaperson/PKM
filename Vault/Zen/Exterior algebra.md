@@ -5,10 +5,10 @@ aliases:
 tags:
   - public
 ---
-[[Unital associative algebra over a field]]
+[[K-monoid]]
 # Exterior algebra
 
-The **exterior algebra** $\bigwedge^• V$ of a [[vector space]] $V$ is the freëst [[Alternating multilinear map|alternating]] [[Unital associative algebra over a field]] containing $V$, #m/def/falg 
+The **exterior algebra** $\bigwedge^• V$ of a [[vector space]] $V$ is the freëst [[Alternating multilinear map|alternating]] [[K-monoid]] containing $V$, #m/def/falg 
 as formalized by the [[#Universal property]].
 
 The exterior algebra is in a sense generalized by, or rather _quantized_ by, the [[Clifford algebra]].
@@ -16,7 +16,7 @@ Conceptually similar is the [[Symmetric algebra]].
 
 ## Universal property
 
-Let $V$ be a [[vector space]] over $\mathbb{K}$ the associated **exterior algebra** is a pair consisting of an [[Alternating multilinear map|alternating]] [[Unital associative algebra over a field]] ${\textstyle\bigwedge}^\bullet V$ and a [[linear map]] $\iota : V \to {\textstyle\bigwedge}^\bullet V$ 
+Let $V$ be a [[vector space]] over $\mathbb{K}$ the associated **exterior algebra** is a pair consisting of an [[Alternating multilinear map|alternating]] [[K-monoid]] ${\textstyle\bigwedge}^\bullet V$ and a [[linear map]] $\iota : V \to {\textstyle\bigwedge}^\bullet V$ 
 such that given any unital associative algebra $A$,
 a linear map $f : V \to A$ satisfying the identity $f(v)^2 = 0$ factorizes uniqely through $\iota$
 

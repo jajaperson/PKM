@@ -1,10 +1,10 @@
 ---
 categoryName: category of manifolds
-mathLink: $\Man^n$
-object: $C^n$ [[differentiable manifold]]
-morphism: $C^n$ [[Differentiability|differentiable map]]
+mathLink: $\Man^\alpha$
+object: $C^\alpha$-[[differentiable manifold]|manifold]
+morphism: $C^\alpha$-[[Differentiability|map]]
 arguments:
-  - $n$ order
+  - $\alpha$ order
 tags:
   - category
   - public
@@ -12,10 +12,10 @@ tags:
 [[Differential geometry MOC]]
 # Category of manifolds
 
-Let $n \in \mathbb{N}_{0}$, $n = \infty$, or $n=\omega$.
-The **category of manifolds** $\Man^n$ is a [[category]] where
-an object is a $C^n$ [[differentiable manifold]]
-and a morphism is a $C^n$ [[Differentiability|differentiable map]]. #m/def/geo/diff 
+Let $\alpha \in \mathbb{N}_{0}$, $\alpha = \infty$, or $\alpha=\omega$.
+The **category of manifolds** $\Man^\alpha$ is a [[category]] where
+an object is a $C^\alpha$-[[differentiable manifold|manifold]]
+and a morphism is a $C^\alpha$-[[Differentiability|map]]. #m/def/geo/diff 
 
 
 #

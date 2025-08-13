@@ -7,7 +7,7 @@ tags:
 [[Algebra theory MOC]]
 # Derivation on an algebra
 
-A **derivation** $D$ on an [[Algebra over a field|algebra]] $(A, \cdot)$ over a field $\mathbb{K}$
+A **derivation** $D$ on an [[K-algebra|algebra]] $(A, \cdot)$ over a field $\mathbb{K}$
 is a [[linear endomorphism]] $D : A \to A$
 satisfying the [[product rule]] #m/def/falg 
 $$
@@ -21,7 +21,7 @@ One can more generally define a derivation from one algebra to another.
 ## Properties
 
 1. [[Derivation subalgebra|The commutator of two derivations is itself a derivation]]
-2. A derivation on a [[Unital associative algebra over a field]] is a derivation on its [[commutator]] ^P2
+2. A derivation on a [[K-monoid]] is a derivation on its [[commutator]] ^P2
 
 > [!check]- Proof of 2
 > Let $A$ be a unital associative algebra over $\mathbb{K}$ and $d : A \to A$ be a derivation of $A$.

@@ -25,6 +25,8 @@ See [[Category of left modules]].
 - [[Reducibility of modules]]
 - [[Noetherian module]]
 - [[Finitely generated module]]
+- [[Free module]]
+- [[Projective module]]
 
 #### By ring
 

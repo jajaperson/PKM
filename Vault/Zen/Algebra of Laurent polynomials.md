@@ -4,11 +4,11 @@ mathLink-blocks:
 tags:
   - public
 ---
-[[Unital associative algebra over a field|$\mathbb K$-ring]]
+[[K-monoid|$\mathbb K$-ring]]
 # Algebra of Laurent polynomials
 
 Let $\mathbb{K}$ be a field.
-The algebra $\mathbb{K}[t, t^{-1}]$ of Laurent polynomials in indeterminate $t$ is a $\mathbb{Z}$-[[Graded algebra|graded]] commutative [[Unital associative algebra over a field|$\mathbb K$-ring]], with elements of the form
+The algebra $\mathbb{K}[t, t^{-1}]$ of Laurent polynomials in indeterminate $t$ is a $\mathbb{Z}$-[[Graded algebra|graded]] commutative [[K-monoid|$\mathbb K$-ring]], with elements of the form
 $$
 \begin{align*}
 f = \sum_{n \in \mathbb{Z}} f_{n}t^n

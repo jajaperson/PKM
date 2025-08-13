@@ -12,7 +12,7 @@ $$
 \end{align*}
 $$
 This forms a commutative, associative, [[Multilinear map|bilinear]] product on integrable functions,
-thereby forming an [[Unital associative algebra over a field]].
+thereby forming an [[K-monoid]].
 
 > [!check]- Proof
 > For commutativity, note

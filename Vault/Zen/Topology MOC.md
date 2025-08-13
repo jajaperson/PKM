@@ -50,6 +50,7 @@ A [[Topological property]] is a property which is shared by any two [[Homeomorph
 ## Special kinds of spaces
 
 - [[Topological manifold]]
+- [[Fibre bundle]]
 
 ## Internally
 

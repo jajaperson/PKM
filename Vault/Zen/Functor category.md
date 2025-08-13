@@ -19,7 +19,7 @@ each morphism is a [[natural transformation]] $\eta : F \Rightarrow G : \cat C \
 ## Special cases
 
 - [[Endofunctor category]] $\cat C^\cat{C}$, which possesses additional monoidal structure.
-- [[Category of presheaves]] $\Set^{\cop C}$
+- [[Category of presheaves]] $\Set^{\op{\cat C}}$
 
 #
 ---

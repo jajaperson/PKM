@@ -5,7 +5,7 @@ tags:
 [[Algebraic element]]
 # Roots of a minimal polynomial
 
-Let $A$ be a [[Unital associative algebra over a field]] over $\mathbb{K}$ and $a \in A$ be an [[algebraic element]] with [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$.
+Let $A$ be a [[K-monoid]] over $\mathbb{K}$ and $a \in A$ be an [[algebraic element]] with [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$.
 Then $r \in \mathbb{K}$ is a root of $m_{a}(x)$ iff $a-r 1$ is not invertible in $A$.[^2008] #m/thm/falg 
 
 > [!missing]- Proof

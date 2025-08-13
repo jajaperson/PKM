@@ -17,6 +17,7 @@ Considered as either a [[metric topology]] or [[product topology]], $\mathbb{R}^
 ## Smooth properties
 
 See [[Infinitesimal calculus MOC]].
+We make $\mathbb{R}^n$ into a $C^\alpha$-[[differentiable manifold|manifold]] for any $\alpha$ by taking the maximal atlas induced by the identity chart $\{ 1_{\mathbb{R}^n} \}$.
 
 ## Geometric properties
 

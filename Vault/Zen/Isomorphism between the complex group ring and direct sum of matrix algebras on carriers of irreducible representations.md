@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - Generalized Fourier transform
 ---
 [[Group ring]]
 # Isomorphism between the complex group ring and direct sum of matrix algebras on carriers of irreducible representations

@@ -5,7 +5,7 @@ tags:
 [[Spectrum of an algebraic element]]
 # Spectral mapping theorem
 
-Let $A$ be a [[Unital associative algebra over a field]] over an [[algebraically closed field]] $\mathbb{K}$.
+Let $A$ be a [[K-monoid]] over an [[algebraically closed field]] $\mathbb{K}$.
 Let $a \in A$ and $p(x) \in \mathbb{K}[x]$.
 Then the [[Spectrum of an algebraic element|spectra]] satisfy[^2008] #m/thm/falg 
 $$

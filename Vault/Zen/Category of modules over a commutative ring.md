@@ -15,7 +15,7 @@ tags:
 # Category of modules over a commutative ring
 
 Let $R$ be a [[commutative ring]].
-Then [[Category of left modules]] is a [[closed monoidal category]] under the normal [[Tensor product of modules over a commutative ring|tensor product]] with $R$ regarded as an $R$-module as its tensor unit. #m/thm/module 
+Then [[Category of left modules]] is a [[Monoidal closed category]] under the normal [[Tensor product of modules over a commutative ring|tensor product]] with $R$ regarded as an $R$-module as its tensor unit. #m/thm/module 
 See also the special case of [[Category of vector spaces]].
 
 #

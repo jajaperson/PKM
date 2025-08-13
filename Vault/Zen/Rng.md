@@ -10,6 +10,8 @@ and a [[Semigroup]] $(R, \cdot)$ called **multiplication**, with the extra condi
 - **left-distributivity** $a \cdot (b + c) = (a \cdot b) + a \cdot c)$
 - **right-distributivity** $(b + c) \cdot a = (b \cdot a) + (c \cdot a)$
 
+These are precisely the [[semigroup object|semigroup objects]] in [[Category of abelian groups]].
+
 ## Examples
 
 An example of a rng that is not a [[ring]] is the even integers

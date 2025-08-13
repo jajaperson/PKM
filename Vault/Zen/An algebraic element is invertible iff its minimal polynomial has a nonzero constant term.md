@@ -5,7 +5,7 @@ tags:
 [[Algebraic element]]
 # An algebraic element is invertible iff its minimal polynomial has a nonzero constant term
 
-Let $A$ be a [[Unital associative algebra over a field|$\mathbb K$-ring]] and $a \in A$ be an [[algebraic element]] with [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$.
+Let $A$ be a [[K-monoid|$\mathbb K$-ring]] and $a \in A$ be an [[algebraic element]] with [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$.
 Then the following are equivalent[^2008] 
 
 1. $a$ is [[Unit|invertible]] in $A$

@@ -5,14 +5,13 @@ tags:
 [[Monoid object]]
 # Homomorphism of monoid objects
 
-Let $M,M'$ be [[Monoid object|monoids]] in $(\cat C, \otimes, 1, \alpha, \lambda, \rho)$.
-A **monoid homomorphism** $f : M \to M'$ is a [[morphism]] in $\cat C$ such that the diagrams
+Let $M,M'$ be [[Monoid object|monoids]] in $\cat C$.
+A **monoid homomorphism** $f : M \to M'$ is a [[homomorphism of semigroup objects]] which additionally satisfies the unitality condition #m/def/cat
 
-![[monoid homomorphism.svg#invert|https://q.uiver.app/#q=WzAsNyxbMCwxLCIxIl0sWzIsMCwiTSJdLFsyLDIsIk0nIl0sWzQsMCwiTSBcXG90aW1lcyBNIl0sWzQsMiwiTScgXFxvdGltZXMgTSciXSxbNiwwLCJNIl0sWzYsMiwiTSciXSxbMCwyLCJlJyIsMl0sWzAsMSwiZSJdLFsxLDIsImYiXSxbMyw0LCJmIFxcb3RpbWVzIGYiLDJdLFszLDUsIm0iXSxbNSw2LCJmIl0sWzQsNiwibSciLDJdXQ==|600]]
+![[unital-morphism-string.svg#invert|c]]
 
-commute. #m/def/cat 
-These form the morphisms in the [[Category of monoid objects]].
+These form the morphisms in [[Category of monoid objects]].
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

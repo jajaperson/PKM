@@ -19,10 +19,10 @@ where $\yo X = \cat C(-,X)$ is the [[Yoneda embedding]].
 Moreover, this [[bijection]] is a [[natural isomorphism]] in $F$ and $X$
 $$
 \begin{align*}
-\mathrm{H} := \Set^{\cop C}(\yo \times 1) \Rightarrow \mathrm{eval} : \cat C \times \Set^{\cop C} \to \Set
+\mathrm{H} := \Set^{\op{\cat C}}(\yo \times 1) \Rightarrow \mathrm{eval} : \cat C \times \Set^{\op{\cat C}} \to \Set
 \end{align*}
 $$
-where naturality in $F$ means for $\vartheta : F \Rightarrow G : \cop C \to \Set$
+where naturality in $F$ means for $\vartheta : F \Rightarrow G : \op{\cat C} \to \Set$
 
 ![[Yoneda_F_Nat.png#invert|500]]
 
@@ -35,7 +35,7 @@ commutes.[^2010]
 > For $\vartheta \in \Set^{\op{\cat C}}(\yo X, F)$ we have $\vartheta_{X} : \cat C(X,X) \to FX$.
 > Let $x_{\vartheta} := \vartheta_{X}(1_{X}) \in FX$.
 > 
-> Conversely, given an $x \in FX$, we can define $\vartheta_{x} : \yo X \Rightarrow F : \cop C \to \Set$ as follows:
+> Conversely, given an $x \in FX$, we can define $\vartheta_{x} : \yo X \Rightarrow F : \op{\cat C} \to \Set$ as follows:
 > Given any $X'$, we define the component
 > $$
 > \begin{align*}
@@ -59,7 +59,7 @@ commutes.[^2010]
 > $$
 > so $\vartheta_{x}$ is indeed natural.
 > 
-> Now we calculate $\vartheta_{x_{\vartheta}}$ for $\vartheta \in \Set^{\cop C}(\yo X,F)$.
+> Now we calculate $\vartheta_{x_{\vartheta}}$ for $\vartheta \in \Set^{\op{\cat C}}(\yo X,F)$.
 > From the above definitions, for $h \in \cat C(X',X)$ we have
 > $$
 > \begin{align*}
@@ -84,14 +84,14 @@ commutes.[^2010]
 > Therefore
 > $$
 > \begin{align*}
-> \mathrm{H}_{X,F} : \Set^{\cop C}(\yo X, F) &\to FX \\
+> \mathrm{H}_{X,F} : \Set^{\op{\cat C}}(\yo X, F) &\to FX \\
 > \vartheta &\mapsto x_{\vartheta}
 > \end{align*}
 > $$
 > defines a bijection for any $X,F$.
 > 
-> For naturality in $F$, suppose $\vartheta \in \Set^{\cop C}(F,G)$
-> Then for any $\varphi \in \Set^{\cop C}(\yo X, F)$ we have
+> For naturality in $F$, suppose $\vartheta \in \Set^{\op{\cat C}}(F,G)$
+> Then for any $\varphi \in \Set^{\op{\cat C}}(\yo X, F)$ we have
 > $$
 > \begin{align*}
 > \mathrm{H}_{X,F}(x_{\phi}) &= \vartheta_{X}\, x_{\phi} = \vartheta_{X} \, \phi_{X} (1_{X}) = (\vartheta\phi)_{X}(1_{X}) \\
@@ -102,10 +102,10 @@ commutes.[^2010]
 > so the required diagram commutes.
 > 
 > For naturality in $X$, suppose $h \in \cat C(X,Y)$.
-> Then for $\psi \in \Set^{\cop C}(\yo Y,F)$ we have
+> Then for $\psi \in \Set^{\op{\cat C}}(\yo Y,F)$ we have
 > $$
 > \begin{align*}
-> \mathrm{H}_{X,F} \, \Set^{\cop C}(\yo h,F)\, \psi 
+> \mathrm{H}_{X,F} \, \Set^{\op{\cat C}}(\yo h,F)\, \psi 
 > &= \mathrm{H}_{X,F} (\psi (\yo h)) \\
 > &= (\psi (\yo h))_{X}\,(1_{X}) \\
 > &= \psi_{X}(\yo h)_{X}\,(1_{X}) \\
