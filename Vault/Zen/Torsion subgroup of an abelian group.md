@@ -9,7 +9,7 @@ tags:
 Given an [[Abelian group]] $G$ we may form the **torsion subgroup** $G_{T}$ containing all elements of finite order, i.e. $G_{T} = \{ x \in G \mid \exists n \in \mathbb{N} \; x^n = e \}$. #m/def/group  #m/thm/group
 
 > [!check]- Proof of subgroup
-> Clearly $e \in G_{T}$, so the set is nonempty.
+> Clearly $e \in G_{T}$, so the set is inhabited.
 > Let $a,b \in G_{T}$,
 > so that there exist $m,n \in \mathbb{N}$ such that $a^m = b^n = e$.
 > Then $(ab^{-1})^{mn} = a^{mn}b^{-mn} = (a^m)^n (b^n)^{-m} = e$,

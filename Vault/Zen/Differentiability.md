@@ -5,6 +5,7 @@ aliases:
   - analytic
   - differentiable
   - differentiability class
+  - $C^\alpha$
 mathLink-blocks:
   smooth: $C^\infty$
 ---
@@ -37,7 +38,7 @@ A function $f : \mathbb{R}^N \to \mathbb{R}^M$ is $C^n$ iff it has all $n$-th or
 
 ### Arbitrary subsets of real coördinate space
 
-Let $X \sube \mathbb{R}^N$ be nonempty.
+Let $X \sube \mathbb{R}^N$ be inhabited.
 A function $f : X \to \mathbb{R}^M$ is $C^k$ iff every $x \in X$ has an open neighbourhood $U \sube \mathbb{R}^N$ with a $C^k$ extension $F : U \to \mathbb{R}^M$ such that $F(y) = f(y)$ for all $y \in X \cap U$. #m/def/geo/diff 
 
 By considering [[Real embedded manifold|real submanifolds]], this yields the notion of differentiability for maps between such manifolds.

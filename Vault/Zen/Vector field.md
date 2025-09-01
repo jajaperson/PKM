@@ -2,22 +2,23 @@
 tags:
   - public
 ---
-[[Infinitesimal calculus MOC]]
+[[Differential geometry MOC]]
 # Vector field
 
 Let $(M, \mathscr{A})$ be a $C^\alpha$-[[Differentiable manifold|manifold]].
 A $C^\alpha$-**vector field** formalizes the idea of assigning a vector _smoothly_ to every point in $M$.
-The set of all vector fields on $M$ is denoted $\opn{Vect}(M)$. #m/def/geo/diff
+The set of all vector fields on $M$ is denoted $\opn{Vect}(M)$, #m/def/geo/diff
+which forms a [[Module over a commutative ring|module]] over $C^\alpha(M)$ and thus in particular a (usually infinite-dimensional) vector space over $\mathbb{R}$.
 
 ## Intrinsic manifold
 
 The following characterizations of vector fields and $\opn{Vect}(M)$ are both useful.
 
 > [!info]- As a section of $TM$
-> A vector field may be characterized as a [[Bundle section|section]] of the [[tangent bundle]] $TM$, thus
+> A vector field may be characterized as a [[Bundle section|section]] of the [[Tangent bundle]] $TM$, thus
 > $$
 > \begin{align*}
-> \opn{Vect}(M) := \Gamma(M,TM).
+> \opn{Vect}(M) := \Gamma(TM).
 > \end{align*}
 > $$
 
@@ -26,9 +27,17 @@ The following characterizations of vector fields and $\opn{Vect}(M)$ are both us
 > A $C^\alpha$-**vector field** is a [[Derivation on an algebra|derivation]] on the algebra of smooth (scalar-valued) functions $C^\alpha(M)$, thus
 > $$
 > \begin{align*}
-> \opn{Vect}(M) := \mathfrak{der}(C^\alpha(M))
+> \opn{Vect}(M) := \mathfrak{der}(C^\alpha(M)).
 > \end{align*}
 > $$
+> The evaluation $v_{p}$ of a vector field $v \in \opn{Vect}(M)$ at a point $p \in M$ is then the derivation
+> $$
+> \begin{align*}
+> v_{p} : C^\alpha(M) &\to \mathbb{R} \\
+> f &\mapsto v(f)(p)
+> \end{align*}
+> $$
+> which gives a map $\opn{Vect}(M) \to \Gamma(TM)$.
 
 
 > [!missing]- Equivalence of charactrerizations

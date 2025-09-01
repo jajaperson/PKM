@@ -21,7 +21,7 @@ Then $X$ is [[Compact space|compact]] iff it is sequentially compact. #m/thm/top
 > [!check]- Proof
 > Let $X$ be a [[First countability axiom|first-countable]] [[Compact space]],
 > and $(x_n)_{n=1}^\infty \in X$ be a sequence with end pieces $M_{m} = \{ m_{n} \}_{n=m}^\infty$.
-> The intersection of finite end pieces will always be nonempty,
+> The intersection of finite end pieces will always be inhabited,
 > since $m \geq n \implies M_{m} \sube M_{n}$,
 > so by [[Compact space#Complement characterisation]] $\bigcap_{n = 1}^\infty M_{n} \neq \0$
 > and thus the intersection of [[closure|closures]] $\bigcap_{n=1}^\infty M_{n} \neq \0$.

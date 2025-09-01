@@ -16,7 +16,7 @@ Similarly to a [[normal subgroup]] in group theory,
 an ideal can be used to construct a [[Quotient ring]].
 
 > [!tip]+ Ideal test
-> Let $A$ be a nonempty subset of a ring $R$.
+> Let $A$ be a inhabited subset of a ring $R$.
 > Then $A$ is an ideal iff $a-b \in A$ for all $a,b \in A$
 > and $ar, ra \in A$ for all $a \in A$ and $r \in R$. 
 

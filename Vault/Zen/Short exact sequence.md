@@ -17,7 +17,7 @@ A **morphism of short exact sequences** is a triple $(\alpha,\beta,\gamma)$ of h
 ## Properties
 
 1. $f$ is guaranteed to be injective and $g$ to be surjective (see [[Exact sequence#Properties]])
-2. [[Split exact sequence]]
+2. [[Split short exact sequence]]
 
 
 #

@@ -20,7 +20,13 @@ such that
 1. $1 \cdot v = v$ for $v \in V$
 2. $(ab)\cdot v = a \cdot(b \cdot v)$ for $a,b \in A$, $v \in V$
 
-This is equivalent to a **representation** of $A$ carried by $V$.
+which is a curried version of a [[Algebra homomorphism|unital algebra homomorphism]]
+$$
+\begin{align*}
+A \to \End_{\mathbb{K}}(V).
+\end{align*}
+$$
+We also call this a **representation** of $A$ carried by $V$.
 
 ## Properties and further terminology
 

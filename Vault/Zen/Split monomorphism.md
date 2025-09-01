@@ -3,14 +3,14 @@ aliases:
   - split monic
   - split mono
   - retraction
-  - left-inverse
+  - postinverse
 tags:
   - public
 ---
 [[Monomorphism]]
 # Split monomorphism
 
-A **split monomorphism** $m : X \to Y$ is a morphism with a **left-inverse** or **retraction** $r : Y \to X$, #m/def/cat 
+A **split monomorphism** $m : X \to Y$ is a morphism with a **postinverse** or **retraction** $r : Y \to X$, #m/def/cat 
 so that $r \circ m = \id_{X}$.
 Note that $m$ is necessarily a [[monomorphism]], 
 and $r$ has the dual property of being a [[split epimorphism]].

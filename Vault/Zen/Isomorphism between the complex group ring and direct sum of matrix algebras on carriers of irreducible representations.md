@@ -11,7 +11,7 @@ Consider unitary irreps $\Gamma^\alpha : G \to \mathrm{GL}(\mathbb{C}^{d_{\alpha
 Then there exists a unitary isomorphism from the [[Group ring]] to the direct sum of matrix algebras
 $$
 \begin{align*}
-\mathbb{C}[G] \to \bigoplus_{\alpha \in \hat{G}} \Vect_{\mathbb{C}}(\mathbb{C}^{d_{\alpha}}, \mathbb{C}^{d_{\alpha}})
+\mathbb{C}[G] \to \bigoplus_{\alpha \in \hat{G}} \opn M_{d_{\alpha},d_{\alpha}}(\mathbb{C})
 \end{align*}
 $$
 defined by $f \mapsto \widehat{f}$ with[^sim] #m/thm/rep

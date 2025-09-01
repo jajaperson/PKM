@@ -8,10 +8,10 @@ aliases:
 [[Group representation theory MOC]]
 # Group character
 
-A **character** $\chi$ of a group $G$ over a [[field]] $\mathbb{K}$ is a map  $\chi : G \to \mathbb{K}$ that can be defined as the [[Trace]] of a [[Group representation]] $\Gamma : G \to \Vect_{\mathbb{K}}$. #m/def/rep 
+A **character** $\chi$ of a group $G$ over a [[field]] $\mathbb{K}$ is a map  $\chi : G \to \mathbb{K}$ that can be defined as the [[Trace]] of a [[Group representation]] $\mathfrak{X} : G \to \Vect_{\mathbb{K}}$. #m/def/rep 
 $$
 \begin{align*}
-\chi(g) = \Tr \Gamma(g) = \sum_{j = 1}^{\dim \Gamma} \Gamma_{jj}(g)
+\chi(g) = \Tr \mathfrak{X}(g) = \sum_{j = 1}^{\dim \Gamma} \mathfrak{X}_{jj}(g)
 \end{align*}
 $$
 Characters neatly summarize representations. See [[Character table]].

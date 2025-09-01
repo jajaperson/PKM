@@ -6,12 +6,17 @@ alias: irreducible module
 [[Module theory MOC]]
 # Simple module
 
-A [[module]] $M \in \lMod R$ is **simple** or **irreducible** iff it has no nontrivial proper [[Submodule]]. #m/def/module 
+ A (left) [[module]] $M \in \lMod R$ is (left) **simple** or **irreducible** iff it has no nontrivial proper [[submodule]]. #m/def/module 
 
 ## Properties
 
 - [[Schur's lemma]] states that any nonzero homomorphism between simple modules is an isomorphism.
 
+
+## See also
+
+- [[Semisimple module]]
+
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

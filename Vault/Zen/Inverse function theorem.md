@@ -25,7 +25,7 @@ The constructive proof relates to [[Newton's method]].
 ## Corollary
 
 The above theorem is easily extended to a $C^\infty$ [[Differentiability|differentiable]] map $f:X\to Y$ between $C^\infty$ [[Differentiable manifold|differentiable manifolds]] $X,Y$.
-If the [[Differential pushforward]] $T_{x}f : T_{x}X \to T_{f(x)}Y$ is a [[linear isomorphism]],
+If the [[Differential pushforward]] $T_{x}f : T_{x}X \to T_{f(x)}Y$ is a [[Linear isomorphism]],
 then $f$ is a local [[diffeomorphism]],
 as one expects from the [[Linearization dogma]].
 

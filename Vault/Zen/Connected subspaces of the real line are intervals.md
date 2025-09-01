@@ -18,7 +18,7 @@ The only connected subspaces of $\mathbb{R}$ with the standard topology are inte
 > $$
 > contradicting our requirement that $A$ be connected.
 > 
-> Conversely, let $I$ be an interval and $I = U \cup V$ for some nonempty disjoint open $U, V$.
+> Conversely, let $I$ be an interval and $I = U \cup V$ for some inhabited disjoint open $U, V$.
 > Without loss of generality assume there exists $x \in U, y \in V$ such that $x < y$.
 > By the [[Complete metric space|completeness]] of $\mathbb{R}$, the supremum $s = \sup U \cap [0,y)$ exists,
 > and $x < s \leq y$,

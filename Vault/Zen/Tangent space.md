@@ -9,6 +9,43 @@ The **tangent space** $T_{p}X$ of a [[differentiable manifold]] $X$ at a point $
 A number of equivalent characterizations are useful.
 See also [[Differential pushforward]], [[Tangent bundle]], and [[Tangent map]].
 
+## Intrinsic manifold
+
+The following characterizations of $T_{p}M$ are all useful.
+
+> [!info]- As derivations at a point
+> Let $p \in M$, and suppose $\opn{Vect}(M)$ is the set of [[Vector field|vector fields]] viewed as derivations.
+> We define the **tangent space** $T_{p}X \sube \mathbb{R}^{C^\alpha(M)}$ as the image of the map
+> $$
+> \begin{align*}
+> \opn{Vect}(M) &\twoheadrightarrow T_{p}M \\
+> v &\mapsto v_{p},
+> \end{align*}
+> $$
+> i.e. the set of all derivations evaluated at $p$.
+
+
+> [!info]- Chart-free characterization as velocities
+> Let $p \in M$, $x \in \mathscr{A}$ be a chart at $p$, and
+> $$
+> \begin{align*}
+> \Theta &= \Man_{•}^\alpha(((-\epsilon,\epsilon), 0), (X,x)) \\
+> \end{align*}
+> $$
+> be the set of all [[Differentiability|$C^\alpha$]] paths $\omega: (-1,1) \to X$ such that $\omega(0)=p$.
+> We define an [[equivalence relation]] $(\sim)$ on $\Theta$ so that two paths $\omega, \vartheta\in \Theta$ are equivalent iff
+> $$
+> \begin{align*}
+> (x \circ \omega)'(0) = (x \circ \vartheta)'(0)
+> \end{align*}
+> $$
+> which is easily shown to be independent of choice of $x$.
+> 
+> [!missing]- From the cotangent space
+> The tangent space is the dual of the [[Cotangent space]], which can be defined directly.
+
+
+
 ## Real embedded manifold
 
 Both the following characterizations of the tangent space of a [[real embedded manifold]] is useful.
@@ -28,7 +65,7 @@ Both the following characterizations of the tangent space of a [[real embedded m
 > 
 > ![[tangent space.png#invertW]]
 
-> [!info]- Chart-free characterization
+> [!info]- Chart-free characterization as velocities
 > Let $X \sube \mathbb{R}^N$ be a [[Real embedded manifold]] and $x \in X$.
 > Let
 > $$

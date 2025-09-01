@@ -34,7 +34,7 @@ A ring $R$ is called (left) **Noetherian** iff any of the following equivalent c
 > Suppose [[#^N3]] holds,
 > and let $I \trianglelefteq R$ be an arbitrary (left/right) ideal.
 > Letting $\mathfrak{I}$ be the set of finitely generated ideals contained in $I$,
-> which is nonempty since $0 \in \mathfrak{I}$,
+> which is inhabited since $0 \in \mathfrak{I}$,
 > and thus contains a maximal element $I' \in \mathfrak{I}$.
 > Assume towards contradiction $I' \neq I$.
 > Then we can take $x  \in I \setminus I'$,

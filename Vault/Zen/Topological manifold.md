@@ -28,6 +28,10 @@ every manifold is topologically a manifold.
 - Every manifold is a [[Locally compact space]].
 - A [[Level set]] of a multivariable function $f : \mathbb{R}^{n+1} \to \mathbb{R}$ with no stationary points is an $n$-dimensional manifold.
 
+## See also
+
+- [[Category of manifolds|$\cat{Man}^0$]]
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

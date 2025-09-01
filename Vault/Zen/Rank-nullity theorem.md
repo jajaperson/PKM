@@ -15,9 +15,9 @@ $$
 and thus the sum of the [[rank]] and the [[Linear kernel|nullity]] equals the [[Dimension of a vector space|dimension]] of $U$[^2008]
 $$
 \begin{align*}
-\rank T + \nullity T = \dim U
-\end{align*}
+\rank T + \nullity T = \dim U.\end{align*}
 $$
+In full generality, this is downstream of [[Axiom of Choice|AC]].
 
 [^2008]: 2008\. [[Sources/@romanAdvancedLinearAlgebra2008|Advanced Linear Algebra]], p. 63
 

@@ -20,6 +20,9 @@ A linear map is an example of a [[Module homomorphism]].
 > - The origin remains in place
 > - Grid lines remain evenly spaced
 > - Grid lines remain parallel
+> 
+> ![[ExampleLinear_ManimCE_v0.18.1.gif]]
+
 
   [^var]: variously called a **linear transformation**, **linear operator**, **linear function**, **linear morphism**.
 
@@ -27,8 +30,8 @@ A linear map is an example of a [[Module homomorphism]].
 
 Some of these properties apply for a more general [[Module homomorphism]]
 
-- A linear map $T \in \Vect_{\mathbb{K}}(U,V)$ is [[Epimorphism|epic]] iff it is surjective iff $\im T = V$
-- A linear map $T \in \Vect_{\mathbb{K}}(U,V)$ is [[Monomorphism|monic]] iff it is injective iff $\ker T = \{ \vab 0 \}$
+- A linear map $T \in \Vect_{\mathbb{K}}(U,V)$ is [[Linear epimorphism|epic]] iff it is surjective iff $\im T = V$
+- A linear map $T \in \Vect_{\mathbb{K}}(U,V)$ is [[Linear monomorphism|monic]] iff it is injective iff $\ker T = \{ \vab 0 \}$
 - A linear map is an [[Linear isomorphism|isomorphism]] iff it is [[Surjectivity, injectivity, and bijectivity|bijective]] iff it is epic and monic
 - [[Rank-nullity theorem]]
 

@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - Hilbert-Poincaré series
 ---
 [[Graded vector space]]
 # Graded dimension
@@ -13,7 +15,8 @@ $$
 \dim_{*}(V;x) = \sum_{\alpha \in S} (\dim V_{\alpha}) x^\alpha \in \mathbb{N}^{S;x}
 \end{align*}
 $$
-where $\mathbb{N} \{ x;S \}$ is a sort of [[rig]] of functions.
+where $\mathbb{N}^{ S;x}$ is a sort of [[rig]] of functions.
+The graded dimension is also called the **Hilbert-Poincaré series**.
 
   [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §1.10, p. 42
 
@@ -31,4 +34,4 @@ In addition, if $V,W$ are $\mathfrak{A}$-graded where $(\mathfrak{A},+)$ is a [[
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

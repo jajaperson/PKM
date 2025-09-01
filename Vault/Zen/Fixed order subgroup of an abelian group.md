@@ -11,7 +11,7 @@ i.e. $H = \{ x \in G \mid x^n = e \}$.
 
 > [!check]- Proof
 > Let $n \in \mathbb{Z}$
-> Clearly $e^n = e$ so $H$ is nonempty.
+> Clearly $e^n = e$ so $H$ is inhabited.
 > Let $x,y \in H$.
 > Since $G$ is abelian $(xy^{-1})^n = x^n (y^n)^{-1} = e$,
 > it follows $xy^{-1} \in H$.

@@ -1,6 +1,7 @@
 ---
 tags:
   - public
+alias: regular module
 ---
 [[Module over a unital associative algebra]]
 # Regular representation
@@ -11,7 +12,7 @@ $$
 \Lambda(a)b = a b
 \end{align*}
 $$
-Thus every [[K-monoid]] is a [[Module over a unital associative algebra|module]] over itself.
+Thus every [[K-monoid]] is a [[Module over a unital associative algebra|module]] ${}_{A}A$ over itself.
 
 
 #

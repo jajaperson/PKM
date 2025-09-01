@@ -78,7 +78,7 @@ $$
 > (\vab a, \vab b) &\mapsto Df(x_{0})(\vab a)+\vab b
 > \end{align*}
 > $$
-> which is a [[linear isomorphism]],
+> which is a [[Linear isomorphism]],
 > so by the [[Inverse function theorem]] $F$ is locally a diffeomorphism.
 > Thus taking the canonical immersion $i : X \to X \times W^c = \mathbb{R}^m$, we have $Fi = f$, as required.
 > 
@@ -100,7 +100,7 @@ $$
 > \vab a &\mapsto (Df(x)\,\vab a, P\,\vab a)
 > \end{align*}
 > $$
-> which is a [[linear isomorphism]],
+> which is a [[Linear isomorphism]],
 > so by the [[Inverse function theorem]] $F$ is locally a diffeomorphism.
 > Thus taking the canonical submersion $j : \mathbb{R}^m \times K \to \mathbb{R}^m$,
 > we have $jF = f$, as required.

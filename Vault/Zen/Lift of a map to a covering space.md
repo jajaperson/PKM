@@ -83,7 +83,7 @@ Then $\tilde{f}_{1} = \tilde{f}_{2}$ iff $\tilde{f}_{1}(y_{0}) = \tilde{f}_{2}(y
 > Thus $M$ is the union of all $V$ obtained from $y$ with $\tilde{f}_{1}(y) = \tilde{f}_{2}(y)$ and is thus open.
 > Now if $\tilde{f}_{1}(y) \neq \tilde{f}_{2}(y)$, then $\tilde{U}_{1} \neq \tilde{U}_{2}$ and consequently $\tilde{f}_{1}(z) \neq \tilde{f}_{2}(z)$ for all $z \in V$.
 > Thus $Y \setminus M$ is the union of all $V$ obtained from $y$ with $\tilde{f}_{1}(y) \neq \tilde{f}_{2}(y)$ and is thus open.
-> Therefore $M$ is clopen and nonempty ($y_{0} \in M$),
+> Therefore $M$ is clopen and inhabited ($y_{0} \in M$),
 > so since $Y$ is [[Connectedness|connected]], $M = Y$.
 > Hence $\tilde{f}_{1} = \tilde{f}_{2}$.
 > <span class="QED"/>

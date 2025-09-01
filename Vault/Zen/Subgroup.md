@@ -12,7 +12,7 @@ i.e. $H$ is
 
 ## Tests for subgroups
 
-Let $G$ be a group and $H \sube G$ be a nonempty subset.
+Let $G$ be a group and $H \sube G$ be a inhabited subset.
 Additionally we define predicate $p$ so that $H = \{ x \in G \mid p(x) \}$.
 The following hold:[^gallian]
 
@@ -22,7 +22,7 @@ The following hold:[^gallian]
 **Theorem.** Iff $ab^{-1} \in H$ whenever $a,b \in H$, then $H$ is a subgroup of $G$. #m/thm/group
 
 > [!check]- Proof
-> Since $H$ is nonempty there exists $x \in H$, then with $a = b = x$ clearly $e \in H$,
+> Since $H$ is inhabited there exists $x \in H$, then with $a = b = x$ clearly $e \in H$,
 > $H$ must be closed under inversion, since letting $a=e$ for any $b \in H$ we have $eb^{-1} = b^{-1} \in H$.
 > Now we can show that $H$ is closed in general:
 > For any $a,b \in H$ we have $b^{-1} \in H$ and therefore $ab = a(b^{-1})^{-1} \in H$. <span class="QED"/>
@@ -38,7 +38,7 @@ The following hold:[^gallian]
 then $H$ is a subgroup of $G$. #m/thm/group
 
 > [!check]- Proof
-> Since $H$ is nonempty there exists $x$ in $H$, thus $x^{-1} \in H$ and thus $e = x x^{-1} \in H$.
+> Since $H$ is inhabited there exists $x$ in $H$, thus $x^{-1} \in H$ and thus $e = x x^{-1} \in H$.
 > Thence $H$ is a subgroup of $G$. <span class="QED"/>
 
 > [!info]- Application

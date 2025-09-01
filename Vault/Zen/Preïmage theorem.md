@@ -50,7 +50,7 @@ Then the fibre $S= f^{-1} \{ y \}$ is a $C^\infty$ [[submanifold]] of $X$ of dim
 > \vab a &\mapsto (T_{x}f \,\vab a, P\,\vab a)
 > \end{align*}
 > $$
-> which is clearly a [[linear isomorphism]],
+> which is clearly a [[Linear isomorphism]],
 > so by the [[inverse function theorem]] $F$ is locally a diffeomorphism at $x$,
 > i.e. maps some open neighbourhood $U$ of $x$ diffeomorphically onto a neighbourhood $\tilde{U}$ of $(y, P(x))$,
 > Thus $F$ maps $f^{-1} \{ y \} \cap U$ diffeomorphically onto $(\{  y \} \times K) \cap \tilde{U}$ which is diffeomorphic to an open subset of $\mathbb{R}^{n-m}$.

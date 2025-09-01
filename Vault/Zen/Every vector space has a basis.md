@@ -15,7 +15,7 @@ and every spanning set contains a basis.
 
 > [!check]- Proof
 > Consider the set $\mathcal{A}$ of all linearly independent subsets of $S$ containing $I$,
-> which is nonempty since $I \sube S$.
+> which is inhabited since $I \sube S$.
 > Clearly $\mathcal{A}$ forms a [[complete lattice]].
 > If $\mathcal{C} = \{ I_{k} \}_{k\in K}$ is a [[Totally ordered set|chain]],
 > then the union $U = \bigcup_{k \in K}I_{k}$ is linearly independent and satisfies $I \sube U \sube S$.

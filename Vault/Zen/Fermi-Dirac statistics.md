@@ -6,7 +6,7 @@ tags:
 # Fermi-Dirac statistics
 
 **Fermi-Dirac statistics** is applicable to a system of $N$ identical and indistinguishable [[Fermion|fermions]], i.e. particles obeying the [[Pauli exclusion principle]] and thus unable to occupy the same states.
-A unique microstate is therefore labelled by ever combination of occupation numbers $K_i \in \{ 0,1 \}$ for each particle state $\ket{i}$,
+A unique microstate is therefore labelled by every combination of occupation numbers $K_i \in \{ 0,1 \}$ for each particle state $\ket{i}$,
 such that all occupation numbers add to $N = \sum_{i} K_{i}$,
 $$
 \begin{align*}

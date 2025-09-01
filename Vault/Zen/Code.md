@@ -11,7 +11,7 @@ mathLink-blocks:
 [[Coding theory MOC]]
 # Code
 
-A $q$-ary **code** $\mathcal{C}$ of length $n$ is a nonempty subset $\mathcal{C} \sube S_{q}^n$,
+A $q$-ary **code** $\mathcal{C}$ of length $n$ is a inhabited subset $\mathcal{C} \sube S_{q}^n$,
 where $S_{q}$ is a set (called an **alphabet**) containing $q$ letters.[^1999] #m/def/code 
 
 - An element $x \in \mathcal{C}$ is thence called a **codeword**.

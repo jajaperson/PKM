@@ -25,7 +25,7 @@ In its full form, it is equivalent to the [[Axiom of Choice]] over [[ZF]].[^wiki
 > \mathcal{C}_{\alpha} = \{ V \in \mathcal{C} : (\exists U \in \mathcal{T}_{\alpha})[\pi^{-1}_{\alpha}U=V] \}
 > \end{align*}
 > $$
-> is nonempty for some $\alpha$,
+> is inhabited for some $\alpha$,
 > so invoking the [[Axiom of Choice]] we may fix some $\alpha$ and get a subcover $\mathcal{C}_{\alpha} \sube \mathcal{C}$.
 > But this induces an open cover of $X_{\alpha}$, which by [[Compact space|compactness]] has an open subcover $\mathcal{D}_{\alpha}$ such that $\pi^{-1}\mathcal{D}_{\alpha}$ is a subcover of $\mathcal{C}_{\alpha} \sube \mathcal{C}$.
 > <span class="QED"/>

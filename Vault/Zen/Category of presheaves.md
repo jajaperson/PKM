@@ -1,6 +1,6 @@
 ---
 categoryName: category of presheaves
-symbol: $\Set^{\cat{\op{\cat C}}}$
+symbol: $\Set^{{\op{\cat C}}}$
 object: "[[Presheaf]]"
 morphism: "[[natural transformation]]"
 tags:
@@ -20,6 +20,7 @@ Thus it is a particular example of a [[functor category]].
 ## Properties
 
 - By the [[Yoneda embedding]], $\cat C$ is a [[Subcategory|full subcategory]] of $\Set^{\op{\cat C}}$
+
 
 #
 ---
