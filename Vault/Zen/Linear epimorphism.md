@@ -10,11 +10,12 @@ The following statements are equivalent: #m/thm/linalg
 
 - $T$ is [[Surjectivity, injectivity, and bijectivity|surjective]];
 - $T$ is [[Morphism|epic]] in [[Category of vector spaces]];
-- $T$ is [[Split epimorphism|split epic]] in [[Category of vector spaces]] (assuming [[Axiom of Choice|AC]])l
+- $T$ is [[Split epimorphism|split epic]] in [[Category of vector spaces]] (assuming [[Axiom of Choice|AC]])
 - $\coker T = \{ 0 \}$.
 
-> [!check]- Proof
+> [!missing]- Proof
 > See [[Module epimorphism]]
+
 
 #
 ---

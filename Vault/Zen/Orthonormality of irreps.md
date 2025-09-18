@@ -5,7 +5,7 @@ tags:
 [[Group representation theory MOC]]
 # Orthonormality of unitary irreducible representations
 
-Let $\Gamma^\alpha_{jk} \in \mathbb{C}[G]$ be [[Matrix representation|concrete reälizations]] of [[Reducibility of representations|irreps]] $\Gamma^\alpha : G \to \mathbb{C}^{d_{\alpha}}$ for each $\alpha \in \hat{G}$.
+Let $\Gamma^\alpha_{jk} \in \mathbb{C}[G]$ be [[Matrix representation|concrete realizations]] of [[Reducibility of representations|irreps]] $\Gamma^\alpha : G \to \mathbb{C}^{d_{\alpha}}$ for each $\alpha \in \hat{G}$.
 Then $\{ \sqrt{ d_{\alpha} } \Gamma^\alpha_{ij} \}$ with $\alpha \in \hat{G}$, $1 \leq i,j \leq d_{\alpha}$ form an [[Orthonormal basis]] of the [[Group ring|Group ring]] under a certain [[Group ring#Hilbert space|inner product]].[^sim] #m/thm/rep 
 In particular
 $$
@@ -15,6 +15,10 @@ $$
 $$
 
 [^sim]: 1996, [[@simonRepresentationsFiniteCompact1996|Representations of finite and compact groups]], §III.1
+
+
+> [!warning]+ Should be changed
+> I think its more productive to view these as elements of $\mathbb{C}^G$
 
 > [!check]- Proof of orthonormality
 > Let $\mathbf{A} : \mathbb{C}^{d_{\alpha}} \to \mathbb{C}^{d_{\beta}}$ be an arbitrary [[linear map]].

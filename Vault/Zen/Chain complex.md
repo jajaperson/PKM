@@ -37,6 +37,7 @@ and two cycles in the same homology class are called **homologous**.
 
 - A **non-negative** chain complex has $A_{k} = 0$ trivial for all $k < 0$.
 - A structure-preserving map of chain complexes is a [[Chain map]], which form the morphisms in [[Category of chain complexes]].
+- One can form the [[Direct sum of chain complexes]].
 
 ## Properties
 

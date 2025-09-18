@@ -6,9 +6,20 @@ tags:
 # Differential pushforward
 
 The **pushforward** or **tangent (space) map** is a generalization of the [[total derivative]] to an arbitrary [[differentiable manifold]].
-Let $X,Y$ be differential manifolds and $f : X \to Y$.
 #m/def/geo/diff
 See [[Tangent map]] for the related map of [[Tangent bundle|tangent bundles]].
+
+## Intrinsic manifold
+
+> [!info]+ Via vector fields
+> Let $\varphi : M \to N$ be a morphism of $C^\alpha$-[[Differentiable manifold|manifolds]].
+> For any [[vector field]] $v \in \mathfrak{X}(M)$ the pushforward $\varphi_{*}v \in \mathfrak{X}(N)$ is defined so that
+> $$
+> \begin{align*}
+> \mathrm{d}f\,(\varphi_{*}v) = \nabla_{\varphi_{*}v} f := \nabla_{v} (\varphi^* f) = \mathrm{d}(\varphi^* f) \, v
+> \end{align*}
+> $$
+> for any [[scalar field]] $f \in C^\alpha(M)$.
 
 ## Real embedded manifold
 
@@ -98,6 +109,11 @@ Let $f : X \to Y : x \mapsto y$ and $g : Y \to Z : y \mapsto z$ be $C^\infty$ [[
 > \end{align*}
 > $$
 > as required. <span class="QED"/>
+
+## Related
+
+- [[Tangent map]]
+- [[Differential pullback]]
 
 #
 ---

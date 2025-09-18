@@ -26,7 +26,7 @@ See dual [[Split monomorphism#Properties]].
 ## See also
 
 - [[Extension|Split extension]]
-- [[Internal Axiom of Choice]]
+- [[External Axiom of Choice]]
 
 #
 ---

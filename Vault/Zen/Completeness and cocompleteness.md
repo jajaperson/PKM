@@ -23,6 +23,11 @@ A [[category]] $\cat C$ is said to be #m/def/cat
 
 1. [[Finite (co)completeness criterion]]
 
+## See also
+
+- [[Exact functor]]
+- [[Continuity and cocontinuity|(Co)continuous functor]]
+
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

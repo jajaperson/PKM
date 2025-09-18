@@ -7,18 +7,18 @@ tags:
 
 The **tangent space** $T_{p}X$ of a [[differentiable manifold]] $X$ at a point $p \in X$ is a [[vector space]] corresponding to possible velocities when moving through $x$. #m/def/geo/diff 
 A number of equivalent characterizations are useful.
-See also [[Differential pushforward]], [[Tangent bundle]], and [[Tangent map]].
+See also [[Differential pushforward]], [[Tangent bundle]].
 
 ## Intrinsic manifold
 
 The following characterizations of $T_{p}M$ are all useful.
 
 > [!info]- As derivations at a point
-> Let $p \in M$, and suppose $\opn{Vect}(M)$ is the set of [[Vector field|vector fields]] viewed as derivations.
+> Let $p \in M$, and suppose $\mathfrak{X}(M)$ is the set of [[Vector field|vector fields]] viewed as derivations.
 > We define the **tangent space** $T_{p}X \sube \mathbb{R}^{C^\alpha(M)}$ as the image of the map
 > $$
 > \begin{align*}
-> \opn{Vect}(M) &\twoheadrightarrow T_{p}M \\
+> \mathfrak{X}(M) &\twoheadrightarrow T_{p}M \\
 > v &\mapsto v_{p},
 > \end{align*}
 > $$
@@ -44,7 +44,13 @@ The following characterizations of $T_{p}M$ are all useful.
 > [!missing]- From the cotangent space
 > The tangent space is the dual of the [[Cotangent space]], which can be defined directly.
 
+> [!info]- Via the cotangent space
+> The [[cotangent space]] $T_{p}^*M$ admits an intrinsic characterization,
+> which is applicable in other (non-differentiable) settings.
+> The tangent space is simply the [[dual vector space]] $(T_{p}^*M)^*$.
 
+> [!missing]- Equivalence of characterizations
+> #missing/proof 
 
 ## Real embedded manifold
 

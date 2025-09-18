@@ -17,6 +17,10 @@ A **finite group** $G$ is a group with finitely many elements. #m/def/group
 - [[Group of prime order]]
 - [[Groups of order 2]]
 
+## See also
+
+- [[Category of finite groups]]
+
 #
 ---
 #state/develop | #lang/en | #SemBr

@@ -15,9 +15,10 @@ $$
 or equivalently, and element of the [[Tensor product of vector spaces|tensor product space]]
 $$
 \begin{align*}
-T \in \underbrace{ V \otimes \dots \otimes V }_{ p } \otimes \underbrace{ V^* \otimes \dots \otimes V^* }_{ q } = \mathcal{T}^p_{q}
+T \in \underbrace{ V \otimes \dots \otimes V }_{ p } \otimes \underbrace{ V^* \otimes \dots \otimes V^* }_{ q } = \mathcal{T}^p_{q} V
 \end{align*}
 $$
+In infinite-dimensional contexts, it is necessary to use the latter definition.
 
 ## Further terminology
 

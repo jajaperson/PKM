@@ -43,6 +43,7 @@ commutes. Informally, the colimit of $\mathscr{D}$ is the shallowest cone under 
 ## Properties
 
 - [[Limits and colimits as adjoints to the diagonal]]
+- [[(Co)limit construction theorems]]
 
 ## Examples
 

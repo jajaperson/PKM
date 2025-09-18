@@ -12,7 +12,7 @@ A **category** $\cat C$ is a mathematical object consisting of: #m/def/cat
 - a [[collection]] of **objects**, $\ob (\cat C)$, sometimes referred to as $\cat C$ when its meaning is clear;
 - for every ordered pair of objects $X,Y \in \Ob(\cat C)$
   a [[collection]][^loc] of **[[Morphism|morphisms]]** $\cat C(X, Y)$; and
-- a composition operation $(\circ)$ so that given $f \in \cat C (X ,Y)$ and $g \in \cat C(Y,Z)$ we have $g \circ f \in \cat C(X,Z)$.
+- a composition operation $(\circ)$ so that given $f \in \cat C (X ,Y)$ and $g \in \cat C(Y,Z)$ we have $g \circ f \in \cat C(X,Z)$;
 
 and satisfying the following properties
 

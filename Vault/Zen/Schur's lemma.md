@@ -25,7 +25,7 @@ Namely
 
 which also rely on the result from [[Division algebra with only algebraic elements over an algebraically closed field]].
 
-## Group representation theory
+## Schur's lemma for unitary group representations
 
 Schur's lemma is a statement about linear maps which “commute” with an [[irrep]].[^kep][^sim]
 
@@ -83,6 +83,15 @@ $T$ is thence called an [[intertwiner]], which is unique up to scalar multiplica
 
 - [[Irreps of abelian groups are 1-dimensional]]
 
+
+## Schur's lemma in abelian categories
+
+Let $\cat C$ be an [[abelian category]] and $A,B \in \cat C$ be [[Simple object|simple objects]].
+Then every nonzero morphism $f : A \to B$ is an isomorphism. #m/thm/cat 
+In particular, $\End_{\cat C}(A)$ is a [[division ring]].
+
+> [!check]- Proof
+> Essentially, apply the [[Freyd-Mitchell theorem]] to the above proof for modules. <span class="QED"/>
 
 #
 ---

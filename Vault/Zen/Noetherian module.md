@@ -29,7 +29,7 @@ A (left) $R$-[[module]] $M$ is (left) **noetherian** iff every [[submodule]] of 
 > since $\frac{P+N}{N}$ must be finitely generated, so must $\frac{P}{P \cap N}$ be.
 > Therefore by [[Finitely generated module#^P1]], $P$ is finitely generated, proving [[#^P1]]. 
 > 
-> [[#^P2]] is a corollary: Since there is a [[module epimorphism]] $R^{(n)} \twoheadrightarrow M$, the [[Module isomorphism theorems#First isomorphism theorem]] says that $M$ is isomorphic to a quotient of $R^{(n)}$.
+> [[#^P2]] is a corollary: Since there is a [[Module epimorphism]] $R^{(n)} \twoheadrightarrow M$, the [[Module isomorphism theorems#First isomorphism theorem]] says that $M$ is isomorphic to a quotient of $R^{(n)}$.
 > By [[#^P1]] is suffices to show $R^{(n)}$ is noetherian, which we do by induction.
 > 
 > The statement is true for $n=1$ since $R$ is noetherian.

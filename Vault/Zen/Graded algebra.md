@@ -7,7 +7,7 @@ alias: graded
 # Graded algebra
 
 Let $(M, +, 0)$ be a [[monoid]].
-An [[K-algebra|algebra]] $(A, \cdot)$ over $\mathbb{K}$ is said to be $M$-**graded** iff it is an $M$-[[graded vector space]] $A = \bigoplus_{\alpha \in M} A_{\alpha}$
+An [[K-algebra|algebra]] $(A, \cdot)$ over $\mathbb{K}$ is said to be $M$-**graded** iff it is an $M$-[[graded vector space]] $A = \coprod_{\alpha \in M} A_{\alpha}$
 such that #m/def/falg 
 $$
 \begin{align*}

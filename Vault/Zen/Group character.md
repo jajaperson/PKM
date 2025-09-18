@@ -8,7 +8,7 @@ aliases:
 [[Group representation theory MOC]]
 # Group character
 
-A **character** $\chi$ of a group $G$ over a [[field]] $\mathbb{K}$ is a map  $\chi : G \to \mathbb{K}$ that can be defined as the [[Trace]] of a [[Group representation]] $\mathfrak{X} : G \to \Vect_{\mathbb{K}}$. #m/def/rep 
+A **character** $\chi$ of a group $G$ over a [[field]] $\mathbb{K}$ is a map  $\chi : G \to \mathbb{K}$ that can be defined as the [[Trace]] of a finite-degree [[Group representation]] $\mathfrak{X} : G \to \Vect_{(\mathbb{K})}$. #m/def/rep 
 $$
 \begin{align*}
 \chi(g) = \Tr \mathfrak{X}(g) = \sum_{j = 1}^{\dim \Gamma} \mathfrak{X}_{jj}(g)
@@ -34,6 +34,8 @@ i.e. a [[1-dimensional irrep|1-dimensional representation]].
 - [[Irreducible character as function of an idempotent]]
 - [[Finite group character values]]
 - [[Tensor powers of a faithful representation contain all irreps]]
+- [[Kernel of a character]] is the kernel of the representation
+- [[Centre of a character]] is the “centre” of the representation
 
 ## See also
 

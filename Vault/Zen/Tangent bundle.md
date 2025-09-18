@@ -9,7 +9,7 @@ Let $M$ be a $C^\alpha$-[[Differentiable manifold|manifold]].
 The **tangent bundle** is a [[vector bundle]] of all the [[Tangent space|tangent spaces]] of $M$, #m/def/geo/diff  so as a set
 $$
 \begin{align*}
-TM = \coprod_{p \in M} T_{x}M = \bigcup_{p \in M} \{ x \} \times T_{x}M
+TM = \coprod_{p \in M} T_{p}M = \bigcup_{p \in M} \{ p \} \times T_{p}M.
 \end{align*}
 $$
 The construction of topological and $C^\alpha$-structure is a little more involved.

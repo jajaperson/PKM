@@ -7,7 +7,7 @@ aliases:
 [[Module theory MOC]]
 # Graded module
 
-Let $R$ be a $\mathfrak{A}$-[[graded ring]]. A **graded module** $M$ over $R$ is a [[module]] over $R$ with [[Submodule|submodules]] $(M_{\alpha})_{\alpha \in \mathfrak{A}}$ such that $M$ is the [[Direct sum of modules|direct sum]] $\bigoplus_{\alpha \in \mathfrak{A}} M_{\alpha}$ and #m/def/module 
+Let $R$ be a $\mathfrak{A}$-[[graded ring]]. A **graded module** $M$ over $R$ is a [[module]] over $R$ with [[Submodule|submodules]] $(M_{\alpha})_{\alpha \in \mathfrak{A}}$ such that $M$ is the [[Direct sum of modules|direct sum]] $\coprod_{\alpha \in \mathfrak{A}} M_{\alpha}$ and #m/def/module 
 $$
 \begin{align*}
 R_{\alpha} \cdot M_{\beta} \sube V_{\alpha+\beta}

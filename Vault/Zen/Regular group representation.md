@@ -56,6 +56,7 @@ i.e. $\braket{ \delta_{g} | \Lambda(x) \delta_{h} } = \delta_{g}(xh)$, so each $
 ## Properties
 
 - [[The regular representation contains all irreducible representations]]
+- Its character is $\abs G$ times the indicator function $\delta_{1}$.
 
 #
 ---

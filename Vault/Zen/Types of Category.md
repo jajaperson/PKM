@@ -38,5 +38,6 @@ graph TD
 - [[Thin category]]
 - [[Skeletal category]]
 
+
 ---
 #state/develop | #SemBr 

@@ -11,7 +11,7 @@ A thermodynamic potential is an [[Extensive and intensive parameters|extensive]]
   [^n2]: a natural choice of variables for the situation at hand, i.e. the [[Extensive and intensive parameters|intensive or extensive parameters]] that can be controlled directly.
 
 ## Equations of state
-To show that a quantity $M$ is naturally a function of parameters $(x_{i})_{i=1}^n$, one takes the [[exterior derivative]] $dM$ and shows $dM = \sum_{i=1}^n f_{i}dx_{i}$, where $f_{i}$ are 0-forms.
+To show that a quantity $M$ is naturally a function of parameters $(x_{i})_{i=1}^n$, one takes the [[Exterior derivative]] $dM$ and shows $dM = \sum_{i=1}^n f_{i}dx_{i}$, where $f_{i}$ are 0-forms.
 One then arrives at the **equations of state**
 $$
 \begin{align*}

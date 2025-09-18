@@ -1,5 +1,5 @@
 ---
-alias: AC
+aliases: AC
 tags:
   - public
 ---
@@ -30,7 +30,7 @@ $$
   \end{align*}
   $$
 4. Every [[Surjectivity, injectivity, and bijectivity|surjection]] in [[Category of sets]] is [[Split epimorphism|split epic]].
-   This _structuralist_ formulation is an example of the [[Internal Axiom of Choice]].
+   This _structuralist_ formulation is an example of the [[External Axiom of Choice]].
 
 > [!missing]- Proof of equivalence over [[ZF]]
 > #missing/proof

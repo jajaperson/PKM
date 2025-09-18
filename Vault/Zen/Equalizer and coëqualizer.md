@@ -30,7 +30,7 @@ Thus the coëqualizer is the “most general” [[quotient object]] onto which t
 
 ## Properties
 
-1. The equalizer $\mathrm{eq}$ is always a [[Regular monomorphism]].<br/>The equalizer $q$ is always a [[Regular epimorphism]].
+1. The equalizer $\mathrm{eq}$ is always a [[Regular monomorphism]].<br/>The coëqualizer $q$ is always a [[Regular epimorphism]].
 
 ## See also
 

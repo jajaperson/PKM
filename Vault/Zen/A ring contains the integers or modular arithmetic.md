@@ -15,4 +15,4 @@ given by the image of the unique homomorphism $I : \mathbb{Z} \to R$.
 
 #
 ---
-#state/tidu | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

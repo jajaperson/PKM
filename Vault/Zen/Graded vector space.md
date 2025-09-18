@@ -8,7 +8,7 @@ tags:
 Given a set $S$, a [[vector space]] $V$ over $\mathbb{K}$ is said to be **$S$-graded** iff it is (canonically) the [[Direct sum of vector spaces#Internal direct sum|internal direct sum]] #m/def/linalg 
 $$
 \begin{align*}
-V = \bigoplus _{\alpha \in S} V_{\alpha}
+V = \coprod _{\alpha \in S} V_{\alpha}
 \end{align*}
 $$
 for so-called **homogenous subspaces** $V_{\alpha}$ of degrees $\alpha \in S$,

@@ -12,6 +12,8 @@ affectionately called "General Abstract Nonsense" by many mathematicians.
 
 [[History of Category Theory]]
 
+A lot of terminology in category theory is motivated by the [[Category-vector space analogy]].
+
 ## Objects
 
 The central object of category theory is, of course, the [[Category]].

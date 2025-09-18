@@ -72,27 +72,29 @@ Hence it generalizes the [[cross product]],
 which can be thought of as resulting from the linear isomorphism from ${\textstyle\bigwedge}^k \mathbb{K}^3$ to $\mathbb{K}^3$,
 which is natural if $\mathbb{K}^3$ is taken as an [[oriented vector space]].
 
-## Relation to antisymmetric tensors
+## As antisymmetric tensors
 
 Let $\pi : T^\bullet V \to {\textstyle\bigwedge}^\bullet V$ be the [[Homomorphism of graded vector spaces#^graded]] natural projection.
 If $k!$ is invertible in the ground field, in particular if [[Characteristic|$\opn{char}\mathbb K = 0$]], then
-${\textstyle\bigwedge}^k V$ may be identified as a vector space with the subspace $T_{-}^k V$ of [[Tensor algebra|$T^k V$]] consisting of [[Antisymmetric tensor|antisymmetric tensors]], where we identify
+${\textstyle\bigwedge}^k V$ may be identified as a vector space with the subspace $T_{-}^k V$ of [[Tensor algebra|$T^k V$]] consisting of [[Antisymmetric tensor|antisymmetric tensors]] via the linear [[Split epimorphism|section]]
 $$
 \begin{align*}
-\bigwedge_{i=1}^k v_{k} = \frac{1}{k!} \sum_{\sigma \in S_{k}} \sgn(\sigma) \bigotimes_{j=1}^k v_{\sigma(j)}
+\opn{Alt} \bigwedge_{i=1}^k v_{k} = \frac{1}{k!} \sum_{\sigma \in S_{k}} \sgn(\sigma) \bigotimes_{j=1}^k v_{\sigma(j)}
 \end{align*}
 $$
-or more generally letting $\tilde{\pi} = \pi \restriction T^\bullet_{-}V$,
-for homogenous vectors $v,w \in {\textstyle\bigwedge}^\bullet V$
+or more generally for homogenous vectors $v,w \in {\textstyle\bigwedge}^\bullet V$
 $$
 \begin{align*}
-\tilde{\pi}^{-1} (v \wedge w) = \frac{v \otimes w - w \otimes v}{\deg v + \deg w} = \frac{v \otimes_{-} w}{\deg v + \deg w}
+\opn{Alt} (v \wedge w) = \frac{v \otimes w - w \otimes v}{\deg v + \deg w} = \frac{v \otimes_{-} w}{\deg v + \deg w}
 \end{align*}
 $$
+This is just the [[Antisymmetrization and symmetrization of tensors]] factored via the [[#Universal property]].
 
 ## Properties
 
 - The $k$-blades satisfy the [[Plücker relations]], enabling the [[Plücker embedding]] of the [[Grassmannian]] $\mathrm{Gr}_{k}(V)$ into the [[Projectivization]] $\mathrm{P}(\bigwedge^k V)$
+
+
 
 #
 ---

@@ -5,7 +5,7 @@ tags:
 [[Module theory MOC]]
 # Faithful module
 
- A (left) $R$-[[module]] $V$ is said to be (left) **faithful** iff the [[Annihilator]] $\lAnn RS = 0$ is trivial, #m/def/module i.e. for any $r \in R$
+ A (left) $R$-[[module]] $V$ is said to be (left) **faithful** iff the [[Annihilator]] $\lAnn R V = 0$ is trivial, #m/def/module i.e. for any $r \in R$
  $$
 \begin{align*}
 r \odot  V = 0 \iff r = 0.

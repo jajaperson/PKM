@@ -9,7 +9,7 @@ An **additive category** is a [[category]] which is [[Enriched category|enriched
 thus
 
 - [[Products and coproducts]] agree in a canonical way;
-- A [[zero object]] exists; and
+- A [[Zero object]] exists; and
 - Hom-sets are [[Abelian group|abelian groups]] and composition is [[Multilinear map|bilinear]].
 
 A stronger notion is a [[Preäbelian category]].
