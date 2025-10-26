@@ -7,7 +7,8 @@ tags:
 
 The **calculus of variations**, also called **variational calculus**, generalizes the optimization techniques of [[Infinitesimal calculus MOC]] to [[Functional|functionals]].
 
-- [[Functional differential]], [[Functional derivative]]
+- [[Functional]], [[Action functional]], [[Local Lagrangian]]
+- [[First variation]], [[Functional derivative]]
 
 #
 ---

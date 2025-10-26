@@ -5,15 +5,23 @@ tags:
 [[Calculus of variations MOC]]
 # Functional derivative
 
-Le $B$ be a [[Banach space|Banach subspace]] of $\Man^1(\Omega, \mathbb{K})$ where $\mathbb{K} = \mathbb{C}$ or $\mathbb{K} = \mathbb{R}$
-and $F : B \to \mathbb{K}$ be a [[Functional]].
-The **functional derivative** $\frac{\delta F}{\delta\rho}$ of $F$ at $\rho$ is a a function such that the [[functional differential]] is given by #m/def/anal/fun/var 
+Let $V$ be a [[function space]] over $\mathbb{K}$ and $F : V \to \mathbb{K}$ be [[functional]].
+The **functional derivative** or **Euler operator**[^2004] at $f$
 $$
 \begin{align*}
-\delta F[\rho;\phi] = \int _{\Omega} \frac{\delta F}{\delta\rho}(x) \,\phi(x) \, dx 
+\frac{\delta F}{\delta f} \in V
 \end{align*}
 $$
+is a function such that 
+$$
+\begin{align*}
+\delta F[f;\eta] = \int_{\cod V} \frac{\delta F}{\delta f} \eta \, dx 
+\end{align*}
+$$
+for all $\eta$ satisfying certain boundary conditions.
+We informally identify $\eta$ with $\delta f$ to get a more intuitive expression.
 
+  [^2004]: 2004\. [[Sources/@giaquintaCalculusVariations2004|Calculus of variations I]], p. 18
 
 #
 ---

@@ -4,7 +4,7 @@ tags:
 ---
 [[Module theory MOC]]
 # Induced module
-Let $A$ be a [[K-monoid|$\mathbb K$-ring]], $B \leq A$ be a [[Unital subalgebra|$\mathbb K$-subring]], and $V$ be a $B$-[[Module over a unital associative algebra|module]].
+Let $A$ be a [[K-monoid|$\mathbb K$-monoid]], $B \leq A$ be a [[Unital subalgebra|$\mathbb K$-submonoid]], and $V$ be a $B$-[[Module over a unital associative algebra|module]].
 The $A$-module **induced** by the $B$-module $V$ is a canonical way of extending $V$ to accomodate a representation of $A$,
 as formalized by the [[#Universal property]].[^1988]
 We have the adjunction

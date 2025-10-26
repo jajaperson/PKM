@@ -6,10 +6,10 @@ tags:
 # Riemannian volume form
 
 Let $M$ be an [[Oriented manifold|oriented]] $n$-dimensional [[semi-Riemannian manifold]] with metric tensor $g$.
-The **Riemannian volume form** $\dj V \in \Omega^n(M)$ is a canonical [[Differential form|top form]]
+The **Riemannian volume form** $\dj^n x \in \Omega^n(M)$ is a canonical [[Volume form]]
 $$
 \begin{align*}
-\dj V = \mathrm{vol}_{n} = \star(1)
+\dj^n x = \mathrm{vol}_{n} = \star(1)
 \end{align*}
 $$
 which given a [[Coördinate chart|chart]] $x : U \to \mathbb{R}^n$ is defined as

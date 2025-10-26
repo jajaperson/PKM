@@ -21,7 +21,7 @@ $$
 for $p \in M$, i.e. $\varphi^* f = f \circ \varphi$.
 
 
-## Of a contravariant vector field
+## Of a contravariant tensor field
 
 The above may be viewed as a special case of the following.
 Let $\omega \in \mathcal{T}^0_{p}(M)$ be a totally contravariant [[tensor field]].

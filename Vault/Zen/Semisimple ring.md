@@ -5,7 +5,7 @@ tags:
 [[Ring theory MOC]]
 # Semisimple ring
 
-A [[ring]] $R$ is **semisimple** iff it meets any of the following equivalent conditions: #m/def/ring
+A [[ring]] $R$ is **semisimple** iff it meets any of the following equivalent conditions:[^2015] #m/def/ring
 
 1. $R$ is [[Semisimple module|semisimple]] as a left [[module]]; ^SS1
 2. $R$ is [[Semisimple module|semisimple]] as a right [[module]]; ^SS2
@@ -15,6 +15,8 @@ A [[ring]] $R$ is **semisimple** iff it meets any of the following equivalent co
 > [!missing]- Proof of equivalence
 > #missing/proof
 > Right iff left follows from [[Wedderburn–Artin theorem]].
+
+  [^2015]: 2015\. [[Sources/@rotmanAdvancedModernAlgebra2015|Advanced modern algebra]], p. 497
 
 #
 ---

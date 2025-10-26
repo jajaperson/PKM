@@ -23,7 +23,7 @@ The above definition is equivalent to a $C^\alpha$-[[Bundle section|section]] of
 $$
 \begin{align*}
 T^p_{q} M &= (TM)^{\otimes p} \otimes (T^*M)^{\otimes q} \\
-X \in \mathcal{T}^{p}_{q}M &= \Gamma T^p_{q} M
+X \in \mathcal{T}^{p}_{q}M &= \Gamma^\alpha (M, T^p_{q} M)
 \end{align*}
 $$
 and a general (non-homogenous) tensor field is a $C^\alpha$-section of a [[Direct sum of vector bundles|sum bundle]].
@@ -35,6 +35,7 @@ and a general (non-homogenous) tensor field is a $C^\alpha$-section of a [[Direc
 
 - A totally contravariant, totally antisymmetric tensor field is a [[Differential form]].
 - Often physicists view the [[Tensor field transformation laws]] as the definition of a tensor field.
+- A [[Semi-Riemannian manifold|metric tensor]] enables [[Raising and lowering of indices]].
 
 ## Local coördinates
 

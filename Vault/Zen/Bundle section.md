@@ -18,7 +18,7 @@ i.e. a morphism $\sigma : B \hookrightarrow E$ such that $\pi\sigma = 1_{B}$.
 This makes a section a special case of a [[bundle map]] if we consider $B$ as a bundle over itself, so the set of all sections is given by
 $$
 \begin{align*}
-\Gamma E := \cat{Bund}_{B}(E,B)
+\Gamma(B,E) =  \Gamma E := \cat{Bund}_{B}(E,B)
 \end{align*}
 $$
 

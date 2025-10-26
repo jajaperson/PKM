@@ -17,7 +17,7 @@ By fixing a [[characteristic]] $p$, we may construct the subcategory
 [[Category of fields of characteristic p]], and have
  $$
 \begin{align*}
-\cat{Fld} = \coprod_{k = 0}^\infty \cat{Fld}_{p}
+\cat{Fld} = \coprod_{p = 0}^\infty \cat{Fld}_{p}
 \end{align*}
 $$
 

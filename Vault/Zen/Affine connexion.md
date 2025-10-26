@@ -5,7 +5,7 @@ tags:
 [[Differential geometry MOC]]
 # Affine connexion
 
-An **affine connexion** is additional[^1] structure on a $C^\alpha$-[[Differentiable manifold|manifold]] which _connects_ nearby [[tangent space|tangent spaces]] so as to enable [[parallel transport]] as in an [[affine space]]. #m/def/geo/diff 
+An **affine connexion** is additional[^1] structure on a $C^\alpha$-[[Differentiable manifold|manifold]] $(M, \mathscr{A})$ which _connects_ nearby [[tangent space|tangent spaces]] so as to enable [[parallel transport]] as in an [[affine space]]. #m/def/geo/diff 
 With an affine connexion one can define
 
 - [[Parallel transport]]
@@ -19,13 +19,13 @@ An **affine connexion** $\nabla$ is an $\mathbb{R}$-linear map
 $$
 \begin{align*}
 \mathfrak{X}(M) &\to \mathcal{T}^1_{1}(M) \\
-X^a &\mapsto \nabla_{b}(X)^a
+X^a &\mapsto \nabla_{b}X^a
 \end{align*}
 $$
 from [[Vector field|vector fields]] to $(1,1)$-[[Tensor field|tensor fields]] which satisfies a [[Derivation on an algebra|Leibniz rule]]
 $$
 \begin{align*}
-\nabla_{b}(f \, X^a) = (\mathrm{d}f)_{b} \, X^a + f \, \nabla_{b}(X)^a
+\nabla_{b}(f \, X^a) = (\mathrm{d}f)_{b} \, X^a + f \, \nabla_{b}X^a
 \end{align*}
 $$
 where $(\mathrm{d}f)_{b}$ is the [[exterior derivative]].
@@ -36,7 +36,7 @@ $$
 \end{align*}
 $$
 for $Y^a \in \mathfrak{X}(M)$.
-See [[Covariant derivative]].
+This can then be extended to all tensor fields as the [[Covariant derivative]].
 #
 ---
 #state/develop | #lang/en | #SemBr

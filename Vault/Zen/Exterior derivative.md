@@ -42,6 +42,25 @@ $$
 \mathrm{d}\omega = \frac{1}{p!} \, \partial_{\mu_{p+1}} \omega_{\mu_{1} \cdots \mu_{p}} \, \mathrm{d}x^{\mu_{p+1}} \wedge \mathrm{d}x^{\mu_{1}} \wedge \dots \wedge \mathrm{d}x^{\mu_{p}}
 \end{align*}
 $$
+This can be seen as a special case of [[#From a covariant derivative]].
+
+## From a covariant derivative
+
+Let $\nabla$ denote a [[Torsion tensor|torsion-free]] [[affine connexion]] on $M$.
+Then for $\omega_{a_{1} \cdots a_{p}} \in \Omega^p(M)$,
+the [[covariant derivative]] gives
+$$
+\begin{align*}
+(\mathrm{d}\omega)_{ba_{1} \cdots a_{p}} =(p+1) \nabla_{[b} \omega_{a_{1} \cdots a_{p}]}
+\end{align*}
+$$
+which is independent of the choice of $\nabla$.[^2009]
+
+  [^2009]: 2009\. [[Sources/@waldGeneralRelativity2009|General relativity]], §B.1, pp. 428–429.
+
+> [!missing]- Proof
+> #missing/proof
+
 
 ## See also
 

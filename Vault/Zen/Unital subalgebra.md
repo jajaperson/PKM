@@ -4,10 +4,10 @@ tags:
 aliases:
   - $\mathbb K$-subring
 ---
-[[K-monoid|$\mathbb K$-ring]]
-# $\mathbb{K}$-subring
+[[K-monoid]]
+# $\mathbb{K}$-submonoid
 
-A **$\mathbb{K}$-subring** $B$ of an [[K-monoid|$\mathbb K$-ring]] $A$ is a [[Subalgebra over a field|subalgebra]] $B \leq A$ containing the identity, #m/def/falg 
+A **$\mathbb{K}$-submonoid** $B$ of an [[K-monoid]] $A$ is a [[Subalgebra over a field|subalgebra]] $B \leq A$ containing the identity, #m/def/falg 
 i.e. $B$ is itself an associative algebra; $B \cdot B \sube B$ and $\mathbb{1} \in B$.
 
 ## Properties

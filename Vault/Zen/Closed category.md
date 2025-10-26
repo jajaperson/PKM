@@ -65,7 +65,7 @@ is a [[Surjectivity, injectivity, and bijectivity|bijection]].
 > \end{align*}
 > $$
 
-A [[Monoidal closed category]] is a category which is also monoidal in a compatible way.
+A [[Closed monoidal category]] is a category which is also monoidal in a compatible way.
 
 #
 ---

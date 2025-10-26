@@ -26,7 +26,7 @@ $$
 Let $A \sube V$ be an arbitrary subset. Then
 
 1. $A^\perp$ is [[Topological space|topologically closed]] ^S1
-2. $A \cap A^\perp \sube \{ 0 \}$ ^S2
+2. $A \cap A^\perp = \{ 0 \}$ ^S2
 3. $B \sube A \implies A^\perp \sube B^\perp$ ^S3
 4. $A \sube (A^\perp)^\perp$ ^S4
 5. If $\mathrm{B}_{\epsilon}(v) \sube A$ for some $v \in V$, then $A^\perp = \{ 0 \}$ ^S5

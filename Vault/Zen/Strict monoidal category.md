@@ -12,12 +12,12 @@ Thus a strict monoidal category is precisely a [[Monoid object]] in [[Category o
 Explicitly, a strict monoidal category $\cat C$ is equipped with
 
 1. a [[functor]] $(\otimes) : \cat C \times \cat C \to \cat C$ called the **tensor product**; and
-2. an object $1 \in \cat C$ called the **tensor unit**
+2. an object $\mathbb1 \in \cat C$ called the **tensor unit**
 
 such that
 $$
 \begin{align*}
-x \otimes 1 = x = 1 \otimes x
+x \otimes \mathbb{1} = x = \mathbb{1} \otimes x
 \end{align*}
 $$
 for any object $x \in \cat C$ and

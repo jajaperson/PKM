@@ -12,7 +12,7 @@ $$
 \opn{rad} V &= \{ v \in V : b_{q}(v,V) = 0 \}
 \end{align*}
 $$
-i.e. the [[linear kernel]] of the [[Monoidal closed category|curried]] linear map $b_{q} : V \to \Vect_{\mathbb{K}}(K,V)$.
+i.e. the [[linear kernel]] of the [[Closed monoidal category|curried]] linear map $b_{q} : V \to \Vect_{\mathbb{K}}(K,V)$.
 In particular ([[away from 2]]) it is a [[Quadratic space#^totallyIsotropic]] [[vector subspace]] of $V$.
 
 ## Properties

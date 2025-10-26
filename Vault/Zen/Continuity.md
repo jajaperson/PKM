@@ -1,7 +1,11 @@
 ---
 tags:
   - public
-alias: discontinuity, continuous, discontinuous, continuous map
+aliases:
+  - discontinuity
+  - continuous
+  - discontinuous
+  - continuous map
 ---
 [[Topology MOC]]
 # Continuity

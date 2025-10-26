@@ -24,7 +24,7 @@ is the [[Quotient Hopf algebra]].
 
 ## Representation theory
 
-The [[Simple module|simple modules]] for $H_{4}$ correspond to those for $\mathbb{K}[\mathbb{Z}_{2}]$, namely
+The [[Simple module|simple modules]] for $H_{4}$ correspond to those for $\mathbb{K}\mathbb{Z}_{2}$, namely
 $$
 \begin{align*}
 S_{0} &= \mathbb{K}v_{0}, & g v_{0} &= v_{0}, & xv_{0} &= 0; \\

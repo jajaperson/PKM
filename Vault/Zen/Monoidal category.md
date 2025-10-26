@@ -31,7 +31,7 @@ Let $(\cat C, \otimes, \alpha, \lambda, \rho)$ be a monoid category.
 
 - Iff all the natural isomorphisms $\alpha,\lambda,\rho$ are the [[identity natural transformation]], then $\cat C$ is said to be a [[Strict monoidal category]], which is a [[Monoid object]] in [[Category of small categories]].
 - Iff $(\otimes)$ is the [[Products and coproducts|categorical product]] then $\cat C$ is said to be a [[Cartesian category]].
-- Iff $\cat C$ has a right adjoint [[Closed category|internal hom-functor]] in a compatible way it is a [[Monoidal closed category]].
+- Iff $\cat C$ has a right adjoint [[Closed category|internal hom-functor]] in a compatible way it is a [[Closed monoidal category]].
 
 The appropriate morphism of monoidal categories is the [[Monoidal functor]], which allows the definition of the [[Category of monoidal categories]].
 

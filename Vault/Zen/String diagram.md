@@ -18,6 +18,7 @@ Horizontal composition is represented by horizontal juxtaposition, and vertical 
 ## Bibliography
 
 - 2011\. [[Sources/@baezPhysicsTopologyLogic2011|Physics, topology, logic and computation: A Rosetta stone]]
+-   1991\. [[Sources/@joyalGeometryTensorCalculus1991|The geometry of tensor calculus, I]]
 -  1996\. [[Sources/@streetCategoricalStructures1996|Categorical structures]]
 
 #

@@ -57,6 +57,8 @@ The fundamental objects of calculus on manifolds
 - [[1-form]]
 - [[Tensor field]]
 - [[Differential form]]
+    - [[Volume form]], [[Riemannian volume form]]
+- Some pain has been taken to make sure most of my definitions for [[Calculus of variations MOC]] work for manifolds.
 
 ## Differentiation
 
@@ -65,6 +67,10 @@ There are three main definitions of differentiation, which in some sense coïnci
 - [[Exterior derivative]]
 - [[Covariant derivative]] via the [[Affine connexion]]
 - [[Lie derivative]]
+
+## Geometry
+
+- [[Smooth geodesic]]
 
 ## Extra structure
 

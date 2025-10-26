@@ -2,6 +2,7 @@
 aliases:
   - local parameterization
   - chart
+  - local coördinates
 tags:
   - public
 ---

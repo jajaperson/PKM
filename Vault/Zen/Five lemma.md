@@ -13,7 +13,7 @@ and $\gamma_{2},\gamma_{4}$ are isomorphisms, $\gamma_{1}$ [[Group epimorphism|e
 then $\gamma_{3}$ is an isomorphism.[^loose] #m/thm/homology
 
 > [!check]- Proof
-> The proof involves proving the two “four lemmas”, by [[Diagram chasing]].
+> The proof involves proving the two “four lemmata”, by [[Diagram chasing]].
 > We will use additive notation for group operations, but the groups in question need not be abelian.
 > 
 > First we use the fact that $\gamma_{2},\gamma_{4}$ are epic and $\gamma_{5}$ is monic to show that $\gamma_{3}$ is epic.

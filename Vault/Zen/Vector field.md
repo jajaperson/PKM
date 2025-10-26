@@ -10,16 +10,17 @@ A $C^\alpha$-**vector field** formalizes the idea of assigning a vector _smoothl
 The set of all vector fields on $M$ is denoted $\mathfrak{X}(M)$, #m/def/geo/diff
 which forms a [[Module over a commutative ring|module]] over $C^\alpha(M)$ and thus in particular a (usually infinite-dimensional) vector space over $\mathbb{R}$.
 One can also consider a more general [[Tensor field]].
+See also [[Smooth field]].
 
 ## Intrinsic manifold
 
 The following characterizations of vector fields and $\mathfrak{X}(M)$ are both useful.
 
 > [!info]- As a section of $TM$
-> A vector field may be characterized as a [[Bundle section|section]] of the [[Tangent bundle]] $TM$, thus
+> A vector field may be characterized as a smooth [[Bundle section|section]] of the [[Tangent bundle]] $TM$, thus
 > $$
 > \begin{align*}
-> \mathfrak{X}(M) := \Gamma(TM).
+> \mathfrak{X}(M) := \Gamma^\alpha(M, TM).
 > \end{align*}
 > $$
 

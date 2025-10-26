@@ -3,9 +3,9 @@ tags:
   - public
 ---
 [[Category theory MOC]]
-# Monoidal closed category
+# Closed monoidal category
 
-A **monoidal closed category** $\cat C$ is a category which is both [[Monoidal category|monoidal]] and [[Closed category|closed]] in a compatible way.
+A (right) **closed monoidal category** $\cat C$ is a category which is both [[Monoidal category|monoidal]] and [[Closed category|closed]] in a compatible way.
 The compatibility condition is given by [[Currying|currying]], which is to say we have an [[Adjoint functor|adjunction]]
 
 ![[closed-monoidal-adjunction.svg#invert|c|200]]
@@ -34,7 +34,9 @@ $$
 \eta_{C}^B : C \to [B, C \otimes B].
 \end{align*}
 $$
-Both of these can be shown to be [[(Extra)natural transformation|extranatural]] in $B$.
+
+> [!question]+
+> I suspect both of these can be shown to be [[(Extra)natural transformation|extranatural]] in $B$.
 
 #
 ---

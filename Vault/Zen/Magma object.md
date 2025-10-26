@@ -17,7 +17,7 @@ where $m$ is called **multiplication**.
 ## Examples
 
 - A magma in [[Category of vector spaces]] is a [[K-algebra]].
-- More generally for commutative $R$, a magma in [[Category of modules over a commutative ring|$\lMod R$]] is an [[R-algebra]].
+- More generally for commutative $\mathcal{K}$, a magma in [[Category of modules over a commutative ring|$\lMod R$]] is an [[R-algebra]].
 #
 ---
 #state/tidy | #lang/en | #SemBr

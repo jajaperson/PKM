@@ -5,6 +5,7 @@ aliases:
   - left adjoint
   - right adjoint
   - adjunct
+  - adjunction
 ---
 [[Category theory MOC]]
 # Adjoint functor
