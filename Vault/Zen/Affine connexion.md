@@ -5,13 +5,15 @@ tags:
 [[Differential geometry MOC]]
 # Affine connexion
 
-An **affine connexion** is additional[^1] structure on a $C^\alpha$-[[Differentiable manifold|manifold]] $(M, \mathscr{A})$ which _connects_ nearby [[tangent space|tangent spaces]] so as to enable [[parallel transport]] as in an [[affine space]]. #m/def/geo/diff 
+An **affine connexion**[^2] is additional[^1] structure on a $C^\alpha$-[[Differentiable manifold|manifold]] $(M, \mathscr{A})$ which _connects_ nearby [[tangent space|tangent spaces]] so as to enable [[Parallel transport]] as in an [[affine space]]. #m/def/geo/diff 
 With an affine connexion one can define
 
 - [[Parallel transport]]
 - [[Covariant derivative]]
 - [[Torsion tensor]]
 - [[Riemannian curvature]]
+
+An affine connexion is not unique, the disagreement between two connexions is described by the [[Connexion disagreement tensor]].
 
 ## As a differential operator
 
@@ -37,8 +39,16 @@ $$
 $$
 for $Y^a \in \mathfrak{X}(M)$.
 This can then be extended to all tensor fields as the [[Covariant derivative]].
+
+## Examples
+
+- [[Partial derivative as a local affine connexion]]
+- [[Levi-Civita connexion]]
+
 #
 ---
 #state/develop | #lang/en | #SemBr
 
 [^1]: In some cases other structure on the manifold provides a canonical choice of connexion, e.g. a [[Semi-Riemannian manifold|semi-Riemannian metric]] gives the [[Levi-Civita connexion]].
+
+[^2]: The only reason I spell it this way is because I think it's fun.

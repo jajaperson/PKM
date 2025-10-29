@@ -7,7 +7,7 @@ tags:
 
 The **tangent space** $T_{p}X$ of a [[differentiable manifold]] $X$ at a point $p \in X$ is a [[vector space]] corresponding to possible velocities when moving through $x$. #m/def/geo/diff 
 A number of equivalent characterizations are useful.
-See also [[Differential pushforward]], [[Tangent bundle]].
+See also [[Tangent map]], [[Tangent bundle]].
 
 ## Intrinsic manifold
 

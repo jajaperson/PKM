@@ -15,7 +15,7 @@ $$
 Df(x)(\vab a ) = \lim_{ t \to 0 } \frac{f(x+t\vab a)-f(x)}{t}
 \end{align*}
 $$
-For more general spaces, see [[Differential pushforward]].
+For more general spaces, see [[Tangent map]].
 
   [^1997]: 1997\. [[Sources/@milnorTopologyDifferentiableViewpoint1997|Topology from the differentiable viewpoint]], p. 3
 

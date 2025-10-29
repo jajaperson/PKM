@@ -16,7 +16,7 @@ aliases:
 # Immersion and submersion
 
 A $C^k$ [[Differentiability|differentiable]] function $f : X \to Y$ between $C^k$ [[Differentiable manifold|differentiable manifolds]] $X,Y$ of dimensions $n,m$ respectively 
-is **(im/sub)mersive** at $x \in X$ iff the [[Differential pushforward]] $T_{x}f : T_{x}X \to T_{f(x)}Y$ at $x$ is a linear ([[linear monomorphism|mono]]/[[Linear epimorphism|epi]])morphism.
+is **(im/sub)mersive** at $x \in X$ iff the [[Tangent map]] $T_{x}f : T_{x}X \to T_{f(x)}Y$ at $x$ is a linear ([[linear monomorphism|mono]]/[[Linear epimorphism|epi]])morphism.
 Such function is said to be an **(im/sub)mersion** iff it is an (im/sub)mersion everywhere. #m/def/geo/diff
 
 An immersion may be thought of as a map which _locally_ resembles the **canonical immersion** defined for $n \leq m$ as

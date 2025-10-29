@@ -3,27 +3,16 @@ tags:
   - public
 ---
 [[Differential geometry MOC]]
-# Differential pushforward
+# Tangent map
 
-The **pushforward** or **tangent (space) map** is a generalization of the [[total derivative]] to an arbitrary [[differentiable manifold]].
+The **tangent map** is a generalization of the [[total derivative]] to an arbitrary [[differentiable manifold]].
 #m/def/geo/diff
-See [[Tangent map]] for the related map of [[Tangent bundle|tangent bundles]].
+See also [[Differential pushforward]].
 
-## Intrinsic manifold
+## Tangent map on tangent spaces
+### Real embedded manifold
 
-> [!info]+ Via vector fields
-> Let $\varphi : M \to N$ be a morphism of $C^\alpha$-[[Differentiable manifold|manifolds]].
-> For any [[vector field]] $v \in \mathfrak{X}(M)$ the pushforward $\varphi_{*}v \in \mathfrak{X}(N)$ is defined so that
-> $$
-> \begin{align*}
-> \mathrm{d}f\,(\varphi_{*}v) = \nabla_{\varphi_{*}v} f := \nabla_{v} (\varphi^* f) = \mathrm{d}(\varphi^* f) \, v
-> \end{align*}
-> $$
-> for any [[scalar field]] $f \in C^\alpha(M)$.
-
-## Real embedded manifold
-
-All three of the following characterizations of pushforwards on [[Real embedded manifold|real embedded manifolds]] are useful.
+All three of the following characterizations of tangent space maps on [[Real embedded manifold|real embedded manifolds]] are useful.
 Compare with the different definitions of the [[Tangent space#Real embedded manifold|tangent space]].
 
 > [!info]- Fixed chart characterization
@@ -31,12 +20,12 @@ Compare with the different definitions of the [[Tangent space#Real embedded mani
 > 
 > <p align="center"><img align="center" src="https://i.upmath.me/svg/%0A%5Cusetikzlibrary%7Bcalc%7D%0A%5Cusetikzlibrary%7Bdecorations.pathmorphing%7D%0A%5Ctikzset%7Bcurve%2F.style%3D%7Bsettings%3D%7B%231%7D%2Cto%20path%3D%7B(%5Ctikztostart)%0A%20%20%20%20..%20controls%20(%24(%5Ctikztostart)!%5Cpv%7Bpos%7D!(%5Ctikztotarget)!%5Cpv%7Bheight%7D!270%3A(%5Ctikztotarget)%24)%0A%20%20%20%20and%20(%24(%5Ctikztostart)!1-%5Cpv%7Bpos%7D!(%5Ctikztotarget)!%5Cpv%7Bheight%7D!270%3A(%5Ctikztotarget)%24)%0A%20%20%20%20..%20(%5Ctikztotarget)%5Ctikztonodes%7D%7D%2C%0A%20%20%20%20settings%2F.code%3D%7B%5Ctikzset%7Bquiver%2F.cd%2C%231%7D%0A%20%20%20%20%20%20%20%20%5Cdef%5Cpv%23%231%7B%5Cpgfkeysvalueof%7B%2Ftikz%2Fquiver%2F%23%231%7D%7D%7D%2C%0A%20%20%20%20quiver%2F.cd%2Cpos%2F.initial%3D0.35%2Cheight%2F.initial%3D0%7D%0A%25%20TikZ%20arrowhead%2Ftail%20styles.%0A%5Ctikzset%7Btail%20reversed%2F.code%3D%7B%5Cpgfsetarrowsstart%7Btikzcd%20to%7D%7D%7D%0A%5Ctikzset%7B2tail%2F.code%3D%7B%5Cpgfsetarrowsstart%7BImplies%5Breversed%5D%7D%7D%7D%0A%5Ctikzset%7B2tail%20reversed%2F.code%3D%7B%5Cpgfsetarrowsstart%7BImplies%7D%7D%7D%0A%25%20TikZ%20arrow%20styles.%0A%5Ctikzset%7Bno%20body%2F.style%3D%7B%2Ftikz%2Fdash%20pattern%3Don%200%20off%201mm%7D%7D%0A%25%20https%3A%2F%2Fq.uiver.app%2F%23q%3DWzAsMTYsWzAsNCwiWCJdLFswLDYsIlkiXSxbMiw0LCJVIl0sWzIsNiwiXFx0aWxkZSBVIl0sWzQsNCwiViJdLFs0LDYsIlxcdGlsZGUgViJdLFs2LDQsIlxcbWF0aGJiIFJebiJdLFs2LDYsIlxcbWF0aGJiIFJebSJdLFsyLDgsIlRfeFgiXSxbMiwxMCwiVF95WSJdLFs0LDgsIlxcbWF0aGJiIFJebiJdLFs0LDEwLCJcXG1hdGhiYiBSXm0iXSxbMiwyLCJ5Il0sWzQsMiwiXFx0aWxkZSB2Il0sWzQsMCwidiJdLFsyLDAsIngiXSxbMCwxLCJmIiwyXSxbMiwzXSxbNCw1LCJoIl0sWzQsNiwiXFx0ZXh0e29wZW59IiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJ0b3AifX19XSxbNSw3LCJcXHRleHR7b3Blbn0iLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJob29rIiwic2lkZSI6InRvcCJ9fX1dLFsyLDAsIlxcdGV4dHtvcGVufSIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Imhvb2siLCJzaWRlIjoiYm90dG9tIn19fV0sWzMsMSwiXFx0ZXh0e29wZW59IiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJib3R0b20ifX19XSxbNCwyLCJcXHBzaSIsMix7ImN1cnZlIjoxfV0sWzUsMywiXFx0aWxkZSBcXHBzaSIsMCx7ImN1cnZlIjotMX1dLFszLDUsIiIsMSx7ImN1cnZlIjotMX1dLFsyLDQsIiIsMSx7ImN1cnZlIjoxfV0sWzgsOSwiVF94ZiIsMl0sWzEwLDExLCJEaCh2KSJdLFsxMCw4LCJEXFxwc2kodikiLDIseyJjdXJ2ZSI6MX1dLFsxMSw5LCJEXFx0aWxkZSBcXHBzaShcXHRpbGRlIHYpIiwwLHsiY3VydmUiOi0xfV0sWzgsMTAsIiIsMSx7ImN1cnZlIjoxfV0sWzksMTEsIiIsMSx7ImN1cnZlIjotMX1dLFsxNSwxMiwiZiIsMix7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMTQsMTMsImgiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzE0LDE1LCJcXHBzaSIsMix7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMTMsMTIsIlxcdGlsZGUgXFxwc2kiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV1d%26macro_url%3Dhttps%253A%252F%252Fraw.githubusercontent.com%252Fvarkor%252Fquiver%252Fmaster%252Fpackage%252Fquiver.sty%0A%5Cbegin%7Btikzcd%7D%5Bampersand%20replacement%3D%5C%26%5D%0A%09%5C%26%5C%26%20x%20%5C%26%5C%26%20v%20%5C%5C%0A%09%5C%5C%0A%09%5C%26%5C%26%20y%20%5C%26%5C%26%20%7B%5Ctilde%20v%7D%20%5C%5C%0A%09%5C%5C%0A%09X%20%5C%26%5C%26%20U%20%5C%26%5C%26%20V%20%5C%26%5C%26%20%7B%5Cmathbb%20R%5En%7D%20%5C%5C%0A%09%5C%5C%0A%09Y%20%5C%26%5C%26%20%7B%5Ctilde%20U%7D%20%5C%26%5C%26%20%7B%5Ctilde%20V%7D%20%5C%26%5C%26%20%7B%5Cmathbb%20R%5Em%7D%20%5C%5C%0A%09%5C%5C%0A%09%5C%26%5C%26%20%7BT_xX%7D%20%5C%26%5C%26%20%7B%5Cmathbb%20R%5En%7D%20%5C%5C%0A%09%5C%5C%0A%09%5C%26%5C%26%20%7BT_yY%7D%20%5C%26%5C%26%20%7B%5Cmathbb%20R%5Em%7D%0A%09%5Carrow%5B%22f%22'%2C%20maps%20to%2C%20from%3D1-3%2C%20to%3D3-3%5D%0A%09%5Carrow%5B%22%5Cpsi%22'%2C%20maps%20to%2C%20from%3D1-5%2C%20to%3D1-3%5D%0A%09%5Carrow%5B%22h%22%2C%20maps%20to%2C%20from%3D1-5%2C%20to%3D3-5%5D%0A%09%5Carrow%5B%22%7B%5Ctilde%20%5Cpsi%7D%22%2C%20maps%20to%2C%20from%3D3-5%2C%20to%3D3-3%5D%0A%09%5Carrow%5B%22f%22'%2C%20from%3D5-1%2C%20to%3D7-1%5D%0A%09%5Carrow%5B%22%7B%5Ctext%7Bopen%7D%7D%22%7Bdescription%7D%2C%20hook'%2C%20from%3D5-3%2C%20to%3D5-1%5D%0A%09%5Carrow%5Bcurve%3D%7Bheight%3D6pt%7D%2C%20from%3D5-3%2C%20to%3D5-5%5D%0A%09%5Carrow%5Bfrom%3D5-3%2C%20to%3D7-3%5D%0A%09%5Carrow%5B%22%5Cpsi%22'%2C%20curve%3D%7Bheight%3D6pt%7D%2C%20from%3D5-5%2C%20to%3D5-3%5D%0A%09%5Carrow%5B%22%7B%5Ctext%7Bopen%7D%7D%22%7Bdescription%7D%2C%20hook%2C%20from%3D5-5%2C%20to%3D5-7%5D%0A%09%5Carrow%5B%22h%22%2C%20from%3D5-5%2C%20to%3D7-5%5D%0A%09%5Carrow%5B%22%7B%5Ctext%7Bopen%7D%7D%22%7Bdescription%7D%2C%20hook'%2C%20from%3D7-3%2C%20to%3D7-1%5D%0A%09%5Carrow%5Bcurve%3D%7Bheight%3D-6pt%7D%2C%20from%3D7-3%2C%20to%3D7-5%5D%0A%09%5Carrow%5B%22%7B%5Ctilde%20%5Cpsi%7D%22%2C%20curve%3D%7Bheight%3D-6pt%7D%2C%20from%3D7-5%2C%20to%3D7-3%5D%0A%09%5Carrow%5B%22%7B%5Ctext%7Bopen%7D%7D%22%7Bdescription%7D%2C%20hook%2C%20from%3D7-5%2C%20to%3D7-7%5D%0A%09%5Carrow%5Bcurve%3D%7Bheight%3D6pt%7D%2C%20from%3D9-3%2C%20to%3D9-5%5D%0A%09%5Carrow%5B%22%7BT_xf%7D%22'%2C%20from%3D9-3%2C%20to%3D11-3%5D%0A%09%5Carrow%5B%22%7BD%5Cpsi(v)%7D%22'%2C%20curve%3D%7Bheight%3D6pt%7D%2C%20from%3D9-5%2C%20to%3D9-3%5D%0A%09%5Carrow%5B%22%7BDh(v)%7D%22%2C%20from%3D9-5%2C%20to%3D11-5%5D%0A%09%5Carrow%5Bcurve%3D%7Bheight%3D-6pt%7D%2C%20from%3D11-3%2C%20to%3D11-5%5D%0A%09%5Carrow%5B%22%7BD%5Ctilde%20%5Cpsi(%5Ctilde%20v)%7D%22%2C%20curve%3D%7Bheight%3D-6pt%7D%2C%20from%3D11-5%2C%20to%3D11-3%5D%0A%5Cend%7Btikzcd%7D%0A#invert" alt="https://q.uiver.app/#q=WzAsMTYsWzAsNCwiWCJdLFswLDYsIlkiXSxbMiw0LCJVIl0sWzIsNiwiXFx0aWxkZSBVIl0sWzQsNCwiViJdLFs0LDYsIlxcdGlsZGUgViJdLFs2LDQsIlxcbWF0aGJiIFJebiJdLFs2LDYsIlxcbWF0aGJiIFJebSJdLFsyLDgsIlRfeFgiXSxbMiwxMCwiVF95WSJdLFs0LDgsIlxcbWF0aGJiIFJebiJdLFs0LDEwLCJcXG1hdGhiYiBSXm0iXSxbMiwyLCJ5Il0sWzQsMiwiXFx0aWxkZSB2Il0sWzQsMCwidiJdLFsyLDAsIngiXSxbMCwxLCJmIiwyXSxbMiwzXSxbNCw1LCJoIl0sWzQsNiwiXFx0ZXh0e29wZW59IiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJ0b3AifX19XSxbNSw3LCJcXHRleHR7b3Blbn0iLDEseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJob29rIiwic2lkZSI6InRvcCJ9fX1dLFsyLDAsIlxcdGV4dHtvcGVufSIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Imhvb2siLCJzaWRlIjoiYm90dG9tIn19fV0sWzMsMSwiXFx0ZXh0e29wZW59IiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJib3R0b20ifX19XSxbNCwyLCJcXHBzaSIsMix7ImN1cnZlIjoxfV0sWzUsMywiXFx0aWxkZSBcXHBzaSIsMCx7ImN1cnZlIjotMX1dLFszLDUsIiIsMSx7ImN1cnZlIjotMX1dLFsyLDQsIiIsMSx7ImN1cnZlIjoxfV0sWzgsOSwiVF94ZiIsMl0sWzEwLDExLCJEaCh2KSJdLFsxMCw4LCJEXFxwc2kodikiLDIseyJjdXJ2ZSI6MX1dLFsxMSw5LCJEXFx0aWxkZSBcXHBzaShcXHRpbGRlIHYpIiwwLHsiY3VydmUiOi0xfV0sWzgsMTAsIiIsMSx7ImN1cnZlIjoxfV0sWzksMTEsIiIsMSx7ImN1cnZlIjotMX1dLFsxNSwxMiwiZiIsMix7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMTQsMTMsImgiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV0sWzE0LDE1LCJcXHBzaSIsMix7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbMTMsMTIsIlxcdGlsZGUgXFxwc2kiLDAseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJtYXBzIHRvIn19fV1d&amp;macro_url=https%3A%2F%2Fraw.githubusercontent.com%2Fvarkor%2Fquiver%2Fmaster%2Fpackage%2Fquiver.sty" /></p>
 > 
-> Then $T_{x}f : T_{x}X \to T_{y}Y$ is the **pushforward** of $f$ at $x$.
+> Then $T_{x}f : T_{x}X \to T_{y}Y$ is the **tangent space map** of $f$ at $x$.
 > ^chart
 
 > [!info]- Chart-free characterization
 > Let $X \sube \mathbb{R}^N$ and $Y \sube \mathbb{R}^M$ be [[real embedded manifold|real embedded manifolds]] and $f : X \to Y$ be a $C^\infty$ [[Differentiability|differentiable]] function with $f : x \mapsto y$.
-> Then the **pushforward** $T_{x}f : T_{x}X \to T_{y}Y$ of $f$ at $x$ is defined such that
+> Then the **tangent space map** $T_{x}f : T_{x}X \to T_{y}Y$ of $f$ at $x$ is defined such that
 > $$
 > \begin{align*}
 > T_{x}f(\dot{\omega}(0)) = D[f\omega](0)
@@ -53,10 +42,10 @@ Compare with the different definitions of the [[Tangent space#Real embedded mani
 > <p align="center"><img align="center" src="https://i.upmath.me/svg/%0A%5Cusetikzlibrary%7Bcalc%7D%0A%5Cusetikzlibrary%7Bdecorations.pathmorphing%7D%0A%5Ctikzset%7Bcurve%2F.style%3D%7Bsettings%3D%7B%231%7D%2Cto%20path%3D%7B(%5Ctikztostart)%0A%20%20%20%20..%20controls%20(%24(%5Ctikztostart)!%5Cpv%7Bpos%7D!(%5Ctikztotarget)!%5Cpv%7Bheight%7D!270%3A(%5Ctikztotarget)%24)%0A%20%20%20%20and%20(%24(%5Ctikztostart)!1-%5Cpv%7Bpos%7D!(%5Ctikztotarget)!%5Cpv%7Bheight%7D!270%3A(%5Ctikztotarget)%24)%0A%20%20%20%20..%20(%5Ctikztotarget)%5Ctikztonodes%7D%7D%2C%0A%20%20%20%20settings%2F.code%3D%7B%5Ctikzset%7Bquiver%2F.cd%2C%231%7D%0A%20%20%20%20%20%20%20%20%5Cdef%5Cpv%23%231%7B%5Cpgfkeysvalueof%7B%2Ftikz%2Fquiver%2F%23%231%7D%7D%7D%2C%0A%20%20%20%20quiver%2F.cd%2Cpos%2F.initial%3D0.35%2Cheight%2F.initial%3D0%7D%0A%25%20TikZ%20arrowhead%2Ftail%20styles.%0A%5Ctikzset%7Btail%20reversed%2F.code%3D%7B%5Cpgfsetarrowsstart%7Btikzcd%20to%7D%7D%7D%0A%5Ctikzset%7B2tail%2F.code%3D%7B%5Cpgfsetarrowsstart%7BImplies%5Breversed%5D%7D%7D%7D%0A%5Ctikzset%7B2tail%20reversed%2F.code%3D%7B%5Cpgfsetarrowsstart%7BImplies%7D%7D%7D%0A%25%20TikZ%20arrow%20styles.%0A%5Ctikzset%7Bno%20body%2F.style%3D%7B%2Ftikz%2Fdash%20pattern%3Don%200%20off%201mm%7D%7D%0A%25%20https%3A%2F%2Fq.uiver.app%2F%23q%3DWzAsOSxbMiwyLCJVXFxjYXAgWCJdLFsyLDAsIlgiXSxbMCwwLCJcXG1hdGhiYiBSXk4iXSxbMCwyLCJVIl0sWzMsMywiWSJdLFs1LDAsIlxcbWF0aGJiIFJeTiJdLFs1LDIsIlxcbWF0aGJiIFJeTSJdLFs3LDIsIlRfeVkiXSxbNywwLCJUX3hYIl0sWzMsMiwiXFx0ZXh0e29wZW59IiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJib3R0b20ifX19XSxbMSwyLCIiLDIseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJob29rIiwic2lkZSI6ImJvdHRvbSJ9fX1dLFswLDEsIlxcdGV4dHtvcGVufSIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Imhvb2siLCJzaWRlIjoiYm90dG9tIn19fV0sWzAsMywiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJib3R0b20ifX19XSxbMCwyLCIiLDEseyJzdHlsZSI6eyJuYW1lIjoiY29ybmVyIn19XSxbMyw0LCJGIiwyLHsiY3VydmUiOjF9XSxbMSw0LCJmIiwwLHsiY3VydmUiOi0xfV0sWzgsNSwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJib3R0b20ifX19XSxbNyw2LCIiLDIseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJob29rIiwic2lkZSI6ImJvdHRvbSJ9fX1dLFs1LDYsIkRGKHgpIiwyXSxbOCw3LCJUX3ggZiJdXQ%3D%3D%0A%5C%5B%5Cbegin%7Btikzcd%7D%0A%09%7B%5Cmathbb%20R%5EN%7D%20%26%26%20X%20%26%26%26%20%7B%5Cmathbb%20R%5EN%7D%20%26%26%20%7BT_xX%7D%20%5C%5C%0A%09%5C%5C%0A%09U%20%26%26%20%7BU%5Ccap%20X%7D%20%26%26%26%20%7B%5Cmathbb%20R%5EM%7D%20%26%26%20%7BT_yY%7D%20%5C%5C%0A%09%26%26%26%20Y%0A%09%5Carrow%5Bhook'%2C%20from%3D1-3%2C%20to%3D1-1%5D%0A%09%5Carrow%5B%22f%22%2C%20curve%3D%7Bheight%3D-6pt%7D%2C%20from%3D1-3%2C%20to%3D4-4%5D%0A%09%5Carrow%5B%22%7BDF(x)%7D%22'%2C%20from%3D1-6%2C%20to%3D3-6%5D%0A%09%5Carrow%5Bhook'%2C%20from%3D1-8%2C%20to%3D1-6%5D%0A%09%5Carrow%5B%22%7BT_x%20f%7D%22%2C%20from%3D1-8%2C%20to%3D3-8%5D%0A%09%5Carrow%5B%22%7B%5Ctext%7Bopen%7D%7D%22%7Bdescription%7D%2C%20hook'%2C%20from%3D3-1%2C%20to%3D1-1%5D%0A%09%5Carrow%5B%22F%22'%2C%20curve%3D%7Bheight%3D6pt%7D%2C%20from%3D3-1%2C%20to%3D4-4%5D%0A%09%5Carrow%5B%22%5Clrcorner%22%7Banchor%3Dcenter%2C%20pos%3D0.125%2C%20rotate%3D180%7D%2C%20draw%3Dnone%2C%20from%3D3-3%2C%20to%3D1-1%5D%0A%09%5Carrow%5B%22%7B%5Ctext%7Bopen%7D%7D%22%7Bdescription%7D%2C%20hook'%2C%20from%3D3-3%2C%20to%3D1-3%5D%0A%09%5Carrow%5Bhook'%2C%20from%3D3-3%2C%20to%3D3-1%5D%0A%09%5Carrow%5Bhook'%2C%20from%3D3-8%2C%20to%3D3-6%5D%0A%5Cend%7Btikzcd%7D%5C%5D%0A#invert" alt="https://q.uiver.app/#q=WzAsOSxbMiwyLCJVXFxjYXAgWCJdLFsyLDAsIlgiXSxbMCwwLCJcXG1hdGhiYiBSXk4iXSxbMCwyLCJVIl0sWzMsMywiWSJdLFs1LDAsIlxcbWF0aGJiIFJeTiJdLFs1LDIsIlxcbWF0aGJiIFJeTSJdLFs3LDIsIlRfeVkiXSxbNywwLCJUX3hYIl0sWzMsMiwiXFx0ZXh0e29wZW59IiwxLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJib3R0b20ifX19XSxbMSwyLCIiLDIseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJob29rIiwic2lkZSI6ImJvdHRvbSJ9fX1dLFswLDEsIlxcdGV4dHtvcGVufSIsMSx7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Imhvb2siLCJzaWRlIjoiYm90dG9tIn19fV0sWzAsMywiIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJib3R0b20ifX19XSxbMCwyLCIiLDEseyJzdHlsZSI6eyJuYW1lIjoiY29ybmVyIn19XSxbMyw0LCJGIiwyLHsiY3VydmUiOjF9XSxbMSw0LCJmIiwwLHsiY3VydmUiOi0xfV0sWzgsNSwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiaG9vayIsInNpZGUiOiJib3R0b20ifX19XSxbNyw2LCIiLDIseyJzdHlsZSI6eyJ0YWlsIjp7Im5hbWUiOiJob29rIiwic2lkZSI6ImJvdHRvbSJ9fX1dLFs1LDYsIkRGKHgpIiwyXSxbOCw3LCJUX3ggZiJdXQ==" /></p>
 > 
 > Let $DF(x) : \mathbb{R}^N \to \mathbb{R}^M$ be the [[total derivative]] of $F$ at $x$.
-> Then $T_{x}f = DF(x) \restriction T_{x}X : T_{x}X \to T_{y}Y$ is the **pushforward** of $f$ at $x$.
+> Then $T_{x}f = DF(x) \restriction T_{x}X : T_{x}X \to T_{y}Y$ is the **tangent space map** of $f$ at $x$.
 > ^extension
 
-Together these definitions firmly establish that the differential pushforward exists, is independent from any choice of chart or extension, and is a [[linear map]] between [[tangent space|tangent spaces]].
+Together these definitions firmly establish that the differential tangent space map exists, is independent from any choice of chart or extension, and is a [[linear map]] between [[tangent space|tangent spaces]].
 
 > [!check]- Equivalence of characterizations
 > Let $\vab a \in T_{x}X$.
@@ -80,6 +69,9 @@ Together these definitions firmly establish that the differential pushforward ex
 > 
 > and the [[#^chart|fixed chart characterization]] concurs with the [[#^extension|fixed extension characterization]]. <span class="QED"/>
 
+## Tangent map on tangent bundles
+
+#to/complete 
 
 ## Properties
 
@@ -112,7 +104,7 @@ Let $f : X \to Y : x \mapsto y$ and $g : Y \to Z : y \mapsto z$ be $C^\infty$ [[
 
 ## Related
 
-- [[Tangent map]]
+- [[Differential pushforward]]
 - [[Differential pullback]]
 
 #

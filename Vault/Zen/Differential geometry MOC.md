@@ -17,9 +17,9 @@ A guiding principle is the [[Linearization dogma]].
 > 
 > - [[Differentiability#Arbitrary subsets of real coördinate space|Differentiability on arbitrary subsets of real coördinate space]]
 > - [[Tangent space#Real embedded manifold|Tangent space]]
-> - [[Differential pushforward#Real embedded manifold|Differential pushforward]]
+> - [[Tangent map#Real embedded manifold|Differential pushforward]]
 
-In these notes lowercase Latin indices are used for [[abstract index notation]] unless otherwise specified.
+In these notes lowercase Latin indices are used for [[abstract index notation]] unless otherwise specified, see the linked Zettel for information on conventions.
 
 ## Spaces
 
@@ -30,13 +30,18 @@ In these notes lowercase Latin indices are used for [[abstract index notation]] 
 ## Morphisms
 
 - [[Immersion and submersion]]
+### Fibrations
+
+
 - [[Bundle map]]
 - [[Bundle section]]
 - [[Vector bundle morphism]]
 
-### Derived morphisms
+### Derived maps
 
-- [[Differential pullback]], [[Differential pushforward]]
+- [[Tangent map]]
+- [[Differential pushforward]]
+- [[Differential pullback]]
 
 ### Results
 
@@ -50,27 +55,40 @@ In these notes lowercase Latin indices are used for [[abstract index notation]] 
 
 ## Calculus on manifolds
 
-The fundamental objects of calculus on manifolds
+Besides from $C^\alpha$-morphisms, other “functions” we might want to differentiate include
 
-- [[Scalar field]]
-- [[Vector field]]
-- [[1-form]]
+- [[Scalar field]], [[Vector field]], [[1-form]]
+    - [[Commuting vector fields are frames]]
 - [[Tensor field]]
 - [[Differential form]]
     - [[Volume form]], [[Riemannian volume form]]
-- Some pain has been taken to make sure most of my definitions for [[Calculus of variations MOC]] work for manifolds.
+
+This gives rise to a plethora of derivative notions, which all agree when they act on a [[scalar field|scalar field]] $f \in C^\alpha(M)$:
+
+- [[Exterior derivative]] of a differential form.
+- [[Lie derivative]] of a tensor field along a [[vector field]].
+- [[Covariant derivative]] of a tensor field (requires an [[affine connexion]]).
+- [[Differential pushforward]] and [[differential pullback]] of a $C^\alpha$-morphism.
+
+Some pain has been taken to make sure most of my definitions for [[Calculus of variations MOC]] work for manifolds.
 
 ## Differentiation
 
 There are three main definitions of differentiation, which in some sense coïncide on [[scalar field|scalar fields]].
 
 - [[Exterior derivative]]
-- [[Covariant derivative]] via the [[Affine connexion]]
+- [[Covariant derivative]] via an [[Affine connexion]]
 - [[Lie derivative]]
 
 ## Geometry
 
 - [[Smooth geodesic]]
+
+## Symmetry
+
+- [[Diffeomorphism]]
+- [[Differential pullback along a diffeomorphism]] defines symmetries of tensor fields and in particular metrics (giving isometries).
+- [[Killing vector field]]
 
 ## Extra structure
 

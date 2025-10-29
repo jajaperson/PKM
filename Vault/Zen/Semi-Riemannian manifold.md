@@ -25,6 +25,10 @@ the numbers of positive and negative entries is an invariant $(s,t)$, called the
 - $(n, 0)$ gives a [[Riemannian manifold]]
 - $(n-1,1)$ gives a [[Lorentzian manifold]]
 
+## See also
+
+- [[Christoffel symbols]]
+
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

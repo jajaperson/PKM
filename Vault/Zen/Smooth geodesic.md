@@ -5,15 +5,39 @@ tags:
 [[Differential geometry MOC]]
 # Smooth geodesic
 
-On a $C^\alpha$-[[Differentiable manifold|manifold]], there are two ways to go about defining a [[geodesic]]:
+On a $C^\alpha$-[[Differentiable manifold|manifold]], there are two ways to go about defining a **[[geodesic]]**:
 
-1. As the _straightest_ path between two points, i.e. tangent vectors are parallel by [[parallel transport]] using the [[affine connexion]];
+1. As the _straightest_ path between two points, i.e. tangent vectors are parallel by [[Parallel transport]] using the [[affine connexion]];
 2. As a _shortest_ or _extremizing_ path between two points, i.e. a path of maximal or minimal length as defined using the [[Semi-Riemannian manifold|metric tensor]].[^2024]
 
 Note that the latter only makes sense for a path which is definite, i.e. the line element is strictly positive or strictly negative.[^1]
 When the connexion used is the [[Levi-Civita connexion]], these notions coïncide.[^2]
 
   [^2024]: 2024\. [[Sources/@grassoGeneralRelativityWorkshop2024|General relativity workshop notes]], §7, pp. 52–56.
+
+## Straightest path
+
+Let $M$ be a $C^\alpha$-[[Differentiable manifold|manifold]] equipped with an [[affine connexion]] $\nabla$.
+Consider a smooth path 
+$$
+\begin{align*}
+\gamma :I \to M : \lambda \mapsto \gamma(\lambda)
+\end{align*}
+$$
+with $\dot{\gamma} = \mathrm{d}\gamma / \mathrm{d} \lambda$.
+We say $\gamma$ is a geodesic iff its tangent vectors are related by [[parallel transport]] along $\gamma$, i.e.
+$$
+\begin{align*}
+\dot{\gamma}^a \nabla_{a} \dot{\gamma}^b = 0.
+\end{align*}
+$$
+all along $\gamma$.
+In [[Coördinate chart|local coördinates]] $x : U \to M$ we therefore have
+$$
+\begin{align*}
+\ddot x^\alpha + \Gamma^\alpha{}_{\mu\nu} \, \dot{x}^\mu \, \dot{x}^\nu = 0.
+\end{align*}
+$$
 
 ## Extremizing path
 
@@ -24,7 +48,7 @@ $$
 \gamma : [0,1] &\to M : \lambda \mapsto \gamma(\lambda)
 \end{align*}
 $$
-and for now let
+and let
 $$
 \begin{align*}
 \dot{f} := \frac{\mathrm{d}}{\mathrm{d}\lambda} f(\gamma(\lambda))
@@ -53,9 +77,11 @@ $$
 \begin{align}
 L = L\left( (x^\mu), \left( \frac{\mathrm{d}x^\mu}{\mathrm{d}\lambda} \right)  \right) := \sqrt{ g_{\mu\nu} 
 \, \dot{x}^\mu \, \dot{x}^\nu
-}
+}.
 \end{align}
 $$
+We wish to find the extermizing path for the functional $\mathscr{L}$.
+
 By the [[Fundamental theorem of calculus]], it is clear that $L = \mathrm{d}s / \mathrm{d}\lambda$ and thus for $f = f(s(\lambda))$ we have
 $$
 \begin{align*}
