@@ -24,6 +24,27 @@ These may either be introduced
 1. as the [[Connexion disagreement tensor|connexion coëfficients]] of the [[Levi-Civita connexion]];
 2. as the coëfficients of the [[Smooth geodesic|geodesic equation]].
 
+## Properties
+
+See also [[Levi-Civita connexion#Properties|properties of the Levi-Civita connexion]].
+
+1. $\Gamma^\alpha{}_{\alpha \beta} = \partial_{\beta} \ln \sqrt{ \abs g }$, i.e. $\sqrt{ \abs g } \Gamma^\alpha{}_{\alpha\beta} = \partial_{\beta}\sqrt{ \abs g }$. ^P1
+
+> [!check]- Proof
+> By [[Matrix calculus#^I1]] we have
+> $$
+> \begin{align*}
+> \Gamma^\alpha{}_{\alpha\beta} 
+> &= g^{\delta\alpha} \Gamma_{\delta\alpha\beta}
+> =  \tfrac 1 2 g^{\delta\alpha}(\partial_{\alpha} g_{\delta\beta} + \partial_{\beta}g_{\delta\alpha} - \partial_{\delta}g_{\alpha\beta}) \\
+> &= \tfrac 1 2 g^{\delta \alpha} (\partial_{\delta}g_{\alpha\beta} + \partial_{\beta}g_{\delta\alpha}- \partial_{\delta}g_{\alpha\beta})
+> = \tfrac 1 2 g^{\delta\alpha} \partial_{\beta}g_{\delta\alpha} \\
+> &= \tfrac 1 2 \Tr (\mathbf{g}^{-1} \partial_{\beta} \mathbf{g}) \stackrel ! = \tfrac 1 2 \partial_{\beta} \ln \abs{\det \mathbf{ g}} 
+> = \partial_{\beta} \ln \sqrt{ \abs g }
+> \end{align*}
+> $$
+> proving [[#^P1]].
+
 
 #
 ---

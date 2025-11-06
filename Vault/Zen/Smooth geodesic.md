@@ -39,6 +39,9 @@ $$
 \end{align*}
 $$
 
+> [!warning]- Caveat emptor
+> This is parameterization dependent, since it cares about the speed at which we traverse the curve, and will only consider “affine parameterizations” as straight.
+
 ## Extremizing path
 
 Let $(M, g_{ab})$ be a [[semi-Riemannian manifold]].

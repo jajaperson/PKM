@@ -77,6 +77,7 @@ $$
 \end{align*}
 $$
 
+
 > [!check]- Proof
 > Let $X^a \in \mathfrak{X}(M)$ and $\omega_{a} \in \Omega^1(M)$.
 > Then since covariant derivatives all agree with the [[exterior derivative]] on [[Scalar field|scalar fields]], we have

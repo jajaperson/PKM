@@ -46,7 +46,7 @@ $$
 \end{align*}
 $$
 
-## Generalisations
+## Generalizations
 By exploiting different generalisations of the [[Fundamental theorem of calculus]]
 along with different generalisations of the [[Product rule|product rule]],
 we can generalise integration by parts for vector valued functions.[^2013]
@@ -87,6 +87,10 @@ we can generalise integration by parts for vector valued functions.[^2013]
 
 
 [^2013]: 2013\. [[@griffithsIntroductionElectrodynamics2013|Introduction to electrodynamics]], p. 37 (eqn 1.59)
+
+## Semi-Riemannian geometry
+
+To covariantly integrate by parts we can use [[Levi-Civita connexion#^P1]].
 
 ## Practice problems
 - 2016\. [[Sources/@stewartCalculus2016|Calculus]], pp. 516–518 (§7.1 exercises)

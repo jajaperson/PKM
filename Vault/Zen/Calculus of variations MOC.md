@@ -9,6 +9,7 @@ The **calculus of variations**, also called **variational calculus**, generalize
 
 - [[Functional]], [[Action functional]], [[Local Lagrangian]]
 - [[First variation]], [[Functional derivative]]
+- [[Euler-Lagrange equations]]
 
 #
 ---

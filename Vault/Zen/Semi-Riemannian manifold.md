@@ -3,11 +3,12 @@ tags:
   - public
 aliases:
   - metric tensor
+  - semi-Riemannian $C^\alpha$-manifold
 ---
 [[Differential geometry MOC]]
 # Semi-Riemannian manifold
 
-A **semi-Riemannian manifold** $(M, \mathscr{A},g)$ is a $C^\alpha$-[[Differentiable manifold|manifold]] $(M, \mathscr{A})$ equipped with a special kind of [[tensor field]] $g_{ab} \in \mathcal{T}^0_{2}(M)$ called a **metric tensor**. #m/def/geo/diff 
+A **semi-Riemannian** $C^\alpha$-manifold $(M, \mathscr{A},g)$ is a $C^\alpha$-[[Differentiable manifold|manifold]] $(M, \mathscr{A})$ equipped with a special kind of [[tensor field]] $g_{ab} \in \mathcal{T}^0_{2}(M)$ called a **metric tensor**. #m/def/geo/diff 
 This means $g_{ab}$ must satisfy
 
 1. **symmetry**, i.e. $g_{ab} = g_{ba}$;

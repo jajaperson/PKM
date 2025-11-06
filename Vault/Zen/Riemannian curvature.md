@@ -3,6 +3,8 @@ tags:
   - public
 aliases:
   - flat manifold
+mathLink-blocks:
+  B1: Bianchi identity I
 ---
 [[Differential geometry MOC]]
 # Riemannian curvature
@@ -127,13 +129,17 @@ explaining why the structure of an affine connexion is a prerequisite.
 ### For a torsion free connexion
 Assume $\nabla$ is torsion-free.
 
-1. **Bianchi Identity I.** $\tfrac 1 2 R^{d}{}_{[cab]} = R^d{}_{cab} + R^d{}_{abc} + R^d{}_{bca} = 0$.
+1. **Bianchi Identity I.** $\tfrac 1 2 R^{d}{}_{[cab]} = R^d{}_{cab} + R^d{}_{abc} + R^d{}_{bca} = 0$. ^B1
 
 
 > [!missing]- Proof
 > #missing/proof
 
 See also the [[Levi-Civita connexion#Properties|properties of the Levi-Civita connexion]].
+
+## Computing curvature
+
+Besides the above expression using the [[Connexion disagreement tensor|connexion coëfficients]], see the [[Vielbein method for computing curvature]].
 
 ## See also
 

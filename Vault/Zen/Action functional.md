@@ -9,7 +9,8 @@ tags:
 
 Let $M$ be an $m$-dimensional $C^\alpha$-[[manifold]].
 An **action functional**, also called a **variational integral**,[^2004]
-is a [[functional]] on some [[Smooth field|space of fields]] $\Gamma^\alpha(M,F)$ of the form
+is a [[functional]] on some space $F$ of smooth maps from $M$
+of the form
 $$
 \begin{align*}
 \mathscr{L}[f] = \int_{M} L[f]
@@ -18,7 +19,7 @@ $$
 for some map into [[Differential form|top forms]]
 $$
 \begin{align*}
-L : \Gamma^\alpha(M,F) \to \Omega^m(M)
+L : F \to \Omega^m(M)
 \end{align*}
 $$
 called the **Lagrangian**.

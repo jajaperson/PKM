@@ -1,6 +1,9 @@
 ---
 tags:
   - public
+mathLink-blocks:
+  P1: $\sqrt{ \abs g } \nabla_{\mu}v^\mu = \partial_{\mu} \sqrt{ \abs g }  v^\mu$
+  B2: Bianchi identity II
 ---
 [[Affine connexion]]
 # Levi-Civita connexion
@@ -61,16 +64,44 @@ In particular this gives the [[Christoffel symbols]] as the [[Connexion disagree
 
 ## Properties
 
+### Fundamental
+
+Let $g = \det(\mathbf{g})$. We take local coördinates $x : U \to \mathbb{R}^m$.
+
+1. $\sqrt{ \abs g } \nabla_{\mu}v^\mu = \partial_{\mu} \sqrt{ \abs g }  v^\mu$ for any vector field $v^a \in \mathfrak{X}(M)$. ^P1
+
+> [!check]- Proof
+> Expressing in terms of [[Christoffel symbols]],
+> $$
+> \begin{align*}
+> \sqrt{ \abs g } \nabla_{\mu} v^\mu 
+> &= \sqrt{ \abs g } \partial_{\mu}v^\mu + \sqrt{ \abs g }  \Gamma^\mu{}_{\mu\delta}v^\delta \\
+> &\stackrel ! =
+> \sqrt{ \abs g } \partial_{\mu} v^\mu +v^\delta \partial_{\delta} \sqrt{ \abs g } \\
+> &=  \partial_{\mu} \sqrt{ \abs g } v^\mu
+> \end{align*}
+> $$
+> where $(\stackrel ! =)$ is by [[Christoffel symbols#^P1]].
+> This proves [[#^P1]]. <span class="QED"/>
+
+### Curvature
 Consider the [[Riemannian curvature]] $R^c{}_{dab}$ associated to $\nabla$,
 along with the [[Ricci curvature]] $R_{ab}$ and [[scalar curvature]] $R$.
+
 
 1. $R_{abcd} = R_{[ab]cd}$, i.e. $R_{abcd} = -R_{bacd}$.
 2. $R_{abcd} = R_{cdab}$.
 3. $R_{ab} = R_{(ab)}$, i.e. $R_{ab} = R_{ba}$.
-4. **Bianchi identity II.** $\nabla_{a} R^d{}_{ebc} + \nabla_{b}R^d{}_{eca} + \nabla_{c}R^d{}_{eab} = 0$.
+4. **Bianchi identity II.** $\nabla_{a} R^d{}_{ebc} + \nabla_{b}R^d{}_{eca} + \nabla_{c}R^d{}_{eab} = 0$. ^B2
 5. The number of independent components in $R_{cdab}$ is $\tfrac{1}{12} m^2(m^2-1)$ for a manifold of dimension $m$.
    In particular we have $0,1,6,20$ for $m=1,2,3,4$ respectively.
 6. If $R^c{}_{dab}$ vanishes, then there exist local coördinate systems with the metric $g_{\mu\nu} = \eta_{\mu\nu}$.
+
+We take local coördinates $x : U \to \mathbb{R}^m$.
+
+1. $R^\rho{}_{\sigma\mu\nu} = \partial_{\mu}\Gamma^\rho{}_{\nu\sigma} - \partial_{\nu}\Gamma^\rho{}_{\mu\sigma} + \Gamma^\rho{}_{\mu\lambda} \Gamma^\lambda{}_{\nu\sigma} - \Gamma^\rho{}_{\mu\lambda}\Gamma^\lambda{}_{\mu\sigma}$.
+2. $R_{\alpha\beta} = \partial_{\mu}\Gamma^\mu{}_{\alpha\beta} - \Gamma^\mu{}_{\sigma\beta}\Gamma^\sigma{}_{\alpha\mu} - \partial_{\alpha}\partial_{\beta} \ln \sqrt{ \abs g } + \Gamma^\mu{}_{\alpha\beta} \partial_{\mu} \ln \sqrt{ \abs g }$.
+
 
 > [!missing]- Proof
 > #missing/proof

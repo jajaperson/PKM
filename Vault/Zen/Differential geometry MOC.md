@@ -87,13 +87,19 @@ There are three main definitions of differentiation, which in some sense coïnci
 ## Symmetry
 
 - [[Diffeomorphism]]
-- [[Differential pullback along a diffeomorphism]] defines symmetries of tensor fields and in particular metrics (giving isometries).
-- [[Killing vector field]]
+- [[Differential pullback along a diffeomorphism]] defines symmetries of tensor fields and in particular metrics
+- [[Isometry of a semi-Riemannian manifold]]
+- [[Killing field]]
 
 ## Extra structure
 
 - [[Semi-Riemannian manifold]]
+    - [[Vielbein]]
 - [[Oriented manifold]]
+
+## Examples
+
+- [[Spherical coördinates]]
 
 
 #

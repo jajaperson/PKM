@@ -10,7 +10,7 @@ mathLink-blocks:
 # Torsion tensor
 
 Let $\nabla$ be an [[affine connexion]] on a $C^\alpha$-[[Differentiable manifold|manifold]] $M$.
-The **torsion tensor** $T^c{}_{ab} \in \mathcal{T}^1_{2}(M)$ is a [[tensor field]] defined bt #m/def/geo/diff 
+The **torsion tensor** $T^c{}_{ab} \in \mathcal{T}^1_{2}(M)$ is a [[tensor field]] defined by #m/def/geo/diff 
 $$
 \begin{align*}
 T^c{}_{ab} \, X^a  \,Y^b = T(X,Y)^c = \nabla_{X}Y^c - \nabla_{Y} X^c - [X,Y]^c.
@@ -67,6 +67,11 @@ $$
 ## Properties
 
 1. $T^c{}_{ab} = T^c{}_{[ab]}$.
+
+## Other results
+
+- [[Exterior derivative#From a covariant derivative|Exterior derivative from a torsion-free connexion]]
+- The idea that at an isolated point we cannot detect gravity is equivalent to the connexion on spacetime being torsion free, i.e. find local inertial reference frames. This also implies the equivalence of inertial and gravitational mass.
 
 ## Related
 
