@@ -71,7 +71,7 @@ $$
 \exp : p &\mapsto (p - \varepsilon_{0}(1,1),1)
 \end{align*}
 $$
-and for the associated section $e_{(-)} : a \mapsto (0,a)$ we have $s_{a}s_{b} = s_{ab}  \mathrm{e}^{\varepsilon_{0}(a,b)}$.
+and for the associated section $s_{(-)} : a \mapsto (0,a)$ we have $s_{a}s_{b} = s_{ab}  \mathrm{e}^{\varepsilon_{0}(a,b)}$.
 Note $s_{1} = 1$ iff $\varepsilon_{0}(a,1)=\varepsilon_{0}(1,a)=0$ for all $a \in A$.
 
 > [!check]- Proof
