@@ -1,5 +1,10 @@
+import { readFileSync } from "fs"
+import { loadMacrosFromPreamble } from "./lib/load-preamble"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+
+const MATHJAX_PREAMBLE = "./content/preamble.sty"
+const macros = loadMacrosFromPreamble(readFileSync(MATHJAX_PREAMBLE, "utf8"))
 
 /**
  * Quartz 4 Configuration
@@ -12,9 +17,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
@@ -71,7 +74,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.Latex({ renderEngine: "mathjax", customMacros: macros }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
