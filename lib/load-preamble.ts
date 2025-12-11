@@ -3,7 +3,7 @@ export interface Macros {
 }
 
 const renewCommandRegex = /\\(?:re)?newcommand{\\(\w+)}(?:\[(\d+)\])?(?:{(.+)})/
-const mathOperatorRegex = /\\DeclareMathOperator{\\(\w+)}{(\w+)}/
+const mathOperatorRegex = /\\DeclareMathOperator{\\(\w+)}{(.+)}/
 
 export function loadMacrosFromPreamble(preamble: string): Macros {
     const macros: Macros = {};
