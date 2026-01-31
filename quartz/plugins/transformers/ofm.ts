@@ -198,7 +198,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
           const blockRef = Boolean(rawHeader?.startsWith("#^")) ? "^" : ""
           const displayAnchor = anchor ? `#${blockRef}${anchor.trim().replace(/^#+/, "")}` : ""
           const embedDisplay = value.startsWith("!") ? "!" : ""
-          const quiver = embedDisplay === "!" && rawAlias?.startsWith("|https://q.uiver.app/")
+          const quiver = embedDisplay === "!" && rawAlias?.match(/https:\/\/q.uiver.app\//)
           const displayAlias = quiver ? "|A quiver diagram." : rawAlias ?? rawHeader?.replace("#", "|") ?? ""
 
           if (rawFp?.match(externalLinkRegex)) {
@@ -238,16 +238,15 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                     const alt = match?.groups?.alt ?? ""
                     const width = match?.groups?.width ?? "auto"
                     const height = match?.groups?.height ?? "auto"
+                    // Some of the minimal theme's image features:
+                    let className = []
+                    if (anchor === "#invert") { className.push("invert") }
+                    if (anchor === "#invertW") { className.push("invertW") }
+                    // Mirror Obsidian's centring behaviour.
+                    if (alias === "A quiver diagram." || alias === "c") { className.push("center") }
                     return {
-                      type: "image",
-                      url,
-                      data: {
-                        hProperties: {
-                          width,
-                          height,
-                          alt,
-                        },
-                      },
+                      type: "html",
+                      value: `<div class="${className.join(" ")}"><img src="${url}" width="${width}" height="${height}" alt="${alt}" /></div>`,
                     }
                   } else if ([".mp4", ".webm", ".ogv", ".mov", ".mkv"].includes(ext)) {
                     return {

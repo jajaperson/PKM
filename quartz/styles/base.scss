@@ -635,3 +635,11 @@ iframe.pdf {
   transition: width 0.2s ease;
   z-index: 9999;
 }
+
+// Custom stuff
+
+.center img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

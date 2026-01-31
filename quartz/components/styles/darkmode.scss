@@ -22,10 +22,18 @@
 
 :root[saved-theme="dark"] {
   color-scheme: dark;
+
+  & .invert {
+    filter: invert();
+  }
 }
 
 :root[saved-theme="light"] {
   color-scheme: light;
+
+    & .invertW {
+    filter: invert();
+  }
 }
 
 :root[saved-theme="dark"] .darkmode {
