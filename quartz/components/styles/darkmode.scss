@@ -24,7 +24,7 @@
   color-scheme: dark;
 
   & .invert {
-    filter: invert();
+    filter: invert(1);
   }
 }
 
@@ -32,7 +32,7 @@
   color-scheme: light;
 
     & .invertW {
-    filter: invert();
+    filter: invert(1);
   }
 }
 
