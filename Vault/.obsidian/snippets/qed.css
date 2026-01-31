@@ -1,6 +1,0 @@
-.QED {
-  margin-left: 2em;
-}
-.QED:after {
-  content: "◻️" !important;
-}

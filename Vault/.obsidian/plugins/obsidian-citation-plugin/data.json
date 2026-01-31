@@ -1,9 +1,0 @@
-{
-  "citationExportFormat": "biblatex",
-  "literatureNoteTitleTemplate": "@{{citekey}}",
-  "literatureNoteFolder": "Sources",
-  "literatureNoteContentTemplate": "---\ntitle: \"{{title}}\"\nauthors: \n<% \"{{authorString}}\".split(\", \").map(a => `  - \"${a}\"`).join(\"\\n\") %>\nyear: {{year}}\n---\n<% \"{{authorString}}\".split(\", \").map(a => `[[${a}]]`).join(\"\\n• \") %> {{year}} #source/<% tp.file.cursor(0) %> #reads/0/p<% tp.file.cursor(1) %> \n[Zotero]({{zoteroSelectURI}})\n# {{title}}\n\n<% `{{abstract}}`.split(\"\\n\").map(l => `> ${l}`).join(\"\\n\") %>\n\n<% tp.file.cursor(2) %>\n\n<% tp.file.include(\"[[Bins/Templates/&footer]]\") %>\n<% '#' %>lang/en | <% '#' %>SemBr",
-  "markdownCitationTemplate": "  [^{{year}}]: {{year}}\\. [[Sources/@{{citekey}}|{{title}}]]",
-  "alternativeMarkdownCitationTemplate": "",
-  "citationExportPath": "Bins/Other/citations.bib"
-}

@@ -1,0 +1,12 @@
+{
+  "launchers": [
+    {
+      "commandName": "Find literature PDF",
+      "shortcutName": "Open literature PDF from Obsidian",
+      "inputTypes": [
+        "Entire Document"
+      ],
+      "separator": "//"
+    }
+  ]
+}
