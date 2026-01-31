@@ -29,6 +29,7 @@ const config: QuartzConfig = {
         header: "Schibsted Grotesk",
         body: "Source Sans Pro",
         code: "IBM Plex Mono",
+        ling: "Charis SIL",
       },
       colors: {
         lightMode: {
@@ -58,7 +59,7 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: false }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true }),
       Plugin.FrontMatter(),
       // Plugin.CreatedModifiedDate({
       //   priority: ["frontmatter", "git", "filesystem"],
@@ -71,7 +72,7 @@ const config: QuartzConfig = {
         keepBackground: false,
       }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents(),
+      Plugin.TableOfContents({ minEntries: 1 }),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "mathjax", customMacros: macros }),
@@ -85,7 +86,6 @@ const config: QuartzConfig = {
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
-        // enableRSS: true,
       }),
       Plugin.Assets(),
       Plugin.Static(),

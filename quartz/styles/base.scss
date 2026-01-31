@@ -89,9 +89,9 @@ a {
 
   &.internal {
     text-decoration: none;
-    background-color: var(--highlight);
-    padding: 0 0.1rem;
-    border-radius: 5px;
+    // background-color: var(--highlight);
+    // padding: 0 0.1rem;
+    // border-radius: 5px;
     line-height: 1.4rem;
 
     &.broken {
@@ -112,6 +112,10 @@ a {
       &::before {
         content: "#";
       }
+
+      background-color: var(--highlight);
+      padding: 0.2em 0.65em;
+      border-radius: 2em;
     }
   }
 
@@ -634,12 +638,4 @@ iframe.pdf {
   background: var(--secondary);
   transition: width 0.2s ease;
   z-index: 9999;
-}
-
-// Custom stuff
-
-.center img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }

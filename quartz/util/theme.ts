@@ -29,6 +29,7 @@ export interface Theme {
     header: FontSpecification
     body: FontSpecification
     code: FontSpecification
+    ling: FontSpecification
   }
   cdnCaching: boolean
   colors: Colors
@@ -50,15 +51,15 @@ export function getFontSpecificationName(spec: FontSpecification): string {
 }
 
 function formatFontSpecification(
-  type: "title" | "header" | "body" | "code",
+  type: "title" | "header" | "body" | "code" | "ling",
   spec: FontSpecification,
 ) {
   if (typeof spec === "string") {
     spec = { name: spec }
   }
 
-  const defaultIncludeWeights = type === "header" ? [400, 700] : [400, 600]
-  const defaultIncludeItalic = type === "body"
+  const defaultIncludeWeights = type === "header" || type === "ling" ? [400, 700] : [400, 600]
+  const defaultIncludeItalic = type === "body" || type === "ling"
   const weights = spec.weights ?? defaultIncludeWeights
   const italic = spec.includeItalic ?? defaultIncludeItalic
 
@@ -86,12 +87,13 @@ function formatFontSpecification(
 }
 
 export function googleFontHref(theme: Theme) {
-  const { header, body, code } = theme.typography
+  const { header, body, code, ling } = theme.typography
   const headerFont = formatFontSpecification("header", header)
   const bodyFont = formatFontSpecification("body", body)
   const codeFont = formatFontSpecification("code", code)
+  const lingFont = formatFontSpecification("ling", ling)
 
-  return `https://fonts.googleapis.com/css2?family=${headerFont}&family=${bodyFont}&family=${codeFont}&display=swap`
+  return `https://fonts.googleapis.com/css2?family=${headerFont}&family=${bodyFont}&family=${codeFont}&family=${lingFont}&display=swap`
 }
 
 export function googleFontSubsetHref(theme: Theme, text: string) {
@@ -159,6 +161,7 @@ ${stylesheet.join("\n\n")}
   --headerFont: "${getFontSpecificationName(theme.typography.header)}", ${DEFAULT_SANS_SERIF};
   --bodyFont: "${getFontSpecificationName(theme.typography.body)}", ${DEFAULT_SANS_SERIF};
   --codeFont: "${getFontSpecificationName(theme.typography.code)}", ${DEFAULT_MONO};
+  --lingFont: "${getFontSpecificationName(theme.typography.ling)}", ${DEFAULT_SANS_SERIF};
 }
 
 :root[saved-theme="dark"] {
