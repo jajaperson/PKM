@@ -59,11 +59,7 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true, disableBrokenWikilinks: true }),
       Plugin.FrontMatter(),
-      // Plugin.CreatedModifiedDate({
-      //   priority: ["frontmatter", "git", "filesystem"],
-      // }),
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -72,10 +68,11 @@ const config: QuartzConfig = {
         keepBackground: false,
       }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents({ minEntries: 1 }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true, disableBrokenWikilinks: true }),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "mathjax", customMacros: macros }),
+      Plugin.TableOfContents({ minEntries: 1 }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

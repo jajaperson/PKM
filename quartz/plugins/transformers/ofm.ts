@@ -13,7 +13,7 @@ import { ReplaceFunction, findAndReplace as mdastFindReplace } from "mdast-util-
 import rehypeRaw from "rehype-raw"
 import { SKIP, visit } from "unist-util-visit"
 import path from "path"
-import { splitAnchor } from "../../util/path"
+import { FullSlug, getFullSlug, resolveRelative, splitAnchor, transformLink } from "../../util/path"
 import { JSResource, CSSResource } from "../../util/resources"
 // @ts-ignore
 import calloutScript from "../../components/scripts/callout.inline"
@@ -280,10 +280,19 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                 }
 
                 // treat as broken link if slug not in ctx.allSlugs
+                // see jackyzha0/quartz#2258
                 if (opts.disableBrokenWikilinks) {
+                  const curSlug = file.data.slug!;
+                  const curDir = path.dirname(curSlug)
                   const slug = slugifyFilePath(fp as FilePath)
-                  const exists = ctx.allSlugs && ctx.allSlugs.includes(slug)
+                  const transformed = transformLink(curSlug, slug, {
+                    strategy: "shortest",
+                    allSlugs: ctx.allSlugs
+                  })
+                  const resolved = path.join(curDir, transformed) as unknown as FullSlug
+                  const exists = ctx.allSlugs && ctx.allSlugs.includes(resolved)
                   if (!exists) {
+                    console.log(path.join(curDir, transformed))
                     return {
                       type: "html",
                       value: `<a class=\"internal broken\">${alias ?? fp}</a>`,
