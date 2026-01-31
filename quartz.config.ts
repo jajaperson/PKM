@@ -59,7 +59,7 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true, disableBrokenWikilinks: true }),
       Plugin.FrontMatter(),
       // Plugin.CreatedModifiedDate({
       //   priority: ["frontmatter", "git", "filesystem"],
