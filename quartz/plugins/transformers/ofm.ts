@@ -13,7 +13,7 @@ import { ReplaceFunction, findAndReplace as mdastFindReplace } from "mdast-util-
 import rehypeRaw from "rehype-raw"
 import { SKIP, visit } from "unist-util-visit"
 import path from "path"
-import { FullSlug, getFullSlug, resolveRelative, splitAnchor, transformLink } from "../../util/path"
+import { splitAnchor, transformLink } from "../../util/path"
 import { JSResource, CSSResource } from "../../util/resources"
 // @ts-ignore
 import calloutScript from "../../components/scripts/callout.inline"
@@ -41,7 +41,6 @@ export interface Options {
   enableYouTubeEmbed: boolean
   enableVideoEmbed: boolean
   enableCheckbox: boolean
-  disableBrokenWikilinks: boolean
 }
 
 const defaultOptions: Options = {
@@ -57,7 +56,6 @@ const defaultOptions: Options = {
   enableYouTubeEmbed: true,
   enableVideoEmbed: true,
   enableCheckbox: false,
-  disableBrokenWikilinks: false,
 }
 
 const calloutMapping = {
@@ -211,7 +209,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 
       return src
     },
-    markdownPlugins(ctx) {
+    markdownPlugins() {
       const plugins: PluggableList = []
 
       // regex replacements
@@ -277,27 +275,6 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                   }
 
                   // otherwise, fall through to regular link
-                }
-
-                // treat as broken link if slug not in ctx.allSlugs
-                // see jackyzha0/quartz#2258
-                if (opts.disableBrokenWikilinks) {
-                  const curSlug = file.data.slug!;
-                  const curDir = path.dirname(curSlug)
-                  const slug = slugifyFilePath(fp as FilePath)
-                  const transformed = transformLink(curSlug, slug, {
-                    strategy: "shortest",
-                    allSlugs: ctx.allSlugs
-                  })
-                  const resolved = path.join(curDir, transformed) as unknown as FullSlug
-                  const exists = ctx.allSlugs && ctx.allSlugs.includes(resolved)
-                  if (!exists) {
-                    console.log(path.join(curDir, transformed))
-                    return {
-                      type: "html",
-                      value: `<a class=\"internal broken\">${alias ?? fp}</a>`,
-                    }
-                  }
                 }
 
                 // internal link

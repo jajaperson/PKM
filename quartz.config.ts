@@ -67,9 +67,10 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.GitHubFlavoredMarkdown(),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true, disableBrokenWikilinks: true }),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true, }),
+      // This needs to come after, since it replaces undirected apostrophes with directed ones.
+      Plugin.GitHubFlavoredMarkdown(),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "mathjax", customMacros: macros }),
       Plugin.TableOfContents({ minEntries: 1 }),
