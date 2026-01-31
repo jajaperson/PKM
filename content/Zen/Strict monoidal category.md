@@ -1,6 +1,6 @@
 ---
 aliases:
-  - "#monoidal-category/strict"
+  - "#category/monoidal/strict"
 tags:
   - public
 ---

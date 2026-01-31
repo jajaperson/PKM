@@ -1,9 +1,10 @@
 ---
 tags:
   - public
+mathLink: $\mathbb{K}$-tensor product of vector spaces
 ---
 [[Linear algebra MOC]]
-# Tensor product vector space
+# $\mathbb{K}$-tensor product of vector spaces
 
 Let $V_{1},V_{2}$ be [[vector space|vector spaces]] over $\mathbb{K}$. The **tensor product** $V_{1} \otimes_{\mathbb{K}} V_{2}$ is a vector space which allows one to treat $\mathbb{K}$-[[Multilinear map|bilinear]] maps from $V_{1} \times V_{2}$ as $\mathbb{K}$-[[Linear map|linear]] maps from $V_{1} \otimes_{\mathbb{K}} V_{2}$,
 as ensured by the [[#Universal property]].

@@ -1,15 +1,16 @@
 ---
-categoryName: category of modules
+categoryName: category of $\mathcal K$-modules
 mathLink: $\lMod{\mathcal K}$
 object: "[[Module over a commutative ring|module]] over $R$"
 morphism: "[[module homomorphism]]"
-tensorProduct: "[[Tensor product of modules over a commutative ring|tensor product]]"
-tensorUnit: $R$
+tensorProduct: $\mathcal K$-[[Tensor product of modules over a commutative ring|tensor product]]
+tensorUnit: $\mathcal K$
 arguments:
-  - $R$ [[commutative ring]]
+  - $\mathcal K$ [[commutative ring]]
 tags:
-  - monoidal-category
+  - category/monoidal/symmetric
   - public
+  - category/monoidal/closed
 ---
 [[Category of left modules]]
 # Category of modules over a commutative ring

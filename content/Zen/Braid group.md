@@ -1,6 +1,4 @@
 ---
-aliases:
-  - Artin braid group
 tags:
   - public
 ---
@@ -15,21 +13,7 @@ $$
 \mathfrak{B}_{n}(X) = \pi_{1} {X \choose n}.
 \end{align*}
 $$
-In the special case $X = \mathbb{R}^2$ is the [[Euclidean plane]], we have the **Artin braid group** $\mathfrak{B}_{n}$ on $n$ strands
-$$
-\begin{align*}
-\mathfrak{B}_{n} = \mathfrak{B}_{n}(\mathbb{R}^2) = \pi_{1} {\mathbb{R}^2 \choose n}
-\end{align*}
-$$
-which has [[Group presentation|presentation]] $\langle \sigma_{1} , \dots, \sigma_{{n-1}} : R \rangle$
-where $R$ consists of the relations
-$$
-\begin{align*}
-\sigma_{i}\sigma_{j}\sigma_{i} &= \sigma_{j}\sigma_{i}\sigma_{j} & \abs{i-j} &= 1, \\
-\sigma_{i}\sigma_{j} &= \sigma_{j}\sigma_{i} & \abs{i-j} &\neq 1.
-\end{align*}
-$$
-
+In the special case $X = \mathbb{R}^2$ is the [[Euclidean plane]], we have the [[Artin braid group]].
 
 #
 ---

@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[PIE phonology MOC]]
-# PIE \*/s/ insertion
+# PIE <span class="recon">/s/</span> insertion
 It appears that coronal geminates were not allowed, except in the cases of nursery-words.
 Would-be cross-morphological coronal geminates were avoided in PIE via the insertion of an <em class='recon'>/s/</em>,
 so <em class='recon'>/TT/</em> → <em class='recon'>/TsT/</em>.

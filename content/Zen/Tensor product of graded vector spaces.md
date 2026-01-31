@@ -6,7 +6,7 @@ tags:
 # Tensor product of graded vector spaces
 
 Let $V, W$ be $\mathfrak{A}$-[[graded vector space|graded vector spaces]] over $\mathbb{K}$ for some [[monoid]] $(\mathfrak{A}, +)$.
-The **tensor product** $V \otimes W$ is the [[tensor product of vector spaces]] with the unique $\mathfrak{A}$-[[Graded vector space|gradation]] specified by #m/def/linalg
+The **tensor product** $V \otimes W$ is the [[Tensor product of vector spaces over a field]] with the unique $\mathfrak{A}$-[[Graded vector space|gradation]] specified by #m/def/linalg
 $$
 \begin{align*}
 V_{\alpha} \otimes W_{\beta} \leq (V \otimes W)_{\alpha + \beta}

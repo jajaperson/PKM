@@ -1,7 +1,7 @@
 {
-  "findText": "\\$.*?Q.*?\\$",
-  "replaceText": "q",
-  "useRegEx": true,
+  "findText": "Lucien",
+  "replaceText": "Lucienne ",
+  "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,
   "processLineBreak": true,

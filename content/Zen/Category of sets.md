@@ -4,8 +4,11 @@ mathLink: $\Set$
 object: "[[set]]"
 morphism: "[[function]]"
 tags:
-  - category
   - public
+  - category/monoidal/closed
+  - category/monoidal/symmetric/cartesian
+tensorUnit: "[[singleton]]"
+tensorProduct: "[[cartesian product]]"
 ---
 [[Set theory MOC]]
 # Category of sets

@@ -8,6 +8,7 @@ tags:
 
 - [[General structure of a mathematics area]]
 - [[Space.canvas|Space (mathematics)]]
+- [[Foundation-agnostic mathematics]]
 
 ## Analysis
 - [[Infinitesimal calculus MOC]]

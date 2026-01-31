@@ -7,7 +7,7 @@ arguments:
   - $\cat C$ [[category]]
 tags:
   - category
-  - monoidal-category/strict
+  - category/monoidal/strict
   - public
 tensorProduct: composition of functors
 tensorUnit: "[[identity functor]]"

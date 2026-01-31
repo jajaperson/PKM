@@ -27,6 +27,7 @@ See [[types of category]].
 
 - Category + Tensor product = [[Monoidal category]]
 - Category + Internal hom = [[Closed category]]
+- [[Displayed category]]
 ## Internal constructions
 
 - [[Universal construction]]

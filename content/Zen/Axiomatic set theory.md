@@ -16,7 +16,15 @@ which showed that the intuitive notions underlying naïve set theory were flawed
 > gleichzeitig aber auch weit genug ausdehnt,
 > um alles Wertvolle dieser Lehre beizubehalten.[^1908]
 
-  [^1908]: 1908\. [[Sources/@zermeloUntersuchungenUeberGrundlagen1908|Untersuchungen über die Grundlagen der Mengenlehre. I]]
+[^1908]: 1908\. [[Sources/@zermeloUntersuchungenUeberGrundlagen1908|Untersuchungen über die Grundlagen der Mengenlehre. I]].
+“In this situation their remains presently no other option
+other than to embark upon the inverse path and,
+beginning with the historically conceived ‘set theory’,
+seek out the principles required for the foundations of this mathematical discipline.
+This task must be executed in such a way that one at once restricts the principles tightly enough to close out all contradictions,
+but also simultaneously extends these broadly enough
+to retain of this theory all which is valuable.”
+
 
 [[Ernst Zermelo]] sought to find axioms that were both self-consistent and powerful enough to yield important results from naïve set theory,
 and his axioms form the basis of [[ZFC]], the most commonly used set theory as a [[Foundation of mathematics]].
@@ -37,6 +45,10 @@ Those based on Substance, and those based on Form.
   - [[ETCS]]
 
 All of these are formulated in [[1st-order logic]], refer to [[Conventions of 1st-order logic in these notes]].
+
+## Sets within other foundations
+
+The alternative to axiomatic set theory is the study of sets as objects within some other foundations such as a [[Type theory]], see e.g. 2013\. [[Sources/@theunivalentfoundationsprogramHomotopyTypeTheory2013|Homotopy Type Theory: Univalent Foundations of Mathematics]], §10.
 
 #
 ---

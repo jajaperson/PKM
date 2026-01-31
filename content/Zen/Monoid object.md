@@ -31,13 +31,13 @@ Moreover, if we are in a [[Symmetric monoidal category]] with braiding $\tau$, t
 
 > [!info]- String diagrams
 > Unitality:
-> ![[unital-string.svg#invert|c|300]]
+> ![[unital-string.svg#invert|c]]
 > 
 > Associativity:
-> ![[associative-string.svg#invert|c|300]]
+> ![[associative-string.svg#invert|c]]
 > 
 > Commutativity:
-> ![[commutative-string.svg#invert|c|240]]
+> ![[commutative-string.svg#invert|c]]
 
 We can thence define a [[Homomorphism of monoid objects]] and [[Category of monoid objects]].
 These concepts admit duals, see [[Comonoid object]].

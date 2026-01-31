@@ -11,7 +11,7 @@ An **enriched category** is a certain generalization of an ordinary [[category]]
 Let $\cat M$ be a [[monoidal category]]. 
 A category $\cat C$ **enriched over $\cat M$**, also called an **$\cat M$-category** consists of #m/def/cat 
 
-- a [[collection]] of objects $\Ob (\cat C$;
+- a [[Collection]] of objects $\Ob (\cat C$;
 - for every ordered pair of objects $a,b \in \cat C$, a **hom-object** $\cat C(a,b) \in \cat M$;
 - a morphism $\id_{a} : \mathbb{1} \to \cat C(a,a)$ in $\cat M$ designating the **identity**; and
 - fir evert ordered triple of object $a,b,c \in \cat C$, a morphism $(\circ)_{a,b,c} : \cat C(b,c) \otimes \cat C(a,b) \to \cat C(a,c)$ in $\cat M$ designating **composition**;

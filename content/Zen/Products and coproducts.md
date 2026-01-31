@@ -13,13 +13,13 @@ aliases:
 **Products** and **coproducts** are tuples of objects and morphisms within a category which, if they exist, are unique up to isomorphism
 The categorical product and coproduct generalise the [[cartesian product]] and [[Disjoint union]] in [[Category of sets]] respectively.
 
-In a category $\cat C$ the product of objexts $\{ X_{i} \}_{i \in I}$ is an object $X = \prod_{i \in I} X_{i}$ together with morphisms $\pi_{i} \in \cat C(X,X_{i})$ such that for any $Y$ and $f_{i} \in \cat C(Y,X_{i})$,
+In a category $\cat C$ the product of objects $\{ X_{i} \}_{i \in I}$ is an object $X = \prod_{i \in I} X_{i}$ together with morphisms $\pi_{i} \in \cat C(X,X_{i})$ such that for any $Y$ and $f_{i} \in \cat C(Y,X_{i})$,
 there exists a unique $f \in \cat C(Y,X)$ so that $f_{i} = \pi_{i}f$.[^loo] #m/def/cat
 
 In a category $\cat C$ the coproduct of objexts $\{ X_{i} \}_{i \in I}$ is an object $X = \coprod_{i \in I} X_{i}$ together with morphisms $\iota_{i} \in \cat C(X_{i}, X)$ such that for any $Y$ and $f_{i} \in \cat C(X_{i}, Y)$,
 there exists a unique $f \in \cat C(X,Y)$ so that $f_{i} = f\iota_{i}$.[^loo] #m/def/cat
 
-![[(co)product.svg#invert|c|https://q.uiver.app/#q=WzAsOCxbMCwyLCJYXzEiXSxbNCwyLCJYXzIiXSxbMiwyLCJYXzEgXFx0aW1lcyBYXzIiXSxbMiwwLCJZIl0sWzYsMiwiWF8xIl0sWzEwLDIsIlhfMiJdLFs4LDIsIlhfMSBcXGFtYWxnIFhfMiJdLFs4LDAsIlkiXSxbMiwwLCJcXHBpXzEiXSxbMiwxLCJcXHBpXzIiLDJdLFszLDAsImYiLDJdLFszLDEsImciXSxbMywyLCIoZixnKSIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRvdHRlZCJ9fX1dLFs0LDYsIlxcaW90YV8xIiwyXSxbNSw2LCJcXGlvdGFfMiJdLFs0LDcsImZfMSJdLFs1LDcsImZfMiIsMl0sWzYsNywiZiIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==]]
+![[(co)product.svg#invert|c|https://q.uiver.app/#q=WzAsOCxbMCwyLCJYXzEiXSxbNCwyLCJYXzIiXSxbMiwyLCJYXzEgXFx0aW1lcyBYXzIiXSxbMiwwLCJZIl0sWzYsMiwiWF8xIl0sWzEwLDIsIlhfMiJdLFs4LDIsIlhfMSBcXGFtYWxnIFhfMiJdLFs4LDAsIlkiXSxbMiwwLCJcXHBpXzEiXSxbMiwxLCJcXHBpXzIiLDJdLFszLDAsImYiLDJdLFszLDEsImciXSxbMywyLCIoZixnKSIsMSx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRvdHRlZCJ9fX1dLFs0LDYsIlxcaW90YV8xIiwyXSxbNSw2LCJcXGlvdGFfMiJdLFs0LDcsImZfMSJdLFs1LDcsImZfMiIsMl0sWzYsNywiXFx7ZixnXFx9IiwxLHsic3R5bGUiOnsiYm9keSI6eyJuYW1lIjoiZGFzaGVkIn19fV1d]]
 
 These are categorical duals; the coproduct is just the product in $\op{\cat C}$.
 Each construction, if it exists, is unique up to unique isomorphism.

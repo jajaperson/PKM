@@ -3,6 +3,7 @@ tags:
   - public
 aliases:
   - cartesian
+  - "#category/monoidal/symmetric/cartesian"
 ---
 [[Category theory MOC]]
 # Cartesian category

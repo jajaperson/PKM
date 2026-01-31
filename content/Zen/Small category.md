@@ -5,7 +5,7 @@ tags:
 [[Category theory MOC]]
 # Small category
 
-A **small** category $\cat C$ is a [[category]] whose class of objects $\Ob \cat C$ forms a [[small set]]. #m/def/cat 
+A **small** category $\cat C$ is a [[category]] whose classes of objects $\Ob (\cat C)$ and morphisms $\Mor (\cat C)$ form [[small set|small sets]]. #m/def/cat 
 
 #
 ---

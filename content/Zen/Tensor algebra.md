@@ -5,7 +5,7 @@ tags:
 [[K-monoid]]
 # Tensor algebra
 
-The **tensor algebra** $T^•V$ of a [[vector space]] $V$ is the [[Direct sum of vector spaces|direct sum]] of all [[Tensor product of vector spaces|tensor powers]] of $V$ together with the outer product $(\otimes) : T^•V \times T^•V \to T^•V$, #m/def/falg 
+The **tensor algebra** $T^•V$ of a [[vector space]] $V$ is the [[Direct sum of vector spaces|direct sum]] of all [[Tensor product of vector spaces over a field|tensor powers]] of $V$ together with the outer product $(\otimes) : T^•V \times T^•V \to T^•V$, #m/def/falg 
 i.e. denoting $T^k V= V^\otimes$,
 $$
 \begin{align*}

@@ -5,13 +5,21 @@ tags:
 [[Category theory MOC]]
 # Category
 
-If groups are the algebraic structure which abstract symmetry,
-categories are the algebraic structure which abstract mathematical theories.
+Categories are motivated from several perspectives
+
+1. If groups are the algebraic structure which abstract symmetry,
+  categories are the algebraic structure which abstract mathematical theories.
+2. A category are _directed_ [[groupoid]], in the same way a [[poset]] is a directed [[set]].
+3. Along the same lines, a category is a [[poset]] in the next dimension, see [[(n,r)-category]].
+4. A category is the [[oidification]] of a [[monoid]] — a **monoidoid**!
+
+## In terms of collections
+
 A **category** $\cat C$ is a mathematical object consisting of: #m/def/cat
 
 - a [[collection]] of **objects**, $\ob (\cat C)$, sometimes referred to as $\cat C$ when its meaning is clear;
 - for every ordered pair of objects $X,Y \in \Ob(\cat C)$
-  a [[collection]][^loc] of **[[Morphism|morphisms]]** $\cat C(X, Y)$; and
+  a [[class]][^loc] of **[[Morphism|morphisms]]** $\cat C(X, Y)$; and
 - a composition operation $(\circ)$ so that given $f \in \cat C (X ,Y)$ and $g \in \cat C(Y,Z)$ we have $g \circ f \in \cat C(X,Z)$;
 
 and satisfying the following properties
@@ -36,7 +44,6 @@ These notions are interchanged as is notationally convenient.
 - Morphisms come in different shapes and sizes — see [[Morphism]]
 - There are also different kinds of category — see [[Types of Category]].
 - Reasoning about categories is often done through a [[Commutative diagram]]
-- A category is the [[Oidification]] of a [[monoid]] — a **monoidoid**!
 - [[Things as categories]]
 
 ---

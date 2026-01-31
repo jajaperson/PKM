@@ -9,7 +9,7 @@ An $R$-[[module]] $P$ is said to be **projective** iff it is a [[projective obje
 i.e. for any morphism $f : P \to B$
 and epimorphism $q : A \twoheadrightarrow B$ we have a lift.
 
-![[lift.svg#invert||https://q.uiver.app/#q=WzAsMyxbMiwwLCJBIl0sWzIsMiwiQiJdLFswLDIsIlAiXSxbMCwxLCJxIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoiZXBpIn19fV0sWzIsMSwiZiIsMl0sWzIsMCwiXFxleGlzdHMgXFxiYXIgZiIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==]]
+![[lift.svg#invert|https://q.uiver.app/#q=WzAsMyxbMiwwLCJBIl0sWzIsMiwiQiJdLFswLDIsIlAiXSxbMCwxLCJxIiwwLHsic3R5bGUiOnsiaGVhZCI6eyJuYW1lIjoiZXBpIn19fV0sWzIsMSwiZiIsMl0sWzIsMCwiXFxleGlzdHMgXFxiYXIgZiIsMCx7InN0eWxlIjp7ImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==]]
 
 This is equivalent to any of the following[^2011]
 

@@ -1,6 +1,7 @@
 ---
 tags:
   - public
+aliases: "#category/monoidal/closed"
 ---
 [[Category theory MOC]]
 # Closed monoidal category

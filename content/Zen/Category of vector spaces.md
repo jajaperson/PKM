@@ -7,9 +7,10 @@ arguments:
   - $\mathbb K$ [[field]]
 tags:
   - category
-  - monoidal-category
+  - category/monoidal/symmetric
   - public
-tensorProduct: "[[tensor product of vector spaces|tensor product]]"
+  - category/monoidal/closed
+tensorProduct: $\mathbb{K}$-[[Tensor product of vector spaces over a field|tensor product]]
 tensorUnit: $\mathbb K$
 ---
 

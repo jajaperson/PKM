@@ -5,7 +5,7 @@ tags:
 [[Category theory MOC]]
 # String diagram
 
-**String diagrams** are a convenient notation for depicting 0-cells, 1-cells, and 2-cells in a [[Bicategory|bicategory]], and in particular, objects and morphisms in a [[monoidal category]].
+**String diagrams** are a convenient notation for depicting 0-cells, 1-cells, and 2-cells in a [[Bicategory|bicategory]], and in particular, objects and morphisms in a [[monoidal category]] (this is a special case called a [[Single faced string diagram]]):
 
 ![[Commutative_diagram_to_string_diagram.svg#invert]]
 
@@ -14,6 +14,9 @@ tags:
 - a 2-cell $\beta : f \Rightarrow g : X\to Y$ is depicted as a node with $f$ coming out the bottom and $g$ coming out the top.
 
 Horizontal composition is represented by horizontal juxtaposition, and vertical composition is represented by vertical juxtaposition.
+
+String diagrams are often described as [[Poincaré dual]] to their counterpart in commutative diagrams.
+In the former 0-cells are points, in the latter they are faces, &c.
 
 ## Bibliography
 

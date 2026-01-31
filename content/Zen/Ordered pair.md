@@ -15,6 +15,7 @@ $$
 $$
 the set of all ordered pairs from a given pair of sets forms the [[cartesian product]].
 One may then define an ordered $n$-tuple by $(a,b,c) =((a,b),c)$, &c.
+Compare this with the related universal property of the [[Products and coproducts|categorical product]].
 
 ## Construction
 

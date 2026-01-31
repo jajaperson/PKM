@@ -12,7 +12,7 @@ $$
 T : \underbrace{ V^* \times \dots \times V^* }_{ p } \times \underbrace{ V \times \dots \times V }_{ q } \to \mathbb{K}
 \end{align*}
 $$
-or equivalently, and element of the [[Tensor product of vector spaces|tensor product space]]
+or equivalently, and element of the [[Tensor product of vector spaces over a field|tensor product space]]
 $$
 \begin{align*}
 T \in \underbrace{ V \otimes \dots \otimes V }_{ p } \otimes \underbrace{ V^* \otimes \dots \otimes V^* }_{ q } = \mathcal{T}^p_{q} V

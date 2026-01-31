@@ -15,6 +15,8 @@ A **propositional calculus** is a [[formal system]] for manipulating 0th-order l
 
 - [[Conventions of 0th-order logic in these notes]]
 
+An alternative is (non dependent) [[Type theory]].
+
 #
 ---
 #state/develop | #lang/en | #SemBr

@@ -8,7 +8,7 @@ tags:
 [[Material set theory]]
 # Well-founded set
 
-A [[set]] $A$ is said to be **ill-founded** iff it is the start of a descending $\in$-chain[^2006], #m/def/set 
+A material [[set]] $A$ is said to be **ill-founded** iff it is the start of a descending $\in$-chain[^2006], #m/def/set 
 i.e. there exists some [[function]] $f : \mathbb{N}_{0} \to E$ with $f(0) = A$ and $f(i+1) \in f(i)$ for every $i \in \mathbb{N}_{0}$.
 A set is **well-founded** iff it is not ill-founded.
 
