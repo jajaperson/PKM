@@ -1,6 +1,7 @@
 ---
 tags:
   - public
+title: jaj•a•person's notes
 ---
 # Welcome to my digital garden!
 

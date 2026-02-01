@@ -32,7 +32,7 @@ $$
 \dot{v} +  \dot{\gamma}^\mu \, \Gamma^\nu{}_{\mu\lambda} \, v^\lambda = 0.
 \end{align*}
 $$
-It follows from the [[existence and uniqueness theorem]] that the parallel transport of a vector along a given curve is unique.
+It follows from the [[Existence and uniqueness theorem for IVPs]] that the parallel transport of a vector along a given curve is unique.
 
 ## Remarks
 

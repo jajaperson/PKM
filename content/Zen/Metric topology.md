@@ -46,4 +46,4 @@ Since a metric topology forms a [[topological space]],
 
 #
 ---
-#state/tidy | #land/en  | #SemBr 
+#state/tidy | #lang/en  | #SemBr 

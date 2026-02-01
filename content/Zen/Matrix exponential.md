@@ -61,7 +61,7 @@ For any $\mathbf{A} \in \mathbb{C}^{n \times n}$, the following properties hold:
 > \dot{\mathbf{X}}(t) = \sum_{k=1}^\infty \frac{t^{k-1}\mathbf{A}^k}{(k-1)!} = \mathbf{A} \sum_{k=0}^\infty \frac{(t\mathbf{A})^k}{k!} = \mathbf{A}\mathbf{X}(t)
 > \end{align*}
 > $$
-> and by the [[Existence and uniqueness theorem]] this is unique, proving [[#^P2]].
+> and by the [[Existence and uniqueness theorem for IVPs]] this is unique, proving [[#^P2]].
 > 
 > By [[Binomial expansion]]
 > $$

@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: 
+alias:
   - "#MOC"
 ---
 [[PKM MOC]]

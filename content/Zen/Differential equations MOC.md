@@ -16,13 +16,13 @@ graph LR;
 
 
 - [[Classifying DEs]]
-- [[Existence and uniqueness theorem]]
+- [[Existence and uniqueness theorem for IVPs]]
 - [[Boundary value problem]]
 
 ## First order ODEs
 
-1. **Separable →** [[Separable differential equation]]
-2. [[First-order linear differential equation#Solutions]]
+1. [[Separable differential equation]]
+2. [[First-order linear differential equation]]
 3. [[Exact differential equation]]
     - [[Exact differential equation#Integrating factor|Almost exact differential equations]]
 4. [[Bernoulli differential equations]]

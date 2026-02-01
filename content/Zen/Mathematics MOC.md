@@ -34,13 +34,14 @@ tags:
 - [[Probability theory MOC]]
 
 ## Foundational Mathematics
+
 - [[Logic MOC]]
 - [[Category theory MOC]]
 - [[Set theory MOC]]
-- [[Number theory MOC]]
 
 ## Misc
 
+- [[Number theory MOC]]
 - [[Coding theory MOC]]
 
 ## Tools
