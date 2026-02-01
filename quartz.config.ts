@@ -67,8 +67,8 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true, }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       // This needs to come after, since it replaces undirected apostrophes with directed ones.
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.Description(),
@@ -90,8 +90,8 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
-    ],
+      process.env.NODE_ENV === 'development' ? [] : Plugin.CustomOgImages(),
+    ].flat(1),
   },
 }
 
