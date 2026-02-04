@@ -1,7 +1,8 @@
 import { readFileSync } from "fs"
-import { loadMacrosFromPreamble } from "./lib/load-preamble"
+import { loadMacrosFromPreamble } from "./custom/loadPreamble"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { LitNotes } from "./custom/plugins/emitters/LitNotes"
 
 const MATHJAX_PREAMBLE = "./content/preamble.sty"
 const macros = loadMacrosFromPreamble(readFileSync(MATHJAX_PREAMBLE, "utf8"))
@@ -89,6 +90,9 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
+      LitNotes({
+        bibliographyFile: "./content/Bins/Other/citations.bib"
+      }),
       // Comment out CustomOgImages to speed up build time
       process.env.NODE_ENV === 'development' ? [] : Plugin.CustomOgImages({
         colorScheme: "darkMode",
