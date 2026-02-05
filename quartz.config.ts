@@ -68,8 +68,8 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true, }),
-      Plugin.CrawlLinks({ 
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true }),
+      Plugin.CrawlLinks({
         markdownLinkResolution: "shortest",
         // prettyLinks: false,
       }),
@@ -87,7 +87,7 @@ const config: QuartzConfig = {
       Plugin.FolderPage(),
       Plugin.TagPage(),
       LitNotes({
-        bibliographyFile: "./content/Bins/Other/citations.bib"
+        bibliographyFile: "./content/Bins/Other/citations.bib",
       }),
       Plugin.ContentIndex({
         enableSiteMap: true,
@@ -96,9 +96,11 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      process.env.NODE_ENV === 'development' ? [] : Plugin.CustomOgImages({
-        colorScheme: "darkMode",
-      }),
+      process.env.NODE_ENV === "development"
+        ? []
+        : Plugin.CustomOgImages({
+            colorScheme: "darkMode",
+          }),
     ].flat(1),
   },
 }

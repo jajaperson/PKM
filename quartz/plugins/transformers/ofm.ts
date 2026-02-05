@@ -116,7 +116,7 @@ export const arrowRegex = new RegExp(/(-{1,2}>|={1,2}>|<-{1,2}|<={1,2})/g)
 // (\\?\|[^\[\]\#]+)? -> optional escape \ then | then zero or more non-special characters (alias)
 // This is slightly different to the original regex provided by Quartz, see jackyzha0/quartz#2247
 export const wikilinkRegex = new RegExp(
-    /!?\[\[([^\[\]\|\#\\]+)?(#+[^\[\]\|\#\\]+)?(\\?\|[^\[\]]*)?\]\]/g,
+  /!?\[\[([^\[\]\|\#\\]+)?(#+[^\[\]\|\#\\]+)?(\\?\|[^\[\]]*)?\]\]/g,
 )
 
 // ^\|([^\n])+\|\n(\|) -> matches the header row
@@ -197,7 +197,9 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
           const displayAnchor = anchor ? `#${blockRef}${anchor.trim().replace(/^#+/, "")}` : ""
           const embedDisplay = value.startsWith("!") ? "!" : ""
           const quiver = embedDisplay === "!" && rawAlias?.match(/https:\/\/q.uiver.app\//)
-          const displayAlias = quiver ? "|A quiver diagram." : rawAlias ?? rawHeader?.replace("#", "|") ?? ""
+          const displayAlias = quiver
+            ? "|A quiver diagram."
+            : (rawAlias ?? rawHeader?.replace("#", "|") ?? "")
 
           if (rawFp?.match(externalLinkRegex)) {
             return `${embedDisplay}[${displayAlias.replace(/^\|/, "")}](${rawFp})`
@@ -238,10 +240,16 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                     const height = match?.groups?.height ?? "auto"
                     // Some of the minimal theme's image features:
                     let className = []
-                    if (anchor === "#invert") { className.push("invert") }
-                    if (anchor === "#invertW") { className.push("invertW") }
+                    if (anchor === "#invert") {
+                      className.push("invert")
+                    }
+                    if (anchor === "#invertW") {
+                      className.push("invertW")
+                    }
                     // Mirror Obsidian's centring behaviour.
-                    if (alias === "A quiver diagram." || alias === "c") { className.push("center") }
+                    if (alias === "A quiver diagram." || alias === "c") {
+                      className.push("center")
+                    }
                     return {
                       type: "html",
                       value: `<div class="${className.join(" ")}"><img src="${url}" width="${width}" height="${height}" alt="${alt}" /></div>`,

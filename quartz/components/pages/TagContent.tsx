@@ -113,13 +113,20 @@ export default ((opts?: Partial<TagContentOptions>) => {
         ...props,
         allFiles: pages,
       }
-      const tagPage = props.allFiles.find(f => f.aliases?.includes(`tagpage/${tag}` as unknown as FullSlug))
+      const tagPage = props.allFiles.find((f) =>
+        f.aliases?.includes(`tagpage/${tag}` as unknown as FullSlug),
+      )
 
       return (
         <div class="popover-hint">
-          { tagPage 
-            ? <p>See <a href={"/" + tagPage.slug} class="internal">{tagPage.frontmatter?.title}.</a></p>
-            : null }
+          {tagPage ? (
+            <p>
+              See{" "}
+              <a href={"/" + tagPage.slug} class="internal">
+                {tagPage.frontmatter?.title}.
+              </a>
+            </p>
+          ) : null}
           <div class="page-listing">
             <p>{i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}</p>
             <div>
