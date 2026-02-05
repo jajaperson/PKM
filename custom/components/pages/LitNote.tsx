@@ -40,7 +40,15 @@ const LitNote: QuartzComponent = (props) => {
         </p>
       ) : null}
       {typeof cit.abstract === "string" ? (
-        <blockquote dangerouslySetInnerHTML={{ __html: cit.abstract }}></blockquote>
+        <blockquote class="callout abstract" data-callout="abstract">
+            <div class="callout-title">
+                <div class="callout-icon" />
+                <div class="callout-title-inner"><p>Abstract</p></div>
+            </div>
+            <div class="callout-content">
+                <p  dangerouslySetInnerHTML={{ __html: cit.abstract }} />
+            </div>
+        </blockquote>
       ) : null}
       {/* <p>
                 {JSON.stringify(cit)}
