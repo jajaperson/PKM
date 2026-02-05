@@ -13,6 +13,7 @@ import BodyConstructor from "quartz/components/Body"
 import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout";
 
 import LitNote from "@/components/pages/LitNote";
+import { stripHtml } from "string-strip-html";
 
 export interface Options {
     bibliographyFile: string,
@@ -64,11 +65,12 @@ export const LitNotes: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
                 for (const id in csl) {
                     const entry = csl[id];
                     const slug = joinSegments("Sources", `@${id}`) as FullSlug;
+                    const title = stripHtml(entry.title as string).result;
                     const [tree, vfile] = defaultProcessedContent({
                         slug,
-                        text: String(entry.title),
+                        text: title,
                         description: "Bibliographic entry",
-                        frontmatter: { title: String(entry.title) },
+                        frontmatter: { title },
                         entry,
                     })
                     const externalResources = pageResources(pathToRoot(slug), resources)

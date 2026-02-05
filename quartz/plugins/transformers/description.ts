@@ -1,7 +1,7 @@
 import { Root as HTMLRoot } from "hast"
 import { toString } from "hast-util-to-string"
 import { QuartzTransformerPlugin } from "../types"
-import { escapeHTML } from "../../util/escape"
+import { stripHtml } from "string-strip-html"
 
 export interface Options {
   descriptionLength: number
@@ -29,7 +29,7 @@ export const Description: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
         () => {
           return async (tree: HTMLRoot, file) => {
             let frontMatterDescription = file.data.frontmatter?.description
-            let text = escapeHTML(toString(tree))
+            let text = stripHtml(toString(tree)).result // CUSTOM
 
             if (opts.replaceExternalLinks) {
               frontMatterDescription = frontMatterDescription?.replace(
