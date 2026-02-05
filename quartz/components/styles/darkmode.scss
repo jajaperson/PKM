@@ -23,7 +23,7 @@
 :root[saved-theme="dark"] {
   color-scheme: dark;
 
-  & .invert {
+  & .invert, & [src$="#invert"] {
     filter: invert(1);
   }
 }
@@ -31,7 +31,7 @@
 :root[saved-theme="light"] {
   color-scheme: light;
 
-  & .invertW {
+  & .invertW, & [src$="#invertW"] {
     filter: invert(1);
   }
 }
