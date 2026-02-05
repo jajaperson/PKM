@@ -72,6 +72,7 @@ function sluggify(s: string): string {
       .join("/") // always use / as sep
       .replace(/\/$/, "")
       .toLowerCase()
+      .normalize("NFD")
   }
 }
 
