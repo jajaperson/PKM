@@ -134,6 +134,7 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                   if (
                     opts.checkBrokenWikilinks &&
                     !allSimpleSlugs.includes(simple) &&
+                    !simple.startsWith("Sources/") && // CUSTOM
                     !preResolve.startsWith(".") &&
                     !preResolve.startsWith("/")
                   ) {

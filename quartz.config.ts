@@ -69,12 +69,15 @@ const config: QuartzConfig = {
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true, }),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ 
+        markdownLinkResolution: "shortest",
+        // prettyLinks: false,
+      }),
       // This needs to come after, since it replaces undirected apostrophes with directed ones.
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "mathjax", customMacros: macros }),
-      Plugin.TableOfContents({ minEntries: 1 }),
+      Plugin.TableOfContents({ minEntries: 2 }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
@@ -83,6 +86,9 @@ const config: QuartzConfig = {
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
+      LitNotes({
+        bibliographyFile: "./content/Bins/Other/citations.bib"
+      }),
       Plugin.ContentIndex({
         enableSiteMap: true,
       }),
@@ -90,10 +96,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      LitNotes({
-        bibliographyFile: "./content/Bins/Other/citations.bib"
-      }),
-      // Comment out CustomOgImages to speed up build time
       process.env.NODE_ENV === 'development' ? [] : Plugin.CustomOgImages({
         colorScheme: "darkMode",
       }),

@@ -55,19 +55,24 @@ export function getFullSlug(window: Window): FullSlug {
 }
 
 function sluggify(s: string): string {
-  return s
-    .split("/")
-    .map((segment) =>
-      segment
-        .replace(/\s/g, "-")
-        .replace(/&/g, "-and-")
-        .replace(/%/g, "-percent")
-        .replace(/\?/g, "")
-        .replace(/#/g, ""),
-    )
-    .join("/") // always use / as sep
-    .replace(/\/$/, "")
-    .toLowerCase()
+  const isSource = s.match(/^(?:Sources\/)?(@.+)/)
+  if (isSource) {
+    return `Sources/${isSource[1]}` // CUSTOM
+  } else {
+    return s
+      .split("/")
+      .map((segment) =>
+        segment
+          .replace(/\s/g, "-")
+          .replace(/&/g, "-and-")
+          .replace(/%/g, "-percent")
+          .replace(/\?/g, "")
+          .replace(/#/g, "tagpage"),
+      )
+      .join("/") // always use / as sep
+      .replace(/\/$/, "")
+      .toLowerCase()
+  }
 }
 
 export function slugifyFilePath(fp: FilePath, excludeExt?: boolean): FullSlug {
