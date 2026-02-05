@@ -63,7 +63,7 @@ export const LitNotes: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
                 const csl = exporter.parse();
                 for (const id in csl) {
                     const entry = csl[id];
-                    const slug = joinSegments("sources", `@${id}`) as FullSlug;
+                    const slug = joinSegments("Sources", `@${id}`) as FullSlug;
                     const [tree, vfile] = defaultProcessedContent({
                         slug,
                         text: String(entry.title),
