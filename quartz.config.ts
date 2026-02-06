@@ -1,8 +1,9 @@
 import { readFileSync } from "fs"
-import { loadMacrosFromPreamble } from "./custom/loadPreamble"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import * as Component from "./quartz/components"
 import { LitNotes } from "./custom/plugins/emitters/LitNotes"
+import { loadMacrosFromPreamble } from "./custom/loadPreamble"
 
 const MATHJAX_PREAMBLE = "./content/preamble.sty"
 const macros = loadMacrosFromPreamble(readFileSync(MATHJAX_PREAMBLE, "utf8"))
@@ -81,13 +82,16 @@ const config: QuartzConfig = {
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
-      Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
       LitNotes({
         bibliographyFile: "./content/Bins/Other/citations.bib",
+        layout: {
+          afterBody: [Component.Backlinks()],
+          right: [],
+        },
       }),
       Plugin.ContentIndex({
         enableSiteMap: true,

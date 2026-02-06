@@ -29,8 +29,8 @@ export const LitNotes: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
 
   const layout: FullPageLayout = {
-    ...sharedPageComponents,
     ...defaultContentPageLayout,
+    ...sharedPageComponents,
     pageBody: LitNote(),
     ...opts.layout,
   }
@@ -63,8 +63,9 @@ export const LitNotes: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
         Footer,
       ]
     },
-    async *emit(ctx, _content, resources) {
+    async *emit(ctx, content, resources) {
       const cfg = ctx.cfg.configuration
+      const allFiles = content.map((c) => c[1].data)
       try {
         const rawBib: string = await readFile(opts.bibliographyFile, { encoding: "utf-8" })
         let parser = new BibLatexParser(rawBib, {})
@@ -90,7 +91,7 @@ export const LitNotes: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
             cfg,
             children: [],
             tree,
-            allFiles: [],
+            allFiles,
           }
           const content = renderPage(cfg, slug, componentData, layout, externalResources)
 

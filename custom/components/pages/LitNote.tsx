@@ -15,7 +15,7 @@ const LitNote: QuartzComponent = (props) => {
 
   return (
     <article class="popover-hint">
-      <span>{authors.map((a) => `${a.given} ${a.family}`).join(" • ")}</span>
+      <p>{authors.map((a) => `${a.given} ${a.family}`).join(" • ")}</p>
       <h1 dangerouslySetInnerHTML={{ __html: title }} />
       {typeof cit.DOI === "string" ? (
         <a href={`https://doi.org/${cit.DOI}`}>{cit.DOI}</a>
@@ -41,13 +41,15 @@ const LitNote: QuartzComponent = (props) => {
       ) : null}
       {typeof cit.abstract === "string" ? (
         <blockquote class="callout abstract" data-callout="abstract">
-            <div class="callout-title">
-                <div class="callout-icon" />
-                <div class="callout-title-inner"><p>Abstract</p></div>
+          <div class="callout-title">
+            <div class="callout-icon" />
+            <div class="callout-title-inner">
+              <p>Abstract</p>
             </div>
-            <div class="callout-content">
-                <p  dangerouslySetInnerHTML={{ __html: cit.abstract }} />
-            </div>
+          </div>
+          <div class="callout-content">
+            <p dangerouslySetInnerHTML={{ __html: cit.abstract }} />
+          </div>
         </blockquote>
       ) : null}
       {/* <p>
