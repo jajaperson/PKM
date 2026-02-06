@@ -57,7 +57,7 @@ export function getFullSlug(window: Window): FullSlug {
 function sluggify(s: string): string {
   const isSource = s.match(/^(?:Sources\/)?(@.+)/)
   if (isSource) {
-    return `Sources/${isSource[1]}` // CUSTOM
+    return `Sources/${isSource[1]}` // CUSTOM: In my case I need to treat Source/ links individually, since they only appear at the emitter stage.
   } else {
     return s
       .split("/")
@@ -71,8 +71,6 @@ function sluggify(s: string): string {
       )
       .join("/") // always use / as sep
       .replace(/\/$/, "")
-      .toLowerCase()
-      .normalize("NFD")
   }
 }
 
@@ -248,7 +246,7 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
       const matchingFileNames = opts.allSlugs.filter((slug) => {
         const parts = slug.split("/")
         const fileName = parts.at(-1)
-        return targetCanonical === fileName
+        return targetCanonical.toLowerCase().normalize("NFD") === fileName?.toLowerCase().normalize("NFD")
       })
 
       // only match, just use it
