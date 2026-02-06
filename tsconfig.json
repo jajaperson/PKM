@@ -18,7 +18,7 @@
     "jsxImportSource": "preact",
     "paths": {
       "quartz/*": ["./quartz/*"],
-      "@/*": ["./custom/*"]
+      "@/*": ["./*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx", "./package.json"],

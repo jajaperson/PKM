@@ -1,9 +1,11 @@
 import { readFileSync } from "fs"
-import { QuartzConfig } from "./quartz/cfg"
-import * as Plugin from "./quartz/plugins"
-import * as Component from "./quartz/components"
-import { LitNotes } from "./custom/plugins/emitters/LitNotes"
-import { loadMacrosFromPreamble } from "./custom/loadPreamble"
+
+import { QuartzConfig } from "quartz/cfg"
+import * as Plugin from "quartz/plugins"
+import * as Component from "quartz/components"
+import { LitNotes } from "quartz/plugins/emitters/LitNotes"
+
+import { loadMacrosFromPreamble } from "@/lib/loadPreamble"
 
 const MATHJAX_PREAMBLE = "./content/preamble.sty"
 const macros = loadMacrosFromPreamble(readFileSync(MATHJAX_PREAMBLE, "utf8"))

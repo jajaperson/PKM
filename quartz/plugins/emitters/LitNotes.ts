@@ -10,9 +10,9 @@ import { FullSlug, joinSegments, pathToRoot } from "quartz/util/path"
 import { write } from "quartz/plugins/emitters/helpers"
 import HeaderConstructor from "quartz/components/Header"
 import BodyConstructor from "quartz/components/Body"
-import { defaultContentPageLayout, sharedPageComponents } from "../../../quartz.layout"
+import { defaultContentPageLayout, sharedPageComponents } from "@/quartz.layout"
 
-import LitNote from "@/components/pages/LitNote"
+import LitNote from "quartz/components/pages/LitNote"
 import { stripHtml } from "string-strip-html"
 
 export interface Options {
