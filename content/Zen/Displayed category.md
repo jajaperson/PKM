@@ -29,14 +29,14 @@ This motivates the **total category** $\int_{\cat C} \cat D$ as the category of 
 defined as follows:
 
 - an object $(a,x) \in \int_{\cat C} \cat D$ is a pair consisting of an object $a \in \cat C$ and an object $x \in\cat D_{a}$ over $a$, so that
-    $$
-    \begin{align*}
-    \left( \int_{\cat C} D \right)_{0} := \sum_{a \in \cat C_{0}} \cat D_{a}
-    \end{align*}
-    $$
+  $$
+  \begin{align*}
+  \left( \int_{\cat C} D \right)_{0} := \sum_{a \in \cat C_{0}} \cat D_{a}
+  \end{align*}
+  $$
 - a morphism $(f, \bar{f}) : (a,x) \to (b,y)$ is a pair where $f \in \cat C(a,b)$ and $\bar{f} \in \cat D_{f}(x,y)$, so that 
   $$
- \left( \int _{\cat C} \cat D \right)((a,x),(b,y)) = \sum_{f \in \cat C(a,b)} \cat D_{f}(x,y)
+  \left( \int _{\cat C} \cat D \right)((a,x),(b,y)) = \sum_{f \in \cat C(a,b)} \cat D_{f}(x,y)
   $$
 - composition and identities are induced from those of $\cat C$ and $\cat D$ in the straightforward way, and similarly for the axioms.
 

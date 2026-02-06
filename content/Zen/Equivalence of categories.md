@@ -17,7 +17,7 @@ GF &\simeq 1_{\cat C}, & FG \simeq 1_{\cat D}
 $$
 where $(\simeq)$ denotes [[natural isomorphism]].
 This is reminiscent of [[Homotopy equivalence]].
-We also see equivalence of categories is a special case of an[[Adjoint functor|adjunction of functors]] for which the unit and coünit are isomorphisms. 
+We also see equivalence of categories is a special case of an [[Adjoint functor|adjunction of functors]] for which the unit and coünit are isomorphisms. 
 
 
 ## Results

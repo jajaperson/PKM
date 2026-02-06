@@ -94,4 +94,4 @@ They are a weakening of [[Equivalence of categories]].
 
 #
 ---
-#state/develop  | #lang/en | #SemBr
+#state/tidy  | #lang/en | #SemBr
