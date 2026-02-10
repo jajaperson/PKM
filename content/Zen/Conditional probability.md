@@ -25,8 +25,8 @@ The function $\mathbb{P}(\cdot \mid A)$ forms a [[Probability model|probability 
   \mathbb{P}(A\cap B)= \mathbb{P}(B)\mathbb{P}(A\mid B) = \mathbb{P}(A)\mathbb{P}(B \mid A)
   $$
 2. $$
-   \mathbb{P}(A \mid B) = \frac{\mathbb{P}(B\mid A)\mathbb{P}(A)}{\mathbb{P}(B)}
-   $$
+  \mathbb{P}(A \mid B) = \frac{\mathbb{P}(B\mid A)\mathbb{P}(A)}{\mathbb{P}(B)}
+  $$
 3. $$
   \frac{\mathbb{P}(A\mid B)}{\mathbb{P}(A^c \mid B)} = \frac{\mathbb{P}(B \mid A)}{\mathbb{P}(B \mid A^c)} \frac{\mathbb{P}(A)}{\mathbb{P}(A^c)}
   $$

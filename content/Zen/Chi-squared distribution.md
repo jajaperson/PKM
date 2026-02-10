@@ -40,7 +40,7 @@ Additional properties
 
 1. Let $\{ X_{j} \}_{j=1}^n$ be a [[random sample]] of variable [[Independence of random variables|independently distributed]] according to the [[normal distribution]] $\N(\mu,\sigma^2)$.
    Then the [[sample variance]] is distributed such that
-   $$
+  $$
   \begin{align*}
   \frac{(n-1)S_{n}^2}{\sigma^2} \sim \chi^2_{n-1}
   \end{align*}

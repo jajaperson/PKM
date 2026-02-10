@@ -7,7 +7,7 @@ title: jaj•a•person's notes
 
 This site contains the “public” section of my notes I have been writing since I started university in 2022. 
 As such, there is a bit of a range in sophistication — and potentially accuracy.
-The notes cover anything that has taken my interest over the years from [[Old Icelandic MOC|Old Icelandic]] to [[Topology MOC|topology]]. 
+The notes cover anything that has taken my interest over the years from [[Old Icelandic MOC|Old Icelandic]] to [[Differential geometry MOC|differential geometry]]. 
 Feel free to explore, either by searching with <kbd>⌘K</kbd> or using the entry points below.
 
 Keep in mind that greyed out links can either be notes I haven't decided to make public,

@@ -22,7 +22,7 @@ Let $V$ be a vector space over $\mathbb{K}$.
 Let $v(z) \in V[z,z^{-1}]$ and $a \in \mathbb{K}^\times$.
 Finally let $p(z) \in \mathbb{K}[z,z^{-1}]$ and $T= T_{p(z)} = p(z) \frac{d}{dz}$.
 Then in [[Formal sums over a vector space|$V\{ z \}$]]
-1.   $$
+1. $$
   \begin{align*}
   v(z)\delta(az) = v(a^{-1}) \delta (az)
   \end{align*}
@@ -46,12 +46,12 @@ Finally let $p(z_{1},z_{2}) \in \mathbb{K}[z_{1},z_{1}^{-1},z_{2},z_{2}^{-1}]$, 
 Then in [[Formal sums over endomorphisms|$(\End V)\{ z_{1},z_{2} \}$]]
 
 4. $$
-    \begin{align*}
-    X(z_{1},z_{2}) \delta(az_{1} / z_{2}) &= X(a^{-1}z_{2},z_{2})\delta(az_{1}/z_{2}) \\
-    &= X(z_{1},az_{1})\delta(az_{1} /z_{2})
-    \end{align*}
-    $$
-    ^PA
+  \begin{align*}
+  X(z_{1},z_{2}) \delta(az_{1} / z_{2}) &= X(a^{-1}z_{2},z_{2})\delta(az_{1}/z_{2}) \\
+  &= X(z_{1},az_{1})\delta(az_{1} /z_{2})
+  \end{align*}
+  $$
+  ^PA
 5. $$
   \begin{align*}
   X(z_{1},z_{2})\frac{ \partial }{ \partial z_{1} } [\delta(az_{1} / z_{2})] 

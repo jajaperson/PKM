@@ -9,31 +9,31 @@ Let $\cat C, \cat D$ be [[Abelian category|abelian categories]] and $F : \cat C 
 Then #m/thm/homology 
 
 - $F$ is [[Exact functor|left exact]] iff it preserves kernels; equivalently for any [[exact sequence]]
-    $$
-    \begin{align*}
-    0 \to X \to Y \to Z
-    \end{align*}
-    $$
-    the sequence 
-    $$
-    \begin{align*}
-    0 \to FX \to FY \to FZ
-    \end{align*}
-    $$
-    is exact.
+  $$
+  \begin{align*}
+  0 \to X \to Y \to Z
+  \end{align*}
+  $$
+  the sequence 
+  $$
+  \begin{align*}
+  0 \to FX \to FY \to FZ
+  \end{align*}
+  $$
+  is exact.
 - $F$ is [[Exact functor|right exact]] iff it preserves cokernels; equivalently for any [[exact sequence]]
-    $$
-    \begin{align*}
-    X \to Y \to Z \to 0
-    \end{align*}
-    $$
-    the sequence
-    $$
-    \begin{align*}
-    FX \to FY \to FZ \to 0
-    \end{align*}
-    $$
-    is exact. 
+  $$
+  \begin{align*}
+  X \to Y \to Z \to 0
+  \end{align*}
+  $$
+  the sequence
+  $$
+  \begin{align*}
+  FX \to FY \to FZ \to 0
+  \end{align*}
+  $$
+  is exact. 
 
 Thus $F$ is [[Exact functor|exact]] iff it preserves [[Short exact sequence|short exact sequences]].
 

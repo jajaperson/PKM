@@ -52,24 +52,24 @@ The concept of convergence in a metric space is generalised to the [[Cauchy sequ
 The following limits are particularly useful[^2022]
 
 1. For $\alpha > 0$
-   $$
-\begin{align*}
-\lim_{ n \to \infty } \frac{\ln n}{n^\alpha} = 0
-\end{align*}
-$$
+  $$
+  \begin{align*}
+  \lim_{ n \to \infty } \frac{\ln n}{n^\alpha} = 0
+  \end{align*}
+  $$
 2. $$
 \begin{align*}
 \lim_{ n \to \infty } \sqrt[n]{n} = \lim_{ n \to \infty } n^{1/n} = 1
 \end{align*}
 $$
 3. For any $a \in \mathbb{R}$
-   $$
+  $$
 \begin{align*}
 \lim_{ n \to \infty } \frac{a^n}{n!}=0
 \end{align*}
 $$
 4. For every constant $a \in \mathbb{R}$
-   $$
+  $$
 \begin{align*}
 \lim_{ n \to \infty } \left( 1 + \frac{a}{n} \right)^n = e^a
 \end{align*}

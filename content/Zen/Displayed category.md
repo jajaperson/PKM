@@ -12,10 +12,10 @@ A **displayed category** $\cat{D}$ over a [[category]] $\cat C$ consists of[^201
 - for each object $c \in \cat C_{0}$ and $x \in \cat D_{c}$, a morphism $1_{x} \in \cat D_{1_{c}}(x,x)$;
 - for all morphisms $f \in \cat C(a,b)$ and $g \in \cat C(b,c)$ and objects $x \in \cat D_{a}$, $y \in \cat D_{b}$, and $z \in \cat D_{c}$, a composition function
   $$
-    \begin{align*}
-    (\circ) : \cat D_{g}(y,z) \times \cat D_{f}(x,y) \to \cat D_{g \circ f} (x,z)
-    \end{align*}
-    $$
+  \begin{align*}
+  (\circ) : \cat D_{g}(y,z) \times \cat D_{f}(x,y) \to \cat D_{g \circ f} (x,z)
+  \end{align*}
+  $$
 
 where these data satisfy
 

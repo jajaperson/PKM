@@ -39,14 +39,14 @@ In what follows, if $B \leq A$ is a subgroup let $\hat{B} = \pi^{-1}B$.
 
 1. $\hat{B}$ is abelian iff $c_{0}(B,B) = 0$. ^P1
 2. Consider the radical of $c_{0}$
-   $$
+  $$
   \begin{align*}
   R = \{ a \in A : c_{0}(a,A) = 0 \}
   \end{align*}
   $$
   Then $\hat{R} = Z(\hat{A})$. ^P2
 3. The [[Central group extension#Correspondence between 2-cocycles and central extensions|associated 2-cycle]] $\varepsilon_{0} : A \times A \to C$ and associated commutator $c_{0} : A \times A \to C$ are related by
-   $$
+  $$
   \begin{align*}
   c_{0}(a,b) = \varepsilon_{0}(a,b) - \varepsilon_{0}(b,a)
   \end{align*}

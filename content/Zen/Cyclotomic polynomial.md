@@ -74,7 +74,7 @@ $$
 ## Properties
 
 1. For all $n \in \mathbb{N}$,
-   $$
+  $$
   \begin{align*}
   x^n-1 = \prod_{1\leq d \mid n} \Phi_{d}(x)
   \end{align*}

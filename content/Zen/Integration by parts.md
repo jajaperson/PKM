@@ -63,7 +63,7 @@ we can generalise integration by parts for vector valued functions.[^2013]
 ### Curl
 
 5. Scaling
-   $$
+  $$
   \begin{align*}
   \iiint_{\Omega}f(\vab{\nabla}\times\vab G)\,d\tau &= - \oiint_{\partial\Omega} f \vab G \times d\vab a - \iiint_{\Omega} (\vab{\nabla}f) \times \vab G \,d\tau
   \end{align*}

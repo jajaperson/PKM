@@ -33,7 +33,7 @@ although historically this result is derived from consideration of [[Coulomb's l
 - See [[Gauß's law]]
 - When crossing a surface charge distribution, the electric field undergoes a discontinuity of magnitude $\sigma / \epsilon_{0}$ in its component normal to the surface, whereas parallel to the surface the field is continuous.[^disco]
   This gives the boundary conditions
-    $$
+  $$
   \begin{align*}
   \lim_{ \alpha \to 0^+ } \vab E(\vab r + \alpha\unitv n) - \vab E(\vab r - \alpha \unitv n) = \frac{\sigma}{\epsilon_{0}}\unitv n
   \end{align*}

@@ -26,7 +26,7 @@ with a distinguished **vacuum element** $\mathbb{1} \in V$ such that the followi
 2. $Y(\mathbb{1}, v) = 1$;
 3. $Y(v,z) \mathbb{1} \in V\D[z\D]$ and $\lim_{ z \to 0 }Y(v,z) \mathbb{1} = v$; and
 4. the **generalized Jacobi identity** holds
-   $$
+  $$
   \begin{align*}
   z_{0}^{-1} \delta\left( \frac{z_{1}-z_{2}}{z_{0}} \right) Y(u,z_{1}) Y(v,z_{2}) - z_{0}^{-1} \delta\left( \frac{z_{2}-z_{1}}{-z_{0}} \right)Y(v,z_{2})Y(u,z_{1}) \\
   = z_{2}^{-1}\delta\left( \frac{z_{1}-z_{0}}{z_{2}} \right)Y(Y(u,z_{0})v,z_{2})

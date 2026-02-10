@@ -35,7 +35,7 @@ Let $X \sim \mathrm{Geom}(p)$ and $q = 1-p$
 1. [[Expectation]]: $\Ex[X]= \frac{q}{p}$ ^P1
 2. [[Standard deviation|Variance]]: $\Var[X] = \frac{q}{p^2}$ ^P2
 3. [[Moment-generating function]]:
-   $$
+  $$
   \begin{align*}
   M_{X} : (-\infty, -\ln q) &\to \mathbb{R} : \\t &\mapsto \frac{p}{1-q\mathrm{e}^t}
   \end{align*}

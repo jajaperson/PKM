@@ -27,23 +27,23 @@ as its two operations.
 Each elementary row operation affects the [[Matrix determinant]] in predictable ways.
 
 1. Swapping of rows ($r_{1} \leftrightarrow r_{2}$) gives
-   $$
+  $$
 \begin{align*}
 \det(A') = -\det(A)
 \end{align*}
 $$
 2. Scalar multiplication ($r_{1} \leftarrow \alpha r_{1}$) gives
-   $$
+  $$
 \begin{align*}
 \det(A') = \alpha \det(A)
 \end{align*}
 $$
 3. Addition of rows ($r_{1} \leftarrow \alpha r_{1} + \beta r_{2}$) gives
-      $$
-\begin{align*}
-\det(A') = \alpha \det(A)
-\end{align*}
-$$
+  $$
+  \begin{align*}
+  \det(A') = \alpha \det(A)
+  \end{align*}
+  $$
 
 This is useful, since a [[Types of square matrix|upper-triangle matrix]] (i.e. [[Row echelon form]]) has a determinant equal to the product of the main diagonal.
 Hence [[Gaußian elimination]] provides a useful method for finding the [[Matrix determinant]].

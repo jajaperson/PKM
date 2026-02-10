@@ -27,7 +27,7 @@ and separating free charge and current from those arising from [[Electric dipole
 	\end{align*}
 	$$
 3. $$
-	\begin{align*}
+  \begin{align*}
 	\vab\nabla \times \vab E = -\frac{\partial \vab B}{\partial t}
 	\end{align*}
 	$$

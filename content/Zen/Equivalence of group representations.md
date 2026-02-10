@@ -11,12 +11,12 @@ Two [[Group representation|group representations]] $\mathfrak{X}, \tilde{\mathfr
 
 - there exists a [[Natural isomorphism]] between $S : \mathfrak{X} \Rightarrow \tilde{\mathfrak{X}} : G \to \Vect_{\mathbb{K}}$;
 - there exists a $\mathbb{K}$-linear isomorphism $S : V \to W$ or **intertwiner** such that 
-    $$
-    \begin{align*}
-    \mathfrak{X}(g) = S^{-1}\tilde{\mathfrak{X}}(g)S
-    \end{align*}
-    $$
-    for all $g \in G$;
+  $$
+  \begin{align*}
+  \mathfrak{X}(g) = S^{-1}\tilde{\mathfrak{X}}(g)S
+  \end{align*}
+  $$
+  for all $g \in G$;
 - $V$ and $W$ are isomorphic as [[Module over a group|$G$-modules]], written $V \cong_{\mathbb{K}[G]} W$.
 
 ## Properties

@@ -103,18 +103,17 @@ Algorithmically, the integrating factor method is summarised as follows
 
 1. **Write the differential equation in standard form**
 2. **Find the integrating factor** (setting the constant of integration conveniently to $0$)
-   $$
+  $$
   \begin{align*}
   \mu(x) = \exp\left( \int{p(x)\,dx} \right)
   \end{align*}
   $$
 3. **The general solution is**
-   $$
-\begin{align*}
-y(x) &= \frac{1}{\mu(x)} \int \mu(x)g(x) \, dx + \frac{C}{\mu(x)}
-\end{align*}
-$$
-   
+  $$
+  \begin{align*}
+  y(x) &= \frac{1}{\mu(x)} \int \mu(x)g(x) \, dx + \frac{C}{\mu(x)}
+  \end{align*}
+  $$
 
 ## Practice problems
 - 2017\. [[Sources/@boyceElementaryDifferentialEquations2017|Elementary differential equations and boundary value problems]], pp. 31–32 (§2.1 problems)

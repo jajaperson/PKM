@@ -12,7 +12,7 @@ Equivalently, the [[quadratic space]] $L_{\mathbb{R}}$ is $\mathbb{R}^{n,0}$ (â€
 
 1. There exist finitely many lattice points of a given norm, i.e. $\abs{L_{m}} < \infty$ for any $m \in \mathbb{Q}$. ^P1
 2. Assume $L$ is [[Rational lattice#^integral]] and $\alpha,\beta \in L_{2}$. Then $\langle \alpha,\beta \rangle \in \{ 0, \pm 1, \pm2 \}$ and
-   $$
+  $$
   \begin{align*}
   \langle \alpha,\beta \rangle = -2 &\iff \alpha+\beta = 0 \\
   \langle \alpha,\beta \rangle = -1 &\iff \alpha + \beta \in L_{2}
