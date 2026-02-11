@@ -18,7 +18,7 @@ This has two important consequences on the kinds of foundational systems suitabl
 
 ## Proposed foundations
 
-- [[Book HoTT]]
+- [[Axiomatic HoTT]]
 - [[Cubical Type Theory]]
 
 #

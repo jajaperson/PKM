@@ -9,7 +9,7 @@ alias:
 # Differential geometry MOC
 
 **Differential geometry** studies [[Differentiability|smooth]] geometric structures, in particular [[Differentiable manifold|differentiable manifolds]].
-As such it is closely related to differential topology.
+As such it is closely related to (differential) [[Topology MOC|topology]].
 A guiding principle is the [[Linearization dogma]].
 
 > [!info]- In an ambient space

@@ -38,6 +38,7 @@ tags:
 - [[Logic MOC]]
 - [[Category theory MOC]]
 - [[Set theory MOC]]
+- [[Type theory MOC]]
 
 ## Misc
 
