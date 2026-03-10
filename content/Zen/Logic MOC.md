@@ -23,12 +23,13 @@ tags:
 - [[Heyting Logic]]
 
 ## Important concepts
-- [[Sense-Denotation Dichotomy]]
+- [[Sense and denotation]]
 
 ## Related
 
 - [[Informal Reasoning MOC]]
 - [[Semantics MOC]]
+- [[Type theory MOC]]
 
 ## Bibliography  
 - 1989\. [[Sources/@girardProofsTypes1989|Proofs and types]]

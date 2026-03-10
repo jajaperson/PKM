@@ -55,7 +55,7 @@ Then in [[Formal sums over endomorphisms|$(\End V)\{ z_{1},z_{2} \}$]]
 5. $$
   \begin{align*}
   X(z_{1},z_{2})\frac{ \partial }{ \partial z_{1} } [\delta(az_{1} / z_{2})] 
-  &= X(a^{-1}z_{2},z_{2}) \frac{ \partial }{ \partial z_{1} } [\delta(az_{1} / z_{2})] - \left( \frac{ \partial X }{ \partial z_{1} }  \right)(a^{-1}z_{2},z_{2})\delta(az_{1} / z_{2}) 
+  &= X(a^{-1}z_{2},z_{2}) \frac{ \partial }{ \partial z_{1} } [\delta(az_{1} / z_{2})] - \left( \frac{ \partial X }{ \partial z_{1} }  \right)(a^{-1}z_{2},z_{2})\delta(az  {1} / z_{2}) 
   \\
   X(z_{1},z_{2})\frac{ \partial }{ \partial z_{2} } [\delta(az_{1} / z_{2})] 
   &= X(z_{1},az_{1}) \frac{ \partial }{ \partial z_{2} } [\delta(az_{1} / z_{2})] - \left( \frac{ \partial X }{ \partial z_{2} }  \right)(z_{1},az_{1})\delta(az_{1} / z_{2})

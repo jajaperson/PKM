@@ -32,6 +32,7 @@ Then $f$ has a fixed point, i.e. there exists $x \in \mathbb{B}^n$ such that $f(
 > 			{\|x - f(x)\|}
 > 	\end{equation*}
 > $$
+> We can then argue using the fundamental groups of the disk and sphere.
 
 ## Corollaries
 

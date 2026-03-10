@@ -13,6 +13,8 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 
 ## Axiomatic type theories
 
+[[Dependent type theory]]
+
 ### à la Church
 
 - [[Lambda cube]]
@@ -29,19 +31,36 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 
 - [[Empty type]]
 - [[Unit type]]
+- [[Natural numbers type]]
 - [[Type of booleans]]
 
-### Dependent types
+### Type constructors
 
 - [[Π type]]
 - [[Σ type]]
 - [[Coproduct type]]
 - [[Identity type]]
 
-## Idioms
+### Special kinds of types
 
-- [[Context in a deductive system]]
+- [[Inductive type]]
+    - [[W-type]]
+- [[Coïnductive type]]
+- [[Higher inductive type]]
+
+## Elements of syntax
+
+- [[Context in a proof system]]
 - [[Judgemental equality]]
+- [[let declaration]]
+
+## Concepts
+
+- [[Dependent types as fibrations]]
+
+## Bibliography
+
+- [[@angiuliPrinciplesDependentType2025]]
 
 #
 ---

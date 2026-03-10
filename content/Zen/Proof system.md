@@ -13,7 +13,7 @@ Proof systems à la Hilbert leave little distinction between propositions and ju
 
 ## à la Gentzen
 
-Proof systems à la Gentzen are distinguished by their use of [[Context in a deductive system|contexts]],
+Proof systems à la Gentzen are distinguished by their use of [[Context in a proof system|contexts]],
 so that every line in a deduction (i.e. every judgement) is conditional on zero or more assumptions,
 having the form
 $$
@@ -25,7 +25,7 @@ Examples of such systems include
 
 - [[Natural deduction]]
 - [[Sequent calculus]]
-- Most [[Type theory|type theories]]
+- [[Type theory|Type theories]]
 
 
 #
