@@ -3,9 +3,11 @@ import { readFileSync } from "fs"
 import { QuartzConfig } from "quartz/cfg"
 import * as Plugin from "quartz/plugins"
 import * as Component from "quartz/components"
-import { LitNotes } from "quartz/plugins/emitters/LitNotes"
+import { LitNotes } from "quartz/plugins/emitters/litNotes"
 
 import { loadMacrosFromPreamble } from "@/lib/loadPreamble"
+import { TabsToSpaces } from "quartz/plugins/transformers/tabsToSpaces"
+import { IndentedMathsFix } from "quartz/plugins/transformers/indentedMathsFix"
 
 const MATHJAX_PREAMBLE = "./content/preamble.sty"
 const macros = loadMacrosFromPreamble(readFileSync(MATHJAX_PREAMBLE, "utf8"))
@@ -63,6 +65,8 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
+      TabsToSpaces(),
+      IndentedMathsFix(),
       Plugin.FrontMatter(),
       Plugin.SyntaxHighlighting({
         theme: {
@@ -78,8 +82,13 @@ const config: QuartzConfig = {
       }),
       // This needs to come after, since it replaces undirected apostrophes with directed ones.
       Plugin.GitHubFlavoredMarkdown(),
+      Plugin.Latex({
+        tex: {
+          // @ts-ignore
+          macros
+        }
+      }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "mathjax", customMacros: macros }),
       Plugin.TableOfContents({ minEntries: 2 }),
     ],
     filters: [Plugin.RemoveDrafts()],
