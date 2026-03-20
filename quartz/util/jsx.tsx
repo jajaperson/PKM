@@ -3,6 +3,13 @@ import { Node, Root } from "hast"
 import { Fragment, jsx, jsxs } from "preact/jsx-runtime"
 import { trace } from "./trace"
 import { type FilePath } from "./path"
+import { h } from "preact"
+
+function childrenToString(children: unknown): string {
+  if (typeof children === "string") return children
+  if (Array.isArray(children)) return children.map(childrenToString).join("")
+  return String(children ?? "")
+}
 
 const customComponents: Components = {
   table: (props) => (
@@ -10,6 +17,10 @@ const customComponents: Components = {
       <table {...props} />
     </div>
   ),
+  style: ({ children, ...rest }) =>
+    h("style", { ...rest, dangerouslySetInnerHTML: { __html: childrenToString(children) } }),
+  script: ({ children, ...rest }) =>
+    h("script", { ...rest, dangerouslySetInnerHTML: { __html: childrenToString(children) } }),
 }
 
 export function htmlToJsx(fp: FilePath, tree: Node) {

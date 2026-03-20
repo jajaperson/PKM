@@ -24,7 +24,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
-    locale: "en-US",
+    locale: "en-GB",
     baseUrl: "notes.jajaperson.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -86,6 +86,9 @@ const config: QuartzConfig = {
         tex: {
           // @ts-ignore
           macros
+        },
+        chtml: {
+          fontURL: "https://cdn.jsdelivr.net/npm/@mathjax/mathjax-newcm-font@4.1.1/chtml/woff2"
         }
       }),
       Plugin.Description(),
