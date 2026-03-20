@@ -48,7 +48,7 @@ export const LitNotes: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
   const Body = BodyConstructor()
 
   return {
-    name: "Literature notes",
+    name: "Bibliographic literature notes",
     getQuartzComponents() {
       return [
         Head,
