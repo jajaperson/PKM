@@ -16,95 +16,95 @@ import LitNote from "quartz/components/pages/LitNote"
 import { stripHtml } from "string-strip-html"
 
 export interface Options {
-  bibliographyFile: string
-  layout: Partial<FullPageLayout>
+	bibliographyFile: string
+	layout: Partial<FullPageLayout>
 }
 
 const defaultOptions: Options = {
-  bibliographyFile: "./bibliography.bib",
-  layout: {},
+	bibliographyFile: "./bibliography.bib",
+	layout: {},
 }
 
 export const LitNotes: QuartzEmitterPlugin<Partial<Options>> = (userOpts) => {
-  const opts = { ...defaultOptions, ...userOpts }
+	const opts = { ...defaultOptions, ...userOpts }
 
-  const layout: FullPageLayout = {
-    ...defaultContentPageLayout,
-    ...sharedPageComponents,
-    pageBody: LitNote(),
-    ...opts.layout,
-  }
-  const {
-    head: Head,
-    header,
-    beforeBody,
-    pageBody,
-    afterBody,
-    left,
-    right,
-    footer: Footer,
-  } = layout
-  const Header = HeaderConstructor()
-  const Body = BodyConstructor()
+	const layout: FullPageLayout = {
+		...defaultContentPageLayout,
+		...sharedPageComponents,
+		pageBody: LitNote(),
+		...opts.layout,
+	}
+	const {
+		head: Head,
+		header,
+		beforeBody,
+		pageBody,
+		afterBody,
+		left,
+		right,
+		footer: Footer,
+	} = layout
+	const Header = HeaderConstructor()
+	const Body = BodyConstructor()
 
-  return {
-    name: "Bibliographic literature notes",
-    getQuartzComponents() {
-      return [
-        Head,
-        Header,
-        Body,
-        ...header,
-        ...beforeBody,
-        pageBody,
-        ...afterBody,
-        ...left,
-        ...right,
-        Footer,
-      ]
-    },
-    async *emit(ctx, content, resources) {
-      const cfg = ctx.cfg.configuration
-      const allFiles = content.map((c) => c[1].data)
-      try {
-        const rawBib: string = await readFile(opts.bibliographyFile, { encoding: "utf-8" })
-        let parser = new BibLatexParser(rawBib, {})
-        const bib = await parser.parseAsync()
-        let exporter = new CSLExporter(bib.entries, false, { useEntryKeys: true })
-        const csl = exporter.parse()
-        for (const id in csl) {
-          const entry = csl[id]
-          const slug = joinSegments("Sources", `@${id}`) as FullSlug
-          const title = stripHtml(entry.title as string).result
-          const [tree, vfile] = defaultProcessedContent({
-            slug,
-            text: title,
-            description: "Bibliographic entry",
-            frontmatter: { title },
-            entry,
-          })
-          const externalResources = pageResources(pathToRoot(slug), resources)
-          const componentData: QuartzComponentProps = {
-            ctx,
-            fileData: vfile.data,
-            externalResources,
-            cfg,
-            children: [],
-            tree,
-            allFiles,
-          }
-          const content = renderPage(cfg, slug, componentData, layout, externalResources)
+	return {
+		name: "Bibliographic literature notes",
+		getQuartzComponents() {
+			return [
+				Head,
+				Header,
+				Body,
+				...header,
+				...beforeBody,
+				pageBody,
+				...afterBody,
+				...left,
+				...right,
+				Footer,
+			]
+		},
+		async *emit(ctx, content, resources) {
+			const cfg = ctx.cfg.configuration
+			const allFiles = content.map((c) => c[1].data)
+			try {
+				const rawBib: string = await readFile(opts.bibliographyFile, { encoding: "utf-8" })
+				let parser = new BibLatexParser(rawBib, {})
+				const bib = await parser.parseAsync()
+				let exporter = new CSLExporter(bib.entries, false, { useEntryKeys: true })
+				const csl = exporter.parse()
+				for (const id in csl) {
+					const entry = csl[id]
+					const slug = joinSegments("Sources", `@${id}`) as FullSlug
+					const title = stripHtml(entry.title as string).result
+					const [tree, vfile] = defaultProcessedContent({
+						slug,
+						text: title,
+						description: "Bibliographic entry",
+						frontmatter: { title },
+						entry,
+					})
+					const externalResources = pageResources(pathToRoot(slug), resources)
+					const componentData: QuartzComponentProps = {
+						ctx,
+						fileData: vfile.data,
+						externalResources,
+						cfg,
+						children: [],
+						tree,
+						allFiles,
+					}
+					const content = renderPage(cfg, slug, componentData, layout, externalResources)
 
-          yield write({
-            ctx,
-            content,
-            slug,
-            ext: ".html",
-          })
-        }
-      } catch (err) {
-        console.error(err)
-      }
-    },
-  }
+					yield write({
+						ctx,
+						content,
+						slug,
+						ext: ".html",
+					})
+				}
+			} catch (err) {
+				console.error(err)
+			}
+		},
+	}
 }
