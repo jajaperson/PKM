@@ -39,18 +39,18 @@ These use the mathematical language of [[Divergence]] and [[Curl]].
 	$$
 	^D2
 3. Curl (tendency for field lines to orbit)
-   in an electric field results in a change in a magnetic field,
-   and vice versa.
-  $$
+	in an electric field results in a change in a magnetic field,
+	and vice versa.
+	$$
 	\begin{align*}
 	\vab\nabla \times \vab E = -\frac{\partial \vab B}{\partial t}
 	\end{align*}
 	$$
 	^D3
 4. Electric current passing through a closed circuit
-   results in the magnetic curl,
-   and vice versa.[^adjust]
-  $$
+	results in the magnetic curl,
+	and vice versa.[^adjust]
+	$$
 	\begin{align*}
 	\vab\nabla \times \vab B = \mu_0 \left( 
 		\vab J + \varepsilon_0 \frac{\partial \vab E}{\partial t}
@@ -67,9 +67,9 @@ These use the mathematical language of the [[Double integral]],
 and more specifically closed [[Circulation]] and [[Flux]]
 
 1. The nett number of electric field lines 
-   escaping through the boundary of some solid $\Omega$
-   is proportional to the amount of charge contained within that solid
-   (contained charge can be calculated using an integral over [[Charge density]]).
+	escaping through the boundary of some solid $\Omega$
+	is proportional to the amount of charge contained within that solid
+	(contained charge can be calculated using an integral over [[Charge density]]).
   $$
 	\begin{align*}
 	\Phi_E 
@@ -79,21 +79,21 @@ and more specifically closed [[Circulation]] and [[Flux]]
 	$$
 	^I1
 2. The nett number of magnetic field lines 
-   escaping through the boundary of some solid $\Omega$
-   is always $0$,
-   i.e. the number of magnetic field lines leaving a space
-   is equal to the number entering that space,
-   since there are no monopoles.
-  $$
+	escaping through the boundary of some solid $\Omega$
+	is always $0$,
+	i.e. the number of magnetic field lines leaving a space
+	is equal to the number entering that space,
+	since there are no monopoles.
+	$$
 	\begin{align*}
 	\oiint_{\partial \Omega}{\vab B \cdot d\vab a} = 0
 	\end{align*}
 	$$
 	^I2
 3. Electric current moving anticlockwise in a closed loop
-   creates a change in magnetic flux inside the loop
-   in the direction of negative orientation.
-  $$
+	creates a change in magnetic flux inside the loop
+	in the direction of negative orientation.
+	$$
 	\begin{align*}
 	\mathcal{E} =\oint_{\partial \Sigma}{\vab E \cdot d \vab \ell} 
 	&= -\frac{\partial \Phi_B}{\partial t} \\\\
@@ -102,11 +102,11 @@ and more specifically closed [[Circulation]] and [[Flux]]
 	$$
 	^I3
 4. Nett current moving through a cross section solid conductor $\Sigma$
-   or a change in electric flux cutting through $\Sigma$
-   (working together additively)
-   results in a magnetic field [[Circulation|circulating]] around the conductor,
-   and vice versa.
-  $$
+	or a change in electric flux cutting through $\Sigma$
+	(working together additively)
+	results in a magnetic field [[Circulation|circulating]] around the conductor,
+	and vice versa.
+	$$
 	\begin{align*}
 	\oint_{\partial \Sigma}{\vab B \cdot d \vab \ell}
 	&= \mu_0 \left( 

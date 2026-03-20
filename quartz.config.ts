@@ -65,8 +65,8 @@ const config: QuartzConfig = {
   },
   plugins: {
     transformers: [
-      TabsToSpaces(),
       IndentedMathsFix(),
+      TabsToSpaces(),
       Plugin.FrontMatter(),
       Plugin.SyntaxHighlighting({
         theme: {
