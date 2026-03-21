@@ -75,13 +75,6 @@ const config: QuartzConfig = {
 				},
 				keepBackground: false,
 			}),
-			Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true }),
-			Plugin.CrawlLinks({
-				markdownLinkResolution: "shortest",
-				// prettyLinks: false,
-			}),
-			// This needs to come after, since it replaces undirected apostrophes with directed ones.
-			Plugin.GitHubFlavoredMarkdown(),
 			Plugin.Latex({
 				tex: {
 					// @ts-ignore
@@ -91,6 +84,13 @@ const config: QuartzConfig = {
 					fontURL: "https://cdn.jsdelivr.net/npm/@mathjax/mathjax-newcm-font@4.1.1/chtml/woff2",
 				},
 			}),
+			Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true }),
+			Plugin.CrawlLinks({
+				markdownLinkResolution: "shortest",
+				// prettyLinks: false,
+			}),
+			// This needs to come after, since it replaces undirected apostrophes with directed ones.
+			Plugin.GitHubFlavoredMarkdown(),
 			Plugin.Description(),
 			Plugin.TableOfContents({ minEntries: 2 }),
 		],

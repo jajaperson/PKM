@@ -1,5 +1,5 @@
 import { QuartzTransformerPlugin } from "../types"
-import {
+import type {
 	Root,
 	Html,
 	BlockContent,
@@ -13,7 +13,7 @@ import { ReplaceFunction, findAndReplace as mdastFindReplace } from "mdast-util-
 import rehypeRaw from "rehype-raw"
 import { SKIP, visit } from "unist-util-visit"
 import path from "path"
-import { splitAnchor, transformLink } from "../../util/path"
+import { splitAnchor } from "../../util/path"
 import { JSResource, CSSResource } from "../../util/resources"
 // @ts-ignore
 import calloutScript from "../../components/scripts/callout.inline"
@@ -555,7 +555,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 										const matches = text.value.match(blockReferenceRegex)
 										if (matches && matches.length >= 1) {
 											parent!.children.splice(index! + 2, 1)
-											const block = matches[0].slice(1)
+											const block = encodeURIComponent(matches[0].toLowerCase())
 
 											if (!Object.keys(file.data.blocks!).includes(block)) {
 												node.properties = {
@@ -573,7 +573,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 									const matches = last.value.match(blockReferenceRegex)
 									if (matches && matches.length >= 1) {
 										last.value = last.value.slice(0, -matches[0].length)
-										const block = matches[0].slice(1)
+										const block = encodeURIComponent(matches[0].toLowerCase())
 
 										if (last.value === "") {
 											// this is an inline block ref but the actual block
