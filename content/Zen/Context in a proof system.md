@@ -39,7 +39,7 @@ $$
 
 ## Cartesian contexts
 
-A proof system with contexts is said to have **cartesian contexts**[^term] if it has some variant **contraction rule**
+A proof system with contexts is said to have **cartesian contexts**[^term] iff it has some variant **contraction rule**
 $$
 \begin{prooftree}
 \def\fCenter{\vdash}

@@ -17,33 +17,33 @@ and separating free charge and current from those arising from [[Electric dipole
 ## Differential form
 
 1. $$
-  \begin{align*}
-  \vab{\nabla} \cdot \vab D = \rho_{f}
-  \end{align*}
-  $$
+	\begin{align*}
+	\vab{\nabla} \cdot \vab D = \rho_{f}
+	\end{align*}
+	$$
 2. $$
 	\begin{align*}
 	\vab\nabla \cdot \vab B = 0
 	\end{align*}
 	$$
 3. $$
-  \begin{align*}
+	\begin{align*}
 	\vab\nabla \times \vab E = -\frac{\partial \vab B}{\partial t}
 	\end{align*}
 	$$
 4. $$
-  \begin{align*}
-  \vab{\nabla} \times \vab H = \vab J_{f} + \frac{ \partial \vab D }{ \partial t } 
-  \end{align*}
-  $$
+	\begin{align*}
+	\vab{\nabla} \times \vab H = \vab J_{f} + \frac{ \partial \vab D }{ \partial t } 
+	\end{align*}
+	$$
 
 ## Integral  form
 
 1. $$
-  \begin{align*}
-  \oiint_{\partial\Omega} \vab D \cdot d\vab a = \iiint_{\Omega} \rho_{f} \, d\tau'
-  \end{align*}
-  $$
+	\begin{align*}
+	\oiint_{\partial\Omega} \vab D \cdot d\vab a = \iiint_{\Omega} \rho_{f} \, d\tau'
+	\end{align*}
+	$$
 2. $$
 	\begin{align*}
 	\oiint_{\partial \Omega}{\vab B \cdot d\vab a} = 0
@@ -57,11 +57,11 @@ and separating free charge and current from those arising from [[Electric dipole
 	\end{align*}
 	$$
 4. $$
-  \begin{align*}
-  \oint_{\partial\Sigma} \vab H \cdot d\vab r &= \mu_{0}\left( I_{f,\Sigma} + \frac{ \partial \Phi_{D,\Sigma} }{ \partial t }  \right)  \\ 
-  &= \left( \iint_{\Sigma} \vab J_{f} \cdot d\vab a + \frac{d}{dt} \iint_{\Sigma} \vab D \cdot d\vab a \right) 
-  \end{align*}
-  $$
+	\begin{align*}
+	\oint_{\partial\Sigma} \vab H \cdot d\vab r &= \mu_{0}\left( I_{f,\Sigma} + \frac{ \partial \Phi_{D,\Sigma} }{ 	\partial t }  \right)  \\ 
+	&= \left( \iint_{\Sigma} \vab J_{f} \cdot d\vab a + \frac{d}{dt} \iint_{\Sigma} \vab D \cdot d\vab a \right) 
+	\end{align*}
+	$$
 
 ## Sources
 

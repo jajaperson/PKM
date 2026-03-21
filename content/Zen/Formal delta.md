@@ -14,7 +14,7 @@ $$
 
 given by the [[Zen/Fourier series|Fourier series]] expansion of the [[Dirac delta]].
 
-  [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §2.1–§2.2, p. 52ff
+[^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], §2.1–§2.2, p. 52ff
 
 ## Properties
 
@@ -22,55 +22,60 @@ Let $V$ be a vector space over $\mathbb{K}$.
 Let $v(z) \in V[z,z^{-1}]$ and $a \in \mathbb{K}^\times$.
 Finally let $p(z) \in \mathbb{K}[z,z^{-1}]$ and $T= T_{p(z)} = p(z) \frac{d}{dz}$.
 Then in [[Formal sums over a vector space|$V\{ z \}$]]
+
 1. $$
-  \begin{align*}
-  v(z)\delta(az) = v(a^{-1}) \delta (az)
-  \end{align*}
-  $$
-  ^P1
+	\begin{align*}
+	v(z)\delta(az) = v(a^{-1}) \delta (az)
+	\end{align*}
+	$$
+	^P1
+
 2. $$
-  \begin{align*}
-  v(z) \frac{d}{dz}[\delta(az) ]= v(a^{-1}) \frac{d}{dz} [\delta(az)] - v'(a^{-1})\delta(az)
-  \end{align*}
-  $$
-  ^P2
+	\begin{align*}
+	v(z) \frac{d}{dz}[\delta(az) ]= v(a^{-1}) \frac{d}{dz} [\delta(az)] - v'(a^{-1})\delta(az)
+	\end{align*}
+	$$
+	^P2
+
 3. $$
-  \begin{align*}
-  v(z)T[\delta(az)] = v(a^{-1})T[\delta(az)]-(Tv)(a^{-1})\delta(az)
-  \end{align*}
-  $$
-  ^P3
+	\begin{align*}
+	v(z)T[\delta(az)] = v(a^{-1})T[\delta(az)]-(Tv)(a^{-1})\delta(az)
+	\end{align*}
+	$$
+	^P3
 
 Let $X(z_{1},z_{2}) \in (\End V) \D[z_{1},z_{1}^{-1},z_{2},z_{2}^{-1}\D]$ such that $\lim_{ z_{1} \to z_{2} }X(z_{1},z_{2})$ exists and $a \in \mathbb{K}^\times$. 
 Finally let $p(z_{1},z_{2}) \in \mathbb{K}[z_{1},z_{1}^{-1},z_{2},z_{2}^{-1}]$, $T_{1} = p(z_{1},z_{2}) \frac{ \partial }{ \partial z_{1} }$, and $T_{2}=p(z_{1},z_{2})\frac{ \partial }{ \partial z_{2} }$.
 Then in [[Formal sums over endomorphisms|$(\End V)\{ z_{1},z_{2} \}$]]
 
 4. $$
-  \begin{align*}
-  X(z_{1},z_{2}) \delta(az_{1} / z_{2}) &= X(a^{-1}z_{2},z_{2})\delta(az_{1}/z_{2}) \\
-  &= X(z_{1},az_{1})\delta(az_{1} /z_{2})
-  \end{align*}
-  $$
-  ^PA
+	\begin{align*}
+	X(z_{1},z_{2}) \delta(az_{1} / z_{2}) &= X(a^{-1}z_{2},z_{2})\delta(az_{1}/z_{2}) \\
+	&= X(z_{1},az_{1})\delta(az_{1} /z_{2})
+	\end{align*}
+	$$
+	^PA
+
 5. $$
-  \begin{align*}
-  X(z_{1},z_{2})\frac{ \partial }{ \partial z_{1} } [\delta(az_{1} / z_{2})] 
-  &= X(a^{-1}z_{2},z_{2}) \frac{ \partial }{ \partial z_{1} } [\delta(az_{1} / z_{2})] - \left( \frac{ \partial X }{ \partial z_{1} }  \right)(a^{-1}z_{2},z_{2})\delta(az  {1} / z_{2}) 
-  \\
-  X(z_{1},z_{2})\frac{ \partial }{ \partial z_{2} } [\delta(az_{1} / z_{2})] 
-  &= X(z_{1},az_{1}) \frac{ \partial }{ \partial z_{2} } [\delta(az_{1} / z_{2})] - \left( \frac{ \partial X }{ \partial z_{2} }  \right)(z_{1},az_{1})\delta(az_{1} / z_{2})
-  \end{align*}
-  $$
-  ^PB
+	\begin{align*}
+	X(z_{1},z_{2})\frac{ \partial }{ \partial z_{1} } [\delta(az_{1} / z_{2})] 
+	&= X(a^{-1}z_{2},z_{2}) \frac{ \partial }{ \partial z_{1} } [\delta(az_{1} / z_{2})] - \left( \frac{ \partial X }{ \partial z_{1} }	\right)(a^{-1}z_{2},z_{2})\delta(az	{1} / z_{2}) 
+	\\
+	X(z_{1},z_{2})\frac{ \partial }{ \partial z_{2} } [\delta(az_{1} / z_{2})] 
+	&= X(z_{1},az_{1}) \frac{ \partial }{ \partial z_{2} } [\delta(az_{1} / z_{2})] - \left( \frac{ \partial X }{ \partial z_{2} }	\right)(z_{1},az_{1})\delta(az_{1} / z_{2})
+	\end{align*}
+	$$
+	^PB
+
 6. $$
-  \begin{align*}
-  X(z_{1},z_{2}) T_{1}[\delta(az_{1} / z_{2})]
-  &= X(a^{-1}z_{2},z_{2})T_{1}[\delta(az_{1} / z_{2})] - (T_{1}X)(a^{-1}z_{2},z_{2})\delta(az_{1} / z_{2}) \\
-  X(z_{1},z_{2})T_{2}[\delta(az_{1} / z_{2})]
-  &= X(z_{1},az_{1})T_{2}[\delta(az_{1} / z_{2})] - (T_{2}X)(z_{1},az_{1}) \delta(az_{1} / z_{2})
-  \end{align*}
-  $$
-  ^PC
+	\begin{align*}
+	X(z_{1},z_{2}) T_{1}[\delta(az_{1} / z_{2})]
+	&= X(a^{-1}z_{2},z_{2})T_{1}[\delta(az_{1} / z_{2})] - (T_{1}X)(a^{-1}z_{2},z_{2})\delta(az_{1} / z_{2}) \\
+	X(z_{1},z_{2})T_{2}[\delta(az_{1} / z_{2})]
+	&= X(z_{1},az_{1})T_{2}[\delta(az_{1} / z_{2})] - (T_{2}X)(z_{1},az_{1}) \delta(az_{1} / z_{2})
+	\end{align*}
+	$$
+	^PC
 
 
 Note these fail for non-integer powers.

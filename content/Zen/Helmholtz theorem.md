@@ -50,7 +50,7 @@ which is given by the corollary
 > then $\vab F$ may be determined uniquely.[^2013] #m/thm/anal/vec
 
 
-[^2013]: 2013\. [[@griffithsIntroductionElectrodynamics2013|Introduction to electrodynamics]]p. 582 (Appendix B)
+[^2013]: 2013\. [[@griffithsIntroductionElectrodynamics2013|Introduction to electrodynamics]], §B, p. 582.
 
 #
 ---
