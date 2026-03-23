@@ -36,19 +36,21 @@ graph TD;
 
 The same prefixes are used for specific morphisms, including [[Functor|functors]] and [[Natural transformation|natural transformations]].
 
-Mnemonic for types of morphism
-→
-`MILESR`
-- **M**onic
-- **I**njective
-- **L**eft-cancellable 
-- **E**pic
-- **S**urjective
-- **R**ight-cancellable
-<!--SR:!2024-02-25,210,190-->
+
+> [!tip]- Mnemonic for types of morphism
+> 
+> `MILESR`
+> - **M**onic
+> - **I**njective
+> - **L**eft-cancellable 
+> - **E**pic
+> - **S**urjective
+> - **R**ight-cancellable
+
+
 
 
 
 #
 ---
-#state/tidy | #to/simplify | #flashcards/maths/mnemonic 
+#state/tidy | #SemBr | #lang/en

@@ -102,9 +102,9 @@ $$
 \begin{prooftree}
 \def\fCenter{\vdash}
 \Axiom$\Gamma \fCenter A = A'$
-\Axiom$\Gamma, x : A, \Delta \fCenter \mathcal{J}$
+\Axiom$\Gamma,A, \Delta \fCenter \mathcal{J}$
 \RL{(V)}
-\BinaryInf$\Gamma, x : A', \Delta \fCenter \mathcal{J}$
+\BinaryInf$\Gamma, A', \Delta \fCenter \mathcal{J}$
 \end{prooftree}
 $$
 which guarantees [[Indiscernibility of identicals]] for types.
@@ -140,7 +140,7 @@ Further inference rules on judgemental equality are given for individual types i
   \def\fCenter{\vdash}
   \Axiom$\Gamma \fCenter A = A'$
   \Axiom$\Gamma \fCenter a : A$
-  \RL{(E)}
+  \RL{\imp{(E)}}
   \BinaryInf$\Gamma \fCenter a : A'$
   \end{prooftree}
   $$
@@ -151,7 +151,7 @@ $$
 \def\fCenter{\vdash}
 \Axiom$\Gamma \fCenter A = A'$
 \Axiom$\Gamma \fCenter a = a' : A$
-\RL{(E=)}
+\RL{\imp{(E=)}}
 \BinaryInf$\Gamma \fCenter a = a' : A'$
 \end{prooftree}
 $$
@@ -190,7 +190,7 @@ $$
 > \UnaryInf$\Gamma , x : A' \fCenter x :A'$
 > \RL{(V)}
 > \BinaryInf$\Gamma, x: A\fCenter x: A'$
-> \RL{(E=)}
+> \RL{(tV=)}
 > \BinaryInf$\Gamma\fCenter a = a' : A'$
 > \end{prooftree}
 > $$

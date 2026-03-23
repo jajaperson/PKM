@@ -68,7 +68,6 @@ There are several ways to formalize a type theory.
 The approach taken by these notes is the [[Calculus of substitutions]].
 
 
-
 #
 ---
 #state/tidy | #lang/en | #SemBr

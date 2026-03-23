@@ -13,7 +13,7 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 
 ## Axiomatic type theories
 
-[[Dependent type theory]]
+[[Calculus of substitutions]]
 
 ### à la Church
 
@@ -22,6 +22,7 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 
 ### à la Martin-Löf
 
+- [[ETT]]
 - [[ITT]]
 - [[Homotopy type theory]]
     - [[Axiomatic HoTT]]

@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[Proto-Indo-European MOC]]
-# The development of ”to be” in Indo-European languages
+# The development of ‘to be’ in Indo-European languages
 
 
 ```mermaid
@@ -71,7 +71,7 @@ OES_byti["OES: <em><abbr class='ling' title='inf/present 3sg/future 1sg/resultat
 OES_byti==>Ru_byt'
 PSl_bỳti["PSl: <em class='recon'>bỳti/estь/bǫdǫ/bylъ/sy</em><br/>to be"]
 PSl_bỳti==>OES_byti
-PBS_butei["PBS: <em class='recon'>bū́ˀtei/ésti/sánti<em>"]
+PBS_butei["PBS: <em class='recon'>bū́ˀtei/ésti/sánti</em>"]
 PBS_butei==>PSl_bỳti
 PIE_Hésti==>PBS_butei
 PIE_bʰuH==>PBS_butei
