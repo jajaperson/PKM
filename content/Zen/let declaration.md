@@ -28,7 +28,7 @@ $$
 \end{prooftree}
 $$
 In the former, both the in-term and in-type substitution occur at the level of the metatheory, whereas in the latter the in-term substitution occurs in the theory itself. 
-Note this is different to the [[Π type]] which internalizes substitition in terms _as a type_, although $\Pi$ types can be used to achieve similar things.
+Note this is different to the [[Π-type]] which internalizes substitition in terms _as a type_, although $\Pi$ types can be used to achieve similar things.
 To ensure metatheoretic substitution still agrees with substitution via a `let` declaration, we impose the judgemental equality
 $$
 \begin{prooftree}
@@ -40,7 +40,7 @@ $$
 \end{prooftree}
 $$
 
-Beyond syntactic nicety, `let` declarations can be used to formulate induction rules for a [[positive type]] independently from a [[Π type]], see e.g. [[Σ type]].
+Beyond syntactic nicety, `let` declarations can be used to formulate induction rules for a [[positive type]] independently from a [[Π-type]], see e.g. [[Σ type]].
 
 #
 ---

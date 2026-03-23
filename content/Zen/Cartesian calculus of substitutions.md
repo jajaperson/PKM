@@ -10,14 +10,14 @@ It can be viewed as an extension of the [[linear calculus of substitutions]],
 but here we give a full presentation following _[[@angiuliPrinciplesDependentType2025|Principles of dependent type theory]]_.
 
 > [!note]+ Notes on this presentation
-> We use [[De Brujin indices]], and describe [[Syntax sugar for named variables]].
+> We use [[De Brujin indices]], and describe [[#Syntax sugar for named variables]].
 > Following _[[@angiuliPrinciplesDependentType2025|Principles]]_, “implicit” arguments are made explicit in grey, for example we have $\Gamma \vdash \mathbf{id}_\imp{\Gamma} : \Gamma$.
 > We also have “meta-implicit arguments” for judgements, which are called **presuppositions** (notation 2.2.1).
 > The surface syntax for our judgements differs slightly.
 
-## Judgments
+## Judgements
 
-We have the following basic judgments:
+We have the following basic judgements:
 
 1. $\Gamma \vdash$ asserts that $\Gamma$ is a [[Context in a proof system|context]]. ^J1
 2. $\Gamma \vdash A$ asserts that $A$ is a type (in context $\Gamma$).[^1] ^J2

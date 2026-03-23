@@ -22,7 +22,7 @@ other than to embark upon the inverse path and,
 beginning with the historically conceived ‘set theory’,
 seek out the principles required for the foundations of this mathematical discipline.
 This task must be executed in such a way that one at once restricts the principles tightly enough to close out all contradictions,
-but also simultaneously extends these broadly enough
+but at the same time extends these broadly enough
 to retain of this theory all which is valuable.”
 
 

@@ -47,7 +47,7 @@ $$
 > Physicists might be uncomfortable with the assertion that $C^c{}_{ab}$ is a tensor,
 > and most introductory general relativity courses will spend a lot of time stressing that connexion coëfficients such as the [[Christoffel symbols]] are _not_ tensors.
 > Depending on perspective this is either a misunderstanding or disagreement.
-> The connexion coëfficients for a coördinate chart is not covariant since it depended on the choice of coördinate chart,
+> The connexion coëfficients for a coördinate chart are not covariant since it depended on the choice of coördinate chart,
 > but if you consider the [[partial derivative as a local affine connexion]] as extra data attached to our manifold which we retain after change of coördinates,
 > they suddenly are tensorial.
 

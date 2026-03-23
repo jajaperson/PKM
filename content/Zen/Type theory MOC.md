@@ -37,7 +37,7 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 
 ### Type constructors
 
-- [[Π type]]
+- [[Π-type]]
 - [[Σ type]]
 - [[Coproduct type]]
 - [[Identity type]]

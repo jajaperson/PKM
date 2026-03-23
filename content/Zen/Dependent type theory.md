@@ -1,6 +1,9 @@
 ---
 tags:
   - public
+aliases:
+  - type family
+  - fibration
 ---
 [[Type theory MOC]]
 # Dependent type theory
@@ -15,28 +18,20 @@ and types may in practice be defined by a [[Context-free grammar]].
 A type in a nonempty context is called **type family** or **fibration**. #m/def/type 
 Specifically, if $\Gamma \vdash A$ then a type family over $A$ in context $\Gamma$ is given by a judgement
 $$
-\Gamma, x : A \vdash B.
+\Gamma. A \vdash B.
 $$
-Often, we make the $x$-dependence explicit in the notation, by writing
-$$
-\begin{align*}
-\Gamma , x : A \vdash B(x).
-\end{align*}
-$$
-This is not meant to invoke an actual function (i.e. term of a [[Π type]]),
-but rather is syntactic sugar for a metatheoretic capture-avoiding [[substitution]], so that $B(a) := B(x)[a / x]$.
-A **section** picks out a term of $B(x)$ for each $x : A$,
+A **section** picks out a term of $B[\mathbf{id}. x]$ for each $x : A$,
 and thus corresponds to a judgement[^2025]
 $$
-\Gamma , x : A \vdash b : B
+\Gamma . A \vdash b : B
 $$
-which again is usually written
+When using named contexts in informal type theory, we will often write
 $$
 \begin{align*}
-\Gamma, x : A \vdash b(a) : B(a).
+\Gamma, x : A \vdash b(x) : B(x)
 \end{align*}
 $$
-
+where $b(x)$ and $B(x)$ are not meant to denote actual functions, but rather the occurance of a substitution, so that $B(y) = B(x)[y / x]$ and $b(y) = b(x)[y / x] : B(y)$.
 
 [^2025]: 2025\. [[Sources/@rijkeIntroductionHomotopyType2025|Introduction to Homotopy Type Theory]], §1.2, pp. 13–14.
 
