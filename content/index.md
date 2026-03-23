@@ -26,6 +26,5 @@ Current problems include
 - Links to specific blocks within a file don't work properly.
 - Links with maths in the alias text are broken.
 - Some lists display strangely.
-- [[The development of ‘to be’ in Indo-European languages|Some mermaid diagrams]] display strangely.
 
 If you notice anything else off, please let me know.
