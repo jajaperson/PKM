@@ -192,7 +192,7 @@ document.addEventListener("nav", async () => {
 
 	mermaidImport ||= await import(
 		// @ts-ignore
-		"https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs"
+		"https://cdn.jsdelivr.net/npm/mermaid@11.13.0/dist/mermaid.esm.min.mjs"
 	)
 	const mermaid = mermaidImport.default
 
@@ -224,8 +224,8 @@ document.addEventListener("nav", async () => {
 			startOnLoad: false,
 			securityLevel: "loose",
 			theme: darkMode ? "dark" : "base",
+			suppressErrorRendering: true,
 			themeVariables: {
-				fontFamily: computedStyleMap["--codeFont"],
 				primaryColor: computedStyleMap["--light"],
 				primaryTextColor: computedStyleMap["--darkgray"],
 				primaryBorderColor: computedStyleMap["--tertiary"],

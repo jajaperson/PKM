@@ -84,7 +84,11 @@ const config: QuartzConfig = {
 					fontURL: "https://cdn.jsdelivr.net/npm/@mathjax/mathjax-newcm-font@4.1.1/chtml/woff2",
 				},
 			}),
-			Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: true, parseTags: true }),
+			Plugin.ObsidianFlavoredMarkdown({
+				enableInHtmlEmbed: true,
+				parseTags: true,
+				mermaid: true, // we prefer to use a different strategy for rendering mermaid diagrams
+			}),
 			Plugin.CrawlLinks({
 				markdownLinkResolution: "shortest",
 				// prettyLinks: false,
@@ -114,7 +118,8 @@ const config: QuartzConfig = {
 			Plugin.Static(),
 			Plugin.Favicon(),
 			Plugin.NotFoundPage(),
-			process.env.NODE_ENV === "development"
+			// process.env.NODE_ENV === "development"
+			true // for now, OG images are kind of a waste of time.
 				? []
 				: Plugin.CustomOgImages({
 						colorScheme: "darkMode",
