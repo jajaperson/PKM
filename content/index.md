@@ -27,4 +27,4 @@ Current problems include
 - Links with maths in the alias text are broken.
 - Some lists display strangely.
 
-If you notice anything else off, please let me know.^[test]
+If you notice anything else off, please let me know.
