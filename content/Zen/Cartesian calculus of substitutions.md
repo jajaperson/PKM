@@ -62,14 +62,16 @@ $$
 \BinaryInfC{$\Gamma.A \vdash$}
 \end{prooftree}
 $$
-A context is thus a list of types $\Gamma= \0. A_{1} \dots A_{n}$, each of which may depend on the previous one.
-Thus we ready $\Gamma \vdash \mathcal{J}$ as
+Since these are the only way contexts are formed, they establish that every context is a list of types $\Gamma= \0. A_{1} \dots A_{n}$, each of which may depend on the previous one.
+We therefore treat $\Gamma \vdash$ and $\Gamma \vdash A$ as presuppositions for the judgement $\Gamma.A \vdash$.
+
+For a judgement thesis $\mathcal{J}$ we read $\Gamma \vdash \mathcal{J}$ as
 
 > Assuming hypotheses $A_{1}, \dots, A_{n}$, the judgement thesis $\mathcal{J}$ holds.
 
 or what is the same
 
-> Given a variables of each type $A_{1}, \dots, A_{n}$, the judgement thesis $\mathcal{J}$.
+> Given a variables of each type $A_{1}, \dots, A_{n}$, the judgement thesis $\mathcal{J}$ holds.
 
 
 > [!info]- Judgemental equality of contexts

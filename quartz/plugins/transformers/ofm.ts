@@ -27,6 +27,7 @@ import { toHast } from "mdast-util-to-hast"
 import { toHtml } from "hast-util-to-html"
 import { capitalize } from "../../util/lang"
 import { PluggableList } from "unified"
+import remarkInlineFootnote from "remark-inline-footnote"
 
 export interface Options {
 	comments: boolean
@@ -41,6 +42,7 @@ export interface Options {
 	enableYouTubeEmbed: boolean
 	enableVideoEmbed: boolean
 	enableCheckbox: boolean
+  inlineFootnotes: boolean
 }
 
 const defaultOptions: Options = {
@@ -56,6 +58,7 @@ const defaultOptions: Options = {
 	enableYouTubeEmbed: true,
 	enableVideoEmbed: true,
 	enableCheckbox: false,
+  inlineFootnotes: true
 }
 
 const calloutMapping = {
@@ -533,6 +536,10 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 					}
 				})
 			}
+
+      if (opts.inlineFootnotes) {
+        plugins.push(remarkInlineFootnote)
+      }
 
 			return plugins
 		},

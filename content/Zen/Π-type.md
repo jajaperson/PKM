@@ -125,4 +125,4 @@ This gives the inference rules above.
 ---
 #state/tidy | #lang/en | #SemBr
 
-[^1]: For brevity and laziness, the $\mathbf{\Pi}$ formation rule will be considered a _presuppositi
+[^1]: For brevity and laziness, the $\mathbf{\Pi}$ formation rule will be considered a _presupposition_
