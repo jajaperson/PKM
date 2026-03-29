@@ -25,7 +25,7 @@ const config: QuartzConfig = {
 		enablePopovers: true,
 		analytics: null,
 		locale: "en-GB",
-		baseUrl: "notes.jajaperson.me",
+		baseUrl: "jaj.sh",
 		ignorePatterns: ["private", "templates", ".obsidian"],
 		defaultDateType: "modified",
 		theme: {
