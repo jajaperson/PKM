@@ -1,3 +1,6 @@
+import { FullSlug } from "quartz/util/path"
+import { ContentDetails } from "quartz/plugins/emitters/contentIndex"
+
 declare module "*.scss" {
 	const content: string
 	export = content

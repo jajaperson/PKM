@@ -7,13 +7,14 @@ import type {
 	DefinitionContent,
 	Paragraph,
 	Code,
+	Link,
 } from "mdast"
 import { Element, Literal, Root as HtmlRoot } from "hast"
 import { ReplaceFunction, findAndReplace as mdastFindReplace } from "mdast-util-find-and-replace"
 import rehypeRaw from "rehype-raw"
 import { SKIP, visit } from "unist-util-visit"
 import path from "path"
-import { splitAnchor } from "../../util/path"
+import { splitAnchor, TransformOptions } from "../../util/path"
 import { JSResource, CSSResource } from "../../util/resources"
 // @ts-ignore
 import calloutScript from "../../components/scripts/callout.inline"
@@ -21,6 +22,7 @@ import calloutScript from "../../components/scripts/callout.inline"
 import checkboxScript from "../../components/scripts/checkbox.inline"
 // @ts-ignore
 import mermaidScript from "../../components/scripts/mermaid.inline"
+// @ts-ignore
 import mermaidStyle from "../../components/styles/mermaid.inline.scss"
 import { FilePath, pathToRoot, slugTag, slugifyFilePath } from "../../util/path"
 import { toHast } from "mdast-util-to-hast"
@@ -28,6 +30,8 @@ import { toHtml } from "hast-util-to-html"
 import { capitalize } from "../../util/lang"
 import { PluggableList } from "unified"
 import remarkInlineFootnote from "remark-inline-footnote"
+import { wikilink } from "micromark-extension-wikilink-syntax"
+import { AliasWikilink, Wikilink, wikilinkFromMarkdown } from "mdast-util-wikilink-syntax"
 
 export interface Options {
 	comments: boolean
@@ -42,10 +46,14 @@ export interface Options {
 	enableYouTubeEmbed: boolean
 	enableVideoEmbed: boolean
 	enableCheckbox: boolean
-  inlineFootnotes: boolean
+	inlineFootnotes: boolean
+	mathlinks: boolean
+	/** How to resolve Markdown paths (must match CrawlLinks) */
+	markdownLinkResolution: TransformOptions["strategy"]
 }
 
 const defaultOptions: Options = {
+	markdownLinkResolution: "shortest",
 	comments: true,
 	highlight: true,
 	wikilinks: true,
@@ -58,7 +66,8 @@ const defaultOptions: Options = {
 	enableYouTubeEmbed: true,
 	enableVideoEmbed: true,
 	enableCheckbox: false,
-  inlineFootnotes: true
+	inlineFootnotes: true,
+	mathlinks: false,
 }
 
 const calloutMapping = {
@@ -190,7 +199,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 					})
 				})
 
-				// replace all other wikilinks
+				// replace all other wikilink (now just embeds)
 				src = src.replace(wikilinkRegex, (value, ...capture) => {
 					const [rawFp, rawHeader, rawAlias]: (string | undefined)[] = capture
 
@@ -217,6 +226,45 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 		markdownPlugins() {
 			const plugins: PluggableList = []
 
+			if (opts.wikilinks) {
+				plugins.push(function () {
+					const data = this.data()
+
+					const micromarkExtensions = (data.micromarkExtensions ??= [])
+					const fromMarkdownExtensions = (data.fromMarkdownExtensions ??= [])
+
+					micromarkExtensions.push(wikilink())
+					fromMarkdownExtensions.push(wikilinkFromMarkdown())
+
+					return (tree) =>
+						visit(
+							tree,
+							["wikilink", "aliasWikilink"],
+							function (node: Wikilink | AliasWikilink, index, parent) {
+								if (!parent || typeof index !== "number") return
+
+								const children: PhrasingContent[] =
+									node.type === "aliasWikilink"
+										? node.children
+										: [
+												{
+													type: "text",
+													value: opts.mathlinks ? node.destination : node.destination,
+												},
+											]
+
+								const link: Link = {
+									type: "link",
+									url: node.destination,
+									children,
+								}
+
+								parent.children[index] = link
+							},
+						)
+				})
+			}
+
 			// regex replacements
 			plugins.push(() => {
 				return (tree: Root, file) => {
@@ -226,14 +274,14 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 					if (opts.wikilinks) {
 						replacements.push([
 							wikilinkRegex,
-							(value: string, ...capture: string[]) => {
+							(val, ...capture: string[]) => {
 								let [rawFp, rawHeader, rawAlias] = capture
 								const fp = rawFp?.trim() ?? ""
 								const anchor = rawHeader?.trim() ?? ""
 								const alias: string | undefined = rawAlias?.slice(1).trim()
 
 								// embed cases
-								if (value.startsWith("!")) {
+								if (val.startsWith("!")) {
 									const ext: string = path.extname(fp).toLowerCase()
 									const url = slugifyFilePath(fp as FilePath)
 									if ([".png", ".jpg", ".jpeg", ".gif", ".bmp", ".svg", ".webp"].includes(ext)) {
@@ -284,22 +332,6 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 											}" class="transclude-inner">Transclude of ${url}${block}</a></blockquote>`,
 										}
 									}
-
-									// otherwise, fall through to regular link
-								}
-
-								// internal link
-								const url = fp + anchor
-
-								return {
-									type: "link",
-									url,
-									children: [
-										{
-											type: "text",
-											value: alias ?? fp,
-										},
-									],
 								}
 							},
 						])
@@ -537,9 +569,9 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
 				})
 			}
 
-      if (opts.inlineFootnotes) {
-        plugins.push(remarkInlineFootnote)
-      }
+			if (opts.inlineFootnotes) {
+				plugins.push(remarkInlineFootnote)
+			}
 
 			return plugins
 		},

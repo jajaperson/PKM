@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 export declare global {
 	interface Document {
 		addEventListener<K extends keyof CustomEventMap>(
