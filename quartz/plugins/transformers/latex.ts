@@ -7,7 +7,7 @@ export const Latex: QuartzTransformerPlugin<MathjaxOptions> = (opts) => {
 	return {
 		name: "Latex",
 		textTransform(_, src) {
-			return src.replaceAll(String.raw`\Set`, String.raw`\cat{Set}`) // bodge
+			return src.replaceAll(String.raw`\Set`, String.raw`{\cat{Set}}`) // bodge
 		},
 		markdownPlugins() {
 			return [remarkMath]
