@@ -5,9 +5,15 @@ aliases:
 tags:
   - public
 mathLink: $\mathbf{\Pi}$-type
+mathLink-blocks:
+  eta: $\Pi \eta$
+  beta: $\Pi \beta$
+  N: $\Pi\text{-N}$
+  IN: $\Pi\text{I-N}$
+  EN: $\Pi\text{E-N}$
 ---
 [[Type theory MOC]]
-# $\mathbf{\Pi}$-type
+# $\mathbf{\Pi}$-types
 
 **$\mathbf{\Pi}$-types**, also known as **dependent function types** or **dependent products**, are motivated in several ways:
 
@@ -40,7 +46,7 @@ $$
 \def\fCenter{\vdash}
 \Axiom$\Gamma.A \fCenter B$
 \RL{($\Pi$)}
-\UnaryInf$\Gamma \fCenter \mathbf{\Pi}_\imp{\Gamma}(A.B)$
+\UnaryInf$\Gamma \fCenter \mathbf{\Pi}_\imp{\Gamma}(A,B)$
 \end{prooftree}
 
 \qquad
@@ -48,45 +54,54 @@ $$
 \begin{prooftree}
 \def\fCenter{\vdash}
 \Axiom$\Gamma.A \fCenter b: B$
-\RL{($\Pi I$)}
-\UnaryInf$\Gamma \fCenter \lambda_\imp{\Gamma,A,B}(b) : \mathbf{\Pi}(A.B)$
+\RL{($\Pi$I)}
+\UnaryInf$\Gamma \fCenter \lambda_\imp{\Gamma,A,B}(b) : \mathbf{\Pi}(A,B)$
 \end{prooftree}
 $$
 $$
 \begin{prooftree}
 \def\fCenter{\vdash}
 \Axiom$\Gamma \fCenter a : A$
-\Axiom$\Gamma \fCenter f : \mathbf{\Pi} (A. B)$
-\RL{($\Pi E$)}
+\Axiom$\Gamma \fCenter f : \mathbf{\Pi} (A,B)$
+\RL{($\Pi$E)}
 \BinaryInf$\Gamma \fCenter \mathbf{app}_\imp{\Gamma,A,B}(f,a) : B[\mathbf{id}. a]$
 \end{prooftree}
 $$
-while we also have the substitution naturality rules
+while we also have the substitution naturality rules[^2]
 $$
 \begin{prooftree}
 \def\fCenter{\vdash}
 \Axiom$\Delta \fCenter \gamma : \Gamma$
 \Axiom$\Gamma.A \fCenter B$
-\BinaryInf$\Delta \fCenter \mathbf{\Pi}(A.B)[\gamma] = \mathbf{\Pi}(A[\gamma]. B[(\gamma \circ \mathbf{p}). \mathbf{q}])$
+\RL{($\Pi$-N)}
+\BinaryInf$\Delta \fCenter \mathbf{\Pi}(A,B)[\gamma] = \mathbf{\Pi}(A[\gamma]. B[\gamma.A])$
 \end{prooftree}
 $$
+^N
+
 $$
 \begin{prooftree}
 \def\fCenter{\vdash}
 \Axiom$\Delta \fCenter \gamma : \Gamma$
 \Axiom$\Gamma. A \fCenter b: B$
-\BinaryInf$\Delta \fCenter \lambda(b)[\gamma] = \lambda(b[(\gamma \circ \mathbf{p}). \mathbf{q}]) : \mathbf{\Pi}(A.B)[\gamma]$
+\RL{($\Pi$I-N)}
+\BinaryInf$\Delta \fCenter \lambda(b)[\gamma] = \lambda(b[\gamma.A]) : \mathbf{\Pi}(A,B)[\gamma]$
 \end{prooftree}
 $$
+^IN
+
 $$
 \begin{prooftree}
 \def\fCenter{\vdash}
 \Axiom$\Delta \fCenter \gamma: \Gamma$
 \Axiom$\Gamma \fCenter a : A$
-\Axiom$\Gamma \fCenter f : \mathbf{\Pi}(A.B)$
-\TrinaryInf$\Delta \fCenter \mathbf{app}(f,a)[\gamma] = \mathbf{app}(f[\gamma], a[\gamma]) : B[(\mathbf{id} . a) \circ \gamma]$
+\Axiom$\Gamma \fCenter f : \mathbf{\Pi}(A,B)$
+\RL{($\Pi$E-N)}
+\TrinaryInf$\Delta \fCenter \mathbf{app}(f,a)[\gamma] = \mathbf{app}(f[\gamma], a[\gamma]) : B[\gamma.a[\gamma]]$
 \end{prooftree}
 $$
+^EN
+
 and judgemental computation rules for [[β-reduction]] and [[η-conversion]]
 $$
 \begin{prooftree}
@@ -97,14 +112,86 @@ $$
 \BinaryInf$\Gamma \fCenter \mathbf{app}(\lambda(b), a) = b[\mathbf{id}.a] : B[\mathbf{id}. a]$
 \end{prooftree}
 $$
+^beta
+
 $$
 \begin{prooftree}
 \def\fCenter{\vdash}
-\Axiom$\Gamma \fCenter f : \mathbf{\Pi}(A.B)$
+\Axiom$\Gamma \fCenter f : \mathbf{\Pi}(A,B)$
 \RL{($\Pi \eta$)}
-\UnaryInf$\Gamma \fCenter f = \lambda(\mathbf{app}(f[\mathbf{p}, \mathbf{q}])) : \mathbf{\Pi}(A.B)$
+\UnaryInf$\Gamma \fCenter f = \lambda(\mathbf{app}(f[\mathbf{p}], \mathbf{q})) : \mathbf{\Pi}(A,B)$
 \end{prooftree}
 $$
+^eta
+
+> [!check]- Meta-well-typed
+> To show that [[#^EN]] is meta-well-typed, we show that both terms have the claimed type.
+> First note,
+> $$
+> \begin{prooftree}
+> \Axiom$\Delta \fCenter \gamma: \Gamma$
+> \def\fCenter{\vdash}
+> \Axiom$\Gamma \fCenter a : A$
+> \Axiom$\Gamma \fCenter f : \mathbf{\Pi} (A,B)$
+> \RL{($\Pi$E)}
+> \BinaryInf$\Gamma \fCenter \mathbf{app}(f,a) : B[\mathbf{id}. a]$
+> \BinaryInf$\Delta \fCenter \mathbf{app}(f,a)[\gamma] : B[\mathbf{id}.a \circ \gamma]$
+> \end{prooftree}
+> $$
+> and by [[Cartesian calculus of substitutions#^P2]], $\mathbf{id}. a \circ \gamma = \gamma . a[\gamma]$.
+> On the other hand,
+> $$
+> \begin{prooftree}
+> \def\fCenter{\vdash}
+> \Axiom$\Delta \fCenter \gamma: \Gamma$
+> \Axiom$\Gamma \fCenter a: A$
+> \BinaryInf$\Delta \fCenter a[\gamma] : A[\gamma]$
+> \def\fCenter{\vdash}
+>     \Axiom$\Delta \fCenter \gamma: \Gamma$
+>     \Axiom$\Gamma \fCenter f: \mathbf{\Pi}(A,B)$
+>     \BinaryInf$\Delta \fCenter f[\gamma] : \mathbf{\Pi}(A,B)[\gamma]$
+>     \UnaryInf$\Delta \fCenter f[\gamma] : \mathbf{\Pi}(A[\gamma], B[\gamma. A])$
+> \RL{($\Pi$E)}
+> \BinaryInf$\Delta \fCenter \mathbf{app}(f[\gamma], a[\gamma]) : B[\gamma.A \circ \mathbf{id}. a[\gamma]]$
+> \end{prooftree}
+> $$
+> Now [[Cartesian calculus of substitutions#^P2]] gives $\mathbf{id}.a \circ \gamma = \gamma .  a[\gamma]$,
+> and [[Substitution extension by a type#^P1]] gives $\gamma.A \circ \mathbf{id}.a[\gamma] = \gamma.a[\gamma]$,
+> so the types agree.
+> 
+> To see that [[#^eta]] is meta-well-typed, note
+> $$
+> \begin{prooftree}
+> \def\fCenter{\vdash}
+> \Axiom$\Gamma \fCenter A$
+> \RL{(V)}
+> \UnaryInf$\Gamma.A \fCenter \mathbf{q} : A[\mathbf{p}]$
+>     \Axiom$\Gamma \fCenter A$
+>     \RL{(W)}
+>     \UnaryInf$\Gamma. A \fCenter \mathbf{p}: \Gamma$
+>         \Axiom$\Gamma \fCenter f : \mathbf{\Pi}(A,B)$
+>     \BinaryInf$\Gamma.A \fCenter f[\mathbf{p}] : \mathbf{\Pi}(A,B)[\mathbf{p}]$
+>     \RL{(=$\Pi \gamma_{1}$)}
+>     \UnaryInf$\Gamma.A \fCenter f[\mathbf{p}] : \mathbf{\Pi}(A[\mathbf{p}], B[ \mathbf{p}. A])$
+> \RL{($\Pi$E)}
+> \BinaryInf$\Gamma. A \fCenter \mathbf{app}(f[\mathbf{p}], \mathbf{q}) : B[\mathbf{p}.A \circ \mathbf{id}. \mathbf{q}]$
+> \RL{(=*)}
+> \UnaryInf$\Gamma. A \fCenter \mathbf{app}(f[\mathbf{p}], \mathbf{q}) : B$
+> \RL{($\Pi$I)}
+> \UnaryInf$\Gamma \fCenter\lambda(\mathbf{app}(f[\mathbf{p}], \mathbf{q})) : \Pi(A,B)$
+> \end{prooftree}
+> $$
+> where $\text{=*}$ is conversion along the equality
+> $$
+> \begin{align*}
+> \mathbf{p}. A \circ \mathbf{id}. \mathbf{q} = (\mathbf{p} \circ \mathbf{id}) . \mathbf{q}[\mathbf{id}] = \mathbf{id}
+> \end{align*}
+> $$
+> which follows from [[Substitution extension by a type#^P1]] and [[Cartesian calculus of substitutions#^eta]].
+> 
+> ^0d36ba
+
+## Internalizing judgemental structure
 
 In terms of [[Internalizing judgemental structure]], we can formalize the notion of the correspondence outlined above as an operation
 $$
@@ -119,10 +206,11 @@ $$
 \end{align*}
 $$
 also natural in $\Gamma$. 
-This gives the inference rules above.
 
 #
 ---
 #state/tidy | #lang/en | #SemBr
 
 [^1]: For brevity and laziness, the $\mathbf{\Pi}$ formation rule will be considered a _presupposition_
+
+[^2]: Where we invoke [[Substitution extension by a type]].

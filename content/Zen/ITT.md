@@ -13,6 +13,7 @@ tags:
 4. [[Empty type]]
 5. [[Unit type]]
 6. [[Intensional identity type]]
+7. [[Universes à la Tarski]]
 
 
 #
