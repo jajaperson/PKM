@@ -2,6 +2,7 @@
 aliases:
   - dependent function
   - dependent product
+  - Pi-type
 tags:
   - public
 mathLink: $\mathbf{\Pi}$-type
@@ -171,7 +172,7 @@ $$
 >     \UnaryInf$\Gamma. A \fCenter \mathbf{p}: \Gamma$
 >         \Axiom$\Gamma \fCenter f : \mathbf{\Pi}(A,B)$
 >     \BinaryInf$\Gamma.A \fCenter f[\mathbf{p}] : \mathbf{\Pi}(A,B)[\mathbf{p}]$
->     \RL{(=$\Pi \gamma_{1}$)}
+>     \RL{(=$\Pi$-N)}
 >     \UnaryInf$\Gamma.A \fCenter f[\mathbf{p}] : \mathbf{\Pi}(A[\mathbf{p}], B[ \mathbf{p}. A])$
 > \RL{($\Pi$E)}
 > \BinaryInf$\Gamma. A \fCenter \mathbf{app}(f[\mathbf{p}], \mathbf{q}) : B[\mathbf{p}.A \circ \mathbf{id}. \mathbf{q}]$

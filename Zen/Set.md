@@ -26,10 +26,10 @@ See [[axiomatic set theory]] for different axiomatic treatments of the set.
 
 ## Forming sets
 
-In a materical conception
+In a material conception
 
 - $A = \{ a_{1},a_{2},\dots,a_{n} \}$ is the finite set with members $a_{1},a_{2},\dots,a_{n}$
-- $A = \{ x : P(x) \}$ is the set of all $x$ satisfying predicate $P$, i.e. $x \in A \iff P(x)$
+- $A = \{ x \in B : P(x) \}$ is the set of all $x \in B$ satisfying predicate $P$, i.e. $x \in A \iff P(x)$
 - $A \cup B = \{ x : x \in A \lor x \in B \}$ is the [[union]] of $A$ and $B$
 - $A \cap B = \{ x : x \in A \land x \in B \}$ is the [[intersection]] of $A$ and $B$
 - $A \setminus B = \{ x : x \in A \land x \notin B \}$ is the [[set difference]] of $B$ from $A$

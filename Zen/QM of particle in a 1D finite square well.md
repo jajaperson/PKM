@@ -57,8 +57,8 @@ A &= Fe^{\kappa a}\cos la\\
 $$
 
 > [!check]- Proof
-> [[Bound and scattering states|Bound states]] correspond to $-V_{0} \leq E < 0$.
-> [](Bound%20and%20scattering%20states.md)llows that $\psi(-x) = \pm \psi(x)$.
+> [[Bound and scattering states|Bound states]] correspond to $-V_{0} \leq E < 0$. 
+> It follows that $\psi(-x) = \pm \psi(x)$.
 > For $x \in (-\infty,a)$ the Schrödinger equation becomes
 > $$
 > \begin{align*}

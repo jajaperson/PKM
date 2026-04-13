@@ -12,7 +12,7 @@ M_{X} : (-a,a)^k &\to \mathbb{R} \\
 \vab t &\mapsto \Ex[\mathrm{e}^{\vab t \cdot \vab X}]
 \end{align*}
 $$
-provided it is finite on some interval $(-a,a)$ around 0, otherwise the moment-generating function does not exist.
+provided it is finite on some interval $(-a,a)$ around 0, otherwise the moment-generating function does not exist. #a/e/r
 
 > [!tip]
 > To make sure a moment-generating function is valid, check that $M_{X}(0)=1$.
