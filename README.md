@@ -1,8 +1,7 @@
 # PKM
 
 The public part of my PKM, managed with [Obsidian](https://obsidian.md),
-exported with [obsidian-copy](https://github.com/jajaperson/obsidian-copy),
-and rendered on the web with [quartz](https://github.com/jackyzha0/quartz).
+exported with [obsidian-copy](https://github.com/jajaperson/obsidian-copy).
 
 ## Viewing locally with Obsidian
 
