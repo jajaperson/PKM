@@ -17,7 +17,7 @@ OIcel inherits [[PGmc n-stems]] with the following paradigm
 | pl.gen | <em class="ling">han-a</em>  | <em class="ling">hjart-n-a</em> | <em class="ling">sag-n-a</em> | n.a.                        |
 | pl.dat | <em class="ling">hǫn-um</em> | <em class="ling">hjǫrt-um</em>  | <em class="ling">sǫg-um</em>  | n.a.                        |
 | pl.acc | <em class="ling">han-a</em>  | <em class="ling">hjǫrt-u</em>   | <em class="ling">sǫg-ur</em>  | n.a.                        |
-| = de   | der Hahn                     | das Herz                        | die Saga                      | das hohes Alter             |
+| = de   | der Hahn                     | das Herz                        | die Saga                      | das hohe Alter              |
 
 where [[OIcel u-umlaut|u-umlaut]] is visible.
 As in PGmc, the īn-stems are a special class of abstract nouns.
