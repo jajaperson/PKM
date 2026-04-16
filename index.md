@@ -13,7 +13,7 @@ Since then, I have become interested in type theory and Univalent Foundations.
 
 ## Find me
 
-- On the Fediverse: [@jajaperson@mastodon.social](https://mastodon.social/@jajaperson)
+- On the Fediverse: <a href="https://mastodon.social/@jajaperson" rel="me">@jajaperson@mastodon.social</a>
 - On Github: [jajaperson](https://github.com/jajaperson)
 
 

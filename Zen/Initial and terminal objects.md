@@ -75,14 +75,14 @@ Clearly, all trivial vector spaces are isomorphic
 (e.g. the trivial subspace of $\mathbb R^2$ and $\mathbb R^3$).
 For any vector space $V \in \Ob(\Vect_{\mathbb{K}})$,
 there exists exactly one linear transformation $f \in \Vect_{\mathbb K}(V, \{ \vab 0 \})$,
-and this is also clearly epic.
+and this is also clearly monic.
 $$
 \begin{align*}
 f &: V \rightarrowtail O \\
 &: v \mapsto \vab 0
 \end{align*}
 $$
-Likewise, there exists exactly one (monic) linear transformation $g \in \Vect_{\mathbb K}(\{ \vab 0 \}, V)$
+Likewise, there exists exactly one (epic) linear transformation $g \in \Vect_{\mathbb K}(O, V)$
 $$
 \begin{align*}
 g &: O \twoheadrightarrow V \\

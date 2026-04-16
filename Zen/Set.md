@@ -39,7 +39,7 @@ In a material conception
 - The [[Axiomatic set theory|axiomatic set theories]] each give a notion of set.
     - In [[TG]] a $\mathcal{U}$-[[small set]] is an element of $\mathcal{U}$.
 - In a [[Type theory]] with some notion of [[Equality]], a set should be taken to be a type with [[Propositional equality]].
-    - In particular, in (extensions of) [[MLTT]], a set should be taken to be an [[h-Set|h-set]].
+    - In particular, in (extensions of) [[ITT]], a set should be taken to be an [[h-Set|h-set]].
 
 #
 ---

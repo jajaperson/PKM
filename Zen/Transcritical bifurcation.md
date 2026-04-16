@@ -27,15 +27,6 @@ With this setup,
 > <iframe src="https://www.desmos.com/calculator/tivzbctv9s?embed" width="500" height="400" style="border: 1px solid #ccc" frameborder=0></iframe>
 
 
-## Maps
-
-The canonical form is
-
-$$
-\begin{align*}
-M(x) = \mu x + x^2
-\end{align*}
-$$
 
 #
 ---
