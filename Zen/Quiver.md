@@ -2,9 +2,7 @@
 tags:
   - public
 ---
-
 [[Quiver representation theory MOC]]
-
 # Quiver
 
 A **quiver** is, loosely speaking, a [[category]] minus the algebra #m/def/quiv — the [[oidification]] of a [[set]].
@@ -15,15 +13,12 @@ A **quiver** is, loosely speaking, a [[category]] minus the algebra #m/def/quiv 
 A quiver is then a [[functor]] $\Gamma : \cat Q \to \Set$.
 
 ## Notation
-
 We use the notation
-
 $$
 \begin{align*}
 \Gamma(v,w) = \{ e \in \Gamma(E) : s(e) = v, t(e) = w \}
 \end{align*}
 $$
-
 to denote the set of edges between vertices $v$ and $w$.
 As an abuse, we often identify $\Gamma$ with its underlying [[Graph|general graph]].
 See [[Equivalence of quivers and general graphs]].
@@ -35,8 +30,7 @@ See [[Equivalence of quivers and general graphs]].
 - [[Quiver representation theory MOC]]
 - [[Adjacency matrix]]
 
+
 #
-
 ---
-
 #state/develop | #lang/en | #SemBr

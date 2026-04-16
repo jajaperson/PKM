@@ -72,6 +72,10 @@ For this purpose there are three main techniques:
 - [[D'Alembert solution]] (linear)
 - [[Separation of variables]] (linear)
 
+## Related
+
+- [[Dynamics MOC]]
+
 #
 ---
 #MOC | #state/develop | #SemBr 

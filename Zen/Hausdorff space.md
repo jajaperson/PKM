@@ -9,7 +9,7 @@ aliases:
 
 A **Hausdorff space**[^hausdorffsch] or $\mathrm{T}_{2}$-space is a topological space $(X, \mathcal{T})$ satisfying the separation axiom:[^loose]
 
-> For any $x,y \in X$ where $x \neq y$, there exist open neighbourhoods $U \in \mathcal{T}(x)$ and $V \in \mathcal{T}(y)$ such that $U \cap V = \0$. #m/def/topology 
+> For any $x,y \in X$ where $x \neq y$, there exist open neighbourhoods $U \in \mathcal{T}(x)$ and $V \in \mathcal{T}(y)$ such that $U \cap V = \0$. #m/def/topology
 
 [^loose]: 2010, [[@looseAlgebraischeTopologie2010|Algebraische Topologie]], p. 7 (Definition 1.1.25)
 [^hausdorffsch]: German _der hausdorffsche Raum_
