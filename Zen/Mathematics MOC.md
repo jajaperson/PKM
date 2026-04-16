@@ -17,6 +17,7 @@ tags:
 - [[Topology MOC]]
 - [[Geometry MOC]]
 - [[Special functions MOC]]
+- [[Dynamics MOC]]
 
 ## Algebra and Abstract Nonsense 
 - [[Category theory MOC]] 
