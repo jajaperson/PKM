@@ -128,7 +128,7 @@ $$
 \end{prooftree}
 \end{align*}
 $$
-Further inference rules on judgemental equality are given for individual types in the type theory, and are often classified under [[α-conversion]], [[β-reduction]], and [[η-reduction]].[^2025] #m/def/type
+Further inference rules on judgemental equality are given for individual types in the type theory, and are often classified under [[α-conversion]], [[β-computation]], and [[η-reduction]].[^2025] #m/def/type
 
 [^2025]: 2025\. [[Sources/@rijkeIntroductionHomotopyType2025|Introduction to Homotopy Type Theory]], §1, pp. 11–19
 

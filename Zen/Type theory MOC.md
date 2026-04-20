@@ -38,9 +38,10 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 ### Type constructors
 
 - [[Π-type]] ([[Function type]])
-- [[Σ type]] ([[Product type]])
+- [[Σ-type]] ([[Product type]])
 - [[Coproduct type]]
 - [[Identity type]]
+    - [[Extensional identity type]]
 
 ### Special kinds of types
 
@@ -53,7 +54,6 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 
 - [[Context in a proof system]]
 - [[Judgemental equality]]
-- [[let declaration]]
 
 ## Concepts
 

@@ -5,6 +5,7 @@ mathLink-blocks:
   W: $\text{W}$
   V: $\text{V}$
   eta: $\eta\mathbf{pq}$
+  X: $\text{X}$
 ---
 [[Calculus of substitutions]]
 # Cartesian calculus of substitutions
@@ -66,6 +67,7 @@ $$
 \BinaryInfC{$\Gamma.A \vdash$}
 \end{prooftree}
 $$
+giving the **empty context** and **context extension** respectively.
 Since these are the only way contexts are formed, they establish that every context is a list of types $\Gamma= \0. A_{1} \dots A_{n}$, each of which may depend on the previous one.
 We therefore treat $\Gamma \vdash$ and $\Gamma \vdash A$ as presuppositions for the judgement $\Gamma.A \vdash$.
 
@@ -223,11 +225,14 @@ $$
 \def\fCenter{\vdash}
 \Axiom$\Delta \fCenter \gamma : \Gamma$
 \Axiom$\Gamma \fCenter A$
-\RL{(E)}
+\RL{(X)}
 \Axiom$\Delta \fCenter a : A[\gamma]$
 \TrinaryInf$\Delta \fCenter \gamma ._\imp{\Delta,\Gamma,A} a : \Gamma.A$
 \end{prooftree}
 $$
+
+^X
+
 
 > [!info]- Notation
 > To reduce proliferation of parentheses, $(.)$ binds more tightly then $(\circ)$.

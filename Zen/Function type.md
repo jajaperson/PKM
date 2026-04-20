@@ -13,7 +13,10 @@ tags:
 [[Type theory MOC]]
 # Function types
 
-Given types $A$ and $B$, the **function type** $A \to B$ contains mappings whose inputs are in $A$ and outputs are in $B$.
+Given types $A$ and $B$, the **function type** $A \to B$ contains mappings whose inputs are in $A$ and outputs are in $B$,
+i.e. [[function|functions]].
+Under [[propositions as types]], this corresponds to [[implication]],
+since a term of $A \to B$ takes proofs of $A$ to proofs of $B$.
 
 ## Standard presentation
 
@@ -34,7 +37,7 @@ $$
 \Axiom$\Gamma \fCenter B$
 \Axiom$\Gamma. A \fCenter b : B[\mathbf{p}]$
 \RL{($\to$I)}
-\BinaryInf$\Gamma \fCenter \lambda'_\imp{\Gamma,A,B}(n) : A \to B$
+\BinaryInf$\Gamma \fCenter \lambda'_\imp{\Gamma,A,B}(b) : A \to B$
 \end{prooftree}
 $$
 ^I
@@ -87,7 +90,7 @@ $$
 $$
 ^EN
 
-and judgemental computation rules for [[β-reduction]] and [[η-conversion]]
+and judgemental computation rules for [[β-computation]] and [[η-unicity]]
 $$
 \begin{prooftree}
 \def\fCenter{\vdash}

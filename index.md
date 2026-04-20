@@ -15,6 +15,7 @@ Since then, I have become interested in type theory and Univalent Foundations.
 
 - On the Fediverse: <a href="https://mastodon.social/@jajaperson" rel="me">@jajaperson@mastodon.social</a>
 - On Github: [jajaperson](https://github.com/jajaperson)
+- On Codeberg: [jajaperson](https://codeberg.org/jajaperson)
 
 
 ## About this site
