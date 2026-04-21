@@ -20,7 +20,7 @@ $$
 Hence the [[Hilbert space]] $L^2(-a,a)$ has the orthonormal [[dense basis]]
 $$
 \begin{align*}
-L^2 (-a,a) = \span \{ \ket{e_{n}} = x \mapsto e^{in\pi x/a} : n \in \mathbb{Z} \}
+L^2 (-a,a) = \Span \{ \ket{e_{n}} = x \mapsto e^{in\pi x/a} : n \in \mathbb{Z} \}
 \end{align*}
 $$
 with

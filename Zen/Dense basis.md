@@ -18,4 +18,4 @@ See also [[Orthonormal dense basis]].
 
 #
 ---
-#state/d\Spanp | #lang/en | #SemBr
+#state/develop | #lang/en | #SemBr
