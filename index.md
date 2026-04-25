@@ -8,7 +8,7 @@ title: James Jensen
 My name is James Jensen. 
 In 2025 I graduated from the University of Western Australia with a Bachelor of Philosophy in Physics and Mathematics & Statistics, 
 with first class honours in pure mathematics. 
-The topic of my [[Jensen_2025_Finite-dimensional Hopf algebras.pdf|honours thesis]] was on the representation theory of Hopf algebras.
+The topic of my [[Jensen_2026_Finite-dimensional Hopf algebras.pdf|honours thesis]] was on the representation theory of Hopf algebras.
 Since then, I have become interested in type theory and Univalent Foundations.
 
 ## Find me

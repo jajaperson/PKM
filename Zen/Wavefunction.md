@@ -6,7 +6,7 @@ tags:
 [[Quantum mechanics MOC]]
 # Wavefunction
 
-In [[Quantum mechanics MOC|quantum mechanics]], a **wavefunction** $\Psi : D \to \mathbb{C} : (x,t) \to \Psi(x,t)$ is a description of the quantum mechanical state of an isolated quantum system.
+In [[Quantum mechanics MOC|quantum mechanics]], a **wavefunction** $\Psi : D \to \mathbb{C}$ is a description of the quantum mechanical state of an isolated quantum system.
 Here $D$ is the space of all **degrees of freedom**.
 The wavefunction must satisfy [[Schrödinger equation]],
 which given an initial condition describes the evolution of the wavefunction over time.

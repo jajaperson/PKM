@@ -6,7 +6,7 @@ tags:
 # Skeletal categories are equivalent iff they are isomorphic
 
 Let $\cat C, \cat D$ be [[Skeletal category|skeletal categories]].
-Then these are [[isomorphism of categories|isomorphic]] iff they are [[Equivalence of categories|equivalent]], #m/thm/cat
+Then these are [[isomorphism of categories|isomorphic]] iff they are [[Equivalence of categories|equivalent]], #m/thm/cat/evil
 i.e.
 $$
 \begin{align*}

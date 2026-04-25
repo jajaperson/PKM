@@ -7,8 +7,6 @@ tags:
 # Quantum Mechanics MOC
 
 
-![[Formal mathematical description of QM#Postulates]]
-
 ## Theorems
 
 - [[Observables are definite-valued for eigenstates only]]

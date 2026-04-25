@@ -6,7 +6,7 @@ tags:
 # Categories are equivalent iff they have isomorphic skeleta
 
 Let $\cat C, \cat D$ be categories with [[Skeleton category|skeleta]] $\opn{Sk} \cat C, \opn{Sk} \cat D$ respectively.
-Then assuming the [[Axiom of Choice]], $\cat C, \cat D$ are [[Equivalence of categories|equivalent categories]] iff their skeleta are [[Isomorphism of categories|isomorphic categories]], #m/thm/cat
+Then assuming the [[Axiom of Choice]], $\cat C, \cat D$ are [[Equivalence of categories|equivalent categories]] iff their skeleta are [[Isomorphism of categories|isomorphic categories]], #m/thm/cat/evil
 i.e.
 $$
 \begin{align*}
