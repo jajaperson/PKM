@@ -70,13 +70,13 @@ and more specifically closed [[Circulation]] and [[Flux]]
 	escaping through the boundary of some solid $\Omega$
 	is proportional to the amount of charge contained within that solid
 	(contained charge can be calculated using an integral over [[Charge density]]).
-  $$
-	\begin{align*}
-	\Phi_E 
-	= \oiint_{\partial \Omega}{\vab E \cdot d\vab a}
-	= \frac{1}{\varepsilon_0} \iiint_\Omega{\rho_q\, d\tau'}
-	\end{align*}
-	$$
+    $$
+    \begin{align*}
+    \Phi_E 
+    = \oiint_{\partial \Omega}{\vab E \cdot d\vab a}
+    = \frac{1}{\varepsilon_0} \iiint_\Omega{\rho_q\, d\tau'}
+    \end{align*}
+    $$
 	^I1
 2. The nett number of magnetic field lines 
 	escaping through the boundary of some solid $\Omega$
@@ -84,39 +84,39 @@ and more specifically closed [[Circulation]] and [[Flux]]
 	i.e. the number of magnetic field lines leaving a space
 	is equal to the number entering that space,
 	since there are no monopoles.
-	$$
-	\begin{align*}
-	\oiint_{\partial \Omega}{\vab B \cdot d\vab a} = 0
-	\end{align*}
-	$$
+    $$
+    \begin{align*}
+    \oiint_{\partial \Omega}{\vab B \cdot d\vab a} = 0
+    \end{align*}
+    $$
 	^I2
 3. Electric current moving anticlockwise in a closed loop
 	creates a change in magnetic flux inside the loop
 	in the direction of negative orientation.
-	$$
-	\begin{align*}
-	\mathcal{E} =\oint_{\partial \Sigma}{\vab E \cdot d \vab \ell} 
-	&= -\frac{\partial \Phi_B}{\partial t} \\\\
-	&= -\frac{\partial}{\partial t} \iint_\Sigma{\vab B \cdot d \vab a}
-	\end{align*}
-	$$
+    $$
+    \begin{align*}
+    \mathcal{E} =\oint_{\partial \Sigma}{\vab E \cdot d \vab \ell} 
+    &= -\frac{\partial \Phi_B}{\partial t} \\\\
+    &= -\frac{\partial}{\partial t} \iint_\Sigma{\vab B \cdot d \vab a}
+    \end{align*}
+    $$
 	^I3
 4. Nett current moving through a cross section solid conductor $\Sigma$
 	or a change in electric flux cutting through $\Sigma$
 	(working together additively)
 	results in a magnetic field [[Circulation|circulating]] around the conductor,
 	and vice versa.
-	$$
-	\begin{align*}
-	\oint_{\partial \Sigma}{\vab B \cdot d \vab \ell}
-	&= \mu_0 \left( 
-		I_{\Sigma} + \varepsilon_0 \frac{\partial \Phi_E}{\partial t}
-	\right) \\\\
-	&= \mu_0 \left( 
-		\iint_\Sigma{\vab J \cdot d\vab a} + \varepsilon_0 \frac{\partial}{\partial t} \iint_\Sigma{\vab E \cdot d\vab a}
-	\right)
-	\end{align*}
-	$$
+    $$
+    \begin{align*}
+    \oint_{\partial \Sigma}{\vab B \cdot d \vab \ell}
+    &= \mu_0 \left( 
+    I_{\Sigma} + \varepsilon_0 \frac{\partial \Phi_E}{\partial t}
+    \right) \\\\
+    &= \mu_0 \left( 
+    \iint_\Sigma{\vab J \cdot d\vab a} + \varepsilon_0 \frac{\partial}{\partial t} \iint_\Sigma{\vab E \cdot d\vab a}
+    \right)
+    \end{align*}
+    $$
 	^I4
 
 

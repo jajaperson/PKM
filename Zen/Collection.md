@@ -9,7 +9,7 @@ tags:
 
 - A [[class]]
 - A [[set]] of any size
-- A [[type]]
+- A [[Type theory|type]] of any [[h-level]]
 
 
 #
