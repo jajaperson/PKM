@@ -16,7 +16,7 @@ It behaves very similarly to [[Category of sets]].
 Due to a few minor issues, $\Hask$ is not formally a category. 
 However in the majority of cases it makes sense and is useful to use categorical reasoning.
 
-See [[Category-theoretic Objects in Haskell MOC]]
+See [[Category-theoretic objects in Haskell MOC]]
 
 ---
 #state/develop | #SemBr 

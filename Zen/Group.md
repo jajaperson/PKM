@@ -4,7 +4,7 @@ tags:
 ---
 [[Group theory MOC]]
 # Group
-A **group** is a [[Monoid]] with the additional requirement that every element have an inverse.
+A <dfn>group</dfn> is a [[Monoid]] with the additional requirement that every element have an inverse.
 A group need not be commutative; this is a special case known as an [[Abelian group]]. #m/def/group
 
 4. **Inverse** for each $a \in G$ there exists (provably unique) $a^{-1} \in G$ such that $a^{-1}a = e = aa^{-1}$

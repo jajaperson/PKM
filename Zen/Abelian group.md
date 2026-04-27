@@ -7,7 +7,7 @@ tags:
 [[Group theory MOC]]
 # Abelian group
 
-A [[group]] $A$ is said to be **abelian** if all its elements commute. #m/def/group
+A [[group]] $A$ is said to be <dfn>abelian</dfn> if all its elements commute. #m/def/group
 
 ## Properties
 

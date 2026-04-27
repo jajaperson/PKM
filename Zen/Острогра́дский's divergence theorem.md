@@ -23,10 +23,10 @@ Heuristically, if a region has no divergence, there is no nett in-flow or out-fl
 ## Corollaries
 
 1. $$
-  \begin{align*}
-  \iiint_{\Omega} (\vab{\nabla} \times \vab A) \,d\tau = -\oiint_{\partial\Omega} \vab A \times d\vab a
-  \end{align*}
-  $$
+    \begin{align*}
+    \iiint_{\Omega} (\vab{\nabla} \times \vab A) \,d\tau = -\oiint_{\partial\Omega} \vab A \times d\vab a
+    \end{align*}
+    $$
   ^C1
 
 > [!check]- Proof
