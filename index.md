@@ -36,7 +36,7 @@ Also, I still have a bit of work to do before these notes look completely correc
 
 Current problems with this website include
 
-- Mermaid diagrams are not rendering.
-- Transclusions do not work
+- Transclusions do not work.
+- Links in mermaid diagrams do not work.
 
 If you notice anything else off, please let me know.

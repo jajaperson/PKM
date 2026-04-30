@@ -9,13 +9,13 @@ Categories are motivated from several perspectives
 
 1. If groups are the algebraic structure which abstract symmetry,
   categories are the algebraic structure which abstract mathematical theories.
-2. A category are _directed_ [[groupoid]], in the same way a [[poset]] is a directed [[set]].
-3. Along the same lines, a category is a [[poset]] in the next dimension, see [[(n,r)-category]].
+2. A category is a _directed_ [[groupoid]], in the same way a [[poset]] is a directed [[set]].
+3. Along the same lines, a ([[Univalent category|univalent]]) category is a [[poset]] in the next dimension, see [[(n,r)-category]].
 4. A category is the [[oidification]] of a [[monoid]] — a **monoidoid**!
 
 ## In terms of collections
 
-A **category** $\cat C$ is a mathematical object consisting of: #m/def/cat
+A <dfn>category</dfn> $\cat C$ is a mathematical object consisting of: #m/def/cat
 
 - a [[collection]] of **objects**, $\cat C_{0}$ or $\Ob(\cat C)$, sometimes referred to as $\cat C$ when its meaning is clear;
 - for every ordered pair of objects $X,Y \in \cat C_0$

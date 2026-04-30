@@ -7,7 +7,8 @@ tags:
 
 > “Unter einer Menge verstehen wir jede Zusammenfassung $M$ von bestimmten wohlunterscheidbaren Objecten $m$ unserer Anschauung oder unseres Denkens (welche die Elemente von $M$ genannt werden) zu einem Ganze.”^[1895\. [[Sources/@cantorBeitraegeZurBegruendung1895|Beiträge zur Begründung der transfiniten Mengenlehre]]. “By a set we understand any amalgamation $M$ of definite, well distinguished objects $m$ of our conception or our thought (which are called the elements of $M$) to a \[single\] whole.”] ^def
 
-A **set** is a [[Collection]] of different things, called elements or members with [[Propositional equality]]. #m/def/set
+A **set** is a [[Collection]] of different things, called elements or members,
+with the property that these elements may be compared by [[Propositional equality]]. #m/def/set
 In a material conception[^vac], two sets are said to be the same iff they have the same members,
 i.e.
 $$
@@ -19,7 +20,7 @@ which is the [[Axiom of Extensionality]].
 See [[axiomatic set theory]] for different axiomatic treatments of the set.
 
 [^1895]: 
-[^vac]: Such a statement becomes vacuous in a structural theory like [[ETCS]].
+[^vac]: Such a statement becomes vacuous in a structural theory like [[ETCS]], and outright wrong in [[Univalent Foundations]].
 ## Further terms
 - It follows from extensionality that the [[Empty set]] $\0$ is unique.
 - [[Subset]]

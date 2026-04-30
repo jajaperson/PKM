@@ -11,7 +11,13 @@ where the (1) vertical dimension represents composition
 and the $n$ horizontal dimensions represent the monoidal product.
 For a fully formal treatment of string diagrams, see Joyal and Street.
 
-> Penrose was the first to use the graphical notation for calculating with tensors. It is now currently used by theoretical physicists as a private device for quickly verifying complicated tensor formulas. A striking aspect of this notation is that it is pictorial rather than sequential or alphabetical. This made it difficult to print, which partly explains why no rigorous theory was developed. We believe that a notation which is useful in private must be given a public value and that it should be provided with a Arm theoretic foundation. Furthermore, printing techniques have improved drastically in recent years.[^1991]
+> Penrose was the first to use the graphical notation for calculating with tensors. 
+> It is now currently used by theoretical physicists as a private device for quickly verifying complicated tensor formulas. 
+> A striking aspect of this notation is that it is pictorial rather than sequential or alphabetical. 
+> This made it difficult to print, which partly explains why no rigorous theory was developed. 
+> We believe that a notation which is useful in private must be given a public value 
+> and that it should be provided with a firm theoretic foundation. 
+> Furthermore, printing techniques have improved drastically in recent years.[^1991]
 
 ## Explanation
 As stated, every string diagram itself represents some morphism in $\cat C$.

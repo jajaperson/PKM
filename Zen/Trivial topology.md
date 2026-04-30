@@ -5,8 +5,8 @@ tags:
 ---
 [[Topological space]]
 # Trivial topology
-On any set $X$ the **trivial topology** of $X$ 
-(also known as the **indiscrete topology**)
+On any set $X$ the <dfn>trivial topology</dfn> of $X$ 
+(also known as the <dfn>indiscrete topology</dfn>)
 is one where only the empty set and the entire space $X$ are considered open
 (and therefore also closed, since they are compliments of each other),
 i.e. $\mathcal T = \{ \emptyset, X \}$.

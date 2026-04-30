@@ -5,13 +5,13 @@ alias: discrete metric
 ---
 [[Topological space]]
 # Discrete topology
-On any set $X$ the **discrete topology** of $X$ is one
+On any set $X$ the <dfn>discrete topology</dfn> of $X$ is one
 where all subsets of $X$ are considered open (and therefore also closed, since the compliment of any subset is necessarily also a subset and therefore open), 
 i.e. $\mathcal T = \mathcal{P}(X)$.
 Such a topology is the [[Coarseness and fineness of topologies|finest]] topology that can be formed on any set.
 
 ## Metric
-A discrete topology is [[Metric topology|metrizable]] with the so-called **discrete metric**
+A discrete topology is [[Metric topology|metrizable]] with the so-called <dfn>discrete metric</dfn>
 $$
 \begin{align*}
 \rho(x_{1},x_{2}) = \begin{cases}

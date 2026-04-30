@@ -6,7 +6,7 @@ aliases:
 ---
 [[Topology MOC]]
 # Metric topology
-A **metric topology** is a topology formed on a [[Metric space]] $(M, d)$,
+A <dfn>metric topology</dfn> is a topology formed on a [[Metric space]] $(M, d)$,
 using [[Open ball|open balls]] as a [[topological basis]].
 
 Given an arbitrary topological space $(X, \mathcal{T})$,

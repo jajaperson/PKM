@@ -27,6 +27,7 @@ tags:
     - [[Representation theory MOC]]
   - [[Homological algebra MOC]]
 - [[Linear algebra MOC]]
+- [[Ring theory MOC]]
 - [[Set theory MOC]] → [[Naïve set theory MOC]]
 
 

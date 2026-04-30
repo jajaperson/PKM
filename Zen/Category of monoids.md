@@ -13,6 +13,10 @@ tags:
 The category of monoids $\cat{Mon}$ is a category where an object is a [[Monoid]] and morphism is a [[Monoid homomorphism]].
 Viewing [[Monoids as categories]], it follows that $\cat{Mon}$ is a restricted version of $\Cat$.
 
+## Related
+
+- The more general [[Category of monoid objects]].
+
 
 #
 ---

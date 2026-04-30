@@ -40,9 +40,6 @@ The following characterizations of $T_{p}M$ are all useful.
 > \end{align*}
 > $$
 > which is easily shown to be independent of choice of $x$.
-> 
-> [!missing]- From the cotangent space
-> The tangent space is the dual of the [[Cotangent space]], which can be defined directly.
 
 > [!info]- Via the cotangent space
 > The [[cotangent space]] $T_{p}^*M$ admits an intrinsic characterization,

@@ -13,7 +13,7 @@ $$
 \epsilon &: B \to 1 & \Delta &: B \to B \otimes B
 \end{align*}
 $$
-such that it is a [[Comonoid object|comonoid]] in [[Category of monoid objects|$\cat{Mon}_{\cat C}$]] or, what is the same, a [[monoid]] in $\cat{Mon}_{\op{\cat C}}$.
+such that it is a [[Comonoid object|comonoid]] in [[Category of monoid objects|$\cat{Mon}_{\cat C}$]] or, what is the same, a [[Monoid object|monoid]] in $\cat{Mon}_{\op{\cat C}}$.
 Unravelling definitions in terms of string diagrams, this gives the following compatibility conditions:
 
 ![[bimonoid-0-string.svg#invert|c|200]]

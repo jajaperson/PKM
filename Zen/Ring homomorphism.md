@@ -5,14 +5,14 @@ tags:
 [[Ring]]
 # Ring homomorphism
 
-A **ring homomorphism** is a [[Morphism|morphism]] in [[Category of rings]],
-that is to say a structure-preserving map between [[ring|rings]]. #m/def/ring 
+A **ring homomorphism** is a structure-preserving map between [[ring|rings]]. #m/def/ring 
 Let $A,B$ be rings and let $f : A \to B$.
 Then $f$ is a ring homomorphism iff $f$ is a [[rng homomorphism]] and in addition
 
 3. $f(1_{A})=f(1_{B})$
 
 Sometimes these are referred to as **unital ring homomorphisms**.
+These are the morphisms in [[Category of rings]].
 
 ## Properties
 

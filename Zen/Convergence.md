@@ -8,7 +8,7 @@ tags:
 [[Topology MOC]]
 # Convergence
 
-A sequence $(a_n)_{n=1}^\infty$ in a [[topological space]] $(X, \mathcal{T})$ is **converges** to $a$[^de] iff
+A sequence $(a_n)_{n=1}^\infty$ in a [[topological space]] $(X, \mathcal{T})$ <dfn>converges</dfn> to $a$[^de] iff
 for every open neighbourhood $U$ of $a$,
 there exists an integer $N$
 such that $a_{n} \in U$ for all $n>N$.
