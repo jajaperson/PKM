@@ -1,6 +1,5 @@
-.QED {
-  margin-left: 2em;
-}
-.QED:after {
-  content: "◻️" !important;
+.QED::after {
+  content: "■" !important;
+  float: right;
+  margin-right: 1em;
 }

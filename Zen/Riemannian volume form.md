@@ -24,6 +24,8 @@ where $\abs g$ is the determinant of the metric tensor.
 > #missing/proof
 > It suffices to show that $\dj V$ abides the [[Tensor field transformation laws]].
 
+See also [[Hodge star]].
+
 #
 ---
 #state/develop | #lang/en | #SemBr

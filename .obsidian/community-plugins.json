@@ -26,5 +26,7 @@
   "templater-obsidian",
   "obsidian-wrap-with-shortcuts",
   "obsidian-citation-plugin",
-  "mathlinks"
+  "mathlinks",
+  "sample-plugin",
+  "style-link-by-tag"
 ]

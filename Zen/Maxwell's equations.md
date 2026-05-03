@@ -62,9 +62,7 @@ These use the mathematical language of [[Divergence]] and [[Curl]].
 [^adjust]: Note that partial term here is an adjustment that was made by Maxwell.
 
 ## Integral form
-These use the mathematical language of the [[Double integral]],
-[[Triple integral]];
-and more specifically closed [[Circulation]] and [[Flux]]
+These use the mathematical language of closed [[circulation]] and [[flux]]
 
 1. The nett number of electric field lines 
 	escaping through the boundary of some solid $\Omega$

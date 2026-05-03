@@ -1,16 +1,16 @@
 ---
-mathLink: Module-finite $R$-monoid
+mathLink: Module-finite $\mathcal{K}$-monoid
 tags:
   - public
 ---
 [[R-monoid]]
-# Module-finite $R$-monoid
+# Module-finite $\mathcal{K}$-monoid
 
-An $R$-monoid (or [[ring extension]]) $T$ is called **module-finite**[^term] iff $T$ is [[Finitely generated module|finitely generated]] as an $R$-module, #m/def/ring 
-i.e. there exists an onto $R$-[[module homomorphism]]
+An $\mathcal{K}$-monoid (or [[ring extension]]) $T$ is called **module-finite**[^term] iff $T$ is [[Finitely generated module|finitely generated]] as an $\mathcal{K}$-module, #m/def/ring 
+i.e. there exists an onto $\mathcal{K}$-[[module homomorphism]]
 $$
 \begin{align*}
-R^{(n)} \twoheadrightarrow T
+\mathcal{K}^{(n)} \twoheadrightarrow T
 \end{align*}
 $$
 for some $n \in \mathbb{N}_{0}$.

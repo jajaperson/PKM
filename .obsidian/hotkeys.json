@@ -250,5 +250,14 @@
       ],
       "key": "\\"
     }
+  ],
+  "templater-obsidian:Bins/Templates/&prooftree.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": ","
+    }
   ]
 }

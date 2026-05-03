@@ -1,6 +1,6 @@
 {
-  "findText": "Lucien",
-  "replaceText": "Lucienne ",
+  "findText": "a'",
+  "replaceText": "b",
   "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,

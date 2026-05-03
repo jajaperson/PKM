@@ -1,0 +1,7 @@
+.internal-link[data-tags~="state/stub"] {
+  color: gray !important;
+}
+
+.internal-link:not(.is-unresolved):not([data-tags~="public"]):not([data-tags*="source"]) {
+  color: #ae50ed;
+}

@@ -3,14 +3,14 @@ tags:
   - public
 aliases:
   - Unital associative algebra over a commutative ring
-mathLink: $R$-monoid
+mathLink: $\mathcal{K}$-monoid
 ---
 [[R-algebra]]
-# $R$-monoid
+# $\mathcal{K}$-monoid
 
-Let $R$ be a [[commutative ring]].
-An **$R$-monoid** $T$ is a [[Monoid object|monoid]] in the category [[Category of modules over a commutative ring|$\lMod{R}$]].
-More concretely, an **$R$-monoid** $T$ can be viewed in two equivalent ways: #m/def/calg
+Let $\mathcal{K}$ be a [[commutative ring]].
+An **$\mathcal{K}$-monoid** $T$ is a [[Monoid object|monoid]] in the category [[Category of modules over a commutative ring|$\lMod{R}$]].
+More concretely, an **$\mathcal{K}$-monoid** $T$ can be viewed in two equivalent ways: #m/def/calg
 
 1. As an [[R-algebra]] $T$ which is unital and associative;
 2. As a [[ring]] $T$ equipped with a homomorphism $R \to \opn Z(T)$ into its [[Centre of a rng|centre]].

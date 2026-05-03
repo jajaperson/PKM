@@ -86,7 +86,7 @@ Then the [[polynomial ring]] $R[x]$ is also Noetherian. #m/thm/ring
 
   [^2009]: 2009\. [[Sources/@aluffiAlgebraChapter02009|Algebra: Chapter 0]], §V.1.1, pp. 245
 
-It a simple corollary of this that any [[Commutative R-monoid of finite type]] for noetherian $R$ is a noetherian ring, applying [[Noetherian module#^P1]]
+It a simple corollary of this that any [[Commutative R-monoid of finite type]] for noetherian $\mathcal{K}$ is a noetherian ring, applying [[Noetherian module#^P1]]
 
 #
 ---

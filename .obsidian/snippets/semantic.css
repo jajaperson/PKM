@@ -1,0 +1,9 @@
+/* Semantic HTML styling */
+
+/* Treat dfn as strong */
+dfn {
+  font-style: normal;
+  font-weight: calc(var(--font-weight) + var(--bold-modifier));
+  --link-weight: calc(var(--font-weight) + var(--bold-modifier));
+  color: var(--bold-color);
+}

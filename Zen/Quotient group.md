@@ -21,8 +21,8 @@ $$
 g &\mapsto g N
 \end{align*}
 $$
-The **quotient group** is the natural application of the [[Algebraic quotient]] in the group context.
-However, instead of taking the quotient mod a congruence relation,
+The **quotient group** is simply an [[algebraic quotient]] of a group.
+However, instead of taking the quotient modulo a congruence relation,
 it is typical to use the [[Correspondence between normal subgroups and congruence relations|corresponding normal subgroup]].
 Hence $gN$ may alternatively be referred to as $[g]_{N}$,
 taken to mean _the equivalence class of $g$ under the congruence induced by $N$_.

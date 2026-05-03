@@ -1,15 +1,15 @@
 ---
-mathLink: Commutative $R$-monoid of finite type
+mathLink: Commutative $\mathcal{K}$-monoid of finite type
 tags:
   - public
 ---
 [[R-monoid of finite type]]
-# Commutative $R$-monoid of finite type
+# Commutative $\mathcal{K}$-monoid of finite type
 
-A [[Commutative R-monoid]] $T$ being [[R-monoid of finite type|of finite type]] is equivalent to the existence of an $R$-monoid homomorphism #m/thm/calg
+A commutative [[R-monoid]] $T$ being [[R-monoid of finite type|of finite type]] is equivalent to the existence of an $\mathcal{K}$-monoid homomorphism #m/thm/calg
 $$
 \begin{align*}
-R[x_{1},\dots,x_{n}] \twoheadrightarrow T
+\mathcal{K}[x_{1},\dots,x_{n}] \twoheadrightarrow T
 \end{align*}
 $$
 from the [[polynomial ring]] in $n$ indeterminates.

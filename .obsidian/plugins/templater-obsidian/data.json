@@ -19,7 +19,15 @@
       "template": ""
     }
   ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "Bins/Templates/_BOAT.md",
     "Bins/Templates/_develop.md",
@@ -31,10 +39,12 @@
     "Bins/Templates/&german verb conjugation.md",
     "Bins/Templates/&alias.md",
     "Bins/Templates/_task.md",
-    "Bins/Templates/&missing proof.md"
+    "Bins/Templates/&missing proof.md",
+    "Bins/Templates/&prooftree.md"
   ],
   "startup_templates": [
     ""
   ],
+  "intellisense_render": 1,
   "enable_ribbon_icon": true
 }

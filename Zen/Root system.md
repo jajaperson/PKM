@@ -8,7 +8,7 @@ tags:
 [[Geometry MOC]]
 # Root system
 
-A **root system** $\Phi$ is a finite set of vectors, called **roots**, in the [[quadratic space]] $\mathbb{E} = \mathbb{Q}^{n,0}$ such that #m/def/geo 
+A **root system** $\Phi$ is a finite set of vectors, called **roots**, in the [[quadratic space]] $\mathbb{E} = \overline{\mathbb{Q}}^{n,0}$ such that #m/def/geo 
 
 1. $\Phi$ [[span|spans]] $\mathbb{E}$; ^R1
 2. for every root $\alpha \in \Phi$, the reflection $\sigma_{\alpha}$ through the hyperplane[^cod] perpendicular to $\alpha$ leaves $\Phi$ invariant. ^R2

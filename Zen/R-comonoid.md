@@ -3,13 +3,13 @@ tags:
   - public
 aliases:
   - Coüintal coässociative coälgebra over a commutative ring
-mathLink: $R$-comonoid
+mathLink: $\mathcal{K}$-comonoid
 ---
 [[Linear algebra MOC]]
-# $R$-comonoid
+# $\mathcal{K}$-comonoid
 
-Let $R$ be a commutative ring.
-An **$R$-comonoid** $T$ is a [[Comonoid object|comonoid]] in [[Category of modules over a commutative ring|$\lMod{R}$]]. #m/def/calg
+Let $\mathcal{K}$ be a commutative ring.
+An **$\mathcal{K}$-comonoid** $T$ is a [[Comonoid object|comonoid]] in [[Category of modules over a commutative ring]]. #m/def/calg
 
 ## Sweedler notation
 
@@ -28,8 +28,7 @@ so we feel free to invoke such a decomposition without fixing it explicitly.
 
 ## See also
 
-- [[R-monoid|$R$-monoid]]
-- [[Biunital biassociative bialgebra over a commutative ring]]
+- [[R-monoid]]
 
 #
 ---

@@ -47,7 +47,7 @@ Otherwise, $n=30$ is generally taken as a good guide.
 > &= \frac{1}{2\pi} \int_{-\infty}^{\infty}  dk \,e^{iky + ik \sqrt{ n }\mu} \chi\left( \frac{k}{\sqrt{ n }} \right)^n
 > \end{align*}
 > $$
-> <span class="QED"/>
+> as required. <span class="QED"/>
 
 #
 ---

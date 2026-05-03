@@ -8,7 +8,9 @@
     "kanban-css-by-SIRvb",
     "phonetics",
     "qed",
-    "custom-callouts"
+    "custom-callouts",
+    "semantic",
+    "custom-links"
   ],
   "translucency": true,
   "monospaceFontFamily": "Fira Code",

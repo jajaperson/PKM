@@ -1,15 +1,22 @@
 ---
 tags:
   - public
+cssclasses: embed-strict
 ---
 [[Abstract algebra MOC]]
 # Representation theory MOC
 
 **Representation theory** studies [[Abstract algebra MOC|algebraic structures]] by representing their elements as [[Linear map|linear maps]] of [[vector space|vector spaces]].
-In general, a [[Representation]] is a [[Functor]] $\Gamma : G \to \Vect_{\mathbb{K}}$.
+
+- [[Group representation theory MOC]]
+- [[Quiver representation theory MOC]]
 
 ![[Representation#Represented object]]
 
+## See also
+
+- [[Module theory MOC]]
+
 #
 ---
-#MOC | #state/develop | #lang/en | #SemBr 
+#MOC | #state/tidy | #lang/en | #SemBr 

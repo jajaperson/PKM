@@ -20,19 +20,20 @@ tags:
 - [[Dynamics MOC]]
 
 ## Algebra and Abstract Nonsense 
+
 - [[Category theory MOC]] 
 - [[Abstract algebra MOC]] 
-  - [[Group theory MOC]]
-    - [[Lie theory MOC]]
-    - [[Representation theory MOC]]
-  - [[Homological algebra MOC]]
+- [[Group theory MOC]]
+- [[Lie theory MOC]]
+- [[Representation theory MOC]]
+- [[Homological algebra MOC]]
 - [[Linear algebra MOC]]
 - [[Ring theory MOC]]
-- [[Set theory MOC]] → [[Naïve set theory MOC]]
 
 
 
 ## Statistics
+
 - [[Probability theory MOC]]
 
 ## Foundational Mathematics

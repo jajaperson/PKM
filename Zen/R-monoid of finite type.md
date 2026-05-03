@@ -1,16 +1,16 @@
 ---
 tags:
   - public
-mathLink: $R$-monoid of finite type
+mathLink: $\mathcal{K}$-monoid of finite type
 ---
 [[R-monoid]]
-# $R$-monoid of finite type
+# $\mathcal{K}$-monoid of finite type
 
-An $R$-monoid (or [[ring extension]]) $T$ is called **of finite type** iff it has finitely many generators, as an $R$-monoid, #m/def/ring
-or equivalently there exists an onto $R$-monoid homomorphism
+An $\mathcal{K}$-monoid (or [[ring extension]]) $T$ is called **of finite type** iff it has finitely many generators, as an $\mathcal{K}$-monoid, #m/def/ring
+or equivalently there exists an onto $\mathcal{K}$-monoid homomorphism
 $$
 \begin{align*}
-R \langle x_{1},\dots,x_{n} \rangle \twoheadrightarrow T
+\mathcal{K} \langle x_{1},\dots,x_{n} \rangle \twoheadrightarrow T
 \end{align*}
 $$
 from the [[Free R-monoid]].

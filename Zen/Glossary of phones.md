@@ -1,0 +1,218 @@
+---
+tags:
+  - public
+---
+[[Phonetics and Phonology MOC]] #flashcards/linguistics/IPA
+# Glossary of phones
+## Vowels
+- <span class="narrow">i</span> ::: close front unrounded vowel <!--SR:!2023-12-15,48,178-->
+- <span class="narrow">y</span> ::: close front rounded vowel <!--SR:!2024-04-01,246,258-->
+- <span class="narrow">ɨ</span> ::: close central unrounded vowel <!--SR:!2023-11-08,33,205-->
+- <span class="narrow">ʉ</span> ::: close central rounded vowel <!--SR:!2024-02-20,205,225-->
+- <span class="narrow">ɯ</span> ::: close back unrounded vowel <!--SR:!2023-12-07,88,223-->
+- <span class="narrow">u</span> ::: close back rounded vowel <!--SR:!2024-09-17,414,258-->
+- <span class="narrow">ɪ</span> ::: near-close near-front unrounded vowel <!--SR:!2024-03-02,216,237-->
+- <span class="narrow">ʏ</span> ::: near-close near-front rounded vowel <!--SR:!2024-03-19,233,238-->
+- <span class="narrow">ʊ</span> ::: near-close near-back rounded vowel <!--SR:!2024-01-29,139,227-->
+- <span class="narrow">e</span> ::: close-mid front unrounded vowel <!--SR:!2023-12-07,128,169-->
+- <span class="narrow">ø</span> ::: close-mid front rounded vowel <!--SR:!2024-01-17,77,183-->
+- <span class="narrow">ɘ</span> ::: close-mid central unrounded vowel <!--SR:!2024-02-24,118,130-->
+- <span class="narrow">ɵ</span> ::: close-mid central rounded vowel <!--SR:!2024-02-08,192,218-->
+- <span class="narrow">ɤ</span> ::: close-mid back unrounded vowel <!--SR:!2024-02-11,111,130-->
+- <span class="narrow">o</span> ::: close-mid back rounded vowel <!--SR:!2023-11-17,75,205-->
+- <span class="narrow">e̞</span> ::: mid front unrounded vowel <!--SR:!2023-11-28,85,239-->
+- <span class="narrow">ø̞</span> ::: mid front rounded vowel <!--SR:!2023-11-17,45,178-->
+- <span class="narrow">ə</span> ::: mid central vowel (schwa) <!--SR:!2024-01-29,93,198-->
+- <span class="narrow">ɤ̞</span> ::: mid back unrounded vowel <!--SR:!2023-12-01,34,165-->
+- <span class="narrow">o̞</span> ::: mid back rounded vowel <!--SR:!2023-12-25,66,185-->
+- <span class="narrow">ɛ</span> ::: open-mid front unrounded vowel <!--SR:!2023-12-21,143,183-->
+- <span class="narrow">œ</span> ::: open-mid front rounded vowel <!--SR:!2024-02-21,206,223-->
+- <span class="narrow">ɜ</span> ::: open-mid central unrounded vowel <!--SR:!2023-11-13,70,185-->
+- <span class="narrow">ɞ</span> ::: open-mid central rounded vowel <!--SR:!2023-11-06,43,130-->
+- <span class="narrow">ʌ</span> ::: open-mid back unrounded vowel <!--SR:!2023-11-05,14,130-->
+- <span class="narrow">ɔ</span> ::: open-mid back rounded vowel <!--SR:!2023-11-24,23,150-->
+- <span class="narrow">æ</span> ::: near-open front unrounded vowel <!--SR:!2024-01-15,116,225-->
+- <span class="narrow">ɐ</span> ::: near-open central vowel <!--SR:!2023-12-05,37,130-->
+- <span class="narrow">a</span> ::: open front unrounded vowel <!--SR:!2024-03-15,228,245-->
+- <span class="narrow">ɶ</span> ::: open front rounded vowel <!--SR:!2023-12-29,150,178-->
+- <span class="narrow">ä</span> ::: open central unrounded vowel <!--SR:!2023-11-18,69,178-->
+- <span class="narrow">ɑ</span> ::: open back unrounded vowel <!--SR:!2024-02-15,200,219-->
+- <span class="narrow">ɒ</span> ::: open back rounded vowel <!--SR:!2024-01-31,185,218-->
+
+## Consonants
+### Pulmonic
+
+- **bilabial** %% fold %%
+  - <span class="narrow">m̥</span> ::: voiceless bilabial nasal <!--SR:!2023-11-13,210,323-->
+  - <span class="narrow">m</span> ::: voiced bilabial nasal <!--SR:!2025-03-27,605,298-->
+  - <span class="narrow">p</span> ::: voiceless bilabial plosive <!--SR:!2025-02-02,557,308-->
+  - <span class="narrow">b</span> ::: voiced bilabial plosive <!--SR:!2024-06-13,222,245-->
+  - <span class="narrow">p͡ɸ</span> ::: voiceless bilabial affricate <!--SR:!2024-03-20,234,245-->
+  - <span class="narrow">b͡β</span> ::: voiced bilabial affricate <!--SR:!2024-11-07,465,245-->
+  - <span class="narrow">ɸ</span> ::: voiceless bilabial fricative <!--SR:!2024-06-01,307,303-->
+  - <span class="narrow">β</span> ::: voiced bilabial fricative <!--SR:!2025-03-12,591,289-->
+  - <span class="narrow">ⱱ̟</span> ::: voiced bilabial flap <!--SR:!2023-11-30,41,130-->
+  - <span class="narrow">ʙ̥</span> ::: voiceless bilabial trill <!--SR:!2025-02-07,562,298-->
+  - <span class="narrow">ʙ</span> ::: voiced bilabial trill <!--SR:!2024-08-09,352,258-->
+- **labio-dental** %% fold %%
+  - <span class="narrow">ɱ</span> ::: voiced labio-dental nasal <!--SR:!2023-11-28,125,165-->
+  - <span class="narrow">p̪</span> ::: voiceless labio-dental plosive <!--SR:!2024-02-12,113,205-->
+  - <span class="narrow">b̪</span> ::: voiced labio-dental plosive <!--SR:!2024-06-30,321,270-->
+  - <span class="narrow">p̪͡f</span> ::: voiceless labio-dental affricate <!--SR:!2023-11-20,78,223-->
+  - <span class="narrow">b̪͡v</span> ::: voiced labio-dental affricate <!--SR:!2024-02-15,199,225-->
+  - <span class="narrow">f</span> ::: voiceless labio-dental fricative <!--SR:!2024-03-19,237,259-->
+  - <span class="narrow">v</span> ::: voiced labio-dental fricative <!--SR:!2024-05-14,289,279-->
+  - <span class="narrow">ʋ</span> ::: voiced labio-dental approximant <!--SR:!2024-03-11,224,245-->
+  - <span class="narrow">ⱱ</span> ::: voiced labio-dental flap <!--SR:!2024-01-12,166,199-->
+- **linguo-labial** %% fold %%
+  - <span class="narrow">n̼</span> ::: voiced linguo-labial nasal <!--SR:!2024-03-04,215,237-->
+  - <span class="narrow">t̼</span> ::: voiceless linguo-labial plosive <!--SR:!2023-12-05,65,165-->
+  - <span class="narrow">d̼</span> ::: voiced linguo-labial plosive <!--SR:!2023-12-23,146,185-->
+  - <span class="narrow">θ̼</span> ::: voiceless linguo-labial fricative <!--SR:!2024-01-19,170,198-->
+  - <span class="narrow">ð̼</span> ::: voiced linguo-labial fricative <!--SR:!2024-01-31,184,230-->
+  - <span class="narrow">ɾ̼</span> ::: voiced linguo-labial flap <!--SR:!2023-11-12,8,130-->
+- **dental** %% fold %%
+  - <span class="narrow">t̪͡θ</span> ::: voiceless dental non-sibilant affricate <!--SR:!2024-02-14,196,217-->
+  - <span class="narrow">d̪͡ð</span> ::: voiced dental non-sibilant affricate <!--SR:!2023-11-14,25,130-->
+  - <span class="narrow">θ</span> ::: voiceless dental fricative <!--SR:!2024-04-11,260,263-->
+  - <span class="narrow">ð</span> ::: voiced dental fricative <!--SR:!2024-04-26,271,259-->
+- **alveolar** %% fold %%
+  - <span class="narrow">n̥</span> ::: voiceless alveolar nasal <!--SR:!2024-05-12,291,278-->
+  - <span class="narrow">n</span> ::: voiced alveolar nasal <!--SR:!2025-03-09,585,298-->
+  - <span class="narrow">t</span> ::: voiceless alveolar plosive <!--SR:!2024-11-29,492,305-->
+  - <span class="narrow">d</span> ::: voiced alveolar plosive <!--SR:!2025-03-03,581,308-->
+  - <span class="narrow">t͡s</span> ::: voiceless alveolar affricate <!--SR:!2024-03-23,236,245-->
+  - <span class="narrow">d͡z</span> ::: voiced alveolar affricate <!--SR:!2025-04-07,615,305-->
+  - <span class="narrow">t͡ɹ̝̊</span> ::: voiceless alveolar non-sibilant affricate <!--SR:!2024-02-05,189,217-->
+  - <span class="narrow">d͡ɹ̝</span> ::: voiced alveolar non-sibilant affricate <!--SR:!2024-05-02,277,287-->
+  - <span class="narrow">s</span> ::: voiceless alveolar fricative <!--SR:!2025-01-20,540,323-->
+  - <span class="narrow">z</span> ::: voiced alveolar fricative <!--SR:!2025-03-28,607,305-->
+  - <span class="narrow">θ̠</span> ::: voiceless alveolar non-sibilant fricative <!--SR:!2024-01-18,172,205-->
+  - <span class="narrow">ð̠</span> ::: voiced alveolar non-sibilant fricative <!--SR:!2024-01-28,182,203-->
+  - <span class="narrow">ɹ</span> ::: voiced alveolar approximant <!--SR:!2024-03-12,226,245-->
+  - <span class="narrow">ɾ̥</span> ::: voiceless alveolar tap <!--SR:!2024-03-16,230,238-->
+  - <span class="narrow">ɾ</span> ::: voiced alveolar tap <!--SR:!2024-10-09,437,258-->
+  - <span class="narrow">r̥</span> ::: voiceless alveolar trill <!--SR:!2025-05-13,651,323-->
+  - <span class="narrow">r</span> ::: voiced alveolar trill <!--SR:!2024-05-10,289,285-->
+  - <span class="narrow">tɬ</span> ::: voiceless alveolar lateral affricate <!--SR:!2024-01-12,165,198-->
+  - <span class="narrow">dɮ</span> ::: voiced alveolar lateral affricate <!--SR:!2024-02-19,201,219-->
+  - <span class="narrow">ɬ</span> ::: voiceless alveolar lateral fricative <!--SR:!2024-01-30,184,218-->
+  - <span class="narrow">ɮ</span> ::: voiced alveolar lateral fricative <!--SR:!2023-12-31,153,185-->
+  - <span class="narrow">l</span> ::: voiced alveolar lateral approximant <!--SR:!2024-02-06,191,218-->
+  - <span class="narrow">ɺ̥</span> ::: voiceless alveolar lateral flap <!--SR:!2023-12-09,48,150-->
+  - <span class="narrow">ɺ</span> ::: voiced alveolar lateral flap <!--SR:!2023-12-21,47,130-->
+- **post-alveolar** %% fold %%
+  - <span class="narrow">t̠ʃ</span> ::: voiceless post-alveolar affricate <!--SR:!2024-03-31,244,258-->
+  - <span class="narrow">d̠ʒ</span> ::: voiced post-alveolar affricate <!--SR:!2024-08-20,360,267-->
+  - <span class="narrow">t̠ɹ̠̊˔</span> ::: voiceless post-alveolar non-sibilant affricate <!--SR:!2023-12-08,95,203-->
+  - <span class="narrow">d̠ɹ̠˔</span> ::: voiced post-alveolar non-sibilant affricate <!--SR:!2024-02-22,207,225-->
+  - <span class="narrow">ʃ</span> ::: voiceless post-alveolar fricative <!--SR:!2025-01-16,540,287-->
+  - <span class="narrow">ʒ</span> ::: voiced post-alveolar fricative <!--SR:!2025-02-03,553,278-->
+  - <span class="narrow">ɹ̠̊˔</span> ::: voiceless post-alveolar non-sibilant fricative <!--SR:!2024-03-07,220,237-->
+  - <span class="narrow">ɹ̠˔</span> ::: voiced post-alveolar non-sibilant fricative <!--SR:!2024-03-14,228,237-->
+- **retroflex** %% fold %%
+  - <span class="narrow">ɳ̊</span> ::: voiceless retroflex nasal <!--SR:!2023-12-07,65,218-->
+  - <span class="narrow">ɳ</span> ::: voiced retroflex nasal <!--SR:!2023-11-16,27,185-->
+  - <span class="narrow">ʈ</span> ::: voiceless retroflex plosive <!--SR:!2024-04-05,250,250-->
+  - <span class="narrow">ɖ</span> ::: voiced retroflex plosive <!--SR:!2024-08-22,389,265-->
+  - <span class="narrow">ʈʂ</span> ::: voiceless retroflex affricate <!--SR:!2024-01-27,181,205-->
+  - <span class="narrow">ɖʐ</span> ::: voiced retroflex affricate <!--SR:!2024-03-06,130,199-->
+  - <span class="narrow">ʂ</span> ::: voiceless retroflex fricative <!--SR:!2024-03-05,217,237-->
+  - <span class="narrow">ʐ</span> ::: voiced retroflex fricative <!--SR:!2024-09-18,416,237-->
+  - <span class="narrow">ɻ̊˔</span> ::: voiceless retroflex non-sibilant fricative <!--SR:!2023-11-06,96,130-->
+  - <span class="narrow">ɻ˔</span> ::: voiced retroflex non-sibilant fricative <!--SR:!2023-11-07,44,130-->
+  - <span class="narrow">ɻ</span> ::: voiced retroflex approximant <!--SR:!2024-03-12,129,137-->
+  - <span class="narrow">ɽ̊</span> ::: voiceless retroflex flap <!--SR:!2023-12-25,148,185-->
+  - <span class="narrow">ɽ</span> ::: voiced retroflex flap <!--SR:!2023-11-19,112,150-->
+  - <span class="narrow">ɽ̊r̥</span> ::: voiceless retroflex trill <!--SR:!2024-05-04,279,258-->
+  - <span class="narrow">ɽr</span> ::: voiced retroflex trill <!--SR:!2024-03-04,217,238-->
+  - <span class="narrow">tꞎ</span> ::: voiceless retroflex lateral affricate <!--SR:!2023-12-10,130,165-->
+  - <span class="narrow">dɭ˔</span> ::: voiced retroflex lateral affricate <!--SR:!2023-12-04,85,208-->
+  - <span class="narrow">ꞎ</span> ::: voiceless retroflex lateral fricative <!--SR:!2023-12-18,140,178-->
+  - <span class="narrow">ɭ˔</span> ::: voiced retroflex lateral fricative <!--SR:!2024-01-15,169,199-->
+  - <span class="narrow">ɭ</span> ::: voiced retroflex lateral approximant <!--SR:!2023-12-26,149,199-->
+  - <span class="narrow">𝼈̊</span> ::: voiceless retroflex lateral flap <!--SR:!2023-11-10,19,130-->
+  - <span class="narrow">𝼈</span> ::: voiced retroflex lateral flap <!--SR:!2023-12-02,35,130-->
+- **palatal** %% fold %%
+  - <span class="narrow">ɲ̊</span> ::: voiceless palatal nasal <!--SR:!2023-11-23,51,210-->
+  - <span class="narrow">ɲ</span> ::: voiced palatal nasal <!--SR:!2023-11-07,10,130-->
+  - <span class="narrow">c</span> ::: voiceless palatal plosive <!--SR:!2024-07-10,167,198-->
+  - <span class="narrow">ɟ</span> ::: voiced palatal plosive <!--SR:!2023-11-24,117,163-->
+  - <span class="narrow">tɕ</span> ::: voiceless alveolo-palatal affricate <!--SR:!2023-12-04,127,165-->
+  - <span class="narrow">dʑ</span> ::: voiced alveolo-palatal affricate <!--SR:!2024-04-08,163,205-->
+  - <span class="narrow">cç</span> ::: voiceless palatal non-sibilant affricate <!--SR:!2024-03-08,221,238-->
+  - <span class="narrow">ɟʝ</span> ::: voiced palatal non-sibilant affricate <!--SR:!2023-11-28,79,185-->
+  - <span class="narrow">ɕ</span> ::: voiceless palatal fricative <!--SR:!2023-12-11,133,203-->
+  - <span class="narrow">ʑ</span> ::: voiced palatal fricative <!--SR:!2024-04-08,253,265-->
+  - <span class="narrow">ç</span> ::: voiceless palatal non-sibilant fricative <!--SR:!2024-03-06,220,239-->
+  - <span class="narrow">ʝ</span> ::: voiced palatal non-sibilant fricative <!--SR:!2024-04-20,264,254-->
+  - <span class="narrow">j</span> ::: voiced palatal approximant <!--SR:!2025-02-24,573,298-->
+  - <span class="narrow">c𝼆</span> ::: voiceless palatal lateral affricate <!--SR:!2024-03-03,216,237-->
+  - <span class="narrow">ɟʎ̝</span> ::: voiced palatal lateral affricate <!--SR:!2023-12-30,152,185-->
+  - <span class="narrow">𝼆</span> ::: voiceless palatal lateral fricative <!--SR:!2024-01-10,82,165-->
+  - <span class="narrow">ʎ̝</span> ::: voiced palatal lateral fricative <!--SR:!2024-02-16,201,219-->
+  - <span class="narrow">ʎ</span> ::: voiced palatal lateral approximant <!--SR:!2023-12-08,49,130-->
+  - <span class="narrow">ʎ̆</span> ::: voiced palatal lateral flap <!--SR:!2023-12-18,47,130-->
+- **velar** %% fold %%
+  - <span class="narrow">ŋ̊</span> ::: voiceless velar nasal <!--SR:!2024-03-29,247,245-->
+  - <span class="narrow">ŋ</span> ::: voiced velar nasal <!--SR:!2025-03-22,600,298-->
+  - <span class="narrow">k</span> ::: voiceless velar plosive <!--SR:!2025-01-17,537,279-->
+  - <span class="narrow">ɡ</span> ::: voiced velar plosive <!--SR:!2024-05-29,304,303-->
+  - <span class="narrow">kx</span> ::: voiceless velar affricate <!--SR:!2024-10-10,408,285-->
+  - <span class="narrow">ɡɣ</span> ::: voiced velar affricate <!--SR:!2024-04-22,266,263-->
+  - <span class="narrow">x</span> ::: voiceless velar fricative <!--SR:!2024-02-10,199,228-->
+  - <span class="narrow">ɣ</span> ::: voiced velar fricative <!--SR:!2024-02-17,206,225-->
+  - <span class="narrow">ɰ</span> ::: voiced velar approximant <!--SR:!2024-02-07,98,165-->
+  - <span class="narrow">ɡ̆</span> ::: voiced velar tap <!--SR:!2024-01-03,156,185-->
+  - <span class="narrow">k𝼄</span> ::: voiceless velar lateral affricate <!--SR:!2024-03-15,229,237-->
+  - <span class="narrow">ɡʟ̝</span> ::: voiced velar lateral affricate <!--SR:!2024-01-25,179,203-->
+  - <span class="narrow">𝼄</span> ::: voiceless velar lateral fricative <!--SR:!2023-12-15,103,205-->
+  - <span class="narrow">ʟ̝</span> ::: voiced velar lateral fricative <!--SR:!2024-04-03,151,187-->
+  - <span class="narrow">ʟ</span> :::  voiced velar lateral approximant <!--SR:!2024-02-07,192,219-->
+  - <span class="narrow">ʟ̆</span> ::: voiced velar lateral tap <!--SR:!2023-11-17,25,130-->
+- **uvular** %% fold %%
+  - <span class="narrow">ɴ</span> ::: voiced uvular nasal <!--SR:!2023-12-25,105,245-->
+  - <span class="narrow">q</span> ::: voiceless uvular plosive <!--SR:!2024-07-13,349,310-->
+  - <span class="narrow">ɢ</span> ::: voiced uvular plosive <!--SR:!2025-05-08,601,298-->
+  - <span class="narrow">qχ</span> ::: voiceless uvular affricate <!--SR:!2024-04-16,261,263-->
+  - <span class="narrow">ɢʁ</span> ::: voiced uvular affricate <!--SR:!2024-04-02,245,245-->
+  - <span class="narrow">χ</span> :::  voiceless uvular fricative <!--SR:!2023-11-29,87,225-->
+  - <span class="narrow">ʁ</span> ::: voiced uvular fricative <!--SR:!2024-02-19,204,227-->
+  - <span class="narrow">ɢ̆</span> ::: voiced uvular tap/flap <!--SR:!2023-11-20,113,150-->
+  - <span class="narrow">ʀ̥</span> ::: voiceless uvular trill <!--SR:!2024-11-04,463,278-->
+  - <span class="narrow">ʀ</span> ::: voiced uvular trill <!--SR:!2024-05-05,280,278-->
+  - <span class="narrow">ʟ̠</span> ::: voiced uvular lateral approximant <!--SR:!2023-11-27,23,130-->
+- **pharyngeal** %% fold %%
+  - <span class="narrow">ʡ</span> ::: epiglottal plosive <!--SR:!2023-12-16,49,130-->
+  - <span class="narrow">ʡʜ</span> ::: voiceless epiglottal affricate <!--SR:!2023-12-05,44,138-->
+  - <span class="narrow">ʡʢ</span> ::: voiced epiglottal affricate <!--SR:!2023-12-14,53,130-->
+  - <span class="narrow">ħ</span> ::: voiceless pharyngeal fricative <!--SR:!2023-11-05,4,130-->
+  - <span class="narrow">ʕ</span> ::: voiced pharyngeal fricative <!--SR:!2023-11-08,10,130-->
+  - <span class="narrow">ʡ̆</span> ::: voiced epiglottal tap <!--SR:!2023-11-22,18,130-->
+  - <span class="narrow">ʜ</span> ::: voiceless epiglottal trill <!--SR:!2023-11-03,31,130-->
+  - <span class="narrow">ʢ</span> ::: voiced epiglottal trill <!--SR:!2023-11-08,4,130-->
+- **glottal** %% fold %%
+  - <span class="narrow">ʔ</span> ::: glottal stop <!--SR:!2024-11-03,450,294-->
+  - <span class="narrow">ʔh</span> ::: voiceless glottal affricate <!--SR:!2024-03-12,223,238-->
+  - <span class="narrow">h</span> ::: voiceless glottal fricative <!--SR:!2025-02-06,561,298-->
+  - <span class="narrow">ɦ</span> ::: voiced glottal fricative <!--SR:!2024-01-14,167,197-->
+  - <span class="narrow">ʔ̞</span> ::: creaky-voiced glottal approximant <!--SR:!2024-03-28,160,150-->
+- **co-articulated** %% fold %%
+  - <span class="narrow">n͡m</span> ::: voiced labial-alveolar nasal <!--SR:!2024-02-10,194,217-->
+  - <span class="narrow">t͡p</span> ::: voiceless labial-alveolar plosive <!--SR:!2024-03-03,221,245-->
+  - <span class="narrow">d͡b</span> ::: voiced labial-alveolar plosive <!--SR:!2023-11-16,74,205-->
+  - <span class="narrow">ŋ͡m</span> ::: voiced labial-velar nasal <!--SR:!2024-02-28,212,223-->
+  - <span class="narrow">k͡p</span> ::: voiceless labial-velar plosive <!--SR:!2024-03-09,223,238-->
+  - <span class="narrow">ɡ͡b</span> ::: voiced labial-velar plosive <!--SR:!2024-03-18,232,245-->
+  - <span class="narrow">q͡ʡ</span> ::: voiceless uvular-epiglottal plosive <!--SR:!2023-11-11,13,130-->
+  - <span class="narrow">ɥ̊</span> ::: voiceless labial-palatal fricative <!--SR:!2023-12-27,68,143-->
+  - <span class="narrow">ɥ</span> ::: voiced labial-palatal approximant <!--SR:!2023-12-02,41,130-->
+  - <span class="narrow">ʍ</span> ::: voiceless labial-velar fricative <!--SR:!2023-11-19,30,130-->
+  - <span class="narrow">w</span> ::: voiced labial-velar approximant <!--SR:!2024-02-03,188,230-->
+  - <span class="broad">ɧ</span> ::: [[Sj-sound]] <!--SR:!2025-04-08,618,303-->
+  - <span class="narrow">ɫ</span> ::: velarised alveolar lateral approximant <!--SR:!2023-12-06,32,150-->
+
+
+#
+---
+#state/develop | #lang/en | #SemBr
