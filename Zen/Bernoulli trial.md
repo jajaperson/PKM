@@ -28,7 +28,7 @@ Let $X \sim \Bern(p)$ and $q = 1-p$
 1. [[Expectation]]: $\mu= \Ex[X]= p$   
 2. [[Standard deviation\|Variance]]:  $\sigma^2= \Var[X] =  pq$ 
 3. [[Moment-generating function]]: $M_{X} : \mathbb{R} \to \mathbb{R} : t \mapsto pe^t + q$
-4. [[Probability-generating function]]: $g_{X}(t) = pt+q$
+4. [[Probability generating function]]: $g_{X}(t) = pt+q$
 
 We have the further properties
 

@@ -24,7 +24,7 @@ For all random variables we may speak of
 - [[Standard deviation]]
 - [[Statistical moment]]
 - [[Moment-generating function]]
-- [[Probability-generating function]]
+- [[Probability generating function]]
 
 The [[Discrete random variable]] and [[Continuous random variable]] are starting points 
 for [[#Discrete probability]] and [[#Continuous probability]] respectively.

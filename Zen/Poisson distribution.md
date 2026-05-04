@@ -21,7 +21,7 @@ $$
 
 1. [[Expectation]], [[Standard deviation|variance]]: $\Ex[X]=\Var[X]=\lambda$ ^P1
 2. [[Moment-generating function]]: $\Ex[\mathrm{e}^{tX}]= \mathrm{e}^{\lambda(\mathrm{e}^t-1)}$ ^P2
-3. [[Probability-generating function]]: $g_{X}(t) = \mathrm{e}^{\lambda(t-1)}$
+3. [[Probability generating function]]: $g_{X}(t) = \mathrm{e}^{\lambda(t-1)}$
 
 Additionally
 

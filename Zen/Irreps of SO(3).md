@@ -3,6 +3,7 @@ aliases:
   - Irreps of 𝔰𝔬(3)
 tags:
   - public
+mathLink: Irreps of $\mathrm{SO}(3)$
 ---
 [[Real special orthogonal group of dimension 3]]
 # Irreps of SO(3)
@@ -83,4 +84,4 @@ while the group $\mathrm{SO}(3)$ only has irreps for $j \in \mathbb{N}_{0}$. #m/
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

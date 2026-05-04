@@ -39,18 +39,18 @@ $$
 ## Properties
 
 1. $$
-  f(x)\delta(x-x') = f(x')\delta(x)
-  $$
+    f(x)\delta(x-x') = f(x')\delta(x)
+    $$
 2. $$
-\begin{align*}
-\delta(kx) = \frac{1}{\abs k}\delta(x)
-\end{align*}
-$$
+    \begin{align*}
+    \delta(kx) = \frac{1}{\abs k}\delta(x)
+    \end{align*}
+    $$
 3. $$
-\begin{align*}
-\delta (x) = \frac{1}{2\pi} \int_{-\infty}^\infty e^{ikx} \, dk 
-\end{align*}
-$$
+    \begin{align*}
+    \delta (x) = \frac{1}{2\pi} \int_{-\infty}^\infty e^{ikx} \, dk 
+    \end{align*}
+    $$
 
 [^griffiths]: 2013\. [[@griffithsIntroductionElectrodynamics2013|Introduction to electrodynamics]], pp. 46ff. (§1.5.2)
 

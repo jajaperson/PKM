@@ -11,20 +11,20 @@ Then for any $n,m \in D$ and $d,b \in D^*$,
 then $\frac{n}{d}, \frac{m}{b} \in \Frac D$ with
 
 1. $$
-  \begin{align*}
-  \frac{n}{d} = \frac{m}{b} \iff nb = md
-  \end{align*}
-  $$
+    \begin{align*}
+    \frac{n}{d} = \frac{m}{b} \iff nb = md
+    \end{align*}
+    $$
 2. $$
-  \begin{align*}
-  \frac{n}{d} + \frac{m}{b} = \frac{nb + md}{db}
-  \end{align*}
-  $$
+    \begin{align*}
+    \frac{n}{d} + \frac{m}{b} = \frac{nb + md}{db}
+    \end{align*}
+    $$
 3. $$
-  \begin{align*}
-  \frac{n}{d} \cdot \frac{m}{b} = \frac{nm}{db}
-  \end{align*}
-  $$
+    \begin{align*}
+    \frac{n}{d} \cdot \frac{m}{b} = \frac{nm}{db}
+    \end{align*}
+    $$
 
 which may be constructed as a quotient of the set $D \times D^*$.
 We have the embedding

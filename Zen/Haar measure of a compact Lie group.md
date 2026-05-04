@@ -105,20 +105,20 @@ The Haar measure is defined for the whole of $G$ by translating the chart (enabl
 Let $f \in \mathbb{C}[G]$ and $\phi : G \to G$ be a bijection (e.g. taking the inverse of each group element)
 
 1. $$
-\begin{align*}
-\int _{G} f(hg) \, d\mu(g) = \int _{G}f(g) \, d\mu(h^{-1}g) = \int _{G}f(g) \, d\mu(g)  
-\end{align*}
-$$
+    \begin{align*}
+    \int _{G} f(hg) \, d\mu(g) = \int _{G}f(g) \, d\mu(h^{-1}g) = \int _{G}f(g) \, d\mu(g)  
+    \end{align*}
+    $$
 2. $$
-\begin{align*}
-\int _{G} f(gh) \, d\mu(g) = \int _{G}f(g) \, d\mu(gh^{-1}) = \int _{G}f(g) \, d\mu(g)  
-\end{align*}
-$$
+    \begin{align*}
+    \int _{G} f(gh) \, d\mu(g) = \int _{G}f(g) \, d\mu(gh^{-1}) = \int _{G}f(g) \, d\mu(g)  
+    \end{align*}
+    $$
 3. $$
-\begin{align*}
-\int _{G}f(\phi(g)) \, d\mu(g) = \int_{G} f(g) \, d\mu(g) 
-\end{align*}
-$$
+    \begin{align*}
+    \int _{G}f(\phi(g)) \, d\mu(g) = \int_{G} f(g) \, d\mu(g) 
+    \end{align*}
+    $$
 
 
 > [!check]- Proof of property 3

@@ -5,11 +5,11 @@ aliases:
   - Coüintal coässociative coälgebra over a commutative ring
 mathLink: $\mathcal{K}$-comonoid
 ---
-[[Linear algebra MOC]]
+[[Hopf theory MOC]]
 # $\mathcal{K}$-comonoid
 
 Let $\mathcal{K}$ be a commutative ring.
-An **$\mathcal{K}$-comonoid** $T$ is a [[Comonoid object|comonoid]] in [[Category of modules over a commutative ring]]. #m/def/calg
+An **$\mathcal{K}$-comonoid** $\mathcal{A}$ is a [[Comonoid object|comonoid]] in [[Category of modules over a commutative ring]]. #m/def/calg
 
 ## Sweedler notation
 
@@ -29,6 +29,7 @@ so we feel free to invoke such a decomposition without fixing it explicitly.
 ## See also
 
 - [[R-monoid]]
+- [[Grouplike]]
 
 #
 ---

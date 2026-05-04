@@ -23,30 +23,30 @@ where
 ## Properties
 
 1. $$
-  \begin{align*}
-  [L(-1), Y(v,z)] = Y(L(-1)v, z)
-  \end{align*}
-  $$
+    \begin{align*}
+    [L(-1), Y(v,z)] = Y(L(-1)v, z)
+    \end{align*}
+    $$
 2. $$
-  \begin{align*}
-  [L(0), Y(v,z)] = Y(L(0)v,z) + zY(L(-1)v, z)
-  \end{align*}
-  $$
+    \begin{align*}
+    [L(0), Y(v,z)] = Y(L(0)v,z) + zY(L(-1)v, z)
+    \end{align*}
+    $$
 3. $$
-  \begin{align*}
-  n \geq -1 \implies L(n)\mathbb{1} = 0
-  \end{align*}
-  $$
+    \begin{align*}
+    n \geq -1 \implies L(n)\mathbb{1} = 0
+    \end{align*}
+    $$
 4.  $$
-  \begin{align*}
-  L(-2) \mathbb{1} = \omega
-  \end{align*}
-  $$
-6. $$
-  \begin{align*}
-  L(0) \omega = 2\omega
-  \end{align*}
-  $$
+    \begin{align*}
+    L(-2) \mathbb{1} = \omega
+    \end{align*}
+    $$
+5. $$
+    \begin{align*}
+    L(0) \omega = 2\omega
+    \end{align*}
+    $$
 
   [^wt]: i.e. the grade of a homogenous element $v \in V_{(n)}$ is called its **weight** and denoted $\wt v$.
   [^1988]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]]. §8.10, pp. 244–245

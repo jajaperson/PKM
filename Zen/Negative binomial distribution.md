@@ -39,7 +39,7 @@ Let $X \sim \mathrm{NBin}(r,p)$ and $q = 1-p$
 1. [[Expectation]]:  $\mu =\Ex[X] = \frac{rq}{p}$ ^P1
 2. [[Standard deviation|Variance]]: $\sigma^2 =\Var[X] = \frac{rq}{p^2}$ ^P2
 3. [[Moment-generating function]]: $M_{X}(t) = (\frac{p}{1-q\mathrm{e}^t})^r$ for $q\mathrm{e}^t<1$ ^P3
-4. [[Probability-generating function]]: $g_{X}(t) = (\frac{p}{1-qt})^r$
+4. [[Probability generating function]]: $g_{X}(t) = (\frac{p}{1-qt})^r$
 
 > [!check]- Proof of 1–3
 > [[#^P1]] follows from [[Geometric distribution#^P1]] by [[Expectation#^P2|linearity of expectation]],

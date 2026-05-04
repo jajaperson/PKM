@@ -35,35 +35,35 @@ See also [[Generalized binomial coëfficient]].
 ## Properties
 
 1. $$
-  \begin{align*}
-  {n \choose k} = {n \choose n-k}
-  \end{align*}
-  $$ 
-  ^P1
+    \begin{align*}
+    {n \choose k} = {n \choose n-k}
+    \end{align*}
+    $$ 
+    ^P1
 2. $$
-  \begin{align*}
-  n {n-1 \choose n-1} = k {n \choose k}
-  \end{align*}
-  $$
-  ^P2
+    \begin{align*}
+    n {n-1 \choose n-1} = k {n \choose k}
+    \end{align*}
+    $$
+    ^P2
 3. $$
-  \begin{align*}
-  {m+n\choose k} = \sum_{j=0}^k {m \choose j}{n \choose k-j}
-  \end{align*}
-  $$
-  ^P3
+    \begin{align*}
+    {m+n\choose k} = \sum_{j=0}^k {m \choose j}{n \choose k-j}
+    \end{align*}
+    $$
+    ^P3
 4. $$
-  \begin{align*}
-  \sum_{m=k}^n {n \choose k}{n-m \choose k-j} = {n + 1 \choose k+1}
-  \end{align*}
-  $$
-^P4
+    \begin{align*}
+    \sum_{m=k}^n {n \choose k}{n-m \choose k-j} = {n + 1 \choose k+1}
+    \end{align*}
+    $$
+    ^P4
 5. $$
-  \begin{align*}
-  \sum_{m=k}^n {m \choose k} = {n+1 \choose k+1}
-  \end{align*}
-  $$
-  ^P5
+    \begin{align*}
+    \sum_{m=k}^n {m \choose k} = {n+1 \choose k+1}
+    \end{align*}
+    $$
+    ^P5
 
 > [!check]- Proof of 1–3, 5
 > Clearly choosing $k$ elements from a set of size $n$ is the same as choosing $n-k$ elements to be excluded, proving [[#^P1]].

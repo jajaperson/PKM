@@ -18,23 +18,23 @@ $$
 which is compatible with
 
 - the [[exterior derivative]] on [[scalar field|scalar fields]] so that 
-  $$
-  \nabla_{a} f = (\mathrm{d}f)_{a}
-$$
+    $$
+    \nabla_{a} f = (\mathrm{d}f)_{a}
+    $$
  for $f \in C^\alpha(M)$;
 - index contraction so that
-  $$
-  \nabla _d(A^{a_{1} \cdots c \cdots a_{p}}{}_{b_{1}\cdots c \cdots b_{q}}) = \nabla _dA^{a_{1} \cdots c \cdots a_{p}}{}_{b_{1}\cdots c \cdots b_{q}}
-  $$
+    $$
+    \nabla _d(A^{a_{1} \cdots c \cdots a_{p}}{}_{b_{1}\cdots c \cdots b_{q}}) = \nabla _dA^{a_{1} \cdots c \cdots a_{p}}{}_{b_{1}\cdots c \cdots b_{q}}
+    $$
   for $A^{a_{1} \cdots a_{p}}{}_{b_{1}\cdots b_{q}} \in \mathcal{T}^p_{q}(M)$;
 - the [[Derivation on an algebra|Leibniz rule]] so that
-  $$
-  \begin{align*}
-  \nabla_{e}(A^{a_{1} \cdots a_{p}}{}_{b_{1}\cdots b_{q}} B^{c_{1}\cdots c_{p'}}{}_{d_{1}\cdots d_{q'}}) &= (\nabla_{e}A^{a_{1} \cdots a_{p}}{}_{b_{1}\cdots b_{q}}) B^{c_{1}\cdots c_{p'}}{}_{d_{1}\cdots d_{q'}}  \\
-  &+ A^{a_{1} \cdots a_{p}}{}_{b_{1}\cdots b_{q}} (\nabla_{e} B^{c_{1}\cdots c_{p'}}{}_{d_{1}\cdots d_{q'}})
-  \end{align*}
-  $$
-  for $A^{a_{1} \cdots a_{p}}{}_{b_{1}\cdots b_{q}} \in \mathcal{T}^p_{q}(M)$ and $B^{a_{1} \cdots a_{p'}}{}_{b_{1}\cdots b_{q'}} \in \mathcal{T}^{p'}_{q'}(M)$.
+    $$
+    \begin{align*}
+    \nabla_{e}(A^{a_{1} \cdots a_{p}}{}_{b_{1}\cdots b_{q}} B^{c_{1}\cdots c_{p'}}{}_{d_{1}\cdots d_{q'}}) &= (\nabla_{e}A^{a_{1} \cdots a_{p}}{}_{b_{1}\cdots b_{q}}) B^{c_{1}\cdots c_{p'}}{}_{d_{1}\cdots d_{q'}}  \\
+    &+ A^{a_{1} \cdots a_{p}}{}_{b_{1}\cdots b_{q}} (\nabla_{e} B^{c_{1}\cdots c_{p'}}{}_{d_{1}\cdots d_{q'}})
+    \end{align*}
+    $$
+    for $A^{a_{1} \cdots a_{p}}{}_{b_{1}\cdots b_{q}} \in \mathcal{T}^p_{q}(M)$ and $B^{a_{1} \cdots a_{p'}}{}_{b_{1}\cdots b_{q'}} \in \mathcal{T}^{p'}_{q'}(M)$.
 
 
 ## Bibliography
@@ -43,4 +43,4 @@ $$
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

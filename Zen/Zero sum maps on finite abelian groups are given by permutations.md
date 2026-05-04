@@ -9,12 +9,11 @@ Let $A=\{ a_{i} \}_{i=1}^n$ be a finite [[abelian group]] of order $n$ and $\var
 Then $\varphi$ satisfies $\sum_{i=1}^n \varphi(i) = 0$
 iff there exists a permutation
 $$
-\sigma = \begin{align*}
+\sigma =
 \begin{pmatrix}
 a_{1},\dots,a_{n} \\
 c_{1},\dots,c_{n}
 \end{pmatrix}
-\end{align*}
 \in A!
 $$
 of $A$ such that $c_{i}-a_{i} = b_{i}$.[^1952] #m/thm/comb 

@@ -21,7 +21,7 @@ Additionally, for a $\mathbb{N}_{0}$-valued [[discrete random variable]]
 
 - the **$n$th factorial moment** of $X$ is $\Ex\left[ \prod_{j=0}^{n-1}(X-j) \right] = g_{X}^{(k)}(1)$
 
-where $g_{X}$ is the [[Probability-generating function]].
+where $g_{X}$ is the [[Probability generating function]].
 
   [^Z]: Note this corresponds to the $n$th moment of the [[Standard normal distribution|z-score]].
 

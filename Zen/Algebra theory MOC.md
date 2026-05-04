@@ -12,13 +12,20 @@ Not to be confused with [[Universal algebra]]
 
 ## Objects
 
-- [[K-algebra]]
-  - [[K-monoid|$\mathbb K$-ring]]
-- [[R-algebra]]
-  - [[R-semigroup|$R$-semigroup]]
-  - [[R-monoid]]
+See also [[Hopf algebra MOC]] and [[Lie theory MOC]]
+
+- [[R-algebra]] ([[K-algebra]])
+    - [[R-monoid]] ([[K-monoid]])
+    - [[R-semigroup]]
+
+### Extra structure
+
 - [[Graded algebra]]
 - [[Superalgebra]]
+
+
+## Internally
+
 - [[Structure constants]]
 
 ## Morphisms

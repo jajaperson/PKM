@@ -41,7 +41,7 @@ Let $X \sim \Bin(n,p)$ and let $q = 1-p$
 1. [[Expectation]]: $\mu = \Ex[X]=np$
 2. [[Standard deviation|Variance]]: $\sigma^2 = \Var[X]=npq$
 3. [[Moment-generating function]]: $M_{X} : \mathbb{R} \to \mathbb{R} : t \mapsto (p\mathrm{e}^t+q)^n$
-4. [[Probability-generating function]]: $g_{X}(t) = (pt+q)^n$ ^P4
+4. [[Probability generating function]]: $g_{X}(t) = (pt+q)^n$ ^P4
 
 > [!check]- Proof of 1–4
 >  These follow from the analogous results for a [[Bernoulli trial]] by [[Expectation#^P2]], [[Standard deviation#^P3]] and [[Moment-generating function#^P1]],
