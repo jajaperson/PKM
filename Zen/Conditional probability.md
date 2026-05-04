@@ -22,25 +22,25 @@ The function $\mathbb{P}(\cdot \mid A)$ forms a [[Probability model|probability 
 ## Properties
 
 1. $$
-  \mathbb{P}(A\cap B)= \mathbb{P}(B)\mathbb{P}(A\mid B) = \mathbb{P}(A)\mathbb{P}(B \mid A)
-  $$
+    \mathbb{P}(A\cap B)= \mathbb{P}(B)\mathbb{P}(A\mid B) = \mathbb{P}(A)\mathbb{P}(B \mid A)
+    $$
 2. $$
-  \mathbb{P}(A \mid B) = \frac{\mathbb{P}(B\mid A)\mathbb{P}(A)}{\mathbb{P}(B)}
-  $$
+    \mathbb{P}(A \mid B) = \frac{\mathbb{P}(B\mid A)\mathbb{P}(A)}{\mathbb{P}(B)}
+    $$
 3. $$
-  \frac{\mathbb{P}(A\mid B)}{\mathbb{P}(A^c \mid B)} = \frac{\mathbb{P}(B \mid A)}{\mathbb{P}(B \mid A^c)} \frac{\mathbb{P}(A)}{\mathbb{P}(A^c)}
-  $$
+    \frac{\mathbb{P}(A\mid B)}{\mathbb{P}(A^c \mid B)} = \frac{\mathbb{P}(B \mid A)}{\mathbb{P}(B \mid A^c)} \frac{\mathbb{P}(A)}{\mathbb{P}(A^c)}
+    $$
 4. Let $\{ A_{i} \}_{i=1}^n$ partition $\xi$. Then
-  $$
-\begin{align*}
-\mathbb{P}(B)=\sum_{i=1}^n\mathbb{P}(B\mid A_{i})\mathbb{P}(A_{i})
-\end{align*}
-$$
+    $$
+    \begin{align*}
+    \mathbb{P}(B)=\sum_{i=1}^n\mathbb{P}(B\mid A_{i})\mathbb{P}(A_{i})
+    \end{align*}
+    $$
 5. $$
-  \begin{align*}
-  \mathbb{P}(A\mid B \cap E) = \frac{\mathbb{P}(B \mid A \cap E)\mathbb{P}(A\mid E)}{\mathbb{P}(B \mid E)}
-  \end{align*}
-  $$
+    \begin{align*}
+    \mathbb{P}(A\mid B \cap E) = \frac{\mathbb{P}(B \mid A \cap E)\mathbb{P}(A\mid E)}{\mathbb{P}(B \mid E)}
+    \end{align*}
+    $$
 
 
 ## See also

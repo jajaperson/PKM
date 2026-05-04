@@ -48,4 +48,4 @@ Let $X, Y , Z,Y_{1}, Y_{2}, \dots : \xi \to \mathbb{R},$ be real random variable
 
 #
 ---
-#state/stub | #lang/en | #SemBr 
+#state/tidy | #lang/en | #SemBr 
