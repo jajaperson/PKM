@@ -1,5 +1,5 @@
 ---
-alias: MaxEnt thermodynamics
+aliases: MaxEnt thermodynamics
 tags:
   - public
 ---

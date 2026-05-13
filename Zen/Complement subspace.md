@@ -13,7 +13,7 @@ A **complement** $U^c \leq V$ is a subspace such that the [[Direct sum of vector
 1. Every $U \leq V$ has a (in general not unique) complement $U^c \leq V$.[^1] ^Existence
 
 > [!check]- Proof of 1.
-> The existence of the compliment follows from [[Every vector space has a basis]]:
+> The existence of the compliment follows from [[Assuming choice, every vector space has a basis]]:
 > Let $\mathcal{A}$ be a basis of $U$.
 > Then there exists a basis $\mathcal A$ of $V$ such that $\mathcal{A} \sube \mathcal{B}$.
 > Then $U^c = \Span(\mathcal{B}\setminus \mathcal{A})$ is a complement of $U$. 

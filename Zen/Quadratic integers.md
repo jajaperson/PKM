@@ -1,5 +1,5 @@
 ---
-alias: quadratic integer
+aliases: quadratic integer
 tags:
   - public
 ---

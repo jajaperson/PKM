@@ -8,7 +8,7 @@ tags:
 [[K-monoid]]
 # Exterior algebra
 
-The **exterior algebra** $\bigwedge^• V$ of a [[vector space]] $V$ is the freëst [[Alternating multilinear map|alternating]] [[K-monoid]] containing $V$, #m/def/falg 
+The **exterior algebra** $\bigwedge^• V$ of a [[vector space]] $V$ is the freëst [[Alternating multilinear map|alternating]] [[K-monoid]] containing $V$, #m/def/ralg 
 as formalized by the [[#Universal property]].
 
 The exterior algebra is in a sense generalized by, or rather _quantized_ by, the [[Clifford algebra]].

@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: adjoining the derivation
+aliases: adjoining the derivation
 ---
 [[Semidirect product]]
 # Adjoining a derivation

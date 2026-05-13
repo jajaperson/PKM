@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: 
+aliases:
   - "#m/thm/group"
   - "#m/def/group"
 ---

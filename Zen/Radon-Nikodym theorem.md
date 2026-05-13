@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: Radon-Nikodym derivative
+aliases: Radon-Nikodym derivative
 ---
 [[Measure theory MOC]]
 # Radon-Nikodym theorem

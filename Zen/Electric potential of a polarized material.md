@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: bound charge density
+aliases: bound charge density
 mathLink-blocks:
   bcd: bound charge density
 ---

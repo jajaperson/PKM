@@ -13,7 +13,7 @@ aliases:
 
 Let $\mathbb{K}$ be a [[field]] and $A$ be a [[K-monoid]] (or [[Field extension|extension field]], see [[extension field as a unital associative algebra]]).
 
-An element $a \in A$ is called **algebraic** over $\mathbb{K}$ iff there exists a nonzero polynomial $p(x) \in \mathbb{K}[x]$ such that $p(a) = 0$. #m/def/falg 
+An element $a \in A$ is called **algebraic** over $\mathbb{K}$ iff there exists a nonzero polynomial $p(x) \in \mathbb{K}[x]$ such that $p(a) = 0$. #m/def/ralg 
 An element which is not algebraic is called **transcendental** over $\mathbb{K}$.
 If $a$ is algebraic,
 the solving [[Polynomial ring#^monic]] of smallest degree $m_{a}(x) \in \mathbb{K}[x]$ is called the **minimal polynomial** of $a$.

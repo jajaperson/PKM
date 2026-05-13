@@ -1,5 +1,5 @@
 ---
-alias: McKay matrix
+aliases: McKay matrix
 tags:
   - public
 ---

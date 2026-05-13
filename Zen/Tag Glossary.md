@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias:
+aliases:
   - "#state/stub"
   - "#state/develop"
   - "#state/tidy"

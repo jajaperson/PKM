@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: split extension
+aliases: split extension
 ---
 [[Category theory MOC]]
 # Extension

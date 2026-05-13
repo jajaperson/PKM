@@ -3,9 +3,10 @@ tags:
   - public
 aliases:
   - A module inherits linear structure from the underlying ring
+mathLink: Module over a $\mathbb{K}$-monoid
 ---
 [[Algebra theory MOC]]
-# Module over an associative algebra
+# Module over a $\mathbb{K}$-monoid
 
 Let $A$ be a [[K-monoid]] over $\mathbb{K}$.
 A (left) $A$-[[module]] is a $\mathbb{K}$-[[vector space]] $V$ equipped with a bilinear map

@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: irreducible module
+aliases: irreducible module
 ---
 [[Module theory MOC]]
 # Simple module

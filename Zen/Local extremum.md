@@ -1,5 +1,5 @@
 ---
-alias: Local minimum, Local maximum
+aliases: Local minimum, Local maximum
 tags:
   - public
 ---

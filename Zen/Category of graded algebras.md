@@ -16,7 +16,7 @@ tags:
 Let $(\mathfrak{A}, +)$ be a [[monoid]] and $\mathbb{K}$ be a [[field]].
 The **category of $\mathfrak{A}$-graded algebras** over $\mathbb{K}$ is a [[category]] where
 an object is a $\mathfrak{A}$-[[graded algebra]]
-and a morphism is a $\mathfrak{A}$-[[graded algebra homomorphism]]. #m/def/falg 
+and a morphism is a $\mathfrak{A}$-[[graded algebra homomorphism]]. #m/def/ralg 
 
 #
 ---

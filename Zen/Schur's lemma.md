@@ -15,7 +15,7 @@ In particular, the [[endomorphism ring]] $\End_{R}V$ of a simple module is a [[d
 > they must either be trivial or equal to $V$ and $W$ respectively.
 > If $f \neq 0$ then $\ker f \neq V$ and $\im f \neq 0$, hence $f$ is epic and monic and thus an $R$-module isomorphism. <span class="QED"/>
 
-$\mathbb{K}$ is an [[algebraically closed field]] and $V$ is a [[Module over a unital associative algebra|module]] over a [[K-monoid]] $A$ over $\mathbb{K}$, there are a few cases where
+$\mathbb{K}$ is an [[algebraically closed field]] and $V$ is a [[Module over a K-monoid|module]] over a [[K-monoid]] $A$ over $\mathbb{K}$, there are a few cases where
 one can conclude $\End_{A}V = \mathbb{K}$ consists of homotheties, which is sometimes known as **Schur's first lemma**.
 Namely
 
@@ -60,7 +60,7 @@ T \mathfrak{X}(g) = \mathfrak{Y}(g)T
 \end{align*}
 $$
 for all $g \in G$,
-then $T = \mathbf{O}$ or $\mathfrak{X}$ and $\mathfrak{Y}$ are [[Unitary equivalence of representations|unitarily equivalent]]. #m/thm/rep
+then $T = 0$ or $\mathfrak{X}$ and $\mathfrak{Y}$ are [[Unitary equivalence of representations|unitarily equivalent]]. #m/thm/rep
 $T$ is thence called an [[intertwiner]], which is unique up to scalar multiplication. ^2
 
 > [!check]- Proof

@@ -1,5 +1,5 @@
 ---
-alias: harmonic series, p-series
+aliases: harmonic series, p-series
 tags:
   - public
 ---

@@ -1,5 +1,5 @@
 ---
-alias: linear operator
+aliases: linear operator
 tags:
   - public
 ---

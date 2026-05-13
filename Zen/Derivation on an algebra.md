@@ -9,7 +9,7 @@ tags:
 
 A **derivation** $D$ on an [[K-algebra|algebra]] $(A, \cdot)$ over a field $\mathbb{K}$
 is a [[linear endomorphism]] $D : A \to A$
-satisfying the [[product rule]] #m/def/falg 
+satisfying the [[product rule]] #m/def/ralg 
 $$
 \begin{align*}
 D(a \cdot b)=D(a) \cdot b + a \cdot D(b)

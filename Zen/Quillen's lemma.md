@@ -5,7 +5,7 @@ tags:
 [[Schur's lemma]]
 # Quillen's lemma
 
-Let $A$ be a [[K-monoid]] over $\mathbb{K}$ and $V$ be a [[Simple module|simple]] $A$-[[Module over a unital associative algebra|module]].
+Let $A$ be a [[K-monoid]] over $\mathbb{K}$ and $V$ be a [[Simple module|simple]] $A$-[[Module over a K-monoid|module]].
 If $A$ has a filtration $\{ F_{i}A \}_{i=1}^\infty$ such that $1 \in F_{0}A$ and the [[associated graded algebra]] is a finitely-generated commutative $\mathbb{K}$-[[K-algebra|algebra]],
 then every $A$-module endomorphism $\vartheta \in \lMod A(V,V)$ is an [[algebraic element]] over $\mathbb{K}$.[^1969]
 #m/thm/module 

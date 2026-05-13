@@ -6,7 +6,9 @@ tags:
 # Hopf ideal
 
 Let $\mathcal{H}$ be a [[Hopf algebra]] over [[commutative ring|$\mathcal K$]].
-A **Hopf ideal** $I \leq \mathcal{H}$ is a [[biïdeal]] which is additionally stable under the antipous, #m/def/falg/hopf i.e. $\sigma(I) \sube I$.
+A **Hopf ideal** $I \leq \mathcal{H}$ is a [[biïdeal]] which is additionally stable under the antipous, #m/def/ralg/hopf i.e. $\sigma(I) \sube I$.
+
+- Given a Hopf ideal $I$ one may construct a [[Quotient Hopf algebra]] $\mathcal{H} / I$.
 
 ## Theorem
 

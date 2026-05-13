@@ -5,7 +5,7 @@ tags:
 [[Hopf theory MOC]]
 # Sweedler's small Hopf algebra
 
-**Sweedler's small Hopf algebra** $H_{4}$ is a 4-dimensional noncommutative noncocommutative [[Hopf algebra]] with basis $\{ 1,g,x,xg \}$. #m/def/falg/hopf 
+**Sweedler's small Hopf algebra** $H_{4}$ is a 4-dimensional noncommutative noncocommutative [[Hopf algebra]] with basis $\{ 1,g,x,xg \}$. #m/def/ralg/hopf 
 If $H$ is [[Sweedler's large Hopf algebra]],
 then
 $$

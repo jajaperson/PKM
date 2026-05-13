@@ -26,7 +26,7 @@ See [[Category of graded modules]].
 
 ## Properties
 
-- If $M$ is a graded [[Module over a unital associative algebra|module over a]] [[Graded algebra|graded]] associative or Lie algebra $A$, then $a \in A_{\alpha}$ acts as a [[Homomorphism of graded vector spaces#^homogenous]] operator of degree $\alpha$.[^Lie]
+- If $M$ is a graded [[Module over a K-monoid|module over a]] [[Graded algebra|graded]] associative or Lie algebra $A$, then $a \in A_{\alpha}$ acts as a [[Homomorphism of graded vector spaces#^homogenous]] operator of degree $\alpha$.[^Lie]
 - The grades of a graded module may be shifted arbitrarily, see [[Shifted graded module]].
 
   [^Lie]: For the Lie case, [[Module over a Lie algebra|this abuse of terminology]] works since [[The universal enveloping algebra of a Lie algebra inherits its graded structure]].

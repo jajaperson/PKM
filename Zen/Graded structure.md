@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: graded homomorphism
+aliases: graded homomorphism
 ---
 [[Abstract algebra MOC]]
 # Graded structure

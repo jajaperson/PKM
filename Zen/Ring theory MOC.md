@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias:
+aliases:
   - "#m/def/ring"
   - "#m/thm/ring"
 ---

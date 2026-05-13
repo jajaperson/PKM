@@ -1,5 +1,5 @@
 ---
-alias: Burnside's lemma
+aliases: Burnside's lemma
 tags:
   - public
 ---

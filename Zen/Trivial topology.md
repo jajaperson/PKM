@@ -1,5 +1,5 @@
 ---
-alias: indiscrete topology
+aliases: indiscrete topology
 tags:
   - public
 ---

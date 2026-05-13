@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: bound current density
+aliases: bound current density
 mathLink-blocks:
   bcd: bound current density
 ---

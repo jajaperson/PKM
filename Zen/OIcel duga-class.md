@@ -1,5 +1,5 @@
 ---
-alias: OIcel weak class III
+aliases: OIcel weak class III
 tags:
   - public
 ---

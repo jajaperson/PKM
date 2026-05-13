@@ -10,7 +10,7 @@ Categories are motivated from several perspectives
 1. If groups are the algebraic structure which abstract symmetry,
   categories are the algebraic structure which abstract mathematical theories.
 2. A category is a _directed_ [[groupoid]], in the same way a [[poset]] is a directed [[set]].
-3. Along the same lines, a ([[Univalent category|univalent]]) category is a [[poset]] in the next dimension, see [[(n,r)-category]].
+3. Along the same lines, a ([[Univalent category|univalent]]) category is a [[poset]] in the next dimension, see [[(n,r)-category]].[^1]
 4. A category is the [[oidification]] of a [[monoid]] — a **monoidoid**!
 
 ## In terms of collections
@@ -48,3 +48,5 @@ These notions are interchanged as is notationally convenient.
 
 ---
 #state/tidy | #SemBr | #lang/en 
+
+[^1]: Without univalence, we get a [[preorder]].

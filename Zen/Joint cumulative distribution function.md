@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: joint CDF
+aliases: joint CDF
 ---
 [[Multivariate random variable]]
 # Joint cumulative distribution function

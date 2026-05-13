@@ -2,7 +2,7 @@
 categoryName: category of monoids in $\cat C$
 mathLink: $\cat{Mon}_{\cat C}$
 object: "[[monoid object]] in $\\cat C$"
-morphism: "[[Homomorphism of monoid objects]]"
+morphism: "[[monoid morphism]]"
 arguments:
   - $\cat C$ [[monoidal category]]
 tags:
@@ -14,9 +14,9 @@ cssclasses:
 [[Monoid object]]
 # Category of monoid objects
 
-The **category of monoids in $\cat C$**, denoted $\cat{Mon}_{\cat C}$, is a [[category]] where
+The <dfn>category of monoids</dfn> in $\cat C$, denoted $\cat{Mon}_{\cat C}$, is a [[category]] where
 an object is a [[Monoid object]] in $\cat C$
-and a morphism is a [[Homomorphism of monoid objects]]. #m/def/cat 
+and a morphism is a [[Monoid morphism]]. #m/def/cat 
 In particular, $\cat{Mon}_{\Set}$ is the same as [[Category of monoids]].
 
 ## As the cocartesian completion of a symmetric monoidal category
@@ -29,10 +29,10 @@ with the unit and multiplication
 ![[product-multiplication-string.svg|c]]
 
 
-With the product defined as such, $\Mon_{\cat C}$ is in fact a [[cartesian category]]. #m/thm/cat
+With the product defined as such, $\Mon_{\cat C}$ is in fact a [[cocartesian category]]. #m/thm/cat
 
 > [!check]- Proof
-> Suppose $\Red, \Blue$ are monoids in $\cat C$. We define monoid morphisms
+> Suppose $\Red, \Blue, \Purple$ are monoids in $\cat C$. We define monoid morphisms
 > 
 > ![[in_1-string.svg|c]]
 > ![[in_2-string.svg|c]]
@@ -52,11 +52,11 @@ With the product defined as such, $\Mon_{\cat C}$ is in fact a [[cartesian categ
 > 
 > so $h = \{ f,g \}$ as required. <span class="QED"/>
 
-
 ## Related categories
 
+- There is an evident forgetful functor $\cat{Mon}_{\cat C} \to \cat C$, [[Monoidal functor|monoidal]] if $\cat C$ is [[Symmetric monoidal category|symmetric]].
 - [[Category of comonoid objects]] = $\op{{\Mon_{\op{\cat C}}}}$
 
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy  | #lang/en | #SemBr

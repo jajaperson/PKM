@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: open, closed
+aliases: open, closed
 ---
 [[Topology MOC]]
 # Topological space

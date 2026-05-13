@@ -1,5 +1,5 @@
 ---
-alias: cotangent vector
+aliases: cotangent vector
 tags:
   - public
 ---

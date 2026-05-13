@@ -1,5 +1,5 @@
 ---
-alias: $\mathrm{DC}$
+aliases: $\mathrm{DC}$
 tags:
   - public
 ---

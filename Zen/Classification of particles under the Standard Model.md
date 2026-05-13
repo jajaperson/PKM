@@ -1,5 +1,5 @@
 ---
-alias: hadrons, mesons, baryons
+aliases: hadrons, mesons, baryons
 tags:
   - public
 ---

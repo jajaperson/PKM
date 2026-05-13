@@ -1,5 +1,5 @@
 ---
-alias: Cauchy's Integral Theorem, integrals of complex analytic functions are path independent, contour integral
+aliases: Cauchy's Integral Theorem, integrals of complex analytic functions are path independent, contour integral
 tags:
   - public
 ---

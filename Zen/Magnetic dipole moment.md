@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: torque on a magnetic dipole, magnetic moment, magnetization
+aliases: torque on a magnetic dipole, magnetic moment, magnetization
 ---
 [[Electrodynamics MOC]]
 # Magnetic dipole moment

@@ -1,5 +1,5 @@
 ---
-alias: singularity
+aliases: singularity
 tags:
   - public
 ---

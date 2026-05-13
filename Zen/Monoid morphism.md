@@ -3,10 +3,10 @@ tags:
   - public
 ---
 [[Monoid object]]
-# Homomorphism of monoid objects
+# Monoid morphism
 
 Let $M,M'$ be [[Monoid object|monoids]] in $\cat C$.
-A **monoid homomorphism** $f : M \to M'$ is a [[homomorphism of semigroup objects]] which additionally satisfies the unitality condition #m/def/cat
+A **monoid homomorphism** $f : M \to M'$ is a [[Semigroup morphism]] which additionally satisfies the unitality condition #m/def/cat
 
 ![[unital-morphism-string.svg#invert|c]]
 

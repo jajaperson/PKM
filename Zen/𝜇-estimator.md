@@ -1,5 +1,5 @@
 ---
-alias: sample mean
+aliases: sample mean
 tags:
   - public
 ---

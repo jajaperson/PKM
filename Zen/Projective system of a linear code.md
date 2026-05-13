@@ -1,5 +1,5 @@
 ---
-alias: projective system
+aliases: projective system
 tags:
   - public
 ---

@@ -4,7 +4,7 @@ aliases:
 tags:
   - public
 ---
-[[Internalization]]
+[[Monoidal internalization]]
 # Monoid object
 
 Let $(\cat C, \otimes, \mathbb{1}, \alpha,\lambda,\rho)$ be a [[monoidal category]].
@@ -39,7 +39,7 @@ Moreover, if we are in a [[Symmetric monoidal category]] with braiding $\tau$, t
 > Commutativity:
 > ![[commutative-string.svg#invert|c]]
 
-We can thence define a [[Homomorphism of monoid objects]] and [[Category of monoid objects]].
+We can thence define a [[Monoid morphism]] and [[Category of monoid objects]].
 These concepts admit duals, see [[Comonoid object]].
 See also the weakening of [[Semigroup object]].
 

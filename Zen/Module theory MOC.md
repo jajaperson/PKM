@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias:
+aliases:
   - "#m/def/module"
   - "#m/thm/module"
 ---
@@ -31,7 +31,7 @@ See [[Category of left modules]].
 #### By ring
 
 - [[Module over a commutative ring]]
-- [[Module over a unital associative algebra]]
+- [[Module over a K-monoid]]
 - [[Vector space]] (module over a field)
 
 

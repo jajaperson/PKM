@@ -14,7 +14,7 @@ A representation may thus be considered a [[functor]].
 
 > [!info]+ Relation to modules
 > If the represented structure is an [[K-monoid]],
-> a representation is equivalent to a [[Module over a unital associative algebra]],
+> a representation is equivalent to a [[Module over a K-monoid]],
 > and indeed in most cases one can move from representations of an algebraic structure to representations of a related associative algebra (e.g. [[group ring]], [[Universal enveloping algebra]]) over a field without loss of information.
 > This is because $\End V$ itself is an [[Endomorphism ring]].
 
@@ -31,7 +31,7 @@ This yields the three equivalent ways of viewing a representation of a gadget $G
   - [[Representation of an abelian group]]
   - [[Representation of a compact Lie group]]
 - Algebras
-  - [[Module over a unital associative algebra]]
+  - [[Module over a K-monoid]]
   - [[∗-representation of the complex group ring|∗-representation]]
   - [[Lie algebra representation]]
 - [[Quiver representation]]

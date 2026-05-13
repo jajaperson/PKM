@@ -1,5 +1,5 @@
 ---
-alias: permittivity
+aliases: permittivity
 tags:
   - public
 ---

@@ -18,4 +18,4 @@ See also [[Division algebra]].
 
 #
 ---
-#state/stub | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

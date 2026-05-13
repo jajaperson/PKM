@@ -1,5 +1,5 @@
 ---
-alias: Axiom of Regularity
+aliases: Axiom of Regularity
 tags:
   - public
 ---

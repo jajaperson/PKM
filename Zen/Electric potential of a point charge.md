@@ -1,5 +1,5 @@
 ---
-alias: Coulomb potential
+aliases: Coulomb potential
 tags:
   - public
 ---

@@ -1,5 +1,5 @@
 ---
-alias: polynomial ring over a noetherian ring is noetherian
+aliases: polynomial ring over a noetherian ring is noetherian
 tags:
   - public
 ---

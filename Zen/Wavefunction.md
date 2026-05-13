@@ -1,5 +1,5 @@
 ---
-alias: Born's rule
+aliases: Born's rule
 tags:
   - public
 ---

@@ -1,5 +1,5 @@
 ---
-alias: line integral of a vector field
+aliases: line integral of a vector field
 tags:
   - public
 ---

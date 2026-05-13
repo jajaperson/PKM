@@ -1,5 +1,5 @@
 ---
-alias: equinumerous
+aliases: equinumerous
 tags:
   - public
 ---

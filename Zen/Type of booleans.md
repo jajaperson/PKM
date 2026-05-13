@@ -13,7 +13,7 @@ In (non-dependent) programming and classical mathematics, predicates are usually
 1 == 1 # True
 ```
 
-This is justified by the fact that, in the category [[Category of sets]] of classical mathematics,[^1] the corresponding set $\mathbb{2}$ is a [[subobject classifier]].
+This is justified by the fact that, in the category [[Category of sets]] of classical mathematics,[^1] the corresponding set $\mathbb{2}$ is a [[Subobject classifier]].
 In constructive contexts where the [[Law of excluded middle]] is not assumed, however, this is not the case (we instead need a [[Universe of propositions]] $\Omega$),
 so the role played by $\mathbb{2}$ is quite different.
 

@@ -5,7 +5,7 @@ tags:
 [[K-monoid]]
 # Division algebra
 
-A **division algebra** $(A, \cdot)$ is at once a [[K-monoid]] and a [[division ring]], #m/def/falg 
+A **division algebra** $(A, \cdot)$ is at once a [[K-monoid]] and a [[division ring]], #m/def/ralg 
 hence for every nonzero $a \in A$ there exists some (necessarily unique) $a^{-1} \in A$ such that $a^{-1}a = aa^{-1} = 1_{A}$.
 
 ## Properties

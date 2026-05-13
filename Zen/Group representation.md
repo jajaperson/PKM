@@ -15,7 +15,7 @@ $$
 \end{align*}
 $$
 and $\mathfrak{X}(1) = 1_{V}$.[^keppler]
-Since a representation of $G$ over $\mathbb{K}$ uniquely determines a representation of the [[group ring]] $\mathbb{K}[G]$ and vice versa, the latter being equivalent to a [[Module over a unital associative algebra|$\mathbb K[G]$-module]], we often employ the abuse of terminology [[Module over a group|$G$-module]] for $(\mathfrak{X}, V)$ as a whole.
+Since a representation of $G$ over $\mathbb{K}$ uniquely determines a representation of the [[group ring]] $\mathbb{K}[G]$ and vice versa, the latter being equivalent to a [[Module over a K-monoid|$\mathbb K[G]$-module]], we often employ the abuse of terminology [[Module over a group|$G$-module]] for $(\mathfrak{X}, V)$ as a whole.
 To summarize, a representation is at once
 
 - a [[group homomorphism]] $\mathfrak{X} : G \to \opn{GL}(V)$, which we use to emphasize the carrier space;
@@ -55,7 +55,7 @@ Since [[Every finite complex representation of a compact group is equivalent to 
 ## Generalizations
 
 A representation may be viewed as a [[Functor]] from a single-object [[Groupoid]] to $\Vect_{\mathbb{K}}$,
-or equivalently as a [[Module over a unital associative algebra|module]] over a [[group ring]].
+or equivalently as a [[Module over a K-monoid|module]] over a [[group ring]].
 These yield two possible generalizations of representation.
 
 

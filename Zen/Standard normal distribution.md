@@ -1,5 +1,5 @@
 ---
-alias: z-score
+aliases: z-score
 tags:
   - public
 ---

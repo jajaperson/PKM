@@ -6,7 +6,7 @@ tags:
 # Jacobson radical
 
 Let $R$ be a [[ring]].
-The **Jacobson radical** $J(R)$ is defined as the intersection of the [[Annihilator|annihilators]] of all simple modules #m/def/ring 
+The **Jacobson radical** $J(R)$ is defined as the intersection of the [[Annihilator ideal|annihilators]] of all simple modules #m/def/ring 
 $$
 \begin{align*}
 J(R) = \bigcap_{\text{$M$ simple}} \lAnn R M

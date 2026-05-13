@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: finite field
+aliases: finite field
 ---
 [[Field]]
 # Galois field

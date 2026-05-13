@@ -7,7 +7,7 @@ tags:
 
 Let $\mathfrak{g}$ be a [[Lie algebra]] over $\mathbb{K}$.
 The **universal enveloping algebra** $U(\mathfrak{g})$ is the most general [[K-monoid]] with the Lie bracket of $\mathfrak{g}$ as its [[commutator]], as formalized by the [[#Universal property]] and the [[Poincaré-Birkhoff-Witt theorem]].
-In particular, this means any [[Lie algebra representation]] of $\mathfrak{g}$ uniquely corresponds to a $U(\mathfrak{g})$-[[Module over a unital associative algebra|module]], motivating the abuse of terminology [[module over a Lie algebra]].
+In particular, this means any [[Lie algebra representation]] of $\mathfrak{g}$ uniquely corresponds to a $U(\mathfrak{g})$-[[Module over a K-monoid|module]], motivating the abuse of terminology [[module over a Lie algebra]].
 
 ## Universal property
 

@@ -9,7 +9,7 @@ aliases:
 
 A **monoidal category** is the vertical [[Categorification]] of a [[monoid]]. #m/def/cat 
 Explicitly, a monoidal category $\cat C$ is equipped with[^1978]
-1. a [[functor]] $(\otimes) : \cat C \times \cat C \to \cat C$ called the **tensor product**;
+1. a [[Multifunctor|bifunctor]] $(\otimes) : \cat C \times \cat C \to \cat C$ called the **tensor product**;
 2. an object $1 \in \cat C$ called the **tensor unit**;
 3. a [[Natural isomorphism|natural isomorphism]] with components $\alpha_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ in [[Functor category|$\cat C^{\cat C \times \cat C \times \cat C}$]] called the **associator**;
 4. a [[Natural isomorphism|natural isomorphism]] with components $\lambda_{x} : 1 \otimes x \to x$ in [[Endofunctor category|$\cat C^{\cat C}$]] called the **left-unitor**; and

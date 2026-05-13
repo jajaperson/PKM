@@ -6,7 +6,7 @@ mathLink: $\mathbb K$-monoid
 [[K-algebra]]
 # $\mathbb{K}$-monoid
 
-A **$\mathbb{K}$-monoid** is an [[K-algebra]] for which the bilinear product possesses a two-sided identity $1$ and is associative #m/def/falg 
+A **$\mathbb{K}$-monoid** is an [[K-algebra]] for which the bilinear product possesses a two-sided identity $1$ and is associative #m/def/ralg 
 
 - $1 a = a 1 = a$ for all $a \in A$
 - $(ab)c = a(bc)$ for all $a,b,c \in A$

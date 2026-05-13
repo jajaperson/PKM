@@ -1,5 +1,5 @@
 ---
-alias: heat bath
+aliases: heat bath
 tags:
   - public
 ---

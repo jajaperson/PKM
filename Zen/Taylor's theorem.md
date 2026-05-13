@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: Lagrange remainder
+aliases: Lagrange remainder
 ---
 [[Taylor series]]
 # Taylor's theorem

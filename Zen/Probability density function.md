@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: probability density
+aliases: probability density
 ---
 [[Probability theory MOC]]
 # Probability density function

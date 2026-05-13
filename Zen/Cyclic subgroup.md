@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: cyclic group
+aliases: cyclic group
 ---
 [[Subgroup]]
 # Cyclic subgroup

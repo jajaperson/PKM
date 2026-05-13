@@ -5,7 +5,7 @@ tags:
 [[Algebra homomorphism]]
 # Kernel of an algebra homomorphism
 
-The **kernel** $\ker f$ of an [[algebra homomorphism]] $f : A \to B$ over a field $\mathbb{K}$ is simply its [[linear kernel]], #m/def/falg 
+The **kernel** $\ker f$ of an [[algebra homomorphism]] $f : A \to B$ over a field $\mathbb{K}$ is simply its [[linear kernel]], #m/def/ralg 
 i.e. $\ker f = f^{-1} \{ 0 \}$.
 The kernel is necessarily a (two-sided) [[algebra ideal]] of $A$.
 

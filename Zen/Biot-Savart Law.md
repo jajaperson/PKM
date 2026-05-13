@@ -1,5 +1,5 @@
 ---
-alias: magnetic field around a current
+aliases: magnetic field around a current
 tags:
   - public
 ---

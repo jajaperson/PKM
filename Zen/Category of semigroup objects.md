@@ -2,7 +2,7 @@
 categoryName: category of semigroups in $\cat C$
 mathLink: $\Smgr_{\cat C}$
 object: "[[Semigroup object]] in $\\cat C$"
-morphism: "[[homomorphism of semigroup objects]]"
+morphism: "[[Semigroup morphism]]"
 tags:
   - category
   - public
@@ -14,7 +14,7 @@ arguments:
 
 The **category of semigroups in $\cat C$**, denoted $\Smgr_{\cat C}$, is a [[category]] where
 an object is a [[Semigroup object]] in $\cat C$
-and a morphism is a [[homomorphism of semigroup objects]]. #m/def/cat
+and a morphism is a [[Semigroup morphism]]. #m/def/cat
 
 
 #

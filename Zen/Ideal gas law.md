@@ -1,5 +1,5 @@
 ---
-alias: Ideal gas equation of state
+aliases: Ideal gas equation of state
 tags:
   - public
 ---

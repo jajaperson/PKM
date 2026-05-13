@@ -3,9 +3,9 @@ tags:
   - public
 ---
 [[Comonoid object]]
-# Homomorphism of comonoid objects
+# Comonoid morphism
 
-Given [[Comonoid object|comonoids]] $C,C'$ in $\cat C$, a morphism $f : C \to C'$ is a **comonoid homomorphism** iff $\op f: C' \to C$ is a [[homomorphism of monoid objects]] in $\op{\cat C}$. #m/def/cat 
+Given [[Comonoid object|comonoids]] $C,C'$ in $\cat C$, a morphism $f : C \to C'$ is a **comonoid morphism** iff $\op f: C' \to C$ is a [[Monoid morphism]] in $\op{\cat C}$. #m/def/cat 
 Thus we have
 
 ![[cosemigroup-morphism-string.svg#invert|c]]

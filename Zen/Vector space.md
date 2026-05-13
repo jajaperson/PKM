@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: linear space, vector spaces
+aliases: linear space, vector spaces
 ---
 [[Linear algebra MOC]]
 # Vector space

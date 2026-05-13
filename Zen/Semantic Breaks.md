@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: 
+aliases:
   - "#SemBr"
 ---
 [[My style guide]]

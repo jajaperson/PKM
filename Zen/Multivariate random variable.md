@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: random vector
+aliases: random vector
 ---
 [[Real random variable]]
 # Multivariate random variable

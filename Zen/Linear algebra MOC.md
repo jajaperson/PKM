@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
   - "#m/def/linalg"
   - "#m/thm/linalg"
 tags:

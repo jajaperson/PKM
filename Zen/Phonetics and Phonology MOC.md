@@ -1,5 +1,5 @@
 ---
-alias: Phonetics MOC, Phonology MOC
+aliases: Phonetics MOC, Phonology MOC
 tags:
   - public
 ---

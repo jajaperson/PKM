@@ -3,32 +3,43 @@ tags:
   - public
 aliases:
   - comonoid
+mathLink-blocks:
+  counit: coünit law
+  coass: coässociative law
 ---
-[[Internalization]]
+[[Monoidal internalization]]
 # Comonoid object
 
 Let $(\cat C, \otimes, 1, \alpha,\lambda,\rho)$ be a [[monoidal category]].
-A **comonoid** in $\cat C$ is a [[Monoid object|monoid]] in the [[opposite category]] $\op{\cat C}$, #m/def/cat consisting of of the data
+A <dfn>comonoid</dfn> in $\cat C$ is a [[Monoid object|monoid]] in the [[opposite category]] $\op{\cat C}$, #m/def/cat consisting of of the data
 $$
 \begin{align*}
 1 \xleftarrow \epsilon M \xrightarrow \Delta M \otimes M
 \end{align*}
 $$
-where $\epsilon$ is called the **coünit** and $\Delta$ is called the **comultiplication**,
-and these satisfy the **left/right coünit laws** 
+where $\epsilon$ is called the <dfn>coünit</dfn> and $\Delta$ is called the <dfn>comultiplication</dfn>,
+and these satisfy the <dfn>left/right coünit laws</dfn>
 
 ![[coünital-string.svg#invert|c]]
 
-the **coässociative law**,
+^counit
+
+the <dfn>coässociative law</dfn>.
 
 ![[coässociative-string.svg#invert|c]]
 
-and optionally the **cocommutative law** (whence it is called **cocommutative**).
+^coass
 
-![[cocommutative-string.svg#invert|c]]
 
 The category of comonoid objects is [[Category of comonoid objects]], which is simply [[Category of monoid objects|$\Mon_{\op{\cat C}}$]].
 
+## Cocommutative cocomonoid
+
+If $\cat C$ is [[Braided monoidal category|braided]], a comonoid satisfying the <dfn>cocommutative law</dfn>
+
+![[cocommutative-string.svg#invert|c]]
+
+is called <dfn>cocommutative</dfn>.
 
 ## Higher comultiplications
 Note that by coässociativity, we can unambiguously define
@@ -45,6 +56,7 @@ $$
 
 ## See also
 
+- [[Comonoid morphism]]
 - [[Tensor product of (co)monoids|Tensor product of comonoids]]
 
 #

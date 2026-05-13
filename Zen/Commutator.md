@@ -8,7 +8,7 @@ aliases:
 # Commutator
 
 Let $A$ be an [[K-monoid]].
-The **commutator** is a [[Lie algebra|Lie bracket]] defined by #m/def/falg
+The **commutator** is a [[Lie algebra|Lie bracket]] defined by #m/def/ralg
 $$
 \begin{align*}
 [x,y] = xy - yx

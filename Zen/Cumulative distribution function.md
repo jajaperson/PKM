@@ -1,5 +1,5 @@
 ---
-alias: CDF
+aliases: CDF
 tags:
   - public
 ---

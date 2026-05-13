@@ -3,13 +3,13 @@ tags:
   - public
 ---
 [[Module theory MOC]]
-# Annihilator
+# Annihilator ideal
 
 Let $M$ be a (left) $R$-[[module]] and $S \sube M$.
-The **annihilator** $\lAnn R S$ is the (left) [[ideal]] made up of all elements of $R$ which annihilate $S$, #m/def/module  i.e.
+The **annihilator** $\lAnn R S$ in $R$ is the (left) [[ideal]] made up of all elements of $R$ which annihilate $S$, #m/def/module  i.e.
 $$
 \begin{align*}
-\lAnn R S = \{ r \in R : r \odot  S = 0 \}.
+\lAnn R S := \{ r \in R : r \odot  S = 0 \}.
 \end{align*}
 $$
 If $S \leq_{R} M$ is a [[submodule]], then $\lAnn R S$ is a two-sided ideal.
@@ -32,6 +32,8 @@ If $S \leq_{R} M$ is a [[submodule]], then $\lAnn R S$ is a two-sided ideal.
 > so $rt \in \lAnn R S$ as required. <span class="QED"/>
 
 ## See also
+
+Not to be confused with [[Annihilator submodule]].
 
 - [[Faithful module]]
 

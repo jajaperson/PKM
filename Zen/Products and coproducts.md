@@ -2,7 +2,7 @@
 tags:
   - public
 aliases:
-  - categorical product
+  - product
   - coproduct
   - (co)product
 ---

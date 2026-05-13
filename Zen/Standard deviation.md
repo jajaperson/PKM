@@ -1,5 +1,5 @@
 ---
-alias: variance
+aliases: variance
 tags:
   - public
 ---

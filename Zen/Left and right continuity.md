@@ -1,5 +1,5 @@
 ---
-alias: left-continuous, right-continuous
+aliases: left-continuous, right-continuous
 tags:
   - public
 ---

@@ -1,5 +1,5 @@
 ---
-alias:
+aliases:
   - "#m/thm/falg"
   - "#m/def/falg"
 tags:
@@ -39,7 +39,7 @@ See also [[Hopf algebra MOC]] and [[Lie theory MOC]]
 
 ## Other structures
 
-- [[Module over a unital associative algebra]]
+- [[Module over a K-monoid]]
 - [[Module over a Lie algebra]]
 
 #

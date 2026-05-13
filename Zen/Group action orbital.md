@@ -4,7 +4,6 @@ tags:
 aliases:
   - group action rank
   - orbital digraph
-alias:
 ---
 [[Group action]]
 # Orbital

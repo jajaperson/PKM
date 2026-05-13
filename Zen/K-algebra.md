@@ -8,7 +8,7 @@ mathLink: $\mathbb K$-algebra
 [[Algebra theory MOC]]
 # Algebra over a field
 
-An **algebra** $(V, \cdot)$ over a field $\mathbb{K}$ is a [[Vector space]] $V$ over $\mathbb{K}$ equipped with a [[Multilinear map|bilinear]] product $(\cdot): V \times V \to V$, #m/def/falg
+An **algebra** $(V, \cdot)$ over a field $\mathbb{K}$ is a [[Vector space]] $V$ over $\mathbb{K}$ equipped with a [[Multilinear map|bilinear]] product $(\cdot): V \times V \to V$, #m/def/ralg
 i.e. for any $x,y,z \in V$ and $a,b,c \in \mathbb{K}$
 
 1. $(x+y)z = xz + yz$ ^A1

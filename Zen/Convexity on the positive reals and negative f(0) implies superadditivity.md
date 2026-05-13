@@ -1,6 +1,6 @@
 ---
 mathLink: Convexity on the positive reals and $f(0) \leq 0$ implies superadditivity
-alias: strict convexity on the positive reals and $f(0) \leq 0$ implies superadditivity
+aliases: strict convexity on the positive reals and $f(0) \leq 0$ implies superadditivity
 tags:
   - public
 ---

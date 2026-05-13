@@ -1,5 +1,5 @@
 ---
-alias: microstate, macrostate
+aliases: microstate, macrostate
 tags:
   - public
 ---

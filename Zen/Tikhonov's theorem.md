@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: Tychonoff's theorem
+aliases: Tychonoff's theorem
 ---
 [[Compact space]]
 # Tikhonov's theorem

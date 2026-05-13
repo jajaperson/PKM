@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: sample standard deviation
+aliases: sample standard deviation
 ---
 [[Estimator]]
 # Sample variance

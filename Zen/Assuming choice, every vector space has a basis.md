@@ -3,9 +3,9 @@ tags:
   - public
 ---
 [[Vector basis]]
-# Every vector space has a basis
+# Assuming choice, every vector space has a basis
 
-Let $V$ be a vector space, $I$ be a [[Linear (in)dependence|linearly independent]] set in $V$ and $S$ be a [[Span|spanning set]] in $V$ containing $I$.
+Let $V$ be a vector space (or more generally, a [[module]] over a [[division ring]]), $I$ be a [[Linear (in)dependence|linearly independent]] set in $V$ and $S$ be a [[Span|spanning set]] in $V$ containing $I$.
 Then there exists a basis $\mathcal{B}$ for $V$ for which $I \sube \mathcal{B} \sube S$.[^2008]
 #m/thm/linalg 
 Hence any linearly independent set belongs to some basis,

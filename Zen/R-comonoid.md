@@ -9,7 +9,14 @@ mathLink: $\mathcal{K}$-comonoid
 # $\mathcal{K}$-comonoid
 
 Let $\mathcal{K}$ be a commutative ring.
-An **$\mathcal{K}$-comonoid** $\mathcal{A}$ is a [[Comonoid object|comonoid]] in [[Category of modules over a commutative ring]]. #m/def/calg
+A <dfn>$\mathcal{K}$-comonoid</dfn> $\mathcal{A}$ is a [[Comonoid object|comonoid]] in [[Category of modules over a commutative ring]], #m/def/ralg/hopf 
+and thus consists of the data
+$$
+\begin{align*}
+1 \xleftarrow \epsilon \mathcal{A} \xrightarrow \Delta \mathcal{A} \otimes \mathcal{A}
+\end{align*}
+$$
+satisfying the [[Comonoid object#^counit]] and the [[Comonoid object#^coass]].
 
 ## Sweedler notation
 
@@ -19,8 +26,18 @@ $$
 \Delta a = \sum_{(a)}a_{(1)} \otimes a_{(2)}.
 \end{align*}
 $$
+This extends to [[Comonoid object#Higher comultiplications|higher comultiplications]], so that
+$$
+\begin{align*}
+\Delta_{n}a = \sum_{(a)} a_{(1)} \otimes \dots \otimes a_{(n)}.
+\end{align*}
+$$
 The idea is that the tensor $\Delta a$ may be decomposed into a finite sum of separable tensors,
 so we feel free to invoke such a decomposition without fixing it explicitly.
+
+## Results
+
+- [[Dual R-monoid of a R-comonoid]]
 
 ## Examples
 
@@ -30,6 +47,7 @@ so we feel free to invoke such a decomposition without fixing it explicitly.
 
 - [[R-monoid]]
 - [[Grouplike]]
+- [[Coïdeal]]
 
 #
 ---

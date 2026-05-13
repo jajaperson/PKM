@@ -1,5 +1,5 @@
 ---
-alias: standard uniform distribution
+aliases: standard uniform distribution
 tags:
   - public
 ---

@@ -1,5 +1,5 @@
 ---
-alias: calculus
+aliases: calculus
 tags:
   - public
 ---

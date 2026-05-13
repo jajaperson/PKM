@@ -1,5 +1,5 @@
 ---
-alias: specific heat, molar specific heat
+aliases: specific heat, molar specific heat
 tags:
   - public
 ---

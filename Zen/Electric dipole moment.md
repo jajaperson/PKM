@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: electric polarization density
+aliases: electric polarization density
 ---
 [[Electrostatics MOC]]
 # Electric dipole moment

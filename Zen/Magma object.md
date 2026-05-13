@@ -2,7 +2,7 @@
 tags:
   - public
 ---
-[[Internalization]]
+[[Monoidal internalization]]
 # Magma object
 
 Let $(\cat C, \otimes, \mathbb{1}, \alpha, \lambda, \rho)$ be a [[monoidal category]].

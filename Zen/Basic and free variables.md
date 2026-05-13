@@ -1,5 +1,5 @@
 ---
-alias: basic variable, free variable, basic variables, free variables
+aliases: basic variable, free variable, basic variables, free variables
 tags:
   - public
 ---

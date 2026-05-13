@@ -43,7 +43,7 @@ There exists an extension $K_{1}:K_{0}$ such that every nonconstant polynomial $
 > \end{align*}
 > $$
 > which is a contradiction.
-> Since $I$ is proper, invoking Zorn [[Every commutative ring has a maximal ideal|it is contained in a maximal ideal]] $\mathfrak{m}$, giving the the [[field extension]]
+> Since $I$ is proper, invoking Zorn [[Assuming choice, commutative ring has a maximal ideal|it is contained in a maximal ideal]] $\mathfrak{m}$, giving the the [[field extension]]
 > $$
 > \begin{align*}
 > \frac{K_{0}[t_{f}]_{f \in \mathcal{F}}}{\mathfrak{m}} := K_{1} : K_{0},

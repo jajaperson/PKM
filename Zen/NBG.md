@@ -73,4 +73,4 @@ whence follows the important [[Class existence theorem schema]], which generaliz
 
   #
 ---
-#state/stub | #lang/en | #SemBr
+#state/develop  | #lang/en | #SemBr

@@ -1,14 +1,14 @@
 ---
 tags:
   - public
-alias: graded
+aliases: graded
 ---
 [[Algebra theory MOC]]
 # Graded algebra
 
 Let $(M, +, 0)$ be a [[monoid]].
 An [[K-algebra|algebra]] $(A, \cdot)$ over $\mathbb{K}$ is said to be $M$-**graded** iff it is an $M$-[[graded vector space]] $A = \coprod_{\alpha \in M} A_{\alpha}$
-such that #m/def/falg 
+such that #m/def/ralg 
 $$
 \begin{align*}
 A_{\alpha} \cdot A_{\beta} \sube A_{\alpha + \beta}

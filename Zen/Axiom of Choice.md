@@ -35,6 +35,10 @@ $$
 > [!missing]- Proof of equivalence over [[ZF]]
 > #missing/proof
 
+## In other theories
+
+- In [[type theory]] we have the [[Propositional Axiom of Choice]], requiring propositional truncation.
+
 ## Other equivalences
 
 - Set-theoretic

@@ -1,5 +1,5 @@
 ---
-alias: real embedding, unreal embedding
+aliases: real embedding, unreal embedding
 tags:
   - public
 ---

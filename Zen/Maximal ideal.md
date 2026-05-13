@@ -18,7 +18,7 @@ Maximal ideal generalizes [[Irreducible element]] in the same way that [[Prime i
 
 - [[A maximal ideal in a commutative ring is prime]] 
 - [[Condition for a quotient commutative ring to be a field]]
-- [[Every commutative ring has a maximal ideal]]
+- [[Assuming choice, commutative ring has a maximal ideal]]
 
 #
 ---

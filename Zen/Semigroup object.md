@@ -2,7 +2,7 @@
 tags:
   - public
 ---
-[[Internalization]]
+[[Monoidal internalization]]
 # Semigroup object
 
 Let $(\cat C, \otimes, \mathbb{1}, \alpha,\lambda,\rho)$ be a [[monoidal category]].
@@ -32,7 +32,7 @@ then $(M,m,e)$ is called **commutative** iff it satisfies the **commutative law*
 > Commutativity:
 > ![[commutative-string.svg#invert|c|240]]
 
-We can thence define a [[Homomorphism of semigroup objects]] and [[Category of semigroup objects]].
+We can thence define a [[Semigroup morphism]] and [[Category of semigroup objects]].
 These concepts admit duals, see [[Cosemigroup object]].
 
 #

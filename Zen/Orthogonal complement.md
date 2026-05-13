@@ -21,6 +21,8 @@ $$
 > Therefore $A^\perp$ is a subspace.
 > <span class="QED"/>
 
+A slightly more general concept is [[Annihilator submodule]].
+
 ## Properties
 
 Let $A \sube V$ be an arbitrary subset. Then

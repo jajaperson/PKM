@@ -1,5 +1,5 @@
 ---
-alias: series
+aliases: series
 tags:
   - public
 ---

@@ -1,13 +1,13 @@
 ---
-alias: vacuum vector
+aliases: vacuum vector
 tags:
   - public
 ---
 [[Graded module]]
 # Vacuum space
 
-Let $A$ be a $\mathbb{Z}$-[[Graded algebra|graded]] [[K-monoid]][^lie] and $V$ be a [[Graded module|graded]] $A$-[[Module over a unital associative algebra|module]] with the action denoted by $(\odot)$.
-A nonzero vector $v \in V$ is called a **vacuum vector** iff $A^+ \odot v = 0$. #m/def/falg 
+Let $A$ be a $\mathbb{Z}$-[[Graded algebra|graded]] [[K-monoid]][^lie] and $V$ be a [[Graded module|graded]] $A$-[[Module over a K-monoid|module]] with the action denoted by $(\odot)$.
+A nonzero vector $v \in V$ is called a **vacuum vector** iff $A^+ \odot v = 0$. #m/def/ralg 
 The **vacuum space** $\Omega_{V}$ consists of all vacuum vectors and zero
 $$
 \begin{align*}

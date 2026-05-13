@@ -46,6 +46,8 @@ $$
 > Thus $G \amalg H / N$ satisfies the universal property of the fibre product.
 > <span class="QED"/>
 
+The above is a special case of the [[Fibre product is the equalizer of a product|Fibre coproduct is the coëqualizer of a coproduct]].
+
 #
 ---
 #state/tidy | #lang/en | #SemBr 

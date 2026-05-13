@@ -1,5 +1,5 @@
 ---
-alias: closed thermodynamic system, isolated thermodynamic system, open thermodynamic system
+aliases: closed thermodynamic system, isolated thermodynamic system, open thermodynamic system
 tags:
   - public
 ---

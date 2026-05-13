@@ -6,8 +6,9 @@ tags:
 ---
 [[Linear algebra MOC]]
 # Basis of a vector space
-Given a [[Vector space]] $V$,
-a (Hammel) **basis** $\mathcal{B}$ is a [[Linear (in)dependence|linearly independent]] [[Span|spanning set]] of $V$.[^2008] #m/def/linalg
+Given a [[Vector space]] $V$ over $\mathbb{K}$,
+a (Hammel) **basis** $\mathcal{B}$ is a [[Linear (in)dependence|linearly independent]] [[Span|spanning set]] of $V$,[^2008] #m/def/linalg
+or equivalently, an [[linear isomorphism]] $\mathbb{K}^{(S)} \cong_{\mathbb{K}} V$ for some [[Free module|free vector space]] $\mathbb{K}^{(S)}$.
 A basis is particularly useful in the form of an [[Ordered basis]], allowing for vectors and linear maps to be represented as coördinate matrices.
 
 > [!tip]- Basis proofs
@@ -22,7 +23,7 @@ See also [[Dense basis]].
 
 ## Properties
 
-1. [[Every vector space has a basis]]
+1. [[Assuming choice, every vector space has a basis]]
 
 #
 ---

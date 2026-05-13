@@ -9,7 +9,7 @@ aliases:
 # Anticommutator
 
 Let $A$ be a [[K-monoid|$\mathbb K$-ring]].
-The **anticommutator** is a [[Jordan algebra|Jordan product]] defined by #m/def/falg 
+The **anticommutator** is a [[Jordan algebra|Jordan product]] defined by #m/def/ralg 
 $$
 \begin{align*}
 \{ x,y \} = xy + yx

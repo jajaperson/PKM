@@ -6,7 +6,7 @@ tags:
 # Structure constants
 
 Let $(V, \cdot)$ be an [[R-algebra]] structure on a [[free module]] with basis $\{ \mathbf{e}_{i} \}_{i \in I}$.
-The **structure constants** $c_{ij}{}^k$ of $V$ with respect to $\{ \mathbf{e}_{i} \}$ are defined to be the coëfficients of the product of basis vectors expressed in that basis, #m/def/falg 
+The **structure constants** $c_{ij}{}^k$ of $V$ with respect to $\{ \mathbf{e}_{i} \}$ are defined to be the coëfficients of the product of basis vectors expressed in that basis, #m/def/ralg 
 i.e.
 $$
 \begin{align*}

@@ -7,7 +7,7 @@ tags:
 
 Let $A$ be a [[K-monoid]] over $\mathbb{K}$ and $a \in A$ be an [[algebraic element]] with [[Algebraic element|minimal polynomial]] $m_{a}(x) \in \mathbb{K}[x]$.
 The roots of $m_{a}(x)$ are called the **eigenvalues** of $a$,
-and the set of all eigenvalues #m/def/falg 
+and the set of all eigenvalues #m/def/ralg 
 $$
 \begin{align*}
 \Spec(a) = \{ \lambda \in \mathbb{K} : m_{a}(\lambda) = 0 \}

@@ -1,5 +1,5 @@
 ---
-alias: monoids-as-categories
+aliases: monoids-as-categories
 tags:
   - public
 ---

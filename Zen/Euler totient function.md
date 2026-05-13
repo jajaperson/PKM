@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: totient
+aliases: totient
 ---
 [[Number theory MOC]]
 # Euler totient function

@@ -1,5 +1,5 @@
 ---
-alias: light syllable
+aliases: light syllable
 tags:
   - public
 ---

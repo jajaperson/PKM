@@ -1,9 +1,9 @@
 ---
 tags:
   - public
-alias: regular module
+aliases: regular module
 ---
-[[Module over a unital associative algebra]]
+[[Module over a K-monoid]]
 # Regular representation
 
 The **regular representation** $\Lambda : A \to \End(A)$ of an [[K-monoid]] $A$ is a natural [[Representation]] of $A$ carried by itself, where
@@ -12,7 +12,7 @@ $$
 \Lambda(a)b = a b
 \end{align*}
 $$
-Thus every [[K-monoid]] is a [[Module over a unital associative algebra|module]] ${}_{A}A$ over itself.
+Thus every [[K-monoid]] is a [[Module over a K-monoid|module]] ${}_{A}A$ over itself.
 
 
 #

@@ -1,5 +1,5 @@
 ---
-alias: normed quotient
+aliases: normed quotient
 tags:
   - public
 ---

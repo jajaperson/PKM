@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: discrete metric
+aliases: discrete metric
 ---
 [[Topological space]]
 # Discrete topology

@@ -1,5 +1,5 @@
 ---
-alias: Deutsche Genera
+aliases: Deutsche Genera
 tags:
   - public
 ---

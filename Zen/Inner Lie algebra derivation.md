@@ -1,5 +1,5 @@
 ---
-alias: inner derivation
+aliases: inner derivation
 tags:
   - public
 ---

@@ -1,5 +1,5 @@
 ---
-alias: Taylor polynomial, Maclaurin series, Maclaurin polynomial
+aliases: Taylor polynomial, Maclaurin series, Maclaurin polynomial
 tags:
   - public
 ---

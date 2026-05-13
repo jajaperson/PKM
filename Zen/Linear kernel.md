@@ -2,7 +2,7 @@
 aliases:
   - null space
   - nullity
-  - kernel of a linear map
+  - kernel
 tags:
   - public
 ---

@@ -6,7 +6,7 @@ tags:
 # Trace form
 
 Let $(A, \cdot)$ be an [[K-algebra|algebra]] over $\mathbb{K}$ and $\rho : A \to V$ be a finite-dimensional [[representation]] of $\rho$.
-The **trace form** is the [[bilinear form]] on $A$ defined by[^not] #m/def/falg 
+The **trace form** is the [[bilinear form]] on $A$ defined by[^not] #m/def/ralg 
 $$
 \begin{align*}
 \langle x,y \rangle _{\rho} = \Tr_{\rho}(x, y) = \Tr(\rho(x)\rho(y))

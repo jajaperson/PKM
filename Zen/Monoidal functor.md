@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: braided monoidal functor
+aliases: braided monoidal functor
 ---
 [[Monoidal category]]
 # Monoidal functor

@@ -1,5 +1,5 @@
 ---
-alias: Curie temperature
+aliases: Curie temperature
 tags:
   - public
 ---

@@ -8,7 +8,7 @@ tags:
 # Algebra homomorphism
 
 Let $A$ and $B$ be $R$-[[R-algebra|algebras]]
-An **algebra homomorphism** $f : A \to B$ is a $R$-[[linear map]] which preserves the bilinear product, #m/def/falg 
+An **algebra homomorphism** $f : A \to B$ is a $R$-[[linear map]] which preserves the bilinear product, #m/def/ralg 
 i.e. for $x,y \in A$ and $\lambda,\mu \in R$
 1. $f(\lambda x + \mu y)= \lambda f(x) + \mu f(y)$ ^H1
 2. $f(xy)=f(x)f(y)$ ^H2

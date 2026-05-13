@@ -7,7 +7,7 @@ tags:
 [[Algebra theory MOC]]
 # Jordan algebra
 
-A **Jordan algebra** $J$ over $\mathbb{K}$ is commutative non-associative [[K-algebra|algebra]] with a symmetric bilinear product $\{ -,- \} : J \times J \to J$ satisfying the **Jordan identity** #m/def/falg
+A **Jordan algebra** $J$ over $\mathbb{K}$ is commutative non-associative [[K-algebra|algebra]] with a symmetric bilinear product $\{ -,- \} : J \times J \to J$ satisfying the **Jordan identity** #m/def/ralg
 $$
 \begin{align*}
 \{ \{ x,y \},\{ x,x \} \}= \{ x,\{ y,\{ x,x \} \} \}

@@ -30,7 +30,7 @@ for example the existence of [[Torsion]].
 
 ## Properties
 
-- [[Module over a unital associative algebra#Explanation|A module inherits linear structure from the underlying ring]]
+- [[Module over a K-monoid#Explanation|A module inherits linear structure from the underlying ring]]
 
 ## Examples
 

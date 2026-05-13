@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: finite support
+aliases: finite support
 ---
 [[Analysis MOC]]
 # Support of a map

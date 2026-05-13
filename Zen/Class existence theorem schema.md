@@ -17,7 +17,7 @@ for any classes $Y_{1},\dots,Y_{n}$.
 > [!missing]- Proof
 > #missing/proof
 
-All of the [[NBG#Axioms of Class Existence]] are deductible from this theorem.
+All of the [[NBG#Axioms of Class Existence]] are derivable from this theorem.
 
 #
 ---

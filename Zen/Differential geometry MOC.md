@@ -1,7 +1,7 @@
 ---
 tags:
   - public
-alias: 
+aliases:
   - "#m/thm/geo/diff"
   - "#m/def/geo/diff"
 ---

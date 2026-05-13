@@ -1,5 +1,5 @@
 ---
-alias: UFD
+aliases: UFD
 tags:
   - public
 ---

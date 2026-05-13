@@ -15,7 +15,7 @@ tags:
 Let $\mathbb{K}$ be a [[field]].
 The **category of $\mathbb{K}$-monoids** $\Mon_{\mathbb K}$ is a [[category]] where
 an object is a [[K-monoid]] over $\mathbb K$
-and a morphism is a [[Algebra homomorphism|unital algebra homomorphism]]. #m/def/falg
+and a morphism is a [[Algebra homomorphism|unital algebra homomorphism]]. #m/def/ralg
 
 
 #

@@ -1,5 +1,5 @@
 ---
-alias: time interval, space interval
+aliases: time interval, space interval
 tags:
   - public
 ---
