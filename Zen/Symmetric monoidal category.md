@@ -21,7 +21,7 @@ and the [[Strictification theorem for symmetric monoidal categories]].
 
 ## Diagrammatics
 
-The diagrammatics of a monoidal category are [[Single faced string diagram|single faced string diagrams]] in $3+1$ dimensions.
+The diagrammatics of a symmetric monoidal category are [[Single faced string diagram|single faced string diagrams]] in $3+1$ dimensions.
 
 #
 ---

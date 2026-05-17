@@ -33,7 +33,7 @@ If $S \leq_{R} M$ is a [[submodule]], then $\lAnn R S$ is a two-sided ideal.
 
 ## See also
 
-Not to be confused with [[Annihilator submodule]].
+Not to be confused with [[Dual annihilator]].
 
 - [[Faithful module]]
 

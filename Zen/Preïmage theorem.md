@@ -28,7 +28,6 @@ Then the fibre $S= f^{-1} \{ y \}$ is a $C^\infty$ [[submanifold]] of $X$ of dim
 > Thus $f^{-1}\{ y \}$ is an $(n-m)$-dimensional $C^\infty$ differentiable manifold. <span class="QED"/>
 
 > [!check]- Direct proof
-> Since [[Lyle Noakes]] has an irrational distaste for the local submersion theorem, we present a direct proof here.
 > Note that this is essentially the same as the above proof, just with the content of the proof of the [[Immersion and submersion|local submersion theorem]] absorbed.
 > 
 > Let $x \in f^{-1} \{ y \}$.

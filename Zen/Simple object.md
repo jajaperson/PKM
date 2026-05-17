@@ -8,7 +8,7 @@ tags:
 Let $\cat C$ be a [[category]].
 An object $X \in \cat C$ is called **simple** iff its only quotients (in the sense of [[Equalizer and coëqualizer|coëqualizers]]) are the [[Initial and terminal objects|terminal object]] and $X$ itself.[^1] #m/def/cat
 If $\cat C$ is [[Abelian category|abelian category]],
-it is sufficient for $X$ to have no [[subobject|subobjects]].
+it is sufficient for $X$ to have no [[Subobject|subobjects]].
 
 ## Examples
 

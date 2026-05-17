@@ -6,6 +6,7 @@ aliases:
 mathLink-blocks:
   counit: coünit law
   coass: coässociative law
+  cocomm: cocommutative law
 ---
 [[Monoidal internalization]]
 # Comonoid object
@@ -24,20 +25,22 @@ and these satisfy the <dfn>left/right coünit laws</dfn>
 
 ^counit
 
-the <dfn>coässociative law</dfn>.
+and the <dfn>coässociative law</dfn>.
 
 ![[coässociative-string.svg#invert|c]]
 
 ^coass
 
 
-The category of comonoid objects is [[Category of comonoid objects]], which is simply [[Category of monoid objects|$\Mon_{\op{\cat C}}$]].
+The category of comonoid objects is [[Category of comonoid objects]], which is simply the [[opposite category]] of [[Category of monoid objects|$\Mon_{\op{\cat C}}$]].
 
 ## Cocommutative cocomonoid
 
-If $\cat C$ is [[Braided monoidal category|braided]], a comonoid satisfying the <dfn>cocommutative law</dfn>
+If $\cat C$ is [[Symmetric monoidal category|symmetric]], a comonoid satisfying the <dfn>cocommutative law</dfn>
 
 ![[cocommutative-string.svg#invert|c]]
+
+^cocomm
 
 is called <dfn>cocommutative</dfn>.
 

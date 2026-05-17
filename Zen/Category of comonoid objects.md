@@ -25,7 +25,7 @@ then $\cat{Comon}_{\cat C}$ is a [[cartesian category]] under the natural tensor
 ## Related categories
 
 - There is an evident forgetful functor $\cat{Comon}_{\cat C} \to \cat C$, [[Monoidal functor|monoidal]] if $\cat C$ is [[Symmetric monoidal category|symmetric]].
-- [[Category of monoid objects]] = $\op{{\opn{Comon}_{\op{\cat C}}}}$
+- [[Category of monoid objects]] = $\op{{\cat{Comon}_{\op{\cat C}}}}$
 
 #
 ---

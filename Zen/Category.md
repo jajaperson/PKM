@@ -41,7 +41,7 @@ These notions are interchanged as is notationally convenient.
 ## See also
 
 - See also [[Glossary of categories]] and [[Opposite category]].
-- Morphisms come in different shapes and sizes — see [[Morphism]]
+- Morphisms come in different varieties — see [[Morphism]].
 - There are also different kinds of category — see [[Types of Category]].
 - Reasoning about categories is often done through a [[Commutative diagram]]
 - [[Things as categories]]

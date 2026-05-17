@@ -21,7 +21,7 @@ $$
 > Therefore $A^\perp$ is a subspace.
 > <span class="QED"/>
 
-A slightly more general concept is [[Annihilator submodule]].
+A slightly more general concept is [[Dual annihilator]].
 
 ## Properties
 
@@ -106,6 +106,7 @@ Other properties include
 ## See also
 
 - [[Orthogonal complement polarity]]
+- [[Dual annihilator]]
 
 #
 ---

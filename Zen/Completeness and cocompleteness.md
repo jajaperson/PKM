@@ -6,6 +6,8 @@ aliases:
   - finitely cocomplete
   - (co)complete
   - finitely (co)complete
+  - bicomplete
+  - finitely bicomplete
 tags:
   - public
 ---
@@ -18,6 +20,9 @@ A [[category]] $\cat C$ is said to be #m/def/cat
   $\cat C$ has all $\cat J$-[[Limits and colimits|(co)limits]].
 - **(co)complete** iff for every [[small category]] $\cat J$, 
   $\cat C$ has all $\cat J$-[[Limits and colimits|(co)limits]].
+
+If $\cat C$ is both (finitely) complete and (finitely) cocomplete, 
+it is called <dfn>(finitely) bicomplete</dfn>.
 
 ## Properties
 

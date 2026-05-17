@@ -24,10 +24,10 @@ $$
 $$
 where naturality in $F$ means for $\vartheta : F \Rightarrow G : \op{\cat C} \to \Set$
 
-![[Yoneda_F_Nat.png#invert|500]]
+![[Yoneda_F_Nat.png#invert|500|c]]
 
 commutes; and naturality in $X$ means for $h \in \cat C(X,F)$
-![[Yoneda_X_Nat.png#invert|500]]
+![[Yoneda_X_Nat.png#invert|500|c]]
 
 commutes.[^2010]
 
