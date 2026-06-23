@@ -7,32 +7,33 @@ mathLink-blocks:
 [[Category theory MOC]]
 # Yoneda lemma
 
-Let $\cat C$ be a [[locally small category]].
+Let $\cat C$ be a category.[^size]
 For every object $X \in \cat C$ and every [[Presheaf]] $F : \op{\cat C} \to \Set$
 we have
 $$
 \begin{align*}
- \Set^{\op{\cat C}}(\yo X, F) \cong FX
+\PSh(\cat C) (\yo X, F) \cong FX
 \end{align*}
 $$
 where $\yo X = \cat C(-,X)$ is the [[Yoneda embedding]].
-Moreover, this [[bijection]] is a [[natural isomorphism]] in $F$ and $X$
+Moreover, this [[Surjectivity, injectivity, and bijectivity|bijection]] is [[natural isomorphism|natural]] in $F$ and $X$
 $$
 \begin{align*}
-\mathrm{H} := \Set^{\op{\cat C}}(\yo \times 1) \Rightarrow \mathrm{eval} : \cat C \times \Set^{\op{\cat C}} \to \Set
+\mathrm{H} := {\Hom_{\cat C} }\circ (\yo \times 1) \Rightarrow \mathrm{Eval} : \cat C \times \PSh(\cat C) \to \Set
 \end{align*}
 $$
 where naturality in $F$ means for $\vartheta : F \Rightarrow G : \op{\cat C} \to \Set$
 
-![[Yoneda_F_Nat.png#invert|500|c]]
+![[yo-natural-1.svg#invert|c|https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXFBTaChcXGNhdCBDKShcXHlvIFgsIEYpIl0sWzAsMiwiXFxQU2goXFxjYXQgQykoXFx5byBYLCBHKSJdLFsyLDAsIkZYIl0sWzIsMiwiR1giXSxbMCwxLCJcXFBTaChcXGNhdCBDKShcXHlvIFgsIFxcdmFydGhldGEpIiwyXSxbMCwyLCJcXG1hdGhybSBIX3tYLEZ9IiwwLHsib2Zmc2V0IjotMX1dLFsxLDMsIlxcbWF0aHJtIEhfe1gsIEZ9IiwwLHsib2Zmc2V0IjotMX1dLFsyLDAsIiIsMCx7Im9mZnNldCI6LTF9XSxbMywxLCIiLDAseyJvZmZzZXQiOi0xfV0sWzIsMywiXFx2YXJ0aGV0YV9YIl1d]]
 
-commutes; and naturality in $X$ means for $h \in \cat C(X,F)$
-![[Yoneda_X_Nat.png#invert|500|c]]
+commutes; and naturality in $X$ means for $f \in \cat C(X,Y)$
+
+![[yo-natural-2.svg#invert|c|https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXFBTaChcXGNhdCBDKShcXHlvIFgsIEYpIl0sWzAsMiwiXFxQU2goXFxjYXQgQykoXFx5byBZLCBGKSJdLFsyLDAsIkZYIl0sWzIsMiwiRlkiXSxbMSwwLCJcXFBTaChcXGNhdCBDKShcXHlvIGYsIEYpIl0sWzMsMiwiRmYiLDJdLFswLDIsIlxcbWF0aHJtIEhfe1gsRn0iLDAseyJvZmZzZXQiOi0xfV0sWzEsMywiXFxtYXRocm0gSF97WSxGfSIsMCx7Im9mZnNldCI6LTF9XSxbMywxLCIiLDAseyJvZmZzZXQiOi0xfV0sWzIsMCwiIiwxLHsib2Zmc2V0IjotMX1dXQ==]]
 
 commutes.[^2010]
 
 > [!check]- Proof
-> For $\vartheta \in \Set^{\op{\cat C}}(\yo X, F)$ we have $\vartheta_{X} : \cat C(X,X) \to FX$.
+> For $\vartheta \in \PSh(\cat C)(\yo X, F)$ we have $\vartheta_{X} : \cat C(X,X) \to FX$.
 > Let $x_{\vartheta} := \vartheta_{X}(1_{X}) \in FX$.
 > 
 > Conversely, given an $x \in FX$, we can define $\vartheta_{x} : \yo X \Rightarrow F : \op{\cat C} \to \Set$ as follows:
@@ -59,7 +60,7 @@ commutes.[^2010]
 > $$
 > so $\vartheta_{x}$ is indeed natural.
 > 
-> Now we calculate $\vartheta_{x_{\vartheta}}$ for $\vartheta \in \Set^{\op{\cat C}}(\yo X,F)$.
+> Now we calculate $\vartheta_{x_{\vartheta}}$ for $\vartheta \in \PSh(\cat C)(\yo X,F)$.
 > From the above definitions, for $h \in \cat C(X',X)$ we have
 > $$
 > \begin{align*}
@@ -84,14 +85,14 @@ commutes.[^2010]
 > Therefore
 > $$
 > \begin{align*}
-> \mathrm{H}_{X,F} : \Set^{\op{\cat C}}(\yo X, F) &\to FX \\
+> \mathrm{H}_{X,F} : \PSh(\cat C)(\yo X, F) &\to FX \\
 > \vartheta &\mapsto x_{\vartheta}
 > \end{align*}
 > $$
 > defines a bijection for any $X,F$.
 > 
-> For naturality in $F$, suppose $\vartheta \in \Set^{\op{\cat C}}(F,G)$
-> Then for any $\varphi \in \Set^{\op{\cat C}}(\yo X, F)$ we have
+> For naturality in $F$, suppose $\vartheta \in\PSh(\cat C)(F,G)$
+> Then for any $\varphi \in \PSh(\cat C)(\yo X, F)$ we have
 > $$
 > \begin{align*}
 > \mathrm{H}_{X,F}(x_{\phi}) &= \vartheta_{X}\, x_{\phi} = \vartheta_{X} \, \phi_{X} (1_{X}) = (\vartheta\phi)_{X}(1_{X}) \\
@@ -102,10 +103,10 @@ commutes.[^2010]
 > so the required diagram commutes.
 > 
 > For naturality in $X$, suppose $h \in \cat C(X,Y)$.
-> Then for $\psi \in \Set^{\op{\cat C}}(\yo Y,F)$ we have
+> Then for $\psi \in \PSh(\cat C)(\yo Y,F)$ we have
 > $$
 > \begin{align*}
-> \mathrm{H}_{X,F} \, \Set^{\op{\cat C}}(\yo h,F)\, \psi 
+> \mathrm{H}_{X,F} \, \PSh(\cat C)(\yo h,F)\, \psi 
 > &= \mathrm{H}_{X,F} (\psi (\yo h)) \\
 > &= (\psi (\yo h))_{X}\,(1_{X}) \\
 > &= \psi_{X}(\yo h)_{X}\,(1_{X}) \\
@@ -126,8 +127,10 @@ commutes.[^2010]
 - The [[Yoneda perspective]]
 - [[Cayley's theorem]]
 
-  [^2010]: 2010\. [[Sources/@awodeyCategoryTheory2010|Category theory]], §8.3, pp. 189–192
+[^2010]: 2010\. [[Sources/@awodeyCategoryTheory2010|Category theory]], §8.3, pp. 189–192
 
 #
 ---
 #state/tidy | #lang/en | #SemBr
+
+[^size]: We ignore size conditions. In [[ZF]] and conservative extensions it is required that $\cat C$ be a [[locally small category]].

@@ -52,7 +52,7 @@ Then $f_{0} \simeq f_{1}$[^h] iff $\deg f_{0} = \deg f_{1}$. #m/thm/homotopy
 > Then $\ex \varphi_{s}(1) = 1 = \ex \varphi_{s}(1)$ for all $s \in [0,1]$.
 > Note that $\ex \times \id : [0,1] \times [0,1] \to \mathbb{S}^1 \times [0,1]$ is just the natural projection for the [[quotient topology]],
 > and thus by its universal property there exists a unique continuous $H : \mathbb{S} \times [0,1] \to \mathbb{S}^1$ such that $H \circ (\ex \times \id) = \ex \circ \Phi$.
-> This unique $H$ defines a [[Homotopy of maps|homotopy]] $f_{0} \simeq f_{1}$, since
+> This unique $H$ defines a [[Homotopy of continuous maps|homotopy]] $f_{0} \simeq f_{1}$, since
 > $$
 > \begin{align*}
 > H(\ex t, k) = \ex \varphi_{k}(t) = f_{k}(\ex t)
@@ -61,7 +61,7 @@ Then $f_{0} \simeq f_{1}$[^h] iff $\deg f_{0} = \deg f_{1}$. #m/thm/homotopy
 > for all $k \in \{ 0,1 \}$ and $\ex$ is a [[monomorphism]], implying $H(t, k) = f_{k}(t)$ as required.
 > <span class="QED"/>
 
-[^h]: [[Homotopy of maps]]
+[^h]: [[Homotopy of continuous maps]]
 
 #
 ---

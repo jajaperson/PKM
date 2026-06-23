@@ -7,10 +7,11 @@ aliases:
 [[Category theory MOC]]
 # Category semigroup
 
-Let $R$ be a [[commutative ring]] and $\cat C$ be a [[Small category]].
-The **category ring** $R\cat C$ is an [[R-semigroup]] constructed from the [[free module]] $R^{(\cat C)}$. #m/def/cat 
-This is a generalization of the [[Monoid ring]] in light of [[Monoids as categories]].
-In the case $\Ob(\cat C)$ is finite, this construction gives an [[Ring extension|extension ring]] of $R$ and is called the **category ring** which we denote by $R[\cat C]$.
+Let $R$ be a [[commutative ring]] and $\cat C$ be a [[small category]].
+The <dfn>category rng</dfn> $\mathcal{K} \cat C$ is a [[R-semigroup]] constructed from the [[free module]] $\mathcal{K} ^{(\cat C_{1})}$. #m/def/cat 
+This is a generalization of the [[monoid ring]] in light of [[monoids as categories]].
+In the case $\Ob(\cat C)$ is finite, this construction gives an [[Ring extension|extension ring]] of $\mathcal{K}$
+called the <dfn>category ring</dfn>.
 
 ## Construction
 

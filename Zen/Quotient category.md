@@ -14,7 +14,7 @@ $$
 $$
 ## Examples
 
-- [[Naïve homotopy category]] $\hTop = \Top / {\simeq}$ where $\simeq$ is [[Homotopy of maps]].
+- [[Naïve homotopy category]] $=\Top / {\simeq}$ where $\simeq$ is [[Homotopy of continuous maps]].
 
 #
 ---

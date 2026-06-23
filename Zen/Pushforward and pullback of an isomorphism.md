@@ -5,13 +5,12 @@ tags:
 [[Pushforward and pullback of morphisms]]
 # Pushforward and pullback of an isomorphism
 
-Let $f : X \to Y$ be a morphism in an arbitrary category $\cat C$,
-and $X,Y,Z \in \cat C$
+Let $f : X \to Y$ be a morphism in an arbitrary category $\cat C$.
 Then the following conditions are equivalent #m/thm/cat 
 
 - $f : X \to Y$ is an [[Morphism|isomorphism]]
-- $f_{\star} : \cat C(Z, X) \to \cat C(Z, Y)$ is a bijection
-- $f^\star : \cat C(Y, Z) \to \cat C (X, Z)$ is a bijection
+- $f_{\star} : \cat C(Z, X) \to \cat C(Z, Y)$ is a bijection for all $Z \in \cat C_{0}$.
+- $f^\star : \cat C(Y, Z) \to \cat C (X, Z)$ is a bijection for all $Z \in \cat C_{0}$.
 
 > [!check]- Proof
 > Suppose $f : X \to Y$ is an isomorphism.

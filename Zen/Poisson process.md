@@ -16,6 +16,9 @@ and the time between arrivals are [[Independence of random variables|independent
 > [!missing]- Proof
 > #missing/proof
 
+> [!warning] 
+> This can be generalized
+
 #
 ---
 #state/develop | #lang/en | #SemBr

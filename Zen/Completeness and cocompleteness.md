@@ -26,7 +26,7 @@ it is called <dfn>(finitely) bicomplete</dfn>.
 
 ## Properties
 
-1. [[Finite (co)completeness criterion]]
+1. [[Finite (co)completeness criteria]]
 
 ## See also
 

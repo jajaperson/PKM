@@ -12,7 +12,7 @@ The name comes from [[Chevalley's theorem]], which states that for [[Characteris
 
 ## Equivalent characterizations
 
-- The [[Jacobson radical]] $J(H)$ is a [[Hopf ideal]]
+- The [[Jacobson radical]] $\opn{Jac}(H)$ is a [[Hopf ideal]]
 
 > [!missing]- Proof
 > #missing/proof

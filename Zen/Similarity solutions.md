@@ -24,7 +24,17 @@ $$
 We apply the transformation
 $$
 \begin{align*}
-\vthree{x}{t}{u} \mapsto \vthree{kx}{k^\beta}{k^\gamma}
+\begin{bmatrix}
+x \\
+t \\
+u
+\end{bmatrix}
+\mapsto
+\begin{bmatrix}
+kx \\
+k^\beta \\
+k^\gamma
+\end{bmatrix}
 \end{align*}
 $$
 where $\beta$ and $\gamma$ are to be determined (although one may turn out to be free).

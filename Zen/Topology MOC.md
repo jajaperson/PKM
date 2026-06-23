@@ -82,11 +82,15 @@ and finally the universal property.
   - See [[Topology counterexamples MOC]]
 - Common
   - [[Metric topology]]
-- Shapes
-  - [[Sphere space]]
-  - [[Möbius strip]]
-  - [[Unit circle topology]]
-  - [[Klein bottle]]
+
+
+## Spaces
+
+- [[CW complex]]
+    - [[Sphere space]]
+    - [[Disc space]]
+    - [[Möbius strip]]
+    - [[Klein bottle]]
 
 ## Related
 

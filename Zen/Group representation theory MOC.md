@@ -47,7 +47,7 @@ The main category of interest here is  [[Category of group representations]].
 
 ## Misc
 
-- [[McKay graph]]
+- [[McKay quiver]]
 
 #
 ---

@@ -28,7 +28,9 @@ for any [[Commutative diagram|finite diagram]] $\mathscr{D} : \cat J \to \cat C$
 A functor which is both left and right exact is simply called an **exact functor**.
 A more general notion is [[Continuity and cocontinuity]] of functors.
 
-The concept originated in the context of [[Exact functor on abelian categories]].
+## See also
+
+- The concept originated in the context of [[Exact functor on abelian categories]].
 
 #
 ---

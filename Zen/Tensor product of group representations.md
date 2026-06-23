@@ -8,7 +8,7 @@ tags:
 # Tensor product of group representations
 
 Given two representations $\mathfrak{X} : G \to \mathrm{GL}(V)$ and $\mathfrak{Y} : G \to \mathrm{GL}(W)$,
-the **tensor product** $\mathfrak{X} \otimes \mathfrak{Y} : G \to \mathrm{GL(V \otimes W)}$ is defined using the [[tensor product of linear maps]] as
+the **tensor product** $\mathfrak{X} \otimes \mathfrak{Y} : G \to \mathrm{GL(V \otimes W)}$ is defined using the [[Tensor product of linear maps over a commutative ring]] as
 $$
 \begin{align*}
 (\mathfrak{X} \otimes \mathfrak{Y})(G) = \mathfrak{X}(G) \otimes \mathfrak{Y}(G)

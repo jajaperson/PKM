@@ -4,11 +4,11 @@ aliases:
 tags:
   - public
 ---
-[[Ball space]]
+[[Disc space]]
 # Brouwer's fixed point theorem
 
-Let $f: \mathbb{B}^n \to \mathbb{B}^n$ be a continuous function.
-Then $f$ has a fixed point, i.e. there exists $x \in \mathbb{B}^n$ such that $f(x) = x$. #m/thm/topology 
+Let $f: \mathbb{D}^n \to \mathbb{D}^n$ be a continuous function.
+Then classically, $f$ has a fixed point, i.e. there exists $x \in \mathbb{D}^n$ such that $f(x) = x$. #m/thm/topology 
 
 > [!missing]- Proof
 > #missing/proof 
@@ -38,11 +38,11 @@ Then $f$ has a fixed point, i.e. there exists $x \in \mathbb{B}^n$ such that $f(
 
 The **retraction theorem** for an $(n+1)$-ball is equivalent to Brouwer's theorem for an $n+1$-ball, which states
 
-> There exists no continuous [[Topological retraction|retraction]] $r : \mathbb{B}^{n+1} \to \mathbb{S}^n$,
+> There exists no continuous [[Topological retraction|retraction]] $r : \mathbb{D}^{n+1} \to \mathbb{S}^n$,
 > i.e. no continuous $r$ such that $r\iota = \id_{{\mathbb{S}^n}}$.
 
 > [!check]- Beweis von Äquivalenz
-> Sei $p(n)$ und $q(n)$ der Retraktionssatz bzw. der Fixpunktsatz von Brouwer für $\mathbb{B}^{n+1}$.
+> Sei $p(n)$ und $q(n)$ der Retraktionssatz bzw. der Fixpunktsatz von Brouwer für $\mathbb{D}^{n+1}$.
 > 
 > Angenommen $\neg q(n)$, existiert ein stetiges $f: \mathbb B^{n+1} \to \mathbb B^{n+1}$ mit $f(x) \neq x$ für jedes $x \in \mathbb B^{n+1}$.
 > Dann ist das oben definierte $r : \mathbb B^{n+1} \to \mathbb S^n$ stetig, und $r \iota = \id_{\mathbb S^n}$, d.h. $\neg p(n)$.

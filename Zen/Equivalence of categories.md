@@ -8,7 +8,7 @@ aliases:
 # Equivalence of categories
 
 **Equivalence** of categories is a weakening of [[isomorphism of categories]] which in the majority of cases is actually more appropriate.
-Equivalent categories are “almost” the same in that their categorical properties coïncide.
+Equivalent categories are “almost” the same in that their categorical properties coïncide.[^1]
 An **equivalence** of categories $\cat C,\cat D$ is a pair $F : \cat C \leftrightarrows \cat D : G$ of functors such that
 $$
 \begin{align*}
@@ -27,3 +27,5 @@ We also see equivalence of categories is a special case of an [[Adjoint functor|
 #
 ---
 #state/tidy | #lang/en | #SemBr
+
+[^1]: This is somewhat circular, since what we typically mean by “categorical property” is a property invariant under equivalence of categories.

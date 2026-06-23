@@ -7,7 +7,7 @@ aliases:
 [[Group representation theory MOC]]
 # Maschke's theorem
 
-Let $G$ be a [[finite group]]
+Let $G$ be a [[finite group]].
 Then the [[group ring]] $\mathbb{K}[G]$ is [[Semisimple ring|semisimple]] iff [[Characteristic|$\opn{char}\mathbb K$]] does not divide $\abs G$.  #m/thm/rep2
 
 > [!check]- Proof of semisimplicity for coprime characteristic
@@ -73,6 +73,10 @@ and thus any [[representation of a compact group]] is the direct sum of unitary 
 
 This core statement of group representation theory allows for the [[Decomposition of a representation]], 
 and therefore reduces the task of classifying representations to classifying finite ones.
+
+## See also
+
+- [[Maschke's theorem for Hopf algebras]]
 
 #
 ---

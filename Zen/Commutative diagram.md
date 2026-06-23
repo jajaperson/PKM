@@ -10,6 +10,11 @@ tags:
 
 A **commutative diagram** is a directed graph with morphisms as edges and objects as vertices, such that any two paths sharing the same initial and final vertex are the same.[^br]
 The diagram is thence said to **commute**.
+For example, to say
+
+![[commutative-triangle.svg#invert|c]]
+
+commutes is to say that $g f = h$.
 
 [^br]: 2020, [[@bradleyTopologyCategoricalApproach2020|Topology: A categorical approach]], p. 4
 

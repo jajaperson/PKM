@@ -2,10 +2,10 @@
 tags:
   - public
 ---
-[[McKay graph]]
+[[McKay quiver#McKay quiver of a group in nice characteristic]]
 # Spectrum of a McKay graph
 
-Let $W$ be a $\mathbb{K}[G]$-module affording character $\eta$ and $\Gamma_{W}(G)$ be its [[McKay graph]] with adjacency matrix $A_{W}(G) = (a_{ij})$.
+Let $W$ be a $\mathbb{K}[G]$-module affording character $\eta$ and $\Gamma_{W}(G)$ be its [[McKay quiver]] with adjacency matrix $A_{W}(G) = (a_{ij})$.
 Then the eigenvectors of $A_{W}(G)$ are the columns of the [[character table]] for $G$,
 and the eigenvalues are the corresponding values of $\eta$. #m/thm/rep2 
 

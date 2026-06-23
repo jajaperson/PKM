@@ -2,11 +2,11 @@
 tags:
   - public
 ---
-[[Category ring]]
+[[Category rng]]
 # Modules over a category ring
 
 Let $\cat C$ be a category with finite $\Ob(\cat C)$.
-Then a [[Module over a K-monoid|module]] over the the [[Category ring|category ring]] $\mathbb{K} [\cat C]$ is equivalent to a [[functor]] $\cat C \to \Vect_{\mathbb{K}}$, #m/thm/rep
+Then a [[Module over a K-monoid|module]] over the the [[Category rng|category ring]] $\mathbb{K} \cat C$ is equivalent to a [[functor]] $\cat C \to \Vect_{\mathbb{K}}$, #m/thm/rep
 and we have an [[equivalence of categories]][^1] 
 $$
 \begin{align*}

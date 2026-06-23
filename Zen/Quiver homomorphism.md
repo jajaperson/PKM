@@ -5,47 +5,54 @@ tags:
 [[Graph theory MOC]]
 # Quiver homomorphism
 
-A **homomorphism** $\eta : \Gamma_{1} \to \Gamma_{2}$ of [[quiver|quivers]] $\Gamma_{1}, \Gamma_{2} : \cat Q \to \Set$ is just a [[natural transformation]] of the corresponding functors, #m/def/cat
-i.e. a pair of functions $\eta_{V} : \Gamma_{1}V \to \Gamma_{2}V$ and $\eta_{E} : \Gamma_{1}E \to \Gamma_{2}E$ mapping vertices and edges respectively such that
+A **homomorphism** $f : \Gamma \to \Delta$ of [[quiver|quivers]] is a pair of functions
 $$
 \begin{align*}
-(\Gamma_{2}s)(\eta_{E}(a)) &= \eta_{V}((\Gamma_{1}s)(a)) \\
-(\Gamma_{2}t)(\eta_{E}(a)) &= \eta_{V}((\Gamma_{1}t)(a)) 
+f_{0} &: \Gamma_{0} \to \Delta_{0}
+&
+f_{1} &: \Gamma_{1} \to \Delta_{1}
 \end{align*}
 $$
-^H1
-
-for all $a \in \Gamma_{1}E$, or equivalently
+on vertices and edges respectively such that  #m/def/cat
 $$
 \begin{align*}
-\eta_{E} (\Gamma_{1}(v,w)) \sube \Gamma_{2}(\eta_{V}(v),\eta_{V}(w))
+f_{1}(\Gamma(v,w)) \sube \Delta(f_{0}(v), f_{0}(w)).
 \end{align*}
 $$
-^H2
+^M1
 
-for all $v,w \in \Gamma_{1}V$.
+Regarding [[Quiver#^presheaf]], this is precisely a [[natural transformation]] $\Gamma \to \Delta$,
+i.e. we have
+$$
+\begin{align*}
+(\Delta s)(f_{1}(a)) &= f_{0}((\Gamma s)(a)) \\
+(\Delta t)(f_{1}(a)) &= f_{0}((\Gamma t)(a)) 
+\end{align*}
+$$
+^M2
+
 
 > [!check]- Proof these are equivalent
-> Suppose [[#^H1]] holds.
-> Let $b \in \eta_{E}(\Gamma_{1}(v,w))$, i.e. $b = \eta_{E}(a)$ for some $a \in \Gamma_{1}E$ such that $(\Gamma_{1}s)(a) = v$ and $(\Gamma_{2}s)(a) = w$,
+> Suppose [[#^M2]] holds.
+> Let $b \in f_{1}(\Gamma(v,w))$, i.e. $b = f_{1}(a)$ for some $a \in \Gamma_{1}$ such that $(\Gamma s)(a) = v$ and $(\Delta s)(a) = w$,
 > in which case 
 > $$
 > \begin{align*}
-> (\Gamma_{2}s)(b) = \eta_{V}((\Gamma_{1}s)(a)) = \eta_{V}(v) \\
-> (\Gamma_{2}t)(b) = \eta_{V}((\Gamma_{1}t)(a)) = \eta_{V}(w) \\
+> (\Delta s)(b) = f_{0}((\Gamma s)(a)) = f_{0}(v) \\
+> (\Delta t)(b) = f_{0}((\Gamma t)(a)) = f_{0}(w) \\
 > \end{align*}
 > $$
-> and thus $b \in \Gamma_{2}(\eta_{V}(v),\eta_{V}(w))$.
-> Therefore $\eta_{E} (\Gamma_{1}(v,w)) \sube \Gamma_{2}(\eta_{V}(v),\eta_{V}(w))$.
+> and thus $b \in \Delta(f_{0}(v),f_{0}(w))$.
+> Therefore $f_{1} (\Gamma(v,w)) \sube \Delta(f_{0}(v),f_{0}(w))$.
 > 
-> Now suppose [[#^H2]] holds.
-> Let $a \in \Gamma_{1}E$, $v = (\Gamma_{1}s)(a)$, and $w = (\Gamma_{2}t)(a)$.
-> Then $a \in \Gamma_{1}(v,w)$, so $\eta_{E}(a) \in \Gamma_{2}(\eta_{V}(v), \eta_{V}(w))$,
+> Now suppose [[#^M1]] holds.
+> Let $a \in \Gamma_{1}$, $v = (\Gamma s)(a)$, and $w = (\Delta t)(a)$.
+> Then $a \in \Gamma(v,w)$, so $f_{1}(a) \in \Delta(f_{0}(v), f_{0}(w))$,
 > whence
 > $$
 > \begin{align*}
-> (\Gamma_{2}s)(\eta_{E}(a)) = \eta_{V}(v) = \eta_{V}((\Gamma_{1}s)(a)) \\
-> (\Gamma_{2}t)(\eta_{E}(a)) = \eta_{V}(w) = \eta_{V}((\Gamma_{1}t)(a))
+> (\Delta s)(f_{1}(a)) = f_{0}(v) = f_{0}((\Gamma s)(a)) \\
+> (\Delta t)(f_{1}(a)) = f_{0}(w) = f_{0}((\Gamma t)(a))
 > \end{align*}
 > $$
 > as required. <span class="QED"/>

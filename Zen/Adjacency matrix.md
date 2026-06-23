@@ -5,8 +5,8 @@ tags:
 [[Graph theory MOC]]
 # Adjacency matrix
 
-Let $\Gamma$ be a [[Graph|general graph]] (which may be the underlying graph of a [[quiver]]).
-Given two vertices $v,w \in \opn V(\Gamma)$, the **adjacency number** $\abs{\Gamma(v,w)}$ is the number of arcs $v \to w$.[^1]
+Let $\Gamma$ be a [[quiver]].
+Given two vertices $v,w \in \Gamma_{0}$, the **adjacency number** $\abs{\Gamma(v,w)}$ is the number of arcs $v \to w$.[^1]
 If the vertices are enumerated $v_{1},\dots,v_{r}$, then these may be collected in an **adjacency matrix** $A_{\Gamma} = (a_{ij})$ where #m/def/graph 
 $$
 \begin{align*}

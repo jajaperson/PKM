@@ -15,7 +15,7 @@ cssclasses:
 # Category of monoid objects
 
 The <dfn>category of monoids</dfn> in $\cat C$, denoted $\cat{Mon}_{\cat C}$, is a [[category]] where
-an object is a [[Monoid object]] in $\cat C$
+an object is a [[Monoid object|monoid]] in $\cat C$
 and a morphism is a [[Monoid morphism]]. #m/def/cat 
 In particular, $\cat{Mon}_{\Set}$ is the same as [[Category of monoids]].
 

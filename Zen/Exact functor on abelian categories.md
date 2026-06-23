@@ -49,6 +49,9 @@ Thus $F$ is [[Exact functor|exact]] iff it preserves [[Short exact sequence|shor
 > It must also preserve biproducts since it is $\Ab$-enriched.
 > Thus, by the [[(Co)limit construction theorems|limit construction theorems]] we have a left exact functor. <span class="QED"/>
 
+## See also
+
+- [[Faithfully exact functor on abelian categories]]
 
 #
 ---

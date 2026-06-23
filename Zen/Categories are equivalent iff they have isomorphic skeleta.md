@@ -20,7 +20,7 @@ $$
 > Let $I : \opn{Sk}(\cat C) \hookrightarrow \cat C$ be the inclusion functor.
 > We construct a functor $F: \cat C \twoheadrightarrow \opn{Sk}(\cat C)$
 > which maps objects to their unique isomorphic representative.
-> For any $Y \in \cat C$ invoke \gls{ac} to fix an isomorphism $\varphi_X : X \to FY$,
+> For any $Y \in \cat C$ invoke [[Axiom of Choice|AC]] to fix an isomorphism $\varphi_X : X \to FY$,
 > and for a general $f : X \to Y$ define $Ff = \varphi_Y f \varphi_X^{-1}$.
 > Then
 > 

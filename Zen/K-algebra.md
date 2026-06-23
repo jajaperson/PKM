@@ -15,7 +15,7 @@ i.e. for any $x,y,z \in V$ and $a,b,c \in \mathbb{K}$
 2. $z(x+y) = zx + zy$ ^A2
 3. $(ax)(by)=(ab)(xy)$ ^A3
 
-This may be generalized to an [[R-algebra]].
+This may be generalized to a [[R-algebra]].
 
 ## Examples
 
@@ -31,7 +31,7 @@ This may be generalized to an [[R-algebra]].
         - [[Clifford algebra]]
         - [[Monoid ring]]
         - [[Extension field as a unital associative algebra]]
-- [[Category ring]]
+- [[Category rng]]
 - Non-associative
     - [[Lie algebra]]
 

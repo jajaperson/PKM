@@ -12,7 +12,7 @@ tags:
 3. [[Coproduct type]]
 4. [[Empty type]]
 5. [[Unit type]]
-6. [[Extensional identity type]]
+6. [[Extensional equality type]]
 7. [[Universes à la Tarski]]
 
 

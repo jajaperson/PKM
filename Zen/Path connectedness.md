@@ -28,7 +28,7 @@ This is an equivalence relation ([[Connectedness is transitive]]) and the equiva
 - Any $c([0,1])$ is connected
 - Convex subsets of $\mathbb{R}^n$ are connected
 - Every path-connected [[Hausdorff space]] is arc-connected.
-- A space is path-connected iff [[Constant map|constant maps]] form a [[Homotopy of maps|homotopy class]].
+- A space is path-connected iff [[Constant map|constant maps]] form a [[Homotopy of continuous maps|homotopy class]].
 - [[Path connectedness is homotopy invariant]]
 
 #

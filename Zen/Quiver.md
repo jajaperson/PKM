@@ -1,36 +1,48 @@
 ---
 tags:
   - public
+mathLink-blocks:
+  presheaf: quivers as presheaves
 ---
-[[Quiver representation theory MOC]]
+[[Graph theory MOC]]
 # Quiver
 
-A **quiver** is, loosely speaking, a [[category]] minus the algebra #m/def/quiv — the [[oidification]] of a [[set]].
+A quiver is, loosely speaking, a (strict) [[category]] minus the algebra — the [[oidification]] of a [[set]].
+A <dfn>quiver</dfn>[^1] $\Gamma$ consists of #m/def/quiv 
 
-## Category theoretic definition
+- A [[set]] $\Gamma_{0}$ of vertices;
+- For any pair of vertices, a [[set]] $\Gamma(v,w)$ of edges.
 
-[[The walking]] quiver $\cat Q$ to is the [[category]] consisting of objects $E,V$ of edges and nodes and non-identity morphism $s,t : E \to V$ of source and target.
-A quiver is then a [[functor]] $\Gamma : \cat Q \to \Set$.
+These data are conveniently packaged as a [[presheaf]] $\Gamma : \op{\underline{\Theta_{2}}} \to \Set$ on the 2-[[Kronecker category]] $\underline{\Theta_{2}}$,
+also called <dfn>the walking quiver</dfn>:
+We take $\Gamma_{0} = \Gamma(0)$, and if $s$ and $t$, for source and target, are the non-identity morphisms of $\underline{\Theta_{2}}$
+then
+^presheaf
 
-## Notation
-We use the notation
 $$
 \begin{align*}
-\Gamma(v,w) = \{ e \in \Gamma(E) : s(e) = v, t(e) = w \}
+\Gamma(v,w) = \{ e \in \Gamma_{1} : \Gamma s(e) = v, \Gamma t(e) = w \}
 \end{align*}
 $$
-to denote the set of edges between vertices $v$ and $w$.
-As an abuse, we often identify $\Gamma$ with its underlying [[Graph|general graph]].
-See [[Equivalence of quivers and general graphs]].
 
-- A morphism of the [[free category]] $\underline \Gamma$ is called a **path**.
+
+## Further terminology
+
+-  A morphism of the [[free category]] $\underline \Gamma$ is called a **path** of $\Gamma$.
 
 ## See also
 
+- [[Category of quivers]]
 - [[Quiver representation theory MOC]]
 - [[Adjacency matrix]]
 
 
+## Particular quivers
+
+- $n$-[[Kronecker quiver]] $\Theta_{n}$.
+
 #
 ---
-#state/develop | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr
+
+[^1]: A calque of German _Köcher_.

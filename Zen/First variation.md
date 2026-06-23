@@ -60,4 +60,4 @@ Further let $f_{0} \in V$ be a local extremum of $F$.
 
 [^2]: One can either take the [[Gateaux derivative]] or [[Fréchet derivative]], the latter being distinguished by the fact the resulting functional will be linear.
 
-[^3]: cf. [[Homotopy of maps|homotopy]].
+[^3]: cf. [[Homotopy of continuous maps|homotopy]].

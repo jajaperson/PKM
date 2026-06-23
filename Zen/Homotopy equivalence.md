@@ -8,7 +8,7 @@ tags:
 # Homotopy equivalence
 
 A **homotopy equivalence** is an isomorphism in $\hTop$. #m/def/homotopy 
-Topological spaces $X$ and $Y$ are homotopy equivalent iff there exist $f \in \Top(X,Y)$ and $g \in \Top(Y,X)$ so that $gf \simeq \id_{X}$ and $fg \simeq \id_{Y}$ ([[Homotopy of maps]])
+Topological spaces $X$ and $Y$ are homotopy equivalent iff there exist $f \in \Top(X,Y)$ and $g \in \Top(Y,X)$ so that $gf \simeq \id_{X}$ and $fg \simeq \id_{Y}$ ([[Homotopy of continuous maps]])
 
 ## Properties
 

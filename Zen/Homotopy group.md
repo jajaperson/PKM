@@ -16,7 +16,7 @@ $$
 \end{cases}
 \end{align*}
 $$
-The $n$th **homotopy group** $\pi_{n}(X,x_{0})$ is the set of [[Homotopy of maps|homotopy classes]] of such loops with the concatenation operation, i.e. as a set $\pi_{n}(X,x_{0}) = \hTop_{•}((\mathbb{I}^n, \partial \mathbb{I}^n),(X,x_{0}))$. #m/def/homotopy
+The $n$th **homotopy group** $\pi_{n}(X,x_{0})$ is the set of [[Homotopy of continuous maps|homotopy classes]] of such loops with the concatenation operation, i.e. as a set $\pi_{n}(X,x_{0}) = \hTop_{•}((\mathbb{I}^n, \partial \mathbb{I}^n),(X,x_{0}))$. #m/def/homotopy
 Equivalently, $\pi_{n}(X,x_{0})= \hTop_{•}((\mathbb{S}^n,1),  (X,x_{0}))$.
 
 ## Properties

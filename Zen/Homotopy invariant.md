@@ -9,7 +9,7 @@ A **homotopy invariant** is a property that is shared by all homotopic spaces.
 From a categorical perspective, it is a functor from $\hTop$.
 Being **homotopy invariant** is stronger than being a [[Topological property]].
 
-## Homotopy invariants
+## Strong homotopy invariants
 
 - [[Connectedness]], [[Path connectedness]]
 

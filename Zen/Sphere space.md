@@ -14,7 +14,7 @@ $$
 $$
 along with the subspace metric and [[subspace topology]].
 It is thereby an $n$-dimensional [[Topological manifold]],
-and forms the boundary of the $(n+1)$-[[Ball space]].
+and forms the boundary of the $(n+1)$-[[Disc space]].
 
 ## Properties
 

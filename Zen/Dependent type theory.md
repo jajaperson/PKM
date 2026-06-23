@@ -15,7 +15,7 @@ and types may in practice be defined by a [[Context-free grammar]].
 
 ## Type family
 
-A type in a nonempty context is called **type family** or **fibration**. #m/def/type 
+A type in a nonempty context is called **type family** or [[Typal fibration|fibration]] #m/def/type 
 Specifically, if $\Gamma \vdash A$ then a type family over $A$ in context $\Gamma$ is given by a judgement
 $$
 \Gamma. A \vdash B.
@@ -31,9 +31,11 @@ $$
 \Gamma, x : A \vdash b(x) : B(x)
 \end{align*}
 $$
-where $b(x)$ and $B(x)$ are not meant to denote actual functions, but rather the occurance of a substitution, so that $B(y) = B(x)[y / x]$ and $b(y) = b(x)[y / x] : B(y)$.
+where $b(x)$ and $B(x)$ are not meant to denote actual functions, but rather the occurance of a substitution, so that $B(y) = B(x)[y / x]$ and $b(y) = b(x)[y / x] : B(y)$. 
 
 [^2025]: 2025\. [[Sources/@rijkeIntroductionHomotopyType2025|Introduction to Homotopy Type Theory]], §1.2, pp. 13–14.
+
+
 
 #
 ---

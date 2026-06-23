@@ -8,17 +8,27 @@ tags:
   - public
 ---
 [[Homotopy theory MOC]]
-# Homotopy of maps
+# Homotopy of continuous maps
 
-A **homotopy** is a continuous transformation from one continuous map into another.
-Let $f,g \in \Top(X,Y)$.
-Then a homotopy from $f$ to $g$ is a continuous map $H : X \times [0,1] \to Y$ such that $H(x, 0)  = f(x)$ and $h(x,1) = g(x)$. 
-The maps are thereby said to be **homotopic**, denoted with $H: f \simeq g$ #m/def/homotopy
+
+Let $f, g : X \to Y$ be [[Continuity|continuous maps]].
+A <dfn>homotopy</dfn> $H : f \simeq g$ of $f$ into $g$ is, loosely speaking, a continuous deformation of $f$ into $g$.
+In point set topology, this is a continuous map 
+$$
+\begin{align*}
+\mathbb{I} \times X \to Y : (i, x) \mapsto H_{i}(x)
+\end{align*}
+$$
+where $\mathbb{I}$ is the [[real interval]], satisfying the boundary constraints
+$$
+\begin{align*}
+\forall (x \in X)[ h_{0}(x) = f(x) \land h_{1}(x) = g(x) ]
+\end{align*}
+$$
+
+The maps $f,g$ are thereby said to be **homotopic**, denoted with $H: f \simeq g$ #m/def/homotopy
 It is useful to have $h_{t}(x) = H(x,t)$, whereby we can say $h_{0} = f$ and $h_{1} = g$.
-
-![infamous homotopy](https://upload.wikimedia.org/wikipedia/commons/2/26/Mug_and_Torus_morph.gif#invert)
-
-The homotopy relation $\simeq$ is a [[congruence relation]] on $\Top(X,Y)$.
+The [[propositional truncation]] of $(\simeq)$ is a [[congruence relation]] on $\Top(X,Y)$.
 
 > [!check]- Proof
 > Clearly $f \in \Top(X,Y)$ is homotopic to itself via $h(x,t) = f(x)$,
@@ -47,7 +57,7 @@ The homotopy relation $\simeq$ is a [[congruence relation]] on $\Top(X,Y)$.
 ## Homotopy class
 
 The congruence classes of homotopic maps are called **homotopy classes** of maps,
-and form the morphisms in the [[Naïve homotopy category]] $\hTop$,
+and form the morphisms in [[Naïve homotopy category]]
 which is a [[Quotient category]] $\hTop = \Top / {\simeq}$.
 
 ## Other kinds of topological homotopy

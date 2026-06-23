@@ -14,7 +14,7 @@ F : \cat C(X,Y) &\to \cat D(FX, FY) \\
 f &\mapsto Ff
 \end{align*}
 $$
-is injective.
+is injective. #m/def/cat 
 If it is also surjective, the functor is a [[Fully faithful functor]].
 
 #

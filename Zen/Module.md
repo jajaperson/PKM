@@ -24,6 +24,8 @@ for example the existence of [[Torsion]].
 
 [^lr]: If $R$ is a [[commutative ring]] the concepts of left- and right-modules coïncide, but otherwise there is a distinction between left- and right-scalar multiplication.
 
+A module is precisely a [[module object]] in [[Category of abelian groups]].
+
 ## Further terminology
 
 - [[Finitely generated module]]

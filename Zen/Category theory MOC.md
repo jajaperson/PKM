@@ -7,10 +7,6 @@ tags:
 ---
 [[Mathematics MOC]]
 # Category Theory MOC
-Category theory, 
-affectionately called "General Abstract Nonsense" by many mathematicians.
-
-[[History of Category Theory]]
 
 A lot of terminology in category theory is motivated by the [[Category-vector space analogy]].
 
@@ -27,7 +23,17 @@ See [[types of category]].
 
 - Category + Tensor product = [[Monoidal category]]
 - Category + Internal hom = [[Closed category]]
+
+### Other properties
+
+- [[U-powered category]]
+
+### Not exactly a category
+
+- [[Bicategory]]
+- [[Higher category]]
 - [[Displayed category]]
+
 ## Internal constructions
 
 - [[Universal construction]]
@@ -35,9 +41,11 @@ See [[types of category]].
   - [[Initial and terminal objects]]
   - [[Products and coproducts]]
 
-## $n$-morphisms of categories
+## Morphisms of categories
 
 - [[Functor]], [[Natural transformation]]
+- [[Adjoint functor]]
+- [[Equivalence of categories]], [[Isomorphism of categories]]
 
 ## External constructions
 

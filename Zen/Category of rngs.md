@@ -16,7 +16,7 @@ and a morphism is a [[rng homomorphism]]. #m/def/ring
 
 ## Related categories
 
-- [[Category of rings]] is a [[subcategory]]
+- [[Category of rings]] is a [[subcategory]], but not a full one.
 
 #
 ---

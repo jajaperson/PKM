@@ -13,7 +13,7 @@ hence it always has the form $cT$ where $T : X \to *$ is the unique morphism.
 
 ### Topology
 
-- A [[Homotopy of maps|homotopy]] between constant maps is a [[continuous path]]. Therefore, a space is [[Path connectedness|path-connected]] iff all constant maps form a single [[Homotopy of maps|homotopy class]].
+- A [[Homotopy of continuous maps|homotopy]] between constant maps is a [[continuous path]]. Therefore, a space is [[Path connectedness|path-connected]] iff all constant maps form a single [[Homotopy of continuous maps|homotopy class]].
 - A map is null-homotopic iff it is homotopy to a constant map
 
 #

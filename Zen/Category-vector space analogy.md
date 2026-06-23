@@ -5,7 +5,7 @@ tags:
 [[Category theory MOC]]
 # Category-vector space analogy
 
-The is a striking, albeit informal, correspondence between the basic concepts of [[Category theory MOC|category theory]] and [[Linear algebra MOC|linear algebra]].
+There is a striking, albeit informal, correspondence between the basic concepts of [[Category theory MOC|category theory]] and [[Linear algebra MOC|linear algebra]].
 The following table, based on  2011\. [[Sources/@etingofIntroductionRepresentationTheory2011|Introduction to representation theory]], §7.6, is a summary.
 
 | Category theory                        | Linear algebra                                            |

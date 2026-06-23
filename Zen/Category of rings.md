@@ -13,7 +13,7 @@ tags:
 The **category of rings** $\cat{Ring}$ is a [[category]] where
 an object is a [[ring]]
 and a morphism is a [[ring homomorphism]]. #m/def/ring 
-It is a [[subcategory]] of [[Category of rngs]].
+
 
 ## Morphisms
 
@@ -24,6 +24,12 @@ It is a [[subcategory]] of [[Category of rngs]].
 
 - The [[Initial and terminal objects|initial object]] is [[Integers]].
 - The [[Initial and terminal objects|terminal object]] is the [[Zero ring]].
+
+## Related categories
+
+- $\Ring$ is a subcategory of [[Category of rngs]], but not a full one.
+- [[Category of fields]] is a full subcategory of $\Ring$.
+- [[Category of commutative rings]] is a full subcategory of $\Ring$.
 
 #
 ---

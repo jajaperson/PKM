@@ -21,8 +21,8 @@ $$
 and $\mathcal{I} \cap \mathcal{K} = 0$.
 Then any of the following ensure $\mathcal{I}$ is a Hopf ideal:[^1978]
 
-1. $\mathcal{H}$ is [[Finitely generated module|finitely generated]] as a $\mathcal{K}$-module.
-2. $\mathcal{K}$ is [[Noetherian ring|Noetherian]], and $\mathcal{H} / \mathcal{I}$ is [[Module-finite R-monoid]].
+1. $\mathcal{H}$ is [[Module-finite R-monoid|module-finite]].
+2. $\mathcal{K}$ is [[Noetherian ring|Noetherian]], and $\mathcal{H} / \mathcal{I}$ is [[Module-finite R-monoid|module-finite]].
 3. $\mathcal{K}$ is [[Noetherian ring|Noetherian]], and $\mathcal{H} / \mathcal{I}$ is a [[Commutative R-monoid of finite type]].
 
 If instead $\mathcal{H}$ is a Hopf algebra over [[field|$\mathbb{K}$]], then any of the following are sufficient.

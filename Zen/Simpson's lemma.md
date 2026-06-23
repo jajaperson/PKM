@@ -18,7 +18,7 @@ Then every category $\cat A \in \cat C_{1}$ is isomorphic to a category $\cat B 
 > [!check]- Proof
 > Since functors $\cat M \to \cat A$ are precisely morphisms and functors $\cat N \to \cat A$ determine composition,
 > it follows that the isomorphism class of $\cat A$ (as a category)
-> is determined by the isomorphism class of $\cat C_{1}$.
+> is determined by its isomorphism class in $\cat C_{1}$.
 > The same goes in the opposite direction. <span class="QED"/>
 
 A corollary is that any [[Pseudoautistic category|pseudoautistic]] [[category of categories]] containing categories isomorphic to $\cat 2$ and $\cat 3$ is [[Autistic category|autistic]].[^1999]

@@ -1,6 +1,8 @@
 ---
 tags:
   - public
+aliases:
+  - $\Ab$-functor
 ---
 [[Enriched category]]
 # Enriched functor

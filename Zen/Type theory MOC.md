@@ -28,7 +28,7 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
     - [[Axiomatic HoTT]]
     - [[Cubical TT]]
 
-## Types
+## Connectives
 
 - [[Empty type]]
 - [[Unit type]]
@@ -37,11 +37,24 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 
 ### Type constructors
 
+```mermaid
+graph TD;
+    sigma["Σ[a : A] B(a)"]
+    pi["Π[a : A] B(a)"]
+    dorp["A ∐ B"]
+    prod["A × B"]
+    fun["A → B"]
+    sigma-->|"A = 𝟚"|dorp
+    sigma-->|"B(x) = B"|prod
+    pi-->|"A = 𝟚"|prod
+    pi-->|"B(x) = B"|fun
+```
+
 - [[Π-type]] ([[Function type]])
 - [[Σ-type]] ([[Product type]])
 - [[Coproduct type]]
 - [[Identity type]]
-    - [[Extensional identity type]]
+    - [[Extensional equality type]]
 
 ### Special kinds of types
 
@@ -57,11 +70,11 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 
 ## Concepts
 
-- [[Dependent types as fibrations]]
+- [[Internalizing judgemental structure]]
 
 ## Bibliography
 
-- [[@angiuliPrinciplesDependentType2025]]
+- [[@angiuliPrinciplesDependentType2025|PoDTT]]
 
 #
 ---

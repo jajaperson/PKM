@@ -6,7 +6,7 @@ tags:
 # Homotopy of paths
 
 Let $\alpha, \beta : \mathbb{I} \to X$ be [[Continuous path|paths]] with common endpoints, i.e. $\alpha(0) = \beta(0)$ and $\alpha(1) = \beta(1)$.
-Then a **homotopy of paths** $H : \alpha \simeq \beta$ is a [[homotopy of maps]] with the additional constraint that the endpoints are the same for all $t$, #m/def/homotopy i.e. $G : [0,1] \times [0,1] \to X$ with
+Then a **homotopy of paths** $H : \alpha \simeq \beta$ is a [[Homotopy of continuous maps]] with the additional constraint that the endpoints are the same for all $t$, #m/def/homotopy i.e. $G : [0,1] \times [0,1] \to X$ with
 $$
 \begin{align*}
 H(u,0) &= \alpha(u) \\

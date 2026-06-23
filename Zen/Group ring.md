@@ -8,13 +8,19 @@ aliases:
 # Group ring
 
 
-The **group ring** $R[G]$ of a [[group]] $G$ is an [[R-monoid|$R$-monoid]] constructed from the corresponding [[free module]] $R^{(G)}$, such that the product of  and  coïncide.
+The **group ring** $\mathcal{K}G$ of a [[group]] $G$ is a [[Hopf algebra]] constructed by applying the [[Monoidal functor|monoidal]] [[free module]] functor to the structure of the [[Group objects are Hopf monoids|corresponding Hopf monoid]] $G$ in [[Category of sets]], so
+
+- its basis are the group elements;
+- its multiplication on the basis is the group multiplication;
+- its comultiplication is diagonal on basis elements, i.e. its basis are precisely the [[grouplike|grouplikes]] of $\mathcal{K}G$;
+- its antipous is inversion on basis elements.
+
 As such, it is a specialization of the [[monoid ring]].
 
 ## Construction as maps
 
-Let $G$ be a group, and $R$ be a ring. 
-The **group ring** $R[G]$ may be identified with the set of [[Support of a map|maps of finite-support]] $G \to R$,
+Let $G$ be a group, and $\mathcal{K}$ be a ring. 
+The **group ring** $\mathcal{K}G$ may be identified with the set of [[Support of a map|maps of finite-support]] $G \to \mathcal{K}$,
 with the **convolution** and **conjugate** operations defined below,[^simon] 
 where we identify $g \in G$ with $\delta_{g} : h \mapsto [g=h]$.
 The **convolution** operation is defined by
@@ -45,7 +51,7 @@ $$
 
 ### Hilbert space
 
-If $R = \mathbb{C}$, then the group ring can be made into a [[Hilbert space]] with some inner product, usually taken from those listed below.
+If $\mathcal{K} = \mathbb{C}$, then the group ring can be made into a [[Hilbert space]] with some inner product, usually taken from those listed below.
 
 > [!info]- Inner products
 > Two possible inner products on a complex group ring are

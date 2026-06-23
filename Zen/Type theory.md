@@ -5,7 +5,7 @@ tags:
 [[Type theory MOC]]
 # Type theory
 
-A **type theory** is a form of [[formal system]] concerning the construction of types and terms of given types.
+A **type theory** is a kind of [[formal system]] concerned with the construction of types and terms of given types.
 Usually we are interested in [[Dependent type theory|dependent type theories]], where types themselves may be parameterized by terms. 
 Type theories are as diverse as their applications, ranging from [[Foundation of mathematics|foundations of mathematics]] to programming languages.
 

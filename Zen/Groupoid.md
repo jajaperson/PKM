@@ -4,8 +4,9 @@ tags:
 ---
 [[Types of Category]]
 # Groupoid
-A <dfn>groupoid</dfn> is the [[Oidification]] of a [[group]].
-Thus a groupoid is a [[category]] in which all morphisms are [[isomorphism|isomorphisms]]. #m/def/cat
+Infomrally a groupoid is the [[oidification]] of a [[group]],
+or the [[categorification]] of an [[equivalence relation]].
+Thus a <dfn>groupoid</dfn> is a [[category]] in which all morphisms are [[isomorphism|isomorphisms]]. #m/def/cat
 As such, it is a category augmented with an operation on morphisms  $\inv$ 
 (often written as $(-)^{-1}$) 
 such that

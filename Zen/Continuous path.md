@@ -36,7 +36,7 @@ which are quotients modulo traversal and homotopy of paths respectively.
 
 ## Properties
 
-- A path is just a [[homotopy of maps]] from the [[Single point space]], i.e. of constant maps.
+- A path is just a [[Homotopy of continuous maps]] from the [[Single point space]], i.e. of constant maps.
 
 #
 ---
