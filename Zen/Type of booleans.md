@@ -146,13 +146,13 @@ $$
 \end{align*}
 $$
 
-and for any dependent type $\Gamma. \mathbb{2} \vdash A$ we have
+and for any dependent type $\Gamma. \mathbb{2} \vdash A$,
 $$
 \begin{align*}
 ((\mathbf{id}. \mathbf{true})^*, (\mathbf{id}. \mathbf{false})^*) : \opn{Tm}(\Gamma . \mathbb{2}, A) \cong \opn{Tm}(\Gamma, A[\mathbf{id}. \mathbf{true}]) \times \opn{Tm}(\Gamma, A[\mathbf{id}. \mathbf{false}]),
 \end{align*}
 $$
-where we have used the pullback meta-function [[Cartesian calculus of substitutions#^PB3]] and the universal property of the [[Products and coproducts|product]] in the metatheory.
+is a bijection natural in $\Gamma$, where we have used the pullback meta-function [[Cartesian calculus of substitutions#^PB3]] and the universal property of the [[Products and coproducts|product]] in the metatheory.
 
 #
 ---

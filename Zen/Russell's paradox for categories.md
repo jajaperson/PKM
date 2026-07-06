@@ -23,6 +23,7 @@ It states that there cannot exist a **Russellian** [[category of categories]] $\
 > and by universality there exists $\tilde{\cat D} \in \cat C$ such that $\cat D \cong \tilde{\cat D}$,
 > hence $\tilde{\cat D}$ is not pseudoatustic and thus $\tilde{\cat D} \in \cat D$, so $\cat D$ is autistic, a contradiction. <span class="QED"/>
 
+
   [^1999]: 1999\. [[Sources/@simpsonFOMRussellParadox1999|FOM: Russell paradox for naive category theory]]
 
 #

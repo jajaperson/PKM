@@ -24,7 +24,7 @@ Thus $\mathbb{Z}_{p}$ and $\mathbb{Q}$ are the only [[Prime field|prime fields]]
 > $$
 > Then $Q \cong \mathbb{Q}$. <span class="QED"/>
 
-Thus [[Category of fields of characteristic p]] has $\mathbb{Q}$ initial iff $k=0$ and $\mathbb{Z}_{p}$ initial if $p$ is prime.
+Thus [[Category of fields of characteristic p]] has $\mathbb{Q}$ initial iff $p=0$ and $\mathbb{Z}_{p}$ initial if $p$ is prime.
 
 #
 ---

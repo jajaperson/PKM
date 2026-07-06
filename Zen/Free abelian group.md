@@ -11,7 +11,7 @@ A **free abelian group** is another name for a [[free module|free $\mathbb Z$-mo
 
 - [[Subgroup of a free abelian group]]
 - [[Cyclic central extension of a free abelian group]]
-    - [[2 central extension of a free abelian group]]
+    - [[2-central extension of a free abelian group]]
 
 #
 ---

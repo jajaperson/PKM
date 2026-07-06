@@ -2,6 +2,8 @@
 date: 2026-06-23
 tags:
   - public
+aliases:
+  - univalence
 ---
 [[Homotopy type theory]]
 # Univalence axiom

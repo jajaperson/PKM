@@ -107,6 +107,7 @@ $$
 \begin{prooftree}
 \def\fCenter{\vdash}
 \Axiom$\Gamma \fCenter f : A \to B$
+\RL{(${\to}\eta$)}
 \UnaryInf$\Gamma \fCenter f = \lambda'(\mathbf{app}'(f[\mathbf{p}], \mathbf{q})) : A \to B$
 \end{prooftree}
 $$
@@ -168,6 +169,22 @@ and so we can define $A \to B := \mathbf{\Pi}(A, B[\mathbf{p}])$.
 > $$
 > which follow from [[Cartesian calculus of substitutions#^beta|$\beta \mathbf{p}$]]. <span class="QED"/>
 
+## Internalizing judgemental structure
+
+In terms of [[Internalizing judgemental structure]], we have an operation
+$$
+\begin{align*}
+(\to_{\Gamma}) : \opn{Ty}(\Gamma) \times \opn{Ty}(\Gamma) \to \opn{Ty}(\Gamma)
+\end{align*}
+$$
+natural in $\Gamma$ with a family of bijections
+$$
+\begin{align*}
+\iota_{\Gamma, A, B} : \opn{Tm}(\Gamma , A \to_{\Gamma} B) \cong \opn{Tm}(\Gamma. A, B[\mathbf{p}])
+\end{align*}
+$$
+also natural in $\Gamma$.
+Cf. [[Π-type#Internalizing judgemental structure|the corresponding discussion for $\mathbf{\Pi}$-types]].
 
 
 #

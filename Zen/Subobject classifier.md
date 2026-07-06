@@ -19,6 +19,7 @@ We think of $\Omega$ as an object of _truth values_, and the generalized element
 
 [^1994]: 1994\. [[Sources/@maclaneSheavesGeometryLogic1994|Sheaves in geometry and logic: A first introduction to topos theory]], p. 32
 
+
 #
 ---
 #state/develop | #lang/en | #SemBr

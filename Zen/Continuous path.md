@@ -30,7 +30,7 @@ $$
 \overline{\alpha} : t \mapsto \alpha(1-t)
 \end{align*}
 $$
-Clearly $\mathscr P$ defines a [[functor]] from [[Category of topological spaces]] to [[Category of magmoids]]
+Clearly $\mathscr P$ defines a [[functor]] from [[Category of topological spaces]] to [[Category of magmoids]].
 Of more importance are the [[Category of paths]] and [[Fundamental groupoid]],
 which are quotients modulo traversal and homotopy of paths respectively.
 

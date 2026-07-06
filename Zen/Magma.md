@@ -10,4 +10,4 @@ See also [[Magma object]].
 
 #
 ---
-#state/stub | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

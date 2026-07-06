@@ -6,7 +6,7 @@ aliases:
   - extraspecial 2-group
 ---
 [[Central extension of an abelian group]]
-# 2 central extension of an elementary abelian 2-group
+# 2-central extension of an elementary abelian 2-group
 
 Let $E = 2^n$ an an [[Elementary abelian group|elementary abelian]] [[p-group|2-group]] ($\mathbb{Z}_{2}$-[[vector space]]) of rank $n$ and consider a [[Central extension of an abelian group|central extension]] 
 $$

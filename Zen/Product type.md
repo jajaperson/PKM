@@ -197,6 +197,22 @@ and so we can define $A \times_\imp{\Gamma} B := \mathbf{\Sigma}_\imp{\Gamma}(A,
 > 
 > The equalities follow. <span class="QED"/>
 
+## Internalizing judgemental structure
+
+In terms of [[Internalizing judgemental structure]], we have an operation
+$$
+\begin{align*}
+(\times_{\Gamma}) : \opn{Ty}(\Gamma) \times \opn{Ty}(\Gamma) \to \opn{Ty}(\Gamma)
+\end{align*}
+$$
+natural in $\Gamma$ with a family of bijections
+$$
+\begin{align*}
+\iota_{\Gamma,A,B} : \opn{Tm}(\Gamma, A \times_{\Gamma} B) \cong \opn{Tm}(\Gamma, A) \times \opn{Tm}(\Gamma, B)
+\end{align*}
+$$
+also natural in $\Gamma$.
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

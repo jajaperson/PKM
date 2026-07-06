@@ -43,7 +43,7 @@ The [[Limits and colimits|limit]] of this diagram is the product, the [[Limits a
 ## Examples
 
 - In [[Category of sets|Set]] the product is the [[Cartesian product]] and the coproduct is the [[Disjoint union]]
-- In a [[Posetal category]] viewed as a poset, the product corresponds to the [[Join and meet|join]] and the coproduct corresponds to the [[Join and meet|meet]].
+- In a [[Posetal category]] viewed as a poset, the product corresponds to the [[Poset#^sup]] and the coproduct corresponds to the [[Poset#^inf]].
 - In [[Category of groups|Grp]] the product is the [[Direct product of groups]] and the coproduct is the [[Free product of groups]].
 
 ---

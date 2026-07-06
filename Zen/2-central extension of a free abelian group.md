@@ -3,7 +3,7 @@ tags:
   - public
 ---
 [[Cyclic central extension of a free abelian group]]
-# 2 central extension of a free abelian group
+# 2-central extension of a free abelian group
 
 Let $A = \mathbb{Z}^S$ be a [[Free module|free abelian group]] of finite [[Rank of a module|rank]],
 and let
@@ -48,8 +48,8 @@ $$
 1 \to 2 \hookrightarrow \hat{A} / K \to \check A \to 1
 \end{align*}
 $$
-is a central extension with [[2 central extension of an elementary abelian 2-group|associated squaring map]] $q_{1}$,[^5.3.4] #m/thm/group 
-thus $\hat{A}/K$ is an [[2 central extension of an elementary abelian 2-group|extraspecial 2-group]].
+is a central extension with [[2-central extension of an elementary abelian 2-group|associated squaring map]] $q_{1}$,[^5.3.4] #m/thm/group 
+thus $\hat{A}/K$ is an [[2-central extension of an elementary abelian 2-group|extraspecial 2-group]].
 
   [^5.3.4]: 1988\. [[Sources/@frenkelVertexOperatorAlgebras1988|Vertex operator algebras and the Monster]], ¶5.3.4, p. 111
 
@@ -80,7 +80,7 @@ $$
 
 ## See also
 
-- [[2 central extension of an elementary abelian 2-group]]
+- [[2-central extension of an elementary abelian 2-group]]
 
 #
 ---

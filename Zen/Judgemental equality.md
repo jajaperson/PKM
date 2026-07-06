@@ -22,7 +22,6 @@ The actual meaning of judgemental equality depends on the type theory used
   Types or terms are judgementally equal if they have precisely the same sense, as in the [[Sense and denotation]].
 - In extensional type theories like [[ETT]], judgemental equality reflects propositional/typal equality (given by the [[Extensional equality type]]).
 
-The judgemental equality for types as presented here is limited to [[dependent type theory|dependent type theories]].
 
 ## Usual inference rules
 

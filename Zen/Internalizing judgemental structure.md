@@ -21,6 +21,11 @@ The first camp accounts for the most well-behaved connectives, the latter for [[
 
 [^2026]: 2026\. [[Sources/@angiuliPrinciplesDependentType2025|Principles of dependent type theory]], p. 52. Terminology and notation adapted to that used in these notes.
 
+## See also
+
+- [[β-computation]]
+- [[η-unicity]]
+
 #
 ---
 #state/develop | #lang/en | #SemBr

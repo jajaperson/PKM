@@ -22,12 +22,11 @@ $$
 where $\mathbb{I}$ is the [[real interval]], satisfying the boundary constraints
 $$
 \begin{align*}
-\forall (x \in X)[ h_{0}(x) = f(x) \land h_{1}(x) = g(x) ]
+\forall (x \in X)[ H_{0}(x) = f(x) \land H_{1}(x) = g(x) ]
 \end{align*}
 $$
 
-The maps $f,g$ are thereby said to be **homotopic**, denoted with $H: f \simeq g$ #m/def/homotopy
-It is useful to have $h_{t}(x) = H(x,t)$, whereby we can say $h_{0} = f$ and $h_{1} = g$.
+The maps $f,g$ are thereby said to be **homotopic**, denoted with $H: f \simeq g$ #m/def/homotopy 
 The [[propositional truncation]] of $(\simeq)$ is a [[congruence relation]] on $\Top(X,Y)$.
 
 > [!check]- Proof

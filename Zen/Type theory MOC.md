@@ -18,7 +18,7 @@ The differences between type theory and [[Set theory MOC|set theory]] are subtle
 ### à la Church
 
 - [[Lambda cube]]
-  - [[Simply typed lambda calculus]]
+  - [[Simply typed λ-calculus]]
 
 ### à la Martin-Löf
 
@@ -71,6 +71,11 @@ graph TD;
 ## Concepts
 
 - [[Internalizing judgemental structure]]
+
+## Computation
+
+- [[β-computation]]
+- [[η-unicity]]
 
 ## Bibliography
 

@@ -3,10 +3,14 @@ tags:
   - public
 ---
 [[Poset]]
-# Lattice order
+# Lattice
 
-A **lattice** is a poset with the additional property that any pair of objects has a greatest lower bound and least upper bound. #m/def/order 
-In categorical terms the [[Products and coproducts]] are guaranteed to exist for any pair of objects.
+Let $S$ be a [[poset]]. Then iff for every $a, b \in S$ #m/def/order
+
+- there exists a [[Poset#^sup]] $a \land b$, then $S$ is called a <dfn>join-semilattice</dfn>.
+- there exists a [[Poset#^inf]] $a \lor b$, then $S$ is called a <dfn>meet-semillatice</dfn>.
+- there exists both a join and a meet, then $S$ is called a <dfn>lattice</dfn>.
+
 Iff they exist for arbitrary collections of objects then it is said to be a [[Complete lattice]].
 
 ## See also

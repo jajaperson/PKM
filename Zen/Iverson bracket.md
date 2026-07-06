@@ -5,7 +5,7 @@ tags:
 [[Mathematics MOC]]
 # Iverson bracket
 
-Let $p$ be a proposition.
+Let $p$ be a [[decidable proposition]].
 The **Iverson bracket** is defined as follows #m/def/general 
 $$
 \begin{align*}

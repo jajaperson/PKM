@@ -1,7 +1,7 @@
 ---
 mathLink-blocks:
-  sup: supremum
-  inf: infimum
+  sup: join
+  inf: meet
   chain: chain
 tags:
   - public
@@ -28,8 +28,8 @@ Let $P$ be a poset.
 - The **minimum** or **initial** element $N \in P$ has $p \in P \implies N \leq p$ ^maximum
 - A **maximal** element $m \in P$ has $m \leq p \implies m = p$ ^maximal
 - A **minimal** element $n \in P$ has $p \leq n \implies p = n$ ^minimal
-- The **least upper bound** $\sup \{ a,b \}$ or **join** is the smallest $u$ such that $a,b \leq u$ (hence it is the [[Products and coproducts|categorical coproduct]]) ^sup
-- The **greatest lower bound** $\inf\{ a,b \}$ or **meet** is the largest $\ell$ such that $\ell \leq a,b$ (hence it is the [[Products and coproducts|categorical product]]) ^inf
+- The **least upper bound** $a \land b$ or **join** is the smallest $u$ such that $a,b \leq u$ (hence it is the [[Products and coproducts|categorical coproduct]]) ^sup
+- The **greatest lower bound** $a \lor b$ or **meet** is the largest $\ell$ such that $\ell \leq a,b$ (hence it is the [[Products and coproducts|categorical product]]) ^inf
 - A poset for which every pair of elements have a l.u.b. and g.l.b. is called a [[Lattice order]].
 - A subset of $P$ that is [[Totally ordered set|total]] is called a **chain** of $P$. ^chain
 
