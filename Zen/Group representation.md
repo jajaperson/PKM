@@ -7,7 +7,7 @@ tags:
 
 A [[representation]] $\mathfrak{X}$ of a [[group]] $G$ is a linear [[group action]] on some vector space $V$ over $\mathbb{K}$ #m/def/rep2 
 i.e. a [[group homomorphism]] $\mathfrak{X} : G \to \opn{GL}(V)$,
-or equivalently a [[functor]] $\mathfrak{X} : G \to \Vect_{\mathbb{K}}$ regarding [[groups as categories]].[^not]
+or equivalently a [[functor]] $\mathfrak{X} : G \to \Vect_{\mathbb{K}}$ regarding [[Groups as groupoids]].[^not]
 In particular, for any $g,h \in G$
 $$
 \begin{align*}

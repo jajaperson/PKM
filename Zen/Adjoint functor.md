@@ -10,7 +10,7 @@ aliases:
 [[Category theory MOC]]
 # Adjoint functor
 
-An **adjunction of functors** is an [[adjunction]] in [[Category of small categories]]. #m/def/cat
+An **adjunction of functors** is an [[adjunction]] in [[Bicategory of categories]]. #m/def/cat
 Let $\cat D$, $\cat C$ be [[category|categories]].
 A pair of functors $F : \cat D \leftrightarrows \cat C : U$ form an **adjunction**, written
 

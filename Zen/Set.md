@@ -5,10 +5,11 @@ tags:
 [[Set theory MOC]]
 # Set
 
+A **set** is a [[collection]] of different things, called elements or members,
+with the property that these elements may be compared by [[propositional equality]]. #m/def/set
+
 > “Unter einer Menge verstehen wir jede Zusammenfassung $M$ von bestimmten wohlunterscheidbaren Objecten $m$ unserer Anschauung oder unseres Denkens (welche die Elemente von $M$ genannt werden) zu einem Ganze.”^[1895\. [[Sources/@cantorBeitraegeZurBegruendung1895|Beiträge zur Begründung der transfiniten Mengenlehre]]. “By a set we understand any amalgamation $M$ of definite, well distinguished objects $m$ of our conception or our thought (which are called the elements of $M$) to a \[single\] whole.”] ^def
 
-A **set** is a [[Collection]] of different things, called elements or members,
-with the property that these elements may be compared by [[Propositional equality]]. #m/def/set
 In a material conception[^vac], two sets are said to be the same iff they have the same members,
 i.e.
 $$
@@ -35,10 +36,9 @@ In a material conception
 - $A \cap B = \{ x : x \in A \land x \in B \}$ is the [[intersection]] of $A$ and $B$
 - $A \setminus B = \{ x : x \in A \land x \notin B \}$ is the [[set difference]] of $B$ from $A$
 
-## Foundation-agnostic usage
+## In different foundations
 
 - The [[Axiomatic set theory|axiomatic set theories]] each give a notion of set.
-    - In [[TG]] a $\mathcal{U}$-[[small set]] is an element of $\mathcal{U}$.
 - In a [[Type theory]] with some notion of [[Equality]], a set should be taken to be a type with [[Propositional equality]].
     - In particular, in (extensions of) [[ITT]], a set should be taken to be an [[h-Set|h-set]].
 

@@ -12,12 +12,13 @@ Thus it is precisely a [[monoidal category]] equipped with a natural isomorphism
 ![[braiding-law-1.svg#invert|see braided monoidal category]]
 
 commutes and $\tau_{y,x}\tau_{x,y} = 1_{x \otimes y}$ for all objects $x,y,z \in \cat C$.
-A symmetric monoidal category is called **strict** iff $\tau_{x,y} = 1_{x \otimes y}$ for all objects $x, y$,
-i.e. iff $x \otimes y = y \otimes x$.
-
 The hexagon identity ensures $(\otimes)$ is commutative up to natural isomorphism,
-by the [[Coherence theorem for symmetric monoidal categories]]
-and the [[Strictification theorem for symmetric monoidal categories]].
+by the [[Coherence theorem for symmetric monoidal categories]].
+
+## Further terminology
+
+- If $\cat C$ is a [[strict category]], it called **strict symmetric** iff $\tau_{x,y} = 1_{x \otimes y}$ for all objects $x, y$,
+    i.e. iff $x \otimes y = y \otimes x$.
 
 ## Diagrammatics
 

@@ -4,17 +4,14 @@ tags:
 ---
 [[Types of Category]]
 # Discrete category
-A **discrete category** is a category in which the only morphisms are identity morphisms. #m/def/cat
-$$
-\begin{align*}
-(\forall X \in \Ob \cat C) [\cat C {(X, X)} = \{\id_X\}] \\
-(\forall X, Y \in \cat C ) [X \neq Y \implies \cat C {(X, Y)} = \emptyset]
-\end{align*}
-$$
-Any [[Class]] of objects may be viewed as a discrete category. The
-[[Trivial category]], the [[Initial and terminal objects|Initial Object]] in [[Category of small categories]], is itself a discrete category.
 
-It is itself a [[Disjoint category]], [[Groupoid]], and [[Posetal category]].
+A **discrete category** is a [[gaunt category|gaunt]] [[groupoid]], #m/def/cat
+i.e. a category with only identity morphisms.
+Discrete categories correspond exactly to [[set|sets]]:
+For a given set $X$, we may form the <dfn>set-as-category</dfn> $\underline X$ where
+
+- $\underline{X}_{0} = X$;
+- $\underline X(a,b) = (a \equiv_{X} b)$.
 
 ---
-#state/tidy | #SemBr 
+#state/tidy | #lang/en | #SemBr 

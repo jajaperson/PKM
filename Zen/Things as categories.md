@@ -11,16 +11,16 @@ Often this is related to [[oidification]] or [[Categorification]].
 ## Oidification
 
 The following characterizes some structure as some single-object category,
-hence involves [[oidification]].
+hence relate to [[oidification]].
 
 - [[Monoids as categories]]
-- [[Groups as categories]]
+- [[Groups as groupoids]]
 
-## Reframing
+## Vertical categorification
 
-The following can be viewed as categories through a natural change in perspective.
+The following characterizes some structure as categories with [[h-Prop|subsingleton]] hom-sets, hence relate to vertical [[categorification]]
 
-- [[Preorders as categories]]
+- [[Discrete category|Sets as categories]]
 - [[Posets as categories]]
 
 ## Free categories

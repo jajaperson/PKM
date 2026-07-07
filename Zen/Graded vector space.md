@@ -29,7 +29,7 @@ One often expresses the dimensions of homogenous subspaces as a formal power ser
 ## Category of graded vector spaces
 
 Many of our typical vector space constructions carry over nicely, although some require [[monoid]] structure on $S$.
-These motivate the categories [[Strict category of graded vector spaces]] and [[Closed category of graded vector spaces]].
+These motivate the categories [[Category of graded vector spaces]] and [[Closed category of graded vector spaces]].
 
 - [[Homomorphism of graded vector spaces]]
 - [[Graded vector subspace]], [[Quotient graded vector space]]

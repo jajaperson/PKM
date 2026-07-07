@@ -5,7 +5,7 @@ tags:
   - public
 ---
 [[Things as categories]]
-# Groups as categories
+# Groups as groupoids
 
 A [[group]] is equivalent to a single-object [[groupoid]].
 Adopting this viewpoint

@@ -11,6 +11,7 @@ tags:
 - A [[set]] of any size
 - A [[Type theory|type]] of any [[h-level]]
 
+Notably, we do not require a collection to have any notion of equality on its elements.
 
 #
 ---

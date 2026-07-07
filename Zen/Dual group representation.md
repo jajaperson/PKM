@@ -19,7 +19,7 @@ the dual representation $\Gamma^*$ may be identified with the complex conjugate.
 
 
 > [!tip]- Functorial construction
-> The representation $\Gamma$ may be conceived as a [[functor]] from a [[Groups as categories|groups-as-category]] $\Gamma : G \to \Vect_{\mathbb{K}}$.
+> The representation $\Gamma$ may be conceived as a [[functor]] from a [[Groups as groupoids|groups-as-category]] $\Gamma : G \to \Vect_{\mathbb{K}}$.
 > We have two [[Contravariant functor|contravariant functors]] $\inv : \op G\to G$
 > and $\opn{dual} : \op{\Vect_{\mathbb{K}}} \to \Vect_{\mathbb{K}}$.
 > The dual representation is thus the covariant functor

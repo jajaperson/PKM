@@ -14,16 +14,13 @@ tensorProduct: "[[cartesian product]]"
 # Category of sets
 
 The **category of sets** $\Set$ is a [[category]] where
-an object is a [[set]]
+an object is a ([[Small collection|small]]) [[set]]
 and a morphism is a [[function]]. #m/def/set 
 
 ## See also 
 
 - An elementary axiomatization is given by [[ETCS]], a possible structuralist foundation for mathematics.
 
-## Skeleton
-
-The canonical [[skeleton category]] is contains only the [[cardinal|cardinals]] as objects.
 
 #
 ---

@@ -12,7 +12,7 @@ This is stronger to a mapping on objects and morphisms which is functorial in ea
 viewing [[objects as identities]].
 
 > [!tip]+ Counterexample
-> Let $G,H$ be [[Groups as categories|groups-as-categories]].
+> Let $G,H$ be [[Groups as groupoids|groups-as-categories]].
 > Then $G \times H$ is the [[direct product of groups]],
 > and a bifunctor $F : G \times H \to \cat C$ is a [[group action]] of $G \times H$ on an object of $\cat C$.
 > Functoriality in both arguments, on the other hand, makes $F$ a group action of the [[free product of groups]] on an object of $\cat C$. <span class="QED"/>

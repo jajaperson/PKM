@@ -7,7 +7,7 @@ tags:
 [[Monoidal category]]
 # Strict monoidal category
 
-A **strict monoidal category** is a [[monoidal category]] in which the associator $\alpha$, left-unitor $\lambda$, and right-unitor $\rho$ are all the [[identity natural transformation]]. #m/def/cat 
+A **strict monoidal category** is a [[monoidal category|monoidal]] [[strict category]] in which the associator $\alpha$, left-unitor $\lambda$, and right-unitor $\rho$ are all the [[identity natural transformation]]. #m/def/cat 
 Thus a strict monoidal category is precisely a [[Monoid object]] in [[Category of small categories]].
 Explicitly, a strict monoidal category $\cat C$ is equipped with
 
@@ -27,20 +27,6 @@ $$
 \end{align*}
 $$
 for any objects $x,y,z \in \cat C$.
-
-## Examples
-
-```dataview
-TABLE without id
-  ("[[" + file.path + "|" + categoryName + "]]") as name,
-  default(symbol, mathLink) as symbol,
-  object,
-  morphism,
-  tensorProduct as product,
-  tensorUnit as unit,
-  arguments
-FROM #monoidal-category/strict
-```
 
 #
 ---

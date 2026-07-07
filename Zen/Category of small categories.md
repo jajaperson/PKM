@@ -1,5 +1,5 @@
 ---
-categoryName: category of (small) categories
+categoryName: category of strict categories
 mathLink: $\Cat$
 object: ([[Small category|small]]) [[category]]
 morphism: "[[functor]]"
@@ -14,13 +14,12 @@ tensorUnit: "[[Trivial category]]"
 ---
 
 [[Glossary of categories]]
-# Category of (small) categories
+# Category of strict categories
 
-The **category of (small) categories** $\Cat$ is a [[strict 2-category]] where an object is a ([[Small category|small]]) [[category]],
-a 1-morphism is a [[functor]],
-and a 2-morphism is a [[natural transformation]].
-
+The **category of strict categories** $\Cat$ is a [[category]] 
+where an object is a ([[Small category|small]]) [[strict category]]
+and a morphism is a [[functor]].
 
 #
 ---
-#state/stub | #lang/en | #SemBr
+#state/tidy | #lang/en | #SemBr

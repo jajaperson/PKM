@@ -16,10 +16,10 @@ tensorUnit: "[[identity functor]]"
 # Endofunctor category
 
 Let $\cat C$ be a [[category]].
-The **category of endofunctors** $\cat C^{\cat C}$ is a [[strict monoidal category]] where
+The **category of endofunctors** $\cat C^{\cat C}$ is a [[monoidal category]] where
 an object is a [[functor|endofunctor]] on $\cat C$
 and a morphism is a [[natural transformation]]. #m/def/cat 
-
+The [[Monoidal category|tensor product]] of two endofunctors is their composite.
 
 #
 ---

@@ -17,8 +17,7 @@ commute for all objects $x,y,z \in \cat C$. #m/def/cat
 Iff the braiding is involutive in the sense that $\tau_{y,x}\tau_{x,y} = 1_{x\otimes y}$,
 then the category $\cat C$ is called [[Symmetric monoidal category|symmetric]],
 and iff $\tau_{x,y} = 1_{x \otimes y}$ then $\cat C$ is called strictly symmetric.
-
-The braiding laws ensure the braid is well behaved in the sense of the [[Coherence theorem for braided monoidal categories]] and [[Strictification theorem for braided monoidal categories]].
+The braiding laws ensure the braid is well behaved in the sense of the [[Coherence theorem for braided monoidal categories]].
 
 ## Diagrammatics
 

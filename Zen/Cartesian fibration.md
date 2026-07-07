@@ -29,9 +29,9 @@ taking
 where $f^* : \cat E_{y} \to \cat E_{x}$ is the <dfn>base change functor</dfn> taking
 
 - an displayed object $y' \in \cat E_{y}$ to the domain $f^* y'$ of the cartesian lift of $f$ at $y$;
-- a vertical morphism $v' : y'' \to_{y} y$ to the unique vertical morphism $f^* v' : f^* y'' \to_{x} f^* y'$ making
+- a vertical morphism $v : y'' \to_{y} y'$ to the unique vertical morphism $f^* v : f^* y'' \to_{x} f^* y'$ making
   
-  ![[fibration-base-change-morphism.svg#invert|c|https://q.uiver.app/#q=WzAsNixbMCw0LCJ4Il0sWzIsNCwieSJdLFsyLDIsInknIl0sWzIsMCwieScnIl0sWzAsMiwiZl4qeSciXSxbMCwwLCJmXip5JyciXSxbMywyLCJ2Il0sWzIsMSwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDEsImYiLDJdLFs0LDAsIiIsMix7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbNCwyLCJcXHBpX3t5J31eKmYiLDFdLFs1LDQsImZeKnYiLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNSwzLCJcXHBpX3t5Jyd9XipmIl1d]]
+  ![[fibration-base-change-morphism.svg#invert|c|https://q.uiver.app/#q=WzAsNixbMCw0LCJ4Il0sWzIsNCwieSJdLFsyLDIsInknIl0sWzIsMCwieScnIl0sWzAsMiwiZl4qeSciXSxbMCwwLCJmXip5JyciXSxbMywyLCJ2Il0sWzIsMSwiIiwyLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoibWFwcyB0byJ9fX1dLFswLDEsImYiLDJdLFs0LDAsIiIsMix7InN0eWxlIjp7InRhaWwiOnsibmFtZSI6Im1hcHMgdG8ifX19XSxbNCwyLCJcXHBpX3t5J31eKmYiLDFdLFs1LDQsImZeKnYiLDIseyJzdHlsZSI6eyJib2R5Ijp7Im5hbWUiOiJkYXNoZWQifX19XSxbNSwzLCJcXHBpX3t5Jyd9XipmIl0sWzQsMSwiIiwwLHsic3R5bGUiOnsibmFtZSI6ImNvcm5lciJ9fV1d]]
   
   commute (using the fact $\pi^*_{y'}f$ is cartesian).
 

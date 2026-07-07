@@ -9,7 +9,7 @@ tags:
 
 A **class** is a [[Collection]] of different things with [[Propositional equality]] which may not be a [[set]],
 though the exact meaning depends on the [[Foundation of mathematics|foundation]] being used.
-Thus it is a generalization of a [[small set]].
+Thus it is a generalization of a [[Small collection]].
 A [[Proper class]] is a class which is not a set.
 A [[Subclass]] generalizes a subset.
 A mapping between classes is a [[Class function]].

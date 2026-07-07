@@ -7,7 +7,7 @@ tags:
 
 A **natural transformation** is a morphism in a so-called [[functor category]],
 that is it is a morphism between two functors,
-or a 2-morphism in [[Category of small categories]].
+or a 2-morphism in [[Bicategory of categories]].
 If $F, G : \cat C \to \cat D$, then a **natural transformation** $\eta : F \Rightarrow G : \cat C \to \cat D$
 consists of a morphism $\eta_{X} : FX \to FY$ for every $X \in \cat C$
 such that the following diagram commutes: #m/def/cat 
