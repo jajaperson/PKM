@@ -7,12 +7,12 @@ tags:
 [[Set theory MOC]]
 # Class
 
-A **class** is a [[Collection]] of different things with [[Propositional equality]] which may not be a [[set]],
+A **class** is a [[collection]] of different things with [[Propositional equality]] which may not be a [[set]],
 though the exact meaning depends on the [[Foundation of mathematics|foundation]] being used.
-Thus it is a generalization of a [[Small collection]].
-A [[Proper class]] is a class which is not a set.
-A [[Subclass]] generalizes a subset.
-A mapping between classes is a [[Class function]].
+Thus it is a generalization of a [[small collection]].
+A [[proper class]] is a class which is not a set.
+A [[subclass]] generalizes a subset.
+A mapping between classes is a [[class function]].
 
 
 ## Foundation-agnostic usage

@@ -35,6 +35,7 @@ $$
 - [[Category of quivers]]
 - [[Quiver representation theory MOC]]
 - [[Adjacency matrix]]
+- [[Quiver weight vector]]
 
 
 ## Particular quivers

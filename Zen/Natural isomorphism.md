@@ -9,7 +9,7 @@ tags:
 # Natural isomorphism
 
 A **natural isomorphism** $\eta : F \Rightarrow G : \cat C \to \cat D$ is an isomorphism in a [[functor category]], #m/def/cat 
-thus a natural transformation $\eta$ for which there exists a $\epsilon : G \Rightarrow F : \cat C \to D$ such that $\epsilon_{x} \circ \eta_{x} = 1_{Fx}$ and $\eta_{x} \circ \epsilon_{x} = 1_{G x}$ for all $x \in \cat C_{0}$.
+thus a [[natural transformation]] $\eta$ for which there exists a $\epsilon : G \Rightarrow F : \cat C \to D$ such that $\epsilon_{x} \circ \eta_{x} = 1_{Fx}$ and $\eta_{x} \circ \epsilon_{x} = 1_{G x}$ for all $x \in \cat C_{0}$.
 If such an isomorphism exists we write $F \simeq G$.
 
 A useful lemma is that a natural transformation $\eta : F \Rightarrow G : \cat C \to \cat D$ is a natural isomorphism

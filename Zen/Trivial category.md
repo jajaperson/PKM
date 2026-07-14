@@ -11,7 +11,7 @@ tags:
 [[Glossary of categories]]
 # Trivial category
 
-The **trivial category** $\underline 1$ is the [[Initial and terminal objects|terminal object]] of [[Category of small categories]].
+The **trivial category** $\underline 1$ is the [[Initial and terminal objects|terminal object]] of [[Category of strict categories]].
 It consists of a single object $0$ with a single morphism $\id_{0}$.
 
 #

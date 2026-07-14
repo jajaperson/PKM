@@ -5,7 +5,7 @@ tags:
 [[Category theory MOC]]
 # Free category
 
-**Free categories** are the [[Free-forgetful adjunction|free objects]] in [[Category of small categories]], #m/def/cat 
+**Free categories** are the [[Free-forgetful adjunction|free objects]] in [[Category of strict categories]], #m/def/cat 
 forming the [[Adjoint functor|left adjoint]] to the forgetful functor $U : \Cat \to \cat{Quiv}$ to the [[Underlying quiver]]
 $$
 \begin{align*}

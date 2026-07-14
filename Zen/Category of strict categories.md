@@ -1,7 +1,7 @@
 ---
 categoryName: category of strict categories
 mathLink: $\Cat$
-object: ([[Small category|small]]) [[category]]
+object: "[[strict category]]"
 morphism: "[[functor]]"
 morphism2: "[[natural transformation]]"
 tags:

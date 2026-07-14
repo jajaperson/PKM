@@ -12,8 +12,8 @@ and thus an interaction.
 Virtual $\ce{ W+, W-, \& Z^0 }$ bosons are present as intermediaries in processes such as $\ce{ \beta+ }$- and $\beta^-$-decay
 $$
 \begin{align*}
-\ce{ n -> p+ + W- -> &p+ + e- + \overline{\nu_{e}}} \\
-\ce{ p+ -> n + W+ -> &n + e+ + \nu_{e}}
+\ce{ n -> p+ + W- -> p+ + e- + \overline{\nu_{e}}} \\
+\ce{ p+ -> n + W+ -> n + e+ + \nu_{e}}
 \end{align*}
 $$
 Note the second process never occurs for a free proton,

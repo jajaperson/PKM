@@ -38,8 +38,9 @@ See [[types of category]].
 
 - [[Universal construction]]
   - [[Limits and colimits]]
-  - [[Initial and terminal objects]]
-  - [[Products and coproducts]]
+      - [[Initial and terminal objects]]
+      - [[Products and coproducts]]
+  - [[Subobject classifier]]
 
 ## Morphisms of categories
 

@@ -7,8 +7,8 @@ aliases:
 [[Category theory MOC]]
 # Monoidal category
 
-A **monoidal category** is the vertical [[Categorification]] of a [[monoid]]. #m/def/cat 
-Explicitly, a monoidal category $\cat C$ is equipped with[^1978]
+A **monoidal category** is the vertical [[categorification]] of a [[monoid]]. 
+Explicitly, a monoidal category $\cat C$ is equipped with[^1978] #m/def/cat 
 1. a [[Multifunctor|bifunctor]] $(\otimes) : \cat C \times \cat C \to \cat C$ called the **tensor product**;
 2. an object $1 \in \cat C$ called the **tensor unit**;
 3. a [[Natural isomorphism|natural isomorphism]] with components $\alpha_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ in [[Functor category|$\cat C^{\cat C \times \cat C \times \cat C}$]] called the **associator**;
@@ -39,7 +39,7 @@ The appropriate morphism of monoidal categories is the [[Monoidal functor]].
 
 ## Other perspectives
 
-A monoidal category may be viewed as a single-object (“connected”) [[Bicategory]].
+A monoidal category may be viewed as a single-object (“connected”) [[bicategory]].
 
 ## Diagrammatics
 

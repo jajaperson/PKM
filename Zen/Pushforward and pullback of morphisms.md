@@ -1,5 +1,7 @@
 ---
-aliases: pushforward, pullback
+aliases: 
+  - pushforward 
+  - pullback
 tags:
   - public
 ---

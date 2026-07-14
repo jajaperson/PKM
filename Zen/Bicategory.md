@@ -3,29 +3,29 @@ date: 2026-07-07
 tags:
   - public
 ---
-[[Bicategory theory MOC]]
+[[2-category theory MOC]]
 # Bicategory
 
 A <dfn>bicategory</dfn> is motivated from several perspectives:
 
-1. A bicategory is a [[category]] in the next dimension:
+1. A bicategory is a [[category]] in the [[Categorification|next dimension]]:
     While categories have a [[set]][^1] of morphisms between objects, a bicategory has a [[category]] of morphisms between objects.
     Because the objects of each “hom-category” need not form a set, the “identities” involved are higher isomorphisms having coherence relations of their own, similar to the associator and unitors of a [[monoidal category]].
-2. A category is the [[oidification]] of a [[monoidal category]], so that each object has a monoidal category of endomorphisms.
+2. A bicategory is the [[oidification]] of a [[monoidal category]], so that each object has a monoidal category of endomorphisms.
 
 Thus, in terms of collections, a bicategory $\mathfrak{C}$ is a mathematical object consisting of: #m/def/cat/bi
 
 1. a [[collection]] of <dfn>objects</dfn>, $\mathfrak{C}_{0}$;
 2. for any $A,B \in \mathfrak{C}_{0}$, a [[category]] $\mathfrak{C}(A,B)$;
 
-    > [!info]- Notation
-    > We call the elements of the collection $\mathfrak{C}_{1}(A,B) := \mathfrak{C}(A,B)_{0}$ <dfn>1-morphisms</dfn>, and notate $f \in \mathfrak{C}_{1}(A,B)$ with 
-    > $$
-    > f : A \to B.
-    > $$
-    > For any $f,g \in \mathfrak{C}_{1}(A,B)$ we call the elements of the [[set]] $\mathfrak{C}_{2}(A,B)(f,g) := \mathfrak{C}(A,B)(f,g)$ <dfn>2-morphisms</dfn>, and notate $\beta \in \mathfrak{C}_{2}(A,B)(f,g)$ with $$
-    > \beta : f \Rightarrow g : A \to B.
-    > $$
+> [!info]- Notation
+> We call the elements of the collection $\mathfrak{C}_{1}(A,B) := \mathfrak{C}(A,B)_{0}$ <dfn>1-morphisms</dfn>, and notate $f \in \mathfrak{C}_{1}(A,B)$ with 
+> $$
+> f : A \to B.
+> $$
+> For any $f,g \in \mathfrak{C}_{1}(A,B)$ we call the elements of the [[set]] $\mathfrak{C}_{2}(A,B)(f,g) := \mathfrak{C}(A,B)(f,g)$ <dfn>2-morphisms</dfn>, and notate $\beta \in \mathfrak{C}_{2}(A,B)(f,g)$ with $$
+> \beta : f \Rightarrow g : A \to B.
+> $$
 
 
 
@@ -42,11 +42,11 @@ Thus, in terms of collections, a bicategory $\mathfrak{C}$ is a mathematical obj
 
 satisfying the so-called <dfn>triangle identity</dfn>
 
-![[bicat-triangle.svg#invert|c]]
+![[bicat-triangle.svg#invert|c|https://q.uiver.app/#q=WzAsMyxbMCwwLCIoZyBcXGNpcmMgQikgXFxjaXJjIGYiXSxbMSwxLCJnIFxcY2lyYyBmIl0sWzIsMCwiZyBcXGNpcmMgKEIgXFxjaXJjIGYpIl0sWzAsMiwiXFxhbHBoYV97ZyxCLGZ9IiwwLHsibGV2ZWwiOjJ9XSxbMCwxLCJcXHJob19nIFxcY2lyYyBmIiwyLHsibGV2ZWwiOjJ9XSxbMiwxLCJnIFxcY2lyYyBcXGxhbWJkYV9mIiwwLHsibGV2ZWwiOjJ9XV0=]]
 
 and <dfn>pentagon identity</dfn>
 
-![[bicat-pentagon.svg#invert|c|https://q.uiver.app/#q=WzAsNSxbMCwzLCIoaSBcXGNpcmMgKGggXFxjaXJjIGcpKSBcXGNpcmMgZiJdLFsyLDMsImkgXFxjaXJjICgoaCBcXGNpcmMgZykgXFxjaXJjIGYpIl0sWzAsMSwiKChpIFxcY2lyYyBoKSBcXGNpcmMgZykgXFxjaXJjIGYiXSxbMiwxLCJpIFxcY2lyYyAoaCBcXGNpcmMgKGcgXFxjaXJjIGYpKSJdLFsxLDAsIihpIFxcY2lyYyBoKSBcXGNpcmMgKGcgXFxjaXJjIGYpIl0sWzAsMSwiXFxhbHBoYV97aSxoIFxcY2lyYyBnLGZ9Il0sWzIsMCwiXFxhbHBoYV97aSxoLGd9IFxcY2lyYyBmIiwyXSxbMSwzLCJpIFxcY2lyYyBcXGFscGhhX3toLGcsZn0iLDJdLFs0LDMsIlxcYWxwaGFfe2kgLGgsZyBcXGNpcmMgZn0iXSxbMiw0LCJcXGFscGhhX3tpIFxcY2lyYyBoLGcsZn0iXV0=]]
+![[bicat-pentagon.svg#invert|c|https://q.uiver.app/#q=WzAsNSxbMCwzLCIoaSBcXGNpcmMgKGggXFxjaXJjIGcpKSBcXGNpcmMgZiJdLFsyLDMsImkgXFxjaXJjICgoaCBcXGNpcmMgZykgXFxjaXJjIGYpIl0sWzAsMSwiKChpIFxcY2lyYyBoKSBcXGNpcmMgZykgXFxjaXJjIGYiXSxbMiwxLCJpIFxcY2lyYyAoaCBcXGNpcmMgKGcgXFxjaXJjIGYpKSJdLFsxLDAsIihpIFxcY2lyYyBoKSBcXGNpcmMgKGcgXFxjaXJjIGYpIl0sWzAsMSwiXFxhbHBoYV97aSxoIFxcY2lyYyBnLGZ9IiwwLHsibGV2ZWwiOjJ9XSxbMiwwLCJcXGFscGhhX3tpLGgsZ30gXFxjaXJjIGYiLDIseyJsZXZlbCI6Mn1dLFsxLDMsImkgXFxjaXJjIFxcYWxwaGFfe2gsZyxmfSIsMix7ImxldmVsIjoyfV0sWzQsMywiXFxhbHBoYV97aSAsaCxnIFxcY2lyYyBmfSIsMCx7ImxldmVsIjoyfV0sWzIsNCwiXFxhbHBoYV97aSBcXGNpcmMgaCxnLGZ9IiwwLHsibGV2ZWwiOjJ9XV0=]]
 
 for any $A \xrightarrow f B \xrightarrow g C \xrightarrow h D \xrightarrow i E$ in $\mathfrak{C}$.
 Together these diagrams ensure that the operation of $(\circ)$ is unital associative up to canonical natural isomorphism, by the [[Coherence theorem for bicategories]].
@@ -57,7 +57,7 @@ Together these diagrams ensure that the operation of $(\circ)$ is unital associa
 
 ## See also
 
-- We have two kinds of morphism between bicategories: the [[lax functor]] and the stronger [[pseudofunctor]].
+- [[Notions of 2-functor]]
 
 #
 ---

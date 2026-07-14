@@ -43,6 +43,10 @@ By analogy to a [[Fibre product and coproduct|pullback square]], we denote that 
 > proving [[#^P1]].
 > <span class="QED"/>
 
+## See also
+
+- [[Cartesian fibration]]
+
 #
 ---
 #state/tidy | #lang/en | #SemBr

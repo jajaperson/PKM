@@ -74,4 +74,4 @@ Deriving the coherence conditions is outright herculean.
 ---
 #state/tidy | #lang/en | #SemBr
 
-[^1]: Here we mean we have the actual exhibition of products, not the [[mere existence]]. We get this for free from the right [[Global Axiom of Choice]], or the [[Principle of Unique Choice]] in a [[univalent category]]; otherwise they need to be provided, lest we get an [[anafunctor]] from this construction.
+[^1]: Here we mean we have the actual exhibition of products, not the [[mere existence]]. We get this for free from the right [[Global Axiom of Choice]], or the [[Principle of Unique Choice]] in a [[Univalent category]]; otherwise they need to be provided, lest we get an [[anafunctor]] from this construction.

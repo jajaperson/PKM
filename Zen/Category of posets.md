@@ -13,7 +13,7 @@ tags:
 The **category of posets** $\cat{Pos}$ is a [[category]] where
 an object is a [[poset]]
 and a morphism is a [[monotone mapping]]. #m/def/order
-It may be regarded as a [[Subcategory|full subcategory]] of [[Category of small categories]], viewing [[Posets as categories]].
+It may be regarded as a [[Subcategory|full subcategory]] of [[Category of strict categories]], viewing [[Posets as categories]].
 
 #
 ---

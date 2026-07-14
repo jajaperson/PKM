@@ -14,7 +14,7 @@ The **empty category** is the category with no objects and hence no morphisms
 $$
 \Ob{(\underline 0)} = \emptyset
 $$
-An empty category is the [[Initial and terminal objects|initial object]] in [[Category of small categories]].
+An empty category is the [[Initial and terminal objects|initial object]] in [[Category of strict categories]].
 
 
 ---
