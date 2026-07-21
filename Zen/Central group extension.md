@@ -3,9 +3,6 @@ tags:
   - public
 aliases:
   - central extension of a group
-mathLink-blocks:
-  2-cocycle: 2-cocycle
-  2-coboundary: 2-coboundary
 ---
 [[Group extension]]
 # Central group extension
@@ -22,36 +19,7 @@ and write $\mathrm{e}^b = \mathrm{e}(b)$ for any $b \in B$,
 
 ## Second cohomology
 
-Identifying $B$ with the [[Abelian groups as Z-modules|corresponding $\mathbb Z$-module]] equipped with the trivial representation of $G$ (thus a $\mathbb{Z}[G]$-module) may consider the [[Group cohomology]], where the 2-cochains $C^2(G,B)$ are maps[^1988]
-$$
-\begin{align*}
-\varepsilon_{0} : A \times A \to B
-\end{align*}
-$$
-and the 2-cocycles $Z^2(G, B)$ are 2-cochains such that
-$$
-\begin{align*}
-\varepsilon_{0}(a,b) + \varepsilon_{0}(ab,c) &= \varepsilon_{0}(b,c) + \varepsilon_{0}(a,bc) & \forall a,b,c \in G
-\end{align*}
-$$
-^2-cocycle
-
-and the 2-coboundaries $B^2(G,B)$ are 2-cochains such that
-$$
-\begin{align*}
-\varepsilon_{0}(ab) &= \eta(ab) - \eta(a) - \eta(b) & \forall a,b \in G
-\end{align*}
-$$
-^2-coboundary
-
-for some 1-cochain $\eta : A \to B$.
-Thus, in particular, $\mathbb{Z}$-[[Multilinear map|bilinear]] maps $A \times A \to B$ are 2-cocycles.
-The **second cohomology group** is then
-$$
-\begin{align*}
-H^2(A,B) = Z^2(A,B) / B^2(A, B)
-\end{align*}
-$$
+Central extensions of $A$ by $B$ are classified by second [[Second cohomology of a group with coëfficients in an abelian group|group cohomology]] of $A$ with coëfficients in $B$.
 
 ### Correspondence between 2-cocycles and central extensions
 
@@ -147,7 +115,7 @@ Note $s_{1} = 1$ iff $\varepsilon_{0}(a,1)=\varepsilon_{0}(1,a)=0$ for all $a \i
 This correspondence has the property
 
 > Central extensions are equivalent iff their 2-cocycles for some sections are cohomologous.
-> Thus there is a bijection between $H^2(A,B)$ and equivalence classes of extensions.
+> Thus there is a bijection between $H^2(A,B)$ and equivalence classes of extensions.[^1988]
 
 > [!check]- Proof
 > Consider the central extension

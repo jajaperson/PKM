@@ -5,8 +5,8 @@ tags:
 [[Linear algebra MOC]]
 # Dimension of a vector space
 
-The **dimension**[^plural] of a [[vector space]] is the [[cardinality]] of any [[Vector basis|basis]] for that space. #m/def/linalg 
-Thus all possible bases for a vector space have the same cardinality.[^2008] 
+The **dimension**[^plural] of a ([[Free module|framable]]) [[vector space]] is the [[cardinality]] of any [[Vector basis|basis]] for that space. #m/def/linalg 
+This definition makes sense since all bases for a vector space have the same cardinality.[^2008] 
 
 > [!check]- Proof
 > Let $V$ be a vector space.
@@ -69,6 +69,10 @@ The vector spaces of a given dimension form an [[Isomorphism class]].[^2008a]
 > This is distinguished by a subscript, for example
 > $\dim_{\mathbb{C}} \mathbb{C} = 1$ but $\dim_{\mathbb{R}}\mathbb{C} = 2$.
 > If no ground field is specified, assume the topical field $\mathbb{K}$.
+
+## See also
+
+- [[Finite-dimensional vector space]]
 
 #
 ---

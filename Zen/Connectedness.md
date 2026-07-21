@@ -11,7 +11,7 @@ aliases:
 A topological space $(X, \mathcal{T})$ is called **connected**[^zusammenhängend] if the following equivalent[^pref] conditions hold: #m/def/topology 
 
 1. any continuous function $f : X \to \{ 0,1 \}$ with discrete codomain is constant.[^br]
-2. $X$ is not the union of two non-empty disjoint open sets.[^loose]
+2. $X$ is not the disjoint union of two inhabited open sets.[^loose]
 3. the only clopen sets are $\0$ and $X$.
 
 [^pref]: The footnotes indicate which is the primary definition for a given source.
@@ -31,7 +31,7 @@ A topological space $(X, \mathcal{T})$ is called **connected**[^zusammenhängend
 > <span class="QED"/>
 
 A stronger property is [[Path connectedness|path-connected]].
-When a subset is said to be connected it is meant under the [[Subspace topology]].
+When a subset is said to be connected it is meant under the [[subspace topology]].
 
 ## Connected components
 

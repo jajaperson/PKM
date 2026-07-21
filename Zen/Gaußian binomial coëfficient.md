@@ -5,7 +5,7 @@ tags:
 [[Binomial expansion]]
 # Gaußian binomial coëfficient
 
-The **Guaßian binomial coëfficient** is a [[q-analog]] of the [[Binomial expansion|binomial coëfficient]],
+The **Guaßian binomial coëfficient** is a [[q-analogue]] of the [[Binomial expansion|binomial coëfficient]],
 given by #m/def/num 
 $$
 \begin{align*}
@@ -15,7 +15,7 @@ $$
 
 
 > [!code] Mathematica
-> The Laguerre polynomial ${n \choose d}_{q}$ may be generated in [[Wolfram Mathematica]] with `QBinomial[n,d,q]`.
+> The Gaußian binomial coëfficient ${n \choose d}_{q}$ may be generated in [[Wolfram Mathematica]] with `QBinomial[n,d,q]`.
 
 
 #

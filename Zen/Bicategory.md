@@ -23,7 +23,8 @@ Thus, in terms of collections, a bicategory $\mathfrak{C}$ is a mathematical obj
 > $$
 > f : A \to B.
 > $$
-> For any $f,g \in \mathfrak{C}_{1}(A,B)$ we call the elements of the [[set]] $\mathfrak{C}_{2}(A,B)(f,g) := \mathfrak{C}(A,B)(f,g)$ <dfn>2-morphisms</dfn>, and notate $\beta \in \mathfrak{C}_{2}(A,B)(f,g)$ with $$
+> For any $f,g \in \mathfrak{C}_{1}(A,B)$ we call the elements of the [[set]] $\mathfrak{C}_{2}(A,B)(f,g) := \mathfrak{C}(A,B)(f,g)$ <dfn>2-morphisms</dfn>, and notate $\beta \in \mathfrak{C}_{2}(A,B)(f,g)$ with 
+> $$
 > \beta : f \Rightarrow g : A \to B.
 > $$
 

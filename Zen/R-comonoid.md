@@ -37,7 +37,7 @@ so we feel free to invoke such a decomposition without fixing it explicitly.
 
 ## Results
 
-- [[Dual R-monoid of a R-comonoid]]
+- [[Dual R-monoid of an R-comonoid]]
 
 ## Examples
 

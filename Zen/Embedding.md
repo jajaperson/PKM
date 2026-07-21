@@ -12,7 +12,8 @@ See [[Regular monomorphism]] for a categorical generalization.
 
 ## Topology
 An **embedding** is an injective continuous map $f : Y \hookrightarrow X$ such that it would be impossible for $Y$ to have a [[Coarseness and fineness of topologies|coarser]] topology,
-i.e. the topology of $Y$ is the same as the [[Subspace topology]] induced by $f$.[^br] #m/def/topology 
+i.e. the topology of $Y$ is the same as the [[subspace topology]] induced by $f$.[^br] #m/def/topology 
+Equivalenly, the open sets in $Y$ are precisely the preïmages of the open sets in $X$.
 
 [^br]: 2020, [[@bradleyTopologyCategoricalApproach2020|Topology: A categorical approach]], 26
 

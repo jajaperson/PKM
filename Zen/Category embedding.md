@@ -5,7 +5,7 @@ tags:
 [[Category theory MOC]]
 # Category embedding
 
-An **embedding** of a category $\cat C$ in $\cat D$ is a [[fully faithful functor]] $I : \cat C \hookrightarrow \cat D$ which is injective on objects. #m/def/cat 
+An **embedding** of a category $\cat C$ in $\cat D$ is a [[fully faithful functor]] $I : \cat C \hookrightarrow \cat D$. #m/def/cat 
 
 It follows that any [[natural transformation]] $\eta: IF \Rightarrow IG$ of embedded objects lifts to a natural transformation $I^{-1} : F \Rightarrow G$ of the objects themselves.
 

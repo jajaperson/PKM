@@ -17,6 +17,10 @@ tags:
 - [[Legendre polynomial]], [[Associated Legendre function]]
 - [[Hermite polynomial]]
 
+## $q$-theory
+
+- [[q-analogue]]
+
 ## See also
 
 - [[Special formal sums]]

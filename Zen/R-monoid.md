@@ -13,7 +13,7 @@ An **$\mathcal{K}$-monoid** $T$ is a [[Monoid object|monoid]] in the category [[
 More concretely, an **$\mathcal{K}$-monoid** $T$ can be viewed in two equivalent ways: #m/def/calg
 
 1. As an [[R-algebra]] $T$ which is unital and associative;
-2. As a [[ring]] $T$ equipped with a homomorphism $R \to \opn Z(T)$ into its [[Centre of a rng|centre]].
+2. As a [[ring]] $T$ equipped with a homomorphism $\mathcal{K} \to \opn Z(T)$ into its [[Centre of a rng|centre]].
 
 This is of course a strenthening of [[R-semigroup]].
 It follows every [[ring]] is a [[Integers]]-monoid in a unique way.

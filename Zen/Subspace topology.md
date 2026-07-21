@@ -5,8 +5,8 @@ tags:
 [[Topology MOC]]
 # Subspace topology
 
-The **subspace topology** is a natural way of reframing a subspace as a whole space.
-Let $(X, \mathcal{T}_{X})$ be a topological space, and $Y \sube X$ be any subset with the canonical inclusion $i : Y \rightarrowtail X$.
+The **subspace topology** is the natural way of reframing a subspace as a whole space.
+Let $(X, \mathcal{T}_{X})$ be a topological space, and $Y \sube X$ be any subset with the canonical inclusion $i : Y \hookrightarrow X$.
 The **subspace topology** on $Y$ is the [[Coarseness and fineness of topologies|coarsest topology]] for which the canonical inclusion is continuous.[^br] #m/def/topology 
 $$
 \begin{align*}

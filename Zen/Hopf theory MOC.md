@@ -19,6 +19,7 @@ both for giving proofs and building intuition.
 - [[R-bimonoid]]
 - [[Hopf algebra]]
 
+
 ## Morphisms
 
 - $\mathcal{K}$-[[comonoid morphism]]
@@ -30,6 +31,13 @@ both for giving proofs and building intuition.
 
 - [[Coïdeal]]
 - [[Biïdeal]]
+
+## Duality
+
+- [[Convolution R-monoid]]
+- [[Dual R-monoid of an R-comonoid]]
+- [[Restricted dual of an R-monoid]]
+- [[Restricted dual R-bimonoid]]
 
 #
 ---

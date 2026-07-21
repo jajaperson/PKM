@@ -24,17 +24,16 @@ and each of its morphisms is a [[Linear map]]
 — a mapping which preserves scalar multiplication and vector addition.
 It is identical to [[Category of left modules|$\lMod{\mathbb K}$]], the different name is just for emphasis.
 
-[[Matrix multiplication algebra as a category]].
-
 ## Universal constructions
 - The [[trivial vector space]] $0$ of dimension zero is both the initial and terminal object
   i.e. the [[Initial and terminal objects|zero object]].
   See [[Initial and terminal objects#In the Category of vector spaces]].
 
-## Skeleton
+## Related categories
 
-The canonical [[skeleton category]] $\opn{Sk}(\Vect_{\mathbb{K}})$ is the restriction to objects of the form $\mathbb{K}^{(\alpha)}$ for some [[Cardinal]] $\alpha$.
-This of course assumes [[Axiom of Choice|AC]].
+- The canonical [[skeleton category]] $\opn{Sk}(\Vect_{\mathbb{K}})$ is the restriction to objects of the form $\mathbb{K}^{(\alpha)}$ for some [[Cardinal]] $\alpha$.
+    This of course assumes [[Axiom of Choice|AC]].
+- A well-behaved subcategory is [[Category of finite-dimensional vector spaces]].
 
 #
 ---

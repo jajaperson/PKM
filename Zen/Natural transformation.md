@@ -19,15 +19,16 @@ i.e. $\eta_{Y}\,Ff = Gf \,\eta_{X}$ for every $X, Y \in \cat C$.[^br]
 [^br]: 2020, [[@bradleyTopologyCategoricalApproach2020|Topology: A categorical approach]], pp. 11–12 (Definition 0.9)
 
 
-
-A slight generalization is an [[(Extra)natural transformation]].
-
 ## Properties
 
 - The most fundamental result in category theory: the [[Yoneda lemma]]
 - [[Identity natural transformation]]
 - If $\eta_{X} : FX \to GX$ is an [[Morphism|isomorphism]] for every $X \in \cat C$,
     then it is called a [[Natural isomorphism]] and we say $F \cong G$.
+
+## See also
+
+- A slight generalization is an [[(Extra)natural transformation]].
 
 ---
 #state/tidy | #SemBr | #lang/en 
